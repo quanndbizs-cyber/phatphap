@@ -1,0 +1,388 @@
+/* MediaPlayer & Content Kit Styles for Typemill */
+.tm-embed-container {
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    background: #121212;
+}
+
+.tm-audio-box {
+    margin: 1.25rem 0;
+    padding: 1rem 1.25rem;
+    background: #f8fafc;
+    border-left: 4px solid #0d9488;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.tm-audio-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1e293b;
+}
+
+.tm-media-alert {
+    padding: 1rem;
+    background: #fffbeb;
+    border-left: 4px solid #f59e0b;
+    color: #92400e;
+    border-radius: 6px;
+    margin: 1rem 0;
+}
+
+/* Dual-Pane Media Hub (Audiobookshelf + Audio.com + MP3) */
+.tm-mediahub {
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #2d2d2d;
+    background: #121212;
+    color: #e5e7eb;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.25);
+}
+
+.tm-hub-mobilebar {
+    display: none;
+    background: #1c1c1c;
+    padding: 10px 14px;
+    border-bottom: 1px solid #2d2d2d;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tm-hub-mobiletitle {
+    font-weight: 600;
+    color: #ff9800;
+    font-size: 0.95rem;
+}
+
+.tm-hub-mobilebtn {
+    background: #ff9800;
+    color: #121212;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.tm-hub-body {
+    display: flex;
+    height: var(--tm-hub-height, 680px);
+    position: relative;
+}
+
+.tm-hub-sidebar {
+    width: 310px;
+    background: #1c1c1c;
+    border-right: 1px solid #2d2d2d;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.tm-hub-header {
+    padding: 14px 16px;
+    background: #161616;
+    border-bottom: 1px solid #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tm-hub-h-title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.tm-hub-h-sub {
+    font-size: 0.78rem;
+    color: #9ca3af;
+    margin-top: 2px;
+}
+
+.tm-hub-badge {
+    background: #374151;
+    color: #e5e7eb;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 999px;
+}
+
+.tm-hub-list {
+    flex: 1;
+    overflow-y: auto;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 6px 0 !important;
+}
+
+.tm-hub-section {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #9ca3af;
+    padding: 10px 16px 4px !important;
+    font-weight: 700;
+    margin: 0 !important;
+}
+
+.tm-hub-item {
+    padding: 11px 16px !important;
+    margin: 0 !important;
+    cursor: pointer;
+    border-bottom: 1px solid #262626;
+    border-left: 4px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.15s ease;
+}
+
+.tm-hub-item:hover {
+    background: #262626;
+}
+
+.tm-hub-item.active {
+    background: #2b261d;
+    border-left-color: #ff9800;
+}
+
+.tm-hub-item-main {
+    flex: 1;
+    min-width: 0;
+    padding-right: 8px;
+}
+
+.tm-hub-item-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #f3f4f6;
+    line-height: 1.35;
+}
+
+.tm-hub-item.active .tm-hub-item-title {
+    color: #ff9800;
+    font-weight: 600;
+}
+
+.tm-hub-item-sub {
+    font-size: 0.76rem;
+    color: #9ca3af;
+    margin-top: 3px;
+}
+
+.tm-hub-item-badge {
+    font-size: 0.72rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: #2e2e2e;
+    color: #d1d5db;
+    white-space: nowrap;
+}
+
+.tm-hub-stage {
+    flex: 1;
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.tm-hub-iframe-wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.tm-hub-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.tm-hub-card-wrap {
+    padding: 28px 24px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.tm-hub-ext-box {
+    max-width: 640px;
+    background: #1c1c1c;
+    border: 1px solid #ff9800;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.tm-hub-ext-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.tm-hub-ext-desc {
+    font-size: 0.92rem;
+    color: #9ca3af;
+    margin-bottom: 20px;
+}
+
+.tm-hub-ext-btn {
+    display: inline-block;
+    background: #ff9800;
+    color: #121212 !important;
+    font-weight: 700;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none !important;
+}
+
+@media (max-width: 768px) {
+    .tm-hub-mobilebar {
+        display: flex;
+    }
+    .tm-hub-sidebar {
+        position: absolute;
+        left: -100%;
+        top: 0;
+        bottom: 0;
+        width: 85%;
+        max-width: 300px;
+        z-index: 20;
+        transition: left 0.25s ease;
+        box-shadow: 4px 0 16px rgba(0, 0, 0, 0.5);
+    }
+    .tm-mediahub.menu-open .tm-hub-sidebar {
+        left: 0;
+    }
+}
+
+/* Tracklist Searchable Component */
+.tm-tracklist-box {
+    margin: 1.5rem 0;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.tm-tracklist-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.tm-tracklist-search {
+    flex: 1;
+    min-width: 220px;
+    padding: 9px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+.tm-tracklist-count {
+    font-size: 0.88rem;
+    color: #475569;
+}
+
+.tm-tracklist-items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tm-track-row {
+    display: flex;
+    align-items: center;
+    padding: 11px 14px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    text-decoration: none !important;
+    color: #1e293b !important;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.tm-track-row:hover {
+    transform: translateY(-1px);
+    border-color: #0d9488;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.tm-track-idx {
+    width: 36px;
+    font-weight: 700;
+    color: #64748b;
+}
+
+.tm-track-name {
+    flex: 1;
+    font-weight: 500;
+    color: #0f172a;
+}
+
+.tm-track-action {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #0d9488;
+    background: #f0fdfa;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+/* Accordion Component */
+.tm-accordion-item {
+    margin: 1rem 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.tm-accordion-header {
+    width: 100%;
+    text-align: left;
+    padding: 14px 18px;
+    background: #0f766e;
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tm-accordion-header:hover {
+    background: #115e59;
+}
+
+.tm-accordion-icon {
+    transition: transform 0.25s ease;
+    font-size: 0.85rem;
+}
+
+.tm-accordion-icon.tm-acc-rot {
+    transform: rotate(180deg);
+}
+
+.tm-accordion-body {
+    display: none;
+    padding: 16px 20px;
+    background: #ffffff;
+}
+
+.tm-accordion-item.tm-acc-open .tm-accordion-body {
+    display: block;
+}

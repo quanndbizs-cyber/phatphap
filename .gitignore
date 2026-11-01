@@ -7,6 +7,7 @@ node_modules
 ai/tasks
 cache/timer.yaml
 cache/sitemap.xml
+cache/*.css
 data/navigation
 data/kixote
 data/multilang
@@ -21,3 +22,6 @@ settings/secrets.yaml
 settings/license.yaml
 settings/users
 system/vendor
+TypeMills/
+log/
+content/
