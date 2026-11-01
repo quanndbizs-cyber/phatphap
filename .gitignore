@@ -1,0 +1,2 @@
+# Ignore sensitive settings in middle_sync
+middle_sync/settings/

@@ -1,0 +1,23 @@
+name: MediaPlayer & Content Kit
+version: 1.0.0
+description: 'Multi-source Media Hub (Audiobookshelf, Audio.com, YouTube, Local MP3), Searchable Tracklist, and Accordion Shortcodes for Typemill.'
+author: quannd
+homepage: https://github.com/quanndbizs-cyber/phatphap
+license: MIT
+
+settings:
+  defaultHeight: '680px'
+  themeMode: 'dark'
+
+forms:
+  fields:
+    defaultHeight:
+      type: text
+      label: 'Default Player Height'
+      placeholder: '680px'
+    themeMode:
+      type: select
+      label: 'Media Hub Color Theme'
+      options:
+        dark: 'Dark Studio (Recommended for Audio/Video)'
+        light: 'Light Clean'
