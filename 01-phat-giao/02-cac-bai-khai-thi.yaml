@@ -1,0 +1,60 @@
+meta:
+    title: 'Các Bài Khai Thị Mẫu & Nghi Thức Hành Trì (Audiobookshelf)'
+    description: 'Danh sách 9 tuyển tập phát âm thanh Audiobookshelf: Nghi thức hành trì, niệm Phật và các bài khai thị hộ niệm mẫu.'
+    owner: quannd
+    author: 'Ban Hộ Niệm'
+    created: '2026-10-04'
+    modified: '2026-11-01'
+    time: 21-00-00
+    navtitle: 'Các Bài Khai Thị (Audio)'
+    pageid: 3a90ff63239953f4
+mediaplayer:
+    khaithi:
+        title: 'Các Mục Danh Sách Phát'
+        subtitle: 'Audiobookshelf • Thẻ nhận ca'
+        items:
+            -
+                title: 'Thẻ nhận ca - NGHI THUC HANH TRI VA NIEM PHAT'
+                subtitle: 'The nhan ca • 15 hr 36 min'
+                badge: ABS
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/oqg9fYzPEd'
+            -
+                title: '20 các bài khai thị mẫu (6 bai)'
+                subtitle: 'The nhan ca • 3 hr 12 min'
+                badge: ABS
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/oIcHXafnfh'
+            -
+                title: '21 Vu Thi Thanh (54 bai)'
+                subtitle: 'The nhan ca • 38 hr 11 min'
+                badge: ABS
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/Kqn5_XSXcn'
+            -
+                title: '22 Hoang Ngoc Khac (26 bai)'
+                subtitle: 'The nhan ca • 17 hr 24 min'
+                badge: ABS
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/1UybdTQ9Rw'
+            -
+                title: '23 Tran Thi Nguyet (26 bai)'
+                subtitle: 'The nhan ca • 16 hr 58 min'
+                badge: ABS
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/FutMZ_tVlQ'
+            -
+                title: '24 Tran Minh Quang (32 bai)'
+                subtitle: 'The nhan ca • 25 hr 54 min'
+                badge: ABS
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/RPaSo20NhW'
+            -
+                title: '25 HN PT Nguyen Thi Hoi PD Dieu Han (46 bai)'
+                subtitle: 'The nhan ca • 27 hr 42 min'
+                badge: ABS
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/JOF9aBUxEh'
+            -
+                title: '26 cac ca Tuy Duyen Nam Dinh (34 bai)'
+                subtitle: 'The nhan ca • 35 hr 30 min'
+                badge: ABS
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/b3ktD4wW9F'
+            -
+                title: '27 CAC CA HN CUA PHUC TRI DE HOC'
+                subtitle: 'The nhan ca • 80 hr 19 min'
+                badge: ABS
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/Kg0uYNyvg4'

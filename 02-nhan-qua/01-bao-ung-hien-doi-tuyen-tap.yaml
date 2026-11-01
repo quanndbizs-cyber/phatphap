@@ -1,0 +1,62 @@
+meta:
+    title: 'Báo Ứng Hiện Đời — Tuyển Tập Audio (7 Tập)'
+    description: 'Tuyển tập Audio Báo Ứng Hiện Đời (SC. Hạnh Đoan biên dịch) trọn bộ 7 tập trên Audiobookshelf và Audio.com.'
+    owner: quannd
+    author: 'SC. Hạnh Đoan (Biên dịch)'
+    created: '2026-10-04'
+    modified: '2026-11-01'
+    time: 21-00-00
+    navtitle: 'Báo Ứng Hiện Đời (7 Tập)'
+    pageid: 4eb146895edaf0b4
+mediaplayer:
+    buhd:
+        title: 'Báo Ứng Hiện Đời'
+        subtitle: 'SC. Hạnh Đoan biên dịch • 7 Tập'
+        items:
+            -
+                section: Audiobookshelf
+                title: 'Báo ứng hiện đời - Tập 1'
+                badge: Player
+                type: abs
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/A3E3w3dOtH'
+            -
+                section: Audiobookshelf
+                title: 'Báo ứng hiện đời - Tập 2'
+                badge: Player
+                type: abs
+                url: 'https://qts-home.duckdns.org/audiobookshelf/share/8CCEm8aEHY'
+            -
+                section: 'Audio.com Collections'
+                title: 'Báo ứng hiện đời - Tập 3'
+                badge: 'Danh sách'
+                type: audiocom_collection
+                slug: bao-ung-hien-djoi-tap-3
+                url: 'https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-3'
+            -
+                section: 'Audio.com Collections'
+                title: 'Báo ứng hiện đời - Tập 4'
+                badge: 'Danh sách'
+                type: audiocom_collection
+                slug: bao-ung-hien-djoi-tap-4
+                url: 'https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-4'
+            -
+                section: 'Audio.com Collections'
+                title: 'Báo ứng hiện đời - Tập 5'
+                badge: 'Danh sách'
+                type: audiocom_collection
+                slug: bao-ung-hien-djoi-tap-5
+                url: 'https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-5'
+            -
+                section: 'Audio.com Collections'
+                title: 'Báo ứng hiện đời - Tập 6'
+                badge: 'Danh sách'
+                type: audiocom_collection
+                slug: bao-ung-hien-djoi-tap-6
+                url: 'https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-6'
+            -
+                section: 'Audio.com Collections'
+                title: 'Báo ứng hiện đời - Tập 7'
+                badge: 'Danh sách'
+                type: audiocom_collection
+                slug: bao-ung-hien-djoi-tap-7-hanh-djoan-pd
+                url: 'https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-7-hanh-djoan-pd'
