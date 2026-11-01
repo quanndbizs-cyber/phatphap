@@ -1,0 +1,144 @@
+# Hướng Dẫn Cài Đặt Typemill trên WSL (Ubuntu) & Nginx + PHP 8.4
+
+Tài liệu này tổng hợp toàn bộ quy trình cài đặt, cấu hình tối ưu và các kinh nghiệm thực tế (troubleshooting) khi triển khai Typemill trên môi trường WSL (Ubuntu), Nginx, PHP 8.4 và chạy dưới dạng subfolder (thư mục con, ví dụ: `/phatphap`).
+
+---
+
+## 1. Yêu cầu hệ thống & Cài đặt PHP Extension
+
+Typemill là một Flat-file CMS xây dựng trên nền **Slim Framework**, sử dụng các thư viện Symfony, Twig và Parsedown. Để hoạt động trơn tru trên **PHP 8.4**, hệ thống bắt buộc phải có đầy đủ các extension sau:
+
+```bash
+sudo apt update
+sudo apt install -y php8.4-cli php8.4-fpm php8.4-intl php8.4-mbstring \
+                    php8.4-xml php8.4-curl php8.4-gd php8.4-zip php8.4-sqlite3
+```
+
+> [!IMPORTANT]
+> **Lưu ý quan trọng về `php8.4-intl`:**
+> Extension **`intl`** là bắt buộc. Nếu thiếu, khi Composer hoặc Symfony Console xử lý định dạng chuỗi Unicode sẽ gặp lỗi nghiêm trọng:
+> `PHP Fatal error: Uncaught Error: Class "Normalizer" not found`
+
+---
+
+## 2. Cài đặt và Cấu hình Composer chuẩn cho PHP 8.4
+
+Bản Composer 2.7.x mặc định trong kho `apt` của Ubuntu cũ hơn PHP 8.4, dễ phát sinh hàng loạt cảnh báo Deprecation Notice (`E_STRICT`, `implicitly marking parameter as nullable`).
+
+### Các bước nâng cấp Composer lên bản mới nhất (2.8+ / 2.11+):
+```bash
+# 1. Gỡ bỏ bản Composer cũ từ apt (nếu có)
+sudo apt remove -y composer
+
+# 2. Xóa cache lệnh của bash
+hash -r
+
+# 3. Tải và cài đặt bản Composer mới nhất vào /usr/local/bin
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
+# 4. Kiểm tra lại phiên bản
+composer -V
+```
+
+---
+
+## 3. Cài đặt Dependencies cho Typemill
+
+Di chuyển vào thư mục dự án và chạy `composer update` (hoặc `composer install`):
+
+```bash
+cd /var/www/html/phatphap
+composer update
+```
+
+Sau khi hoàn tất, thư mục `system/vendor/autoload.php` sẽ được tạo ra.
+*(Nếu thiếu bước này, web sẽ báo lỗi Fatal Error: `Failed opening required '.../system/vendor/autoload.php'`)*.
+
+---
+
+## 4. Phân quyền thư mục (Permissions)
+
+Typemill lưu trữ dữ liệu dạng flat-file, cần quyền ghi (write permission) vào các thư mục sau:
+* `cache/`
+* `content/`
+* `data/`
+* `media/`
+* `settings/`
+
+### Cấp quyền cho user web server (thường là `www-data`):
+```bash
+sudo chown -R www-data:www-data cache content data media settings
+sudo chmod -R 775 cache content data media settings
+```
+
+*(Lưu ý: Nếu code nằm trên phân vùng Windows mount qua `/mnt/d/...`, đảm bảo quyền mount drvfs cho phép user `www-data` đọc/ghi bình thường).*
+
+---
+
+## 5. Cấu hình Nginx (Đặc biệt khi chạy Subfolder `/phatphap/`)
+
+Mở file cấu hình Nginx (ví dụ `/etc/nginx/sites-available/default`):
+
+```bash
+sudo nano /etc/nginx/sites-available/default
+```
+
+### 5.1. Cấu hình URL Rewrite (Bắt buộc)
+Khi chạy trong thư mục con `/phatphap/`, mọi request ảo (`/phatphap/tm/setup`, `/phatphap/tm/login`, các trang bài viết) phải được định tuyến về file `index.php` của chính thư mục đó:
+
+```nginx
+server {
+    listen 80 default_server;
+    root /var/www/html;
+    index index.php index.html index.htm;
+
+    # Cấu hình định tuyến cho Typemill subfolder
+    location /phatphap/ {
+        try_files $uri $uri/ /phatphap/index.php?$query_string;
+    }
+
+    # Bảo vệ dữ liệu nhạy cảm của Typemill, chặn truy cập trực tiếp qua URL
+    location ~* ^/phatphap/(content|data|settings|cache)/.*$ {
+        deny all;
+        return 404;
+    }
+
+    # Xử lý PHP-FPM 8.4
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php8.4-fpm.sock;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+
+    # Chặn file database sqlite (nếu có)
+    location ~ \.(db|sqlite|sqlite3|sql)$ {
+        deny all;
+        return 404;
+    }
+}
+```
+
+> [!WARNING]
+> **Lỗi Nginx thường gặp:** Nếu đặt dòng `try_files` là `/index.php?$query_string` thay vì `/phatphap/index.php?$query_string`, Nginx sẽ tìm file `index.php` ở thư mục gốc `/var/www/html/` dẫn đến lỗi `404 Not Found`.
+
+### 5.2. Kiểm tra và Khởi động lại Nginx
+```bash
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+---
+
+## 6. Khởi động Quá trình Cài đặt Web (Setup Wizard)
+
+Sau khi hoàn thành các bước trên, mở trình duyệt và truy cập:
+
+```text
+http://<IP-HOAC-DOMAIN>/phatphap/tm/setup
+```
+
+Tại đây bạn sẽ:
+1. Tạo tài khoản quản trị (Admin username, password, email).
+2. Lưu cấu hình và đăng nhập vào bảng điều khiển Typemill.
+3. Bắt đầu tạo nội dung và xuất bản sách/tài liệu.
