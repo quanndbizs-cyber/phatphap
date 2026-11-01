@@ -157,16 +157,25 @@ content/middle_sync/
 └── plugins/            # mediaplayer/
 ```
 
-### 7.1. Cách Deploy 1-Click từ máy Local (WSL / Windows)
-Chạy script tự động đóng gói dữ liệu và đẩy lên Git:
+### 7.1. Phía Dev Localhost: 1-Click Đồng Bộ Vào `middle_sync` & Push Lên Git
+Mỗi khi dev xong trên localhost (sửa bài viết, upload ảnh, đổi settings, update plugin...), chỉ cần chạy **1 lệnh duy nhất**:
+
 ```bash
-# Đóng gói dữ liệu và commit push nhánh content lên GitHub
-./scripts/one_click_deploy.sh
+# Tự động đóng gói vào middle_sync, commit và push lên GitHub nhánh 'content'
+./scripts/sync_to_middle.sh
 
 # Hoặc nếu muốn dùng cấu hình settings.yaml.production cho Production:
-./scripts/one_click_deploy.sh --prod
+./scripts/sync_to_middle.sh --prod
+
+# Hoặc ghi commit message tùy chọn:
+./scripts/sync_to_middle.sh -m "Cập nhật các bài viết mới và cấu hình"
 ```
-*(Trên Windows PowerShell, bạn có thể chạy: `.\scripts\one_click_deploy.ps1 -Prod`)*
+*(Trên Windows PowerShell, bạn có thể click/chạy: `.\scripts\sync_to_middle.ps1 -Prod`)*
+
+Script sẽ tự động:
+1. Đóng gói dữ liệu local (`settings`, `media`, `plugins`) vào `content/middle_sync/`.
+2. Kiểm tra thay đổi trong `content/` (bài viết `.md`, `.yaml`, ảnh, settings...).
+3. Tự động `git add`, `git commit` và `git push origin content` lên GitHub!
 
 ### 7.2. Cách Deploy trên Máy chủ (Deploy Server)
 Trên máy chủ, chỉ cần chạy một lệnh duy nhất:
