@@ -23,7 +23,7 @@ class Folder
 
 		foreach ($folderItems as $key => $item)
 		{
-			if (!in_array($item, array(".","..")) && substr($item, 0, 1) != '.' && substr($item, 0, 1) != '_')
+			if (!in_array($item, array(".","..")) && substr($item, 0, 1) != '.' && substr($item, 0, 1) != '_' && $item != 'middle_sync')
 			{
 				if (is_dir($folderPath . DIRECTORY_SEPARATOR . $item))
 				{

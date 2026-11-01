@@ -17,7 +17,7 @@
 				</figure>
 				<div class="pa2 ph4-ns pb4-ns">
 					<header>
-						<a class="link f-link underline-hover" href="{{ element.urlAbs }}"><h2 class="mt4 mb2">{{ post.meta.title|e }}</h2></a>
+						<a class="link f-link underline-hover" href="{{ element.urlRel }}"><h2 class="mt4 mb2">{{ post.meta.title|e }}</h2></a>
 						<div class="mt3"><small><time datetime="{{date}}">{{ date | date("d.m.Y") }}</time> | {{ post.meta.author|default(post.meta.owner)|e }}</small></div>
 					</header>
 					<p>{{ post.meta.description|e }}</p>
@@ -26,7 +26,7 @@
 		{% else %}
 			<li class="post-entry">
 				<header>
-					<a class="link f-link underline-hover" href="{{ element.urlAbs }}"><h2 class="mt4 mb2">{{ post.meta.title|e }}</h2></a>
+					<a class="link f-link underline-hover" href="{{ element.urlRel }}"><h2 class="mt4 mb2">{{ post.meta.title|e }}</h2></a>
 					<div class="mt3"><small><time datetime="{{date}}">{{ date | date("d.m.Y") }}</time> | {{ post.meta.author|default(post.meta.owner)|e }}</small></div>
 				</header>
 				<p>{{ post.meta.description|e }}</p>
@@ -42,7 +42,7 @@
 				{% if i == currentpage %}
 					{{i}}
 				{% else %}
-					<a class="page" href="{{ item.urlAbs }}/p/{{i}}">{{i}}</a>
+					<a class="page" href="{{ item.urlRel }}/p/{{i}}">{{i}}</a>
 				{% endif %}
 			{% endfor %}
 		</p>

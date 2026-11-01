@@ -142,3 +142,61 @@ Tại đây bạn sẽ:
 1. Tạo tài khoản quản trị (Admin username, password, email).
 2. Lưu cấu hình và đăng nhập vào bảng điều khiển Typemill.
 3. Bắt đầu tạo nội dung và xuất bản sách/tài liệu.
+
+
+---
+
+## 7. Quy trình Deploy 1-Click & Thư mục Trung Gian `content/middle_sync`
+
+Để việc deploy dữ liệu đặc thù của web (bao gồm cấu hình `settings/`, thư viện upload `media/`, plugin riêng `plugins/`) được trọn gói thông qua Git branch `content`, hệ thống sử dụng thư mục trung gian:
+
+```text
+content/middle_sync/
+├── settings/           # settings.yaml, secrets.yaml, public_key.pem, users/
+├── media/              # files/, live/, original/, thumbs/
+└── plugins/            # mediaplayer/
+```
+
+### 7.1. Cách Deploy 1-Click từ máy Local (WSL / Windows)
+Chạy script tự động đóng gói dữ liệu và đẩy lên Git:
+```bash
+# Đóng gói dữ liệu và commit push nhánh content lên GitHub
+./scripts/one_click_deploy.sh
+
+# Hoặc nếu muốn dùng cấu hình settings.yaml.production cho Production:
+./scripts/one_click_deploy.sh --prod
+```
+*(Trên Windows PowerShell, bạn có thể chạy: `.\scripts\one_click_deploy.ps1 -Prod`)*
+
+### 7.2. Cách Deploy trên Máy chủ (Deploy Server)
+Trên máy chủ, chỉ cần chạy một lệnh duy nhất:
+```bash
+cd /var/www/html/phatphap && ./scripts/deploy_server.sh
+```
+Script sẽ tự động:
+1. `git pull origin content` để nhận bài viết và thư mục trung gian `middle_sync/`.
+2. Đồng bộ các file từ `content/middle_sync/` sang thư mục hệ thống tương ứng.
+3. Tự động xóa sạch cache navigation cũ (`data/navigation/*`) để tránh lỗi dính link localhost.
+4. Cấp quyền `www-data` cho các thư mục dữ liệu.
+5. Reload Nginx & PHP-FPM.
+6. Kích hoạt bộ Test Kit để xác thực hệ thống.
+
+---
+
+## 8. Bộ Test Kit Kiểm Tra Môi Trường Stage / Production
+
+Chạy script test kit bất kỳ lúc nào để đánh giá tình trạng website:
+```bash
+# Kiểm tra tự động theo domain trong settings:
+./scripts/test_stage.sh
+
+# Hoặc chỉ định rõ URL cần test:
+./scripts/test_stage.sh https://qts-home.duckdns.org/phatphap
+./scripts/test_stage.sh http://172.23.75.180/phatphap
+```
+
+Bộ Test Kit sẽ tự động xác minh:
+* ✅ **Mã phản hồi HTTP (200 OK)** cho tất cả các trang chính: trang chủ, Phật Giáo, Nhân Quả, Giáo Dục, Thông Báo, Trang Login.
+* ✅ **Quét mã HTML**: Đảm bảo **100% không còn dính link `wsl_localhost`** hay IP máy local, các link navigation đã chuyển sang Relative URL (`/phatphap/...`).
+* ✅ **Bảo mật**: Đảm bảo các thư mục nhạy cảm (`settings/`, `data/`, `content/`, `cache/`) bị Nginx chặn (403/404).
+* ✅ **Quyền ghi (Filesystem)**: Đảm bảo các thư mục `cache/`, `content/`, `data/`, `media/`, `settings/` có quyền ghi.

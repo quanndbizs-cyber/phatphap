@@ -7,14 +7,14 @@
     {% for element in navigation %}
 		<li class="{% if level == 1 %}w-100 w-50-l ba bb pa3 pa4-l{% endif %} {{ element.elementType }}">
         {% if element.elementType == 'folder' and level < maxdepth %}
-			<a class="link relative dib bb bt-0 br-0 bl-0 b--dashed b--solid-hover w-100 ma2 arrow-after-transition" href="{{ element.urlAbs }}">{% if chapnum %}{{ element.chapter }}. {% endif %}{{ element.name }}</a>		
+			<a class="link relative dib bb bt-0 br-0 bl-0 b--dashed b--solid-hover w-100 ma2 arrow-after-transition" href="{{ element.urlRel }}">{% if chapnum %}{{ element.chapter }}. {% endif %}{{ element.name }}</a>		
             {% if element.contains == 'pages'  %}
                 <ul class="list">
                     {{ macros.loop_over(element.folderContent,level+1, maxdepth, chapnum) }}
                 </ul>
             {% endif %}
         {% else %}
-			<a class="link relative dib bb bt-0 br-0 bl-0 b--dashed b--solid-hover w-100 ma2 arrow-after-transition" href="{{ element.urlAbs }}">{% if chapnum %}{{ element.chapter }} {% endif %}{{ element.name }}</a>
+			<a class="link relative dib bb bt-0 br-0 bl-0 b--dashed b--solid-hover w-100 ma2 arrow-after-transition" href="{{ element.urlRel }}">{% if chapnum %}{{ element.chapter }} {% endif %}{{ element.name }}</a>
         {% endif %}
         </li>
     {% endfor %}
