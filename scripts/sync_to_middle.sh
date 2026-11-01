@@ -2,16 +2,14 @@
 # ==============================================================================
 # Script: sync_to_middle.sh
 # Mục đích: [Dành cho Dev Localhost] 1-Click duy nhất để:
-#           1. Tự động đồng bộ các thay đổi từ local (settings, media, plugins)
-#              vào thư mục trung gian content/middle_sync/
-#           2. Tự động kiểm tra thay đổi trong thư mục content (bài viết, media, settings...)
+#           1. Tự động đồng bộ các tài nguyên chung (media, plugins)
+#              vào thư mục trung gian content/middle_sync/ (KHÔNG gồm settings)
+#           2. Tự động kiểm tra thay đổi trong thư mục content (bài viết, media, plugins...)
 #           3. Tự động git add, git commit và git push lên GitHub nhánh 'content'
 #
 # Cách sử dụng:
 #   ./scripts/sync_to_middle.sh
-#   ./scripts/sync_to_middle.sh --prod                (dùng file settings.yaml.production)
-#   ./scripts/sync_to_middle.sh -m "Cập nhật bài viết mới và cấu hình"
-#   ./scripts/sync_to_middle.sh --prod -m "Release bài viết mới lên production"
+#   ./scripts/sync_to_middle.sh -m "Cập nhật bài viết mới và audio"
 # ==============================================================================
 
 set -e

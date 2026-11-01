@@ -148,33 +148,32 @@ Tại đây bạn sẽ:
 
 ## 7. Quy trình Deploy 1-Click & Thư mục Trung Gian `content/middle_sync`
 
-Để việc deploy dữ liệu đặc thù của web (bao gồm cấu hình `settings/`, thư viện upload `media/`, plugin riêng `plugins/`) được trọn gói thông qua Git branch `content`, hệ thống sử dụng thư mục trung gian:
+Để việc deploy các tài nguyên dùng chung (`media/`, plugin riêng `plugins/`) được trọn gói thông qua Git branch `content`, hệ thống sử dụng thư mục trung gian:
 
 ```text
 content/middle_sync/
-├── settings/           # settings.yaml, secrets.yaml, public_key.pem, users/
 ├── media/              # files/, live/, original/, thumbs/
 └── plugins/            # mediaplayer/
 ```
 
+> [!CAUTION]
+> **Thư mục `settings/`:** Chứa thông tin nhạy cảm (mật khẩu SMTP, email cá nhân, khóa bảo mật `secrets.yaml`, `public_key.pem`, file user hash). Thư mục này **KHÔNG được đưa vào Git/middle_sync**, mà được quản lý và đồng bộ thủ công giữa local và server (qua SCP/SFTP) một lần duy nhất khi cài đặt hoặc khi đổi cấu hình quan trọng.
+
 ### 7.1. Phía Dev Localhost: 1-Click Đồng Bộ Vào `middle_sync` & Push Lên Git
-Mỗi khi dev xong trên localhost (sửa bài viết, upload ảnh, đổi settings, update plugin...), chỉ cần chạy **1 lệnh duy nhất**:
+Mỗi khi dev xong trên localhost (sửa bài viết, upload ảnh/audio, update plugin...), chỉ cần chạy **1 lệnh duy nhất**:
 
 ```bash
-# Tự động đóng gói vào middle_sync, commit và push lên GitHub nhánh 'content'
+# Tự động đóng gói media & plugins vào middle_sync, commit và push lên GitHub nhánh 'content'
 ./scripts/sync_to_middle.sh
 
-# Hoặc nếu muốn dùng cấu hình settings.yaml.production cho Production:
-./scripts/sync_to_middle.sh --prod
-
 # Hoặc ghi commit message tùy chọn:
-./scripts/sync_to_middle.sh -m "Cập nhật các bài viết mới và cấu hình"
+./scripts/sync_to_middle.sh -m "Cập nhật các bài viết mới và audio"
 ```
-*(Trên Windows PowerShell, bạn có thể click/chạy: `.\scripts\sync_to_middle.ps1 -Prod`)*
+*(Trên Windows PowerShell, bạn có thể click/chạy: `.\scripts\sync_to_middle.ps1`)*
 
 Script sẽ tự động:
-1. Đóng gói dữ liệu local (`settings`, `media`, `plugins`) vào `content/middle_sync/`.
-2. Kiểm tra thay đổi trong `content/` (bài viết `.md`, `.yaml`, ảnh, settings...).
+1. Đóng gói tài nguyên (`media`, `plugins`) vào `content/middle_sync/`.
+2. Kiểm tra thay đổi trong `content/` (bài viết `.md`, `.yaml`, ảnh, plugins...).
 3. Tự động `git add`, `git commit` và `git push origin content` lên GitHub!
 
 ### 7.2. Cách Deploy trên Máy chủ (Deploy Server)

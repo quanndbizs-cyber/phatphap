@@ -34,8 +34,8 @@ echo "🚀 [1-CLICK DEPLOY] BẮT ĐẦU QUY TRÌNH DEPLOY..."
 echo "=================================================================="
 
 # BƯỚC 1: ĐÓNG GÓI VÀO CONTENT/MIDDLE_SYNC
-echo "-> BƯỚC 1: Đóng gói settings, media, plugins vào content/middle_sync/..."
-"$BASE_DIR/scripts/pack_middle_sync.sh" $PROD_FLAG
+echo "-> BƯỚC 1: Đóng gói media, plugins vào content/middle_sync/ (Settings đồng bộ thủ công)..."
+"$BASE_DIR/scripts/pack_middle_sync.sh"
 
 # BƯỚC 2: COMMIT VÀ PUSH NHÁNH CONTENT
 echo -e "\n-> BƯỚC 2: Tự động commit & push nhánh content lên Git..."

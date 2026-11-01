@@ -34,26 +34,20 @@ MIDDLE_SYNC_DIR="$BASE_DIR/content/middle_sync"
 if [ -d "$MIDDLE_SYNC_DIR" ]; then
     echo "-> 2. Đồng bộ dữ liệu từ $MIDDLE_SYNC_DIR sang các thư mục hệ thống..."
     
-    # 2.1 Settings
-    if [ -d "$MIDDLE_SYNC_DIR/settings" ]; then
-        echo "   + Đồng bộ settings/..."
-        mkdir -p "$BASE_DIR/settings"
-        rsync -av "$MIDDLE_SYNC_DIR/settings/" "$BASE_DIR/settings/"
-    fi
-
-    # 2.2 Media
+    # 2.1 Media (Đồng bộ thư viện ảnh/audio)
     if [ -d "$MIDDLE_SYNC_DIR/media" ]; then
         echo "   + Đồng bộ media/..."
         mkdir -p "$BASE_DIR/media"
-        rsync -av "$MIDDLE_SYNC_DIR/media/" "$BASE_DIR/media/"
+        rsync -rlv --no-perms --no-owner --no-group --no-times "$MIDDLE_SYNC_DIR/media/" "$BASE_DIR/media/"
     fi
 
-    # 2.3 Plugins
+    # 2.2 Plugins (Đồng bộ plugin đặc thù như mediaplayer)
     if [ -d "$MIDDLE_SYNC_DIR/plugins" ]; then
         echo "   + Đồng bộ plugins/..."
         mkdir -p "$BASE_DIR/plugins"
-        rsync -av "$MIDDLE_SYNC_DIR/plugins/" "$BASE_DIR/plugins/"
+        rsync -rlv --no-perms --no-owner --no-group --no-times "$MIDDLE_SYNC_DIR/plugins/" "$BASE_DIR/plugins/"
     fi
+    # Lưu ý: Thư mục settings/ được quản lý và cấu hình riêng trên server, không bị ghi đè.
 else
     echo "   [!] Không tìm thấy thư mục $MIDDLE_SYNC_DIR, bỏ qua bước đồng bộ trung gian."
 fi
