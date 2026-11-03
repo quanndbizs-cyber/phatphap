@@ -54,7 +54,12 @@ Khi thực hiện bất kỳ thao tác Git nào, Agent **BẮT BUỘC** tuân th
 
 ---
 
-## 3. Quy Trình AI Agent Hỗ Trợ Đưa Nội Dung Lên Hệ Thống (Content Publishing Workflow)
+## 3. Quy Trình AI Agent Hỗ Trợ Đưa Nội Dung Lên Hệ Thống Từ Thư Mục `Source/` (Content Intake Workflow)
+
+Thư mục **`/var/www/html/phatphap/Source/`** là **Cổng tiếp nhận nội dung đầu vào chính thức (Official Raw Content Intake Directory)**:
+* Người dùng đặt các file bản thảo gốc (`.md`, `.html`, `.pdf`, `.docx`, bản xuất ChatGPT, danh sách link audio/video) vào các thư mục con trong `Source/` (ví dụ: `Source/Bao ung hien doi/`, `Source/Tu học/`...).
+* Thư mục `Source/` được cấu hình trong `.gitignore` của nhánh `v2.x` để giữ nhánh phần mềm sạch.
+* Khi xử lý nội dung từ `Source/`, Agent biên tập sang Markdown + YAML chuẩn trong `content/`, sao chép tài liệu đính kèm (`.pdf`, `.mp3`...) vào `media/files/`, xóa cache `data/navigation/*` và commit vào nhánh `content`.
 
 Khi người dùng cung cấp nội dung mới (dưới dạng file `.html`, `.md`, `.docx`, văn bản copy-paste, hoặc danh sách link `audiobookshelf`, `audio.com`, `youtube`, `mp3`), Agent thực hiện theo quy trình 4 bước:
 
