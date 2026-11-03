@@ -1,9 +1,10 @@
 meta:
-  title: 'Khoa Học & Giáo Dục'
-  description: 'Tổng hợp những bài phân tích chuyên sâu, nghiên cứu công nghệ AI, phòng chống thiên tai và phương pháp giáo dục hiện đại.'
-  owner: quannd
-  author: quannd
-  created: '2026-11-01'
-  modified: '2026-11-01'
-  time: '21-00-00'
-  navtitle: 'Khoa Học & Giáo Dục'
+    title: 'Khoa Học & Giáo Dục'
+    description: 'Tổng hợp những bài phân tích chuyên sâu, nghiên cứu công nghệ AI, phòng chống thiên tai và phương pháp giáo dục hiện đại.'
+    owner: quannd
+    author: quannd
+    created: '2026-11-01'
+    modified: '2026-11-01'
+    time: 21-00-00
+    navtitle: 'Khoa Học & Giáo Dục'
+    pageid: 1feeea09fa0c477b
