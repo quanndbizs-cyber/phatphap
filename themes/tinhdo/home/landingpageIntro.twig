@@ -1,0 +1,66 @@
+{% if theme.introFullsize %}
+
+	<section id="landingpageintro" class="landingpageintro vh-100 dt w-100 tc bt bl br bb">
+
+		{% if theme.introImage %}
+  			<div class="cover dtc v-mid bg-left bg-center-l" style="background-image: url({{metatabs.meta.heroimage}});background-color:rgba(255,255,255,{{theme.introImageOpacity|default('0.8')}});background-blend-mode: {{theme.introImageBlendmode|default('lighten')}};">
+		{% elseif theme.introBackground %}
+  			<div class="cover dtc v-mid bg-left bg-center-l" style="background-image: url({{theme.introBackground}});background-color:rgba(255,255,255,{{theme.introImageOpacity|default('0.8')}});background-blend-mode: {{theme.introImageBlendmode|default('lighten')}};">
+		{% else %}
+  			<div class="cover dtc v-mid bg-left bg-center-l">
+		{% endif %}
+
+			<div class="mw7 ph3 center">
+
+{% else %}
+
+	<section id="landingpageintro" class="landingpageintro w-100 dib tc bt bl br bb">
+
+		{% if theme.introImage %}
+  			<div class="cover bg-left bg-center-l" style="background-image: url({{metatabs.meta.heroimage}});background-color:rgba(255,255,255,{{theme.introImageOpacity|default('0.8')}});background-blend-mode: {{theme.introImageBlendmode|default('lighten')}};">
+		{% elseif theme.introBackground %}
+  			<div class="cover bg-left bg-center-l" style="background-image: url({{theme.introBackground}});background-color:rgba(255,255,255,{{theme.introImageOpacity|default('0.8')}});background-blend-mode: {{theme.introImageBlendmode|default('lighten')}};">
+		{% else %}
+  			<div class="cover bg-left bg-center-l">
+		{% endif %}
+
+			<div class="mw7 pb7 pt6 ph3 center">
+
+{% endif %}
+				<div class="introbg pa4">
+					<header>
+						{% if theme.introLogoTitle %}
+							<img src="{{ base_url }}/{{ logo }}" class="logo-image"/>
+						{% elseif theme.introTitleFallback %}
+							<h1 class="f-large lh-title mv2">{{ title|e }}</h1>
+						{% elseif theme.introTitle %}
+							<h1 class="f-large lh-title mv2">{{ theme.introTitle|e }}</h1>
+						{% endif %}
+					</header>
+
+					<div class="f5 f4-ns fw3 lh-copy">
+						{% if theme.introMarkdownFallback %}
+							{{ content }}
+						{% elseif theme.introMarkdown %}
+							{{ markdown(theme.introMarkdown) }}
+						{% endif %}
+					</div>
+
+					{% if theme.introButtonLink %}
+
+						<a class="button link dim ph4 pv3 mt3 ba dib" href="{{ theme.introButtonLink }}">{{ theme.introButtonLabel|e }}</a>
+
+					{% endif %}
+
+					{% if theme.introLangswitch and multilang %}
+
+						<div class="mt3">
+							{% include 'partials/languageswitch.twig' with {'classes': 'link dim ph2 pv1 mh1 ba dib'} %}
+						</div>
+
+					{% endif %}
+				</div>
+			</div>
+		</div>		
+
+	</section>

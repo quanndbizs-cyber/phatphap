@@ -1,0 +1,38 @@
+{% extends '/layout.twig' %}
+
+{# Effective theme configuration: merge theme settings with the cyhome metadata
+   of the homepage. On pages inside a project (e.g. /it/page), use the cyhome
+   metadata of the project homepage (e.g. /it) instead. Empty values are dropped
+   so that cleared fields fall back to the theme defaults. #}
+{% set cyhome = metatabs.cyhome|default({}) %}
+{% if project %}
+	{% set projectshome = getProjectsHome(settings) %}
+	{% set cyhome = projectshome[project].meta.cyhome|default(cyhome)|default({}) %}
+{% endif %}
+{% set baseTheme = settings.themes.tinhdo|default(settings.themes.cyanine|default({})) %}
+{% set theme = baseTheme|merge(cyhome|filter((v) => v is not empty)) %}
+{% set meta = metatabs.meta %}
+
+{% block title %}{{ meta.title }} | {{ settings.title }}{% endblock %}
+
+{% block content %}
+	
+	{% if home and theme.landingpage %}
+	
+		{% include 'pages/home.twig' %}
+
+	{% elseif home and theme.blog %}
+	
+		{% include 'pages/blog.twig' %}
+		
+	{% elseif meta.template == "landingpage" %}
+		
+		{% include 'pages/landingpage.twig' %}
+
+	{% else %}
+		
+		{% include 'pages/page.twig' %}
+	
+	{% endif %}
+	
+{% endblock %}

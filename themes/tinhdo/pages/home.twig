@@ -1,0 +1,20 @@
+{% set home = { 
+	"landingpageIntro" : theme.introPosition|default('1'),
+	"landingpageTinhDo" : theme.tinhdoPosition|default('1.5'),
+	"landingpageInfo" : theme.infoPosition,
+ 	"landingpageTeaser" : theme.teaserPosition,
+ 	"landingpageContrast" : theme.contrastPosition,
+ 	"landingpageNavi" : theme.naviPosition,
+ 	"landingpageNews" : theme.newsPosition
+	}
+%}
+
+{% for section,index in home|sort %}
+
+	{% if index > 0 %}
+
+		{% include 'home/' ~ section ~ '.twig' %}
+	
+	{% endif %}
+
+{% endfor %}

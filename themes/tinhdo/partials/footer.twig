@@ -1,0 +1,43 @@
+{% if theme.footercolumns is not empty %}
+ 
+	<footer class="w-100 bl br bb lh-copy">
+		<div class="w-100 center grid-container">
+			<div class="grid-footer">
+				<div class="center pv3 flex-l">
+					{% for column,key in theme.footercolumns %}
+
+						{% if theme[key] %}
+							<div class="w-100 pv3 ph3 ph4-l">
+								{{ markdown(theme[key]) }}
+							</div>
+						{% endif %}
+
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</footer>
+
+{% endif %}
+
+<div class="w-100 center f6">
+	<div class="w-100 center grid-container">
+		<div class="grid-footer">
+			<div class="ph3 ph4-l">
+
+				{% if theme.copyrightline %}
+					{{ markdown(theme.copyrightlinetext) }}
+				{% else %}
+					{% set nowYear = "now"|date("Y") %}
+					{% if settings.year is empty or settings.year == nowYear %}
+					    {% set copyrightYears = nowYear %}
+					{% else %}
+					    {% set copyrightYears = settings.year ~ ' - ' ~ nowYear %}
+					{% endif %}
+					<p class="f6">{{ settings.copyright|e }} {{ translate('by') }} {{ settings.author }}, {{ copyrightYears }}. {{ translate('All Rights Reserved') }}. {{ translate('Built with') }} <a class="link underline f-secondary" href="https://typemill.net">Typemill</a>.</p>
+				{% endif %}
+
+			</div>
+		</div>
+	</div>
+</div>
