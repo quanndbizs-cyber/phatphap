@@ -97,6 +97,9 @@ class mediaplayer extends Plugin
                 'id'   => 'text',
                 'base' => 'text',
             ];
+            $shortcodeArray['data']['storylist'] = [
+                'id' => 'text',
+            ];
             $shortcodeArray['data']['accordion'] = [
                 'title' => 'text',
                 'open'  => 'text',
@@ -155,6 +158,15 @@ class mediaplayer extends Plugin
             $baseUrl = trim($params['base'] ?? '');
 
             $shortcode->setData($this->renderTracklist($listId, $baseUrl));
+            return;
+        }
+
+        # 5b. [:storylist id="..." :]
+        if ($name === 'storylist') {
+            $shortcode->stopPropagation();
+            $listId = $params['id'] ?? 'stories';
+
+            $shortcode->setData($this->renderStorylist($listId));
             return;
         }
 
@@ -537,6 +549,83 @@ class mediaplayer extends Plugin
 
             $html .= '  </div>'
                    . '</div>';
+        }
+
+        $html .= '  </div>'
+               . '</div>';
+
+        return $html;
+    }
+
+    protected function renderStorylist(string $listId): string
+    {
+        $storyData = $this->currentMeta['mediaplayer'][$listId] ?? ($this->currentMeta['stories'] ?? null);
+        if (!$storyData || empty($storyData['items']) || !is_array($storyData['items'])) {
+            return '<div class="tm-media-alert">Chưa có danh sách truyện cho [' . htmlspecialchars($listId, ENT_QUOTES, 'UTF-8') . '].</div>';
+        }
+
+        $items = array_values($storyData['items']);
+        $uid   = 'tmstories_' . substr(md5($listId . count($items)), 0, 6);
+
+        $html = '<div class="tm-storylist-box" id="' . $uid . '">'
+              . '  <div class="tm-tracklist-toolbar">'
+              . '    <input type="search" class="tm-tracklist-search" placeholder="🔍 Tìm nhanh theo tên truyện hoặc nội dung nhân quả..." oninput="window.tmFilterStories(\'' . $uid . '\', this.value)" />'
+              . '    <span class="tm-tracklist-count">Tổng số: <strong>' . count($items) . '</strong> mục truyện</span>'
+              . '  </div>'
+              . '  <div class="tm-storylist-items">';
+
+        foreach ($items as $i => $st) {
+            $num       = $st['id'] ?? ($i + 1);
+            $title     = htmlspecialchars($st['title'] ?? ('Truyện ' . $num), ENT_QUOTES, 'UTF-8');
+            $summary   = nl2br(htmlspecialchars($st['summary'] ?? '', ENT_QUOTES, 'UTF-8'));
+            $searchTxt = htmlspecialchars(mb_strtolower(($st['title'] ?? '') . ' ' . ($st['summary'] ?? ''), 'UTF-8'), ENT_QUOTES, 'UTF-8');
+            $vidBoxId  = $uid . '_vid_' . $i;
+
+            $html .= '<div class="tm-story-card" data-search="' . $searchTxt . '">'
+                   . '  <div class="tm-story-header">'
+                   . '    <div class="tm-story-title-wrap">'
+                   . '      <span class="tm-story-num">#' . htmlspecialchars((string)$num, ENT_QUOTES, 'UTF-8') . '</span>'
+                   . '      <h4 class="tm-story-title">' . $title . '</h4>'
+                   . '    </div>'
+                   . '    <div class="tm-story-badges">';
+
+            if (!empty($st['audio_src'])) {
+                $safeAudio = htmlspecialchars($st['audio_src'], ENT_QUOTES, 'UTF-8');
+                $jsTitle   = htmlspecialchars(addslashes($st['title'] ?? ('Truyện ' . $num)), ENT_QUOTES, 'UTF-8');
+                $html .= '<button type="button" class="tm-track-btn tm-track-btn-play" onclick="window.tmPlayInlineAudio(this, \'' . $safeAudio . '\', \'' . $jsTitle . '\')">🎧 Nghe Audio</button>';
+            }
+
+            if (!empty($st['read_url'])) {
+                $safeRead  = htmlspecialchars($st['read_url'], ENT_QUOTES, 'UTF-8');
+                $readLabel = htmlspecialchars($st['read_label'] ?? '📖 Sách đọc', ENT_QUOTES, 'UTF-8');
+                $html .= '<a class="tm-track-btn tm-track-btn-read" href="' . $safeRead . '" target="_blank" rel="noopener noreferrer">' . $readLabel . '</a>';
+            }
+
+            if (!empty($st['pdf_url'])) {
+                $safePdf = htmlspecialchars($st['pdf_url'], ENT_QUOTES, 'UTF-8');
+                $html .= '<a class="tm-track-btn tm-fmt-pdf" href="' . $safePdf . '" target="_blank" rel="noopener noreferrer">📄 Bản PDF</a>';
+            }
+
+            if (!empty($st['video_url'])) {
+                $safeVid = htmlspecialchars($st['video_url'], ENT_QUOTES, 'UTF-8');
+                $normVid = $this->normalizeEmbedUrl($st['video_url']);
+                $embedVid = htmlspecialchars($normVid['url'], ENT_QUOTES, 'UTF-8');
+                $html .= '<button type="button" class="tm-track-btn tm-track-btn-video" onclick="window.tmToggleStoryVideo(\'' . $vidBoxId . '\', \'' . $embedVid . '\')">🎬 Xem Video</button>';
+                $html .= '<a class="tm-track-action" href="' . $safeVid . '" target="_blank" rel="noopener noreferrer" title="Mở YouTube trong tab mới">↗ YouTube</a>';
+            }
+
+            $html .= '    </div>'
+                   . '  </div>';
+
+            if ($summary) {
+                $html .= '  <div class="tm-story-summary">' . $summary . '</div>';
+            }
+
+            if (!empty($st['video_url'])) {
+                $html .= '  <div class="tm-story-video-drawer" id="' . $vidBoxId . '" style="display:none;"></div>';
+            }
+
+            $html .= '</div>';
         }
 
         $html .= '  </div>'

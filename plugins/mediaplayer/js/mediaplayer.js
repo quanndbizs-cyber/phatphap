@@ -387,6 +387,32 @@
         });
     };
 
+    window.tmFilterStories = function (boxId, query) {
+        var box = document.getElementById(boxId);
+        if (!box) return;
+        var q = (query || "").trim().toLowerCase();
+        var cards = box.querySelectorAll(".tm-story-card");
+        cards.forEach(function (card) {
+            var txt = card.getAttribute("data-search") || "";
+            card.style.display = (!q || txt.indexOf(q) !== -1) ? "block" : "none";
+        });
+    };
+
+    window.tmToggleStoryVideo = function (drawerId, embedUrl) {
+        var drawer = document.getElementById(drawerId);
+        if (!drawer) return;
+        if (drawer.style.display === "none" || !drawer.innerHTML) {
+            drawer.style.display = "block";
+            drawer.innerHTML =
+                '<div class="tm-story-video-frame">' +
+                '  <iframe src="' + escapeHtml(embedUrl) + '" style="width:100%; height:380px; border:none; border-radius:8px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>' +
+                '</div>';
+        } else {
+            drawer.style.display = "none";
+            drawer.innerHTML = "";
+        }
+    };
+
     window.tmPlayInlineAudio = function (btn, src, title) {
         var existing = document.getElementById("tm-floating-audio-bar");
         if (!existing) {
