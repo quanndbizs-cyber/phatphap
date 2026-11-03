@@ -1,0 +1,127 @@
+meta:
+    title: Báo Ứng Hiện Đời — Tập 2 (Audio, Tóm Tắt & Sách Đọc)
+    description: Tuyển tập Báo Ứng Hiện Đời Tập 2 gồm 28 bài MP3 trực tiếp và tóm
+        tắt nội dung chi tiết từng câu chuyện.
+    owner: quannd
+    author: SC. Hạnh Đoan (Biên dịch)
+    created: '2026-11-03'
+    modified: '2026-11-03'
+    time: 08-31-00
+    navtitle: Báo Ứng Hiện Đời - Tập 2
+    pageid: buhd02multimed02
+mediaplayer:
+    stories:
+        items:
+        -   id: 1
+            title: Ba mỹ nhân
+            summary: '• Ba mỹ nhân: Ba phụ nữ dùng sắc đẹp để đạt danh lợi, khiến
+                bao người sa đọa. Cuối cùng thân bại danh liệt, bệnh tật và cô độc.
+                Hòa thượng dạy sắc đẹp là nhân ngắn ngủi, nên tu tâm tịnh hạnh. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660416?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 2
+            title: Nước lèo trứ danh
+            summary: '• Nước lèo trứ danh: Chủ quán phở dùng xác cá, xương chết làm
+                nước lèo, khoe nấu ngon. Sau bị bệnh lở loét, khách quay lưng, quán
+                sụp. Thầy nói: “Ăn bằng máu thịt sinh linh, tất bệnh từ miệng mà vào.”
+                |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660417?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 3
+            title: Nguyên nhân đáng sợ – Đám tang chó
+            summary: "• Nguyên nhân đáng sợ: Một người bệnh tim tái phát, thầy nói\
+                \ do kiếp trước từng giết hại người. Sám hối, phóng sinh thì bệnh\
+                \ khỏi.  \n• Đám tang chó: Một người thương chó, làm tang lễ cho nó,\
+                \ bị người đời chê cười. Hòa thượng khen đó là lòng từ, giúp giảm\
+                \ nghiệp sát – ai chê cười mới là người đáng thương. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660418?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 4
+            title: Người ưa câu cá – Thức ngon đặc chế
+            summary: "• Người ưa câu cá: Một người nghiện câu, xem cá chết làm vui,\
+                \ về sau bị tai nạn rơi xuống sông chết đuối.  \n• Thức ngon đặc chế:\
+                \ Đầu bếp chuyên nấu thịt thú quý, sau bị ung thư lưỡi – đúng “nghiệp\
+                \ từ miệng tạo”. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660420?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 5
+            title: Người chân voi – Bán rắn mối
+            summary: "• Người chân voi: Một người chân phù to, thầy chỉ do kiếp trước\
+                \ đạp chết nhiều côn trùng, nay phải chịu báo.  \n• Bán rắn mối: Người\
+                \ buôn rắn mối thấy bạn hàng bị cây xiên chết – giống cách giết rắn;\
+                \ từ đó sám hối, bỏ nghề. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660422?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 6
+            title: Cá “câu” người
+            summary: '• Cá “câu” người: Một người thích đi câu, một hôm bị cá kéo
+                rơi xuống nước chết; là nghiệp báo tương phản của thú vui sát sinh.
+                |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660424?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 7
+            title: Tiểu thư khỉ – Trộm công giảm liệu
+            summary: "• Tiểu thư khỉ: Cô gái bị bệnh lạ, thầy cho biết là kiếp trước\
+                \ hành hạ khỉ.  \n• Trộm công giảm liệu: Người bớt vật liệu khi xây\
+                \ dựng bị liệt nửa người – báo của trộm của công. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660426?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 8
+            title: Người chồng tài hoa
+            summary: '• Người chồng tài hoa: Một người đàn ông có tài nhưng ngoại
+                tình, bỏ vợ. Sau bị tai nạn liệt, nhờ sám hối, đọc kinh mới thoát
+                khổ. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660428?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 9
+            title: Pháp quan kỳ án – Những kẻ buôn người
+            summary: "• Pháp quan kỳ án: Vị quan xử oan người vô tội, sau con cháu\
+                \ tàn tật – nhân quả công minh.  \n• Những kẻ buôn người: Bọn bắt\
+                \ cóc bị báo ứng – thân bại danh liệt, chết bất đắc kỳ tử. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660429?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 10
+            title: Quán ngon cao cấp – Đi câu bị cảm động
+            summary: "• Quán ngon cao cấp: Nhà hàng bán thịt thú rừng bị cháy rụi\
+                \ – quả báo nghiệp sát và tham thực.  \n• Đi câu bị cảm động: Người\
+                \ câu cá chứng kiến cảnh cá mẹ bảo vệ con, xúc động bỏ nghề. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660431?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 11
+            title: Chuyện nơi lâm trường – Khi máy mổ hoàn tất – Cận tử nghiệp đáng
+                sợ
+            summary: "• Chuyện nơi lâm trường: Người chặt phá rừng bị cây đổ đè chết\
+                \ – nghiệp phá sinh mạng.  \n• Khi máy mổ hoàn tất: Bác sĩ mổ động\
+                \ vật bị ám ảnh, sau mắc bệnh tim.  \n• Cận tử nghiệp đáng sợ: Người\
+                \ hấp hối thấy ma quỷ do nghiệp sát hiện hình, sợ hãi đến chết. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660433?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 12
+            title: Thịt rùa ngon – Tình thương khỉ lông vàng – Hứa tiên sinh – Ngọc
+                Lan
+            summary: "• Thịt rùa ngon: Người ăn rùa bị bệnh da nghiêm trọng.  \n•\
+                \ Tình thương khỉ lông vàng: Khỉ cứu người, được tán thán là loài\
+                \ hữu tình có nhân.  \n• Hứa tiên sinh: Người ác ngộ đạo sau khi gặp\
+                \ tai nạn, phát tâm tu.  \n• Ngọc Lan: Cô gái thiện tâm, cảm hóa người\
+                \ chồng mê tửu sắc. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660436?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách
+        -   id: 13
+            title: Công chúa thăng hoa
+            summary: '• Công chúa thăng hoa: Câu chuyện về vị công chúa giàu sang,
+                buông dục vọng, hướng thiện, tu hành đạt quả giải thoát. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660441?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-2
+            read_label: 📖 Đọc Sách

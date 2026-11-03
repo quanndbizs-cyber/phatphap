@@ -1,0 +1,201 @@
+meta:
+    title: Báo Ứng Hiện Đời — Tập 3 (Audio, Tóm Tắt & Sách Đọc)
+    description: Tuyển tập Báo Ứng Hiện Đời Tập 3 gồm 46 bài MP3 trực tiếp và tóm
+        tắt nội dung chi tiết 24 nhóm câu chuyện nhân quả.
+    owner: quannd
+    author: SC. Hạnh Đoan (Biên dịch)
+    created: '2026-11-03'
+    modified: '2026-11-03'
+    time: 08-32-00
+    navtitle: Báo Ứng Hiện Đời - Tập 3
+    pageid: buhd03multimed03
+mediaplayer:
+    stories:
+        items:
+        -   id: 1
+            title: Phần giới thiệu
+            summary: '• Phần giới thiệu: Mục đích bộ sách: nêu nhân quả hiện đời,
+                khuyến thiện, nhắc sám hối để chuyển nghiệp. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660443?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 2
+            title: Tâm Sự Trùm Du Đãng; Tâm Sự ‘Quý Phu Nhân’
+            summary: "• Tâm Sự Trùm Du Đãng: Kẻ giang hồ hồi tâm, niệm Phật sám hối,\
+                \ trước lúc chết tâm an.  \n• Tâm Sự ‘Quý Phu Nhân’: Kiêu mạn, khinh\
+                \ người → tai nạn, bệnh khổ; nhờ sám hối, ăn chay mà chuyển. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660444?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 3
+            title: (bài nghe không đúng truyện) Không Nên Mặc Tình Làm Hại Cây Cỏ;
+                Nước Tràn Kim Sơn Tự
+            summary: "• Không Nên Mặc Tình Làm Hại Cây Cỏ: Phá hoại cây cối, tổn hại\
+                \ sinh linh → gặp nạn.  \n• Nước Tràn Kim Sơn Tự: Phỉ báng Tam Bảo,\
+                \ gặp thiên tai mất mát—cảnh tỉnh khẩu nghiệp. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660447?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 4
+            title: Phí Phạm Của Trời – Tội Rất Lớn; Dùng Cho Hết; Đừng Lấy Vật Không
+                Phải Của Mình; Thân Khuyển Mã
+            summary: "• Phí Phạm Của Trời – Tội Rất Lớn: Phung phí của trời → nghèo\
+                \ khổ, bệnh tật.  \n• Dùng Cho Hết: Tham ăn, giấu của ăn → bệnh đường\
+                \ ruột.  \n• Đừng Lấy Vật Không Phải Của Mình: Lấy đồ cúng chùa →\
+                \ họa mù lòa/khốn đốn.  \n• Thân Khuyển Mã: Ngược đãi chó/ngựa → tai\
+                \ nạn tương ưng. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660450?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 5
+            title: Nguyên Nhân Không Ngờ; Cẩn Thận Khi Gieo Nhân
+            summary: "• Nguyên Nhân Không Ngờ: Bệnh nặng do oan gia trái chủ (thú/nhân)\
+                \ tìm báo.  \n• Cẩn Thận Khi Gieo Nhân: Việc nhỏ ác cũng kết quả lớn—khuyên\
+                \ giữ thiện niệm. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660452?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 6
+            title: Mang Thai Không Nên Nổi Giận; Hai Đồng Dưa Cải; Nên Sống Chánh
+                Nghiệp
+            summary: "• Mang Thai Không Nên Nổi Giận: Giận dữ hại mẹ con; khuyên niệm\
+                \ Phật, giữ an tâm.  \n• Hai Đồng Dưa Cải: Tham vặt → thiệt lớn. \
+                \ \n• Nên Sống Chánh Nghiệp: Kiếm sống tà nghiệp → tổn phước, nên\
+                \ đổi nghề thiện. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660453?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 7
+            title: Quả Báo Bội Tín Vong Nghĩa
+            summary: '• Quả Báo Bội Tín Vong Nghĩa: Nuốt lời, phụ nghĩa → mất tín,
+                sự nghiệp lụn bại. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660457?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 8
+            title: Bà Hàng Trứng Rán
+            summary: '• Bà Hàng Trứng Rán: Sát sinh nhiều (gia cầm) → bệnh tật; sám
+                hối, phóng sinh thì thuyên giảm. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660458?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 9
+            title: Ham Chút Lợi Nhỏ Bị Thiệt To; Lòng Tốt Của Cây Tượng Ba
+            summary: "• Ham Chút Lợi Nhỏ Bị Thiệt To: Tham chút lợi → thiệt hại nặng.\
+                \  \n• Lòng Tốt Của Cây Tượng Ba: Đối đãi tử tế với môi trường/sinh\
+                \ linh → được che chở, việc hanh thông. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660459?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 10
+            title: Phải Thấy Ưu Điểm Của Người; Mê Hồn Thang; Công Tử Áo Xanh
+            summary: "• Phải Thấy Ưu Điểm Của Người: Khen thiện, ít chê bai → tăng\
+                \ phước.  \n• Mê Hồn Thang: Dùng mưu kế lừa gạt tình/tiền → báo ứng.\
+                \  \n• Công Tử Áo Xanh: Phóng túng xa hoa → bại thân danh, sau sám\
+                \ hối. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660461?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 11
+            title: Người Vợ Đau Khổ; Kim Giám Đốc
+            summary: "• Người Vợ Đau Khổ: Chồng ngoại tình, gia đình đổ vỡ → khuyên\
+                \ trì giới, niệm Phật chuyển hóa.  \n• Kim Giám Đốc: Tham quyền lợi\
+                \ → tai ách, nhờ làm thiện mà giảm nhẹ. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660464?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 12
+            title: Tần Phu Nhân
+            summary: '• Tần Phu Nhân: Đam mê sắc đẹp/quyền lực → gặp họa, tỉnh ngộ
+                hướng thiện. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660465?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 13
+            title: Thằng Cháu Quý; Tu Không Nên Độc Tài
+            summary: "• Thằng Cháu Quý: Nuông chiều, kiêu ngạo → họa đến nhà.  \n\
+                • Tu Không Nên Độc Tài: Chấp công đức, độc đoán → tổn phước, nên khiêm\
+                \ hạ. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660467?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 14
+            title: (không có bài nghe) Tình Chấp Nhiều Đời; Con Đường Làm Giàu
+            summary: "• Tình Chấp Nhiều Đời: Ái luyến nhiều đời → khổ; khuyên buông\
+                \ xả, niệm Phật.  \n• Con Đường Làm Giàu: Giàu chân chính phải hợp\
+                \ đạo đức; tham tà → quả xấu. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660469?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 15
+            title: Nửa Cái Bánh
+            summary: '• Nửa Cái Bánh: Chia sẻ, biết đủ → gặp lành; ích kỷ → mất phước.
+                |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660471?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 16
+            title: Nghiêm Cư Sĩ
+            summary: '• Nghiêm Cư Sĩ: Tinh tấn trì giới, làm phước → gia đình an vui,
+                bệnh nạn tiêu trừ. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660472?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 17
+            title: Khi Tôi Biết Đến Pháp Phật; Trong Mạt Pháp Có Chánh Pháp
+            summary: "• Khi Tôi Biết Đến Pháp Phật: Nhờ học Phật mà đổi đời.  \n•\
+                \ Trong Mạt Pháp Có Chánh Pháp: Thời mạt pháp vẫn có chánh pháp nếu\
+                \ hành đúng. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660473?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 18
+            title: Sư Ni Diệu Dung
+            summary: '• Sư Ni Diệu Dung: Chuyện xuất gia, trì giới, hoằng pháp—tấm
+                gương tu tập. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660475?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 19
+            title: Những Điềm Mộng Được Báo Trước
+            summary: '• Những Điềm Mộng Được Báo Trước: Giấc mơ như lời cảnh báo nghiệp—tu
+                sửa thì chuyển được. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660477?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 20
+            title: Kinh Nghiệm Phóng Sinh
+            summary: '• Kinh Nghiệm Phóng Sinh: Cách phóng sinh đúng pháp, tránh mê
+                tín, hồi hướng đúng để được lợi ích. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660481?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 21
+            title: Quả Báo Bất Hiếu
+            summary: '• Quả Báo Bất Hiếu: Bất hiếu với cha mẹ → gặp họa; hiếu thuận
+                → phước tăng. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660483?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 22
+            title: Tuần Thất Đầu Tiên
+            summary: '• Tuần Thất Đầu Tiên: Nghi thức thất đầu cho người mất—chí thành
+                hồi hướng giúp siêu thoát. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660484?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 23
+            title: Vì Sao Cô Đi Tu?; Vì Sao Các Tu Sĩ Hay Bệnh Nặng?
+            summary: "• Vì Sao Cô Đi Tu?: Nhân duyên xuất gia; buông ái luyến để cầu\
+                \ giải thoát.  \n• Vì Sao Các Tu Sĩ Hay Bệnh Nặng?: Gánh nghiệp chúng\
+                \ sinh/tu khổ hạnh—đừng hiểu lầm Phật pháp. |"
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660485?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
+        -   id: 24
+            title: Hồi Ký Của Sư Hằng Nghiêm
+            summary: '• Hồi Ký Của Sư Hằng Nghiêm: Chặng đường tu tập, những duyên
+                cảnh nhân quả thực chứng, khích lệ người tu. |'
+            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/258914e3-214b-447f-80eb-1aacbe2e4525/file/660488?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-3
+            read_label: 📖 Đọc Sách
