@@ -1,83 +1,147 @@
 #!/bin/bash
 # ==============================================================================
 # Script: deploy_server.sh
-# Mục đích: Chạy trên Deploy Server để pull nhánh content mới nhất,
-#          đồng bộ từ thư mục trung gian content/middle_sync/ sang các thư mục
-#          chính của Typemill (settings, media, plugins), xóa cache và phân quyền.
-# Sử dụng:
+# Purpose:
+#   Pull content branch, sync middle_sync into Typemill, clear cache,
+#   set writable permissions, reload PHP-FPM/Nginx, and run test kit.
+#
+# Run as the normal SSH deploy user (NOT with sudo):
 #   ./scripts/deploy_server.sh
+#
+# Required sudoers permissions are documented below in the response.
 # ==============================================================================
 
-set -e
+set -Eeuo pipefail
 
-# Xác định thư mục gốc của Typemill
+# Print a useful error and stop instead of reporting a false deployment success.
+trap 'rc=$?; echo "[ERROR] Deploy failed at line ${LINENO} (exit code: ${rc})."; exit "$rc"' ERR
+
+# Resolve Typemill root directory.
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$BASE_DIR"
 
 echo "=========================================================="
-echo "🚀 [DEPLOY] BẮT ĐẦU QUÁ TRÌNH DEPLOY TRÊN SERVER..."
+echo "[DEPLOY] BẮT ĐẦU QUÁ TRÌNH DEPLOY TRÊN SERVER..."
 echo "Thư mục cài đặt: $BASE_DIR"
 echo "=========================================================="
 
-# 1. Cập nhật nhánh content từ Git
+# 1. Update content branch from Git.
 echo "-> 1. Cập nhật nhánh content từ Git remote..."
-if [ -d "$BASE_DIR/content/.git" ] || [ -f "$BASE_DIR/content/.git" ]; then
-    git -C "$BASE_DIR/content" pull origin content
+if [[ -d "$BASE_DIR/content/.git" || -f "$BASE_DIR/content/.git" ]]; then
+    git -C "$BASE_DIR/content" pull --ff-only origin content
 else
-    echo "   [!] Cảnh báo: content không phải thư mục git trực tiếp, kiểm tra git root..."
-    git pull origin content 2>/dev/null || true
+    echo "[ERROR] $BASE_DIR/content không phải Git repository."
+    echo "[ERROR] Không tự động fallback sang Git root để tránh pull nhầm repository."
+    exit 1
 fi
 
-# 2. Đồng bộ từ thư mục trung gian middle_sync sang Typemill gốc
+# 2. Sync middle_sync into Typemill directories.
 MIDDLE_SYNC_DIR="$BASE_DIR/content/middle_sync"
 
-if [ -d "$MIDDLE_SYNC_DIR" ]; then
-    echo "-> 2. Đồng bộ dữ liệu từ $MIDDLE_SYNC_DIR sang các thư mục hệ thống..."
-    
-    # 2.1 Media (Đồng bộ thư viện ảnh/audio)
-    if [ -d "$MIDDLE_SYNC_DIR/media" ]; then
+if [[ -d "$MIDDLE_SYNC_DIR" ]]; then
+    echo "-> 2. Đồng bộ dữ liệu từ $MIDDLE_SYNC_DIR..."
+
+    if [[ -d "$MIDDLE_SYNC_DIR/media" ]]; then
         echo "   + Đồng bộ media/..."
         mkdir -p "$BASE_DIR/media"
-        rsync -rlv --no-perms --no-owner --no-group --no-times "$MIDDLE_SYNC_DIR/media/" "$BASE_DIR/media/"
+        rsync -rlv --no-perms --no-owner --no-group --no-times \
+            "$MIDDLE_SYNC_DIR/media/" "$BASE_DIR/media/"
     fi
 
-    # 2.2 Plugins (Đồng bộ plugin đặc thù như mediaplayer)
-    if [ -d "$MIDDLE_SYNC_DIR/plugins" ]; then
+    if [[ -d "$MIDDLE_SYNC_DIR/plugins" ]]; then
         echo "   + Đồng bộ plugins/..."
         mkdir -p "$BASE_DIR/plugins"
-        rsync -rlv --no-perms --no-owner --no-group --no-times "$MIDDLE_SYNC_DIR/plugins/" "$BASE_DIR/plugins/"
+        rsync -rlv --no-perms --no-owner --no-group --no-times \
+            "$MIDDLE_SYNC_DIR/plugins/" "$BASE_DIR/plugins/"
     fi
-    # Lưu ý: Thư mục settings/ được quản lý và cấu hình riêng trên server, không bị ghi đè.
+
+    # settings/ is intentionally managed separately on the server.
 else
-    echo "   [!] Không tìm thấy thư mục $MIDDLE_SYNC_DIR, bỏ qua bước đồng bộ trung gian."
+    echo "[WARN] Không tìm thấy $MIDDLE_SYNC_DIR; bỏ qua đồng bộ middle_sync."
 fi
 
-# 3. Xoá cache navigation và template cache để rebuild sạch
+# 3. Clear navigation and Twig/template caches.
 echo "-> 3. Xóa cache navigation và Twig cache cũ..."
-rm -rf "$BASE_DIR/data/navigation"/* 2>/dev/null || true
-rm -rf "$BASE_DIR/cache"/* 2>/dev/null || true
+mkdir -p "$BASE_DIR/data/navigation" "$BASE_DIR/cache"
+find "$BASE_DIR/data/navigation" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} +
+find "$BASE_DIR/cache" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} +
 
-# 4. Phân quyền thư mục ghi dữ liệu cho Web Server (www-data)
-echo "-> 4. Phân quyền cho www-data..."
-mkdir -p "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" "$BASE_DIR/media" "$BASE_DIR/settings"
-if id "www-data" >/dev/null 2>&1; then
-    chown -R www-data:www-data "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" "$BASE_DIR/media" "$BASE_DIR/settings" 2>/dev/null || true
+# 4. Ensure writable directories exist and set permissions.
+echo "-> 4. Kiểm tra thư mục ghi dữ liệu cho Web Server (www-data)..."
+mkdir -p "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" \
+         "$BASE_DIR/media" "$BASE_DIR/settings"
+
+if id www-data >/dev/null 2>&1; then
+    # This script runs as the deploy user. It can change ownership only where
+    # that user has the required privilege. Do not silently ignore failures.
+    if [[ "$(id -u)" -eq 0 ]]; then
+        chown -R www-data:www-data \
+            "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" \
+            "$BASE_DIR/media" "$BASE_DIR/settings"
+    else
+        echo "[INFO] Không chạy deploy bằng root; bỏ qua chown."
+        echo "[INFO] Đảm bảo các thư mục cần ghi đã được cấu hình owner/group phù hợp."
+    fi
 fi
-chmod -R 775 "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" "$BASE_DIR/media" "$BASE_DIR/settings" 2>/dev/null || true
 
-# 5. Reload Nginx / PHP-FPM nếu có quyền sudo/systemctl
-echo "-> 5. Reload Web Server..."
-if command -v systemctl >/dev/null 2>&1; then
-    systemctl reload php8.4-fpm 2>/dev/null || true
-    systemctl reload nginx 2>/dev/null || true
+# Keep the original permission behavior, but apply it only to these app data
+# directories. Note that 775 also adds execute permission to regular files.
+chmod -R 775 "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" \
+             "$BASE_DIR/media" "$BASE_DIR/settings"
+
+# 5. Validate and reload PHP-FPM 8.4 and Nginx using non-interactive sudo.
+echo "-> 5. Kiểm tra và reload PHP-FPM 8.4 / Nginx..."
+
+SYSTEMCTL="/usr/bin/systemctl"
+NGINX="/usr/sbin/nginx"
+
+if [[ ! -x "$SYSTEMCTL" ]]; then
+    echo "[ERROR] Không tìm thấy $SYSTEMCTL."
+    exit 1
 fi
 
-echo "=========================================================="
-echo "🎉 DEPLOY HOÀN TẤT!"
-echo "=========================================================="
+if [[ ! -x "$NGINX" ]]; then
+    echo "[ERROR] Không tìm thấy $NGINX."
+    exit 1
+fi
 
-# 6. Tự động chạy test kit kiểm tra môi trường
-if [ -f "$BASE_DIR/scripts/test_stage.sh" ]; then
+# Check service state before attempting reload.
+if ! "$SYSTEMCTL" is-active --quiet php8.4-fpm; then
+    echo "[ERROR] php8.4-fpm chưa active. Không thể reload."
+    exit 1
+fi
+
+if ! "$SYSTEMCTL" is-active --quiet nginx; then
+    echo "[ERROR] nginx chưa active. Không thể reload."
+    exit 1
+fi
+
+# Validate Nginx configuration before reloading either service.
+echo "   + Kiểm tra cấu hình Nginx..."
+sudo -n "$NGINX" -t
+
+# Reload PHP-FPM to refresh workers / OPcache when required.
+echo "   + Reload PHP-FPM 8.4..."
+sudo -n "$SYSTEMCTL" reload php8.4-fpm
+"$SYSTEMCTL" is-active --quiet php8.4-fpm
+echo "   [OK] PHP-FPM 8.4 đang active."
+
+# Reload Nginx.
+echo "   + Reload Nginx..."
+sudo -n "$SYSTEMCTL" reload nginx
+"$SYSTEMCTL" is-active --quiet nginx
+echo "   [OK] Nginx đang active."
+
+echo "-> 5. Reload hoàn tất."
+
+# 6. Run test kit. Keep the original non-blocking behavior.
+if [[ -f "$BASE_DIR/scripts/test_stage.sh" ]]; then
     echo "-> 6. Đang chạy bộ Test Kit kiểm tra hệ thống..."
-    "$BASE_DIR/scripts/test_stage.sh" || true
+    if ! "$BASE_DIR/scripts/test_stage.sh"; then
+        echo "[WARN] Test Kit có lỗi; deploy đã cập nhật và reload nhưng cần kiểm tra test."
+    fi
 fi
+
+echo "=========================================================="
+echo "[DEPLOY] DEPLOY HOÀN TẤT!"
+echo "=========================================================="
