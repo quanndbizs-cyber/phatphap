@@ -1,0 +1,291 @@
+meta:
+  title: Báo Ứng Hiện Đời — Tập 6 (Audio 46 Bài, Tóm Tắt & Sách Đọc)
+  description: Tuyển tập Báo Ứng Hiện Đời Tập 6 gồm 46 bài MP3 trực tiếp và danh mục
+    từng câu chuyện kèm liên kết sách đọc Google Sites.
+  owner: quannd
+  author: SC. Hạnh Đoan (Biên dịch)
+  created: '2026-11-04'
+  modified: '2026-11-04'
+  time: 08-00-00
+  navtitle: Báo Ứng Hiện Đời - Tập 6
+  pageid: buhd06multimed06
+mediaplayer:
+  stories:
+    items:
+    - id: 1
+      title: Lời Người Dịch
+      summary: Lời chia sẻ, cảm niệm và giới thiệu của Sư cô Hạnh Đoan khi phiên dịch
+        tuyển tập Báo Ứng Hiện Đời Quyển 6.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660538?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6
+      read_label: 📖 Đọc Sách
+    - id: 2
+      title: Giọt Nước Mắt Anh Tài Xế
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660539?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/1-gi%E1%BB%8Dt-n%C6%B0%E1%BB%9Bc-m%E1%BA%AFt-anh-t%C3%A0i-x%E1%BA%BF
+      read_label: 📖 Đọc Sách
+    - id: 3
+      title: Tai Nạn Nửa Đêm
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660540?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/2-tai-n%E1%BA%A1n-n%E1%BB%ADa-%C4%91%C3%AAm
+      read_label: 📖 Đọc Sách
+    - id: 4
+      title: Cứu Khỉ Một Nạn, Khỉ Cứu Lại Một Làng
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660541?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/3-c%E1%BB%A9u-kh%E1%BB%89-m%E1%BB%99t-n%E1%BA%A1n-kh%E1%BB%89-c%E1%BB%A9u-l%E1%BA%A1i-m%E1%BB%99t-l%C3%A0ng
+      read_label: 📖 Đọc Sách
+    - id: 5
+      title: Một Buổi Quán Sát Nhân Quả
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660542?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/4-m%E1%BB%99t-bu%E1%BB%95i-qu%C3%A1n-s%C3%A1t-nh%C3%A2n-qu%E1%BA%A3
+      read_label: 📖 Đọc Sách
+    - id: 6
+      title: Không Nên Ăn Cá
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660543?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/5-kh%C3%B4ng-n%C3%AAn-%C4%83n-c%C3%A1
+      read_label: 📖 Đọc Sách
+    - id: 7
+      title: Ác Báo Đáng Sợ
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660544?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/6-%C3%A1c-b%C3%A1o-%C4%91%C3%A1ng-s%E1%BB%A3
+      read_label: 📖 Đọc Sách
+    - id: 8
+      title: Vì Sao Không Nên Sát Sinh
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660545?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/7-v%C3%AC-sao-kh%C3%B4ng-n%C3%AAn-s%C3%A1t-sinh
+      read_label: 📖 Đọc Sách
+    - id: 9
+      title: Con Cá Ngát
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660546?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/8-con-c%C3%A1-ng%C3%A1t
+      read_label: 📖 Đọc Sách
+    - id: 10
+      title: Những Điều Phái Nữ Cần Biết
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660547?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/9-nh%E1%BB%AFng-%C4%91i%E1%BB%81u-ph%C3%A1i-n%E1%BB%AF-c%E1%BA%A7n-bi%E1%BA%BFt
+      read_label: 📖 Đọc Sách
+    - id: 11
+      title: Anh Kỹ Sư Kiến Trúc
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660548?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/10-anh-k%E1%BB%B9-s%C6%B0-ki%E1%BA%BFn-tr%C3%BAc
+      read_label: 📖 Đọc Sách
+    - id: 12
+      title: Bàn Về Giao Tế, Ăn Mặc
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660549?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/11-b%C3%A0n-v%E1%BB%81-giao-t%E1%BA%BF-%C4%83n-m%E1%BA%B7c
+      read_label: 📖 Đọc Sách
+    - id: 13
+      title: Những Điều Phái Nam Cần Nên Biết
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660550?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/12-nh%E1%BB%AFng-%C4%91i%E1%BB%81u-ph%C3%A1i-nam-c%E1%BA%A7n-n%C3%AAn-bi%E1%BA%BFt
+      read_label: 📖 Đọc Sách
+    - id: 14
+      title: Tâm Sự Của Ba Chàng Trai
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660551?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/13-t%C3%A2m-s%E1%BB%B1-c%E1%BB%A7a-ba-ch%C3%A0ng-trai
+      read_label: 📖 Đọc Sách
+    - id: 15
+      title: Kinh Nghiệm Tuyệt Diệu Về Giới Dâm
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660552?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/14-kinh-nghi%E1%BB%87m-tuy%E1%BB%87t-di%E1%BB%87u-v%E1%BB%81-gi%E1%BB%9Bi-d%C3%A2m
+      read_label: 📖 Đọc Sách
+    - id: 16
+      title: Tâm Sự Kẻ Thứ Ba
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660553?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/15-t%C3%A2m-s%E1%BB%B1-k%E1%BA%BB-th%E1%BB%A9-ba
+      read_label: 📖 Đọc Sách
+    - id: 17
+      title: Ích Lợi Kỳ Diệu Của Việc Giới Dâm
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660554?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/16-%C3%ADch-l%E1%BB%A3i-k%E1%BB%B3-di%E1%BB%87u-c%E1%BB%A7a-vi%E1%BB%87c-gi%E1%BB%9Bi-d%C3%A2m
+      read_label: 📖 Đọc Sách
+    - id: 18
+      title: Hơn Ba Trăm Mạng
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660555?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/17-h%C6%A1n-ba-tr%C4%83m-m%E1%BA%A1ng
+      read_label: 📖 Đọc Sách
+    - id: 19
+      title: Hấp Tinh Quỷ
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660556?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/18-h%E1%BA%A5p-tinh-qu%E1%BB%B7
+      read_label: 📖 Đọc Sách
+    - id: 20
+      title: Hiện Thế Báo Của Tà Dâm
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660557?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/19-hi%E1%BB%87n-th%E1%BA%BF-b%C3%A1o-c%E1%BB%A7a-t%C3%A0-d%C3%A2m
+      read_label: 📖 Đọc Sách
+    - id: 21
+      title: Chuyện Anh K
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660558?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/20-chuy%E1%BB%87n-anh-k
+      read_label: 📖 Đọc Sách
+    - id: 22
+      title: Tâm Sự Của Thiên Thần
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660559?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/21-t%C3%A2m-s%E1%BB%B1-c%E1%BB%A7a-thi%C3%AAn-th%E1%BA%A7n
+      read_label: 📖 Đọc Sách
+    - id: 23
+      title: Giấc Mộng Của Tôi
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660560?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/22-gi%E1%BA%A5c-m%E1%BB%99ng-c%E1%BB%A7a-t%C3%B4i
+      read_label: 📖 Đọc Sách
+    - id: 24
+      title: Linh Xá Cứu Nạn Dân
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660561?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/23-linh-x%C3%A1-c%E1%BB%A9u-n%E1%BA%A1n-d%C3%A2n
+      read_label: 📖 Đọc Sách
+    - id: 25
+      title: 50 Năm Sau Mới Báo Thù
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660562?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/24-50-n%C4%83m-sau-m%E1%BB%9Bi-b%C3%A1o-th%C3%B9
+      read_label: 📖 Đọc Sách
+    - id: 26
+      title: Đôi Mắt Âm Dương
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660563?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/25-%C4%91%C3%B4i-m%E1%BA%AFt-%C3%A2m-d%C6%B0%C6%A1ng
+      read_label: 📖 Đọc Sách
+    - id: 27
+      title: Giai Nhân Áo Phượng
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660564?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/26-giai-nh%C3%A2n-%C3%A1o-ph%C6%B0%E1%BB%A3ng
+      read_label: 📖 Đọc Sách
+    - id: 28
+      title: Bái Kinh Cứu Mẹ
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660565?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/27-b%C3%A1i-kinh-c%E1%BB%A9u-m%E1%BA%B9
+      read_label: 📖 Đọc Sách
+    - id: 29
+      title: Thiên Địa Quan Thần
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660566?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/28-thi%C3%AAn-%C4%91%E1%BB%8Ba-quan-th%E1%BA%A7n
+      read_label: 📖 Đọc Sách
+    - id: 30
+      title: Tôi Đã Thấy Hai Vị Thần Đồng Sinh, Đồng Danh
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660567?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/29-t%C3%B4i-%C4%91%C3%A3-th%E1%BA%A5y-hai-v%E1%BB%8B-th%E1%BA%A7n-%C4%91%E1%BB%93ng-sinh-%C4%91%E1%BB%93ng-danh
+      read_label: 📖 Đọc Sách
+    - id: 31
+      title: Trên Đầu Ba Thước Có Thần Linh
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660568?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/30-tr%C3%AAn-%C4%91%E1%BA%A7u-ba-th%C6%B0%E1%BB%9Bc-c%C3%B3-th%E1%BA%A7n-linh
+      read_label: 📖 Đọc Sách
+    - id: 32
+      title: Thần Thổ Địa
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660569?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/31-th%E1%BA%A7n-th%E1%BB%95-%C4%91%E1%BB%8Ba
+      read_label: 📖 Đọc Sách
+    - id: 33
+      title: Vấn Xuyên Đại Địa Chấn
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660570?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/32-v%E1%BA%A5n-xuy%C3%AAn-%C4%91%E1%BA%A1i-%C4%91%E1%BB%8Ba-ch%E1%BA%A5n
+      read_label: 📖 Đọc Sách
+    - id: 34
+      title: Chị Của Ích Tây
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660571?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/33-ch%E1%BB%8B-c%E1%BB%A7a-%C3%ADch-t%C3%A2y
+      read_label: 📖 Đọc Sách
+    - id: 35
+      title: Tự Sát Đọa Cõi Ác
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660572?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/34-t%E1%BB%B1-s%C3%A1t-%C4%91%E1%BB%8Da-c%C3%B5i-%C3%A1c
+      read_label: 📖 Đọc Sách
+    - id: 36
+      title: Hướng Phật Xin Công Tác
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660573?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/35-h%C6%B0%E1%BB%9Bng-ph%E1%BA%ADt-xin-c%C3%B4ng-t%C3%A1c
+      read_label: 📖 Đọc Sách
+    - id: 37
+      title: Tâm Sự Người Vợ
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660574?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/36-t%C3%A2m-s%E1%BB%B1-ng%C6%B0%E1%BB%9Di-v%E1%BB%A3
+      read_label: 📖 Đọc Sách
+    - id: 38
+      title: Mối Duyên Của Dượng X
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660575?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/37-m%E1%BB%91i-duy%C3%AAn-c%E1%BB%A7a-d%C6%B0%E1%BB%A3ng-x
+      read_label: 📖 Đọc Sách
+    - id: 39
+      title: Đôi Mắt Trẻ Thơ
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660576?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/38-%C4%91%C3%B4i-m%E1%BA%AFt-tr%E1%BA%BB-th%C6%A1
+      read_label: 📖 Đọc Sách
+    - id: 40
+      title: Tòa Lầu Giải Trí
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660577?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/39-t%C3%B2a-l%E1%BA%A7u-gi%E1%BA%A3i-tr%C3%AD
+      read_label: 📖 Đọc Sách
+    - id: 41
+      title: Vương Quả Phụ
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660578?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/40-v%C6%B0%C6%A1ng-qu%E1%BA%A3-ph%E1%BB%A5
+      read_label: 📖 Đọc Sách
+    - id: 42
+      title: Chuyện Của Ba Tôi
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660579?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/41-chuy%E1%BB%87n-c%E1%BB%A7a-ba-t%C3%B4i
+      read_label: 📖 Đọc Sách
+    - id: 43
+      title: Chuyện Các Vũ Trường
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660580?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/42-chuy%E1%BB%87n-c%C3%A1c-v%C5%A9-tr%C6%B0%E1%BB%9Dng
+      read_label: 📖 Đọc Sách
+    - id: 44
+      title: Trần Đại Gia
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660581?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/43-tr%E1%BA%A7n-%C4%91%E1%BA%A1i-gia
+      read_label: 📖 Đọc Sách
+    - id: 45
+      title: Con Tôi
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660582?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/44-con-t%C3%B4i
+      read_label: 📖 Đọc Sách
+    - id: 46
+      title: Kinh Nghiệm Cầu Siêu Cho Vong Thai
+      summary: '*(Đang chờ tóm tắt nội dung chi tiết)*'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/990d7c79-c5a3-410e-acd4-0b03dd887439/file/660583?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: https://sites.google.com/view/buhd6/t%E1%BA%ADp-6/45-kinh-nghi%E1%BB%87m-c%E1%BA%A7u-si%C3%AAu-cho-vong-thai
+      read_label: 📖 Đọc Sách

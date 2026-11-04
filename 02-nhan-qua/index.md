@@ -12,7 +12,8 @@ Gieo nhân lành, gặt quả ngọt. Nơi chia sẻ bộ sưu tập truyện th
 * 📙 **[Báo Ứng Hiện Đời — Tập 3 (46 bài MP3 + Tóm Tắt 24 Nhóm Truyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tap-3)**
 * 📕 **[Báo Ứng Hiện Đời — Tập 4 (48 bài MP3 + Tóm Tắt 35 Mục Truyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tap-4)**
 * 📓 **[Báo Ứng Hiện Đời — Tập 5 (43 bài MP3 Trực Tiếp — Phần 1 & Phần 2)](/nhan-qua/bao-ung-hien-doi-tap-5)**
-* 📔 **[Báo Ứng Hiện Đời — Tập 7 (36 bài MP3 + Danh Mục 35 Truyện Audio.com)](/nhan-qua/bao-ung-hien-doi-tap-7)**
+* 📔 **[Báo Ứng Hiện Đời — Tập 6 (46 bài MP3 Trực Tiếp + Danh Mục Truyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tap-6)**
+* 📕 **[Báo Ứng Hiện Đời — Tập 7 (36 bài MP3 + Danh Mục 35 Truyện Audio.com)](/nhan-qua/bao-ung-hien-doi-tap-7)**
 
 ---
 
