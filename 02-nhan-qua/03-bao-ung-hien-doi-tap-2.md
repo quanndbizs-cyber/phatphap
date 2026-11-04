@@ -5,7 +5,7 @@
 > Tuyển tập **Báo Ứng Hiện Đời - Tập 2** gồm **28 bài Audio MP3** phát trực tiếp từ Audiobookshelf và bảng tóm tắt chi tiết 13 nhóm truyện (27 câu chuyện nhân quả hiện đời) kèm liên kết đọc sách.
 
 * [← Quay về Trung Tâm Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)
-* [📖 Đọc Bản Chữ Tập 2 (Google Sites)](https://sites.google.com/view/buhd/t%E1%BA%ADp-2)
+* [📖 Đọc Bản Chữ Tập 2 (Google Sites)](https://sites.google.com/view/buhd2/t%E1%BA%ADp-2)
 
 ---
 
@@ -15,6 +15,6 @@
 
 ---
 
-## 2. Tóm Tắt Nội Dung Từng Truyện & Nghe Nhanh Theo Nhóm
+## 2. Tóm Tắt & Nghe Từng Truyện (28 Bài)
 
 [:storylist id="stories" :]

@@ -1,7 +1,7 @@
 # Báo Ứng Hiện Đời — Tập 7 (SC. Hạnh Đoan Biên Dịch)
 
 * [← Quay về Trung Tâm Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)
-* [📖 Đọc Bản Chữ Tập 7 (Google Sites)](https://sites.google.com/view/buhd/t%E1%BA%ADp-7)
+* [📖 Đọc Bản Chữ Tập 7 (Google Sites)](https://sites.google.com/view/buhd7/t%E1%BA%ADp-7)
 
 ---
 
@@ -14,3 +14,10 @@
 ## 2. Danh Mục 35 Truyện Trên Audio.com (Tra Cứu Nhanh)
 
 [:tracklist id="tap7" base="https://audio.com/quan-nguyen-duc-1/audio/" :]
+
+
+---
+
+## 3. Tóm Tắt & Nghe Từng Truyện (36 Bài)
+
+[:storylist id="stories" :]
