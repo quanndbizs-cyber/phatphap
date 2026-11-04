@@ -4,7 +4,7 @@
 >
 > *“Nóng giận không đốt hết phước đức, nhưng nó đốt sạch rừng công đức.”*
 >
-> * 📄 **[Xem / Tải bản PDF đầy đủ kèm hình minh họa (san-han-va-cong-duc.pdf)](/phatphap/media/files/san-han-va-cong-duc.pdf)**
+> * 📄 **[Xem / Tải bản PDF đầy đủ kèm hình minh họa (san-han-va-cong-duc.pdf)](/media/files/san-han-va-cong-duc.pdf)**
 
 ---
 

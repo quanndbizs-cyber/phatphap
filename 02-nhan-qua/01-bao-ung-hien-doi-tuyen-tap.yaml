@@ -22,7 +22,7 @@ mediaplayer:
             badge: 20 bài
             abs_key: buhd1
             url: https://qts-home.duckdns.org/audiobookshelf/share/A3E3w3dOtH
-            read_url: /phatphap/nhan-qua/bao-ung-hien-doi-tap-1
+            read_url: /nhan-qua/bao-ung-hien-doi-tap-1
             pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
             video_url: https://www.youtube.com/watch?v=rXbPRWdLpOI
         -   section: Tuyển Tập Đa Phương Tiện (Tập 1 – 4)
@@ -31,28 +31,28 @@ mediaplayer:
             badge: 28 bài
             abs_key: buhd2
             url: https://qts-home.duckdns.org/audiobookshelf/share/8CCEm8aEHY
-            read_url: /phatphap/nhan-qua/bao-ung-hien-doi-tap-2
+            read_url: /nhan-qua/bao-ung-hien-doi-tap-2
         -   section: Tuyển Tập Đa Phương Tiện (Tập 1 – 4)
             title: Báo Ứng Hiện Đời - Tập 3
             subtitle: 46 bài MP3 • Tóm tắt & Sách đọc
             badge: 46 bài
             abs_key: buhd3
             url: https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-3
-            read_url: /phatphap/nhan-qua/bao-ung-hien-doi-tap-3
+            read_url: /nhan-qua/bao-ung-hien-doi-tap-3
         -   section: Tuyển Tập Đa Phương Tiện (Tập 1 – 4)
             title: Báo Ứng Hiện Đời - Tập 4
             subtitle: 48 bài MP3 • Tóm tắt & Sách đọc
             badge: 48 bài
             abs_key: buhd4
             url: https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-4
-            read_url: /phatphap/nhan-qua/bao-ung-hien-doi-tap-4
+            read_url: /nhan-qua/bao-ung-hien-doi-tap-4
         -   section: Tuyển Tập Tiếp Theo (Tập 5 – 7)
             title: Báo Ứng Hiện Đời - Tập 5
             subtitle: 43 bài MP3 (Phần 1 & Phần 2)
             badge: 43 bài
             abs_key: buhd5_1,buhd5_2
             url: https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-5
-            read_url: /phatphap/nhan-qua/bao-ung-hien-doi-tap-5
+            read_url: /nhan-qua/bao-ung-hien-doi-tap-5
         -   section: Tuyển Tập Tiếp Theo (Tập 5 – 7)
             title: Báo Ứng Hiện Đời - Tập 6
             subtitle: 46 bài MP3 • Audiobookshelf & Audio.com
@@ -66,7 +66,7 @@ mediaplayer:
             badge: 36 bài
             abs_key: buhd7
             url: https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-7-hanh-djoan-pd
-            read_url: /phatphap/nhan-qua/bao-ung-hien-doi-tap-7
+            read_url: /nhan-qua/bao-ung-hien-doi-tap-7
     tap1_stories:
         items:
         -   id: 1

@@ -4,7 +4,7 @@
 >
 > Tuyển tập **Báo Ứng Hiện Đời - Tập 4** gồm **48 bài Audio MP3** phát trực tiếp từ Audiobookshelf và bảng tóm tắt chi tiết 35 mục truyện nhân quả kèm liên kết đọc sách.
 
-* [← Quay về Trung Tâm Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/phatphap/nhan-qua/bao-ung-hien-doi-tuyen-tap)
+* [← Quay về Trung Tâm Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)
 * [📖 Đọc Bản Chữ Tập 4 (Google Sites)](https://sites.google.com/view/buhd/t%E1%BA%ADp-4)
 * [↗ Mở Bộ Sưu Tập Tập 4 trên Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-4)
 
