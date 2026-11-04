@@ -9,9 +9,7 @@
 
 ---
 
-<a id="muc-luc"></a>
-
-## 📑 Mục Lục Các Câu Chuyện (Tập 6)
+## 📑 Mục Lục Các Câu Chuyện (Tập 6) {#muc-luc}
 
 * [GIỌT NƯỚC MẮT ANH TÀI CÔNG](#truyen-1)
 * [TAI NẠN NỬA ĐÊM](#truyen-2)
@@ -61,12 +59,9 @@
 
 ---
 
-<a id="truyen-1"></a>
-<a id="giọt-nước-mắt-anh-tài-công"></a>
+## 1. GIỌT NƯỚC MẮT ANH TÀI CÔNG {#truyen-1}
 
-## 1. GIỌT NƯỚC MẮT ANH TÀI CÔNG
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Việc này xảy ra vào khoảng hơn 20 năm trước, lúc đó nhằm thời “Văn hóa đại cách mạng” tình thế đất nước đang dầu sôi lửa bỏng.
 
@@ -137,12 +132,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-2"></a>
-<a id="tai-nạn-nửa-đêm"></a>
+## 2. TAI NẠN NỬA ĐÊM {#truyen-2}
 
-## 2. TAI NẠN NỬA ĐÊM
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi là một phụ nữ họ Tăng, tốt nghiệp Đại học khoa Trung Văn, hiện đã kết hôn được ba năm rưỡi và có một con trai, nhưng tâm tư tôi lúc nào cũng khao khát được xuất gia. Do vậy mà mỗi khi tôi đi chùa thường bị chồng bất bình, dẫn đến gây cãi với nhau luôn, vì chồng tôi cương quyết nói: “Ở nhà tu cũng được, không cần phải xuất gia!”. Tôi không đồng ý, nên thường tranh cãi với anh. Chồng tôi không chịu nổi bực phiền, có lúc nổi nóng đến phải đập, ném đồ đạc… hoặc bỏ ra ngoài nhậu nhẹt để giải khuây, do vậy mà gia đạo chúng tôi thường bất hòa, rối rắm.
 
@@ -233,12 +225,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-3"></a>
-<a id="cứu-khỉ-một-nạn-khỉ-cứu-lại-một-làng"></a>
+## 3. CỨU KHỈ MỘT NẠN, KHỈ CỨU LẠI MỘT LÀNG {#truyen-3}
 
-## 3. CỨU KHỈ MỘT NẠN, KHỈ CỨU LẠI MỘT LÀNG
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tại khu rừng rậm Kim Phật Sơn (Trùng Khánh), có câu chuyện cảm động giữa khỉ và người như sau:
 
@@ -267,12 +256,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-4"></a>
-<a id="một-buổi-quán-sát-nhân-quả"></a>
+## 4. MỘT BUỔI QUÁN SÁT NHÂN QUẢ {#truyen-4}
 
-## 4. MỘT BUỔI QUÁN SÁT NHÂN QUẢ
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Nghe Viện dịch kinh thông báo có Cư sĩ Quả Khanh và con gái từ Thiên Tân đến chủ trì pháp hội, giải đáp về nhân quả, thế là tôi vội đến tham dự.
 
@@ -443,12 +429,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-5"></a>
-<a id="không-nên-ăn-cá"></a>
+## 5. KHÔNG NÊN ĂN CÁ {#truyen-5}
 
-## 5. KHÔNG NÊN ĂN CÁ
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi là một phụ nữ ở Triết Giang, Đài Châu, năm nay 46 tuổi. Mười mấy năm nay, Tôi thọ khổ tận cùng giống như sống trong địa ngục trần gian. Tôi biết là nghiệp chướng túc thế trổ, là oan gia trái chủ làm ra.
 
@@ -513,12 +496,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-6"></a>
-<a id="ác-báo-đáng-sợ"></a>
+## 6. ÁC BÁO ĐÁNG SỢ {#truyen-6}
 
-## 6. ÁC BÁO ĐÁNG SỢ
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Sáng nay có người ở Việt Nam dẫn hai đứa bé tới gặp tôi, nói sức khỏe chúng không được tốt, mong tôi giúp chúng mọi sự thuận lợi như ý cát tường.
 
@@ -569,12 +549,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-7"></a>
-<a id="vì-sao-không-nên-sát-sinh"></a>
+## 7. VÌ SAO KHÔNG NÊN SÁT SINH {#truyen-7}
 
-## 7. VÌ SAO KHÔNG NÊN SÁT SINH
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Quý vị hãy nhớ tích xưa trong sử, ngày mà vua Tỳ Lưu Ly giết sạch giòng họ Thích-ca, đầu Đức Phật cũng bị nhức thống thiết. Nguyên nhân từ đâu? Đó là vào kiếp quá khứ xa xưa, khi giòng họ Thích là dân làng chài và đức Phật Thích-ca là một cậu bé trong làng chài đó. Khi dân chài bắt được con cá lớn, sắp giết thịt ăn, cậu bé tiền thân Phật đã đùa nghịch lấy cây đánh vào đầu nó ba cái. Con cá lớn đó chính là tiền thân vua Lưu Ly, khi sinh làm người đã giết sạch going họ Thích-ca, còn đức Phật cũng trả báo nhẹ là bị nhức đầu.
 
@@ -603,12 +580,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-8"></a>
-<a id="con-cá-ngát"></a>
+## 8. CON CÁ NGÁT {#truyen-8}
 
-## 8. CON CÁ NGÁT
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi sinh năm 1982. Ngày từ thời bé tí tôi rất có hứng thú đối với Phật pháp. Mười mấy tuổi thì bắt đầu tiếp xúc Phật giáo, lúc xem Lục Tổ Đàn Kinh thấy dễ hiểu, đối với kinh văn rất ưa thích.
 
@@ -639,12 +613,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-9"></a>
-<a id="những-điều-phái-nữ-cần-biết"></a>
+## 9. NHỮNG ĐIỀU PHÁI NỮ CẦN BIẾT {#truyen-9}
 
-## 9. NHỮNG ĐIỀU PHÁI NỮ CẦN BIẾT
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 (Bài thuyết giảng của Bác sĩ Bành Hâm彭鑫)
 
@@ -749,12 +720,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-10"></a>
-<a id="anh-kỹ-sư-kiến-trúc"></a>
+## 10. ANH KỸ SƯ KIẾN TRÚC {#truyen-10}
 
-## 10. ANH KỸ SƯ KIẾN TRÚC
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có một kỹ sư kiến trúc, tuổi trẻ giàu sang, rất thành đạt, mạnh khỏe. Quanh năm lui tới Giang Tôi nhận các công trình đại thiết kết. Tuổi còn trẻ mà giàu kếch xù, nên vô cùng đắc ý, ông tha hồ phóng túng tình dục, tận hưởng hoan lạc.
 
@@ -803,12 +771,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-11"></a>
-<a id="bàn-về-giao-tế-ăn-mặc"></a>
+## 11. BÀN VỀ GIAO TẾ, ĂN MẶC {#truyen-11}
 
-## 11. BÀN VỀ GIAO TẾ, ĂN MẶC
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 (Buổi giảng ở Huệ Châu của Quả Khanh)
 
@@ -891,12 +856,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-12"></a>
-<a id="những-điều-phái-nam-cần-nên-biết"></a>
+## 12. NHỮNG ĐIỀU PHÁI NAM CẦN NÊN BIẾT {#truyen-12}
 
-## 12. NHỮNG ĐIỀU PHÁI NAM CẦN NÊN BIẾT
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hỏi: Thủ dâm có phải là tà dâm chăng?
 
@@ -1019,12 +981,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-13"></a>
-<a id="tâm-sự-của-ba-chàng-trai"></a>
+## 13. TÂM SỰ CỦA BA CHÀNG TRAI {#truyen-13}
 
-## 13. TÂM SỰ CỦA BA CHÀNG TRAI
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Chuyện thứ nhất
 
@@ -1139,12 +1098,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-14"></a>
-<a id="kinh-nghiệm-tuyệt-diệu-về-giới-dâm"></a>
+## 14. KINH NGHIỆM TUYỆT DIỆU VỀ GIỚI DÂM {#truyen-14}
 
-## 14. KINH NGHIỆM TUYỆT DIỆU VỀ GIỚI DÂM
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mẹ tôi vốn là một phụ nữ rất xinh đẹp, hồi nhỏ tôi cũng là một bé gái thông minh lanh lợi khả ái, nhưng do không hiểu báo ứng nhân quả, không được giáo dục tốt và chưa thấm nhuần Phật pháp, nên ngay từ 6 tuổi tôi đã nhiễm phải thói xấu thủ dâm, ác tật huân quen, một ngày phải giải quyết hai lần, lúc thực hiện cảm thấy vô cùng thích thú và lòng chưa đầy ý tà.
 
@@ -1221,12 +1177,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-15"></a>
-<a id="tâm-sự-kẻ-thứ-ba"></a>
+## 15. TÂM SỰ KẺ THỨ BA {#truyen-15}
 
-## 15. TÂM SỰ KẺ THỨ BA
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Chẳng biết tôi bắt đầu tự thỏa dục từ hồi nào, chỉ khi bắt đầu học Phật hiểu pháp rồi tôi mới thức tỉnh, mới biết thỉnh cầu chư Phật, Bồ tát gia trì và có đủ sức mạnh từ bỏ lỗi lầm triệt để.
 
@@ -1357,12 +1310,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-16"></a>
-<a id="ích-lợi-kỳ-diệu-của-việc-giới-dâm"></a>
+## 16. ÍCH LỢI KỲ DIỆU CỦA VIỆC GIỚI DÂM {#truyen-16}
 
-## 16. ÍCH LỢI KỲ DIỆU CỦA VIỆC GIỚI DÂM
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi là một phụ nữ 39 tuổi, đang công tác tại một xí nghiệp nơi thành phố T, có gia đình hạnh phúc, được chồng yêu thương, có con ngoan ngoãn khả ái, còn được cha mẹ luôn quan tâm lo cho, phải nói cuộc sống vô cùng mãn ý.
 
@@ -1415,12 +1365,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-17"></a>
-<a id="hơn-ba-trăm-mạng"></a>
+## 17. HƠN BA TRĂM MẠNG {#truyen-17}
 
-## 17. HƠN BA TRĂM MẠNG
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hôm qua một cô gái từ Đông Hoan gọi điện thoại tới, ngỏ ý muốn được thôi miên và hỏi tôi ngày nào rảnh? Tôi hẹn cô tuần sau.
 
@@ -1569,12 +1516,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-18"></a>
-<a id="hấp-tinh-quỷ"></a>
+## 18. HẤP TINH QUỶ {#truyen-18}
 
-## 18. HẤP TINH QUỶ
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trong các loài quỷ Phật kể, có loài hấp tinh quỷ, vậy chúng hoạt động như thế nào?
 
@@ -1631,12 +1575,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-19"></a>
-<a id="hiện-thế-báo-của-tà-dâm"></a>
+## 19. HIỆN THẾ BÁO CỦA TÀ DÂM {#truyen-19}
 
-## 19. HIỆN THẾ BÁO CỦA TÀ DÂM
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 (Lời kể của một bác sĩ đã khai mở thiên nhãn)
 
@@ -1681,12 +1622,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-20"></a>
-<a id="chuyện-anh-k"></a>
+## 20. CHUYỆN ANH K {#truyen-20}
 
-## 20. CHUYỆN ANH K
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đây là câu chuyện có thật, xảy ra cho anh K, bệnh nhân của tôi. Anh khôi ngô tuấn tú, khoảng 36 tuổi, làm việc tại ngân hàng, sinh hoạt giàu có, tiền bạc dư xài, rất được gia đình, bằng hữu xem trọng.
 
@@ -1773,12 +1711,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-21"></a>
-<a id="tâm-sự-của-thiên-thần"></a>
+## 21. TÂM SỰ CỦA THIÊN THẦN {#truyen-21}
 
-## 21. TÂM SỰ CỦA THIÊN THẦN
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trong các kinh điển Đại thừa, Phật thường nhắc nhở vào các ngày: Mồng 1, mồng 8, 14, 15, 24, 28, 29, 30… nhân gian nên ăn chay tu trì để tăng thêm phúc huệ, vì những ngày này có thiên thần đi thị sát (đại khái ngày mồng 1, 15 thì Tứ thiên vương đi tuần, ngày 14, 28 thì Thái tử đi tuần, còn các ngày kia thì Thiên tướng đi tuần).
 
@@ -1823,12 +1758,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-22"></a>
-<a id="giấc-mộng-của-tôi"></a>
+## 22. GIẤC MỘNG CỦA TÔI {#truyen-22}
 
-## 22. GIẤC MỘNG CỦA TÔI
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Phật môn có câu: Thiện có thiện báo, ác có ác báo, nhân quả không sai mảy may. Hôm nay tôi kể chuyện mình gặp ác báo, để cảnh tỉnh thế nhân, chớ nên sát sinh tạo ác.
 
@@ -1877,12 +1809,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-23"></a>
-<a id="linh-xà-cứu-nạn-dân"></a>
+## 23. LINH XÀ CỨU NẠN DÂN {#truyen-23}
 
-## 23. LINH XÀ CỨU NẠN DÂN
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đầu năm Dân Quốc, Hòa thượng Diệu Liên ở chùa Tử Vân thuộc huyện Chương Châu, tỉnh Phúc Kiến, tuy tuổi hơn 80 nhưng vẫn rất khang kiện, ngài thường thuyết giảng Phật pháp giáo hóa cư dân quanh đó. Ngài dạy họ giới sát, tin nhân quả báo ứng… Bất kể gái, trai, già, trẻ, hễ nghe đến lời ngài khai thị đều kính ngưỡng tin phục.
 
@@ -1927,12 +1856,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-24"></a>
-<a id="50-năm-sau-mới-báo-thù"></a>
+## 24. NĂM SAU MỚI BÁO THÙ {#truyen-24}
 
-## 24. NĂM SAU MỚI BÁO THÙ
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đây là Phó chủ nhiệm tự thuật câu chuyện đã xảy ra cho phụ thân ông.
 
@@ -1963,12 +1889,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-25"></a>
-<a id="đôi-mắt-âm-dương"></a>
+## 25. ĐÔI MẮT ÂM DƯƠNG {#truyen-25}
 
-## 25. ĐÔI MẮT ÂM DƯƠNG
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Bà tôi kể hồi nhỏ, những lúc nông nhàn thì bà se nhang (làm nghề phụ). Bà không hề tẩm hóa chất nào vào nhang, để tỏ lòng tôn kính, vì đây là vật phẩm dành để cúng dường.
 
@@ -2065,12 +1988,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-26"></a>
-<a id="giai-nhân-áo-phượng"></a>
+## 26. GIAI NHÂN ÁO PHƯỢNG {#truyen-26}
 
-## 26. GIAI NHÂN ÁO PHƯỢNG
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Lời giới thiệu của hội Phật giáo:
 
@@ -2211,12 +2131,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-27"></a>
-<a id="bái-kinh-cứu-mẹ"></a>
+## 27. BÁI KINH CỨU MẸ {#truyen-27}
 
-## 27. BÁI KINH CỨU MẸ
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Toàn gia Cư sĩ Quả Trú thuộc thành phần tri thức, cả ba thế hệ đều là Giáo sư đại học.
 
@@ -2331,12 +2248,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-28"></a>
-<a id="thiên-địa-quan-thần"></a>
+## 28. THIÊN ĐỊA QUAN THẦN {#truyen-28}
 
-## 28. THIÊN ĐỊA QUAN THẦN
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Thiên có thiên thần, địa có địa thần cùng các quỷ thần. Chư thần quan, thiên tướng… trong trời đất là những vị đảm trách công tác điều tra, gọi là “Tư quá chi thần” chuyên giám sát công, tội ở nhân gian.
 
@@ -2373,12 +2287,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-29"></a>
-<a id="tôi-đã-thấy-hai-vị-thần-đồng-sinh-đồng-danh"></a>
+## 29. TÔI ĐÃ THẤY HAI VỊ THẦN ĐỒNG SINH, ĐỒNG DANH {#truyen-29}
 
-## 29. TÔI ĐÃ THẤY HAI VỊ THẦN ĐỒNG SINH, ĐỒNG DANH
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Vừa rồi bàn đến hai vị thần Đồng Sinh và Đồng Danh, nhờ nhân duyên đặc biệt, tôi cũng đã nhìn thấy họ, vóc dáng giống như đứa bé 7-8 tuổi (hèn gì mà Phật gọi họ là đồng tử).
 
@@ -2429,12 +2340,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-30"></a>
-<a id="trên-đầu-ba-thước-có-thần-linh"></a>
+## 30. TRÊN ĐẦU BA THƯỚC CÓ THẦN LINH {#truyen-30}
 
-## 30. TRÊN ĐẦU BA THƯỚC CÓ THẦN LINH
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Người Trung Quốc có câu: “Trên đầu ba thước có thần linh”. Còn có một thuyết khác nữa là: “Ngẩng đầu ba thước có thanh thiên, có thể dối người, nhưng không thể dối trời!”. Câu này nhắc chúng ta trong mỗi thời khắc đều phải kiểm soát các khởi tâm động niệm của mình, từng hành động ý nghĩ, đều phải hướng về dứt ác hành thiện. Riêng nhà Phật thì giảng: Trên thân mỗi người có hai vị thần, là thần Đồng Danh và thần Đồng Sinh. Thần Đồng Danh thì trắng, là nam, chuyên ghi thiện. Còn thần Đồng Sinh thì đen, là nữ, chuyên ghi ác. Bất kỳ khởi tâm động niệm thiện ác nào của chúng ta, các thần đều ghi lại hết. Cho nên tốt nhất chúng ta không nên khởi tâm động niệm cẩu thả, tránh gieo nhân ác. Nếu lỡ tạo ác, thì phải mau hồi đầu, không nên tiếp tục phạm giới luật. Kinh Vô Lượng Thọ thuyết: Thần minh ghi biết, phạm tội không tha.
 
@@ -2479,12 +2387,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-31"></a>
-<a id="thần-thổ-địa"></a>
+## 31. THẦN THỔ ĐỊA {#truyen-31}
 
-## 31. THẦN THỔ ĐỊA
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Thổ địa được tôn là “Phúc đức chánh thần”, danh xưng này kết hợp bằng bốn từ, chẳng dễ dàng có hay tùy tiện tôn đại. Phần đông những người kém hiểu biết còn lầm Thổ địa với Thần tài, nhưng thực sự không phải thế.
 
@@ -2549,12 +2454,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-32"></a>
-<a id="vấn-xuyên-đại-địa-chấn"></a>
+## 32. VẤN XUYÊN ĐẠI ĐỊA CHẤN {#truyen-32}
 
-## 32. VẤN XUYÊN ĐẠI ĐỊA CHẤN
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Cả đời tôi tin sâu hai điều:
 
@@ -2633,12 +2535,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-33"></a>
-<a id="chị-của-ích-tây"></a>
+## 33. CHỊ CỦA ÍCH TÂY {#truyen-33}
 
-## 33. CHỊ CỦA ÍCH TÂY
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Bài này là nguyên tác của A Minh, thuộc bên Phật giáo Tây Tạng. Kể về một phụ nữ tự sát. Thông thường những người tự sát đều đọa địa ngục, nhưng nhân vật nữ trong đây không những chẳng đọa địa ngục mà còn chuyển sinh làm nam, xin chuyển đến quý vị làm tư liệu nghiên cứu.
 
@@ -2721,12 +2620,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-34"></a>
-<a id="tự-sát-đọa-cõi-ác"></a>
+## 34. TỰ SÁT ĐỌA CÕI ÁC {#truyen-34}
 
-## 34. TỰ SÁT ĐỌA CÕI ÁC
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Thượng sư Đặc-ni được công nhận là một vị hóa thân thù thắng, công phu cao, thành tựu đại viên mãn. Thời thanh niên ngài trường kỳ bế quan khổ tu, chứng thực kiếp trước giác tỉnh tròn đầy. Bề ngoài ngài làm ra vẻ như là kẻ phong điên, nhưng có đủ thần thông tự tại. Ngài thường đem giáo pháp làm lợi chúng sinh hữu duyên. Mặc dù có thần thông nhưng ngài không hiển lộ cẩu thả, chỉ khi quán sát cơ duyên kỹ càng rồi, ngài mới thực hành bi hạnh lợi sinh.
 
@@ -2795,12 +2691,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-35"></a>
-<a id="hướng-phật-xin-công-tác"></a>
+## 35. HƯỚNG PHẬT XIN CÔNG TÁC {#truyen-35}
 
-## 35. HƯỚNG PHẬT XIN CÔNG TÁC
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi học Phật được mấy năm, do gần đây con trai bị bệnh, tôi đã đem cháu đi chữa trị khắp nơi, nhưng vô hiệu. Sau này tình cờ lên net nhìn thấy trang web “Tiểu Viện Sơn Tây” của Phật giáo, tôi bèn thỉnh một cuốn kinh Địa Tạng đem về nhà đọc, với hi vọng biết đâu may gặp thuốc hay có thể cứu được con.
 
@@ -2853,12 +2746,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-36"></a>
-<a id="tâm-sự-người-vợ"></a>
+## 36. TÂM SỰ NGƯỜI VỢ {#truyen-36}
 
-## 36. TÂM SỰ NGƯỜI VỢ
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Bài tự thuật này là của Viên Viên hội viên đoàn Tâm Thượng Liên Hoa. Chị ngày xưa đã trải qua kinh nghiệm thống khổ tận cùng. Sau đó, may gặp thiện tri thức, chị phát tâm sám hối, tu trì, sửa lỗi và từng bước, từng bước mài luyện tâm. Đến nay, chị hoàn toàn thay đổi, được “hoán cốt trùng sinh”.
 
@@ -3083,12 +2973,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-37"></a>
-<a id="mối-duyên-của-dượng-x"></a>
+## 37. MỐI DUYÊN CỦA DƯỢNG X {#truyen-37}
 
-## 37. MỐI DUYÊN CỦA DƯỢNG X
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Dượng X là chồng của cô tôi. Mẹ dượng X do xung đột trong gia đình, khó kham nên tự sát. Tính cô tôi vốn nóng nảy không tốt, đối với dượng rất lạnh nhạt, có thể nói là hôn nhân họ chẳng hợp nhau.
 
@@ -3133,12 +3020,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-38"></a>
-<a id="đôi-mắt-trẻ-thơ"></a>
+## 38. ĐÔI MẮT TRẺ THƠ {#truyen-38}
 
-## 38. ĐÔI MẮT TRẺ THƠ
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mùa xuân năm 1976, tôi đến chợ Cáp Nhĩ mua đồ, nghe thiên hạ bàn tán xôn xao về một chuyện vừa xảy ra cách đó không lâu.
 
@@ -3165,12 +3049,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-39"></a>
-<a id="tòa-lầu-giải-trí"></a>
+## 39. TÒA LẦU GIẢI TRÍ {#truyen-39}
 
-## 39. TÒA LẦU GIẢI TRÍ
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm 1936 khi quân Nhật chưa chiếm lĩnh các thành phố lớn trong nước, chúng thường cho phi cơ oanh tạc Nam Kinh, khiến mọi người khắp nơi đều kinh hoàng.
 
@@ -3195,12 +3076,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-40"></a>
-<a id="vương-quả-phụ"></a>
+## 40. VƯƠNG QUẢ PHỤ {#truyen-40}
 
-## 40. VƯƠNG QUẢ PHỤ
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trước giải phóng, nơi thị trấn bà ngoại tôi cư ngụ, có một cô họ Vương. Chồng đã mất sớm, chỉ còn cô nhi quả phụ nương nhau mà sống, nếm trải nhiều cơ cực gian nan, cư dân quanh đó thường giúp đỡ cho họ.
 
@@ -3233,12 +3111,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-41"></a>
-<a id="chuyện-của-ba-tôi"></a>
+## 41. CHUYỆN CỦA BA TÔI {#truyen-41}
 
-## 41. CHUYỆN CỦA BA TÔI
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ba tôi kể: Vào thời đất nước đang lửa bỏng dầu sôi, ông là một sinh viên. Lúc đó có hai đảng phái chống đối nhau, đảng A ném bom vào trường khiến người bị thương vong rất nhiều.
 
@@ -3263,12 +3138,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-42"></a>
-<a id="chuyện-các-vũ-trường"></a>
+## 42. CHUYỆN CÁC VŨ TRƯỜNG {#truyen-42}
 
-## 42. CHUYỆN CÁC VŨ TRƯỜNG
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mười năm trước, quê tôi có rất nhiều quán bar, vũ trường bên ngoài là nơi nhảy nhót khiêu vũ, nhưng thực chất là kiểu treo đầu dê bán thịt chó, bởi bên trong có cơ sở ngầm bán nhiều chất gây nghiện kiêm phục vụ tình dục, chuyên mồi chài gạ gẫm, giăng bẫy dụ khách ăn chơi sa đà. Các vũ trường này làm ăn rất phát, giám đốc nhờ vậy mà giàu sụ, phất to. Mười năm trôi qua, bây giờ nhìn lại, các tụ điểm ăn chơi này sớm đã vắng tẻo lạnh tanh, suy sụp hết cả.
 
@@ -3299,12 +3171,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-43"></a>
-<a id="trần-đại-gia"></a>
+## 43. TRẦN ĐẠI GIA {#truyen-43}
 
-## 43. TRẦN ĐẠI GIA
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ông Trần là người thông minh tài giỏi. Tướng mạo tuấn tú, con nhà phú quý, tính tình phóng khoáng, ăn nói rất có duyên, thu hút.
 
@@ -3335,12 +3204,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-44"></a>
-<a id="con-tôi"></a>
+## 44. CON TÔI {#truyen-44}
 
-## 44. CON TÔI
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi nhớ có người từng hỏi Đức Lạt ma: Hiện thời Trung Quốc mỗi năm có mười lăm triệu phụ nữ phá thai, ngài sẽ nhắn nhủ gì với các vị này?
 
@@ -3507,12 +3373,9 @@ Sưu tầm và biên dịch
 
 ---
 
-<a id="truyen-45"></a>
-<a id="kinh-nghiệm-cầu-siêu-cho-vong-thai"></a>
+## 45. KINH NGHIỆM CẦU SIÊU CHO VONG THAI {#truyen-45}
 
-## 45. KINH NGHIỆM CẦU SIÊU CHO VONG THAI
-
-> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 6](/nhan-qua/bao-ung-hien-doi-tap-6#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm 2001, con gái tôi không cẩn thận bị dính thai lần hai, nó gọi điện tới hỏi phải làm sao? Tôi bảo: Phá thai là tội sát nghiêm trọng, vì vậy nếu con đã mang thai rồi thì phải sinh ra, tuyệt đối không được phá!
 

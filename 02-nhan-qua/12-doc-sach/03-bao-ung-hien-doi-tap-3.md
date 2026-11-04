@@ -9,9 +9,7 @@
 
 ---
 
-<a id="muc-luc"></a>
-
-## 📑 Mục Lục Các Câu Chuyện (Tập 3)
+## 📑 Mục Lục Các Câu Chuyện (Tập 3) {#muc-luc}
 
 * [LỜI TÁC GIẢ](#truyen-1)
 * [1. TÂM SỰ TRÙM DU ĐÃNG](#truyen-2)
@@ -57,12 +55,9 @@
 
 ---
 
-<a id="truyen-1"></a>
-<a id="lời-tác-giả"></a>
+## 1. LỜI TÁC GIẢ {#truyen-1}
 
-## 1. LỜI TÁC GIẢ
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi tuyệt chẳng ngờ được khi “Báo ứng Hiện Đời” xuất bản xong, lập tức được các bạn đạo khắp nơi nhiệt tình hưởng ứng, và sách liên tục được in ấn, tái bản nhiều như vậy.
 
@@ -97,12 +92,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-2"></a>
-<a id="1-tâm-sự-trùm-du-đãng"></a>
+## 2. TÂM SỰ TRÙM DU ĐÃNG {#truyen-2}
 
-## 2. TÂM SỰ TRÙM DU ĐÃNG
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Thưa chư vị cư sĩ:
 
@@ -165,12 +157,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-3"></a>
-<a id="2-tâm-sự-quý-phu-nhân"></a>
+## 3. TÂM SỰ “QUÝ PHU NHÂN” {#truyen-3}
 
-## 3. TÂM SỰ “QUÝ PHU NHÂN”
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tan nát lại đoàn viên
 
@@ -231,12 +220,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-4"></a>
-<a id="3-không-nên-mặc-tình-làm-hại-cây-cỏ"></a>
+## 4. KHÔNG NÊN MẶC TÌNH LÀM HẠI CÂY CỎ {#truyen-4}
 
-## 4. KHÔNG NÊN MẶC TÌNH LÀM HẠI CÂY CỎ
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một ngày vào năm 1993, một nông dân tên Thi khoảng 33 tuổi, đến ngôi chùa lớn ở làng quê xin gặp Hòa thượng Diệu Pháp.
 
@@ -277,12 +263,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-5"></a>
-<a id="4-nước-tràn-kim-sơn-tự"></a>
+## 5. NƯỚC TRÀN KIM SƠN TỰ {#truyen-5}
 
-## 5. NƯỚC TRÀN KIM SƠN TỰ
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tháng 7 năm 1997, Chu nữ sĩ là giáo sư đại học cùng chồng lên Ngũ Đài Sơn bái Phật. Trong dịp tình cờ, nghe đồn Hòa thượng tu hành uyên thâm liền đến thỉnh giáo.
 
@@ -379,12 +362,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-6"></a>
-<a id="5-bịnh-tùng-khẩu-nhập"></a>
+## 6. BỊNH TÙNG KHẨU NHẬP {#truyen-6}
 
-## 6. BỊNH TÙNG KHẨU NHẬP
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Vì thèm ăn mà kho thịt rán cá, nào biết động vật bị giết trong lòng chẳng cam. Nhà bếp biến thành lò đồ tể: moi ruột mổ bụng, vung đao hành hình. Bạn chiên, xào, nấu, hầm… thịt loài vật, thậm chí ăn sống nuốt tươi: cho đó là mỹ vị cao lương, ngon bổ. Đâu biết vật chết thảm lòng đầy oán hờn, thần thức chúng sẽ gá vào thân bạn, sớm muộn gì cũng bắt bạn đền mạng.
 
@@ -429,12 +409,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-7"></a>
-<a id="6-phí-phạm-của-trời-tội-rất-lớn"></a>
+## 7. PHÍ PHẠM CỦA TRỜI TỘI RẤT LỚN {#truyen-7}
 
-## 7. PHÍ PHẠM CỦA TRỜI TỘI RẤT LỚN
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một nữ ký giả tờ báo X nhiều lần nghe sư phụ giảng pháp, chỉ rõ nguyên nhân bịnh cho những người đến cầu khai thị.
 
@@ -463,12 +440,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-8"></a>
-<a id="7-dùng-cho-hết"></a>
+## 8. DÙNG CHO HẾT {#truyen-8}
 
-## 8. DÙNG CHO HẾT
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 A Di Đà Phật! Thưa Sư phụ! Chúng con là Phật giáo đồ Hoa Nghiêm Quang từ xa đến. Cô bên cạnh con là cô A, nói tiếng Hoa không rành nên con thay cô ấy hỏi giùm. Cô A nói mình bịnh bao tử, đã uống thuốc chữa trị nhiều mà không thấy hiệu quả, nhưng cô không hề lãng phí thực phẩm gì. Xin Sư phụ từ bi chỉ giáo cho ạ!
 
@@ -485,12 +459,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-9"></a>
-<a id="8-đừng-lấy-vật-khống-phải-của-mình"></a>
+## 9. ĐỪNG LẤY VẬT KHỐNG PHẢI CỦA MÌNH {#truyen-9}
 
-## 9. ĐỪNG LẤY VẬT KHỐNG PHẢI CỦA MÌNH
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ông X thưa:
 
@@ -537,12 +508,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-10"></a>
-<a id="9-thân-khuyển-mã"></a>
+## 10. THÂN KHUYỂN MÃ {#truyen-10}
 
-## 10. THÂN KHUYỂN MÃ
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mấy năm trước, tôi qua Mỹ thăm bạn, được dẫn đến một khu vườn chơi nổi danh để tham quan. Tiến vào cổng lớn không xa thì thấy có một chiếc xe thổ mộ rất sang trọng vừa đỗ lại trước mặt chúng tôi. Tôi bị màu lông trắng tuyết của con tuấn mã thu hút. Nó rất đẹp, đầu ngẩng cao, lông trắng mướt như nhung và cái bờm tuyệt mỹ.
 
@@ -601,12 +569,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-11"></a>
-<a id="10-nguyên-nhân-không-ngờ"></a>
+## 11. NGUYÊN NHÂN KHÔNG NGỜ {#truyen-11}
 
-## 11. NGUYÊN NHÂN KHÔNG NGỜ
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có một nữ cư sĩ hơn 60 tuổi đến bái kiến Hòa thượng, kể là bản thân mình mấy mươi năm nay luôn cảm thấy khó thở nơi ngực, nhưng đi bịnh viện khám vẫn không ra bịnh. Bà uống thuốc đồng tây y đủ hết nhưng không hiệu quả, khẳng định là trị không hết. Nghe sư phụ giảng Phật pháp, bà rất tin. Xin sư phụ quán sát giùm xem bản thân bà đã tạo nghiệp chi mà bị bịnh này?
 
@@ -657,12 +622,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-12"></a>
-<a id="11-cẩn-thận-khi-gieo-nhân"></a>
+## 12. CẨN THẬN KHI GIEO NHÂN {#truyen-12}
 
-## 12. CẨN THẬN KHI GIEO NHÂN
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm ngoái, Cung tiên sinh cùng vợ đồng đến bái kiến Hòa thượng Diệu Pháp. Vừa gặp đã thấy má bên phải của ông bị bỏng đỏ. Tiên sinh khoảng hơn 40 tuổi, mày rậm mắt to, môi dày, tính cách ông khiến người đối diện có cảm giác ông rất chân chất trung thực. Thế nhưng tinh thần ông ngó bộ không được tốt lắm.
 
@@ -697,12 +659,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-13"></a>
-<a id="12-mang-thai-không-nên-nối-giận"></a>
+## 13. MANG THAI KHÔNG NÊN NỐI GIẬN {#truyen-13}
 
-## 13. MANG THAI KHÔNG NÊN NỐI GIẬN
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tại một ngôi chùa ở Tây An, có một phụ nữ khoảng 50 tuổi đang hướng Hòa thượng Diệu Pháp kể lể những uẩn khúc của bà.
 
@@ -743,12 +702,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-14"></a>
-<a id="13-hai-đồng-dưa-cải"></a>
+## 14. HAI ĐỒNG DƯA CẢI {#truyen-14}
 
-## 14. HAI ĐỒNG DƯA CẢI
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có một nữ cư sĩ khoảng hơn 60, mới nhập Phật môn, bà và chồng hướng Hòa thượng thỉnh giáo. Con trai bà hiện nay 41 tuổi, mấy năm trước đầu nó bịnh nấm da trâu, bây giờ đã lên đến não, khắp hai tay, ngón, móng gì cũng bị ráo. Bịnh chuyển lây lan dày mịt, đã chữa chạy khắp nơi mà vẫn vô hiệu, xin Hòa thượng từ bi khai thị.
 
@@ -789,12 +745,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-15"></a>
-<a id="14-nên-sống-chánh-nghiệp"></a>
+## 15. NÊN SỐNG CHÁNH NGHIỆP {#truyen-15}
 
-## 15. NÊN SỐNG CHÁNH NGHIỆP
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trai cưới vợ, gái lấy chồng
 
@@ -857,12 +810,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-16"></a>
-<a id="15-quả-báo-bội-tín-vong-nghĩa"></a>
+## 16. QUẢ BÁO BỘI TÍN VONG NGHĨA {#truyen-16}
 
-## 16. QUẢ BÁO BỘI TÍN VONG NGHĨA
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ký Văn Đông, hơn 40 tuổi, thân mặc hiếu tang, mắt đầm đìa lệ, quỳ trước ngôi mộ mới đắp của thím Trương láng giềng, lâu thật lâu vẫn chưa chịu rời xa.
 
@@ -925,12 +875,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-17"></a>
-<a id="16-bà-hàng-trứng-rán"></a>
+## 17. BÀ HÀNG TRỨNG RÁN {#truyen-17}
 
-## 17. BÀ HÀNG TRỨNG RÁN
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một buổi chiều năm 1993, có người nhấn chuông cổng, tôi ra mở cửa thì gặp một phụ nữ độ ngoài 50, phía sau bà còn có hai cô gái khoảng hai mươi mấy tuổi (đang khiêng một bao gạo to).
 
@@ -1049,12 +996,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-18"></a>
-<a id="17-ham-chút-lợi-nhỏ-bị-thiệt-to"></a>
+## 18. HAM CHÚT LỢI NHỎ BỊ THIỆT TO {#truyen-18}
 
-## 18. HAM CHÚT LỢI NHỎ BỊ THIỆT TO
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một cô gái khoảng 27-28 tuổi, tai nghe lúc được lúc không. Đi bệnh viện kiểm tra, bác sĩ nói là không có bệnh, nhưng thính giác cô vẫn nghe không rõ, chẳng biết tại sao?
 
@@ -1147,12 +1091,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-19"></a>
-<a id="18-lòng-tốt-của-cây-tượng-ba"></a>
+## 19. LÒNG TỐT CỦA CÂY TƯỢNG BA {#truyen-19}
 
-## 19. LÒNG TỐT CỦA CÂY TƯỢNG BA
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm 1994, tôi vẫn trụ tại căn nhà trệt một cổng, một sân. Đến tiết trung thu, thảo mộc kỳ hoa trong sân vẫn xum xuê muôn thuở.
 
@@ -1219,12 +1160,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-20"></a>
-<a id="19-phải-thấy-ưu-điếm-của-người"></a>
+## 20. PHẢI THẤY ƯU ĐIẾM CỦA NGƯỜI {#truyen-20}
 
-## 20. PHẢI THẤY ƯU ĐIẾM CỦA NGƯỜI
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một chiều mùa thu năm ngoái, mười mấy vị cư sĩ Thạch gia trang đến Ngũ Đài Sơn. Trong đó có một bà hơn năm mươi tuổi, đang ở tại nhà khách hướng Hòa thượng Diệu Pháp kể lẻ nỗi khổ tâm của mình:
 
@@ -1277,12 +1215,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-21"></a>
-<a id="20-mê-hồn-thang"></a>
+## 21. MÊ HỒN THANG {#truyen-21}
 
-## 21. MÊ HỒN THANG
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mê hồn thang như… tứ đổ tường… Nhiều người mê đảm khó thể buông hút thuốc, bạc bài mờ tâm trí đắm ghiền tửu, sắc… tự trói thân. Nếu ai thoát khỏi bon tật này chính là Như Lai – tự tại vương.
 
@@ -1307,12 +1242,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-22"></a>
-<a id="21-công-tử-áo-xanh"></a>
+## 22. CÔNG TỬ ÁO XANH {#truyen-22}
 
-## 22. CÔNG TỬ ÁO XANH
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Phố Lạc Dương tình Hà Nam có một gia đình ba nhân khẩu, ông chồng thì thành thật, bà vợ siêng năng đảm đang. Con gái họ 17 tuổi, mỹ lệ khả ái. Nhìn sơ qua thì thấy đây là một gia đình hạnh phúc ấm êm, nhưng quả thực đúng như câu châm ngôn “Nhà nào cũng có điều khổ tâm khó nói”.
 
@@ -1399,12 +1331,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-23"></a>
-<a id="22-người-vợ-đau-khố"></a>
+## 23. NGƯỜI VỢ ĐAU KHỐ {#truyen-23}
 
-## 23. NGƯỜI VỢ ĐAU KHỐ
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Cát cư sĩ tuổi gần 60, tin Phật đã nhiều năm, lúc bà gặp Hòa thượng Diệu Pháp, thì mắt lệ tuôn trào, do quá bi ai cho bản thân.
 
@@ -1437,12 +1366,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-24"></a>
-<a id="23-kim-giám-đốc"></a>
+## 24. KIM GIÁM ĐỐC {#truyen-24}
 
-## 24. KIM GIÁM ĐỐC
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Lần nọ, mười mấy người cư sĩ chúng tôi muốn đi Ngũ Đài Sơn bái kiến Hòa thượng Diệu Pháp. Anh Kim là giám đốc nhà in, tình nguyện lái xe đưa chúng tôi đi. Mặc dù anh không tin Phật, nhưng thuộc típ người hết lòng vì bạn. Anh tự lái chiếc xe hơi đời mới, sang trọng, đưa chúng tôi vượt đường xa. Hơn nữa, có 3 lý do khiến anh sốt sắng: một là vì muốn giúp bạn hữu, hai là từng nghe đồn những việc thần kỳ về Hòa thượng Diệu Pháp nên anh cũng tò mò, ba là thưở giờ chưa biết thắng cảnh Ngũ Đài Sơn, nên cũng muốn đến cho rõ.
 
@@ -1575,12 +1501,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-25"></a>
-<a id="24-tần-phu-nhân"></a>
+## 25. TẦN PHU NHÂN {#truyen-25}
 
-## 25. TẦN PHU NHÂN
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tần cư sĩ là một phụ nữ rất xinh đẹp, từ nhỏ đã có khiếu mỹ thuật, tuổi còn trẻ đã là thầy dạy cắt uốn tóc nổi danh khắp thành phố. Bà là người lanh lẹ vén khéo, đảm đang.
 
@@ -1695,12 +1618,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-26"></a>
-<a id="25-thằng-cháu-quý"></a>
+## 26. THẰNG CHÁU QUÝ {#truyen-26}
 
-## 26. THẰNG CHÁU QUÝ
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tưởng cư sĩ năm nay hơn 70 tuổi, thường tham gia Phật thất, nhưng bà có chứng bịnh tim, khiến bà niệm Phật không được chuyên nhất. Nguyên do chính là tại thằng cháu nội tên Lư (17 tuổi) thường theo ông xã bà (tuổi gần 80) kêu to hét lớn, ép bà làm những việc nó cần, từ việc thay y phục hằng ngày cho tới cung ứng cơm nước phải “hầu nó” ngày ba bữa, thậm chí còn sai bà tới nhà bạn học lấy những thứ nó cần.
 
@@ -1737,12 +1657,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-27"></a>
-<a id="26-tu-không-nên-độc-tài"></a>
+## 27. TU KHÔNG NÊN ĐỘC TÀI {#truyen-27}
 
-## 27. TU KHÔNG NÊN ĐỘC TÀI
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một buổi chiều nọ Hòa thượng Diệu Pháp mới vừa an tọa, thì một vị tóc điểm muối tiêu tiến tới quỳ xuống, chưa khai khẩu đã tuôn lệ như mưa, khóc chẳng thành tiếng, mọi người an ủi, ông mới dần bỉnh tĩnh được chút và bắt đầu hướng về Hòa thượng kể chuyện của mình, cầu xin chỉ dạy.
 
@@ -1889,12 +1806,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-28"></a>
-<a id="27-tình-chấp-nhiều-đời"></a>
+## 28. TÌNH CHẤP NHIỀU ĐỜI {#truyen-28}
 
-## 28. TÌNH CHẤP NHIỀU ĐỜI
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Khi Hòa thượng Diệu Pháp dẫn tôi đến một đại đạo tràng nọ, thì Sư bà trụ trì Ni tự này kể cho Hòa thượng nghe nơi đây có hai Sa-di ni, khoảng hơn hai mươi tuổi, tướng mạo trang nghiêm, trước khi xuất gia họ đều đã tốt nghiệp đại học, có bằng thạc sĩ. Sau khi họ phát tâm xuất gia rồi, thì tụng niệm bái sám, kinh điển thuộc mau, các oai nghi, mỗi mỗi đều ổn. Lẽ ra hai cô này có thể nổi bật xuất sắc trong chúng, nhưng ngặt nôi họ mắc phải chứng bịnh… “đồng tính luyến ái” mà trụ trì khuyên mãi không được.
 
@@ -1933,12 +1847,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-29"></a>
-<a id="28-con-đường-làm-giàu"></a>
+## 29. CON ĐƯỜNG LÀM GIÀU {#truyen-29}
 
-## 29. CON ĐƯỜNG LÀM GIÀU
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Người ta ai cũng ưa phát tài, có người biết nắm lấy cơ hội nên “tâm muốn, sự thành”. Có người tùy khả năng mà vươn lên theo thời, nỗ lực phấn đấu, dốc hết cả đời, cuối cùng cũng thành tựu. Có người dù tích lũy lắm tiền của, tuy được tài phú nhưng không bền lâu, vì “sai lầm một chút mà ôm hận thiên thu”.
 
@@ -1961,12 +1872,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-30"></a>
-<a id="29-nửa-cái-bánh"></a>
+## 30. NỬA CÁI BÁNH {#truyen-30}
 
-## 30. NỬA CÁI BÁNH
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Gia đình ông Trình có ba người, sau khi qui y Phật rồi thì giữ giới rất nghiêm. Nhà ông giàu có ngàn vạn, lại một bề trì giới chu toàn, khiến mọi người rất kính phục. (Xem ra phú quý học đạo cũng không khó? Mấu chốt nằm ở chỗ bạn có huệ căn và cùng Phật có duyên hay chăng thôi).
 
@@ -2049,12 +1957,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-31"></a>
-<a id="30-nghiêm-cư-sĩ"></a>
+## 31. NGHIÊM CƯ SĨ {#truyen-31}
 
-## 31. NGHIÊM CƯ SĨ
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Nghiêm Đại cư sĩ là nhân vật khá nổi tiếng đối với các tự viện trong nước. Sở dĩ người ta gọi ông là “Đại cư sĩ”, là do ba điều: Thứ nhất: ông rất giàu, sở hữu nhiều hãng tiệm khắp các thành phố lớn trong nước. Thứ hai: hùng tâm in kinh tạo tượng cúng dường bố thí cực kỳ mạnh. Thứ ba: tính khí nóng nảy cũng bự tương đương…
 
@@ -2223,12 +2128,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-32"></a>
-<a id="31-khi-tôi-biết-đến-pháp-phật"></a>
+## 32. KHI TÔI BIẾT ĐẾN PHÁP PHẬT {#truyen-32}
 
-## 32. KHI TÔI BIẾT ĐẾN PHÁP PHẬT
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi tên Trương Lập Hoa, năm nay 65 tuổi, là công nhân đã nghỉ hưu. Tôi sinh trong xã hội cũ, lớn lên trong chế độ mới. Từ lúc bắt đầu đi học đến nay, tôi toàn hấp thụ nền giáo dục vô thần, nên suốt nửa thế kỷ nhồi huân… có thể khẳng định đầu óc tôi… rặt toàn thuyết vồ thần mà thôi.
 
@@ -2267,12 +2169,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-33"></a>
-<a id="32-trong-mạt-pháp-có-chánh-pháp"></a>
+## 33. TRONG MẠT PHÁP CÓ CHÁNH PHÁP {#truyen-33}
 
-## 33. TRONG MẠT PHÁP CÓ CHÁNH PHÁP
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hỏi: -Trong thời kỳ mạt pháp, người giảng tà pháp quá nhiều, kẻ không tuân thủ giới luật càng nhiều hơn. Có phải là Phật pháp kể từ đây sẽ ngày càng suy vi, phát không nỗi chăng?
 
@@ -2379,12 +2278,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-34"></a>
-<a id="33-ni-diệu-dung"></a>
+## 34. NI DIỆU DUNG {#truyen-34}
 
-## 34. NI DIỆU DUNG
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm 2002 đi Trung Nguyên, tôi đã may mắn gặp một ni cô dùng máu chép mấy bộ kinh. Đây là hành động hi hữu, trong sử Phật giáo Trung Quốc không có nhiều.
 
@@ -2677,12 +2573,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-35"></a>
-<a id="34-những-điềm-mộng-được-báo-trước"></a>
+## 35. NHỮNG ĐIỀM MỘNG ĐƯỢC BÁO TRƯỚC {#truyen-35}
 
-## 35. NHỮNG ĐIỀM MỘNG ĐƯỢC BÁO TRƯỚC
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Lời tác giả:
 
@@ -2903,12 +2796,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-36"></a>
-<a id="35-kinh-nghiệm-phóng-sinh"></a>
+## 36. KINH NGHIỆM PHÓNG SINH {#truyen-36}
 
-## 36. KINH NGHIỆM PHÓNG SINH
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tại Thẳm Quyến, có một nhóm cư sĩ trẻ học Phật, họ nghiêm trì giới luật, chuyên tu Chú Lăng Nghiêm, thường tổ chức phong sinh, chủ yếu là thả rắn và các loài động vật hoang dã. Phóng sinh thường có nhiều cám ứng hay, xin kể vài câu chuyên có thật như sau:
 
@@ -2981,12 +2871,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-37"></a>
-<a id="36-quả-báo-bất-hiếu"></a>
+## 37. QUẢ BÁO BẤT HIẾU {#truyen-37}
 
-## 37. QUẢ BÁO BẤT HIẾU
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Con bất hiếu, cháu vô tình,
 
@@ -3063,12 +2950,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-38"></a>
-<a id="37-tuần-thất-đầu-tiên"></a>
+## 38. TUẦN THẤT ĐẦU TIÊN {#truyen-38}
 
-## 38. TUẦN THẤT ĐẦU TIÊN
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mùa đông năm 2009, cư sĩ Dung (tên thật đã được đổi) gọi điện cho tôi hỏi thăm chuyện in ấn kinh và sách thiện…Khi cô nghe nói nhà chúng tôi còn những sách hay khác nữa, bèn đến để xem.
 
@@ -3173,12 +3057,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-39"></a>
-<a id="38-vì-sao-cô-đi-tu"></a>
+## 39. VÌ SAO CÔ ĐI TU? {#truyen-39}
 
-## 39. VÌ SAO CÔ ĐI TU?
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mùa thu năm 2003, một ngày trời trong đẹp, gió thổi hiu hiu, tôi và bạn già đi đến chùa Bàn Long nổi danh ở huyện Nguyên Thị tỉnh Hà Bắc. Thắp hương lễ Phật xong, chúng tôi đi dạo nhìn ngắm cảnh trong chùa, lúc nãy có một sư nữ mặt tươi tắn, mỉm cười đón tiếp chúng tôi, trông cô rất hòa nhã thân thiện. Bạn già tôi bước lên trước chào hỏi:
 
@@ -3303,12 +3184,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-40"></a>
-<a id="39-vì-sao-các-tu-sĩ-hay-bịnh-nặng"></a>
+## 40. VÌ SAO CÁC TU SĨ HAY BỊNH NẶNG? {#truyen-40}
 
-## 40. VÌ SAO CÁC TU SĨ HAY BỊNH NẶNG?
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Vì sao các tu sĩ có những thành tựu cao tột lại bị nhiều hoạn nạn hoặc bịnh nặng trước khi ra đi?
 
@@ -3345,12 +3223,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-41"></a>
-<a id="40-hồi-ký-của-sư-hằng-nghiêm"></a>
+## 41. HỒI KÝ CỦA SƯ HẰNG NGHIÊM {#truyen-41}
 
-## 41. HỒI KÝ CỦA SƯ HẰNG NGHIÊM
-
-> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Vào thời Nhật xâm chiếm Trung Quốc, phi cơ Nhật oanh tạc cả tỉnh Hồ Bắc làng quê tôi. Năm đó tôi 22 tuổi, cha mẹ dẫn hết cả nhà đến ga Hạ Thắng Kiều để lên xe lửa đi Trùng Khánh. Nhưng mẹ tôi không kham nổi nhọc mệt đã chết trên đường. Phụ thân cũng ly trần, tôi và vợ chồng người anh ấn trốn tại thôn Kim Ngưu. Hàng ngày nhớ mẹ, mỗi tối tôi nhìn trăng nhắm hư không lễ bái, thầm cầu được biết phụ mẫu giờ đang ở đâu?
 

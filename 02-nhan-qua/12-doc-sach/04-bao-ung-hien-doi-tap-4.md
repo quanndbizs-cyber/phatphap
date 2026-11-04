@@ -9,9 +9,7 @@
 
 ---
 
-<a id="muc-luc"></a>
-
-## 📑 Mục Lục Các Câu Chuyện (Tập 4)
+## 📑 Mục Lục Các Câu Chuyện (Tập 4) {#muc-luc}
 
 * [Tự thuật của Quả Hồng](#truyen-1)
 * [Lời người dịch](#truyen-2)
@@ -62,12 +60,9 @@
 
 ---
 
-<a id="truyen-1"></a>
-<a id="tự-thuật-của-quả-hồng"></a>
+## 1. Tự thuật của Quả Hồng {#truyen-1}
 
-## 1. Tự thuật của Quả Hồng
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Thời ấu thơ bé tí, tôi thường đứng trước gương suy nghĩ: “Người trong gương này là ai? Là tôi ư?”… nhưng, y từ sinh đến tử thay đổi theo biến hóa vô thường, vậy tôi thực sự ở đâu? Vấn đề này từng ám ảnh khiến tôi lao tâm khổ trí suy nghĩ nhiều năm, mãi tới khi tôi biết đến Phật giáo thì mới hiểu rõ minh bạch: “Tôi trong gương chỉ là một thể xác, một lớp vỏ ngoài (giống như căn nhà vậy) mà chủ nhà mới thực sự là tôi, xưa nay vốn đầy đủ Phật tính”.
 
@@ -140,12 +135,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-2"></a>
-<a id="lời-người-dịch"></a>
+## 2. Lời người dịch {#truyen-2}
 
-## 2. Lời người dịch
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Như Quả Khanh luôn nhắc nhở: độc giả không nên hướng ngoại tìm cầu, bôn ba đi tìm gặp ngài Diệu Pháp và ông cho bằng được (mà hãy nên thực hành những điều Hòa thượng Diệu Pháp dạy, sẽ hữu ích hơn). Nhưng thực buồn cười là, vẫn có độc giả nhầm lẫn đến độ cho rằng tôi có thể giúp họ gặp ngài Diệu Pháp? Tôi chỉ là người dịch tác phẩm, chuyển tài chuyện nhân quả cho quý vị xem mà thôi.
 
@@ -208,12 +200,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-3"></a>
-<a id="1-bàn-về-quỷ-thần"></a>
+## 3. BÀN VỀ QUỶ THẦN {#truyen-3}
 
-## 3. BÀN VỀ QUỶ THẦN
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trong Kinh Trường-A-Hàm, Phật khai thị:
 
@@ -250,12 +239,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-4"></a>
-<a id="2-quan-âm-cứu-nạn"></a>
+## 4. QUAN ÂM CỨU NẠN {#truyen-4}
 
-## 4. QUAN ÂM CỨU NẠN
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một ngày khoảng 8 giờ tối năm 1997, tôi vừa tan sở xong thi vội lên chuyến xe tối về nội thành. Lúc này người trên xe rất ít, đi được nửa đường thì bỗng có 4 thanh niên say bí tỉ bước lên xe. Trong tay mỗi người cầm một chai rượu, y phục xốc xếch, rỗ ràng là “say quắc cần câu”. Một thanh niên trong đây thấy tôi ngồi một mình, liền bước xiêu vẹo tới ngồi cạnh tôi, còn tùy tiện gác một tay lên lưng ghế tôi, ba ông ma men kia thấy vậy đều nhào tới, ngồi xuống bao vây tôi.
 
@@ -312,12 +298,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-5"></a>
-<a id="3-chơi-cổ-phiếu-chướng-ngại-tu-hành"></a>
+## 5. CHƠI CỔ PHIẾU CHƯỚNG NGẠI TU HÀNH {#truyen-5}
 
-## 5. CHƠI CỔ PHIẾU CHƯỚNG NGẠI TU HÀNH
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trương cư sĩ học Phật rất tinh tiến, mười mấy năm như một ngày, nghiêm trì giới luật, tụng kinh bái sám, tổ chức phóng sinh, in kinh định kỳ… Chỉ cần là việc lợi ích chúng sinh, ông đều phát tâm dốc sức làm, là một cư sĩ tu tại gia chân chính.
 
@@ -348,12 +331,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-6"></a>
-<a id="4-sức-mạnh-của-sám-hối"></a>
+## 6. SỨC MẠNH CỦA SÁM HỐI {#truyen-6}
 
-## 6. SỨC MẠNH CỦA SÁM HỐI
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mỗi người chúng ta trong quá khứ vì thiếu hiểu biết mà tạo vô số ác nghiệp, khiến tự tánh quý giá bị ô nhiễm, vấy bẩn bụi trần. Do tâm bị vô minh che lấp khiến chúng ta chẳng thể nhìn thấy ánh sáng quang minh. Vì vậy cần phải quét sạch trần cấu. Theo nhà Phật, phương pháp tẩy sạch trần cấu tốt nhất chính là sám hối (một trong các thiện hạnh như tụng kinh, lễ Phật, niệm Phật, trì chú v.v…)
 
@@ -396,12 +376,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-7"></a>
-<a id="5-liễu-nghiệp"></a>
+## 7. LIỄU NGHIỆP {#truyen-7}
 
-## 7. LIỄU NGHIỆP
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 “ẰM” một tiếng, chiếc xe Tiền Khôn lái bỗng tông vào dãy phân cách trên đường, lúc đó tuy là ban đêm, nhưng đèn đường sáng choang, hơn nữa tốc độ xe không nhanh. Nhưng chẳng biết vì sao tầm nhìn của Tiền Khôn trở nên hồ đồ, ông cảm thấy tấm kính chắn gió trước mắt đầy bụi, căn bản là không nhìn ra dãy phân cách ở phía trước. Tùy theo tốc độ của xe mà dãy phân cách bị tông với mực độ tương đương. Nghe chiếc xe phát ra âm thanh “kèn kẹt, kèn kẹt” bất thường, Tiền Khôn vội đạp thắng, mới phát hiện thắng xe đã hỏng. Lúc này con gái ông ngồi phía sau căng thẳng la to:
 
@@ -498,12 +475,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-8"></a>
-<a id="6-thai-giáo-tuyệt-vời"></a>
+## 8. THAI GIÁO TUYỆT VỜI {#truyen-8}
 
-## 8. THAI GIÁO TUYỆT VỜI
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Lời người dịch:
 
@@ -600,12 +574,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-9"></a>
-<a id="7-phá-thai-là-tội-nặng"></a>
+## 9. PHÁ THAI LÀ TỘI NẶNG {#truyen-9}
 
-## 9. PHÁ THAI LÀ TỘI NẶNG
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hiện nay trong xã hội vấn đế phá thai ngày càng nghiêm trọng, quả báo phá thai rất đáng sợ, không những ảnh hưởng đến tình cảm vợ chồng mà còn tạo nên thống cực lớn cho tâm tư lẫn sức khỏe của nữ giới. Hơn nữa tương lại còn phải chịu khổ báo nơi địa ngục.
 
@@ -648,12 +619,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-10"></a>
-<a id="8-mã-thanh"></a>
+## 10. MÃ THANH {#truyen-10}
 
-## 10. MÃ THANH
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mã Thanh là một nam doanh nghiệp trẻ, rất thành đạt, gia đình anh vốn hạnh phúc mỹ mãn, thế nhưng do công việc phải giao tế nhiều, đã phát sính những việc khiến họ… bó tay.
 
@@ -698,12 +666,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-11"></a>
-<a id="9-phật-pháp-thay-đổi-tôi"></a>
+## 11. PHẬT PHÁP THAY ĐỔI TÔI {#truyen-11}
 
-## 11. PHẬT PHÁP THAY ĐỔI TÔI
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đây là kinh nghiệm Lý cư sĩ đích thân trải qua. Chúng ta hãy nghe bà kể:
 
@@ -764,12 +729,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-12"></a>
-<a id="10-lão-điền"></a>
+## 12. LÃO ĐIỀN {#truyen-12}
 
-## 12. LÃO ĐIỀN
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Nhà Tiểu Điền là gia đình Phật hóa, gia cảnh tuy không giàu, nhưng cuộc sống rất hạnh phúc tự tại. Nguyên nhân Tiểu Điền phát tâm học Phật bắt nguồn từ câu chuyện ly kỳ của phụ thân cô:
 
@@ -820,12 +782,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-13"></a>
-<a id="11-chuyến-đồi-số-mệnh"></a>
+## 13. CHUYẾN ĐỒI SỐ MỆNH {#truyen-13}
 
-## 13. CHUYẾN ĐỒI SỐ MỆNH
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Số mệnh con người có thể cải đổi, người ta có thể dùng phương cách đúng đắn để cải số và định đoạt tương lai cho mình! Tiến sĩ Liễu Phàm triều Minh đã đem kinh nghiệm cải số thực tế của bản thân ông, viết ra cuốn “Liễu Phàm Tứ Huấn”, khích lệ vô số người sau dùng phương pháp của Phật giáo để cải đổi số mệnh mình! Thông qua đó cũng đủ chứng minh: “Mệnh tự ta lập, nhân quả báo ứng là không dối”.
 
@@ -864,12 +823,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-14"></a>
-<a id="12-thuốc-trị-hiếm-muộn"></a>
+## 14. THUỐC TRỊ HIẾM MUỘN {#truyen-14}
 
-## 14. THUỐC TRỊ HIẾM MUỘN
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Rất nhiều Phật tử tu học theo Phật nhiều năm đã đoạn trừ ăn mặn, dứt thịt cá, nhưng vẫn còn ăn trứng gà, trứng vịt. Thế thì đệ tử Phật rốt cuộc có nên ăn các loại trứng hay không?
 
@@ -944,12 +900,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-15"></a>
-<a id="13-không-nên-ăn-thịt-chúng-sinh"></a>
+## 15. KHÔNG NÊN ĂN THỊT CHÚNG SINH {#truyen-15}
 
-## 15. KHÔNG NÊN ĂN THỊT CHÚNG SINH
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Nói đến vấn đề ăn thịt, trong nhiều kinh Đại thừa Phật từng giảng rất rõ. Như trong “Kinh Phạm Võng” ghi: “Tất cả thịt đều không nên ăn. Nếu Phật tử cố ăn thịt, tà đoạn dứt chủng tử đại từ bi, khiến tất cả chúng sinh, vừa thấy tiền tánh xa. Bồ-tát không nên ăn thịt chúng sinh, vì ăn thịt có vô tượng tội!”… Còn trong “Kinh Lăng Già” Phật giảng: “Ta xem tất cả chúng sinh như con, nếu nghe lấy thịt làm thức ăn, cũng chẳng tùy hỉ, huống nữa tà tự ăn. Đại Huệ, tất cả các toại ngũ tân: hành, hẹ, tỏi, nén… thường xông hơi xú uế bất tịnh, làm chướng thánh đạo, chướng cả chỗ cư trú thanh tịnh của trời, người, thế gian… huống chi là cõi tịnh của chư Phật? Rượu cũng thế, hay làm chướng thánh đạo, gây tổn thiện nghiệp, thường khiến sinh nhiều lỗi… Đại Huệ! Thế nên người hành thánh đạo thì các thứ đồ mặn, rượu, thịt, hành, tỏi… tanh hôi đều chẳng nên dùng”…
 
@@ -1004,12 +957,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-16"></a>
-<a id="14-phỉ-báng-phật-pháp-phải-sám-hối"></a>
+## 16. PHỈ BÁNG PHẬT PHÁP, PHẢI SÁM HỐI {#truyen-16}
 
-## 16. PHỈ BÁNG PHẬT PHÁP, PHẢI SÁM HỐI
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hủy báng Phật pháp, nhất là pháp Đại thừa quả báo rất nặng. Trong kinh “Phật Thuyết Diệu Pháp Quyết Định Nghiệp Chướng” có ghi: “Nếu chúng sinh nghe thuyết Đại thừa, tâm không vui sinh hủy báng, nên biết đó là quyến thuộc của tà ma. Do khởi tâm hủy báng kinh điển Đại thừa. Chết xong sẽ đọa A-tỳ chịu vô lượng khổ. Sau đó sinh vào loài ngạ quỷ ăn lửa, ăn phân, đàm, giãi… chịu khổ vô lượng kiếp xong, thì sinh làm người phong cùi, bị mù, điếc, câm, ngọng, các căn không đủ… Những chúng sinh này trải qua vô lượng kiếp sinh từ… cuối cùng mới được gặp Phật thờ phụng cúng dường… Vì vậy khi nghe Phật thuyết kinh Đại thừa nên giữ tâm trong sạch, không tạp niệm”…
 
@@ -1072,12 +1022,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-17"></a>
-<a id="15-thiện-niệm-và-ác-niệm"></a>
+## 17. THIỆN NIỆM VÀ ÁC NIỆM {#truyen-17}
 
-## 17. THIỆN NIỆM VÀ ÁC NIỆM
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Thiện niệm ác niệm đều do tâm sinh, vì vạn pháp do tâm tạo. Chúng ta tu hành cần phải kiểm soát, tu trong từng cử tâm động niệm, quản lý tâm mình cho tốt, nếu giữ được chánh niệm hiện tiền thường xuyên, thì tự nhiên y báo sẽ chuyển theo chánh báo, số mệnh tất được cải đổi. Nhà Phật thường nói: “Khởi một niệm thiện, cung điện nơi thiên đường liền thành, khởi một niệm ác, hình phạt nơi địa ngục chờ sẵn”. Nếu có thể tiến lên triệt ngộ nguồn tâm, trụ nơi vô trụ, siêng tu lục độ vạn hạnh, ắt việc giải thoát, thành đạo… đều có thể thực hiện.
 
@@ -1164,12 +1111,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-18"></a>
-<a id="16-trong-chết-được-sống"></a>
+## 18. TRONG CHẾT ĐƯỢC SỐNG {#truyen-18}
 
-## 18. TRONG CHẾT ĐƯỢC SỐNG
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Người ta thông thường chỉ khi nào lâm vào bước đường cùng, mới khởi ý đến với Phật pháp, cầu gia hộ… Lúc đó nếu cỏ duyên lành gặp được thiện tri thức hướng dẫn, hành đúng pháp sám hối, chí thành học Phật, thi có thể chuyển nguy thành an, sống lại từ chỗ chết.
 
@@ -1220,12 +1164,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-19"></a>
-<a id="17-hoàng-đình"></a>
+## 19. HOÀNG ĐÌNH {#truyen-19}
 
-## 19. HOÀNG ĐÌNH
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hoàng Đình là một cô bé có số mệnh bi thảm, ngay lúc cô vừa hiểu chuyện thì ba mẹ đã li dị, cô sống chung với phụ thân và kế mẫu, bà dì ghẻ này rất nóng nảy hung dữ, động một tí là quát tháo, đánh chửi, khiến tâm tư bé bỏng của Hoàng Đình luôn phủ đầy mây đen. Bởi vô phương hứng nhận cuộc sống như vậy, nên cô bé trốn khỏi gia đình phụ thân, đến sống chung với mẹ ruột. Mẹ cô chuyên bán thức ăn nhanh: là món gà rán, vịt quay (tạo nghiệp sát sinh rất nặng). Chính điều này dẫn đến tai họa về sau.
 
@@ -1278,12 +1219,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-20"></a>
-<a id="18-gặp-hung-hóa-cát"></a>
+## 20. GẶP HUNG HÓA CÁT {#truyen-20}
 
-## 20. GẶP HUNG HÓA CÁT
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trong Kinh Phổ Môn từng thuyết: “Nếu có vô lượng trăm ngàn vạn ức chúng sinh, bị nhiều khổ não, nghe danh Bồ-tát Quan Thế Âm nhất tâm xung niệm, tức thời Ngài sẽ nương theo âm thanh đó, giải cứu cho”.
 
@@ -1306,12 +1244,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-21"></a>
-<a id="19-thiện-thần-hộ-trì-người-trì-giới"></a>
+## 21. THIỆN THẦN HỘ TRÌ NGƯỜI TRÌ GIỚI {#truyen-21}
 
-## 21. THIỆN THẦN HỘ TRÌ NGƯỜI TRÌ GIỚI
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trong xã hội hôm nay, các thiên tai nhân họa như: địa chấn, sóng thần, thủy-hỏa tai, ôn dịch, chiến tranh, đụng xe… luôn phát sinh chúng ta phải làm sao để viễn ly tai nạn? Trong “Kinh Quán Đỉnh” Phật giảng: Nếu như chúng ta qui y Tam-bảo thì sẽ có 36 vị hộ pháp thần vương bảo vệ. Người thọ trì ngũ giới thì mỗi giới có năm vị hộ pháp thần vương bảo vệ, tổng cộng có 25 vị thần. Những thần vương này lại có hằng hà sa số quyến thuộc, thảy đều ủng hộ người tu. Trong “Phật Thuyết Tứ Thiên Vương Kinh” cũng ghi giống vậy.
 
@@ -1372,12 +1307,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-22"></a>
-<a id="20-bịnh-của-ba-tôi"></a>
+## 22. BỊNH CỦA BA TÔI {#truyen-22}
 
-## 22. BỊNH CỦA BA TÔI
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Phật tử chúng ta thường hay tụng chú (là ngữ ngôn văn tự của Phật Bồ-tát phát xuất từ trong thiền định). Trước khi Phật pháp truyền sang Hán, đất Hán cũng có một số chú thế gian, tuy cứu cánh không tuyệt hảo nhưng vẫn có thể hiển linh giải trừ tai nạn, so với Phật chú cũng có chỗ thẩn kỳ hiệu nghiệm giống nhau. Chú gọi là Đà-la-ni, dịch sang Hán ngữ có nghĩa “tổng trì” (là giữ gìn thiện pháp không cho tán thất và ngăn ác pháp không cho khởi). Chú còn gọi là Mật ngữ, vì Phạm thiên và Nhị thừa không hiểu được. Chú còn gọi là Chân ngôn, hàm ý: Như Lai thuyết lời chân thật không dối. Một số chú là do Phật phóng quang, trong hào quang thuyết ra nên gọi là “Minh”.
 
@@ -1428,12 +1360,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-23"></a>
-<a id="21-không-nên-ham-cầu-thần-thông"></a>
+## 23. KHÔNG NÊN HAM CẦU THẦN THÔNG {#truyen-23}
 
-## 23. KHÔNG NÊN HAM CẦU THẦN THÔNG
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Reng…reng...reng! Tiếng chuông điện thoại dồn dập vang lên, âm thanh cậu Du (vị cư sĩ trẻ tuổi) có vẻ khẩn trương, hỏi:
 
@@ -1494,12 +1423,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-24"></a>
-<a id="22-tội-nặng-báo-nhẹ"></a>
+## 24. TỘI NẶNG BÁO NHẸ {#truyen-24}
 
-## 24. TỘI NẶNG BÁO NHẸ
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trong Pháp Uyển Châu Lâm” ghi: “Nghiệp tạo có nặng nhẹ, nếu nhẹ thì sám hối liền tiêu, nếu nghiệp nặng thì có thể chuyển quả báo nặng thành nhẹ”.
 
@@ -1534,12 +1460,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-25"></a>
-<a id="23-bịnh-nan-y-phải-chí-thành-sám-hối"></a>
+## 25. BỊNH NAN Y PHẢI CHÍ THÀNH SÁM HỐI {#truyen-25}
 
-## 25. BỊNH NAN Y PHẢI CHÍ THÀNH SÁM HỐI
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đông y cho rằng; có nhiều nguyên nhân dẫn đến bịnh hoạn như: lục dâm (phong hàn, thử, thấp, táo, hỏa) thất tình: (hỉ, nộ, ưu, tư, bi, khủng, kinh)… nghĩa là do quá lao, quá phóng dật, ẩm thực thất thường, đủ loại đủ kiểu…
 
@@ -1558,12 +1481,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-26"></a>
-<a id="24-bay-qua-miền-hạnh-phúc"></a>
+## 26. BAY QUA MIỀN HẠNH PHÚC {#truyen-26}
 
-## 26. BAY QUA MIỀN HẠNH PHÚC
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Dưới đây là câu chuyện của một bằng hữu học Phật, chúng ta hay nghe cô tự thuật:
 
@@ -1694,12 +1614,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-27"></a>
-<a id="25-vợ-chồng-họ-sử"></a>
+## 27. VỢ CHỒNG HỌ SỬ {#truyen-27}
 
-## 27. VỢ CHỒNG HỌ SỬ
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đây là kinh nghiệm lợi ích mà Sử cư sĩ trải qua sau khi học Phật. Hi vọng mọi người nhờ đây mà tăng thêm tín tâm học Phật. Chúng ta hãy nghe ông kể:
 
@@ -1858,12 +1775,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-28"></a>
-<a id="27-mối-tình-tay-ba"></a>
+## 28. MỐI TÌNH TAY BA {#truyen-28}
 
-## 28. MỐI TÌNH TAY BA
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hiểu Mỹ là một nữ doanh nghiệp xinh đẹp, giàu sang, thành đạt. Nàng cùng chồng là An Vĩ sống hạnh phúc với hai con: một trai một gái, chúng thông minh, ngoan ngoãn… Ai cũng khen đây là đôi uyên ương lý tưởng. Nhưng chính nhan sắc, thành công và sự duyên dáng của Hiểu Mỹ đã khiến nàng phạm phải sai lầm, tự phá tan mái ấm của mình.
 
@@ -1958,12 +1872,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-29"></a>
-<a id="28-quả-báo-tà-hạnh"></a>
+## 29. QUẢ BÁO TÀ HẠNH {#truyen-29}
 
-## 29. QUẢ BÁO TÀ HẠNH
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hiện nay y học đã chứng minh, hành vi tà dâm sẽ dẫn đến nhiều bịnh như Giang Mai, bịnh Lậu, Si-đa v.v… còn Phật pháp nhìn từ góc độ luân hồi trong lục đạo, đã cảnh báo chúng ta rằng: hành vi tà dâm chiêu ác báo không chỉ đời này mà kéo dài đến nhiều kiếp sau…
 
@@ -2002,12 +1913,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-30"></a>
-<a id="29-ác-báo-sát-sinh"></a>
+## 30. ÁC BÁO SÁT SINH {#truyen-30}
 
-## 30. ÁC BÁO SÁT SINH
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đầu xuân, trên chuyến tàu hỏa về thăm nhà, tôi gặp đôi vợ chồng trẻ dẫn theo đứa con gái ba tuổi đi khám bịnh. Khi chuyện trò mới biết bịnh đứa bé này có sẵn từ lúc mới sinh, rất khó trị.
 
@@ -2046,12 +1954,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-31"></a>
-<a id="30-cảnh-sát-và-phú-ông"></a>
+## 31. CẢNH SÁT VÀ PHÚ ÔNG {#truyen-31}
 
-## 31. CẢNH SÁT VÀ PHÚ ÔNG
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tiết Thành và Sử Đình là một đôi phu thê thương nhau thắm thiết. Anh thì tuấn tú khôi ngô, sự nghiệp thành đạt, Chị thì xinh đẹp, quý phái tao nhã… trong mắt mọi người, họ được ví như đôi kim đồng ngọc nữ.
 
@@ -2092,12 +1997,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-32"></a>
-<a id="31-hai-cậu-quý-tử"></a>
+## 32. HAI CẬU QUÝ TỬ {#truyen-32}
 
-## 32. HAI CẬU QUÝ TỬ
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Chúng ta trong vô lượng kiếp đều vì phiền não tham, sân, si mà kết oán với biết bao chúng sinh. Nếu ngay đây chẳng sớm buông phiền muộn, tu theo Phật pháp, xuất ly lục đạo, thì cứ ở trong sinh tử thanh trừng đòi nợ nhau mãi… cảnh oan oan tương báo này biết bao giờ mới dứt?
 
@@ -2130,12 +2032,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-33"></a>
-<a id="32-chủ-và-tớ"></a>
+## 33. CHỦ VÀ TỚ {#truyen-33}
 
-## 33. CHỦ VÀ TỚ
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Bà Trương là Tổng giám đốc một đại xí nghiệp bề thế, quản lý hơn mười ngàn công nhân. Sự nghiệp thành đạt vẻ vang này đã khiến bao người ngưỡng mộ. Thế nhưng trong gia đình, mặc dù vợ chồng bà sống hết sức ấm êm hạnh phúc, nhưng đối với cậu quý tử tên Cường thì họ bó tay hết cách.
 
@@ -2194,12 +2093,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-34"></a>
-<a id="33-sống-lại"></a>
+## 34. SỐNG LẠI {#truyen-34}
 
-## 34. SỐNG LẠI
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Cư sĩ Tịnh Hằng từ nhỏ nếp sống gia đình nghèo khó, nếm đủ bức bách, gian nan. Đến khi trưởng thành, có được sinh hoạt như ý, thì ông lại nhân đó mà tạo nhiều ác nghiệp, khiến cuộc sống tái phát đủ điều bất hạnh… Mãi đến khi ông tiếp xúc được với Phật pháp, biết nghe kinh tu tập, nghiêm trì giới luật, đoạn ác tu thiện, thì ông mới có được hạnh phúc, tái tạo cuộc đời mới, sống lại lần nữa…
 
@@ -2260,12 +2156,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-35"></a>
-<a id="34-đồng-nghiệp-chiêu-cảm"></a>
+## 35. ĐỒNG NGHIỆP CHIÊU CẢM {#truyen-35}
 
-## 35. ĐỒNG NGHIỆP CHIÊU CẢM
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mỹ Đình năm nay 30 tuổi, công tác sinh hoạt gì cũng không thuận lợi. Mấy năm trước, vì ham lợi nhuận nhiều, cô từ bỏ công việc tốt đẹp sẵn có, dốc hết tiền của dành dụm (còn vay thêm mười vạn đồng), đổ cả vào một công ty kinh doanh tư nhân. Dè đâu đây là một công ty lừa đảo, mới đầu họ dùng thuật nhử dụ (cho người đầu tư hưởng mấy vạn tiền lời trước thật ngọt), rồi sau đó cả giám đốc, nhân viên đều ôm tiền, trốn biệt tăm. Vì vậy, Mỹ Đình không những mất hết tiền đề dành mà còn thiếu nợ rất nhiều. Ngoài ra, 5 năm trước, cô giao du với bạn trai, cũng bị gạt lừa đến nỗi phải phá thai, tình cảm tan rã, kết thúc trong chia tay.
 
@@ -2370,12 +2263,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-36"></a>
-<a id="36-mẹ-chồng-nàng-dâu"></a>
+## 36. MẸ CHỒNG NÀNG DÂU {#truyen-36}
 
-## 36. MẸ CHỒNG NÀNG DÂU
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Vô lượng kiếp đến nay, chúng ta sinh tử trôi lăn trong sáu đường, vì phiền não tam độc mà kết bao oán hận cùng chúng sinh. Trong “Lương Hoàng Sám” nói: “Tất cả chúng sinh, đều có oán thù đối nghịch, vì sao như thế? Bởi, nếu không oán đối, ắt không có ác đạo. Hiện nay ác đạo không dừng, tam đồ càng lớn thì biết là “oán- đối… không có tận cùng”.
 
@@ -2426,12 +2316,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-37"></a>
-<a id="37-gieo-gì-gặt-nấy"></a>
+## 37. GIEO GÌ GẶT NẤY {#truyen-37}
 
-## 37. GIEO GÌ GẶT NẤY
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 “Reng! Reng! Reng!”… nửa đêm, chuông điện thoại reo vang, trong máy vọng ra âm thanh cuống quýt:
 
@@ -2462,12 +2349,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-38"></a>
-<a id="38-con-vặt-chết-thảm"></a>
+## 38. CON VẶT CHẾT THẢM {#truyen-38}
 
-## 38. CON VẶT CHẾT THẢM
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ngày nọ Lộ cư sĩ và Tiểu Man dùng chay xong, từ trong tiệm cùng bước ra ngoài thì đột nhiên nhìn thấy cách đó không xa có một khối trăng trắng trong vũng nước, hình dáng không rõ, họ liền tiến lại gần để xem… và sợ đến giật nẩy mình. Té ra đó là thi thể một con bồ câu, nhưng cảnh nó chết bi thảm nhìn khiếp đến nổi da gà. Ngoại trừ chút xương trên lưng và đôi cánh còn nguyên vẹn ra, toàn bộ đều chẳng còn gì. Hai cư sĩ sinh tâm xót thương, bèn lấy giấy bọc thi thể nó lại, tụng chú vãng sinh xong, thì đem chôn ở bồn hoa gần đó. Sau đó khi đến dự pháp hội, Lộ cư sĩ tình cờ nhắc đến việc này, ai cũng bảo:
 
@@ -2492,12 +2376,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-39"></a>
-<a id="39-cảm-ứng-khi-siêu-độ-vong-linh"></a>
+## 39. CẢM ỨNG KHI SIÊU ĐỘ VONG LINH {#truyen-39}
 
-## 39. CẢM ỨNG KHI SIÊU ĐỘ VONG LINH
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tháng 12 năm 2004, Ấn Độ Dương bị địa chấn, phát sinh sóng thần cực lớn, tám quốc gia Đông Nam Ả số người bị nạn tử vong, mất tích… tính ra hai mươi mấy vạn, hơn ngàn vạn người không có nhà, tổn thất trầm trọng…
 
@@ -2526,12 +2407,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-40"></a>
-<a id="40-không-nên-ăn-mặc-hở-hang"></a>
+## 40. KHÔNG NÊN ĂN MẶC HỞ HANG {#truyen-40}
 
-## 40. KHÔNG NÊN ĂN MẶC HỞ HANG
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hiện nay, trên áp phích quảng cáo, báo chí, tạp chí, các trang Web, thậm chí cả điện thoại….thường cho mỹ nữ ăn mặc hở hang để quảng cáo sản phẩm cho họ, mà không hề biết rằng đây là một hành vi sai lầm hại mình, hại người.
 
@@ -2576,12 +2454,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-41"></a>
-<a id="41-lời-sám-hối-của-cô-người-mẫu"></a>
+## 41. LỜI SÁM HỐI CỦA CÔ NGƯỜI MẪU {#truyen-41}
 
-## 41. LỜI SÁM HỐI CỦA CÔ NGƯỜI MẪU
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi là một cô gái hai mươi mấy tuổi, thời thơ ấu hoàn cảnh gia đình bất thường đã tạo nên tính cách hư hỏng trong tôi. Từ nhỏ tôi rất ghen tị với những đứa bé được cha mẹ yêu thương, có bạn bè tốt. Mặc dù đây là những điều bỉnh thường ai cũng có, nhưng đối với tôi lại quá xa vời, vĩnh viễn khó đạt tới.
 
@@ -2738,12 +2613,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-42"></a>
-<a id="42-niềm-đau-tuổi-nhỏ"></a>
+## 42. NIỀM ĐAU TUỔI NHỎ {#truyen-42}
 
-## 42. NIỀM ĐAU TUỔI NHỎ
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hồi lớp 5 tiểu học, tôi ngụ gần dòng sông Đạm Thủy Đài Bắc, chúng tôi gồm ba đứa, cùng học chung, hai bạn tôi một đứa họ Trịnh, một đứa họ Trần; tan học rồi thì đến bên sông Đạm Thủy bắt cua, bắt được cua thì bẻ càng bẻ chân nó mà chơi đùa, rất là khoái chí… Cứ nghịch như thế, cuối cùng thì dùng đá đập chết cua. Hôm đó trò chơi kết húc, ba thằng nghịch chán rồi thì quay trở về nhà.
 
@@ -2832,12 +2704,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-43"></a>
-<a id="43-anh-bạn-khó-thở"></a>
+## 43. ANH BẠN KHÓ THỞ {#truyen-43}
 
-## 43. ANH BẠN KHÓ THỞ
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi có một người bạn, một năm thì bị khó thở hết sáu tháng, đi bịnh viện khám, chữa chạy đông y tây y đủ hết cũng không bớt.
 
@@ -2866,12 +2735,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-44"></a>
-<a id="44-dứt-ác-tu-thiện"></a>
+## 44. DỨT ÁC TU THIỆN {#truyen-44}
 
-## 44. DỨT ÁC TU THIỆN
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Từ ba mươi ba tuổi tôi bắt đầu giảng kinh, đến nay đã bảy mươi hai tuổi, tính ra tôi đã giảng kinh thuyết pháp trên bốn mươi năm rồi. Nhưng hiện tại, tôi bị rất nhiều người hủy báng, tôi vui lòng chấp nhận hết, tại sao thế? Bởi ngay trong đời này thôi, hồi chưa biết Phật pháp tôi đã từng tạo khẩu nghiệp rất nặng!
 
@@ -2938,12 +2804,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-45"></a>
-<a id="45-lòng-từ-của-bồ-tát-địa-tạng"></a>
+## 45. LÒNG TỪ CỦA BỒ TÁT ĐỊA TẠNG {#truyen-45}
 
-## 45. LÒNG TỪ CỦA BỒ TÁT ĐỊA TẠNG
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Công đức Bồ-tát Địa Tạng chân thật không dối. Tôi xin đem câu chuyện xảy ra trong gia đình mình kể cho mọi người nghe làm bằng chứng: Tháng tư năm ngoái cha tôi bịnh tim phải mổ. Mổ xong thì tạm hồi phục, nhưng đến mùa đông năm ngoái, bịnh tình chuyển biến đáng lo, dần dần bịnh tim càng trở nặng, ngay cả xoay mình mặc áo… những việc nhỏ nhặt nhất cha tôi vẫn cần người phụ giúp, ông lại còn hay bị chóng mặt hoa mắt, thân thể bịnh hành nghiêm trọng. Tối ngủ rất ít, thường mất ngủ lại hay gặp ác mộng, cảm thấy toàn thân luôn đau đớn.
 
@@ -2992,12 +2855,9 @@ Hạnh Đoan biên dịch
 
 ---
 
-<a id="truyen-46"></a>
-<a id="46-lý-do-tôi-đến-với-đạo"></a>
+## 46. LÝ DO TÔI ĐẾN VỚI ĐẠO {#truyen-46}
 
-## 46. LÝ DO TÔI ĐẾN VỚI ĐẠO
-
-> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories) &nbsp;|&nbsp; [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 4](/nhan-qua/bao-ung-hien-doi-tap-4#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm 2004 tôi 32 tuổi. Trước khi tự thuật chuyện mình, dưới tòa mười phương chư Phật, Bồ-tát… cùng tất cả chúng sinh, tôi xin thành tâm sám hối.
 
