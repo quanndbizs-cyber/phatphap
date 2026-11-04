@@ -10,13 +10,13 @@
 
 | Tập | Số bài Audio | Trang Chi Tiết & Tóm Tắt Truyện | Sách Đọc (Bản Chữ / PDF) | Nguồn Phát & Video Dự Phòng |
 | :--- | :--- | :--- | :--- | :--- |
-| **Tập 1** | 20 bài MP3 | [🎧📖🎬 Xem Tập 1 (23 truyện + Video)](/nhan-qua/bao-ung-hien-doi-tap-1) | [📄 PDF Hoa Sen](https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf) • [📖 Bản chữ](https://sites.google.com/view/buhd/t%E1%BA%ADp-1) | [↗ ABS Share](https://qts-home.duckdns.org/audiobookshelf/share/A3E3w3dOtH) |
-| **Tập 2** | 28 bài MP3 | [🎧📖 Xem Tập 2 (27 truyện tóm tắt)](/nhan-qua/bao-ung-hien-doi-tap-2) | [📖 Sách đọc Tập 2](https://sites.google.com/view/buhd/t%E1%BA%ADp-2) | [↗ ABS Share](https://qts-home.duckdns.org/audiobookshelf/share/8CCEm8aEHY) |
-| **Tập 3** | 46 bài MP3 | [🎧📖 Xem Tập 3 (24 nhóm truyện)](/nhan-qua/bao-ung-hien-doi-tap-3) | [📖 Sách đọc Tập 3](https://sites.google.com/view/buhd/t%E1%BA%ADp-3) | [↗ Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-3) |
-| **Tập 4** | 48 bài MP3 | [🎧📖 Xem Tập 4 (35 mục truyện)](/nhan-qua/bao-ung-hien-doi-tap-4) | [📖 Sách đọc Tập 4](https://sites.google.com/view/buhd/t%E1%BA%ADp-4) | [↗ Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-4) |
-| **Tập 5** | 43 bài MP3 | [🎧 Nghe Tập 5 (Phần 1 & Phần 2)](/nhan-qua/bao-ung-hien-doi-tap-5) | [📖 Sách đọc Tập 5](https://sites.google.com/view/buhd/t%E1%BA%ADp-5) | [↗ Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-5) |
-| **Tập 6** | 46 bài MP3 | [🎧📖 Xem Tập 6 (46 bài)](/nhan-qua/bao-ung-hien-doi-tap-6) | [📖 Sách đọc Tập 6](https://sites.google.com/view/buhd6/t%E1%BA%ADp-6) | [↗ Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-6) |
-| **Tập 7** | 36 bài MP3 | [🎧📖 Xem Tập 7 (35 truyện)](/nhan-qua/bao-ung-hien-doi-tap-7) | [📖 Sách đọc Tập 7](https://sites.google.com/view/buhd/t%E1%BA%ADp-7) | [↗ Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-7-hanh-djoan-pd) |
+| **Tập 1** | 20 bài MP3 | [🎧📖🎬 Xem Tập 1 (23 truyện + Video)](/nhan-qua/bao-ung-hien-doi-tap-1) | [📄 PDF Hoa Sen](https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf) • [📖 Bản chữ](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-1) | [↗ ABS Share](https://qts-home.duckdns.org/audiobookshelf/share/A3E3w3dOtH) |
+| **Tập 2** | 28 bài MP3 | [🎧📖 Xem Tập 2 (27 truyện tóm tắt)](/nhan-qua/bao-ung-hien-doi-tap-2) | [📖 Sách đọc Tập 2](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-1) | [↗ ABS Share](https://qts-home.duckdns.org/audiobookshelf/share/8CCEm8aEHY) |
+| **Tập 3** | 46 bài MP3 | [🎧📖 Xem Tập 3 (24 nhóm truyện)](/nhan-qua/bao-ung-hien-doi-tap-3) | [📖 Sách đọc Tập 3](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-1) | [↗ Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-3) |
+| **Tập 4** | 48 bài MP3 | [🎧📖 Xem Tập 4 (35 mục truyện)](/nhan-qua/bao-ung-hien-doi-tap-4) | [📖 Sách đọc Tập 4](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-1) | [↗ Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-4) |
+| **Tập 5** | 43 bài MP3 | [🎧 Nghe Tập 5 (Phần 1 & Phần 2)](/nhan-qua/bao-ung-hien-doi-tap-5) | [📖 Sách đọc Tập 5](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-1) | [↗ Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-5) |
+| **Tập 6** | 46 bài MP3 | [🎧📖 Xem Tập 6 (46 bài)](/nhan-qua/bao-ung-hien-doi-tap-6) | [📖 Sách đọc Tập 6](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-1) | [↗ Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-6) |
+| **Tập 7** | 36 bài MP3 | [🎧📖 Xem Tập 7 (35 truyện)](/nhan-qua/bao-ung-hien-doi-tap-7) | [📖 Sách đọc Tập 7](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-1) | [↗ Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-7-hanh-djoan-pd) |
 
 ---
 

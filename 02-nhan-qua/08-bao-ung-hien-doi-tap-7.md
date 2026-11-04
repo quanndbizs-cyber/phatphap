@@ -1,7 +1,7 @@
 # Báo Ứng Hiện Đời — Tập 7 (SC. Hạnh Đoan Biên Dịch)
 
 * [← Quay về Trung Tâm Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)
-* [📖 Đọc Bản Chữ Tập 7 (Google Sites)](https://sites.google.com/view/buhd7/t%E1%BA%ADp-7)
+* [📖 Đọc Toàn Bộ Bản Chữ Tập 7 (Trực Tiếp)](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7)
 
 ---
 

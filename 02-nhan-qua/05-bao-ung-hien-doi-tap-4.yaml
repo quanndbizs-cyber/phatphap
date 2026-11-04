@@ -17,7 +17,7 @@ mediaplayer:
       summary: Lời chia sẻ và giới thiệu mở đầu tuyển tập Báo Ứng Hiện Đời Quyển 4
         (Sư cô Hạnh Đoan biên dịch).
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660490?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4
       read_label: 📖 Đọc Sách
     - id: 2
       title: Bàn về quỷ thần
@@ -25,298 +25,323 @@ mediaplayer:
         \ bị oan linh theo báo.  \nKhuyên đừng xem thường thế giới vô hình, hãy giữ\
         \ thiện niệm."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660491?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/1-b%C3%A0n-v%E1%BB%81-qu%E1%BB%B7-th%E1%BA%A7n
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-3
       read_label: 📖 Đọc Sách
     - id: 3
       title: Quan Âm cứu nạn
       summary: "Người gặp tai nạn xe niệm Quan Âm thoát chết.  \nNiệm danh hiệu Bồ\
         \ Tát với tâm thành thì cảm ứng linh ứng."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660492?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/2-quan-%C3%A2m-c%E1%BB%A9u-n%E1%BA%A1n
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-4
       read_label: 📖 Đọc Sách
     - id: 4
       title: Chơi cổ phiếu chướng ngại tu hành
       summary: "Người tu vẫn tham lợi cổ phiếu, mất đạo tâm.  \nTham tài phi nghĩa\
         \ → tâm loạn, phước tiêu."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660493?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/3-ch%C6%A1i-c%E1%BB%95-phi%E1%BA%BFu-ch%C6%B0%E1%BB%9Bng-ng%E1%BA%A1i-tu-h%C3%A0nh
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-5
       read_label: 📖 Đọc Sách
     - id: 5
       title: Sức mạnh của sám hối
       summary: "Bệnh nặng do nghiệp xưa vẫn có thể chuyển nhờ sám hối.  \nChí thành\
         \ tụng kinh và phát nguyện → nghiệp tiêu phước tăng."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660494?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/4-s%E1%BB%A9c-m%E1%BA%A1nh-c%E1%BB%A7a-s%C3%A1m-h%E1%BB%91i
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-6
       read_label: 📖 Đọc Sách
     - id: 6
       title: Liễu nghiệp
       summary: "Tai nạn liên tiếp là “liễu nghiệp” được trả sớm để nhẹ gánh.  \nBiết\
         \ niệm Phật và chấp nhận → oan báo giảm."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660495?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/5-li%E1%BB%85u-nghi%E1%BB%87p
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-7
       read_label: 📖 Đọc Sách
     - id: 7
       title: Thai giáo tuyệt vời
       summary: "Người mẹ niệm Kinh Địa Tạng khi mang thai, sinh con hiền trí.  \n\
         Thai giáo bằng tâm thiện giúp con an lành."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660496?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/6-thai-gi%C3%A1o-tuy%E1%BB%87t-v%E1%BB%9Di
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-8
       read_label: 📖 Đọc Sách
     - id: 8
       title: Phá thai là tội nặng
       summary: "Phá thai → oan hồn theo báo, thân bệnh, mộng ác.  \nSám hối, tụng\
         \ Địa Tạng, phóng sinh mới giải oan."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660497?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/7-ph%C3%A1-thai-l%C3%A0-t%E1%BB%99i-n%E1%BA%B7ng
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-9
       read_label: 📖 Đọc Sách
     - id: 9
       title: Mã Thanh
       summary: "Người nghiện rượu, ngang ngược → tai nạn, hối cải.  \nĂn chay, niệm\
         \ Phật → thân tâm an định."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660498?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/8-m%C3%A3-thanh
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-10
       read_label: 📖 Đọc Sách
     - id: 10
       title: Phật pháp thay đổi tôi
       summary: "Thương nhân ác độc đổi đời sau khi nghe Pháp.  \nHiểu nhân quả → làm\
         \ thiện, gia đình hòa thuận."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660499?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/9-ph%E1%BA%ADt-ph%C3%A1p-thay-%C4%91%E1%BB%95i-t%C3%B4i
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-11
       read_label: 📖 Đọc Sách
     - id: 11
       title: Lão Điền
       summary: "Người thô lỗ, ác khẩu → bệnh nặng.  \nSám hối, niệm Phật → an tâm\
         \ lúc mất."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660500?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/10-l%C3%A3o-%C4%91i%E1%BB%81n
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-12
       read_label: 📖 Đọc Sách
     - id: 12
       title: Chuyển đổi số mệnh
       summary: "Không số phận cố định: tu đức → chuyển mệnh.  \nĂn chay, làm phước,\
         \ giúp người → phước tăng."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660501?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/11-chuy%E1%BB%83n-%C4%91%E1%BB%95i-s%E1%BB%91-m%E1%BB%87nh
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-11
       read_label: 📖 Đọc Sách
     - id: 13
       title: Thuốc trị hiếm muộn
       summary: "Vợ chồng vô sinh phóng sinh, tụng kinh → có con.  \nNhân phóng sinh\
         \ → quả được sinh."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660502?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/12-thu%E1%BB%91c-tr%E1%BB%8B-hi%E1%BA%BFm-mu%E1%BB%99n
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-14
       read_label: 📖 Đọc Sách
     - id: 14
       title: Không nên ăn thịt chúng sanh
       summary: '*(Đang chờ tóm tắt nội dung)*'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660503?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/13-kh%C3%B4ng-n%C3%AAn-%C4%83n-th%E1%BB%8Bt-ch%C3%BAng-sanh
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-13
       read_label: 📖 Đọc Sách
     - id: 15
       title: Phỉ báng Phật pháp, phải sám hối
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: 'Hủy báng Phật pháp, nhất là pháp Đại thừa quả báo rất nặng. Trong
+        kinh “Phật Thuyết Diệu Pháp Quyết Định Nghiệp Chướng” có ghi: “Nếu chúng sinh
+        nghe thuyết Đại thừa, tâm không vui sinh hủy báng, nên biết đó là quyến thuộc
+        của tà ma. Do khởi tâm hủy báng kinh điển Đại thừa. Chế...'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660504?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/14-ph%E1%BB%89-b%C3%A1ng-ph%E1%BA%ADt-ph%C3%A1p-ph%E1%BA%A3i-s%C3%A1m-h%E1%BB%91i
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-16
       read_label: 📖 Đọc Sách
     - id: 16
       title: Thiện niệm và ác niệm
       summary: "Mỗi niệm dấy lên đều là nhân.  \nGiữ tâm thiện → sinh phước; ác niệm\
         \ → tự hại."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660505?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/15-thi%E1%BB%87n-ni%E1%BB%87m-v%C3%A0-%C3%A1c-ni%E1%BB%87m
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-17
       read_label: 📖 Đọc Sách
     - id: 17
       title: Trong chết được sống
       summary: "Người chết lâm sàng thấy địa ngục, niệm Phật → sống lại.  \nBằng chứng\
         \ cảm ứng của Phật pháp."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660506?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/16-trong-ch%E1%BA%BFt-%C4%91%C6%B0%E1%BB%A3c-s%E1%BB%91ng
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-18
       read_label: 📖 Đọc Sách
     - id: 18
       title: Hoàng Đình
       summary: "Người phỉ báng Phật pháp → bị bệnh nặng.  \nSám hối → khỏi bệnh, phát\
         \ tâm tu."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660507?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/17-ho%C3%A0ng-%C4%91%C3%ACnh
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-19
       read_label: 📖 Đọc Sách
     - id: 19
       title: Gặp hung hóa cát
       summary: "Gia đình gặp tai nạn nhờ niệm Phật thoát nạn.  \nTâm tịnh → phước\
         \ hiện."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660508?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/18-g%E1%BA%B7p-hung-h%C3%B3a-c%C3%A1t
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-20
       read_label: 📖 Đọc Sách
     - id: 20
       title: Thiện thần hộ người trì giới
       summary: '*(Đang chờ tóm tắt nội dung)*'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660509?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/19-thi%E1%BB%87n-th%E1%BA%A7n-h%E1%BB%99-ng%C6%B0%E1%BB%9Di-tr%C3%AC-gi%E1%BB%9Bi
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-19
       read_label: 📖 Đọc Sách
     - id: 21
       title: Bệnh của ba tôi
       summary: "Cha bị bệnh lạ do nghiệp sát.  \nCả nhà tụng kinh hồi hướng → bệnh\
         \ thuyên giảm."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660510?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/20-b%E1%BB%8Bnh-c%E1%BB%A7a-ba-t%C3%B4i
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-20
       read_label: 📖 Đọc Sách
     - id: 22
       title: Không nên ham cầu thần thông
       summary: "Tu hành mà cầu thần thông → mất đạo.  \nChân tu là tịnh tâm, giữ giới."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660511?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/21-kh%C3%B4ng-n%C3%AAn-ham-c%E1%BA%A7u-th%E1%BA%A7n-th%C3%B4ng
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-23
       read_label: 📖 Đọc Sách
     - id: 23
       title: Tội nặng báo nhẹ
       summary: "Thành tâm sám hối → nghiệp nặng hóa nhẹ.  \nBằng chứng về lực của\
         \ tâm thành."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660512?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/22-t%E1%BB%99i-n%E1%BA%B7ng-b%C3%A1o-nh%E1%BA%B9
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-24
       read_label: 📖 Đọc Sách
     - id: 24
       title: Bệnh nan y phải chí thành sám hối
       summary: Bệnh nan y do nghiệp sát → sám hối cứu được.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660513?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/23-b%E1%BB%8Bnh-nan-y-ph%E1%BA%A3i-ch%C3%AD-th%C3%A0nh-s%C3%A1m-h%E1%BB%91i
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-23
       read_label: 📖 Đọc Sách
     - id: 25
       title: Bay qua miền hạnh phúc
       summary: Người đau đớn trước cái chết → niệm Phật tâm an → siêu sinh.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660514?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/24-bay-qua-mi%E1%BB%81n-h%E1%BA%A1nh-ph%C3%BAc
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-26
       read_label: 📖 Đọc Sách
     - id: 26
       title: Vợ chồng họ Sử
       summary: Cặp vợ chồng tu hành thuần thành, sống hiếu nghĩa → phước lành.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660515?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/25-v%E1%BB%A3-ch%E1%BB%93ng-h%E1%BB%8D-s%E1%BB%AD
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-27
       read_label: 📖 Đọc Sách
     - id: 27
       title: Diễm Tuyết
       summary: Người đẹp bị oan nghiệp, tỉnh ngộ ăn chay, tu niệm.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660516?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/26-di%E1%BB%85m-tuy%E1%BA%BFt
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-26
       read_label: 📖 Đọc Sách
     - id: 28
       title: Mối tình tay ba
       summary: "Ghen ghét, tình oán → tai họa.  \nBuông xả mới được bình an."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660517?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/27-m%E1%BB%91i-t%C3%ACnh-tay-ba
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-28
       read_label: 📖 Đọc Sách
     - id: 29
       title: Quả báo tà hạnh
       summary: Tà dâm → quả báo dị tật, bệnh tật.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660518?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/28-qu%E1%BA%A3-b%C3%A1o-t%C3%A0-h%E1%BA%A1nh
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-29
       read_label: 📖 Đọc Sách
     - id: 30
       title: Ác báo sát sinh
       summary: Sát sinh → tai nạn máu me, bệnh tật.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660519?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/29-%C3%A1c-b%C3%A1o-s%C3%A1t-sinh
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-30
       read_label: 📖 Đọc Sách
     - id: 31
       title: Cảnh sát và phú ông
       summary: "Người làm nghề bắt bớ ác tâm → bị báo ứng.  \nPhú ông tham → mất hết."
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660523?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/30-c%E1%BA%A3nh-s%C3%A1t-v%C3%A0-ph%C3%BA-%C3%B4ng
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-31
       read_label: 📖 Đọc Sách
     - id: 32
       title: Hai cậu quý tử
       summary: Hai đứa con ngang ngược → cha mẹ hiểu nhân quả mới giải oan.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660521?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/31-hai-c%E1%BA%ADu-qu%C3%BD-t%E1%BB%AD
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-32
       read_label: 📖 Đọc Sách
     - id: 33
       title: Chủ và tớ
       summary: Đời trước chủ ác → đời sau làm tớ chịu báo.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660520?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/32-ch%E1%BB%A7-v%C3%A0-t%E1%BB%9B
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-33
       read_label: 📖 Đọc Sách
     - id: 34
       title: Sống lại
       summary: Người chết lâm sàng thấy nghiệp báo → niệm Phật được sống lại.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660522?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/33-s%E1%BB%91ng-l%E1%BA%A1i
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-34
       read_label: 📖 Đọc Sách
     - id: 35
       title: Đồng nghiệp chiêu cảm
       summary: Bạn cùng nghiệp hại nhau, gặp lại để trả.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660524?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/34-%C4%91%E1%BB%93ng-nghi%E1%BB%87p-chi%C3%AAu-c%E1%BA%A3m
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-35
       read_label: 📖 Đọc Sách
     - id: 36
       title: Tình chấp trói buộc
       summary: Ái luyến quá mức → khổ nhiều đời.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660525?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/35-t%C3%ACnh-ch%E1%BA%A5p-tr%C3%B3i-bu%E1%BB%99c
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-35
       read_label: 📖 Đọc Sách
     - id: 37
       title: Mẹ chồng nàng dâu
-      summary: ''
+      summary: 'Vô lượng kiếp đến nay, chúng ta sinh tử trôi lăn trong sáu đường,
+        vì phiền não tam độc mà kết bao oán hận cùng chúng sinh. Trong “Lương Hoàng
+        Sám” nói: “Tất cả chúng sinh, đều có oán thù đối nghịch, vì sao như thế? Bởi,
+        nếu không oán đối, ắt không có ác đạo. Hiện nay ác đạo kh...'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660526?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/36-m%E1%BA%B9-ch%E1%BB%93ng-n%C3%A0ng-d%C3%A2u
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-36
       read_label: 📖 Đọc Sách
     - id: 38
       title: Gieo gì gặt nấy
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: '“Reng! Reng! Reng!”… nửa đêm, chuông điện thoại reo vang, trong máy
+        vọng ra âm thanh cuống quýt:'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660527?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/37-gieo-g%C3%AC-g%E1%BA%B7t-n%E1%BA%A5y
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-37
       read_label: 📖 Đọc Sách
     - id: 39
       title: Con vật chết thảm
       summary: '*(Đang chờ tóm tắt nội dung)*'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660528?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/38-con-v%E1%BA%ADt-ch%E1%BA%BFt-th%E1%BA%A3m
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-38
       read_label: 📖 Đọc Sách
     - id: 40
       title: Cảm ứng khi siêu độ vong linh
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Tháng 12 năm 2004, Ấn Độ Dương bị địa chấn, phát sinh sóng thần cực
+        lớn, tám quốc gia Đông Nam Ả số người bị nạn tử vong, mất tích… tính ra hai
+        mươi mấy vạn, hơn ngàn vạn người không có nhà, tổn thất trầm trọng…
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660529?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/39-c%E1%BA%A3m-%E1%BB%A9ng-khi-si%C3%AAu-%C4%91%E1%BB%99-vong-linh
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-39
       read_label: 📖 Đọc Sách
     - id: 41
       title: Không nên ăn mặc hở hang
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Hiện nay, trên áp phích quảng cáo, báo chí, tạp chí, các trang Web,
+        thậm chí cả điện thoại….thường cho mỹ nữ ăn mặc hở hang để quảng cáo sản phẩm
+        cho họ, mà không hề biết rằng đây là một hành vi sai lầm hại mình, hại người.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660530?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/40-kh%C3%B4ng-n%C3%AAn-%C4%83n-m%E1%BA%B7c-h%E1%BB%9F-hang
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-40
       read_label: 📖 Đọc Sách
     - id: 42
       title: Phần 2 - Lời sám hối của cô người mẫu
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Tôi là một cô gái hai mươi mấy tuổi, thời thơ ấu hoàn cảnh gia đình
+        bất thường đã tạo nên tính cách hư hỏng trong tôi. Từ nhỏ tôi rất ghen tị
+        với những đứa bé được cha mẹ yêu thương, có bạn bè tốt. Mặc dù đây là những
+        điều bỉnh thường ai cũng có, nhưng đối với tôi lại quá xa v...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660531?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/41-ph%E1%BA%A7n-2-l%E1%BB%9Di-s%C3%A1m-h%E1%BB%91i-c%E1%BB%A7a-c%C3%B4-ng%C6%B0%E1%BB%9Di-m%E1%BA%ABu
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-41
       read_label: 📖 Đọc Sách
     - id: 43
       title: Niềm đau tuổi nhỏ
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Hồi lớp 5 tiểu học, tôi ngụ gần dòng sông Đạm Thủy Đài Bắc, chúng tôi
+        gồm ba đứa, cùng học chung, hai bạn tôi một đứa họ Trịnh, một đứa họ Trần;
+        tan học rồi thì đến bên sông Đạm Thủy bắt cua, bắt được cua thì bẻ càng bẻ
+        chân nó mà chơi đùa, rất là khoái chí… Cứ nghịch như thế,...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660533?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/42-ni%E1%BB%81m-%C4%91au-tu%E1%BB%95i-nh%E1%BB%8F
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-42
       read_label: 📖 Đọc Sách
     - id: 44
       title: Anh bạn khó thở
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Tôi có một người bạn, một năm thì bị khó thở hết sáu tháng, đi bịnh
+        viện khám, chữa chạy đông y tây y đủ hết cũng không bớt.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660532?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/43-anh-b%E1%BA%A1n-kh%C3%B3-th%E1%BB%9F
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-43
       read_label: 📖 Đọc Sách
     - id: 45
       title: Dứt ác tu thiện
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Từ ba mươi ba tuổi tôi bắt đầu giảng kinh, đến nay đã bảy mươi hai
+        tuổi, tính ra tôi đã giảng kinh thuyết pháp trên bốn mươi năm rồi. Nhưng hiện
+        tại, tôi bị rất nhiều người hủy báng, tôi vui lòng chấp nhận hết, tại sao
+        thế? Bởi ngay trong đời này thôi, hồi chưa biết Phật pháp ...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660534?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/44-d%E1%BB%A9t-%C3%A1c-tu-thi%E1%BB%87n
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-44
       read_label: 📖 Đọc Sách
     - id: 46
       title: Lòng từ của Bồ Tát Địa Tạng
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: 'Công đức Bồ-tát Địa Tạng chân thật không dối. Tôi xin đem câu chuyện
+        xảy ra trong gia đình mình kể cho mọi người nghe làm bằng chứng: Tháng tư
+        năm ngoái cha tôi bịnh tim phải mổ. Mổ xong thì tạm hồi phục, nhưng đến mùa
+        đông năm ngoái, bịnh tình chuyển biến đáng lo, dần dần bịn...'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660535?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/45-l%C3%B2ng-t%E1%BB%AB-c%E1%BB%A7a-b%E1%BB%93-t%C3%A1t-%C4%91%E1%BB%8Ba-t%E1%BA%A1ng
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-45
       read_label: 📖 Đọc Sách
     - id: 47
       title: Lý do tôi đến với đạo
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Năm 2004 tôi 32 tuổi. Trước khi tự thuật chuyện mình, dưới tòa mười
+        phương chư Phật, Bồ-tát… cùng tất cả chúng sinh, tôi xin thành tâm sám hối.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660536?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/46-l%C3%BD-do-t%C3%B4i-%C4%91%E1%BA%BFn-v%E1%BB%9Bi-%C4%91%E1%BA%A1o
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-46
       read_label: 📖 Đọc Sách
     - id: 48
       title: Hồi hướng
       summary: '*(Đang chờ tóm tắt nội dung)*'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/d3543013-412d-425d-8ecf-dfe2649fe285/file/660537?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: https://sites.google.com/view/buhd4/t%E1%BA%ADp-4/47-h%E1%BB%93i-h%C6%B0%E1%BB%9Bng
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-4#truyen-46
       read_label: 📖 Đọc Sách

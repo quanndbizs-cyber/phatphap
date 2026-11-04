@@ -7,6 +7,7 @@ Gieo nhân lành, gặt quả ngọt. Nơi chia sẻ bộ sưu tập truyện th
 ## 1. Tuyển Tập Đa Phương Tiện "Báo Ứng Hiện Đời" (Audio • Sách Đọc • Video)
 
 * 🌟 **[Trung Tâm Báo Ứng Hiện Đời — Trọn Bộ 7 Tập (Audio, Sách Đọc & Video)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)**: Trình phát tích hợp hơn 260 bài MP3 trực tiếp từ Audiobookshelf, bảng tóm tắt từng truyện, sách PDF và Video.
+* 📖 **[Đọc Sách Báo Ứng Hiện Đời Trọn Bộ 7 Tập (Toàn Văn Trực Tiếp)](/nhan-qua/doc-sach)**: Kho bản đọc trọn vẹn 238 câu chuyện với mục lục chi tiết, tra cứu và đọc trực tiếp trên website.
 * 📘 **[Báo Ứng Hiện Đời — Tập 1 (20 bài MP3 + 23 Truyện Tóm Tắt + PDF + Video YouTube)](/nhan-qua/bao-ung-hien-doi-tap-1)**
 * 📗 **[Báo Ứng Hiện Đời — Tập 2 (28 bài MP3 + Tóm Tắt 27 Câu Chuyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tap-2)**
 * 📙 **[Báo Ứng Hiện Đời — Tập 3 (46 bài MP3 + Tóm Tắt 24 Nhóm Truyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tap-3)**

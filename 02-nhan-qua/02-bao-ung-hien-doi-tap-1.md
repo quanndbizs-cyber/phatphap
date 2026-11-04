@@ -6,7 +6,7 @@
 
 * [← Quay về Trung Tâm Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)
 * [📄 Tải / Đọc Sách PDF Tập 1 (Thư Viện Hoa Sen)](https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf)
-* [📖 Đọc Bản Chữ Tập 1 (Google Sites)](https://sites.google.com/view/buhd/t%E1%BA%ADp-1)
+* [📖 Đọc Toàn Bộ Bản Chữ Tập 1 (Trực Tiếp)](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-1)
 
 ---
 

@@ -1,285 +1,276 @@
 meta:
-    title: Báo Ứng Hiện Đời — Tập 1 (Audio, Sách Đọc & Video)
-    description: Tuyển tập Báo Ứng Hiện Đời Tập 1 gồm 20 bài MP3, tóm tắt 23 câu chuyện
-        nhân quả kèm link sách đọc PDF và Video.
-    owner: quannd
-    author: SC. Hạnh Đoan (Biên dịch)
-    created: '2026-11-03'
-    modified: '2026-11-03'
-    time: 08-30-00
-    navtitle: Báo Ứng Hiện Đời - Tập 1
-    pageid: buhd01multimed01
+  title: Báo Ứng Hiện Đời — Tập 1 (Audio, Sách Đọc & Video)
+  description: Tuyển tập Báo Ứng Hiện Đời Tập 1 gồm 20 bài MP3, tóm tắt 23 câu chuyện
+    nhân quả kèm link sách đọc PDF và Video.
+  owner: quannd
+  author: SC. Hạnh Đoan (Biên dịch)
+  created: '2026-11-03'
+  modified: '2026-11-03'
+  time: 08-30-00
+  navtitle: Báo Ứng Hiện Đời - Tập 1
+  pageid: buhd01multimed01
 mediaplayer:
-    stories:
-        items:
-        -   id: 1
-            title: Thiếu niên bất lương
-            summary: Một thanh niên Đài Loan mắc chứng đau quái lạ đến gặp Hòa thượng
-                Diệu Pháp. Ngài thấy trên ngực anh hiện bốn chữ “ngỗ ngịch bất hiếu”
-                nên chỉ ra rằng anh từng cướp bóc, đánh đập bạn bè, làm cha mẹ đau
-                khổ tới chết. Sau khi ăn năn sám hối, ngừng làm ác và tụng kinh, anh
-                khỏi bệnh.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660398?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://baounghiendoi.wordpress.com/2014/11/14/thieu-nien-bat-luong-bao-ung-hien-doi-tap-1-hanh-doan/
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=rXbPRWdLpOI
-        -   id: 2
-            title: Giật mình tỉnh ngộ
-            summary: Trương Nghĩa bị viêm cột sống dính khớp do thích ăn ếch và lươn.
-                Hòa thượng Diệu Pháp giảng rằng sát hại và ăn động vật khiến anh phải
-                chịu nghiệp đau đớn; khi anh ăn chay, tụng kinh thì bệnh thuyên giảm,
-                nhưng hễ ăn lại thịt thì bệnh tái phát.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660396?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://baounghiendoi.wordpress.com/2014/11/14/giat-minh-tinh-ngo-bao-ung-hien-doi-tap-1-hanh-doan/
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=fd54QngrHCA
-        -   id: 3
-            title: Gà trống lông vàng
-            summary: Một nông dân tên Chương bị ung thư phổi. Hòa thượng cho biết
-                ông gây nghiệp sát sinh vì giết nhiều gà, kể cả một con gà trống lông
-                vàng bị trộm. Ông sám hối, tụng Kinh Địa Tạng 49 lần và bỏ nghề giết
-                mổ, không ngờ bệnh khỏi hẳn.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660397?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://baounghiendoi.wordpress.com/2014/11/14/ga-trong-long-vang-bao-ung-hien-doi-tap-1-hanh-doan/
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=P_nCIZAGmaA
-        -   id: 4
-            title: Bệnh “Trời cho”
-            summary: Đây là trường hợp người bệnh tưởng rằng bệnh do trời định, nhưng
-                Hòa thượng Diệu Pháp giải thích bệnh là nghiệp quả từ những hành vi
-                ác trong quá khứ; chỉ có ăn chay, làm thiện, tụng kinh và sám hối
-                mới có thể chuyển nghiệp.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660399?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=Le2-ta7r-ns
-        -   id: 5
-            title: Trong xưởng có cái gì, nhà tôi có cái đó
-            summary: Ông Hồng làm nghề cơ khí bị đau lưng triền miên và phải quấn
-                đai. Hòa thượng hỏi ông có đem vật tư ở xưởng về nhà không; ông thú
-                nhận thường lấy sắt, đinh về chia cho hàng xóm. Ngài dạy rằng đồ ăn
-                cắp như gánh nặng đè lên lưng khiến ông đau; sau khi ông ngừng trộm
-                cắp, ăn chay và khuyên người khác không lấy của công, bệnh lưng khỏi.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660400?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf#:~:text=tr%C3%AAn%20l%C6%A3ng%20con,t%E1%BB%A5ng%20%C4%91%E1%BB%8Dc%20s%C3%A1ch%20Ph%E1%BA%ADt%20n%C3%A0o
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=ciO-SiQl7wc
-        -   id: 6
-            title: Dùi lỗ lấy nhọt
-            summary: Anh Cao từng ở hải quân, hay đóng đinh đầu cá lớn rồi mổ bụng
-                chúng khi còn sống. Sau này anh bị u não phải mổ liên tiếp, hộp sọ
-                bị khoan lỗ giống như cách anh từng hành hạ cá. Hòa thượng bảo anh
-                dừng sát sinh, ăn chay, tụng Kinh Địa Tạng; tuy đời anh ngắn lại do
-                nghiệp nặng, nhưng nhờ sám hối nên bớt đau đớn.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660401?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=-pzgJcA7jt4
-        -   id: 7
-            title: Nhai xương mút tủy
-            summary: Vợ một nhà giàu bị bệnh xoang mãn tính vì thích gặm xương cá
-                và hút tủy khi nghèo khó. Hòa thượng giải thích rằng ngay cả “tam tịnh nhục”
-                (thịt không thấy, không nghe chúng bị giết) cũng tạo nghiệp; nhai
-                xương khiến linh hồn động vật oán hận. Bà được khuyên bỏ thịt, tụng
-                kinh và phóng sinh để tiêu nghiệp.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660402?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=zYnX_fg49Hw
-        -   id: 8
-            title: Cư sĩ cũng phải có đủ đức hạnh
-            summary: 'Một người vợ phàn nàn chồng tu tại gia nhưng hay đem trái cây,
-                dầu đèn ở chùa về nhà. Bài viết nhắc rằng tịnh vật là của tín chủ
-                cúng dường, cư sĩ tranh giành sẽ mắc tội: “một hạt gạo thí chủ nặng
-                như núi Tu Di”; người tu phải liêm khiết, học kinh, tránh tham lam.'
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660403?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/10-c%C6%B0-s%C4%A9-c%C5%A9ng-ph%E1%BA%A3i-c%C3%B3-%C4%91%E1%BB%A7-%C4%91%E1%BB%A9c-h%E1%BA%A1nh
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=AeQHZQ6gRHY
-        -   id: 9
-            title: Tổ kiến và nhà ở
-            summary: Một gia đình khó tìm nhà ở hỏi Hòa thượng. Ngài hỏi con của họ
-                có phá tổ kiến không; họ thừa nhận. Ngài dạy phá nhà của kiến sẽ chịu
-                quả báo không có nhà, khuyên cả nhà sám hối, tụng kinh và hồi hướng
-                cho loài kiến vì chúng cũng có Phật tánh.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660404?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/11-t%E1%BB%95-ki%E1%BA%BFn-v%C3%A0-nh%C3%A0-%E1%BB%9F
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=5Vopg_BwIZ0
-        -   id: 10
-            title: Thai phụ tụng Kinh Địa Tạng
-            summary: Sinh viên Hải Ba mang thai bị đau vì thai nhi quậy phá. Người
-                kể khuyên cô tụng Kinh Địa Tạng mỗi ngày bảy lần để tiêu nghiệp; cô
-                phát nguyện tụng 49 lần và sinh nở dễ dàng, không cần mổ. Khi bị buộc
-                ăn cá sau sinh, đứa bé khóc không chịu bú; Hòa thượng giải thích bé
-                có trí tuệ nên từ chối sữa mang nghiệp sát, dặn cô mua thịt đã chết
-                và đọc chú siêu độ cho chúng.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660405?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/12-thai-ph%E1%BB%A5-t%E1%BB%A5ng-kinh-%C4%91%E1%BB%8Ba-t%E1%BA%A1ng
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=_fuAwWmjc2Y
-        -   id: 11
-            title: Ăn thịt chướng ngại thiện chung
-            summary: Một phụ nữ bị tiểu đường nói không sát sinh nhưng thích ăn cua
-                hấp và hải sản. Hòa thượng giải thích ăn thịt, dù người khác giết,
-                vẫn tạo nghiệp vì nhu cầu của mình khiến chúng bị giết; còn khuyến
-                khích người khác ăn hoặc bán thịt, rượu cũng mắc tội. Ngài khuyên
-                cô trường chay, kính thờ Tam bảo, nếu không thì tụng kinh cũng vô
-                ích.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660406?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=6s-siJxddEI
-        -   id: 12
-            title: Đọc nhiều Kinh Phật tăng trí tuệ
-            summary: Một cư sĩ bị bệnh tim, tự nhận ăn chay nhưng vẫn ăn tôm cá và
-                còn giới thiệu quán hải sản. Hòa thượng nhắc hải sản cũng là thịt;
-                người tu không nên buôn bán rượu, thuốc lá, thịt vì hại chúng sinh.
-                Ngài khuyên cô đọc nhiều kinh như Bát Nhã Tâm Kinh, Kinh Địa Tạng,
-                Pháp Bảo Đàn, Lương Hoàng Sám, Kinh Lăng Nghiêm để tăng trí và hành
-                đúng.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660407?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/14-%C4%91%E1%BB%8Dc-nhi%E1%BB%81u-kinh-ph%E1%BA%ADt-t%C4%83ng-tr%C3%AD-tu%E1%BB%87
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=UQOCHHWL30g
-        -   id: 13
-            title: Thân phụ cầu siêu độ
-            summary: 'Bác sĩ Hoàng bị lồi mắt, ban đêm không nói được; y học bó tay.
-                Hòa thượng hỏi về cha ông: người cha có nhiều nghiệp sát, chết oan
-                nên nhập vào con cầu siêu. Gia đình tổ chức cúng thất, tụng kinh ở
-                chùa để siêu độ; sau đó bác sĩ khỏi bệnh và trở thành Phật tử thuần
-                thành.'
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660407?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/15-th%C3%A2n-ph%E1%BB%A5-c%E1%BA%A7u-si%C3%AAu-%C4%91%E1%BB%99
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=zU7TM5p_95c
-        -   id: 14
-            title: Thai nhi nghe kinh, giải oán hờn
-            summary: Vợ chồng Mạnh Vĩ siêng tụng Kinh Địa Tạng khi có thai. Thai nhi
-                khiến cô đau dữ dội rồi chết trong bụng đúng đêm giao thừa. Hòa thượng
-                nói đó là oan hồn bị tổ tiên giết hại, nhờ tụng kinh nên nó xả oán
-                và không đầu thai làm con họ nữa; nếu sinh ra, nó sẽ phá tan gia đình.
-                Họ chấp nhận và tiếp tục tu, sau này sinh con khỏe mạnh.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660408?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/18-thai-nhi-nghe-kinh-gi%E1%BA%A3i-o%C3%A1n-h%E1%BB%9Dn
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=TuczQUDN1_c
-        -   id: 15
-            title: Bệnh tùng khẩu nhập
-            summary: Một phụ nữ hỏi về mẹ chồng đi vài trăm mét là chân đau thấu xương.
-                Hòa thượng cho biết bà thích ăn chân giò kho; ai ăn bộ phận nào sẽ
-                mắc bệnh ở bộ phận đó. Ngài cảnh báo quan niệm “ăn gì bổ nấy” là sai;
-                sát hại động vật để bổ dưỡng sẽ nhận quả báo tương tự.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660402?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/17-b%E1%BB%8Bnh-t%C3%B9ng-kh%E1%BA%A9u-nh%E1%BA%ADp
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=aCVtCdHs1zc
-        -   id: 16
-            title: Báo ứng không ngờ
-            summary: Ông Hạ có con trai bất trị. Hòa thượng hỏi ông có từng giết chó
-                không; ông chối rồi nhớ mình từng giúp bạn giết chó và ăn thịt. Ngài
-                nói con trai chính là linh hồn chó đó tái sinh để báo oán; nếu ông
-                không sám hối, đến năm 17 tuổi con sẽ gây họa. Ông không tin, và khi
-                con 17 tuổi, nó đánh cha khiến gia đình tan vỡ.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660409?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/19-b%C3%A1o-%E1%BB%A9ng-kh%C3%B4ng-ng%E1%BB%9D
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=-s2wASrdEgs
-        -   id: 17
-            title: Chứng bệnh sợ bóng tối
-            summary: Một phụ nữ luôn sợ bóng tối, phải thắp đèn khắp nhà. Hòa thượng
-                nói kiếp trước cô là kẻ nghèo trộm dầu đèn của gia đình thiện nguyện
-                chuyên thắp đèn cho người đi đường; khi dầu bị trộm, bao người lo
-                sợ trong đêm. Do gây nhân khiến người khác sợ bóng tối nên đời này
-                cô phải chịu quả báo sợ đêm tối.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660411?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/20-ch%E1%BB%A9ng-b%E1%BB%87nh-s%E1%BB%A3-b%C3%B3ng-t%E1%BB%91i
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=MfV_PgrEWZE
-        -   id: 18
-            title: Mỹ nữ và thổ phỉ
-            summary: Cô Triệu chịu cảnh bị kẻ cướp hãm hiếp, mất người thân và chồng
-                ốm đau. Hòa thượng chỉ ra kiếp trước cô là thủ lĩnh thổ phỉ giả trai,
-                cướp bóc và cưỡng hiếp phụ nữ; người chồng hiện tại chính là anh nông
-                dân cô từng tha mạng nên nay trả ơn. Sự bất hạnh của cô là nghiệp
-                báo; chỉ có học Phật, tụng kinh, ăn chay mới chuyển hóa.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660410?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/21-m%E1%BB%B9-n%E1%BB%AF-v%C3%A0-th%E1%BB%95-ph%E1%BB%89
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=S0QkSzNk6Ao
-        -   id: 19
-            title: Tiên sinh dạy học
-            summary: Vợ chồng đưa con trai ba tuổi tàn tật đến nhờ Hòa thượng. Ngài
-                nói đứa bé là một vị giáo sư trước kia bài bác Phật pháp, sau đó bị
-                đọa làm heo rồi làm con của họ để trả nợ vì họ từng giết heo ăn thịt.
-                Muốn cứu con, họ phải ăn chay, tụng Kinh Địa Tạng, không sát sinh;
-                đứa bé sẽ dần khỏe hơn.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660411?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/22-ti%C3%AAn-sinh-d%E1%BA%A1y-h%E1%BB%8Dc
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=j48GHb-UKOw
-        -   id: 20
-            title: Ăn chay trì giới mới được lợi ích
-            summary: Bà Đồng bị tiêu chảy liên tục. Hòa thượng bảo bà do ăn mặn mà
-                gây bệnh nên phải niệm “Nam mô Quán Thế Âm Bồ-tát”, bỏ thịt cá và
-                tụng kinh. Ban đầu bà ngần ngại nhưng thử làm thì khỏi bệnh. Từ đó
-                bà trường chay, siêng tụng kinh nên sức khỏe tốt lên.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660411?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/23-%C4%83n-chay-tr%C3%AC-gi%E1%BB%9Bi-m%E1%BB%9Bi-%C4%91%C6%B0%E1%BB%A3c-l%E1%BB%A3i-%C3%ADch
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=H7HdGhYes1Y
-        -   id: 21
-            title: Nhân nào quả nấy
-            summary: Ông Trương thường chóng mặt, không rõ nguyên nhân. Hòa thượng
-                nhắc ông thời trẻ từng rung tổ chuột làm lũ chuột con xây xẩm rồi
-                chết; nay ông phải chịu quả báo giống vậy. Ngài khuyên ông sám hối,
-                đừng giết hại, hãy bố thí thức ăn cho loài chuột và tụng kinh để chuộc
-                lỗi.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660412?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/24-nh%C3%A2n-n%C3%A0o-qu%E1%BA%A3-n%E1%BA%A5y
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=RdKsWFM3aTM
-        -   id: 22
-            title: Hộ trì Phật pháp bằng đức hạnh
-            summary: Một nữ Phật tử cúng dường nhiều nhưng lại kiêu mạn, nói xấu chùa
-                và chư Tăng. Sau đó bà mắc ung thư phổi. Hòa thượng khuyên cúng dường
-                phải xuất phát từ lòng thành, không kèm ngã mạn; bà nên tụng Kinh Địa Tạng,
-                khiêm hạ, sửa tâm. Bà làm theo, đọc kinh 19 lần thì khối u biến mất.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660413?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1/25-h%E1%BB%99-tr%C3%AC-ph%E1%BA%ADt-ph%C3%A1p-b%E1%BA%B1ng-%C4%91%E1%BB%A9c-h%E1%BA%A1nh
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=U1nNBC3irKM
-        -   id: 23
-            title: Quả báo của việc mua bán thịt động vật sống (Rắn mối)
-            summary: Ông Ngô hành nghề mua bán rắn mối. Ông tận mắt thấy người đồng
-                nghiệp Tố Vượng mổ bụng rắn mối còn sống bằng dao tre. Sau này Tố Vượng
-                bị tai nạn, bị cây tre đâm xuyên người giống như cách ông giết rắn;
-                vợ con ông cũng chết thảm. Chứng kiến quả báo kinh hoàng, ông Ngô
-                bỏ nghề buôn bán động vật.
-            audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660414?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-            read_url: https://sites.google.com/view/buhd/t%E1%BA%ADp-1
-            read_label: 📖 Đọc truyện
-            pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
-            video_url: https://www.youtube.com/watch?v=5b4Z8BtnbBw
+  stories:
+    items:
+    - id: 1
+      title: Thiếu niên bất lương
+      summary: Một thanh niên Đài Loan mắc chứng đau quái lạ đến gặp Hòa thượng Diệu Pháp.
+        Ngài thấy trên ngực anh hiện bốn chữ “ngỗ ngịch bất hiếu” nên chỉ ra rằng
+        anh từng cướp bóc, đánh đập bạn bè, làm cha mẹ đau khổ tới chết. Sau khi ăn năn
+        sám hối, ngừng làm ác và tụng kinh, anh khỏi bệnh.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660398?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-3
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=rXbPRWdLpOI
+    - id: 2
+      title: Giật mình tỉnh ngộ
+      summary: Trương Nghĩa bị viêm cột sống dính khớp do thích ăn ếch và lươn. Hòa
+        thượng Diệu Pháp giảng rằng sát hại và ăn động vật khiến anh phải chịu nghiệp
+        đau đớn; khi anh ăn chay, tụng kinh thì bệnh thuyên giảm, nhưng hễ ăn lại
+        thịt thì bệnh tái phát.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660396?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-4
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=fd54QngrHCA
+    - id: 3
+      title: Gà trống lông vàng
+      summary: Một nông dân tên Chương bị ung thư phổi. Hòa thượng cho biết ông gây
+        nghiệp sát sinh vì giết nhiều gà, kể cả một con gà trống lông vàng bị trộm.
+        Ông sám hối, tụng Kinh Địa Tạng 49 lần và bỏ nghề giết mổ, không ngờ bệnh
+        khỏi hẳn.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660397?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-5
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=P_nCIZAGmaA
+    - id: 4
+      title: Bệnh “Trời cho”
+      summary: Đây là trường hợp người bệnh tưởng rằng bệnh do trời định, nhưng Hòa thượng
+        Diệu Pháp giải thích bệnh là nghiệp quả từ những hành vi ác trong quá khứ;
+        chỉ có ăn chay, làm thiện, tụng kinh và sám hối mới có thể chuyển nghiệp.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660399?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-3
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=Le2-ta7r-ns
+    - id: 5
+      title: Trong xưởng có cái gì, nhà tôi có cái đó
+      summary: Ông Hồng làm nghề cơ khí bị đau lưng triền miên và phải quấn đai. Hòa
+        thượng hỏi ông có đem vật tư ở xưởng về nhà không; ông thú nhận thường lấy
+        sắt, đinh về chia cho hàng xóm. Ngài dạy rằng đồ ăn cắp như gánh nặng đè lên
+        lưng khiến ông đau; sau khi ông ngừng trộm cắp, ăn chay và khuyên người khác
+        không lấy của công, bệnh lưng khỏi.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660400?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-7
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=ciO-SiQl7wc
+    - id: 6
+      title: Dùi lỗ lấy nhọt
+      summary: Anh Cao từng ở hải quân, hay đóng đinh đầu cá lớn rồi mổ bụng chúng
+        khi còn sống. Sau này anh bị u não phải mổ liên tiếp, hộp sọ bị khoan lỗ giống
+        như cách anh từng hành hạ cá. Hòa thượng bảo anh dừng sát sinh, ăn chay, tụng
+        Kinh Địa Tạng; tuy đời anh ngắn lại do nghiệp nặng, nhưng nhờ sám hối nên
+        bớt đau đớn.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660401?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-8
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=-pzgJcA7jt4
+    - id: 7
+      title: Nhai xương mút tủy
+      summary: Vợ một nhà giàu bị bệnh xoang mãn tính vì thích gặm xương cá và hút
+        tủy khi nghèo khó. Hòa thượng giải thích rằng ngay cả “tam tịnh nhục” (thịt
+        không thấy, không nghe chúng bị giết) cũng tạo nghiệp; nhai xương khiến linh
+        hồn động vật oán hận. Bà được khuyên bỏ thịt, tụng kinh và phóng sinh để tiêu
+        nghiệp.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660402?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-6
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=zYnX_fg49Hw
+    - id: 8
+      title: Cư sĩ cũng phải có đủ đức hạnh
+      summary: 'Một người vợ phàn nàn chồng tu tại gia nhưng hay đem trái cây, dầu
+        đèn ở chùa về nhà. Bài viết nhắc rằng tịnh vật là của tín chủ cúng dường,
+        cư sĩ tranh giành sẽ mắc tội: “một hạt gạo thí chủ nặng như núi Tu Di”; người
+        tu phải liêm khiết, học kinh, tránh tham lam.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660403?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-10
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=AeQHZQ6gRHY
+    - id: 9
+      title: Tổ kiến và nhà ở
+      summary: Một gia đình khó tìm nhà ở hỏi Hòa thượng. Ngài hỏi con của họ có phá
+        tổ kiến không; họ thừa nhận. Ngài dạy phá nhà của kiến sẽ chịu quả báo không
+        có nhà, khuyên cả nhà sám hối, tụng kinh và hồi hướng cho loài kiến vì chúng
+        cũng có Phật tánh.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660404?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-11
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=5Vopg_BwIZ0
+    - id: 10
+      title: Thai phụ tụng Kinh Địa Tạng
+      summary: Sinh viên Hải Ba mang thai bị đau vì thai nhi quậy phá. Người kể khuyên
+        cô tụng Kinh Địa Tạng mỗi ngày bảy lần để tiêu nghiệp; cô phát nguyện tụng
+        49 lần và sinh nở dễ dàng, không cần mổ. Khi bị buộc ăn cá sau sinh, đứa bé
+        khóc không chịu bú; Hòa thượng giải thích bé có trí tuệ nên từ chối sữa mang
+        nghiệp sát, dặn cô mua thịt đã chết và đọc chú siêu độ cho chúng.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660405?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-9
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=_fuAwWmjc2Y
+    - id: 11
+      title: Ăn thịt chướng ngại thiện chung
+      summary: Một phụ nữ bị tiểu đường nói không sát sinh nhưng thích ăn cua hấp
+        và hải sản. Hòa thượng giải thích ăn thịt, dù người khác giết, vẫn tạo nghiệp
+        vì nhu cầu của mình khiến chúng bị giết; còn khuyến khích người khác ăn hoặc
+        bán thịt, rượu cũng mắc tội. Ngài khuyên cô trường chay, kính thờ Tam bảo,
+        nếu không thì tụng kinh cũng vô ích.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660406?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-13
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=6s-siJxddEI
+    - id: 12
+      title: Đọc nhiều Kinh Phật tăng trí tuệ
+      summary: Một cư sĩ bị bệnh tim, tự nhận ăn chay nhưng vẫn ăn tôm cá và còn giới
+        thiệu quán hải sản. Hòa thượng nhắc hải sản cũng là thịt; người tu không nên
+        buôn bán rượu, thuốc lá, thịt vì hại chúng sinh. Ngài khuyên cô đọc nhiều
+        kinh như Bát Nhã Tâm Kinh, Kinh Địa Tạng, Pháp Bảo Đàn, Lương Hoàng Sám, Kinh Lăng
+        Nghiêm để tăng trí và hành đúng.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660407?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-11
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=UQOCHHWL30g
+    - id: 13
+      title: Thân phụ cầu siêu độ
+      summary: 'Bác sĩ Hoàng bị lồi mắt, ban đêm không nói được; y học bó tay. Hòa
+        thượng hỏi về cha ông: người cha có nhiều nghiệp sát, chết oan nên nhập vào
+        con cầu siêu. Gia đình tổ chức cúng thất, tụng kinh ở chùa để siêu độ; sau
+        đó bác sĩ khỏi bệnh và trở thành Phật tử thuần thành.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660407?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-15
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=zU7TM5p_95c
+    - id: 14
+      title: Thai nhi nghe kinh, giải oán hờn
+      summary: Vợ chồng Mạnh Vĩ siêng tụng Kinh Địa Tạng khi có thai. Thai nhi khiến
+        cô đau dữ dội rồi chết trong bụng đúng đêm giao thừa. Hòa thượng nói đó là
+        oan hồn bị tổ tiên giết hại, nhờ tụng kinh nên nó xả oán và không đầu thai
+        làm con họ nữa; nếu sinh ra, nó sẽ phá tan gia đình. Họ chấp nhận và tiếp
+        tục tu, sau này sinh con khỏe mạnh.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660408?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-17
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=TuczQUDN1_c
+    - id: 15
+      title: Bệnh tùng khẩu nhập
+      summary: Một phụ nữ hỏi về mẹ chồng đi vài trăm mét là chân đau thấu xương.
+        Hòa thượng cho biết bà thích ăn chân giò kho; ai ăn bộ phận nào sẽ mắc bệnh
+        ở bộ phận đó. Ngài cảnh báo quan niệm “ăn gì bổ nấy” là sai; sát hại động
+        vật để bổ dưỡng sẽ nhận quả báo tương tự.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660402?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-14
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=aCVtCdHs1zc
+    - id: 16
+      title: Báo ứng không ngờ
+      summary: Ông Hạ có con trai bất trị. Hòa thượng hỏi ông có từng giết chó không;
+        ông chối rồi nhớ mình từng giúp bạn giết chó và ăn thịt. Ngài nói con trai
+        chính là linh hồn chó đó tái sinh để báo oán; nếu ông không sám hối, đến năm
+        17 tuổi con sẽ gây họa. Ông không tin, và khi con 17 tuổi, nó đánh cha khiến
+        gia đình tan vỡ.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660409?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-18
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=-s2wASrdEgs
+    - id: 17
+      title: Chứng bệnh sợ bóng tối
+      summary: Một phụ nữ luôn sợ bóng tối, phải thắp đèn khắp nhà. Hòa thượng nói
+        kiếp trước cô là kẻ nghèo trộm dầu đèn của gia đình thiện nguyện chuyên thắp
+        đèn cho người đi đường; khi dầu bị trộm, bao người lo sợ trong đêm. Do gây
+        nhân khiến người khác sợ bóng tối nên đời này cô phải chịu quả báo sợ đêm
+        tối.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660411?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-19
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=MfV_PgrEWZE
+    - id: 18
+      title: Mỹ nữ và thổ phỉ
+      summary: Cô Triệu chịu cảnh bị kẻ cướp hãm hiếp, mất người thân và chồng ốm
+        đau. Hòa thượng chỉ ra kiếp trước cô là thủ lĩnh thổ phỉ giả trai, cướp bóc
+        và cưỡng hiếp phụ nữ; người chồng hiện tại chính là anh nông dân cô từng tha
+        mạng nên nay trả ơn. Sự bất hạnh của cô là nghiệp báo; chỉ có học Phật, tụng
+        kinh, ăn chay mới chuyển hóa.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660410?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-20
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=S0QkSzNk6Ao
+    - id: 19
+      title: Tiên sinh dạy học
+      summary: Vợ chồng đưa con trai ba tuổi tàn tật đến nhờ Hòa thượng. Ngài nói
+        đứa bé là một vị giáo sư trước kia bài bác Phật pháp, sau đó bị đọa làm heo
+        rồi làm con của họ để trả nợ vì họ từng giết heo ăn thịt. Muốn cứu con, họ
+        phải ăn chay, tụng Kinh Địa Tạng, không sát sinh; đứa bé sẽ dần khỏe hơn.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660411?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-21
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=j48GHb-UKOw
+    - id: 20
+      title: Ăn chay trì giới mới được lợi ích
+      summary: Bà Đồng bị tiêu chảy liên tục. Hòa thượng bảo bà do ăn mặn mà gây bệnh
+        nên phải niệm “Nam mô Quán Thế Âm Bồ-tát”, bỏ thịt cá và tụng kinh. Ban đầu
+        bà ngần ngại nhưng thử làm thì khỏi bệnh. Từ đó bà trường chay, siêng tụng
+        kinh nên sức khỏe tốt lên.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660411?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-22
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=H7HdGhYes1Y
+    - id: 21
+      title: Nhân nào quả nấy
+      summary: Ông Trương thường chóng mặt, không rõ nguyên nhân. Hòa thượng nhắc
+        ông thời trẻ từng rung tổ chuột làm lũ chuột con xây xẩm rồi chết; nay ông
+        phải chịu quả báo giống vậy. Ngài khuyên ông sám hối, đừng giết hại, hãy bố
+        thí thức ăn cho loài chuột và tụng kinh để chuộc lỗi.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660412?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-23
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=RdKsWFM3aTM
+    - id: 22
+      title: Hộ trì Phật pháp bằng đức hạnh
+      summary: Một nữ Phật tử cúng dường nhiều nhưng lại kiêu mạn, nói xấu chùa và
+        chư Tăng. Sau đó bà mắc ung thư phổi. Hòa thượng khuyên cúng dường phải xuất
+        phát từ lòng thành, không kèm ngã mạn; bà nên tụng Kinh Địa Tạng, khiêm hạ,
+        sửa tâm. Bà làm theo, đọc kinh 19 lần thì khối u biến mất.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660413?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-24
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=U1nNBC3irKM
+    - id: 23
+      title: Quả báo của việc mua bán thịt động vật sống (Rắn mối)
+      summary: Ông Ngô hành nghề mua bán rắn mối. Ông tận mắt thấy người đồng nghiệp
+        Tố Vượng mổ bụng rắn mối còn sống bằng dao tre. Sau này Tố Vượng bị tai nạn,
+        bị cây tre đâm xuyên người giống như cách ông giết rắn; vợ con ông cũng chết
+        thảm. Chứng kiến quả báo kinh hoàng, ông Ngô bỏ nghề buôn bán động vật.
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660414?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-25
+      read_label: 📖 Đọc truyện
+      pdf_url: https://thuvienhoasen.org/images/file/2AycAZNj2ggQADkQ/bao-ung-hien-doi-tap-1.pdf
+      video_url: https://www.youtube.com/watch?v=5b4Z8BtnbBw
