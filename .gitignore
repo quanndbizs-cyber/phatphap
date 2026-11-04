@@ -14,6 +14,7 @@ data/multilang
 data/css
 data/security
 media/tmp/.gitkeep
+media/*
 plugins/search
 plugins/demo
 settings/settings.yaml
@@ -21,6 +22,7 @@ settings/kixote.yaml
 settings/secrets.yaml
 settings/license.yaml
 settings/users
+settings/*
 system/vendor
 TypeMills/
 log/
