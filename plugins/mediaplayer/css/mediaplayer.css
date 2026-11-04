@@ -890,3 +890,45 @@
 .tm-accordion-item.tm-acc-open .tm-accordion-body {
     display: block;
 }
+
+/* Download buttons for audio tracks */
+.tm-abs-t-down {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: #8c3b19 !important;
+    background: #fbf3e4;
+    border: 1px solid #dfc399;
+    border-radius: 6px;
+    padding: 2px 7px;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+    margin-left: 6px;
+    flex-shrink: 0;
+}
+.tm-abs-t-down:hover {
+    background: #7c3a19;
+    color: #ffffff !important;
+    border-color: #5a2216;
+}
+.tm-track-btn-download {
+    background: #f8ecd5;
+    border: 1px solid #e4cba0;
+    color: #7c3a19 !important;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.35rem 0.75rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+.tm-track-btn-download:hover {
+    background: #7c3a19;
+    color: #ffffff !important;
+    border-color: #5a2216;
+}

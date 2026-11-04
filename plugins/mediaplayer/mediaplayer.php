@@ -336,6 +336,7 @@ class mediaplayer extends Plugin
                   . '  <span class="tm-abs-t-name">' . $tTitle . '</span>'
                   . '  <span class="tm-abs-t-dur">' . $durStr . '</span>'
                   . '  <span class="tm-abs-t-play">▶ Phát</span>'
+                  . '  <a class="tm-abs-t-down" href="' . htmlspecialchars($t['src'], ENT_QUOTES, 'UTF-8') . '" download target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();" title="Tải file MP3">💾 Tải</a>'
                   . '</div>';
         }
 
@@ -593,6 +594,7 @@ class mediaplayer extends Plugin
                 $safeAudio = htmlspecialchars($st['audio_src'], ENT_QUOTES, 'UTF-8');
                 $jsTitle   = htmlspecialchars(addslashes($st['title'] ?? ('Truyện ' . $num)), ENT_QUOTES, 'UTF-8');
                 $html .= '<button type="button" class="tm-track-btn tm-track-btn-play" onclick="window.tmPlayInlineAudio(this, \'' . $safeAudio . '\', \'' . $jsTitle . '\')">🎧 Nghe Audio</button>';
+                $html .= '<a class="tm-track-btn tm-track-btn-download" href="' . $safeAudio . '" download target="_blank" rel="noopener noreferrer" title="Tải file MP3">💾 Tải MP3</a>';
             }
 
             if (!empty($st['read_url'])) {
