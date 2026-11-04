@@ -1,0 +1,38 @@
+name: Book Reader & Floating TOC
+version: 1.0.0
+description: Cung cấp nút bookmark mục lục di chuyển linh hoạt, drawer tra cứu chương hồi thông minh và thanh tiến độ đọc sách chuyên dụng.
+author: Google Antigravity & Diệu Âm Team
+homepage: https://github.com/typemill/typemill
+license: MIT
+
+settings:
+  active: true
+  defaultSide: right
+  draggable: true
+  showSearch: true
+  showProgress: true
+  minHeadings: 2
+
+forms:
+  fields:
+    active:
+      type: checkbox
+      label: Kích hoạt plugin Book Reader
+    defaultSide:
+      type: select
+      label: Vị trí mặc định
+      options:
+        right: Bên phải màn hình
+        left: Bên trái màn hình
+    draggable:
+      type: checkbox
+      label: Cho phép kéo thả vị trí nút bookmark
+    showSearch:
+      type: checkbox
+      label: Hiển thị ô tìm kiếm nhanh trong mục lục
+    showProgress:
+      type: checkbox
+      label: Hiển thị vòng phần trăm tiến độ đọc
+    minHeadings:
+      type: number
+      label: Số lượng tiêu đề tối thiểu để hiển thị nút đọc sách

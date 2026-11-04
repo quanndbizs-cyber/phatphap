@@ -1,0 +1,494 @@
+/* ========================================================
+   BOOK READER & FLOATING TOC PLUGIN (TỊNH ĐỘ LIÊN HOA)
+   ======================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure headings have comfortable clearance from fixed headers */
+article h2[id],
+article h3[id] {
+  scroll-margin-top: 85px;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Flash highlight when jumping to a story */
+article h2.tm-reader-target-glow {
+  background: linear-gradient(90deg, rgba(201, 151, 44, 0.22), rgba(201, 151, 44, 0.02)) !important;
+  border-left: 5px solid #c9972c !important;
+  padding-left: 12px !important;
+  border-radius: 4px;
+}
+
+/* --------------------------------------------------------
+   FLOATING BOOKMARK BUTTON
+   -------------------------------------------------------- */
+#tm-reader-btn {
+  position: fixed;
+  z-index: 9998;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #42180f 0%, #231710 100%);
+  color: #fff6dc;
+  border: 2px solid #c9972c;
+  box-shadow: 0 4px 18px rgba(35, 23, 16, 0.35), 0 0 10px rgba(201, 151, 44, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  outline: none;
+}
+
+#tm-reader-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 22px rgba(35, 23, 16, 0.45), 0 0 15px rgba(201, 151, 44, 0.45);
+  border-color: #f1c964;
+}
+
+#tm-reader-btn.tm-dragging {
+  cursor: grabbing !important;
+  transform: scale(1.12);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5), 0 0 20px rgba(201, 151, 44, 0.6);
+  opacity: 0.95;
+}
+
+/* Circular Progress Ring */
+#tm-reader-btn .tm-progress-svg {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 52px;
+  height: 52px;
+  transform: rotate(-90deg);
+  pointer-events: none;
+}
+
+#tm-reader-btn .tm-progress-circle-bg {
+  fill: none;
+  stroke: rgba(201, 151, 44, 0.25);
+  stroke-width: 3.5;
+}
+
+#tm-reader-btn .tm-progress-circle-bar {
+  fill: none;
+  stroke: #e6b749;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-dasharray: 144.5;
+  stroke-dashoffset: 144.5;
+  transition: stroke-dashoffset 0.15s ease-out;
+}
+
+/* Bookmark Inner Icon */
+#tm-reader-btn .tm-btn-icon {
+  width: 22px;
+  height: 22px;
+  fill: #fff6dc;
+  transition: transform 0.2s ease;
+}
+
+#tm-reader-btn:hover .tm-btn-icon {
+  transform: scale(1.12);
+  fill: #ffe8a3;
+}
+
+/* Chapter Badge */
+#tm-reader-btn .tm-btn-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: #8c3b19;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 10px;
+  border: 1.5px solid #fcf9f2;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Mini Tooltip */
+#tm-reader-btn .tm-btn-tooltip {
+  position: absolute;
+  background: #231710;
+  color: #fff6dc;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #c9972c;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+#tm-reader-btn.pos-right .tm-btn-tooltip {
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%) translateX(6px);
+}
+
+#tm-reader-btn.pos-left .tm-btn-tooltip {
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%) translateX(-6px);
+}
+
+#tm-reader-btn:hover .tm-btn-tooltip {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+/* --------------------------------------------------------
+   BACKDROP
+   -------------------------------------------------------- */
+#tm-reader-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(20, 12, 8, 0.45);
+  backdrop-filter: blur(2px);
+  z-index: 9998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+#tm-reader-backdrop.tm-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* --------------------------------------------------------
+   DRAWER CONTAINER
+   -------------------------------------------------------- */
+#tm-reader-drawer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 380px;
+  max-width: 90vw;
+  background: #fdfbf7;
+  color: #2b1d12;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.35);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(105%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  border-left: 2px solid #c9972c;
+}
+
+#tm-reader-drawer.dock-left {
+  left: 0;
+  right: auto;
+  border-left: none;
+  border-right: 2px solid #c9972c;
+  transform: translateX(-105%);
+}
+
+#tm-reader-drawer.dock-right {
+  right: 0;
+  left: auto;
+}
+
+#tm-reader-drawer.tm-open {
+  transform: translateX(0) !important;
+}
+
+/* Drawer Header */
+.tm-drawer-header {
+  background: linear-gradient(135deg, #2b1810 0%, #1a0f0a 100%);
+  color: #fff6dc;
+  padding: 16px 18px;
+  border-bottom: 2px solid #c9972c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tm-drawer-title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tm-drawer-icon {
+  font-size: 20px;
+}
+
+.tm-drawer-title {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff6dc;
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+.tm-drawer-count {
+  font-size: 11px;
+  background: rgba(201, 151, 44, 0.3);
+  color: #ffe6a0;
+  border: 1px solid rgba(201, 151, 44, 0.6);
+  padding: 2px 7px;
+  border-radius: 12px;
+}
+
+.tm-drawer-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tm-drawer-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 246, 220, 0.25);
+  color: #fff6dc;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.15s ease;
+}
+
+.tm-drawer-btn:hover {
+  background: #c9972c;
+  color: #231710;
+  border-color: #c9972c;
+}
+
+/* Progress Bar Strip */
+.tm-drawer-progress-strip {
+  background: #f4ecdc;
+  padding: 8px 18px;
+  border-bottom: 1px solid #e2d2ba;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #5c3e21;
+}
+
+.tm-progress-bar-bg {
+  flex-grow: 1;
+  height: 6px;
+  background: #e5d7c3;
+  border-radius: 3px;
+  margin-right: 12px;
+  overflow: hidden;
+}
+
+.tm-progress-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #c9972c, #8c3b19);
+  transition: width 0.2s ease;
+}
+
+.tm-progress-text {
+  font-weight: 600;
+  min-width: 42px;
+  text-align: right;
+}
+
+/* Search Box */
+.tm-drawer-search-wrap {
+  padding: 12px 16px;
+  background: #faf4e8;
+  border-bottom: 1px solid #e7dbca;
+  position: relative;
+}
+
+.tm-drawer-search-input {
+  width: 100%;
+  padding: 8px 32px 8px 12px;
+  border: 1.5px solid #d8c5ab;
+  border-radius: 6px;
+  font-size: 13px;
+  background: #ffffff;
+  color: #2b1d12;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tm-drawer-search-input:focus {
+  border-color: #8c3b19;
+  box-shadow: 0 0 0 3px rgba(140, 59, 25, 0.15);
+}
+
+.tm-drawer-search-clear {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #8c725c;
+  font-size: 14px;
+  cursor: pointer;
+  display: none;
+}
+
+.tm-drawer-search-clear.active {
+  display: block;
+}
+
+/* Story Items List */
+.tm-drawer-list-wrap {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 8px 0;
+  scrollbar-width: thin;
+  scrollbar-color: #c9972c #faf4e8;
+}
+
+.tm-drawer-list-wrap::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tm-drawer-list-wrap::-webkit-scrollbar-thumb {
+  background: #c9972c;
+  border-radius: 3px;
+}
+
+.tm-drawer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tm-drawer-item {
+  margin: 2px 8px;
+}
+
+.tm-drawer-link {
+  display: flex;
+  align-items: center;
+  padding: 9px 12px;
+  text-decoration: none;
+  color: #3b2a1a;
+  font-size: 13.5px;
+  line-height: 1.35;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+  border-left: 3px solid transparent;
+}
+
+.tm-drawer-link:hover {
+  background: #f1e4ce;
+  color: #6e2b19;
+  border-left-color: #c9972c;
+  transform: translateX(2px);
+}
+
+.tm-drawer-item.active .tm-drawer-link {
+  background: #ede0c4;
+  color: #8c3b19;
+  font-weight: 700;
+  border-left-color: #8c3b19;
+  box-shadow: inset 0 0 6px rgba(140, 59, 25, 0.1);
+}
+
+.tm-drawer-num {
+  display: inline-block;
+  min-width: 24px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #8c3b19;
+  background: rgba(140, 59, 25, 0.1);
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-right: 8px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.tm-drawer-text {
+  flex-grow: 1;
+  word-break: break-word;
+}
+
+.tm-drawer-active-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #8c3b19;
+  margin-left: 8px;
+  display: none;
+  flex-shrink: 0;
+}
+
+.tm-drawer-item.active .tm-drawer-active-dot {
+  display: inline-block;
+}
+
+/* Empty Search Result */
+.tm-drawer-empty {
+  padding: 24px 16px;
+  text-align: center;
+  color: #8c725c;
+  font-size: 13px;
+  font-style: italic;
+}
+
+/* Footer Quick Actions */
+.tm-drawer-footer {
+  padding: 10px 14px;
+  background: #f2e7d3;
+  border-top: 1px solid #decab0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.tm-footer-action-btn {
+  flex: 1;
+  background: #ffffff;
+  border: 1px solid #cfb89c;
+  color: #4a321e;
+  padding: 6px 4px;
+  border-radius: 4px;
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.tm-footer-action-btn:hover {
+  background: #c9972c;
+  color: #231710;
+  border-color: #b5831e;
+}
+
+/* Mobile Adjustments */
+@media screen and (max-width: 640px) {
+  #tm-reader-btn {
+    width: 46px;
+    height: 46px;
+  }
+  #tm-reader-drawer {
+    width: 100vw;
+    max-width: 100vw;
+  }
+}
