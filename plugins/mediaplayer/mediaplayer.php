@@ -582,7 +582,7 @@ class mediaplayer extends Plugin
             $searchTxt = htmlspecialchars(mb_strtolower(($st['title'] ?? '') . ' ' . ($st['summary'] ?? ''), 'UTF-8'), ENT_QUOTES, 'UTF-8');
             $vidBoxId  = $uid . '_vid_' . $i;
 
-            $html .= '<div class="tm-story-card" data-search="' . $searchTxt . '">'
+            $html .= '<div class="tm-story-card" id="truyen-' . $num . '" data-search="' . $searchTxt . '">'
                    . '  <div class="tm-story-header">'
                    . '    <div class="tm-story-title-wrap">'
                    . '      <span class="tm-story-num">#' . htmlspecialchars((string)$num, ENT_QUOTES, 'UTF-8') . '</span>'

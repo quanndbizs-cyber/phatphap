@@ -539,3 +539,92 @@ footer {
 	background: linear-gradient(180deg, #f4ebda 0%, #ede0c8 100%) !important;
 	border-top: 2px solid #d4b986 !important;
 }
+
+/* ==========================================================================
+   MOBILE NAVIGATION (BURGER BUTTON & SLIDE-OUT MENU DRAWER)
+   ========================================================================== */
+@media screen and (max-width: 50em) {
+	/* 1. Burger button styling with clear label and high contrast */
+	.burgerbutton {
+		display: inline-flex !important;
+		align-items: center;
+		justify-content: center;
+		gap: 6px;
+		background: linear-gradient(135deg, #42180f 0%, #231710 100%) !important;
+		color: #fceec5 !important;
+		border: 1.5px solid #c9972c !important;
+		border-radius: 8px !important;
+		padding: 7px 14px !important;
+		font-size: 14px !important;
+		font-weight: 700 !important;
+		letter-spacing: 0.5px;
+		cursor: pointer;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+		width: auto !important;
+		float: right;
+		margin: 8px 0 12px 0;
+		transition: all 0.2s ease;
+	}
+
+	.burgerbutton::after {
+		content: " Menu";
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	.burgerbutton:hover,
+	#burger:checked ~ .burgerbutton {
+		background: #c9972c !important;
+		color: #231710 !important;
+		border-color: #f1c964 !important;
+		box-shadow: 0 6px 16px rgba(0, 0, 0, 0.45);
+	}
+
+	/* 2. Mobile Menu Container */
+	#burger:checked ~ .menu {
+		background: linear-gradient(180deg, #2b1810 0%, #1c100a 100%) !important;
+		border: 1.5px solid #c9972c !important;
+		border-radius: 12px !important;
+		box-shadow: 0 12px 36px rgba(0, 0, 0, 0.65) !important;
+		padding: 12px 8px !important;
+		margin-top: 8px;
+		max-height: 80vh !important;
+		overflow-y: auto !important;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	/* 3. High Contrast Menu Items on Mobile */
+	.mainnavigation li {
+		border-color: rgba(201, 151, 44, 0.25) !important;
+		margin-bottom: 3px !important;
+	}
+
+	.mainnavigation a {
+		color: #fff6dc !important; /* Bright warm cream on dark wood background */
+		padding: 0.75rem 0.85rem !important;
+		font-size: 14.5px !important;
+		font-weight: 600 !important;
+		display: flex !important;
+		align-items: center;
+		border-radius: 6px;
+		transition: all 0.15s ease;
+	}
+
+	.mainnavigation a:hover,
+	.mainnavigation a:focus,
+	.mainnavigation a:active {
+		background: rgba(201, 151, 44, 0.25) !important;
+		color: #ffeaa7 !important;
+	}
+
+	/* Active item on mobile */
+	.mainnavigation .active > a:first-child,
+	.mainnavigation .activeParent > a:first-child {
+		background: linear-gradient(90deg, #8c3b19 0%, #b34e24 100%) !important;
+		color: #ffffff !important;
+		border-left: 4px solid #f1c964 !important;
+		font-weight: 700 !important;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+	}
+}

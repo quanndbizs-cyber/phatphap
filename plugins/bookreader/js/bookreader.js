@@ -1,6 +1,7 @@
 /**
  * BOOK READER & FLOATING TOC PLUGIN (TỊNH ĐỘ LIÊN HOA)
  * Provides a draggable bookmark button, smooth TOC drawer, search filter, and active reading progress.
+ * Supports both native reading book pages (H2 anchors) and audio story card hubs (.tm-story-card).
  */
 (function () {
   'use strict';
@@ -18,37 +19,56 @@
       minHeadings: 2
     };
 
-    // Find headings (prefer H2s)
-    var rawHeadings = article.querySelectorAll('h2[id], h3[id]');
-    if (!rawHeadings || rawHeadings.length < config.minHeadings) {
+    var headings = [];
+    var storyCount = 0;
+
+    // 1. Check for story cards (audio hubs like /nhan-qua/bao-ung-hien-doi-tap-6)
+    var storyCards = article.querySelectorAll('.tm-story-card');
+    if (storyCards && storyCards.length >= 2) {
+      storyCards.forEach(function (card, idx) {
+        var num = idx + 1;
+        var id = card.id || ('truyen-' + num);
+        if (!card.id) card.id = id;
+        var titleEl = card.querySelector('.tm-story-title');
+        var titleText = titleEl ? titleEl.textContent.trim() : ('Truyện ' + num);
+        storyCount++;
+        headings.push({
+          el: card,
+          id: id,
+          text: num + '. ' + titleText,
+          level: 'card',
+          isTOC: false,
+          isStory: true
+        });
+      });
+    } else {
+      // 2. Standard headings on reading pages or long articles
+      var rawHeadings = article.querySelectorAll('h2[id], h3[id]');
+      rawHeadings.forEach(function (h) {
+        var id = h.id;
+        if (!id) return;
+        var text = h.textContent.trim();
+        var isTOC = id === 'muc-luc' || text.toLowerCase().includes('mục lục');
+        var isStory = id.startsWith('truyen-') || /^\d+\./.test(text);
+        if (isStory) storyCount++;
+
+        headings.push({
+          el: h,
+          id: id,
+          text: text,
+          level: h.tagName.toLowerCase(),
+          isTOC: isTOC,
+          isStory: isStory
+        });
+      });
+    }
+
+    if (headings.length < config.minHeadings) {
       // If URL does not contain doc-sach, don't activate on short pages
       if (!window.location.pathname.includes('doc-sach')) {
         return;
       }
     }
-
-    // Filter meaningful headings
-    var headings = [];
-    var storyCount = 0;
-    rawHeadings.forEach(function (h) {
-      var id = h.id;
-      if (!id) return;
-      var text = h.textContent.trim();
-      var isTOC = id === 'muc-luc' || text.toLowerCase().includes('mục lục');
-      var isStory = id.startsWith('truyen-') || /^\d+\./.test(text);
-      if (isStory) storyCount++;
-
-      headings.push({
-        el: h,
-        id: id,
-        text: text,
-        level: h.tagName.toLowerCase(),
-        isTOC: isTOC,
-        isStory: isStory
-      });
-    });
-
-    if (headings.length < config.minHeadings) return;
 
     // Load saved position & side
     var savedPos = null;
@@ -87,7 +107,7 @@
       var h = window.innerHeight;
       if (savedPos && typeof savedPos.x === 'number' && typeof savedPos.y === 'number') {
         var x = Math.max(10, Math.min(w - 65, savedPos.x));
-        var y = Math.max(60, Math.min(h - 65, savedPos.y));
+        var y = Math.max(50, Math.min(h - 65, savedPos.y));
         btn.style.left = x + 'px';
         btn.style.top = y + 'px';
         btn.style.right = 'auto';
@@ -95,13 +115,13 @@
         btn.className = (x > w / 2) ? 'pos-right' : 'pos-left';
       } else {
         if (currentSide === 'left') {
-          btn.style.left = '24px';
+          btn.style.left = (w < 640 ? '12px' : '24px');
           btn.style.right = 'auto';
         } else {
-          btn.style.right = '24px';
+          btn.style.right = (w < 640 ? '12px' : '24px');
           btn.style.left = 'auto';
         }
-        btn.style.top = '140px';
+        btn.style.top = (w < 640 ? '100px' : '140px');
       }
     }
     applyBtnPosition();
@@ -155,7 +175,7 @@
         var maxH = window.innerHeight - btn.offsetHeight - 10;
 
         newX = Math.max(10, Math.min(maxW, newX));
-        newY = Math.max(50, Math.min(maxH, newY));
+        newY = Math.max(40, Math.min(maxH, newY));
 
         btn.style.left = newX + 'px';
         btn.style.top = newY + 'px';
@@ -363,7 +383,7 @@
       searchInput.focus();
     });
 
-    // Smooth Scroll To Heading Helper
+    // Smooth Scroll To Heading / Card Helper
     function scrollToHeading(id) {
       var target = document.getElementById(id);
       if (!target) return;
@@ -377,7 +397,7 @@
         behavior: 'smooth'
       });
 
-      // Highlight heading with pulse glow
+      // Highlight target with pulse glow
       target.classList.remove('tm-reader-target-glow');
       void target.offsetWidth; // trigger reflow
       target.classList.add('tm-reader-target-glow');
@@ -399,7 +419,12 @@
 
     document.getElementById('tm-btn-toc').addEventListener('click', function (e) {
       e.preventDefault();
-      scrollToHeading('muc-luc');
+      var tocEl = document.getElementById('muc-luc') || document.getElementById('stories');
+      if (tocEl) {
+        scrollToHeading(tocEl.id);
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     });
 
     document.getElementById('tm-btn-bot').addEventListener('click', function (e) {
@@ -427,7 +452,7 @@
       if (drawerProgFill) drawerProgFill.style.width = pct + '%';
       if (drawerProgText) drawerProgText.textContent = pct + '%';
 
-      // Find active heading
+      // Find active heading / card
       var scrollPos = scrollTop + 100;
       var currentActiveId = null;
 
