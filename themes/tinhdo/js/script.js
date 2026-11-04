@@ -1,7 +1,34 @@
-/*   Y O U R   J A V A S C R I P T
+/**
+ * Tịnh Độ Liên Hoa - Theme Scripts
+ */
+(function() {
+  'use strict';
 
-** Add your JavaScript here
-** You can activate and use VUE.js and AXIOS: https://typemill.net/theme-developers/helper-functions#activate-vuejs-and-axios
-** Typemillutilities.js is included in index.twig for managing youtube-videos.
+  function initMobileMenu() {
+    var burger = document.getElementById('burger');
+    if (!burger) return;
 
-*/
+    // Close menu when pressing Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && burger.checked) {
+        burger.checked = false;
+      }
+    });
+
+    // Close menu when clicking any navigation link
+    var navLinks = document.querySelectorAll('.mainnavigation a');
+    for (var i = 0; i < navLinks.length; i++) {
+      navLinks[i].addEventListener('click', function() {
+        if (window.innerWidth <= 800) {
+          burger.checked = false;
+        }
+      });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMobileMenu);
+  } else {
+    initMobileMenu();
+  }
+})();

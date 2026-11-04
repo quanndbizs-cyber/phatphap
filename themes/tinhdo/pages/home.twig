@@ -18,3 +18,13 @@
 	{% endif %}
 
 {% endfor %}
+
+{# Mobile navigation drawer for homepage #}
+<aside class="grid-sidebar dn-l"> 
+	<nav id="contentnav" class="contentnav{{ theme.collapseNav ? ' collapse' : '' }}" aria-label="Menu">
+		<input type="checkbox" id="burger" class="dn">
+		<label for="burger" class="burger-backdrop dn"></label>
+		<label for="burger" class="burgerbutton" title="Chuyển bài / Mở Menu">&#9776;</label>	
+		{% include 'partials/navigation.twig' %}
+	</nav>
+</aside>

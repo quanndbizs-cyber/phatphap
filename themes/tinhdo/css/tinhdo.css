@@ -504,34 +504,111 @@ main, footer, .landingpageinfo, .landingpageteaser, .landingpagenavi, .landingpa
 	font-weight: 600;
 }
 
-/* Article Readability & Dharma Quotes */
+/* Article Readability, Typography & Story Enhancements */
 article {
-	line-height: 1.78;
+	line-height: 1.82;
 	color: var(--td-ink);
+	font-size: 1.05rem;
 }
 
 article h1 {
 	border-bottom: 2px solid #e5d4b3;
-	padding-bottom: 0.45rem;
+	padding-bottom: 0.55rem;
 	color: #4f1c11 !important;
+	font-family: 'Noto Serif', Georgia, serif !important;
+	font-size: 1.95rem;
+	line-height: 1.35;
+	margin-bottom: 1.25rem;
 }
 
 article h2 {
-	color: #632516 !important;
+	color: #561d10 !important;
+	font-family: 'Noto Serif', Georgia, serif !important;
+	font-weight: 700 !important;
+	font-size: 1.5rem !important;
+	margin-top: 2.5rem !important;
+	margin-bottom: 0.85rem !important;
+	padding-bottom: 0.45rem !important;
+	border-bottom: 1.5px solid rgba(201, 151, 44, 0.35) !important;
+}
+
+article h3 {
+	color: #6a2b1b !important;
+	font-family: 'Noto Serif', Georgia, serif !important;
+	font-size: 1.25rem !important;
+	margin-top: 1.8rem !important;
+	margin-bottom: 0.65rem !important;
 }
 
 article a, footer a {
 	color: #8c3b19 !important;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	transition: color 0.15s ease;
 }
 
-article blockquote {
-	background: linear-gradient(90deg, #f8efe0 0%, #fdfaf2 100%);
-	border-left: 4px solid #c9972c;
-	border-radius: 0 10px 10px 0;
-	padding: 1rem 1.35rem;
-	margin: 1.5rem 0;
-	color: #472e1d;
+article a:hover {
+	color: #c9972c !important;
+}
+
+/* Ornamental Divider with Sacred Lotus for Story Separators */
+article hr {
+	border: 0;
+	height: 1px;
+	background: linear-gradient(90deg, transparent, #c9972c 30%, #c9972c 70%, transparent);
+	margin: 2.8rem auto;
+	position: relative;
+	overflow: visible;
+	text-align: center;
+	width: 90%;
+}
+
+article hr::after {
+	content: " ❖  蓮花  ❖ ";
+	display: inline-block;
+	position: relative;
+	top: -0.74rem;
+	padding: 0 1rem;
+	background: var(--td-paper, #fcf9f2);
+	color: #c9972c;
+	font-size: 0.88rem;
+	letter-spacing: 0.25rem;
 	font-family: 'Noto Serif', Georgia, serif;
+	font-weight: 600;
+}
+
+/* Beautiful Drop-cap at the beginning of each story */
+article h2 + p::first-letter,
+article h2 + blockquote + p::first-letter,
+article h3 + p::first-letter,
+article .story-dropcap::first-letter {
+	float: left;
+	font-family: 'Noto Serif', Georgia, serif;
+	font-size: 3.25rem;
+	line-height: 0.82;
+	padding-top: 4px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	color: #c9972c;
+	font-weight: 700;
+	text-shadow: 1px 1px 2px rgba(90, 34, 22, 0.2);
+}
+
+/* Contemplative reflection boxes & story pauses */
+article blockquote {
+	background: linear-gradient(135deg, #fbf5e8 0%, #fffdfa 100%) !important;
+	border-left: 4px solid #c9972c !important;
+	border-radius: 0 12px 12px 0 !important;
+	padding: 1.15rem 1.45rem !important;
+	margin: 1.8rem 0 !important;
+	color: #432a1a !important;
+	font-family: 'Noto Serif', Georgia, serif !important;
+	box-shadow: 0 4px 14px rgba(60, 30, 10, 0.04) !important;
+	line-height: 1.75 !important;
+}
+
+article blockquote strong {
+	color: #5a2216 !important;
 }
 
 /* Footer */
@@ -541,57 +618,178 @@ footer {
 }
 
 /* ==========================================================================
-   MOBILE NAVIGATION (BURGER BUTTON & SLIDE-OUT MENU DRAWER)
+   MOBILE NAVIGATION (STICKY HEADER BURGER BUTTON & SLIDE-OUT MENU DRAWER)
    ========================================================================== */
+.burger-backdrop {
+	display: none;
+}
+
 @media screen and (max-width: 50em) {
-	/* 1. Burger button styling with clear label and high contrast */
+	/* Sticky Top Header Bar on Mobile */
+	.tinhdo-top-bar {
+		position: sticky !important;
+		top: 0 !important;
+		z-index: 99990 !important;
+		padding: 0.45rem 0.75rem !important;
+		backdrop-filter: blur(8px);
+		-webkit-backdrop-filter: blur(8px);
+		background: rgba(36, 19, 13, 0.96) !important;
+		border-bottom: 1.5px solid rgba(212, 175, 55, 0.5) !important;
+		box-shadow: 0 3px 12px rgba(0, 0, 0, 0.45) !important;
+	}
+
+	.tinhdo-top-bar-inner {
+		padding-right: 95px !important; /* Reserve clearance for fixed burger button */
+		justify-content: flex-start !important;
+	}
+
+	.tinhdo-top-mantra {
+		display: none !important; /* Keep mobile sticky header sleek and compact */
+	}
+
+	.tinhdo-top-title {
+		font-size: 0.95rem !important;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: calc(100vw - 145px);
+	}
+
+	/* 1. Burger button styling: Fixed sticky at top right */
 	.burgerbutton {
+		position: fixed !important;
+		top: 7px !important;
+		right: 10px !important;
+		z-index: 99999 !important;
 		display: inline-flex !important;
 		align-items: center;
 		justify-content: center;
-		gap: 6px;
+		gap: 5px;
 		background: linear-gradient(135deg, #42180f 0%, #231710 100%) !important;
 		color: #fceec5 !important;
 		border: 1.5px solid #c9972c !important;
 		border-radius: 8px !important;
-		padding: 7px 14px !important;
-		font-size: 14px !important;
+		padding: 5px 11px !important;
+		font-size: 0 !important; /* Cleanly hides raw &#9776; text node */
 		font-weight: 700 !important;
 		letter-spacing: 0.5px;
 		cursor: pointer;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 6px rgba(201, 151, 44, 0.3) !important;
 		width: auto !important;
-		float: right;
-		margin: 8px 0 12px 0;
+		height: 34px !important;
+		box-sizing: border-box !important;
+		float: none !important;
+		margin: 0 !important;
 		transition: all 0.2s ease;
+		user-select: none;
+		-webkit-user-select: none;
+	}
+
+	.burgerbutton::before {
+		content: "☰";
+		font-size: 15px !important;
+		line-height: 1;
+		color: #f5d061;
+		margin-right: 4px;
 	}
 
 	.burgerbutton::after {
-		content: " Menu";
+		content: "Menu";
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-		font-size: 13px;
+		font-size: 13px !important;
 		font-weight: 600;
+		color: #fceec5;
 	}
 
-	.burgerbutton:hover,
-	#burger:checked ~ .burgerbutton {
-		background: #c9972c !important;
-		color: #231710 !important;
+	.burgerbutton:hover {
+		background: #5a2216 !important;
 		border-color: #f1c964 !important;
-		box-shadow: 0 6px 16px rgba(0, 0, 0, 0.45);
+		color: #ffffff !important;
+	}
+
+	/* When checked: button turns active ruby with Close label */
+	#burger:checked ~ .burgerbutton {
+		background: #8c3b19 !important;
+		color: #ffffff !important;
+		border-color: #f1c964 !important;
+		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.55), 0 0 10px rgba(241, 201, 100, 0.4) !important;
+	}
+
+	#burger:checked ~ .burgerbutton::before {
+		content: "✕";
+		color: #ffffff;
+		font-size: 14px !important;
+		margin-right: 4px;
+	}
+
+	#burger:checked ~ .burgerbutton::after {
+		content: "Đóng";
+		color: #ffffff;
+	}
+
+	/* Dimmed Backdrop when menu is open */
+	#burger:checked ~ .burger-backdrop {
+		display: block !important;
+		position: fixed !important;
+		top: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+		bottom: 0 !important;
+		width: 100vw !important;
+		height: 100vh !important;
+		background: rgba(18, 10, 6, 0.65) !important;
+		backdrop-filter: blur(3px);
+		-webkit-backdrop-filter: blur(3px);
+		z-index: 99992 !important;
+		cursor: pointer;
 	}
 
 	/* 2. Mobile Menu Container */
+	.menu {
+		display: none;
+	}
+
 	#burger:checked ~ .menu {
+		display: block !important;
+		position: fixed !important;
+		top: 48px !important;
+		right: 10px !important;
+		left: 10px !important;
+		max-width: 440px !important;
+		margin-left: auto !important;
+		max-height: calc(100vh - 65px) !important;
+		z-index: 99995 !important;
 		background: linear-gradient(180deg, #2b1810 0%, #1c100a 100%) !important;
 		border: 1.5px solid #c9972c !important;
 		border-radius: 12px !important;
-		box-shadow: 0 12px 36px rgba(0, 0, 0, 0.65) !important;
-		padding: 12px 8px !important;
-		margin-top: 8px;
-		max-height: 80vh !important;
+		box-shadow: 0 16px 45px rgba(0, 0, 0, 0.8), 0 0 20px rgba(201, 151, 44, 0.3) !important;
+		padding: 12px 10px !important;
+		margin: 0 !important;
 		overflow-y: auto !important;
 		-webkit-overflow-scrolling: touch;
+	}
+
+	#burger:checked ~ .menu::-webkit-scrollbar {
+		width: 6px;
+	}
+
+	#burger:checked ~ .menu::-webkit-scrollbar-thumb {
+		background: #c9972c;
+		border-radius: 3px;
+	}
+
+	.menu::before {
+		content: "☸ DANH MỤC PHẬT PHÁP";
+		display: block;
+		font-family: 'Noto Serif', Georgia, serif;
+		font-size: 13px;
+		font-weight: 700;
+		letter-spacing: 0.05em;
+		color: #e6b749;
+		padding: 6px 12px 10px 12px;
+		border-bottom: 1px solid rgba(201, 151, 44, 0.3);
+		margin-bottom: 8px;
+		text-align: center;
 	}
 
 	/* 3. High Contrast Menu Items on Mobile */
@@ -626,5 +824,17 @@ footer {
 		border-left: 4px solid #f1c964 !important;
 		font-weight: 700 !important;
 		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+	}
+}
+
+/* Desktop Navigation (>= 50em) */
+@media screen and (min-width: 50em) {
+	.burgerbutton,
+	.burger-backdrop {
+		display: none !important;
+	}
+
+	.menu::before {
+		display: none !important;
 	}
 }
