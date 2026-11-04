@@ -14,7 +14,13 @@
 			</span>
 			<a href="{{ home_url }}" class="tinhdo-top-title">{{ settings.title|default('Thư Viện Phật Pháp & Tịnh Độ Liên Hoa') }}</a>
 		</div>
+		<button type="button" class="tinhdo-search-btn-mobile" id="tm-search-trigger-mobile" aria-label="Tìm kiếm" title="Tìm kiếm (Ctrl+K)">🔍</button>
 		<div class="tinhdo-top-mantra">
+			<button type="button" class="tinhdo-search-btn" id="tm-search-trigger" aria-label="Tìm kiếm bài viết">
+				<span class="tinhdo-search-icon">🔍</span>
+				<span class="tinhdo-search-placeholder">Tìm kiếm kinh, truyện, bài giảng...</span>
+				<kbd class="tinhdo-search-kbd">Ctrl K</kbd>
+			</button>
 			<span class="mantra-badge">☸ Nam Mô A Di Đà Phật</span>
 			<a href="{{ base_url }}/phat-giao/cac-bai-khai-thi" class="tinhdo-quick-pill">Chuyên Tu Tịnh Độ</a>
 			<a href="{{ base_url }}/nhan-qua/bao-ung-hien-doi-tuyen-tap" class="tinhdo-quick-pill">Báo Ứng Hiện Đời</a>

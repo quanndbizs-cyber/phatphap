@@ -38,6 +38,13 @@
     	class="expander dim dn db-l link pointer w-100 ba pa2 mb3 f6">{{ theme.expand|default('expand navigation')|e }}</button>
 {% endif %}
 
+<div class="tinhdo-sidebar-search-wrap">
+    <button type="button" class="tinhdo-sidebar-search-btn" id="tm-sidebar-search-trigger" aria-label="Tìm kiếm bài viết">
+        <span>🔍 Tìm kiếm bài viết...</span>
+        <kbd>Ctrl+K</kbd>
+    </button>
+</div>
+
 <ul class="cy-nav mainnavigation list pa0 menu f5">
     {{ macros.loop_over(navigation, theme.chapnum ) }}
 </ul>

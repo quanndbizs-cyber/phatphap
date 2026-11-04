@@ -89,6 +89,12 @@ find "$BASE_DIR/data/navigation" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} + 2>
 find "$BASE_DIR/cache" -mindepth 1 -maxdepth 1 ! -name 'cyanine-custom.css' -exec rm -rf -- {} + 2>/dev/null || true
 echo -e "   ${GREEN}[OK] Đã dọn dẹp sạch cache navigation và cache template.${NC}"
 
+# 3b. Tái tạo Search Index cho toàn bộ bài viết trong hệ thống
+if [ -f "$BASE_DIR/scripts/build_search_index.php" ]; then
+    echo -e "${CYAN}-> 3b. Tạo chỉ mục tìm kiếm toàn trang (Search Index)...${NC}"
+    php "$BASE_DIR/scripts/build_search_index.php" || echo -e "   ${YELLOW}[WARN] Lỗi khi tạo search index.${NC}"
+fi
+
 # 4. Đảm bảo quyền thư mục dữ liệu
 echo -e "${CYAN}-> 4. Thiết lập quyền ghi (permissions) cho www-data...${NC}"
 mkdir -p "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" \
