@@ -54,14 +54,24 @@ Khi thực hiện bất kỳ thao tác Git nào, Agent **BẮT BUỘC** tuân th
 
 ---
 
-## 3. Quy Trình AI Agent Hỗ Trợ Đưa Nội Dung Lên Hệ Thống Từ Thư Mục `Source/` (Content Intake Workflow)
+## 3. Quy Trình AI Agent Hỗ Trợ Đưa Nội Dung Lên Hệ Thống Từ Thư Mục `Source/` & Vòng Đời Dữ Liệu
 
-Thư mục **`/var/www/html/phatphap/Source/`** là **Cổng tiếp nhận nội dung đầu vào chính thức (Official Raw Content Intake Directory)**:
-* Người dùng đặt các file bản thảo gốc (`.md`, `.html`, `.pdf`, `.docx`, bản xuất ChatGPT, danh sách link audio/video) vào các thư mục con trong `Source/` (ví dụ: `Source/Bao ung hien doi/`, `Source/Tu học/`...).
-* Thư mục `Source/` được cấu hình trong `.gitignore` của nhánh `v2.x` để giữ nhánh phần mềm sạch.
-* Khi xử lý nội dung từ `Source/`, Agent biên tập sang Markdown + YAML chuẩn trong `content/`, sao chép tài liệu đính kèm (`.pdf`, `.mp3`...) vào `media/files/`, xóa cache `data/navigation/*` và commit vào nhánh `content`.
+Thư mục **`/var/www/html/phatphap/Source/`** là **Cổng tiếp nhận nội dung đầu vào chính thức (Official Raw Content Intake Directory)**.
 
-Khi người dùng cung cấp nội dung mới (dưới dạng file `.html`, `.md`, `.docx`, văn bản copy-paste, hoặc danh sách link `audiobookshelf`, `audio.com`, `youtube`, `mp3`), Agent thực hiện theo quy trình 4 bước:
+### 3.1. Vòng đời dữ liệu nguồn (Data Lifecycle & Archival Workflow)
+Để đảm bảo dữ liệu nguồn luôn gọn gàng, tránh thất lạc hoặc xử lý trùng lặp, quy trình luân chuyển dữ liệu nguồn gồm 3 giai đoạn:
+1. **Tiếp nhận (`Source/`)**:
+   * Người dùng đặt các bản thảo thô (`.md`, `.html`, `.pdf`, `.docx`, bản xuất ChatGPT, danh sách link audio/video...) vào các thư mục con trong `Source/` (ví dụ: `Source/Bao ung hien doi/`, `Source/Tu học/`...).
+2. **Chờ xác nhận nghiệm thu (`Source/finish_confirm/`)**:
+   * Ngay sau khi Agent hoàn tất biên tập đưa nội dung lên `content/` và tài liệu lên `media/files/`, Agent di chuyển (move) toàn bộ dữ liệu nguồn tương ứng vào thư mục chờ xác nhận: `/var/www/html/phatphap/Source/finish_confirm/<Tên_thư_mục_nguồn>/`.
+   * Trạng thái này giúp người dùng dễ dàng kiểm tra đối chiếu dữ liệu nào đã được Agent đưa lên web và dữ liệu nào còn đang chờ xử lý trong `Source/`.
+3. **Lưu trữ hoàn tất (`/finish/`)**:
+   * Khi người dùng đã kiểm tra và xác nhận nội dung trên web đạt yêu cầu, dữ liệu từ `Source/finish_confirm/` được chuyển dứt điểm vào thư mục lưu trữ vĩnh viễn ở root dự án: `/var/www/html/phatphap/finish/<Tên_thư_mục_nguồn>/`.
+4. **Quy tắc Git**:
+   * Cả thư mục `Source/` (bao gồm `Source/finish_confirm/`) và `/finish/` đều được loại trừ trong `.gitignore` của nhánh `v2.x` để giữ nhánh mã nguồn sạch sẽ tuyệt đối.
+
+### 3.2. Các bước biên tập và xuất bản lên hệ thống
+Khi người dùng cung cấp nội dung mới trong `Source/` (dưới dạng file `.html`, `.md`, `.docx`, văn bản copy-paste, hoặc danh sách link `audiobookshelf`, `audio.com`, `youtube`, `mp3`), Agent thực hiện theo quy trình 4 bước:
 
 ### Bước 1: Xác định vị trí & thứ tự trong cây thư mục `content/`
 * Cấu trúc chuẩn hiện tại:
