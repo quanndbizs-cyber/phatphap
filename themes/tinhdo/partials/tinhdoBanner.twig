@@ -20,11 +20,23 @@
 				<span class="tinhdo-search-placeholder">Tìm kiếm kinh, truyện, bài giảng...</span>
 				<kbd class="tinhdo-search-kbd">Ctrl K</kbd>
 			</button>
-			<div class="tinhdo-font-controller" title="Tăng giảm cỡ chữ đọc kinh / đọc sách">
-				<span class="tinhdo-font-ctrl-label" aria-hidden="true">🗚 Cỡ chữ:</span>
-				<button type="button" class="tinhdo-font-btn tm-font-dec" title="Thu nhỏ chữ (A−)" aria-label="Thu nhỏ chữ">A−</button>
-				<button type="button" class="tinhdo-font-btn tm-font-reset" title="Đặt lại cỡ chữ mặc định (100%)" aria-label="Đặt lại cỡ chữ chuẩn"><span class="tm-font-scale-text">100%</span></button>
-				<button type="button" class="tinhdo-font-btn tm-font-inc" title="Phóng to chữ (A+) cho người lớn tuổi nhìn rõ" aria-label="Phóng to chữ">A+</button>
+			<div class="tinhdo-font-controller" title="Tùy chỉnh đọc kinh & sách">
+				{# 1 Button A+ chu kỳ tăng & reset #}
+				<button type="button" class="tinhdo-font-btn tm-font-cycle-btn" id="tm-font-cycle-top" title="Tăng cỡ chữ (A+) — bấm để tăng, chạm mốc tối đa sẽ quay về 100%" aria-label="Tăng cỡ chữ">
+					<span class="tm-font-cycle-label">A+</span>
+					<span class="tm-font-scale-badge tm-font-scale-text">100%</span>
+				</button>
+				{# Chế độ đọc ban đêm (icon mặt trăng khuyết) #}
+				<button type="button" class="tinhdo-font-btn tm-night-mode-btn" id="tm-night-mode-top" title="Chế độ đọc ban đêm (dịu mắt, chống chói)" aria-label="Chế độ đọc ban đêm">
+					<span class="tm-night-icon" aria-hidden="true">🌙</span>
+				</button>
+				{% if theme.elderlyModeSupport %}
+				{# Chế độ Chữ Lớn Toàn Diện cho Người Cao Tuổi #}
+				<button type="button" class="tinhdo-font-btn tm-elderly-mode-btn" id="tm-elderly-mode-top" title="Bật/Tắt chế độ Chữ Lớn & Nút Bấm To Toàn Diện cho Người Cao Tuổi" aria-label="Chế độ chữ lớn người cao tuổi">
+					<span class="tm-elderly-icon" aria-hidden="true">👓</span>
+					<span class="tm-elderly-text">Chữ lớn</span>
+				</button>
+				{% endif %}
 			</div>
 			<span class="mantra-badge">☸ Nam Mô A Di Đà Phật</span>
 			<a href="{{ base_url }}/phat-giao/cac-bai-khai-thi" class="tinhdo-quick-pill">Chuyên Tu Tịnh Độ</a>

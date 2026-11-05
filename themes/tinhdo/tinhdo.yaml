@@ -6,6 +6,7 @@ homepage: https://typemill.net
 license: MIT
 
 settings:
+  elderlyModeSupport: true
   blogimage: true
   landingpage: true
   introPosition: '1'
@@ -352,6 +353,10 @@ forms:
       type: fieldset
       legend: General Layout
       fields:
+        elderlyModeSupport:
+          type: checkbox
+          label: 'Chế Độ Hỗ Trợ Người Cao Tuổi'
+          checkboxlabel: 'Cho phép bật giao diện cỡ chữ lớn toàn diện (bao gồm nút bấm, menu và nội dung)'
         layoutsize:
           type: select
           label: Layout Size

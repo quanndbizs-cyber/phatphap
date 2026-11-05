@@ -47,12 +47,24 @@
 
 					<div class="tinhdo-reader-toolbar" aria-label="Thanh công cụ đọc sách">
 						<div class="tinhdo-reader-tools">
-							<span class="tinhdo-reader-tools-label"><i class="lotus-dot" aria-hidden="true">❖</i> Chế độ đọc:</span>
-							<div class="tinhdo-font-btn-group" role="group" aria-label="Tùy chỉnh cỡ chữ">
-								<span class="tinhdo-font-btn-title">Cỡ chữ</span>
-								<button type="button" class="tinhdo-reader-btn tm-font-dec" title="Thu nhỏ cỡ chữ (A−)" aria-label="Thu nhỏ chữ">A−</button>
-								<button type="button" class="tinhdo-reader-btn tm-font-reset" title="Đặt lại cỡ chữ mặc định 100%" aria-label="Đặt lại cỡ chữ"><span class="tm-font-scale-text">100%</span></button>
-								<button type="button" class="tinhdo-reader-btn tm-font-inc" title="Phóng to cỡ chữ (A+) cho người lớn tuổi nhìn rõ" aria-label="Phóng to chữ">A+</button>
+							<span class="tinhdo-reader-tools-label"><i class="lotus-dot" aria-hidden="true">❖</i> Tiện ích đọc:</span>
+							<div class="tinhdo-font-btn-group" role="group" aria-label="Tùy chỉnh cỡ chữ & hiển thị">
+								{# 1 Button A+ chu kỳ tăng & reset #}
+								<button type="button" class="tinhdo-reader-btn tm-font-cycle-btn" title="Tăng cỡ chữ (A+) — bấm để tăng, chạm mốc tối đa sẽ quay về 100%" aria-label="Tăng cỡ chữ">
+									<span class="tm-font-cycle-label">A+</span>
+									<span class="tm-font-scale-badge tm-font-scale-text">100%</span>
+								</button>
+								{# Chế độ đọc ban đêm (icon mặt trăng khuyết) #}
+								<button type="button" class="tinhdo-reader-btn tm-night-mode-btn" title="Chế độ đọc ban đêm (dịu mắt, chống chói)" aria-label="Chế độ đọc ban đêm">
+									<span class="tm-night-icon" aria-hidden="true">🌙</span>
+								</button>
+								{% if theme.elderlyModeSupport %}
+								{# Chế độ Chữ Lớn Toàn Diện cho Người Cao Tuổi #}
+								<button type="button" class="tinhdo-reader-btn tm-elderly-mode-btn" title="Bật/Tắt chế độ Chữ Lớn & Nút Bấm To Toàn Diện cho Người Cao Tuổi" aria-label="Chế độ chữ lớn người cao tuổi">
+									<span class="tm-elderly-icon" aria-hidden="true">👓</span>
+									<span class="tm-elderly-text">Chữ lớn</span>
+								</button>
+								{% endif %}
 							</div>
 						</div>
 					</div>

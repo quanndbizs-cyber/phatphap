@@ -19,6 +19,14 @@
 					document.documentElement.style.setProperty("--tm-font-scale", s);
 					document.documentElement.setAttribute("data-font-scale", s);
 				}
+				var el = localStorage.getItem("tm_elderly_mode");
+				if(el === "true" || el === "1"){
+					document.documentElement.classList.add("tm-elderly-mode");
+				}
+				var nm = localStorage.getItem("tm_night_mode");
+				if(nm === "true" || nm === "1"){
+					document.documentElement.classList.add("tm-night-mode");
+				}
 			} catch(e){}
 		})();
 		</script>
@@ -270,12 +278,23 @@
 
 		{% block content %}{% endblock %}
 
-		{# Floating font size controls for readers (especially elderly readers) #}
-		<aside id="tm-floating-font-bar" class="tm-floating-font-bar" aria-label="Điều chỉnh cỡ chữ đọc bài">
-			<span class="tm-float-font-icon" title="Cỡ chữ đọc kinh & sách">🗚</span>
-			<button type="button" class="tm-float-font-btn tm-font-dec" title="Thu nhỏ cỡ chữ (A−)" aria-label="Thu nhỏ chữ">A−</button>
-			<button type="button" class="tm-float-font-val tm-font-reset" title="Đặt lại cỡ chữ mặc định (100%)" aria-label="Đặt lại cỡ chữ"><span class="tm-font-scale-text">100%</span></button>
-			<button type="button" class="tm-float-font-btn tm-font-inc" title="Phóng to cỡ chữ (A+) cho người lớn tuổi nhìn rõ" aria-label="Phóng to chữ">A+</button>
+		{# Floating font size & reading controls for readers (especially elderly readers) #}
+		<aside id="tm-floating-font-bar" class="tm-floating-font-bar" aria-label="Điều chỉnh đọc kinh & sách">
+			{# 1 Button A+ chu kỳ tăng & reset #}
+			<button type="button" class="tm-float-font-btn tm-font-cycle-btn" title="Tăng cỡ chữ (A+) — chạm mốc tối đa sẽ quay về 100%" aria-label="Tăng cỡ chữ">
+				<span class="tm-font-cycle-label">A+</span>
+				<span class="tm-font-scale-badge tm-font-scale-text">100%</span>
+			</button>
+			{# Chế độ đọc ban đêm (icon mặt trăng khuyết) #}
+			<button type="button" class="tm-float-font-btn tm-night-mode-btn" title="Chế độ đọc ban đêm (dịu mắt)" aria-label="Chế độ đọc ban đêm">
+				<span class="tm-night-icon" aria-hidden="true">🌙</span>
+			</button>
+			{% if theme.elderlyModeSupport %}
+			{# Chế độ Chữ Lớn Toàn Diện cho Người Cao Tuổi #}
+			<button type="button" class="tm-float-font-btn tm-elderly-mode-btn" title="Chế độ Chữ Lớn & Nút Bấm To cho Người Cao Tuổi" aria-label="Chế độ chữ lớn người cao tuổi">
+				<span class="tm-elderly-icon" aria-hidden="true">👓</span>
+			</button>
+			{% endif %}
 		</aside>
 			
 		{% include 'partials/footer.twig' %}
