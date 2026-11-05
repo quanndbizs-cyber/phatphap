@@ -34,6 +34,8 @@ git config --global --add safe.directory "$BASE_DIR/content" 2>/dev/null || true
 
 if [[ -d "$BASE_DIR/content/.git" || -f "$BASE_DIR/content/.git" ]]; then
     git -C "$BASE_DIR/content" config core.fileMode false 2>/dev/null || true
+    # Dọn dẹp thay đổi tạm thời trên server để đảm bảo git pull --ff-only luôn thành công
+    git -C "$BASE_DIR/content" checkout -- . 2>/dev/null || true
     git -C "$BASE_DIR/content" pull --ff-only origin content
 else
     echo "[ERROR] $BASE_DIR/content không phải Git repository."
