@@ -170,6 +170,18 @@ class mediaplayer extends Plugin
             return;
         }
 
+        # 5c. [:buhdview key="..." stories="..." title="..." exturl="..." :]
+        if ($name === 'buhdview') {
+            $shortcode->stopPropagation();
+            $key     = $params['key'] ?? '';
+            $stories = $params['stories'] ?? 'stories';
+            $title   = $params['title'] ?? 'Báo Ứng Hiện Đời';
+            $extUrl  = $params['exturl'] ?? '';
+
+            $shortcode->setData($this->renderBuhdView($key, $stories, $title, $extUrl));
+            return;
+        }
+
         # 6. [:accordion title="..." open="true" :] and [:/accordion:]
         if ($name === 'accordion') {
             $shortcode->stopPropagation();
@@ -632,6 +644,49 @@ class mediaplayer extends Plugin
 
         $html .= '  </div>'
                . '</div>';
+
+        return $html;
+    }
+
+    protected function renderBuhdView(string $keysCsv, string $storyListId, string $title, string $extUrl): string
+    {
+        $audioHtml   = $this->renderAbsPlayer($keysCsv, $title, $extUrl);
+        $storiesHtml = $this->renderStorylist($storyListId);
+
+        $groups = $this->resolveAbsGroups($keysCsv);
+        $audioCount = 0;
+        foreach ($groups as $g) {
+            $audioCount += count($g['tracks'] ?? []);
+        }
+
+        $storyData  = $this->currentMeta['mediaplayer'][$storyListId] ?? ($this->currentMeta['stories'] ?? null);
+        $storyCount = (!empty($storyData['items']) && is_array($storyData['items'])) ? count($storyData['items']) : 0;
+
+        $uid = 'tmbuhd_' . substr(md5($keysCsv . $storyListId . $title), 0, 8);
+
+        $audioBadge = $audioCount > 0 ? ('<span class="tm-buhd-tab-count">' . $audioCount . ' bài</span>') : '';
+        $storyBadge = $storyCount > 0 ? ('<span class="tm-buhd-tab-count">' . $storyCount . ' mục</span>') : '';
+
+        $html = '<div class="tm-buhdview" id="' . $uid . '">'
+              . '  <div class="tm-buhdview-tabs" role="tablist">'
+              . '    <button type="button" class="tm-buhdview-tab active" data-tab="audio" role="tab" aria-selected="true" onclick="window.tmSwitchBuhdTab(' . "'" . $uid . "'" . ', ' . "'audio'" . ')">'
+              . '      <span class="tm-buhd-tab-icon">🎧</span>'
+              . '      <span>Nghe Audio MP3</span> ' . $audioBadge
+              . '    </button>'
+              . '    <button type="button" class="tm-buhdview-tab" data-tab="stories" role="tab" aria-selected="false" onclick="window.tmSwitchBuhdTab(' . "'" . $uid . "'" . ', ' . "'stories'" . ')">'
+              . '      <span class="tm-buhd-tab-icon">📖</span>'
+              . '      <span>Tóm Tắt &amp; Đọc Sách / Video</span> ' . $storyBadge
+              . '    </button>'
+              . '  </div>'
+              . '  <div class="tm-buhdview-panes">'
+              . '    <div class="tm-buhdview-pane active" data-pane="audio">'
+              .        $audioHtml
+              . '    </div>'
+              . '    <div class="tm-buhdview-pane" data-pane="stories" style="display:none;">'
+              .        $storiesHtml
+              . '    </div>'
+              . '  </div>'
+              . '</div>';
 
         return $html;
     }
