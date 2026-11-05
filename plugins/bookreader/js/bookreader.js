@@ -254,7 +254,8 @@
       '</div>' +
       '<div class="tm-drawer-footer">' +
         '<a href="#top" class="tm-footer-action-btn" id="tm-btn-top">⬆ Đầu trang</a>' +
-        '<a href="#muc-luc" class="tm-footer-action-btn" id="tm-btn-toc">📑 Mục lục bài</a>' +
+        '<a href="#muc-luc" class="tm-footer-action-btn" id="tm-btn-toc">📑 Mục lục</a>' +
+        '<button type="button" class="tm-footer-action-btn tm-footer-close-btn" id="tm-btn-close-footer">✕ Đóng</button>' +
         '<a href="#bottom" class="tm-footer-action-btn" id="tm-btn-bot">⬇ Cuối trang</a>' +
       '</div>';
 
@@ -299,6 +300,11 @@
 
     // Drawer open / close handlers
     function openDrawer() {
+      // Auto close mobile top navigation menu if open
+      var burgerCheck = document.getElementById('burger');
+      if (burgerCheck && burgerCheck.checked) {
+        burgerCheck.checked = false;
+      }
       drawer.classList.add('tm-open');
       backdrop.classList.add('tm-active');
       var searchInput = drawer.querySelector('.tm-drawer-search-input');
@@ -314,6 +320,11 @@
 
     drawer.querySelector('.tm-drawer-close').addEventListener('click', closeDrawer);
     backdrop.addEventListener('click', closeDrawer);
+
+    var closeFooterBtn = document.getElementById('tm-btn-close-footer');
+    if (closeFooterBtn) {
+      closeFooterBtn.addEventListener('click', closeDrawer);
+    }
 
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && drawer.classList.contains('tm-open')) {
