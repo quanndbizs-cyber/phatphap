@@ -92,10 +92,9 @@ if id www-data >/dev/null 2>&1; then
     fi
 fi
 
-# Keep the original permission behavior, but apply it only to these app data
-# directories. Note that 775 also adds execute permission to regular files.
+# Áp dụng quyền 775 cho các thư mục ứng dụng (bỏ qua file do www-data sở hữu nếu chạy dưới quyền thường)
 chmod -R 775 "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" \
-             "$BASE_DIR/media" "$BASE_DIR/settings"
+             "$BASE_DIR/media" "$BASE_DIR/settings" 2>/dev/null || true
 
 # 5. Validate and reload PHP-FPM 8.4 and Nginx using non-interactive sudo.
 echo "-> 5. Kiểm tra và reload PHP-FPM 8.4 / Nginx..."
