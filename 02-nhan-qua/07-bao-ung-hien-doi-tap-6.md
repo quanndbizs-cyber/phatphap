@@ -5,7 +5,7 @@ Tuyển tập **Báo Ứng Hiện Đời – Tập 6** (Sư cô Hạnh Đoan bi�
 ---
 
 * [← Quay về Trung Tâm Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)
-* [📖 Bản sách đọc Google Sites (Tập 6)](https://sites.google.com/view/buhd6/t%E1%BA%ADp-6)
+* [📖 Đọc Toàn Bộ Bản Chữ Tập 6 (Trực Tiếp Trong Hệ Thống)](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-6)
 
 ---
 
