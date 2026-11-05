@@ -504,11 +504,31 @@ main, footer, .landingpageinfo, .landingpageteaser, .landingpagenavi, .landingpa
 	font-weight: 600;
 }
 
-/* Article Readability, Typography & Story Enhancements */
+/* Article Readability, Typography & Story Enhancements (Font Scale Aware) */
+:root {
+	--tm-font-scale: 1;
+}
+
 article {
-	line-height: 1.82;
+	line-height: calc(1.82 * (1 + (var(--tm-font-scale, 1) - 1) * 0.22));
 	color: var(--td-ink);
-	font-size: 1.05rem;
+	font-size: calc(1.05rem * var(--tm-font-scale, 1));
+	transition: font-size 0.15s ease, line-height 0.15s ease;
+}
+
+article p,
+article li,
+article dl,
+article dd,
+article blockquote,
+article table,
+article pre,
+article code,
+.grid-main p,
+.grid-main li {
+	font-size: calc(1.05rem * var(--tm-font-scale, 1)) !important;
+	line-height: calc(1.82 * (1 + (var(--tm-font-scale, 1) - 1) * 0.22)) !important;
+	transition: font-size 0.15s ease, line-height 0.15s ease;
 }
 
 article h1 {
@@ -516,7 +536,7 @@ article h1 {
 	padding-bottom: 0.55rem;
 	color: #4f1c11 !important;
 	font-family: 'Noto Serif', Georgia, serif !important;
-	font-size: 1.95rem;
+	font-size: calc(1.95rem * (1 + (var(--tm-font-scale, 1) - 1) * 0.4)) !important;
 	line-height: 1.35;
 	margin-bottom: 1.25rem;
 }
@@ -525,7 +545,7 @@ article h2 {
 	color: #561d10 !important;
 	font-family: 'Noto Serif', Georgia, serif !important;
 	font-weight: 700 !important;
-	font-size: 1.5rem !important;
+	font-size: calc(1.5rem * (1 + (var(--tm-font-scale, 1) - 1) * 0.4)) !important;
 	margin-top: 2.5rem !important;
 	margin-bottom: 0.85rem !important;
 	padding-bottom: 0.45rem !important;
@@ -535,7 +555,7 @@ article h2 {
 article h3 {
 	color: #6a2b1b !important;
 	font-family: 'Noto Serif', Georgia, serif !important;
-	font-size: 1.25rem !important;
+	font-size: calc(1.25rem * (1 + (var(--tm-font-scale, 1) - 1) * 0.4)) !important;
 	margin-top: 1.8rem !important;
 	margin-bottom: 0.65rem !important;
 }
@@ -828,5 +848,284 @@ footer {
 
 	.menu::before {
 		display: none !important;
+	}
+}
+
+/* ==========================================================================
+   FONT SIZE CONTROLLER CONTROLS & UI COMPONENTS (ACCESSIBILITY FOR ELDERS)
+   ========================================================================== */
+
+/* 1. Header Controller in tinhdo-top-mantra */
+.tinhdo-font-controller {
+	display: inline-flex;
+	align-items: center;
+	gap: 3px;
+	background: rgba(25, 12, 8, 0.75);
+	border: 1px solid rgba(212, 175, 55, 0.4);
+	border-radius: 20px;
+	padding: 2px 7px;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.tinhdo-font-ctrl-label {
+	font-size: 0.78rem;
+	font-weight: 600;
+	color: #e5cf9d;
+	margin-right: 3px;
+	user-select: none;
+}
+
+.tinhdo-font-btn {
+	background: rgba(255, 255, 255, 0.08);
+	border: 1px solid rgba(212, 175, 55, 0.3);
+	color: #fff2d1;
+	border-radius: 12px;
+	font-size: 0.76rem;
+	font-weight: 700;
+	padding: 2px 8px;
+	cursor: pointer;
+	line-height: 1.4;
+	transition: all 0.15s ease;
+}
+
+.tinhdo-font-btn:hover:not(:disabled) {
+	background: #c9972c;
+	color: #1f110a;
+	border-color: #f7d56e;
+	transform: translateY(-1px);
+}
+
+.tinhdo-font-btn.tm-font-reset {
+	font-size: 0.74rem;
+	font-weight: 600;
+	color: #f5d061;
+	padding: 2px 6px;
+}
+
+/* 2. In-article Reading Toolbar (ngay đầu bài viết) */
+.tinhdo-reader-toolbar {
+	background: linear-gradient(135deg, rgba(252, 245, 233, 0.92) 0%, rgba(255, 253, 248, 0.98) 100%);
+	border: 1px solid #dfcba5;
+	border-left: 4px solid #c9972c;
+	border-radius: 8px;
+	padding: 0.45rem 0.9rem;
+	margin: 0.8rem 0 1.6rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	box-shadow: 0 2px 6px rgba(60, 30, 10, 0.04);
+}
+
+.tinhdo-reader-tools {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.75rem;
+	flex-wrap: wrap;
+}
+
+.tinhdo-reader-tools-label {
+	font-family: 'Noto Serif', Georgia, serif;
+	font-size: 0.9rem;
+	font-weight: 700;
+	color: #5a2216;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+}
+
+.tinhdo-font-btn-group {
+	display: inline-flex;
+	align-items: center;
+	background: #fffdf9;
+	border: 1.5px solid #c9972c;
+	border-radius: 6px;
+	overflow: hidden;
+	box-shadow: 0 1px 4px rgba(60, 30, 10, 0.08);
+}
+
+.tinhdo-font-btn-title {
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: #7c3a19;
+	padding: 0.3rem 0.6rem;
+	background: #fbf3e4;
+	border-right: 1px solid #dfcba5;
+	user-select: none;
+}
+
+.tinhdo-reader-btn {
+	background: transparent;
+	border: 0;
+	border-right: 1px solid #dfcba5;
+	padding: 0.32rem 0.75rem;
+	font-size: 0.88rem;
+	font-weight: 700;
+	color: #5a2216;
+	cursor: pointer;
+	line-height: 1.3;
+	transition: all 0.15s ease;
+}
+
+.tinhdo-reader-btn:last-child {
+	border-right: none;
+}
+
+.tinhdo-reader-btn:hover:not(:disabled) {
+	background: #8c3b19;
+	color: #ffffff;
+}
+
+.tinhdo-reader-btn.tm-font-reset {
+	color: #8c3b19;
+	font-size: 0.82rem;
+	font-weight: 700;
+	padding: 0.32rem 0.65rem;
+}
+
+/* 3. Floating Font Bar (Cố định góc phải màn hình, thuận tiện khi cuộn bài) */
+.tm-floating-font-bar {
+	position: fixed;
+	bottom: 22px;
+	right: 22px;
+	z-index: 9990;
+	display: inline-flex;
+	align-items: center;
+	gap: 3px;
+	background: rgba(40, 19, 13, 0.94);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border: 1.5px solid #d4af37;
+	border-radius: 30px;
+	padding: 4px 8px;
+	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 240, 200, 0.15);
+	transition: all 0.2s ease;
+}
+
+.tm-floating-font-bar:hover {
+	box-shadow: 0 6px 22px rgba(0, 0, 0, 0.55), 0 0 12px rgba(212, 175, 55, 0.4);
+	border-color: #f7d56e;
+}
+
+.tm-float-font-icon {
+	font-size: 1.05rem;
+	color: #f5d061;
+	padding: 0 4px 0 2px;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+}
+
+.tm-float-font-btn {
+	background: linear-gradient(135deg, #532014 0%, #35130b 100%);
+	border: 1px solid rgba(212, 175, 55, 0.4);
+	color: #fff4d9;
+	border-radius: 16px;
+	font-size: 0.88rem;
+	font-weight: 700;
+	padding: 4px 10px;
+	min-width: 32px;
+	min-height: 30px;
+	cursor: pointer;
+	line-height: 1.3;
+	transition: all 0.15s ease;
+}
+
+.tm-float-font-btn:hover:not(:disabled) {
+	background: #c9972c;
+	color: #1f110a;
+	border-color: #f5d061;
+	transform: translateY(-1px);
+}
+
+.tm-float-font-val {
+	background: rgba(255, 255, 255, 0.08);
+	border: 1px solid rgba(212, 175, 55, 0.3);
+	color: #fce8b8;
+	border-radius: 14px;
+	font-size: 0.8rem;
+	font-weight: 700;
+	padding: 4px 9px;
+	min-width: 44px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.15s ease;
+}
+
+.tm-float-font-val:hover {
+	background: rgba(201, 151, 44, 0.3);
+	color: #ffffff;
+	border-color: #f5d061;
+}
+
+/* Disabled button state */
+.tm-btn-disabled,
+.tm-float-font-btn:disabled,
+.tinhdo-font-btn:disabled,
+.tinhdo-reader-btn:disabled {
+	opacity: 0.45;
+	cursor: not-allowed !important;
+	transform: none !important;
+	box-shadow: none !important;
+}
+
+/* 4. Buddhist Toast Notification */
+.tm-font-toast {
+	position: fixed;
+	bottom: 74px;
+	right: 22px;
+	z-index: 9999;
+	background: rgba(36, 17, 12, 0.96);
+	color: #ffefcb;
+	border: 1px solid #d4af37;
+	border-radius: 8px;
+	padding: 7px 16px;
+	font-size: 0.88rem;
+	font-weight: 600;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+	opacity: 0;
+	pointer-events: none;
+	transform: translateY(8px);
+	transition: opacity 0.22s ease, transform 0.22s ease;
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+}
+
+.tm-toast-show {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.tm-toast-lotus {
+	color: #f5d061;
+	margin-right: 4px;
+}
+
+/* Responsive adjustment for Mobile */
+@media screen and (max-width: 50em) {
+	.tm-floating-font-bar {
+		bottom: 16px;
+		right: 14px;
+		padding: 3px 6px;
+	}
+	.tm-float-font-btn {
+		padding: 3px 8px;
+		font-size: 0.84rem;
+	}
+	.tm-float-font-val {
+		padding: 3px 6px;
+		font-size: 0.76rem;
+		min-width: 38px;
+	}
+	.tm-font-toast {
+		bottom: 64px;
+		right: 14px;
+		font-size: 0.82rem;
+		padding: 5px 12px;
+	}
+	.tinhdo-reader-toolbar {
+		padding: 0.4rem 0.65rem;
+		margin: 0.6rem 0 1.2rem 0;
 	}
 }
