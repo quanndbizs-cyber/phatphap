@@ -299,7 +299,7 @@ class mediaplayer extends Plugin
               . '        <span class="tm-abs-livebadge">● PHÁT TRỰC TIẾP MP3 (AUDIOBOOKSHELF)</span>'
               . '        <span class="tm-abs-totalbadge">Tổng số: ' . $totalCount . ' bài</span>';
         if ($extUrl) {
-            $safeExt = htmlspecialchars($extUrl, ENT_QUOTES, 'UTF-8');
+            $safeExt = htmlspecialchars($this->qualifyUrl($extUrl), ENT_QUOTES, 'UTF-8');
             $extLabel = str_contains($extUrl, 'audio.com') ? '↗ Mở trên Audio.com' : '↗ Mở trang gốc';
             $html .= '   <a class="tm-abs-extlink" href="' . $safeExt . '" target="_blank" rel="noopener noreferrer">' . $extLabel . '</a>';
         }
@@ -372,6 +372,32 @@ class mediaplayer extends Plugin
         return sprintf('%02d:%02d', $m, $s);
     }
 
+    protected function qualifyUrl(string $url): string
+    {
+        $url = trim($url);
+        if ($url === '' || preg_match('#^(https?:)?//#i', $url) || str_starts_with($url, '#') || str_starts_with($url, 'mailto:') || str_starts_with($url, 'tel:') || str_starts_with($url, 'javascript:')) {
+            return $url;
+        }
+
+        $base = rtrim($this->urlinfo['baseurl'] ?? '', '/');
+        if ($base === '') {
+            return $url;
+        }
+
+        # If base contains a subpath, e.g. https://domain.com/phatphap
+        # and url already begins with /phatphap/, don't double prefix
+        $basePath = parse_url($base, PHP_URL_PATH);
+        if (!empty($basePath) && $basePath !== '/') {
+            $basePath = rtrim($basePath, '/');
+            if (str_starts_with($url, $basePath . '/') || $url === $basePath) {
+                $schemeHost = preg_replace('#' . preg_quote($basePath, '#') . '$#', '', $base);
+                return rtrim($schemeHost, '/') . '/' . ltrim($url, '/');
+            }
+        }
+
+        return $base . '/' . ltrim($url, '/');
+    }
+
     protected function normalizeEmbedUrl(string $url): array
     {
         # YouTube watch URL -> embed URL
@@ -384,14 +410,9 @@ class mediaplayer extends Plugin
 
         # Direct MP3/OGG file
         if (preg_match('/\.(mp3|ogg|wav|m4a)(\?.*)?$/i', $url)) {
-            $src = $url;
-            if (!str_starts_with($url, 'http')) {
-                $base = rtrim($this->urlinfo['baseurl'] ?? '', '/');
-                $src  = $base . '/' . ltrim($url, '/');
-            }
             return [
                 'type' => 'audio',
-                'url'  => $src,
+                'url'  => $this->qualifyUrl($url),
             ];
         }
 
@@ -456,6 +477,15 @@ class mediaplayer extends Plugin
                     }
                     $item['tracks'] = $allTracks;
                 }
+            }
+            if (!empty($item['read_url'])) {
+                $item['read_url'] = $this->qualifyUrl($item['read_url']);
+            }
+            if (!empty($item['pdf_url'])) {
+                $item['pdf_url'] = $this->qualifyUrl($item['pdf_url']);
+            }
+            if (!empty($item['audio_src'])) {
+                $item['audio_src'] = $this->qualifyUrl($item['audio_src']);
             }
             $enrichedItems[] = $item;
         }
@@ -545,18 +575,18 @@ class mediaplayer extends Plugin
                    . '  <div class="tm-track-actions">';
 
             if (!empty($track['audio_src'])) {
-                $safeAudio = htmlspecialchars($track['audio_src'], ENT_QUOTES, 'UTF-8');
+                $safeAudio = htmlspecialchars($this->qualifyUrl($track['audio_src']), ENT_QUOTES, 'UTF-8');
                 $html .= '<button type="button" class="tm-track-btn tm-track-btn-play" onclick="window.tmPlayInlineAudio(this, \'' . $safeAudio . '\', \'' . addslashes($title) . '\')">🎧 Nghe MP3</button>';
             }
             if ($safeUrl) {
                 $html .= '<a class="tm-track-action" href="' . $safeUrl . '" target="_blank" rel="noopener noreferrer">▶ Audio.com</a>';
             }
             if (!empty($track['read_url'])) {
-                $safeRead = htmlspecialchars($track['read_url'], ENT_QUOTES, 'UTF-8');
+                $safeRead = htmlspecialchars($this->qualifyUrl($track['read_url']), ENT_QUOTES, 'UTF-8');
                 $html .= '<a class="tm-track-btn tm-track-btn-read" href="' . $safeRead . '" target="_blank" rel="noopener noreferrer">📖 Đọc sách</a>';
             }
             if (!empty($track['video_url'])) {
-                $safeVideo = htmlspecialchars($track['video_url'], ENT_QUOTES, 'UTF-8');
+                $safeVideo = htmlspecialchars($this->qualifyUrl($track['video_url']), ENT_QUOTES, 'UTF-8');
                 $html .= '<a class="tm-track-btn tm-track-btn-video" href="' . $safeVideo . '" target="_blank" rel="noopener noreferrer">🎬 Video</a>';
             }
 
@@ -603,20 +633,20 @@ class mediaplayer extends Plugin
                    . '    <div class="tm-story-badges">';
 
             if (!empty($st['audio_src'])) {
-                $safeAudio = htmlspecialchars($st['audio_src'], ENT_QUOTES, 'UTF-8');
+                $safeAudio = htmlspecialchars($this->qualifyUrl($st['audio_src']), ENT_QUOTES, 'UTF-8');
                 $jsTitle   = htmlspecialchars(addslashes($st['title'] ?? ('Truyện ' . $num)), ENT_QUOTES, 'UTF-8');
                 $html .= '<button type="button" class="tm-track-btn tm-track-btn-play" onclick="window.tmPlayInlineAudio(this, \'' . $safeAudio . '\', \'' . $jsTitle . '\')">🎧 Nghe Audio</button>';
                 $html .= '<a class="tm-track-btn tm-track-btn-download" href="' . $safeAudio . '" download target="_blank" rel="noopener noreferrer" title="Tải file MP3">💾 Tải MP3</a>';
             }
 
             if (!empty($st['read_url'])) {
-                $safeRead  = htmlspecialchars($st['read_url'], ENT_QUOTES, 'UTF-8');
+                $safeRead  = htmlspecialchars($this->qualifyUrl($st['read_url']), ENT_QUOTES, 'UTF-8');
                 $readLabel = htmlspecialchars($st['read_label'] ?? '📖 Sách đọc', ENT_QUOTES, 'UTF-8');
                 $html .= '<a class="tm-track-btn tm-track-btn-read" href="' . $safeRead . '" target="_blank" rel="noopener noreferrer">' . $readLabel . '</a>';
             }
 
             if (!empty($st['pdf_url'])) {
-                $safePdf = htmlspecialchars($st['pdf_url'], ENT_QUOTES, 'UTF-8');
+                $safePdf = htmlspecialchars($this->qualifyUrl($st['pdf_url']), ENT_QUOTES, 'UTF-8');
                 $html .= '<a class="tm-track-btn tm-fmt-pdf" href="' . $safePdf . '" target="_blank" rel="noopener noreferrer">📄 Bản PDF</a>';
             }
 

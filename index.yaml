@@ -1,13 +1,8 @@
 meta:
-    pageid: 11ed619b5b32095b
-    navtitle: 'Trang Chủ'
-    title: 'Thư Viện Tổng Hợp Tri Thức & An Lạc'
-    description: 'Nơi tổng hợp các bài viết, kinh sách, pháp âm về Phật Giáo, Luật Nhân Quả và Khoa Học Giáo Dục.'
-    heroimage: media/live/sen-adida-phat.jpg
+    modified: false
+    pageid: 4ea97e6692568b4e
     owner: quannd
     author: quannd
-    modified: '2026-11-03'
-    created: '2026-11-01'
-    time: 21-00-00
-    hide: false
-    noindex: false
+    created: '2026-11-05'
+    time: 16-19-14
+    navtitle: home
