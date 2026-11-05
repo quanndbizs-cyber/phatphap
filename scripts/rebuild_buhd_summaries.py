@@ -195,7 +195,34 @@ def process_volume(tap):
 
     print(f"[✓] Tập {tap}: Đã cập nhật chính xác {len(items)} câu chuyện tóm tắt.")
 
+def update_tuyen_tap():
+    tt_file = os.path.join(NHAN_QUA_DIR, "01-bao-ung-hien-doi-tuyen-tap.yaml")
+    if not os.path.exists(tt_file):
+        return
+    with open(tt_file, 'r', encoding='utf-8') as f:
+        tt_data = yaml.safe_load(f)
+
+    # Sync mediahub read_url
+    buhd_items = tt_data.get('mediaplayer', {}).get('buhd', {}).get('items', [])
+    for i, item in enumerate(buhd_items, start=1):
+        item['read_url'] = f"/nhan-qua/doc-sach/bao-ung-hien-doi-tap-{i}"
+
+    # Sync tap 1 to 4 stories
+    for tap in range(1, 5):
+        tap_file = os.path.join(NHAN_QUA_DIR, f"0{tap+1}-bao-ung-hien-doi-tap-{tap}.yaml")
+        if os.path.exists(tap_file):
+            with open(tap_file, 'r', encoding='utf-8') as f:
+                tap_data = yaml.safe_load(f)
+            items = tap_data.get('mediaplayer', {}).get('stories', {}).get('items', [])
+            tt_data['mediaplayer'][f'tap{tap}_stories'] = {'items': items}
+            print(f"[✓] Tuyển tập: Đã đồng bộ tap{tap}_stories ({len(items)} mục).")
+
+    with open(tt_file, 'w', encoding='utf-8') as f:
+        yaml.dump(tt_data, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+
 for tap in range(1, 8):
     process_volume(tap)
+
+update_tuyen_tap()
 
 print("Hoàn tất cập nhật tóm tắt 7 tập Báo Ứng Hiện Đời!")
