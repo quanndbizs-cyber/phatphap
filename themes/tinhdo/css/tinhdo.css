@@ -639,7 +639,7 @@ footer {
 	}
 
 	.tinhdo-top-bar-inner {
-		padding-right: 95px !important; /* Reserve clearance for fixed burger button */
+		padding-right: 52px !important; /* Clearance for compact burger button */
 		justify-content: flex-start !important;
 	}
 
@@ -652,10 +652,10 @@ footer {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		max-width: calc(100vw - 145px);
+		max-width: calc(100vw - 75px);
 	}
 
-	/* 1. Burger button styling: Fixed sticky at top right */
+	/* 1. Burger button styling: Fixed sticky at top right (compact icon-only) */
 	.burgerbutton {
 		position: fixed !important;
 		top: 7px !important;
@@ -664,18 +664,15 @@ footer {
 		display: inline-flex !important;
 		align-items: center;
 		justify-content: center;
-		gap: 5px;
 		background: linear-gradient(135deg, #42180f 0%, #231710 100%) !important;
 		color: #fceec5 !important;
 		border: 1.5px solid #c9972c !important;
 		border-radius: 8px !important;
-		padding: 5px 11px !important;
+		padding: 0 !important;
 		font-size: 0 !important; /* Cleanly hides raw &#9776; text node */
-		font-weight: 700 !important;
-		letter-spacing: 0.5px;
 		cursor: pointer;
 		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 6px rgba(201, 151, 44, 0.3) !important;
-		width: auto !important;
+		width: 38px !important;
 		height: 34px !important;
 		box-sizing: border-box !important;
 		float: none !important;
@@ -687,18 +684,14 @@ footer {
 
 	.burgerbutton::before {
 		content: "☰";
-		font-size: 15px !important;
+		font-size: 19px !important;
 		line-height: 1;
 		color: #f5d061;
-		margin-right: 4px;
+		margin: 0 !important;
 	}
 
 	.burgerbutton::after {
-		content: "Menu";
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-		font-size: 13px !important;
-		font-weight: 600;
-		color: #fceec5;
+		content: none !important;
 	}
 
 	.burgerbutton:hover {
@@ -707,7 +700,7 @@ footer {
 		color: #ffffff !important;
 	}
 
-	/* When checked: button turns active ruby with Close label */
+	/* When checked: button turns active ruby with Close icon */
 	#burger:checked ~ .burgerbutton {
 		background: #8c3b19 !important;
 		color: #ffffff !important;
@@ -718,13 +711,12 @@ footer {
 	#burger:checked ~ .burgerbutton::before {
 		content: "✕";
 		color: #ffffff;
-		font-size: 14px !important;
-		margin-right: 4px;
+		font-size: 16px !important;
+		margin: 0 !important;
 	}
 
 	#burger:checked ~ .burgerbutton::after {
-		content: "Đóng";
-		color: #ffffff;
+		content: none !important;
 	}
 
 	/* Dimmed Backdrop when menu is open */

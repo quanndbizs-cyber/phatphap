@@ -426,13 +426,158 @@
     return tag === 'input' || tag === 'textarea' || tag === 'select' || (document.activeElement && document.activeElement.isContentEditable);
   }
 
+  /* --------------------------------------------------------
+     FLOATING DRAGGABLE SEARCH DOCK (LEFT EDGE)
+     -------------------------------------------------------- */
+  function initSearchDock() {
+    if (document.getElementById('tm-search-dock')) return;
+
+    var dock = document.createElement('div');
+    dock.id = 'tm-search-dock';
+    dock.className = 'tm-search-dock';
+    dock.setAttribute('role', 'button');
+    dock.setAttribute('tabindex', '0');
+    dock.setAttribute('aria-label', 'Tìm kiếm bài viết');
+    dock.setAttribute('title', 'Tìm kiếm bài viết (kéo lên/xuống để di chuyển)');
+
+    dock.innerHTML =
+      '<div class="tm-dock-handle">' +
+        '<span class="tm-dock-icon" aria-hidden="true">🔍</span>' +
+        '<span class="tm-dock-text">Tìm kiếm</span>' +
+      '</div>';
+
+    document.body.appendChild(dock);
+
+    // 1. Restore saved vertical position
+    var savedY = null;
+    try {
+      var posStr = localStorage.getItem('tm_search_dock_y');
+      if (posStr) savedY = parseInt(posStr, 10);
+    } catch (e) {}
+
+    var defaultY = Math.max(70, Math.min(window.innerHeight - 80, savedY || 160));
+    dock.style.top = defaultY + 'px';
+
+    // 2. Auto tuck into left margin after initial greeting
+    var tuckTimer = null;
+    function scheduleTuck(delay) {
+      clearTimeout(tuckTimer);
+      tuckTimer = setTimeout(function() {
+        if (!dock.classList.contains('tm-dragging')) {
+          dock.classList.add('tm-tucked');
+        }
+      }, delay || 2200);
+    }
+
+    scheduleTuck(2000);
+
+    // Untuck on hover or touch
+    dock.addEventListener('mouseenter', function() {
+      clearTimeout(tuckTimer);
+      dock.classList.remove('tm-tucked');
+    });
+
+    dock.addEventListener('mouseleave', function() {
+      scheduleTuck(1200);
+    });
+
+    // When clicking outside, tuck back into left edge
+    document.addEventListener('click', function(e) {
+      if (!dock.contains(e.target)) {
+        dock.classList.add('tm-tucked');
+      }
+    });
+
+    // 3. Drag and Drop handling along Left Edge
+    var isDragging = false;
+    var startY = 0;
+    var initialTop = 0;
+    var hasMoved = false;
+
+    function onDragStart(e) {
+      // Don't drag if modal is already open
+      if (document.body.classList.contains('tm-search-open')) return;
+
+      var clientY = e.type.indexOf('touch') === 0 ? e.touches[0].clientY : e.clientY;
+      startY = clientY;
+      initialTop = dock.getBoundingClientRect().top;
+      hasMoved = false;
+      isDragging = true;
+
+      dock.classList.remove('tm-tucked');
+      clearTimeout(tuckTimer);
+
+      document.addEventListener('mousemove', onDragMove, { passive: false });
+      document.addEventListener('mouseup', onDragEnd);
+      document.addEventListener('touchmove', onDragMove, { passive: false });
+      document.addEventListener('touchend', onDragEnd);
+    }
+
+    function onDragMove(e) {
+      if (!isDragging) return;
+      var clientY = e.type.indexOf('touch') === 0 ? e.touches[0].clientY : e.clientY;
+      var dy = clientY - startY;
+
+      if (Math.abs(dy) > 5) {
+        hasMoved = true;
+        dock.classList.add('tm-dragging');
+        if (e.cancelable) e.preventDefault();
+      }
+
+      if (hasMoved) {
+        var newTop = initialTop + dy;
+        var maxTop = window.innerHeight - 60;
+        newTop = Math.max(55, Math.min(maxTop, newTop));
+        dock.style.top = newTop + 'px';
+      }
+    }
+
+    function onDragEnd() {
+      if (!isDragging) return;
+      isDragging = false;
+
+      document.removeEventListener('mousemove', onDragMove);
+      document.removeEventListener('mouseup', onDragEnd);
+      document.removeEventListener('touchmove', onDragMove);
+      document.removeEventListener('touchend', onDragEnd);
+
+      dock.classList.remove('tm-dragging');
+
+      if (hasMoved) {
+        try {
+          var finalTop = parseInt(dock.style.top, 10);
+          localStorage.setItem('tm_search_dock_y', String(finalTop));
+        } catch (e) {}
+        scheduleTuck(2000);
+      } else {
+        // Simple click / tap -> Open search modal
+        openSearchModal();
+      }
+    }
+
+    dock.addEventListener('mousedown', onDragStart);
+    dock.addEventListener('touchstart', onDragStart, { passive: true });
+
+    // Keyboard trigger
+    dock.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openSearchModal();
+      }
+    });
+  }
+
   // Expose to window
   window.tmOpenSearch = openSearchModal;
   window.tmCloseSearch = closeSearchModal;
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initGlobalTriggers);
+    document.addEventListener('DOMContentLoaded', function() {
+      initGlobalTriggers();
+      initSearchDock();
+    });
   } else {
     initGlobalTriggers();
+    initSearchDock();
   }
 })();

@@ -50,47 +50,71 @@
   margin-left: 4px;
 }
 
-/* 2. TOP BAR SEARCH TRIGGER (MOBILE) */
-.tinhdo-search-btn-mobile {
-  display: none;
+/* 2. FLOATING DRAGGABLE SEARCH DOCK (LEFT EDGE) */
+#tm-search-dock {
+  position: fixed;
+  left: 0;
+  top: 140px;
+  z-index: 99990;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  cursor: grab;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+  transform: translateX(0);
+}
+
+#tm-search-dock.tm-tucked {
+  transform: translateX(calc(-100% + 26px)); /* Leave 26px peeking at left edge */
+}
+
+#tm-search-dock:hover,
+#tm-search-dock.tm-peeking {
+  transform: translateX(0) !important;
+}
+
+#tm-search-dock.tm-dragging {
+  cursor: grabbing !important;
+  transition: none !important;
+  opacity: 0.95;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 15px rgba(201, 151, 44, 0.5);
+}
+
+.tm-dock-handle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #42180f 0%, #231710 100%);
+  color: #fceec5;
+  border: 1.5px solid #c9972c;
+  border-left: none;
+  border-radius: 0 18px 18px 0;
+  padding: 7px 12px 7px 9px;
+  box-shadow: 2px 4px 14px rgba(0, 0, 0, 0.38), 0 0 10px rgba(201, 151, 44, 0.25);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.tm-dock-icon {
+  font-size: 15px;
+  line-height: 1;
+  color: #f5d061;
+}
+
+.tm-dock-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fceec5;
 }
 
 @media screen and (max-width: 50em) {
   .tinhdo-search-btn {
     display: none !important;
-  }
-
-  .tinhdo-search-btn-mobile {
-    display: inline-flex !important;
-    position: fixed !important;
-    top: 7px !important;
-    right: 80px !important; /* To the left of burgerbutton (which is at right: 10px, width ~60px) */
-    z-index: 99999 !important;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #42180f 0%, #231710 100%) !important;
-    color: #fceec5 !important;
-    border: 1.5px solid #c9972c !important;
-    border-radius: 8px !important;
-    height: 34px !important;
-    width: 36px !important;
-    font-size: 14px !important;
-    cursor: pointer;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45), 0 0 6px rgba(201, 151, 44, 0.3) !important;
-    box-sizing: border-box !important;
-    transition: all 0.2s ease;
-  }
-
-  .tinhdo-search-btn-mobile:hover,
-  .tinhdo-search-btn-mobile:active {
-    background: #5a2216 !important;
-    border-color: #f1c964 !important;
-    color: #ffffff !important;
-    transform: scale(1.05);
-  }
-
-  .tinhdo-top-bar-inner {
-    padding-right: 125px !important; /* Clearance for both burger button and search button */
   }
 }
 
