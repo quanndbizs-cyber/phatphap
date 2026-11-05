@@ -41,8 +41,10 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-# Xác định thư mục gốc của Typemill
-BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# Nạp cấu hình biến môi trường từ config.sh
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=/dev/null
+source "$SCRIPT_DIR/config.sh"
 cd "$BASE_DIR"
 
 echo -e "${BLUE}==========================================================${NC}"
@@ -166,8 +168,8 @@ echo -e "${CYAN}-> 6. Tự động Warm-up Typemill để tái tạo Navigation.
 WARMUP_OK=false
 
 # Xác định URL trang web để warm-up
-TARGET_URL=""
-if [ -f "$BASE_DIR/settings/settings.yaml" ]; then
+TARGET_URL="${WEB_URL:-}"
+if [ -z "$TARGET_URL" ] && [ -f "$BASE_DIR/settings/settings.yaml" ]; then
     CONFIG_URL=$(grep "^url:" "$BASE_DIR/settings/settings.yaml" | awk '{print $2}' | tr -d "'" | tr -d '"' || echo "")
     if [[ -n "$CONFIG_URL" ]]; then
         TARGET_URL="$CONFIG_URL"

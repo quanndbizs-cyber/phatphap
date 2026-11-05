@@ -20,14 +20,17 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
-BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# Nạp cấu hình biến môi trường từ config.sh
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=/dev/null
+source "$SCRIPT_DIR/config.sh"
 
-# Xác định URL mục tiêu
-TARGET_URL="$1"
+# Xác định URL mục tiêu (ưu tiên tham số truyền vào $1 -> WEB_URL -> settings.yaml -> localhost)
+TARGET_URL="${1:-${WEB_URL:-}}"
 if [ -z "$TARGET_URL" ]; then
     # Thử đọc từ settings.yaml
     if [ -f "$BASE_DIR/settings/settings.yaml" ]; then
-        CONFIG_URL=$(grep "^url:" "$BASE_DIR/settings/settings.yaml" | awk '{print $2}' | tr -d "'" | tr -d '"')
+        CONFIG_URL=$(grep "^url:" "$BASE_DIR/settings/settings.yaml" 2>/dev/null | awk '{print $2}' | tr -d "'" | tr -d '"' || true)
         if [ -n "$CONFIG_URL" ]; then
             TARGET_URL="$CONFIG_URL"
         fi

@@ -9,8 +9,10 @@
 
 set -e
 
-# Xác định thư mục gốc của Typemill
-BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# Nạp cấu hình biến môi trường từ config.sh
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=/dev/null
+source "$SCRIPT_DIR/config.sh"
 cd "$BASE_DIR"
 
 MIDDLE_SYNC_DIR="$BASE_DIR/content/middle_sync"

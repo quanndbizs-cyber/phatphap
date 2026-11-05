@@ -16,8 +16,10 @@ set -Eeuo pipefail
 # Print a useful error and stop instead of reporting a false deployment success.
 trap 'rc=$?; echo "[ERROR] Deploy failed at line ${LINENO} (exit code: ${rc})."; exit "$rc"' ERR
 
-# Resolve Typemill root directory.
-BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# Nạp cấu hình biến môi trường từ config.sh
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=/dev/null
+source "$SCRIPT_DIR/config.sh"
 cd "$BASE_DIR"
 
 echo "=========================================================="

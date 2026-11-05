@@ -13,7 +13,8 @@ import xml.etree.ElementTree as ET
 import re
 import os
 
-OUT_DIR = "/var/www/html/phatphap/content/02-nhan-qua"
+BASE_DIR = os.environ.get("WEB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+OUT_DIR = os.path.join(BASE_DIR, "content", "02-nhan-qua")
 SUPERSCRIPTS = {'0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹'}
 
 def digit_to_sup(s):

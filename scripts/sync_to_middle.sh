@@ -21,7 +21,9 @@ BLUE='\033[0;34m'
 CYAN='\033[0;36m'
 NC='\033[0m'
 
-BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=/dev/null
+source "$SCRIPT_DIR/config.sh"
 cd "$BASE_DIR"
 
 PROD_FLAG=""
@@ -90,7 +92,7 @@ else
         echo -e "${GREEN}==================================================================${NC}"
     else
         echo -e "${RED}⚠️  Không thể tự động push lên GitHub (kiểm tra kết nối mạng/credentials).${NC}"
-        echo -e "   Bạn có thể tự chạy lệnh: ${CYAN}cd /var/www/html/phatphap/content && git push origin content${NC}"
+        echo -e "   Bạn có thể tự chạy lệnh: ${CYAN}cd $BASE_DIR/content && git push origin content${NC}"
     fi
 fi
 

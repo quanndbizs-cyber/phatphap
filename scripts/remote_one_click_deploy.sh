@@ -33,27 +33,14 @@ set -Eeuo pipefail
 trap 'rc=$?; echo -e "\n\033[1;31m[ERROR] Deployment halted at line ${LINENO} (exit code: ${rc}).\033[0m"; exit "$rc"' ERR
 
 # ------------------------------------------------------------------------------
-# 0. CẤU HÌNH MẶC ĐỊNH & THAM SỐ
+# 0. NẠP CẤU HÌNH BIẾN MÔI TRƯỜNG & THAM SỐ
 # ------------------------------------------------------------------------------
-DEFAULT_SSH_KEY="$HOME/.ssh/ssh_key/quannd_id_rsa"
-if [[ ! -f "$DEFAULT_SSH_KEY" && -f "/root/.ssh/ssh_key/quannd_id_rsa" ]]; then
-    DEFAULT_SSH_KEY="/root/.ssh/ssh_key/quannd_id_rsa"
-fi
-DEFAULT_SSH_USER="quannd"
-DEFAULT_SSH_HOST="192.168.1.22"
-DEFAULT_REMOTE_DIR="/var/www/html/phatphap"
-
-SSH_KEY="$DEFAULT_SSH_KEY"
-SSH_USER="$DEFAULT_SSH_USER"
-SSH_HOST="$DEFAULT_SSH_HOST"
-REMOTE_DIR="$DEFAULT_REMOTE_DIR"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=/dev/null
+source "$SCRIPT_DIR/config.sh"
 
 MODE=""
 SKIP_PUSH=false
-
-# Xác định thư mục cài đặt gốc từ vị trí file script
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-BASE_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 show_help() {
     cat << EOF
@@ -62,17 +49,22 @@ Sử dụng: $0 [TUỲ CHỌN]
 Tuỳ chọn:
   --server           Chạy trực tiếp quy trình triển khai trên server (Giai đoạn 1 & Giai đoạn 2)
   --remote           Chạy từ máy Local: sync, commit/push và kích hoạt SSH lên server
-  -i, --key=PATH     Đường dẫn file SSH private key (mặc định: $DEFAULT_SSH_KEY)
-  --user=USER        Tên người dùng SSH trên remote server (mặc định: $DEFAULT_SSH_USER)
-  --host=HOST        Địa chỉ IP hoặc Hostname remote server (mặc định: $DEFAULT_SSH_HOST)
-  --path=DIR         Đường dẫn thư mục web trên server (mặc định: $DEFAULT_REMOTE_DIR)
+  -i, --key=PATH     Đường dẫn file SSH private key (mặc định: $SSH_KEY)
+  --user=USER        Tên người dùng SSH trên remote server (mặc định: $SSH_USER)
+  --host=HOST        Địa chỉ IP hoặc Hostname remote server (mặc định: $SSH_HOST)
+  -p, --port=PORT    Cổng SSH của remote server (mặc định: $SSH_PORT)
+  --path=DIR         Đường dẫn thư mục web trên server (mặc định: $REMOTE_WEB_ROOT)
+  --web-root=DIR     Đường dẫn thư mục web local (mặc định: $BASE_DIR)
   --skip-push        Bỏ qua bước đóng gói và git push tại local trước khi SSH
   -h, --help         Hiển thị bảng trợ giúp này
 
+Các thiết lập mặc định có thể được cấu hình trong: scripts/deploy.env
+
 Ví dụ:
   ./scripts/remote_one_click_deploy.sh
-  sudo ./scripts/remote_one_click_deploy.sh
-  ./scripts/remote_one_click_deploy.sh --key=~/.ssh/my_key --host=192.168.1.22
+  ./scripts/remote_one_click_deploy.sh --skip-push
+  ./scripts/remote_one_click_deploy.sh --host=192.168.1.22 --user=quannd
+  sudo ./scripts/remote_one_click_deploy.sh --server
 EOF
     exit 0
 }
@@ -104,8 +96,22 @@ while [[ $# -gt 0 ]]; do
             SSH_HOST="${1#*=}"
             shift
             ;;
-        --path=*)
-            REMOTE_DIR="${1#*=}"
+        -p|--port)
+            SSH_PORT="$2"
+            shift 2
+            ;;
+        --port=*)
+            SSH_PORT="${1#*=}"
+            shift
+            ;;
+        --path=|--remote-dir=*)
+            REMOTE_WEB_ROOT="${1#*=}"
+            REMOTE_DIR="$REMOTE_WEB_ROOT"
+            shift
+            ;;
+        --web-root=*)
+            WEB_ROOT="${1#*=}"
+            BASE_DIR="$WEB_ROOT"
             shift
             ;;
         --skip-push)
@@ -122,13 +128,16 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
+# Đảm bảo REMOTE_DIR đồng bộ với REMOTE_WEB_ROOT
+REMOTE_DIR="${REMOTE_DIR:-$REMOTE_WEB_ROOT}"
+
 # Tự động nhận diện môi trường nếu MODE chưa được chỉ định cụ thể
 if [[ -z "$MODE" ]]; then
     # Nhận diện đang chạy trên Server khi:
     # 1. Có biến SSH session (chạy qua SSH từ xa)
     # 2. Hoặc hostname là máy chủ production (qts-home)
-    # 3. Hoặc đường dẫn là /var/www/html/phatphap và không phải môi trường WSL (/mnt/d)
-    if [[ -n "${SSH_CLIENT:-}" ]] || [[ -n "${SSH_TTY:-}" ]] || [[ "$(hostname)" == *"qts-home"* ]] || ([[ "$BASE_DIR" == "/var/www/html/phatphap" ]] && [[ ! -d "/mnt/d" ]]); then
+    # 3. Hoặc đường dẫn là REMOTE_WEB_ROOT và không phải môi trường WSL (/mnt/d)
+    if [[ -n "${SSH_CLIENT:-}" ]] || [[ -n "${SSH_TTY:-}" ]] || [[ "$(hostname)" == *"qts-home"* ]] || ([[ "$BASE_DIR" == "$REMOTE_WEB_ROOT" ]] && [[ ! -d "/mnt/d" ]]); then
         MODE="server"
     else
         MODE="remote"
@@ -278,17 +287,17 @@ run_local_and_trigger_remote() {
 
     # 3. Kết nối SSH và chạy script deploy trên Server
     echo -e "\n\033[1;34m-> BƯỚC 4: Kích hoạt remote deploy trên server qua SSH...\033[0m"
-    echo "   Lệnh: ssh -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\" \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh --server\""
+    echo "   Lệnh: ssh -p $SSH_PORT -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\" \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh --server\""
 
-    SSH_CMD=(ssh -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -i "$SSH_KEY" "$SSH_USER@$SSH_HOST")
+    SSH_CMD=(ssh -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -p "$SSH_PORT" -i "$SSH_KEY" "$SSH_USER@$SSH_HOST")
 
     # Thêm -t nếu đang chạy trong terminal tương tác để nhập sudo password nếu cần
     if [ -t 0 ]; then
-        SSH_CMD=(ssh -t -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -i "$SSH_KEY" "$SSH_USER@$SSH_HOST")
+        SSH_CMD=(ssh -t -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -p "$SSH_PORT" -i "$SSH_KEY" "$SSH_USER@$SSH_HOST")
     fi
 
     # Đảm bảo quyền thực thi và chạy deploy trên server
-    "${SSH_CMD[@]}" "chmod +x $REMOTE_DIR/scripts/*.sh 2>/dev/null || true; $REMOTE_DIR/scripts/remote_one_click_deploy.sh --server"
+    "${SSH_CMD[@]}" "chmod +x \"$REMOTE_DIR/scripts/\"*.sh 2>/dev/null || true; \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh\" --server"
 
     echo -e "\n=================================================================="
     echo -e "\033[1;32m🎉 [HOÀN TẤT] REMOTE ONE CLICK DEPLOY ĐÃ KẾT THÚC THÀNH CÔNG!\033[0m"

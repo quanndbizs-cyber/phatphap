@@ -14,7 +14,9 @@
 
 set -e
 
-BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=/dev/null
+source "$SCRIPT_DIR/config.sh"
 cd "$BASE_DIR"
 
 PROD_FLAG=""
@@ -61,11 +63,11 @@ cd "$BASE_DIR"
 echo -e "\n-> BƯỚC 3: Triển khai lên Deploy Server..."
 if [ -n "$SSH_TARGET" ]; then
     echo "   [i] Đang kết nối SSH tới $SSH_TARGET để chạy deploy_server.sh..."
-    ssh "$SSH_TARGET" "cd /var/www/html/phatphap && ./scripts/deploy_server.sh"
+    ssh "$SSH_TARGET" "cd \"$REMOTE_WEB_ROOT\" && ./scripts/deploy_server.sh"
 else
     echo "   [i] Nếu deploy từ xa, bạn chỉ cần chạy lệnh 1 dòng này trên server:"
     echo "   --------------------------------------------------------------"
-    echo "   cd /var/www/html/phatphap && ./scripts/deploy_server.sh"
+    echo "   cd $REMOTE_WEB_ROOT && ./scripts/deploy_server.sh"
     echo "   --------------------------------------------------------------"
     echo "   (Hoặc cấu hình SSH: ./scripts/one_click_deploy.sh user@ip_server)"
 fi
