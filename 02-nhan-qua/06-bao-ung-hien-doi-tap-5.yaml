@@ -14,331 +14,356 @@ mediaplayer:
     items:
     - id: 1
       title: Lời người dịch
-      summary: Lời chia sẻ và giới thiệu mở đầu tuyển tập Báo Ứng Hiện Đời Quyển 5
-        (Sư cô Hạnh Đoan biên dịch).
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Lời người dịch; làm sáng tỏ quy
+        luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn chay
+        sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660620?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-1
+      read_label: 📖 Đọc sách
     - id: 2
       title: Tây Du Ký và Phong Thần
-      summary: 'Sư phụ, nghe ngài phân tích nhận định truyện Bạch Xà, con cảm thấy
-        rất có lý. Hiện tại con còn vài vấn đề muốn thỉnh giáo sư phụ: Tây Du Ký là
-        bộ truyện trứ danh rất được quần chúng ưa thích, đã dựng thành phim và được
-        bao người hoan nghinh…'
+      summary: Nhìn nhận các tác phẩm văn học dưới góc nhìn nhân quả Phật giáo, phân
+        tích tác hại của các tư tưởng tà kiến hoang đường đối với thế nhân.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660621?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-1
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 3
       title: Cư sĩ Chân Minh
-      summary: Ngôi nhà nhỏ hai tầng lầu của cư sĩ Chân Mình vừa khánh thành trong
-        tiếng pháo nổ giòn tan, vợ chồng Chân Minh hân hoan dìu cha mẹ già 80 tuổi
-        vào nhà mới. Chiều hôm đó, họ đãi tiệc nhỏ (gồm trà nước hoa quả bánh trái)
-        cho các láng giềng thân thuộc đến chúc mừng tân gia. Tòa k...
+      summary: Tấm gương tu học chân thật của cư sĩ Chân Minh, buông xả duyên trần,
+        một lòng niệm Phật cầu sinh Tịnh Độ viên mãn.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660622?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-2
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 4
       title: Đừng truyền luận thuyết hồ đồ
-      summary: 'Hỏi: Nửa tháng trước tôi có thỉnh một tượng Quan Âm, đã bỏ ra 20 đồng
-        đề khai quang, sau đó vui mừng đem về nhà. Nào ngờ khi bạn bè hỏi thăm, biết
-        tồi đem tượng Phật vào nhà sau 11 giờ trưa thì họ thất sắc la tôi:'
+      summary: Tác hại của việc truyền bá tà thuyết, nói lời bậy bạ làm lạc dẫn người
+        khác; khẩu nghiệp dẫn dụ chúng sinh đọa lạc chịu báo địa ngục.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660623?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-3
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 5
       title: Cô Tôi
       summary: Nghĩ đến việc cứu hộ động vật và làm hại động vật đều có báo ứng, nên
-        tôi quyết định viết chuyện này ra, cho người sơ học hiểu thêm.
+        tôi quyết định viết chuyện này ra, cho người sơ học hiểu thêm. Từ lúc tôi
+        bái sư đến thời điểm đó tính ra đã là mùa đông thứ hai....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660624?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-4
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 6
       title: Cách lìa dục niệm
-      summary: Có cặp vợ chồng trẻ đến thỉnh giáo Hòa thượng Diệu Pháp, họ kể mình
-        quy y Phật rồi, ăn chay dễ dàng, rượu thuốc gì cũng đoạn trừ được hết, chỉ
-        duy nhất giới dâm, kiêng cữ mấy lần đều thất bại.
+      summary: Phương pháp quán bất tịnh và nhiếp tâm niệm Phật để đoạn trừ ái dục
+        phiền não, giữ gìn thân tâm thanh tịnh an lạc.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660625?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-5
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 7
       title: Vì sao hài nhi khóc
-      summary: Đầu xuân năm nọ, Tiết Nhan (là nhà láng giềng) đột nhiên gọi điện cho
-        tôi nhờ trợ giúp, kể rằng anh đến chúc tết nhà của sếp, gặp lúc hai vợ chồng
-        họ bối rối khốn khổ nhìn đứa con mới sinh (được hơn tháng tuổi) khóc thét
-        không ngừng suốt hai ngày nay. Do các bệnh viện không tì...
+      summary: 'Căn nguyên sâu xa khiến trẻ thơ khóc đêm không dứt: phần nhiều do
+        thấy cảnh giới u minh hoặc do tiền kiếp oan gia trái chủ tìm về quấy nhiễu.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660626?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-6
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 8
       title: Nguyên nhân bất hạnh
-      summary: Một ngày mùa thu năm 2001, một vị cư sĩ dẫn theo một cô khoảng chừng
-        30 tuổi, trông rất tiều tụy. Cô quỳ trước Hòa thượng Diệu Pháp khóc mướt,
-        không ngừng kể lể những bất hạnh của mình, quên hẳn hiện trường đang có mấy
-        mươi khách…
+      summary: Mọi cảnh ngộ đau khổ, nghèo khó, bệnh tật trên đời đều do nghiệp nhân
+        bất thiện đời trước chiêu cảm; muốn đổi vận ắt phải đổi tâm.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660627?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-7
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 9
       title: Kim Doanh
-      summary: 'Kim Doanh, một cô gái khoảng 30 tuổi hướng Hòa thượng Diệu Pháp khóc
-        kể nỗi khổ của minh:'
+      summary: Sau đó con đọc tiếp các sách cơ bản của Phật giáo, biết Phật giáo có
+        thánh địa Ngũ Đài Sơn, nên luôn mơ tưởng, mong được lên đó một lần, nhưng
+        tốt nghiệp ra trường rồi thì đi làm, mãi đến năm 27 tuổi nguyện vọng này mới
+        thực hiện được… Vừa ...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660628?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-8
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 10
       title: Tụng kinh niệm Phật còn gặp tai nạn ư
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Tụng kinh niệm Phật còn gặp tai
+        nạn ư; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến
+        hóa người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660629?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-9
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-10
+      read_label: 📖 Đọc sách
     - id: 11
       title: Vì sao Chư Đại Đức, cao Tăng cũng bị bệnh nặng, tử vong
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Vì sao Chư Đại Đức, cao Tăng
+        cũng bị bệnh nặng, tử vong; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội
+        đủ ắt trổ quả', khuyến hóa người đời ăn chay sám hối, lánh ác làm lành và
+        niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660630?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-10
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-11
+      read_label: 📖 Đọc sách
     - id: 12
       title: Bồ Tát mật hạnh
-      summary: Hòa thượng Diệu Pháp kể, thời gian sư đi Vạn Phật Thành bái kiến ngài
-        Tuyên Hóa, tinh cờ gặp một vị cư sĩ hộ pháp ở Vạn Phật Thành bị tai nạn xe,
-        tử vong.
+      summary: Vị cư sĩ này mấy năm nay chưa từng gặp vợ con, đến giờ mới hội ngộ.
+        Khi đó ông lái xe đón vợ con từ phi trường về, lúc sắp đến Vạn Phật Thành
+        thì xảy ra tai nạn, vợ con bị thương nhẹ, chỉ mình ông tử vong....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660631?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-10
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 13
       title: Cẩn thận khi phát ngôn
-      summary: Một sáng mùa thu năm 2000, Hòa thượng Diệu Pháp đang giảng pháp cho
-        đám đông mấy mươi người tại nhà một cư sĩ nọ, thi bỗng ngoài cổng có một người
-        đàn ông trung niên bước vào quỳ trước Hòa thượng Diệu Pháp, cuống quýt khẩn
-        cầu sư phụ đến nhà cứu vợ ông giùm.
+      summary: Sư phụ bảo ông đừng sốt ruột, hãy từ từ kề ra mọi chuyện. Nguyên là
+        tháng trước vợ ông bắt đầu đại tiện khó khăn, đau đớn vô cùng, không bao lâu
+        tiểu tiện cũng gay go, ngót nửa tiếng mà tiểu chẳng xong, sau đó suốt hai
+        tiếng vẫn đi vệ sinh ...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660632?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-11
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 14
       title: Nguyên nhân do đâu
       summary: Trước đây không lâu, gia đình bạn tôi di cư sang nước Mỹ, sau đó vợ
         chồng Điền nữ sĩ về nước thăm thân nhân, bà rầu rĩ kể cho tôi nghe bệnh tình
-        em trai Điền Kiệt của bà tại Mỹ. Hy vọng lần về nước này tôi có thề dẫn bà
-        đến bái kiến Hòa thượng Diệu Pháp, thỉnh giáo nguyên nhân...
+        em trai Điền Kiệt của bà tại Mỹ. Gặp sư phụ rồi, bà kể rõ về bệnh tình em
+        trai mình....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/ce8e045a-32b6-482c-b4b9-37ea8102db1d/file/660634?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-12
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 15
       title: Kinh nghiệm cầu con
-      summary: 'Mồng 1 tháng 10 năm 2006, sư phụ Diệu Chân đi Dương Châu mở thiền
-        thất, ngang qua chỗ tôi ngài đã ghé vào ban pháp nhũ và giảng nhiều điều hay
-        về việc tu học Phật cho các cư sĩ đến bái kiến. Sau đó trước Phật đường ngài
-        tha thiết nhắc nhở tôi:'
+      summary: Mồng 1 tháng 10 năm 2006, sư phụ Diệu Chân đi Dương Châu mở thiền thất,
+        ngang qua chỗ tôi ngài đã ghé vào ban pháp nhũ và giảng nhiều điều hay về
+        việc tu học Phật cho các cư sĩ đến bái kiến. Sau đó trước Phật đường ngài
+        tha thiết nhắc nhở t...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660633?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-13
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 16
       title: Nghịch duyên giữa cha mẹ và con
       summary: Trong cuộc sống hiện nay, khi gặp phải nhiều điều bất như ý, do không
         rõ nguyên nhân và hiểu thấu những lỗi lầm mình từng tạo trong quá khứ nên
         tâm tư càng thêm khổ não. Phật thường giảng về nhân quả trong nhiều bộ kinh,
-        điều này có thực không dối! Khi ta gieo một hạt giống là...
+        điều này có thực kh...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660635?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-14
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 17
       title: Giết cáo bị báo ứng
-      summary: 'Chuyện này do bà tôi kể lại, được sự đồng ý của bà, tôi xin viết ra
-        chia sẻ cùng quý độc già. Các vị nhất định phải “Dứt tuyệt không làm ác, chuyên
-        làm các điều lành”. Nhân vật kể trong truyện đều có thật, đều do bà tôi chứng
-        kiến. Sau đây là nguyên văn lời kể của bà tôi:'
+      summary: Kẻ săn bắt, lột da loài cáo quý hiếm chịu quả báo hiện tiền thân thể
+        mọc lông ngứa ngáy và chết trong đau đớn cùng cực.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660636?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-15
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 18
       title: Nàng dâu bất hạnh
       summary: Năm 1965 tôi 18 tuổi, tham gia Đoàn Thanh niên, đến trú đóng ở khu
         vực Hoàng Dương Mông Cổ. Trong thôn làng, gần đội chúng tôi, có gia đình họ
-        Phạm. Họ Phạm có một trưởng nam và một gái út. Phạm công tử lấy vợ người Thiểm
-        Tây, (cô này tên gì tôi cũng không nhớ rõ) vốn mồ côi c...
+        Phạm....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660637?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-16
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 19
       title: Cậu Hai Tôi
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Cậu Hai Tôi; làm sáng tỏ quy
+        luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn chay
+        sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660638?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-18
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-19
+      read_label: 📖 Đọc sách
     - id: 20
       title: Câu chuyện khiến Tôi rơi lệ
       summary: 'Mùa thu năm đó tôi 12 tuổi, đây là quãng thời gian thê thảm nhất của
         gia đình tôi: Phụ thân tôi bệnh nặng phải phẫu thuật, mất khả năng lao động.
         Anh Hai tôi thi rớt đại học, còn mẹ tôi thì dùng lầm nông dược, khiến mười
-        mẫu lúa đang trổ bị thất thu. Cũng vào thời điểm đó tôi ...'
+        mẫu lúa đang trổ bị...'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660639?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-17
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 21
       title: Chú Út của bạn Tôi
       summary: Bạn bè đều biết tôi tin Phật, do chơi thân nên hễ có thắc mắc gì về
         Phật giáo đều hỏi tôi, hoặc kể cho tôi nghe các việc xảy ra trong gia đình
-        họ.
+        họ. Hôm nay tôi xin thuật một chuyện (trong số các câu chuyện của bạn tôi),
+        hi vọng quí vị đọc xo...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660640?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-18
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 22
       title: Ông hàng xóm hung dữ
       summary: 'Đây là chuyện tôi nghe bà nội kể (người trong cuộc hiện vẫn còn Sống,
         hơn nữa đang cư ngụ tại cố hương Nam Đầu, ở cách vách nhà tôi). Nội dung câu
-        chicyện là thế này:'
+        chicyện là thế này: Ông hàng xóm kế nhà tôi có ba anh em, thảy đều tàn tật:
+        Một người điếc, m...'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660641?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-19
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 23
       title: Nhân duyên giữa Tôi và Bồ Tát
       summary: Việc này xảy ra vào cuối năm 2003, lúc đó tôi làm hướng dẫn du lịch
-        tại công ty Tam Á ở Hải Nam.
+        tại công ty Tam Á ở Hải Nam. Hằng ngày tôi phụ trách lái xe đưa rước khách,
+        chở họ tham quan đảo hay các thắng cảnh....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660642?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-20
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 24
       title: Sáu chuyện nhân quả
       summary: 'Gần đây có một vị họ Trương, nhà trụ tại thôn Hồ Khẩu, huyện Tân Trúc,
         đã viết thư tới, kể rất nhiều câu chuyện nhân quả do chính ông đích thân chứng
         kiến hoặc nghe thuật lại. Ông khăng định những chuyện này hoàn toàn có thực:
-        Là người thực, việc thực, có bằng chứng hẳn hoi, x...'
+        Là người thực...'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660643?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-21
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 25
       title: Chuyện kể của cảnh sát pháp y
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Chuyện kể của cảnh sát pháp y;
+        làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa
+        người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660644?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-24
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-25
+      read_label: 📖 Đọc sách
     - id: 26
       title: Chuyện kể của cảnh sát pháp y - Vụ án cặp vợ chồng chết thảm 2012
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Chuyện kể của cảnh sát pháp y
+        - Vụ án cặp vợ chồng chết thảm 2012; làm sáng tỏ quy luật nghiệp báo 'nhân
+        duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn chay sám hối, lánh ác làm
+        lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660645?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-25
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-26
+      read_label: 📖 Đọc sách
     - id: 27
       title: Chuyện kể của cảnh sát pháp y - Kết cuộc bi thảm của giám đốc Triệu
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Chuyện kể của cảnh sát pháp y
+        - Kết cuộc bi thảm của giám đốc Triệu; làm sáng tỏ quy luật nghiệp báo 'nhân
+        duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn chay sám hối, lánh ác làm
+        lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660646?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-26
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-27
+      read_label: 📖 Đọc sách
     - id: 28
       title: Chuyện kể của cảnh sát pháp y - Người có miệng lưỡi độc
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Chuyện kể của cảnh sát pháp y
+        - Người có miệng lưỡi độc; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội
+        đủ ắt trổ quả', khuyến hóa người đời ăn chay sám hối, lánh ác làm lành và
+        niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660647?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-27
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-28
+      read_label: 📖 Đọc sách
     - id: 29
       title: Ác báo của vu khống thêu dệt
       summary: Một anh bạn của tồi thuở giờ hay tạo khẩu nghiệp xấu, ưa nói dệt thêu,
         tung tin đồn thất thiệt, điều này càng gây nguy hại hơn khi anh làm ở lãnh
         vực truyền thông. Ngày nọ, đột nhiên anh chạy đến xin lỗi tôi, vì hai năm
-        trước đã viết bài tung lên mạng nhằm gây tai tiêng (scand...
+        trước đã viết bài tu...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660648?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-23
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 30
       title: Xin đừng làm việc tổn đức
-      summary: Thưa các thiện tri thức, các bạn đồng tu,
+      summary: Thưa các thiện tri thức, các bạn đồng tu, Tôi học Phật không lâu, đối
+        với Phật pháp hiểu biết không uyên thâm, chẳng dám nói bàn nhiều, chỉ xin
+        dùng kinh nghiệm bản thân chia sẻ cảnh báo với mọi người, ngàn vạn lần chớ
+        nên làm việc tổn đức....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660649?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-24
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 31
       title: Tình chấp uyên ương
-      summary: Tôi là một người vô thần. không theo bất kỳ tôn giáo nào. Nhưng bảy
-        năm trước đã xảy ra một việc lạ lùng làm thay đổi cả cuộc đời tôi.
+      summary: không theo bất kỳ tôn giáo nào. Nhưng bảy năm trước đã xảy ra một việc
+        lạ lùng làm thay đổi cả cuộc đời tôi....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660650?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-25
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 32
       title: Tiếng gọi đêm khuya
       summary: Năm nay tôi 28 tuổi, sau mấy năm yêu thương nồng thắm, ngày 28/5/2011,
         tôi cùng người bạn trai cùng dắt tay nhau bước vào lễ đường xây dựng hôn nhân.
-        Thời gian này phải nói là tôi đang đắm chìm trong hạnh phúc ngập tràn. Một
-        ngày cuối tháng 8, tôi về nhà thăm mẹ.
+        Thời gian này phải nói là tôi đang đắm chìm trong hạnh phúc ngập tràn....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660651?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-26
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 33
       title: Tiên tri - Vua tiên tri họ Liên - 01. Chuyện Thần Phúc Lộc - 02. Ngụy
         Thanh Bình - 03. Điền Sắc
       summary: Các bạn chẳng nên than oán là số mình không may! Bởi thực ra khi vừa
         bắt đầu kiếp người, có thể phúc báu số mệnh của chúng ta rất lớn, nghĩa là
         bạn vốn có thể đạt được, hưởng được rất nhiều phúc lộc tuyệt hảo, tối ưu…
-        Nhưng chính do sự thiếu hiểu biết về nhân quả mà ta đã vô t...
+        Nhưng chính do sự thiế...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660652?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-27
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 34
       title: Tiên tri - 02. Tiên tri là bịp bợm - 03. Quan lớn họ Đặng
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Tiên tri - 02. Tiên tri là bịp
+        bợm - 03. Quan lớn họ Đặng; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội
+        đủ ắt trổ quả', khuyến hóa người đời ăn chay sám hối, lánh ác làm lành và
+        niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660653?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-33
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-34
+      read_label: 📖 Đọc sách
     - id: 35
       title: Tiên tri - 04. Ngài Trung tướng Lữ Cố
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Tiên tri - 04. Ngài Trung tướng
+        Lữ Cố; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến
+        hóa người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660654?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-34
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-35
+      read_label: 📖 Đọc sách
     - id: 36
       title: Tiên tri - 05. Giám đốc Viên Mậu
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Tiên tri - 05. Giám đốc Viên
+        Mậu; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến
+        hóa người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660655?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-35
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-36
+      read_label: 📖 Đọc sách
     - id: 37
       title: Thái Minh Thông
       summary: 'Cách đây không lâu, tiên sinh Thái Minh Thông kể cho tôi nghe câu
-        chuyện báo ứng có thực của gia đình ông:'
+        chuyện báo ứng có thực của gia đình ông: Ông cố của Minh Thông rất giàu, điền
+        sản phong nhiêu, nuôi trâu cày cấy. Hôm nọ ông cố đang xỏ mũi con nghé, nó
+        đau quá nên tung chân...'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660656?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-28
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 38
       title: Tháng 6 tuyết rơi
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Tháng 6 tuyết rơi; làm sáng tỏ
+        quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn
+        chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660657?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-35
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-38
+      read_label: 📖 Đọc sách
     - id: 39
       title: Tâm sự một nữ kỹ sư
       summary: Tôi ở huyện Bảo Thanh, tỉnh Hắc Long Giang, là một phụ nữ mắc bệnh
-        ung bướu nan y.
+        ung bướu nan y. Vào năm 37 tuổi, tôi bị bướu mật thời kỳ cuối....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660658?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-30
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 40
       title: Vị khách đến sớm
       summary: Ngày mai là tiết Thanh minh rồi, từ đầu xuân đến giờ tôi bận rộn suốt,
         không hề được nghỉ ngơi, mệt đến khí lực chẳng còn. Hồi chiều lúc giảng pháp
         cho chư Phật hữu, tôi đuối đến nói không ra hơi, quả thực tôi rất thèm có
-        thời gian được nghỉ, nhưng ước mơ này xem bộ cũng khó v...
+        thời gian được ngh...
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660659?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-31
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 41
       title: Tự tử đi về đâu
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Tự tử đi về đâu; làm sáng tỏ
+        quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn
+        chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660660?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-35
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-41
+      read_label: 📖 Đọc sách
     - id: 42
       title: Quán nhậu Long Hổ
       summary: Tốt nghiệp phổ thông xong, được người giới thiệu, tôi vào làm phục
         vụ bàn tại một nhà hàng có tên là “Quán Nhậu Long Hổ”. Quán nhậu này là một
-        nơi thuộc vùng thâm sơn cây cối sầm uất, có rất nhiều dã thú. Ông chủ quán
-        họ Vi, được xem là vua kinh doanh vì ông mưu trí, khéo tính...
+        nơi thuộc vùng thâm sơn cây cối sầm uất, có rất nhiều dã thú....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660661?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-33
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 43
       title: Chuyện các khoa học gia
       summary: Tác giả bài viết này là cư sĩ Từ Quang, cả nhà ông đều là những nhà
         khoa học lỗi lạc. Song thân ông là hai khoa học gia, đồng công tác tại Viện
-        Khoa học Trung Quốc. Sau khi tác giả nghiên cứu Phật giáo, sinh cảm phục và
-        phát tâm qui y Tam bảo. Chính lòng hiếu thảo và tâm thành...
+        Khoa học Trung Quốc....
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/72efab34-81f6-43ee-b367-6e446a5b0ceb/file/660662?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-5#truyen-34
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách

@@ -14,189 +14,212 @@ mediaplayer:
     items:
     - id: 1
       title: Báo ứng hiện đời
-      summary: Lời chia sẻ và giới thiệu mở đầu tuyển tập Báo Ứng Hiện Đời Quyển 2
-        (Sư cô Hạnh Đoan biên dịch).
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Báo ứng hiện đời; làm sáng tỏ
+        quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn
+        chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660415?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-1
+      read_label: 📖 Đọc sách
     - id: 2
       title: Ba mỹ nhân
-      summary: Ba phụ nữ dùng sắc đẹp để đạt danh lợi, khiến bao người sa đọa. Cuối
-        cùng thân bại danh liệt, bệnh tật và cô độc. Hòa thượng dạy sắc đẹp là nhân
-        ngắn ngủi, nên tu tâm tịnh hạnh.
+      summary: Ba người đẹp ỷ vào sắc nước hương trời làm bao người điêu đứng, mê
+        đắm danh lợi sắc dục; cuối đời gánh chịu quả báo tàn phai, cô độc, bệnh tật
+        cùng quẫn.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660416?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-1
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 3
       title: Nước lèo trứ danh
-      summary: 'Chủ quán phở dùng xác cá, xương chết làm nước lèo, khoe nấu ngon.
-        Sau bị bệnh lở loét, khách quay lưng, quán sụp. Thầy nói: “Ăn bằng máu thịt
-        sinh linh, tất bệnh từ miệng mà vào.”'
+      summary: Chủ quán nước lèo nổi tiếng chuyên hầm xác xương động vật, lươn ốc
+        sống; sau mắc chứng bệnh lở loét hôi thối khắp mình mẩy, nếm trải quả báo
+        thống khổ từ nghề sát.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660417?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-2
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 4
       title: Nguyên nhân đáng sợ
-      summary: Một người bệnh tim tái phát, thầy nói do kiếp trước từng giết hại người.
-        Sám hối, phóng sinh thì bệnh khỏi.
+      summary: Bác sĩ trẻ Trương Vĩ Lục tự sát vì biến đổi thể chất bất lực; điều
+        tra hé lộ ông nội và cha từng làm nghề thiến heo, thiến gà suốt đời, chiêu
+        cảm nghiệp tuyệt tự đời cháu.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660418?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-3
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 5
       title: Đám tang chó
-      summary: Một người thương chó, làm tang lễ cho nó, bị người đời chê cười. Hòa
-        thượng khen đó là lòng từ, giúp giảm nghiệp sát – ai chê cười mới là người
-        đáng thương.
+      summary: Người chủ làm tang lễ tươm tất cho chú chó trung nghĩa; câu chuyện
+        thức tỉnh tình thương loài vật và cảnh báo nghiệp phụ ân phản bạn của con
+        người.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660419?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-4
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 6
       title: Người ưa câu cá
-      summary: Một người nghiện câu, xem cá chết làm vui, về sau bị tai nạn rơi xuống
-        sông chết đuối.
+      summary: Người say mê thú câu cá, xem việc cá bị móc họng giãy giụa làm niềm
+        vui; về sau chịu quả báo ung thư vòm họng và mắc lưỡi câu rách miệng đau đớn.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660420?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-5
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 7
       title: Thức ngon đặc chế
-      summary: Đầu bếp chuyên nấu thịt thú quý, sau bị ung thư lưỡi – đúng “nghiệp
-        từ miệng tạo”.
+      summary: Chế biến các món ăn tàn bạo từ động vật sống để làm thức ngon đặc chế;
+        người chủ phải trả giá bằng căn bệnh viêm loét nội tạng không thuốc nào chữa
+        khỏi.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660421?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-6
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 8
       title: Người chân voi
-      summary: Một người chân phù to, thầy chỉ do kiếp trước đạp chết nhiều côn trùng,
-        nay phải chịu báo.
+      summary: Thái tiên sinh bắt ngỗng sống đứng nhảy múa trên bàn sắt nung đỏ để
+        ăn chân ngỗng nướng; chiêu cảm quả báo hai chân sưng phồng đau buốt như chân
+        voi suốt 6 năm ròng.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660422?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-7
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 9
       title: Bắt rắn mối
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Quả báo khủng khiếp của người chuyên săn bắt, mua bán và giết hại rắn
+        mối còn sống, toàn thân phát bệnh vảy ngứa, lở loét và chịu nỗi đau da thịt
+        khôn xiết.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660423?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-8
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-9
+      read_label: 📖 Đọc sách
     - id: 10
       title: Cá câu người
-      summary: Một người thích đi câu, một hôm bị cá kéo rơi xuống nước chết; là nghiệp
-        báo tương phản của thú vui sát sinh.
+      summary: Kẻ thích buông câu giết cá rốt cuộc bị rơi xuống nước chết chìm; cảnh
+        tỉnh thú vui sát sinh tàn nhẫn lấy sinh mạng chúng sinh làm trò tiêu khiển.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660424?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-9
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-10
+      read_label: 📖 Đọc sách
     - id: 11
       title: Bệnh của Văn Lai
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Bệnh của Văn Lai; làm sáng tỏ
+        quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn
+        chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660425?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-10
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-11
+      read_label: 📖 Đọc sách
     - id: 12
       title: Tiểu thư khỉ
-      summary: Cô gái bị bệnh lạ, thầy cho biết là kiếp trước hành hạ khỉ.
+      summary: Cô gái sinh ra có hình dạng và hành vi kỳ lạ giống loài khỉ do kiếp
+        trước khinh mạn, chế giễu hình tướng người khác và nghiệp sát loài linh trưởng.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660426?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-11
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-12
+      read_label: 📖 Đọc sách
     - id: 13
       title: Trộm công giảm liệu
-      summary: Người bớt vật liệu khi xây dựng bị liệt nửa người – báo của trộm của
-        công.
+      summary: Nhà thầu bớt xén vật tư công trình mưu lợi bất chính, chiêu cảm quả
+        báo công trình sụp đổ, bản thân phá sản lâm vào cảnh tù tội khốn cùng.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660427?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-11
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 14
       title: Người chồng tài hoa
-      summary: Một người đàn ông có tài nhưng ngoại tình, bỏ vợ. Sau bị tai nạn liệt,
-        nhờ sám hối, đọc kinh mới thoát khổ.
+      summary: Người chồng tài hoa trác việt nhưng phóng túng tà dâm, bội bạc vợ hiền;
+        chuốc lấy quả báo tiêu tan danh vọng, thân bại danh liệt trong cay đắng.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660428?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-12
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 15
       title: Pháp quan kỳ án
-      summary: Vị quan xử oan người vô tội, sau con cháu tàn tật – nhân quả công minh.
+      summary: Vị thẩm phán xử oan sai hại người lương thiện; âm luật phân minh, nghiệp
+        báo gõ cửa khiến bản thân mắc bạo bệnh và chịu cảnh ác báo rùng rợn.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660429?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-13
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 16
       title: Những kẻ buôn người
-      summary: Bọn bắt cóc bị báo ứng – thân bại danh liệt, chết bất đắc kỳ tử.
+      summary: Tội ác bắt cóc, buôn bán phụ nữ và trẻ em gây cảnh tan nát gia đình;
+        kẻ chủ mưu gánh chịu quả báo con cái tàn tật, thân thể thối rữa chết thảm.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660430?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-14
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 17
       title: Quán ngon cao cấp
-      summary: Nhà hàng bán thịt thú rừng bị cháy rụi – quả báo nghiệp sát và tham
-        thực.
+      summary: Nhà hàng chuyên phục vụ thịt thú rừng tươi sống chiêu cảm tai họa hỏa
+        hoạn, chủ quán mắc bệnh nan y hiểm nghèo do oán khí sinh linh tích tụ.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660431?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-15
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 18
       title: Đi câu bị cảm động
-      summary: Người câu cá chứng kiến cảnh cá mẹ bảo vệ con, xúc động bỏ nghề.
+      summary: Người đi câu chứng kiến tình mẫu tử thiêng liêng của loài cá sẵn sàng
+        chết vì con, thức tỉnh lương tri bẻ gãy cần câu, trọn đời phát tâm ăn chay
+        phóng sinh.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660432?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-16
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 19
       title: Chuyện nơi lâm trường
-      summary: Người chặt phá rừng bị cây đổ đè chết – nghiệp phá sinh mạng.
+      summary: Những người phá rừng sát hại muôn thú nơi rừng sâu chịu quả báo tai
+        nạn cây đè, rắn cắn và đời sống lụi tàn; dạy bài học tôn trọng sinh thái và
+        tự nhiên.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660433?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-17
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 20
       title: Khi máy mổ hoàn tất
-      summary: Bác sĩ mổ động vật bị ám ảnh, sau mắc bệnh tim.
+      summary: Sáng chế máy mổ thịt động vật hàng loạt tự động, tưởng lập công nhưng
+        thực chất tạo nghiệp sát vô biên, người chế tạo rốt cuộc chết thảm trong chính
+        cỗ máy.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660435?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-18
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 21
       title: Cận tử nghiệp đáng sợ
-      summary: Người hấp hối thấy ma quỷ do nghiệp sát hiện hình, sợ hãi đến chết.
+      summary: Giây phút lâm chung hiện rõ cảnh giới đòi nợ của oan gia trái chủ;
+        nếu bình sinh không niệm Phật trì giới thì khó tránh sa đọa ba đường ác.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660434?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-19
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 22
       title: Thịt rùa ngon
-      summary: Người ăn rùa bị bệnh da nghiêm trọng.
+      summary: Ham ăn thịt rùa trường thọ, chặt đầu nấu sống loài rùa; người ăn phát
+        bệnh cổ rụt, toàn thân co quắp đau đớn như rùa bị bỏ vào nồi nước sôi.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660436?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-20
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 23
       title: Hứa tiên sinh
-      summary: Người ác ngộ đạo sau khi gặp tai nạn, phát tâm tu.
+      summary: Gương cư sĩ Hứa tiên sinh một đời thiện lương, phóng sinh cứu vật,
+        lúc lâm chung an nhiên tự tại, cảm ứng điềm lành vãng sinh cõi tịnh.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660437?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-22
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 24
       title: Tình thương con của khỉ lông vàng
-      summary: '*(Đang chờ tóm tắt nội dung)*'
+      summary: Câu chuyện nhân quả sâu sắc về đề tài Tình thương con của khỉ lông
+        vàng; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến
+        hóa người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660438?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-23
-      read_label: 📖 Đọc Sách
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-24
+      read_label: 📖 Đọc sách
     - id: 25
       title: Ngọc Lan
-      summary: Cô gái thiện tâm, cảm hóa người chồng mê tửu sắc.
+      summary: Cô gái tên Ngọc Lan trải qua nghiệp duyên trắc trở trong hôn nhân;
+        nhờ biết nương tựa Phật pháp, sám hối nghiệp ái tiền khiên mà tìm lại được
+        an lạc.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660439?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-23
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 26
       title: Con lừa
-      summary: Mùa thu năm Mậu Ngọ, Đời vua Khang Hi triều Thanh, gia đình Trương
-        Nguyên ngụ ở Bắc Kinh có mua về một con lừa, tính nó rất hung hăng, không
-        những ưa đá, mà còn cắn người nữa. Chỉ có ba cha con Trương Nguyên lả cưỡi
-        được nó thôi. Mỗi khi họ cưỡi, nó tỏ vẻ rất ngoan hiền, thuần...
+      summary: 'Mối quan hệ nhân quả truyền kiếp giữa chủ và vật nuôi: lừa trả nợ
+        kiếp trước nhưng chủ bạc đãi quá mức ắt phải chịu quả báo tương ứng đời sau.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660440?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-24
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 27
       title: Chu Tú Hoa
-      summary: '(Trích dịch từ tạp chi “Kim Nhật Phật Giáo ” Đài Loan) Nguyên tác
-        Bạch thoại: Nữ Ký giả Lý Ngọc'
+      summary: 'Vụ án mượn xác hoàn hồn có thật 100% tại Đài Loan chấn động thế giới:
+        linh hồn cô gái Chu Tú Hoa nhập vào thân xác bà Ngô Lâm Võng, chứng minh linh
+        hồn và luân hồi bất diệt.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660442?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-26
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách
     - id: 28
       title: Công chúa Thăng Hoa
-      summary: Câu chuyện về vị công chúa giàu sang, buông dục vọng, hướng thiện,
-        tu hành đạt quả giải thoát.
+      summary: Quá trình chuyển hóa tâm thức nhiệm màu từ tâm kiêu ngạo thế tục sang
+        con đường tỉnh thức tu hành, gặt hái an lạc giải thoát tối thượng.
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660441?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-25
-      read_label: 📖 Đọc Sách
+      read_label: 📖 Đọc sách

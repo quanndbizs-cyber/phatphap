@@ -1,12 +1,13 @@
-# Báo Ứng Hiện Đời — Tập 5 (Nghe Trực Tiếp MP3)
+# Báo Ứng Hiện Đời — Tập 5 (Audio • Tóm Tắt • Sách Đọc)
 
-Tuyển tập 43 câu chuyện nhân quả có thật trong **Báo Ứng Hiện Đời - Tập 5** (SC. Hạnh Đoan biên dịch), phát trực tiếp từ máy chủ pháp âm Audiobookshelf (gồm **Phần 1: 14 bài** và **Phần 2: 29 bài**, tự động chuyển bài khi nghe hết):
+> **Biên dịch:** Sư Cô Hạnh Đoan
+>
+> Tuyển tập **Báo Ứng Hiện Đời - Tập 5** gồm **43 bài Audio MP3** (Phần 1: 14 bài, Phần 2: 29 bài) và bảng tóm tắt 43 mục truyện nhân quả kèm liên kết đọc sách nội bộ.
 
-[:absplayer key="buhd5_1,buhd5_2" title="Báo Ứng Hiện Đời - Tập 5 (Phần 1 & Phần 2)" exturl="https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-5" :]
-
+* [← Quay về Trung Tâm Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)
+* [📖 Đọc Toàn Bộ Bản Chữ Tập 5 (Trực Tiếp Trong Hệ Thống)](/nhan-qua/doc-sach/bao-ung-hien-doi-tap-5)
+* [↗ Mở Bộ Sưu Tập Tập 5 trên Audio.com](https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-5)
 
 ---
 
-## 2. Tóm Tắt & Nghe Từng Truyện (43 Bài)
-
-[:storylist id="stories" :]
+[:buhdview key="buhd5_1,buhd5_2" stories="stories" title="Báo Ứng Hiện Đời — Tập 5 (Phần 1 & 2 - 43 bài MP3)" exturl="https://audio.com/quan-nguyen-duc-1/collections/bao-ung-hien-djoi-tap-5" :]

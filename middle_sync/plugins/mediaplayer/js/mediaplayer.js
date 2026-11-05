@@ -460,7 +460,24 @@
             }
         });
 
-        var hubs = document.querySelectorAll(".tm-mediahub");
+    window.tmSwitchBuhdTab = function (uid, tabName) {
+        var container = document.getElementById(uid);
+        if (!container) return;
+        var tabs = container.querySelectorAll(".tm-buhdview-tab");
+        tabs.forEach(function (t) {
+            var isTarget = t.getAttribute("data-tab") === tabName;
+            t.classList.toggle("active", isTarget);
+            t.setAttribute("aria-selected", isTarget ? "true" : "false");
+        });
+        var panes = container.querySelectorAll(".tm-buhdview-pane");
+        panes.forEach(function (p) {
+            var isPaneTarget = p.getAttribute("data-pane") === tabName;
+            p.classList.toggle("active", isPaneTarget);
+            p.style.display = isPaneTarget ? "block" : "none";
+        });
+    };
+
+    var hubs = document.querySelectorAll(".tm-mediahub");
         hubs.forEach(function (hub) {
             if (hub.id) {
                 window.tmHubSelect(hub.id, 0);
