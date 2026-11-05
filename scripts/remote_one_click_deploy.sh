@@ -121,8 +121,11 @@ done
 
 # Tự động nhận diện môi trường nếu MODE chưa được chỉ định cụ thể
 if [[ -z "$MODE" ]]; then
-    # Nếu chạy dưới quyền root (sudo) hoặc hostname là máy chủ từ xa / có biến SSH session
-    if [[ "$(id -u)" -eq 0 ]] || [[ "$(hostname)" == *"qts-home"* ]] || [[ -n "${SSH_CLIENT:-}" ]] || [[ -n "${SSH_TTY:-}" ]]; then
+    # Nhận diện đang chạy trên Server khi:
+    # 1. Có biến SSH session (chạy qua SSH từ xa)
+    # 2. Hoặc hostname là máy chủ production (qts-home)
+    # 3. Hoặc đường dẫn là /var/www/html/phatphap và không phải môi trường WSL (/mnt/d)
+    if [[ -n "${SSH_CLIENT:-}" ]] || [[ -n "${SSH_TTY:-}" ]] || [[ "$(hostname)" == *"qts-home"* ]] || ([[ "$BASE_DIR" == "/var/www/html/phatphap" ]] && [[ ! -d "/mnt/d" ]]); then
         MODE="server"
     else
         MODE="remote"
@@ -237,6 +240,7 @@ run_local_and_trigger_remote() {
         # 2.2 Commit & Push nhánh content
         echo -e "\n\033[1;34m-> BƯỚC 2: Kiểm tra & Push Git Submodule content...\033[0m"
         cd "$BASE_DIR/content"
+        rm -f .git/index.lock 2>/dev/null || true
         git add -A
         if git diff --staged --quiet; then
             echo "   [i] Nhánh content không có thay đổi mới chưa commit."
@@ -252,6 +256,7 @@ run_local_and_trigger_remote() {
         # 2.3 Commit & Push nhánh Web root (v2.x)
         echo -e "\n\033[1;34m-> BƯỚC 3: Kiểm tra & Push Git Web root...\033[0m"
         cd "$BASE_DIR"
+        rm -f .git/index.lock 2>/dev/null || true
         git add -A
         if git diff --staged --quiet; then
             echo "   [i] Web root không có thay đổi mới chưa commit."
@@ -270,7 +275,7 @@ run_local_and_trigger_remote() {
 
     # 3. Kết nối SSH và chạy script deploy trên Server
     echo -e "\n\033[1;34m-> BƯỚC 4: Kích hoạt remote deploy trên server qua SSH...\033[0m"
-    echo "   Lệnh: ssh -t -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\" \"sudo $REMOTE_DIR/scripts/remote_one_click_deploy.sh --server\""
+    echo "   Lệnh: ssh -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\" \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh --server\""
 
     SSH_CMD="ssh -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\""
 
@@ -279,8 +284,8 @@ run_local_and_trigger_remote() {
         SSH_CMD="ssh -t -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\""
     fi
 
-    # Thực thi lệnh trên server
-    $SSH_CMD "sudo $REMOTE_DIR/scripts/remote_one_click_deploy.sh --server"
+    # Đảm bảo quyền thực thi và chạy deploy trên server
+    $SSH_CMD "chmod +x $REMOTE_DIR/scripts/*.sh 2>/dev/null || true; $REMOTE_DIR/scripts/remote_one_click_deploy.sh --server"
 
     echo -e "\n=================================================================="
     echo -e "\033[1;32m🎉 [HOÀN TẤT] REMOTE ONE CLICK DEPLOY ĐÃ KẾT THÚC THÀNH CÔNG!\033[0m"
