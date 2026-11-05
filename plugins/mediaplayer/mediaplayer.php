@@ -6,9 +6,10 @@ use Typemill\Plugin;
 
 class mediaplayer extends Plugin
 {
-    protected $currentMeta = [];
-    protected $currentItem = null;
-    protected $absCatalog  = null;
+    protected $currentMeta    = [];
+    protected $currentItem     = null;
+    protected $absCatalog      = null;
+    protected $playerRendered  = false;
 
     public static function getSubscribedEvents()
     {
@@ -17,6 +18,7 @@ class mediaplayer extends Plugin
             'onTwigLoaded'      => ['onTwigLoaded', 0],
             'onItemLoaded'      => ['onItemLoaded', 0],
             'onMetaLoaded'      => ['onMetaLoaded', 0],
+            'onHtmlLoaded'      => ['onHtmlLoaded', 0],
             'onShortcodeFound'  => ['onShortcodeFound', 0],
         ];
     }
@@ -47,6 +49,61 @@ class mediaplayer extends Plugin
     public function onMetaLoaded($metadata)
     {
         $this->currentMeta = $metadata->getData();
+        if (!is_array($this->currentMeta)) {
+            $this->currentMeta = [];
+        }
+
+        # If user configured raw YAML stories in the backend meta tab, parse it
+        $rawYaml = $this->currentMeta['mediaplayer']['stories_yaml'] ?? null;
+        if (!empty($rawYaml) && is_string($rawYaml)) {
+            try {
+                $parsed = \Symfony\Component\Yaml\Yaml::parse($rawYaml);
+                if (is_array($parsed)) {
+                    if (isset($parsed['items']) && is_array($parsed['items'])) {
+                        $this->currentMeta['mediaplayer']['stories'] = $parsed;
+                    } elseif (array_is_list($parsed)) {
+                        $this->currentMeta['mediaplayer']['stories'] = ['items' => $parsed];
+                    } else {
+                        $this->currentMeta['mediaplayer']['stories'] = $parsed;
+                    }
+                }
+            } catch (\Throwable $e) {
+                // Ignore parse errors, let page render safely
+            }
+        }
+    }
+
+    public function onHtmlLoaded($html)
+    {
+        $mode = $this->currentMeta['mediaplayer']['player_mode'] ?? 'none';
+        if ($mode === 'none' || empty($mode) || $this->playerRendered) {
+            return;
+        }
+
+        $key    = trim($this->currentMeta['mediaplayer']['abs_key'] ?? ($this->currentMeta['mediaplayer']['key'] ?? ''));
+        $title  = trim($this->currentMeta['mediaplayer']['title'] ?? ($this->currentMeta['meta']['title'] ?? 'Trình Phát Pháp Âm'));
+        $extUrl = trim($this->currentMeta['mediaplayer']['exturl'] ?? '');
+
+        if (!$key && !$extUrl) {
+            return;
+        }
+
+        $rendered = '';
+        if (str_starts_with($mode, 'buhdview')) {
+            $rendered = $this->renderBuhdView($key, 'stories', $title, $extUrl);
+        } elseif (str_starts_with($mode, 'absplayer')) {
+            $rendered = $this->renderAbsPlayer($key, $title, $extUrl);
+        }
+
+        if ($rendered) {
+            $contentHtml = $html->getData();
+            if (str_ends_with($mode, '_top')) {
+                $html->setData($rendered . $contentHtml);
+            } else {
+                $html->setData($contentHtml . $rendered);
+            }
+            $this->playerRendered = true;
+        }
     }
 
     protected function getAbsCatalog(): array
@@ -112,9 +169,10 @@ class mediaplayer extends Plugin
         # 2. [:absplayer key="dtq_hp,dtq_thlh" title="..." exturl="..." :]
         if ($name === 'absplayer') {
             $shortcode->stopPropagation();
-            $keys   = trim($params['key'] ?? '');
-            $title  = htmlspecialchars($params['title'] ?? 'Trình Phát Pháp Âm', ENT_QUOTES, 'UTF-8');
-            $extUrl = trim($params['exturl'] ?? '');
+            $this->playerRendered = true;
+            $keys   = trim($params['key'] ?? ($this->currentMeta['mediaplayer']['abs_key'] ?? ($this->currentMeta['mediaplayer']['key'] ?? '')));
+            $title  = htmlspecialchars($params['title'] ?? ($this->currentMeta['mediaplayer']['title'] ?? ($this->currentMeta['meta']['title'] ?? 'Trình Phát Pháp Âm')), ENT_QUOTES, 'UTF-8');
+            $extUrl = trim($params['exturl'] ?? ($this->currentMeta['mediaplayer']['exturl'] ?? ''));
 
             $shortcode->setData($this->renderAbsPlayer($keys, $title, $extUrl));
             return;
@@ -123,10 +181,11 @@ class mediaplayer extends Plugin
         # 3. [:embed url="..." abs="..." height="..." title="..." :]
         if ($name === 'embed') {
             $shortcode->stopPropagation();
-            $url    = trim($params['url'] ?? '');
-            $absKey = trim($params['abs'] ?? '');
+            $this->playerRendered = true;
+            $url    = trim($params['url'] ?? ($this->currentMeta['mediaplayer']['exturl'] ?? ''));
+            $absKey = trim($params['abs'] ?? ($this->currentMeta['mediaplayer']['abs_key'] ?? ''));
             $height = htmlspecialchars($params['height'] ?? '680px', ENT_QUOTES, 'UTF-8');
-            $title  = htmlspecialchars($params['title'] ?? 'Media Player', ENT_QUOTES, 'UTF-8');
+            $title  = htmlspecialchars($params['title'] ?? ($this->currentMeta['mediaplayer']['title'] ?? 'Media Player'), ENT_QUOTES, 'UTF-8');
 
             # Automatically resolve known blocked Audio.com embeds to native ABS playlist player
             if (!$absKey) {
@@ -144,6 +203,7 @@ class mediaplayer extends Plugin
         # 4. [:mediahub id="..." height="..." :]
         if ($name === 'mediahub') {
             $shortcode->stopPropagation();
+            $this->playerRendered = true;
             $hubId  = $params['id'] ?? 'main';
             $height = htmlspecialchars($params['height'] ?? '680px', ENT_QUOTES, 'UTF-8');
 
@@ -173,10 +233,11 @@ class mediaplayer extends Plugin
         # 5c. [:buhdview key="..." stories="..." title="..." exturl="..." :]
         if ($name === 'buhdview') {
             $shortcode->stopPropagation();
-            $key     = $params['key'] ?? '';
-            $stories = $params['stories'] ?? 'stories';
-            $title   = $params['title'] ?? 'Báo Ứng Hiện Đời';
-            $extUrl  = $params['exturl'] ?? '';
+            $this->playerRendered = true;
+            $key     = trim($params['key'] ?? ($this->currentMeta['mediaplayer']['abs_key'] ?? ($this->currentMeta['mediaplayer']['key'] ?? '')));
+            $stories = trim($params['stories'] ?? 'stories');
+            $title   = trim($params['title'] ?? ($this->currentMeta['mediaplayer']['title'] ?? ($this->currentMeta['meta']['title'] ?? 'Báo Ứng Hiện Đời')));
+            $extUrl  = trim($params['exturl'] ?? ($this->currentMeta['mediaplayer']['exturl'] ?? ''));
 
             $shortcode->setData($this->renderBuhdView($key, $stories, $title, $extUrl));
             return;
@@ -639,14 +700,16 @@ class mediaplayer extends Plugin
                 $html .= '<a class="tm-track-btn tm-track-btn-download" href="' . $safeAudio . '" download target="_blank" rel="noopener noreferrer" title="Tải file MP3">💾 Tải MP3</a>';
             }
 
-            if (!empty($st['read_url'])) {
-                $safeRead  = htmlspecialchars($this->qualifyUrl($st['read_url']), ENT_QUOTES, 'UTF-8');
+            $itemReadUrl = !empty($st['read_url']) ? $st['read_url'] : ($this->currentMeta['mediaplayer']['read_url'] ?? '');
+            if (!empty($itemReadUrl)) {
+                $safeRead  = htmlspecialchars($this->qualifyUrl($itemReadUrl), ENT_QUOTES, 'UTF-8');
                 $readLabel = htmlspecialchars($st['read_label'] ?? '📖 Sách đọc', ENT_QUOTES, 'UTF-8');
                 $html .= '<a class="tm-track-btn tm-track-btn-read" href="' . $safeRead . '" target="_blank" rel="noopener noreferrer">' . $readLabel . '</a>';
             }
 
-            if (!empty($st['pdf_url'])) {
-                $safePdf = htmlspecialchars($this->qualifyUrl($st['pdf_url']), ENT_QUOTES, 'UTF-8');
+            $itemPdfUrl = !empty($st['pdf_url']) ? $st['pdf_url'] : ($this->currentMeta['mediaplayer']['pdf_url'] ?? '');
+            if (!empty($itemPdfUrl)) {
+                $safePdf = htmlspecialchars($this->qualifyUrl($itemPdfUrl), ENT_QUOTES, 'UTF-8');
                 $html .= '<a class="tm-track-btn tm-fmt-pdf" href="' . $safePdf . '" target="_blank" rel="noopener noreferrer">📄 Bản PDF</a>';
             }
 
