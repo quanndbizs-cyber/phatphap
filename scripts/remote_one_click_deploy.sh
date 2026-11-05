@@ -36,6 +36,9 @@ trap 'rc=$?; echo -e "\n\033[1;31m[ERROR] Deployment halted at line ${LINENO} (e
 # 0. CẤU HÌNH MẶC ĐỊNH & THAM SỐ
 # ------------------------------------------------------------------------------
 DEFAULT_SSH_KEY="$HOME/.ssh/ssh_key/quannd_id_rsa"
+if [[ ! -f "$DEFAULT_SSH_KEY" && -f "/root/.ssh/ssh_key/quannd_id_rsa" ]]; then
+    DEFAULT_SSH_KEY="/root/.ssh/ssh_key/quannd_id_rsa"
+fi
 DEFAULT_SSH_USER="quannd"
 DEFAULT_SSH_HOST="192.168.1.22"
 DEFAULT_REMOTE_DIR="/var/www/html/phatphap"
@@ -277,15 +280,15 @@ run_local_and_trigger_remote() {
     echo -e "\n\033[1;34m-> BƯỚC 4: Kích hoạt remote deploy trên server qua SSH...\033[0m"
     echo "   Lệnh: ssh -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\" \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh --server\""
 
-    SSH_CMD="ssh -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\""
+    SSH_CMD=(ssh -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -i "$SSH_KEY" "$SSH_USER@$SSH_HOST")
 
     # Thêm -t nếu đang chạy trong terminal tương tác để nhập sudo password nếu cần
     if [ -t 0 ]; then
-        SSH_CMD="ssh -t -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\""
+        SSH_CMD=(ssh -t -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -i "$SSH_KEY" "$SSH_USER@$SSH_HOST")
     fi
 
     # Đảm bảo quyền thực thi và chạy deploy trên server
-    $SSH_CMD "chmod +x $REMOTE_DIR/scripts/*.sh 2>/dev/null || true; $REMOTE_DIR/scripts/remote_one_click_deploy.sh --server"
+    "${SSH_CMD[@]}" "chmod +x $REMOTE_DIR/scripts/*.sh 2>/dev/null || true; $REMOTE_DIR/scripts/remote_one_click_deploy.sh --server"
 
     echo -e "\n=================================================================="
     echo -e "\033[1;32m🎉 [HOÀN TẤT] REMOTE ONE CLICK DEPLOY ĐÃ KẾT THÚC THÀNH CÔNG!\033[0m"
