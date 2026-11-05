@@ -188,7 +188,7 @@ run_server_deployment() {
     git -C "$BASE_DIR" config core.fileMode false 2>/dev/null || true
 
     # Dọn dẹp trạng thái tạm thời để bảo đảm git pull --ff-only không bị chặn
-    git -C "$BASE_DIR" checkout -- plugins/mediaplayer/ cache/ media/files/filerestrictions.yaml 2>/dev/null || true
+    git -C "$BASE_DIR" checkout -- plugins/mediaplayer/ cache/ media/files/filerestrictions.yaml themes/tinhdo/js/search-index.json 2>/dev/null || true
 
     # 1.5 Chạy git pull --ff-only để cập nhật toàn bộ repository web
     CURRENT_BRANCH=$(git -C "$BASE_DIR" branch --show-current 2>/dev/null || echo "v2.x")
