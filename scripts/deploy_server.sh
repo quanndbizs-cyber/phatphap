@@ -27,7 +27,11 @@ echo "=========================================================="
 
 # 1. Update content branch from Git.
 echo "-> 1. Cập nhật nhánh content từ Git remote..."
+git config --global --add safe.directory "$BASE_DIR" 2>/dev/null || true
+git config --global --add safe.directory "$BASE_DIR/content" 2>/dev/null || true
+
 if [[ -d "$BASE_DIR/content/.git" || -f "$BASE_DIR/content/.git" ]]; then
+    git -C "$BASE_DIR/content" config core.fileMode false 2>/dev/null || true
     git -C "$BASE_DIR/content" pull --ff-only origin content
 else
     echo "[ERROR] $BASE_DIR/content không phải Git repository."
@@ -118,25 +122,43 @@ fi
 
 # Validate Nginx configuration before reloading either service.
 echo "   + Kiểm tra cấu hình Nginx..."
-sudo -n "$NGINX" -t
+if [[ "$(id -u)" -eq 0 ]]; then
+    "$NGINX" -t
+else
+    sudo -n "$NGINX" -t
+fi
 
 # Reload PHP-FPM to refresh workers / OPcache when required.
 echo "   + Reload PHP-FPM 8.4..."
-sudo -n "$SYSTEMCTL" reload php8.4-fpm
+if [[ "$(id -u)" -eq 0 ]]; then
+    "$SYSTEMCTL" reload php8.4-fpm
+else
+    sudo -n "$SYSTEMCTL" reload php8.4-fpm
+fi
 "$SYSTEMCTL" is-active --quiet php8.4-fpm
 echo "   [OK] PHP-FPM 8.4 đang active."
 
 # Reload Nginx.
 echo "   + Reload Nginx..."
-sudo -n "$SYSTEMCTL" reload nginx
+if [[ "$(id -u)" -eq 0 ]]; then
+    "$SYSTEMCTL" reload nginx
+else
+    sudo -n "$SYSTEMCTL" reload nginx
+fi
 "$SYSTEMCTL" is-active --quiet nginx
 echo "   [OK] Nginx đang active."
 
 echo "-> 5. Reload hoàn tất."
 
-# 6. Run test kit. Keep the original non-blocking behavior.
+# 6. Rebuild search index if PHP is available
+if [[ -f "$BASE_DIR/scripts/build_search_index.php" ]] && command -v php >/dev/null 2>&1; then
+    echo "-> 6. Tái tạo Search Index cho toàn bộ bài viết..."
+    php "$BASE_DIR/scripts/build_search_index.php" || echo "[WARN] Không thể tái tạo search index tự động."
+fi
+
+# 7. Run test kit. Keep the original non-blocking behavior.
 if [[ -f "$BASE_DIR/scripts/test_stage.sh" ]]; then
-    echo "-> 6. Đang chạy bộ Test Kit kiểm tra hệ thống..."
+    echo "-> 7. Đang chạy bộ Test Kit kiểm tra hệ thống..."
     if ! "$BASE_DIR/scripts/test_stage.sh"; then
         echo "[WARN] Test Kit có lỗi; deploy đã cập nhật và reload nhưng cần kiểm tra test."
     fi
