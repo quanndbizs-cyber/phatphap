@@ -88,8 +88,11 @@ class ControllerWebFrontend extends Controller
 			$item 				= $navigation->getHomepageItem($urlinfo['baseurl']);
 			$item->active 		= true;
 
-			# home is true for the base homepage and for project homepages like /it
-			$home 				= true;
+			# home is only true for the base homepage, project homepages are handled by the themes
+			if($url == '/')
+			{
+				$home 			= true;
+			}
 		}
 		else
 		{

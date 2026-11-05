@@ -98,18 +98,20 @@ class SvgSanitizer {
 				$attributesToRemove = [];
 				
 				//If the element is allowed, loop through checking its attributes v.s. the attributes allowed for that element
+				//Use the qualified name (nodeName like "xlink:href") for the whitelist check, because name returns the local name only,
+				//and collect the attribute nodes, because removeAttribute() cannot remove namespaced attributes
 				for ($j = 0; $j < $currentNode->attributes->length; $j++) {
-					$attrName = $currentNode->attributes->item($j)->name;
+					$attribute = $currentNode->attributes->item($j);
 					
-					if (!isset($attributesWhitelist[$attrName])) {
-						$attributesToRemove[] = $attrName;
+					if (!isset($attributesWhitelist[$attribute->nodeName])) {
+						$attributesToRemove[] = $attribute;
 					}
 				}
 				
-				//Remove any blocked attributes
+				//Remove any blocked attributes with removeAttributeNode(), which removes namespaced attributes, too
 				if (!empty($attributesToRemove)) {
-					foreach ($attributesToRemove as $attrName) {
-						$currentNode->removeAttribute($attrName);
+					foreach ($attributesToRemove as $attribute) {
+						$currentNode->removeAttributeNode($attribute);
 					}
 				}
 		    }	

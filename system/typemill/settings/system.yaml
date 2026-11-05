@@ -365,7 +365,7 @@ fieldsetrecover:
     recoverhint:
       type: paragraph
       label: 'Notice'
-      description: 'Enable password recovery only if needed and ensure email settings are configured correctly. To improve security, configure a Fully Qualified Domain Name (FQDN) in the Developer settings. Without an FQDN, password reset links may be vulnerable to manipulation on certain server configurations.'
+      description: 'Enable password recovery only if needed and ensure email settings are configured correctly. Password recovery requires a Fully Qualified Domain Name (FQDN) in the Developer settings. Until an FQDN is configured, no recovery emails are sent (see the security log).'
     recoverpw:
       type: checkbox
       label: 'Recover password'
@@ -447,7 +447,7 @@ fieldsetdeveloper:
       type: text
       label: "FQDN (Fully Qualified Domain Name)"
       placeholder: "https://mywebsite.com"
-      description: "If your proxy does not work, add the base-url of your website here."
+      description: "Required for password recovery and recommended for proxy setups. Add the base-url of your website with scheme (e.g. https://mywebsite.com) and update it when the website moves to another domain."
     headersoff:
       type: checkbox
       label: "Disable Custom Headers"

@@ -218,6 +218,12 @@ abstract class Controller
 	# returns the folderaccess restriction of a user (comma separated folder list) or false if the user is unrestricted
 	protected function getFolderAccess($username)
 	{
+		# public plugin api routes can reach controllers without an authenticated user (task 11)
+		if(!$username OR !is_string($username))
+		{
+			return false;
+		}
+
 		$userModel 		= new User();
 		$user 			= $userModel->setUser($username);
 
@@ -291,10 +297,16 @@ abstract class Controller
 	}
 
 	# used for public api endpoints (apiGlobals)
-	# decides whether a public api consumer may access a single page/item.
+	# decides whether a public api consumer may access a single page/item, including the folderaccess scope.
 	# returns an array with 'allowed' (bool) and 'reason' ('content_read', 'owner', 'content_allowed', 'unpublished', 'restricted')
 	protected function publicApiIsAllowed($username, $userrole, $item, $pagemeta)
 	{
+		# folderaccess: a user restricted to certain folders may only read pages within that scope, like in the web editor (task 11)
+		if(!$this->urlIsWithinFolderScope($username, $item->urlRelWoF ?? '/'))
+		{
+			return ['allowed' => false, 'reason' => 'restricted'];
+		}
+
 		if($this->userroleIsAllowed($userrole, 'content', 'read'))
 		{
 			return ['allowed' => true, 'reason' => 'content_read'];

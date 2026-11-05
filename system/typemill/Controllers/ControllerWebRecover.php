@@ -37,7 +37,6 @@ class ControllerWebRecover extends Controller
 	{
         $params 		= $request->getParsedBody();
 		$settings 		= $this->c->get('settings');
-		$urlinfo 		= $this->c->get('urlinfo');		
 
 		if(!isset($params['email']) OR filter_var($params['email'], \FILTER_VALIDATE_EMAIL) === false )
 		{
@@ -46,13 +45,23 @@ class ControllerWebRecover extends Controller
 			return $response->withHeader('Location', $this->routeParser->urlFor('auth.recoverform'))->withStatus(302);
 		}
 
+		# reset links are built from the configured fqdn only, never from the request:
+		# the host header and x-forwarded headers are client controlled and would poison the link
+		$baseUrl = '';
+		if(isset($settings['fqdn']) && trim($settings['fqdn']) !== '')
+		{
+			$fqdn 	= trim($settings['fqdn']);
+			$fqdn 	= preg_match('#^https?://#i', $fqdn) ? $fqdn : 'https://' . $fqdn;
+			$baseUrl = rtrim($fqdn, '/');
+		}
+
 		$title 			= Translations::translate('Check your inbox');
 		$message 		= Translations::translate('Please check the inbox of your email account for more instructions.');
 
 		$user 			= new User();
 		$requiredUser 	= $user->findUsersByEmail($params['email']);
 
-		if($requiredUser)
+		if($requiredUser && $baseUrl)
 		{
 			$user->setUserWithPassword($requiredUser[0]);
 
@@ -60,8 +69,7 @@ class ControllerWebRecover extends Controller
 			$recoverdate 					= date("Y-m-d H:i:s");
 			$recovertoken 					= bin2hex(random_bytes(32));
 
-			$baseUrl = !empty($settings['fqdn']) ? rtrim($settings['fqdn'], '/') : ($urlinfo['scheme'] . '://' . ($_SERVER['SERVER_NAME'] ?? $urlinfo['authority']) . $urlinfo['basepath']);
-			$url 	= rtrim($baseUrl, '/') . '/tm/reset?username=' . $requiredUser['username'] . '&recovertoken=' . $recovertoken;
+			$url 	= $baseUrl . '/tm/reset?username=' . $requiredUser['username'] . '&recovertoken=' . $recovertoken;
 			$link 	= '<a href="'. $url . '">' . $url . '</a>';
 
 			# define the headers
@@ -74,7 +82,7 @@ class ControllerWebRecover extends Controller
 			$messagetext	.= Translations::translate('please use the following link to set a new password') . ':';
 			if(isset($settings['recovermessage']) && ($settings['recovermessage'] != ''))
 			{
-				$parsedown 		= new ParsedownExtension($urlinfo['baseurl']);
+				$parsedown 		= new ParsedownExtension($baseUrl);
 				$parsedown->setSafeMode(true);
 
 				$contentArray 	= $parsedown->text($settings['recovermessage']);
@@ -101,6 +109,14 @@ class ControllerWebRecover extends Controller
 				$message 	= Translations::translate('Dear ') . $requiredUser['username'] . ', ' . Translations::translate('please check the inbox of your email account for more instructions.') . ' ' . Translations::translate('Do not forget to check your spam-folder if your inbox is empty.');
 			}			
 		}
+		elseif($requiredUser)
+		{
+			# no fqdn configured: suppress the email instead of sending a link with a request-derived host
+			if(isset($settings['securitylog']) && $settings['securitylog'])
+			{
+				\Typemill\Static\Helpers::addLogEntry('password recovery suppressed: no fqdn configured');
+			}
+		}
 		elseif(isset($settings['securitylog']) && $settings['securitylog'])
 		{
 			\Typemill\Static\Helpers::addLogEntry('wrong input for password recovery');
@@ -115,7 +131,7 @@ class ControllerWebRecover extends Controller
 	public function showPasswordResetForm(Request $request, Response $response, $args)
 	{
 		$params	 		= $request->getQueryParams();
-		$securitylog  	= ( isset($settings['securitylog']) && $settings['securitylog'] ) ? true : false;
+		$securitylog  	= ( isset($this->settings['securitylog']) && $this->settings['securitylog'] ) ? true : false;
 
 		if(!isset($params['username']) OR !isset($params['recovertoken']))
 		{
@@ -223,7 +239,7 @@ class ControllerWebRecover extends Controller
 	{
         $params 		= $request->getParsedBody();
 		$settings 		= $this->c->get('settings');
-		$urlinfo 		= $this->c->get('urlinfo');
+		$securitylog 	= ( isset($settings['securitylog']) && $settings['securitylog'] ) ? true : false;
 
 		if(!isset($params['username']) OR !isset($params['recovertoken']))
 		{

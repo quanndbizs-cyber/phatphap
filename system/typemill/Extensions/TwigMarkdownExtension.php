@@ -32,10 +32,17 @@ class TwigMarkdownExtension extends AbstractExtension
 		
 	public function renderMarkdown($markdown)
 	{
-		$parsedown = new ParsedownExtension($this->baseurl, $this->settings, $this->dispatcher);
 
-		$markdownArray = $parsedown->text($markdown);
-		
-		return $parsedown->markup($markdownArray);
+	    $parsedown = new ParsedownExtension($this->baseurl, $this->settings, $this->dispatcher);
+
+    	$parsedown->setSafeMode(true);
+
+    	$markdownArray = $parsedown->text($markdown);
+
+    	$html = $parsedown->markup($markdownArray);
+
+    	$parsedown->setSafeMode(false);
+
+    	return $html;
 	}
 }

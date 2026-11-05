@@ -13,30 +13,52 @@ class Session
 
 		$routepath = ltrim($routepath, '/');
 
+		$startsession = false;
+
 		foreach($sessionSegments as $segment)
 		{
 			if(substr( $routepath, 0, strlen($segment) ) === ltrim($segment, '/'))
 			{
-				# configure session
-				ini_set('session.cookie_httponly', 1 );
-				ini_set('session.use_strict_mode', 1);
-				ini_set('session.cookie_samesite', 'lax');
-
-				if($scheme == 'https')
-				{
-					ini_set('session.cookie_secure', 1);
-					session_name('__Secure-typemill-session');
-				}
-				else
-				{
-					session_name('typemill-session');
-				}
-
-				# start session
-				session_start();
-
-				return true;
+				$startsession = true;
+				break;
 			}
+		}
+
+		# also start the session when a typemill session cookie is present, so
+		# authenticated users are recognized on routes without a session segment
+		# (e.g. for download restrictions on websites without access restrictions).
+		# anonymous requests without a session cookie never start a session.
+		if(!$startsession)
+		{
+			$cookiename = ($scheme == 'https') ? '__Secure-typemill-session' : 'typemill-session';
+
+			if(isset($_COOKIE[$cookiename]))
+			{
+				$startsession = true;
+			}
+		}
+
+		if($startsession)
+		{
+			# configure session
+			ini_set('session.cookie_httponly', 1 );
+			ini_set('session.use_strict_mode', 1);
+			ini_set('session.cookie_samesite', 'lax');
+
+			if($scheme == 'https')
+			{
+				ini_set('session.cookie_secure', 1);
+				session_name('__Secure-typemill-session');
+			}
+			else
+			{
+				session_name('typemill-session');
+			}
+
+			# start session
+			session_start();
+
+			return true;
 		}
 
 		return false;

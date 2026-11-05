@@ -71,7 +71,8 @@ class ControllerWebAuth extends Controller
 		    }
 
 		    # ensure user exists (plugin may have created it)
-		    if(!$user->setUser($username))
+		    # set user with password, otherwise the login would overwrite the userfile without the password
+		    if(!$user->setUserWithPassword($username))
 		    {
 				if($securitylog)
 				{

@@ -153,6 +153,18 @@ class User
 	public function updateUser()
 	{
 		$username = $this->sanitizeUsername($this->user['username']);
+
+		# if the password is missing in the userdata (e.g. removed by setUser), 
+		# then keep the stored password so it does not get deleted accidentally
+		if(!isset($this->user['password']))
+		{
+			$storedUser = $this->storage->getYaml('settingsFolder', 'users', $username . '.yaml');
+			if($storedUser && isset($storedUser['password']))
+			{
+				$this->user['password'] = $storedUser['password'];
+			}
+		}
+
 		if($this->storage->updateYaml('settingsFolder', 'users', $username . '.yaml', $this->user))
 		{
 			$this->deleteUserIndex();

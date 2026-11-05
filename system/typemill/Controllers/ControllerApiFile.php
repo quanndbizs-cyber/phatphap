@@ -26,41 +26,6 @@ class ControllerApiFile extends Controller
 		return $response->withHeader('Content-Type', 'application/json');
 	}
 
-	public function getFile(Request $request, Response $response, $args)
-	{
-		$name 			= $request->getQueryParams()['name'] ?? false;
-
-		# VALIDATE NAME
-
-		if(!$name)
-		{
-			$response->getBody()->write(json_encode([
-				'message' 		=> Translations::translate('Filename is missing.')
-			]));
-
-			return $response->withHeader('Content-Type', 'application/json')->withStatus(400);
-		}
-
-		$storage 		= new StorageWrapper('\Typemill\Models\Storage');
-
-		$filedetails 	= $storage->getFileDetails($name);
-		
-		if(!$filedetails)
-		{
-			$response->getBody()->write(json_encode([
-				'message' 		=> Translations::translate('No file found.')
-			]));
-
-			return $response->withHeader('Content-Type', 'application/json')->withStatus(404);
-		}
-
-		$response->getBody()->write(json_encode([
-			'file' 		=> $filedetails,
-		]));
-
-		return $response->withHeader('Content-Type', 'application/json');
-	}
-
 	public function getFileRestrictions(Request $request, Response $response, $args)
 	{
 		$params = $request->getQueryParams();
@@ -68,6 +33,9 @@ class ControllerApiFile extends Controller
 		$restriction 	= 'all';
 
 		$userroles 		= $this->c->get('acl')->getRoles();
+
+		# can the user change download restrictions (editor or higher)?
+		$canupdate 		= $this->c->get('acl')->isAllowed($request->getAttribute('c_userrole'), 'content', 'update');
 
 		if(isset($params['filename']) && $params['filename'] != '')
 		{
@@ -81,8 +49,9 @@ class ControllerApiFile extends Controller
 		}
 
 		$response->getBody()->write(json_encode([
-			'userroles'		=> $userroles, 
-			'restriction'	=> $restriction
+			'userroles'		=> $userroles,
+			'restriction'	=> $restriction,
+			'canupdate'		=> $canupdate
 		]));
 
 		return $response->withHeader('Content-Type', 'application/json');
@@ -328,6 +297,30 @@ class ControllerApiFile extends Controller
 		}
 
 		$storage = new StorageWrapper('\Typemill\Models\Storage');
+
+		# a file with a download restriction may only be deleted
+		# by users who hold the role the file is restricted to
+		$filename 		= 'media/files/' . basename($params['name']);
+		$restrictions 	= $storage->getYaml('fileFolder', '', 'filerestrictions.yaml');
+
+		if($restrictions && isset($restrictions[$filename]))
+		{
+			$userrole 		= $request->getAttribute('c_userrole');
+			$allowedrole 	= $restrictions[$filename];
+
+			if(
+				$userrole != 'administrator'
+				AND $userrole != $allowedrole
+				AND !$this->c->get('acl')->inheritsRole($userrole, $allowedrole)
+			)
+			{
+				$response->getBody()->write(json_encode([
+					'message' 		=> Translations::translate('You do not have enough rights.')
+				]));
+
+				return $response->withHeader('Content-Type', 'application/json')->withStatus(403);
+			}
+		}
 
 		$deleted = $storage->deleteMediaFile($params['name']);
 

@@ -1,6 +1,7 @@
 ---
 description: Maintains and generates documentation for Typemill core features, plugins, and themes.
 mode: subagent
+model: minimax-m3
 permissions:
   - action: shell
     resource: "*"

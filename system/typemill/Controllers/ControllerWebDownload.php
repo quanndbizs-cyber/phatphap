@@ -70,7 +70,10 @@ class ControllerWebDownload extends Controller
 
 			if(!$userrole)
 			{
-				$this->c->get('flash')->addMessage('error', Translations::translate('To download this file you need to be authenticated with the role') . ' ' . $allowedrole );
+				if($this->c->has('flash'))
+				{
+					$this->c->get('flash')->addMessage('error', Translations::translate('To download this file you need to be authenticated with the role') . ' ' . $allowedrole );
+				}
 				
 				return $response->withHeader('Location', $this->routeParser->urlFor('auth.show'))->withStatus(302);
 			}
@@ -80,7 +83,10 @@ class ControllerWebDownload extends Controller
 				AND !$this->c->get('acl')->inheritsRole($userrole, $allowedrole)
 			)
 			{
-				$this->c->get('flash')->addMessage('error', Translations::translate('To download this file you need to be authenticated with the role') . ' ' . $allowedrole );
+				if($this->c->has('flash'))
+				{
+					$this->c->get('flash')->addMessage('error', Translations::translate('To download this file you need to be authenticated with the role') . ' ' . $allowedrole );
+				}
 
 				return $response->withHeader('Location', $this->routeParser->urlFor('auth.show'))->withStatus(302);
 			}

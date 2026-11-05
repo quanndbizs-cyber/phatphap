@@ -56,13 +56,12 @@ $app->group('/api/v1', function (RouteCollectorProxy $group) use ($acl) {
 	$group->delete('/image', ControllerApiImage::class . ':deleteImage')->setName('api.image.delete')->add(new ApiAuthorization($acl, 'mycontent', 'delete')); # editor
 	
 	# FILES
-	$group->get('/filerestrictions', ControllerApiFile::class . ':getFileRestrictions')->setName('api.file.getrestrictions')->add(new ApiAuthorization($acl, 'mycontent', 'create')); # author
-	$group->post('/filerestrictions', ControllerApiFile::class . ':updateFileRestrictions')->setName('api.file.updaterestrictions')->add(new ApiAuthorization($acl, 'mycontent', 'create')); # author
+	$group->get('/filerestrictions', ControllerApiFile::class . ':getFileRestrictions')->setName('api.file.getrestrictions')->add(new ApiAuthorization($acl, 'mycontent', 'create')); # contributor
+	$group->post('/filerestrictions', ControllerApiFile::class . ':updateFileRestrictions')->setName('api.file.updaterestrictions')->add(new ApiAuthorization($acl, 'content', 'update')); # editor
 	$group->post('/file', ControllerApiFile::class . ':uploadFile')->setName('api.file.upload')->add(new ApiAuthorization($acl, 'mycontent', 'create')); # author
 	$group->put('/file', ControllerApiFile::class . ':publishFile')->setName('api.file.publish')->add(new ApiAuthorization($acl, 'mycontent', 'update')); # author
 	$group->get('/files', ControllerApiFile::class . ':getFiles')->setName('api.files.get')->add(new ApiAuthorization($acl, 'mycontent', 'read')); # author
-	$group->get('/file', ControllerApiFile::class . ':getFile')->setName('api.file.get')->add(new ApiAuthorization($acl, 'mycontent', 'read')); # author
-	$group->delete('/file', ControllerApiFile::class . ':deleteFile')->setName('api.file.delete')->add(new ApiAuthorization($acl, 'mycontent', 'read')); # author
+	$group->delete('/file', ControllerApiFile::class . ':deleteFile')->setName('api.file.delete')->add(new ApiAuthorization($acl, 'mycontent', 'delete')); # contributor
 
 	# ARTICLE
 	$group->post('/article/sort', ControllerApiAuthorArticle::class . ':sortArticle')->setName('api.article.sort')->add(new ApiAuthorization($acl, 'content', 'create')); # author

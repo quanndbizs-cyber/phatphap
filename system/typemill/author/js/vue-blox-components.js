@@ -2068,7 +2068,7 @@ bloxeditor.component('file-component', {
 						<label class="w-1/5 py-2" for="filetitle">{{ $filters.translate('Title') }}: </label>
 						<input class="w-4/5 p-2 bg-stone-200 text-stone-900" name="filetitle" type="text" placeholder="Add a title for the download-link" v-model="filetitle" @input="createmarkdown" max="64" />
 					</div>
-					<div class="flex mb-2">
+					<div class="flex mb-2" v-if="canupdate">
 						<label class="w-1/5 py-2" for="filerestriction">Access for: </label>
 						<select class="w-4/5 p-2 bg-stone-200 text-stone-900" name="filerestriction" v-model="selectedrole" @change="updaterestriction">
 							<option disabled value="">{{ $filters.translate('Please select') }}</option>
@@ -2089,6 +2089,7 @@ bloxeditor.component('file-component', {
 			fileid: '',
 			userroles: ['all'],
 			selectedrole: '',
+			canupdate: true,
 			savefile: false,
 		}
 	},
@@ -2222,6 +2223,7 @@ bloxeditor.component('file-component', {
 				myself.userroles 		= ['all'];
 				myself.userroles 		= myself.userroles.concat(response.data.userroles);
 				myself.selectedrole		= response.data.restriction;
+				myself.canupdate 		= response.data.canupdate;
 			})
 			.catch(function (error)
 			{
@@ -2240,7 +2242,17 @@ bloxeditor.component('file-component', {
 				'role': 		this.selectedrole,
 			})
 			.then(function (response) {})
-			.catch(function (error){ alert("reponse error")});
+			.catch(function (error)
+			{
+				if(error.response)
+				{
+					let message = handleErrorMessage(error);
+					if(message)
+					{
+						eventBus.$emit('publishermessage', message);
+					}
+				}
+			});
 		},
 		onFileChange( e )
 		{

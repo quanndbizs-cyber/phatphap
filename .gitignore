@@ -1,6 +1,7 @@
 zips
 docs
 tasks
+strategy
 cypress
 cypress.json
 node_modules

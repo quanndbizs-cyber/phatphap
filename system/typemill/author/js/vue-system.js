@@ -4,7 +4,7 @@ const app = Vue.createApp({
 							<p v-if="version.system !== undefined"><a href="https://typemill.net" class="block p-2 text-center bg-rose-500 text-white">Please update typemill to version {{ version.system }}</a></p>
 							<ul class="flex flex-wrap mt-4 mb-4">
 								<li v-for="tab in tabs">
-									<button class="px-2 py-2 border-b-2 border-stone-200 dark:border-stone-900 hover:border-stone-700 hover:dark:border-stone-200 hover:bg-stone-200 hover:dark:bg-stone-900 transition duration-100" :class="(tab == currentTab) ? 'border-stone-700 bg-stone-200 dark:bg-stone-900 dark:border-stone-200' : ''" @click.prevent="activateTab(tab)">{{ $filters.translate(tab) }}</button>
+									<button class="px-2 py-2 border-b-2 border-stone-200 dark:border-stone-900 hover:border-stone-700 hover:dark:border-stone-200 hover:bg-stone-200 hover:dark:bg-stone-900 transition duration-100" :class="tabClass(tab)" @click.prevent="activateTab(tab)">{{ $filters.translate(tab) }}</button>
 								</li>
 							</ul>
 							<div v-for="(fieldDefinition, fieldname) in formDefinitions">
@@ -96,6 +96,45 @@ const app = Vue.createApp({
 			this.currentTab = tab;
 			this.reset();
 		},
+		tabHasErrors: function(tab)
+		{
+			// find out if a field with an error is located on this tab
+			for (var key in this.formDefinitions)
+			{
+				if (this.formDefinitions[key].legend == tab && this.formDefinitions[key].fields)
+				{
+					for (var fieldname in this.formDefinitions[key].fields)
+					{
+						if (this.errors[fieldname])
+						{
+							return true;
+						}
+					}
+				}
+			}
+			return false;
+		},
+		tabClass: function(tab)
+		{
+			// mark tabs with erroneous fields in red, keep the active background
+			if (this.tabHasErrors(tab))
+			{
+				return 'border-red-500 text-red-500' + (tab == this.currentTab ? ' bg-stone-200 dark:bg-stone-900' : '');
+			}
+			return (tab == this.currentTab) ? 'border-stone-700 bg-stone-200 dark:bg-stone-900 dark:border-stone-200' : '';
+		},
+		activateFirstErrorTab: function()
+		{
+			// jump to the first tab that contains an erroneous field
+			for (var i = 0; i < this.tabs.length; i++)
+			{
+				if (this.tabHasErrors(this.tabs[i]))
+				{
+					this.currentTab = this.tabs[i];
+					return;
+				}
+			}
+		},
 		testmail: function()
 		{
 			this.reset();
@@ -147,6 +186,7 @@ const app = Vue.createApp({
 					if(error.response.data.errors !== undefined)
 					{
 						self.errors = error.response.data.errors;
+						self.activateFirstErrorTab();
 					}
 				}
 			});

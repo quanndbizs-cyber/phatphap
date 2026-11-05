@@ -127,6 +127,55 @@ class Multilang
 		return false;
 	}
 
+	# filters a multilang index for a folderaccess-restricted user: out-of-scope language urls are
+	# blanked and entries without any in-scope url are dropped. Shapes the response only, the
+	# stored shared index is not modified (task 11).
+	public function filterIndexForFolderAccess($multilangIndex, $folderaccess)
+	{
+		if(!$folderaccess OR $folderaccess == '' OR !$multilangIndex OR !is_array($multilangIndex))
+		{
+			return $multilangIndex;
+		}
+
+		$navigation 	= new Navigation();
+		$filtered 		= [];
+
+		foreach($multilangIndex as $pageid => $entry)
+		{
+			if(!is_array($entry))
+			{
+				continue;
+			}
+
+			$hasAllowedUrl 	= false;
+
+			# parent stays untouched: pageids are opaque random values and disclose nothing (task 11)
+			foreach($entry as $lang => $url)
+			{
+				if($lang === 'parent' OR !$url OR !is_string($url))
+				{
+					continue;
+				}
+
+				if(!$navigation->checkFolderAccess($url, $folderaccess))
+				{
+					$entry[$lang] 	= '';
+				}
+				else
+				{
+					$hasAllowedUrl 	= true;
+				}
+			}
+
+			if($hasAllowedUrl)
+			{
+				$filtered[$pageid] 	= $entry;
+			}
+		}
+
+		return $filtered;
+	}
+
 	# generate the baseic index with the basic navigation
 	public function generateMultilangBaseIndex($meta, $draftNavi, $settings, $parentId = null, &$multilangIndex = [])
 	{

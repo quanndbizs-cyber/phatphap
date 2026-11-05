@@ -1025,6 +1025,7 @@ app.component('component-file', {
 			error: false,
 			userroles: ['all'],
 			selectedrole: '',
+			canupdate: true,
 		}
 	},
 	template: `<div :class="css ? css : ''" class="w-full mt-5 mb-5">
@@ -1059,7 +1060,7 @@ app.component('component-file', {
 							</div>
 						</div>
 
-						<div class="lg:w-half w-full mt-5 mb-5">
+						<div class="lg:w-half w-full mt-5 mb-5" v-if="canupdate">
 							<label class="block mb-1 font-medium">{{ $filters.translate('Access') }}</label>
 							<select 
 									class 			= "form-select block w-full border border-stone-300 text-stone-900 bg-stone-200 px-2 py-3 h-12 transition ease-in-out border-stone-300 bg-stone-200" 
@@ -1165,6 +1166,7 @@ app.component('component-file', {
 				myself.userroles 		= ['all'];
 				myself.userroles 		= myself.userroles.concat(response.data.userroles);
 				myself.selectedrole		= response.data.restriction;
+				myself.canupdate 		= response.data.canupdate;
 			})
 			.catch(function (error)
 			{
@@ -1196,8 +1198,18 @@ app.component('component-file', {
 			.then(function (response) {
 
 			})
-			.catch(function (error){ 
-				resself.error = 'some error update file restrictions';
+			.catch(function (error)
+			{
+				if(error.response)
+				{
+					let message = handleErrorMessage(error);
+					if(message)
+					{
+						eventBus.$emit('publishermessage', message);
+					}
+
+					resself.error = message;
+				}
 			});
 		},
 		onFileChange( e )

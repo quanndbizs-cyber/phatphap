@@ -52,8 +52,11 @@ class securityMiddleware implements MiddlewareInterface
 			if(!$referer OR $referer == '')
 			{
 				$response = new Response();
-				
-				return $response->withHeader('Location', $this->router->urlFor('auth.login'))->withStatus(302);
+
+				# in setup mode the auth-routes are not registered, so redirect to setup instead
+				$redirect = (isset($this->settings['setup']) && $this->settings['setup']) ? 'setup.show' : 'auth.login';
+
+				return $response->withHeader('Location', $this->router->urlFor($redirect))->withStatus(302);
 			}
 
 			# simple bot check with honeypot

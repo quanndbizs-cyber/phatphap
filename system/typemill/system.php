@@ -438,7 +438,7 @@ $cspFromPlugins = $dispatcher->dispatch(new OnCspLoaded([]), 'onCspLoaded')->get
 
 # get additional csp headers from theme 
 $cspFromTheme = [];
-$themeSettings = $settingsModel->getObjectSettings('themes', $settings['theme']);
+$themeSettings = $settingsModel->getObjectSettings('themesFolder', $settings['theme']);
 if(isset($themeSettings['csp']) && is_array($themeSettings['csp']) && !empty($themeSettings['csp']) )
 {
 	$cspFromTheme = $themeSettings['csp'];

@@ -72,6 +72,13 @@ class ControllerApiMultilang extends Controller
             }
         }
 
+		# if the user is restricted to certain folders (folderaccess), filter the index for the response (task 11)
+		$folderaccess 	= $this->getFolderAccess($request->getAttribute('c_username'));
+		if($folderaccess)
+		{
+			$multilangIndex = $multilang->filterIndexForFolderAccess($multilangIndex, $folderaccess);
+		}
+
 		$response->getBody()->write(json_encode([
 			'multilangIndex' 			=> $multilangIndex, 
 		]));
@@ -126,6 +133,13 @@ class ControllerApiMultilang extends Controller
 				return $response->withHeader('Content-Type', 'application/json')->withStatus(404);            	
             }
         }
+
+		# if the user is restricted to certain folders (folderaccess), filter the index for the response (task 11)
+		$folderaccess 	= $this->getFolderAccess($request->getAttribute('c_username'));
+		if($folderaccess)
+		{
+			$multilangIndex = $multilang->filterIndexForFolderAccess($multilangIndex, $folderaccess);
+		}
 
         # if it is the base page
         if(!$project)

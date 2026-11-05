@@ -49,6 +49,18 @@ class ControllerApiSystemSettings extends Controller
 			}
 		}
 
+		# password recovery requires a configured base url, so reset links cannot be manipulated via the host header
+		if(isset($validatedOutput['recoverpw']) && $validatedOutput['recoverpw'] && empty($validatedOutput['fqdn']))
+		{
+			$validator->errors['fqdn'] = Translations::translate('Password recovery needs a base URL for secure links. Please add the FQDN in the developer tab first.');
+		}
+
+		# the fqdn must include the scheme, otherwise links built from it are broken
+		if(isset($validatedOutput['fqdn']) && $validatedOutput['fqdn'] != '' && !preg_match('#^https?://#i', $validatedOutput['fqdn']))
+		{
+			$validator->errors['fqdn'] = Translations::translate('The FQDN must start with http:// or https://');
+		}
+
 		if(!empty($validator->errors))
 		{
 			$response->getBody()->write(json_encode([

@@ -8,7 +8,7 @@
       }
     }
   },
-  "model": "opencode/glm-5.3",
+  "model": "opencode/kimi-k2.7-code",
   "agents": {
     "title": { "model": "opencode/minimax-m3" }
   },

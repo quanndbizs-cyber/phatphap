@@ -1,5 +1,5 @@
 name: Cyanine Theme
-version: 2.5.0
+version: 2.5.1
 description: 'Cyanine is a modern and flexible multi-purpose theme and the standard theme for Typemill.'
 author: Trendschau
 homepage: https://trendschau.net
@@ -10,12 +10,12 @@ settings:
   landingpage: true
   introPosition: '1'
   introFullsize: true 
-  introTitle: 'Hello World'
-  introMarkdown: 'Thank you for visiting my website'
-  introButtonLink: '#'
-  introButtonLabel: 'Configure this button'
+  introTitle: 'Welcome'
+  introMarkdown: 'Your new website is ready. Start by logging into the admin area with: yourdomain.net/tm/login'
+  introButtonLink: '/tm/login'
+  introButtonLabel: 'Optional Button'
   infoPosition: '2'
-  infoMarkdown: '## Info Segment'
+  infoMarkdown: "##Getting Started\n\nYou can customize this landing page in the admin area under theme settings. Find everything you need to get started with Typemill in our [official documentation](https://docs.typemill.net). Have questions or ideas? Join the [community on GitHub](https://github.com/typemill/typemill) to connect with other users and developers. Visit [typemill.net](https://typemill.net) to discover more about the project."
   teaserPosition: '3'
   teaser1title: 'Typemill'
   teaser1text: 'Visit the Typemill website'
@@ -30,10 +30,10 @@ settings:
   teaser3link: 'https://themes.typemill.net'
   teaser3label: 'Choose Themes'
   contrastPosition: '4'
-  contrastTitle: 'The Contrast Element'
-  contrastText: 'Configure the contrast element in the theme settings.'
-  contrastLink: 'https://typemill.net'
-  contrastLabel: 'Link to somewhere'
+  contrastTitle: 'Newsletter'
+  contrastText: 'Subscribe to the Typemill newsletter and stay connected with the project.'
+  contrastLink: 'https://typemill.net/news'
+  contrastLabel: 'Latest news'
   naviPosition: '5'
   naviTitle: 'Table of Contents'
   footer1: '### Footer 1'
@@ -939,9 +939,14 @@ metatabs:
   cyhome:
     show: home
     fields:
+      landingpage:
+        type: checkbox
+        label: 'Landingpage'
+        checkboxlabel: 'Show this homepage as a landingpage'
+        description: 'For project homepages (e.g. /it or /books): if checked, this homepage renders as a segmented landingpage with the texts configured below (or the theme defaults). If unchecked, it renders as a normal content page. The base homepage always follows the theme setting "Landingpage"; a checked box forces the landingpage there, too.'
       mlinfo: 
         type: paragraph
-        description: 'If you run a multilanguage page, then you can translate the landingpage for each language below. If you do not use the multilanguage or project feature, leave the fields empty.'
+        description: 'If you run a multilanguage page or a project setup, then you can translate and configure the landingpage for each project homepage below. If you do not use the multilanguage or project feature, leave the fields empty.'
       bloghomepage:
         type: fieldset
         legend: 'Posts on Homepage'

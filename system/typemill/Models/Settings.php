@@ -78,10 +78,10 @@ class Settings
 #		$settings['themePath'] = $settings['rootPath'] . $settings['themeFolder'] . DIRECTORY_SEPARATOR . $settings['theme'];
 
 		# if there are no theme settings yet (e.g. no setup yet) use default theme settings
-		if(!isset($settings['themes']))
+		if(!isset($settings['themes'][$settings['theme']]))
 		{
-			$themeSettings = $this->getObjectSettings('themes', $settings['theme']);
-			$settings['themes'][$settings['theme']] = isset($themeSettings['settings']) ? $themeSettings['settings'] : false;
+			$themeSettings = $this->getObjectSettings('themesFolder', $settings['theme']);
+			$settings['themes'][$settings['theme']] = isset($themeSettings['settings']) ? $themeSettings['settings'] : [];
 		}
 
 		return $settings;

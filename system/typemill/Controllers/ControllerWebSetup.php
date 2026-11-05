@@ -92,9 +92,7 @@ class ControllerWebSetup extends Controller
 		$user = new User();
 		
 		# create initial user
-		$username = $user->createUser($userdata);
-					
-		if($username)
+		if($user->createUser($userdata))
 		{
 			# create initial settings file
 			$settingsModel = new Settings();
@@ -104,7 +102,8 @@ class ControllerWebSetup extends Controller
 				'mailfromname'	=> $params['username']
 			]);
 
-			$user->setUser($username);
+			# set user with password, otherwise the login would overwrite the userfile without the password
+			$user->setUserWithPassword($params['username']);
 
 			$user->login();
 
@@ -113,8 +112,6 @@ class ControllerWebSetup extends Controller
 			
 			usleep(30000);
 
-			$this->c->get('flash')->addMessage('error', Translations::translate('Account created. Please login with your username and password now.'));
-			
 			return $response->withHeader('Location', $route)->withStatus(302);
 		}
 

@@ -12,15 +12,21 @@
 {% set theme = settings.themes.cyanine|merge(cyhome|filter((v) => v is not empty)) %}
 {% set meta = metatabs.meta %}
 
+{# A project homepage (e.g. /it or /books) is a landingpage only if the author
+   activated it with the landingpage checkbox in the cyhome tab. The base
+   homepage follows the theme setting; a checked checkbox there forces the
+   landingpage on, too (through the merge above). #}
+{% set projectHome = project and ('/' ~ project == item.urlRelWoF) %}
+
 {% block title %}{{ meta.title }} | {{ settings.title }}{% endblock %}
 
 {% block content %}
 	
-	{% if home and theme.landingpage %}
+	{% if (home and theme.landingpage) or (projectHome and cyhome.landingpage) %}
 	
 		{% include 'pages/home.twig' %}
 
-	{% elseif home and theme.blog %}
+	{% elseif theme.blog and (home or (projectHome and cyhome.blogfolder)) %}
 	
 		{% include 'pages/blog.twig' %}
 		

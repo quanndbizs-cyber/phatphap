@@ -1695,10 +1695,12 @@ kixote.component('tab-help', {
 	},
 	template: `<section class="dark:bg-stone-700 smooth-scroll dark:text-stone-200 bg-stone-200">
 					<div v-if="!aiservice || !useragreement" class="p-5">
-						<h1 class="mb-d3">Ask the Docs</h1>
-						<div class="py-2">
-							<p class="text-xs">This assistant uses the content of the <a class="text-teal-600" href="https://docs.typemill.net">Typemill documentation</a> to generate AI-powered answers with your configured AI service.</p>
-							<p class="text-xs pt-2">The AI-assisted help is available once you activate an AI service and accept the usage terms.</p>
+						<div class="dark:bg-stone-700 dark:text-stone-200 bg-stone-200 w-full p-5 dark:text-white">
+							<h1 class="text-xl font-bold mb-4">Ask the Docs</h1>
+							<div>
+								<p class="py-2">This assistant uses the content of the <a class="text-teal-600" href="https://docs.typemill.net">Typemill documentation</a> to generate AI-powered answers with your configured AI service.</p>
+								<p class="py-2">The AI-assisted help is available once you activate an AI service and accept the usage terms.</p>
+							</div>
 						</div>
 					</div>
 					<div v-else>
