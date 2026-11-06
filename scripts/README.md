@@ -1,13 +1,14 @@
 # SỔ TAY HƯỚNG DẪN QUẢN TRỊ & VẬN HÀNH HỆ THỐNG SCRIPTS
 > **Dự án Thư Viện Phật Pháp & Tịnh Độ (Typemill CMS)**  
-> *Phiên bản tài liệu: 2.1 — Cập nhật lần cuối: 2026-11-06*
+> *Phiên bản tài liệu: 2.2 — Cập nhật lần cuối: 2026-11-06*
 
 ---
 
 > [!IMPORTANT]
 > **QUY TẮC BẮT BUỘC ĐỐI VỚI LẬP TRÌNH VIÊN & AGENT AI:**  
-> Toàn bộ các script `.sh` trong thư mục `scripts/` **tuyệt đối không được hardcode đường dẫn thư mục hay thông tin server**.  
-> **Mỗi khi có thêm bớt script, đổi tên file hoặc thay đổi logic triển khai, BẮT BUỘC PHẢI CẬP NHẬT ĐỒNG BỘ VÀO BẢN HƯỚNG DẪN NÀY (`scripts/README.md`)**.
+> 1. Toàn bộ các script `.sh` trong thư mục `scripts/` **tuyệt đối không được hardcode đường dẫn thư mục hay thông tin server**.  
+> 2. **Kiến trúc 2 Repository Độc Lập:** Web root (`v2.x`) và Content (`content`) là hai Git repository hoàn toàn độc lập, **không sử dụng Git submodule**. Thư mục `content/` được `.gitignore` ở Web root để hai nhánh commit/push tự do mà không bao giờ báo conflict hay sai lệch hash con trỏ.
+> 3. **Mỗi khi có thêm bớt script, đổi tên file hoặc thay đổi logic triển khai, BẮT BUỘC PHẢI CẬP NHẬT ĐỒNG BỘ VÀO BẢN HƯỚNG DẪN NÀY (`scripts/README.md`)**.
 
 ---
 
@@ -49,14 +50,17 @@ Tất cả các script trong hệ thống đều tự động nạp cấu hình 
 * **Vị trí:** [`scripts/remote_one_click_deploy.sh`](file:///var/www/html/phatphap/scripts/remote_one_click_deploy.sh)
 * **Mục đích:** Tự động hóa toàn bộ quy trình đẩy code từ máy phát triển (Local/WSL) lên Production Server qua SSH.
 * **Quy trình thực hiện:**
-  1. *Local:* Đóng gói plugins & media vào `content/middle_sync/`.
+  1. *Local:* Đóng gói cấu hình chung `settings.yaml`, media, plugins vào `content/middle_sync/`.
   2. *Local:* Kiểm tra, commit và push nhánh `content` lên GitHub.
-  3. *Local:* Kiểm tra, commit và push nhánh Web root (`v2.x`) lên GitHub.
+  3. *Local:* Kiểm tra, commit và push nhánh Web root (`v2.x`) lên GitHub độc lập.
   4. *SSH:* Kết nối tới Server theo cấu hình, gọi script triển khai trên server (`--server`).
 * **Lệnh chạy:**
   ```bash
   # Chạy quy trình 1-click tiêu chuẩn:
   ./scripts/remote_one_click_deploy.sh
+
+  # Bật chế độ Force Pull (tự động reset hard khi git remote có forced push hoặc phân kỳ):
+  ./scripts/remote_one_click_deploy.sh --force
 
   # Bỏ qua git push tại local (khi đã push trước đó):
   ./scripts/remote_one_click_deploy.sh --skip-push
@@ -71,8 +75,8 @@ Tất cả các script trong hệ thống đều tự động nạp cấu hình 
 * **Vị trí:** [`scripts/deploy_server.sh`](file:///var/www/html/phatphap/scripts/deploy_server.sh)
 * **Mục đích:** Chạy trực tiếp trên Production Server để cập nhật dữ liệu và áp dụng vào Web Server.
 * **Quy trình thực hiện:**
-  1. Kéo dữ liệu mới nhất từ nhánh `content` trên GitHub (`git pull --ff-only origin content`).
-  2. Đồng bộ các plugin và media tùy biến từ `content/middle_sync/` vào thư mục hệ thống.
+  1. Kéo dữ liệu mới nhất từ nhánh `content` trên GitHub (`git pull --ff-only origin content`, hỗ trợ tự động fallback sang `git reset --hard origin/content` khi có forced push).
+  2. Đồng bộ `settings/settings.yaml`, plugins và media tùy biến từ `content/middle_sync/` vào thư mục hệ thống (bảo vệ tuyệt đối secrets và user logins).
   3. Xóa sạch cache navigation (`data/navigation/`) và Twig template cache (`cache/`).
   4. Phân quyền ghi chuẩn `775` cho `www-data` trên các thư mục dữ liệu (`cache`, `content`, `data`, `media`, `settings`).
   5. Kiểm tra cú pháp Nginx (`nginx -t`) và reload an toàn `php8.4-fpm` cùng `nginx`.
@@ -82,6 +86,9 @@ Tất cả các script trong hệ thống đều tự động nạp cấu hình 
   ```bash
   # Chạy bằng user SSH deploy thông thường (không cần sudo):
   ./scripts/deploy_server.sh
+
+  # Chạy cưỡng bức cập nhật commit mới nhất (Force Pull):
+  ./scripts/deploy_server.sh --force
   ```
 
 ---
@@ -123,12 +130,12 @@ Tất cả các script trong hệ thống đều tự động nạp cấu hình 
 
 ### 2.5. `pack_middle_sync.sh` & `sync_to_middle.sh` — Đóng gói tài nguyên dùng chung
 * **Vị trí:** [`scripts/pack_middle_sync.sh`](file:///var/www/html/phatphap/scripts/pack_middle_sync.sh), [`scripts/sync_to_middle.sh`](file:///var/www/html/phatphap/scripts/sync_to_middle.sh)
-* **Mục đích:** Do hệ thống tách riêng Git Web root (`v2.x`) và Git Content (`content`), các tài nguyên như file âm thanh, ảnh (`media/`) và plugin đặc thù (`plugins/mediaplayer/`) được đóng gói vào thư mục trung gian `content/middle_sync/` để đồng bộ theo nhánh `content`.
-* **Lưu ý:** Script tự động loại trừ thư mục nhạy cảm `settings/` để không bao giờ lộ mật khẩu hay secret key lên Git.
+* **Mục đích:** Do hệ thống tách riêng Git Web root (`v2.x`) và Git Content (`content`), các tài nguyên như file âm thanh, ảnh (`media/`), plugin đặc thù (`plugins/mediaplayer/`) và cấu hình giao diện chung (`settings/settings.yaml`) được đóng gói vào thư mục trung gian `content/middle_sync/` để đồng bộ theo nhánh `content`.
+* **Lưu ý an toàn:** Script tự động loại trừ các file nhạy cảm (`settings/secrets.yaml`, `settings/users/`, khóa bảo mật) để không bao giờ lộ mật khẩu hay secret key lên Git.
 * **Lệnh chạy:**
   ```bash
   ./scripts/pack_middle_sync.sh
-  ./scripts/sync_to_middle.sh -m "Cập nhật media và plugin"
+  ./scripts/sync_to_middle.sh -m "Cập nhật media, plugins và settings"
   ```
 
 ---
@@ -156,7 +163,7 @@ Tất cả các script trong hệ thống đều tự động nạp cấu hình 
 
 ### 2.8. `pull_tp_update.sh` — Cập nhật Core Typemill Upstream
 * **Vị trí:** [`scripts/pull_tp_update.sh`](file:///var/www/html/phatphap/scripts/pull_tp_update.sh)
-* **Mục đích:** Kéo bản cập nhật mã nguồn Typemill mới nhất từ remote `tp` (`https://github.com/typemill/typemill.git`) đồng thời **bảo vệ tuyệt đối thư mục / submodule `content`** không bị ảnh hưởng hay conflict.
+* **Mục đích:** Kéo bản cập nhật mã nguồn Typemill mới nhất từ remote `tp` (`https://github.com/typemill/typemill.git`) đồng thời **bảo vệ tuyệt đối thư mục `content` độc lập** không bị ảnh hưởng hay conflict với mã nguồn Typemill mặc định.
 * **Lệnh chạy:**
   ```bash
   ./scripts/pull_tp_update.sh           # Lấy bản mới nhất nhánh tp/v2.x
@@ -206,3 +213,12 @@ flowchart TD
      ```bash
      rm -f .git/index.lock content/.git/index.lock
      ```
+
+4. **Lỗi `fatal: Not possible to fast-forward, aborting` (Diverging branches)**  
+   - *Nguyên nhân:* Khi remote repository bị forced push hoặc commit trên server bị phân kỳ so với GitHub remote branch.  
+   - *Xử lý:*
+     - Chạy deploy với cờ `--force` để tự động reset hard về commit mới nhất trên GitHub:
+       ```bash
+       ./scripts/remote_one_click_deploy.sh --force
+       ```
+     - Hệ thống hiện tại đã tích hợp cơ chế tự động fallback: nếu lệnh `pull --ff-only` gặp lỗi phân kỳ, script sẽ tự động chuyển sang `git reset --hard origin/<branch>` để quy trình triển khai không bao giờ bị dừng lại.

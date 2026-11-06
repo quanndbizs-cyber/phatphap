@@ -22,9 +22,25 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/config.sh"
 cd "$BASE_DIR"
 
+FORCE_PULL="${FORCE_PULL:-false}"
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        -f|--force)
+            FORCE_PULL=true
+            shift
+            ;;
+        *)
+            shift
+            ;;
+    esac
+done
+
 echo "=========================================================="
 echo "[DEPLOY] BẮT ĐẦU QUÁ TRÌNH DEPLOY TRÊN SERVER..."
 echo "Thư mục cài đặt: $BASE_DIR"
+if [[ "$FORCE_PULL" == "true" ]]; then
+    echo "Chế độ         : FORCE PULL (Tự động đồng bộ commit mới nhất)"
+fi
 echo "=========================================================="
 
 # 1. Update content branch from Git.
@@ -34,9 +50,20 @@ git config --global --add safe.directory "$BASE_DIR/content" 2>/dev/null || true
 
 if [[ -d "$BASE_DIR/content/.git" || -f "$BASE_DIR/content/.git" ]]; then
     git -C "$BASE_DIR/content" config core.fileMode false 2>/dev/null || true
-    # Dọn dẹp thay đổi tạm thời trên server để đảm bảo git pull --ff-only luôn thành công
+    # Dọn dẹp thay đổi tạm thời trên server để đảm bảo cập nhật luôn trơn tru
     git -C "$BASE_DIR/content" checkout -- . 2>/dev/null || true
-    git -C "$BASE_DIR/content" pull --ff-only origin content
+    git -C "$BASE_DIR/content" fetch origin content
+    if [[ "$FORCE_PULL" == "true" ]]; then
+        echo "   [!] Chế độ Force: reset hard về origin/content..."
+        git -C "$BASE_DIR/content" reset --hard origin/content
+    else
+        if ! git -C "$BASE_DIR/content" pull --ff-only origin content; then
+            echo "   [!] Phát hiện phân kỳ git trên nhánh content (do forced update hoặc rebase)."
+            echo "   [!] Tự động chuyển sang reset hard về origin/content để đồng bộ..."
+            git -C "$BASE_DIR/content" reset --hard origin/content
+        fi
+    fi
+    echo "   [✓] Nhánh content đã được cập nhật thành công."
 else
     echo "[ERROR] $BASE_DIR/content không phải Git repository."
     echo "[ERROR] Không tự động fallback sang Git root để tránh pull nhầm repository."
@@ -48,6 +75,12 @@ MIDDLE_SYNC_DIR="$BASE_DIR/content/middle_sync"
 
 if [[ -d "$MIDDLE_SYNC_DIR" ]]; then
     echo "-> 2. Đồng bộ dữ liệu từ $MIDDLE_SYNC_DIR..."
+
+    if [[ -f "$MIDDLE_SYNC_DIR/settings/settings.yaml" ]]; then
+        echo "   + Đồng bộ settings/settings.yaml..."
+        mkdir -p "$BASE_DIR/settings"
+        cp -f "$MIDDLE_SYNC_DIR/settings/settings.yaml" "$BASE_DIR/settings/settings.yaml"
+    fi
 
     if [[ -d "$MIDDLE_SYNC_DIR/media" ]]; then
         echo "   + Đồng bộ media/..."
@@ -62,8 +95,6 @@ if [[ -d "$MIDDLE_SYNC_DIR" ]]; then
         rsync -rlv --no-perms --no-owner --no-group --no-times \
             "$MIDDLE_SYNC_DIR/plugins/" "$BASE_DIR/plugins/"
     fi
-
-    # settings/ is intentionally managed separately on the server.
 else
     echo "[WARN] Không tìm thấy $MIDDLE_SYNC_DIR; bỏ qua đồng bộ middle_sync."
 fi

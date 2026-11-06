@@ -41,6 +41,7 @@ source "$SCRIPT_DIR/config.sh"
 
 MODE=""
 SKIP_PUSH=false
+FORCE_PULL="${FORCE_PULL:-false}"
 
 show_help() {
     cat << EOF
@@ -49,6 +50,7 @@ Sử dụng: $0 [TUỲ CHỌN]
 Tuỳ chọn:
   --server           Chạy trực tiếp quy trình triển khai trên server (Giai đoạn 1 & Giai đoạn 2)
   --remote           Chạy từ máy Local: sync, commit/push và kích hoạt SSH lên server
+  -f, --force        Bật chế độ Force Pull (tự động reset hard nếu nhánh git bị phân kỳ do forced push)
   -i, --key=PATH     Đường dẫn file SSH private key (mặc định: $SSH_KEY)
   --user=USER        Tên người dùng SSH trên remote server (mặc định: $SSH_USER)
   --host=HOST        Địa chỉ IP hoặc Hostname remote server (mặc định: $SSH_HOST)
@@ -62,9 +64,10 @@ Các thiết lập mặc định có thể được cấu hình trong: scripts/d
 
 Ví dụ:
   ./scripts/remote_one_click_deploy.sh
+  ./scripts/remote_one_click_deploy.sh --force
   ./scripts/remote_one_click_deploy.sh --skip-push
   ./scripts/remote_one_click_deploy.sh --host=192.168.1.22 --user=quannd
-  sudo ./scripts/remote_one_click_deploy.sh --server
+  sudo ./scripts/remote_one_click_deploy.sh --server --force
 EOF
     exit 0
 }
@@ -78,6 +81,10 @@ while [[ $# -gt 0 ]]; do
             ;;
         --remote)
             MODE="remote"
+            shift
+            ;;
+        -f|--force)
+            FORCE_PULL=true
             shift
             ;;
         -i|--key)
@@ -190,15 +197,24 @@ run_server_deployment() {
     # Dọn dẹp trạng thái tạm thời để bảo đảm git pull --ff-only không bị chặn
     git -C "$BASE_DIR" checkout -- plugins/mediaplayer/ cache/ media/files/filerestrictions.yaml themes/tinhdo/js/search-index.json 2>/dev/null || true
 
-    # 1.5 Chạy git pull --ff-only để cập nhật toàn bộ repository web
+    # 1.5 Chạy cập nhật repository web root
     CURRENT_BRANCH=$(git -C "$BASE_DIR" branch --show-current 2>/dev/null || echo "v2.x")
     if [[ -z "$CURRENT_BRANCH" ]]; then
         CURRENT_BRANCH="v2.x"
     fi
 
-    echo "  -> 1.5. Chạy git pull --ff-only (nhánh $CURRENT_BRANCH)..."
+    echo "  -> 1.5. Cập nhật Web root repository (nhánh $CURRENT_BRANCH)..."
     git -C "$BASE_DIR" fetch origin "$CURRENT_BRANCH"
-    git -C "$BASE_DIR" pull --ff-only origin "$CURRENT_BRANCH"
+    if [[ "$FORCE_PULL" == "true" ]]; then
+        echo "     [!] Đã kích hoạt --force: Thực hiện reset hard về origin/$CURRENT_BRANCH..."
+        git -C "$BASE_DIR" reset --hard "origin/$CURRENT_BRANCH"
+    else
+        if ! git -C "$BASE_DIR" pull --ff-only origin "$CURRENT_BRANCH"; then
+            echo -e "     \033[1;33m[!] Nhánh $CURRENT_BRANCH bị phân kỳ (do forced push từ remote hoặc conflict cục bộ).\033[0m"
+            echo -e "     \033[1;33m[!] Tự động fallback: reset hard về origin/$CURRENT_BRANCH để đồng bộ chính xác...\033[0m"
+            git -C "$BASE_DIR" reset --hard "origin/$CURRENT_BRANCH"
+        fi
+    fi
     echo -e "     \033[1;32m[✓] Web root repository đã được cập nhật thành công (nhánh $CURRENT_BRANCH)!\033[0m"
 
     # --------------------------------------------------------------------------
@@ -214,7 +230,11 @@ run_server_deployment() {
 
     chmod +x "$DEPLOY_SCRIPT"
     echo "  -> 2.1. Gọi $DEPLOY_SCRIPT..."
-    bash "$DEPLOY_SCRIPT"
+    if [[ "$FORCE_PULL" == "true" ]]; then
+        bash "$DEPLOY_SCRIPT" --force
+    else
+        bash "$DEPLOY_SCRIPT"
+    fi
 
     echo -e "\n=================================================================="
     echo -e "\033[1;32m🎉 [HOÀN TẤT] remote_one_click_deploy ĐÃ TRIỂN KHAI THÀNH CÔNG TRÊN SERVER!\033[0m"
@@ -250,7 +270,7 @@ run_local_and_trigger_remote() {
         fi
 
         # 2.2 Commit & Push nhánh content
-        echo -e "\n\033[1;34m-> BƯỚC 2: Kiểm tra & Push Git Submodule content...\033[0m"
+        echo -e "\n\033[1;34m-> BƯỚC 2: Kiểm tra & Push Git repository content...\033[0m"
         cd "$BASE_DIR/content"
         rm -f .git/index.lock 2>/dev/null || true
         git add -A
@@ -286,8 +306,13 @@ run_local_and_trigger_remote() {
     fi
 
     # 3. Kết nối SSH và chạy script deploy trên Server
+    REMOTE_FLAGS="--server"
+    if [[ "$FORCE_PULL" == "true" ]]; then
+        REMOTE_FLAGS="$REMOTE_FLAGS --force"
+    fi
+
     echo -e "\n\033[1;34m-> BƯỚC 4: Kích hoạt remote deploy trên server qua SSH...\033[0m"
-    echo "   Lệnh: ssh -p $SSH_PORT -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\" \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh --server\""
+    echo "   Lệnh: ssh -p $SSH_PORT -i \"$SSH_KEY\" \"$SSH_USER@$SSH_HOST\" \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh $REMOTE_FLAGS\""
 
     SSH_CMD=(ssh -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -p "$SSH_PORT" -i "$SSH_KEY" "$SSH_USER@$SSH_HOST")
 
@@ -297,7 +322,7 @@ run_local_and_trigger_remote() {
     fi
 
     # Đảm bảo quyền thực thi và chạy deploy trên server
-    "${SSH_CMD[@]}" "chmod +x \"$REMOTE_DIR/scripts/\"*.sh 2>/dev/null || true; \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh\" --server"
+    "${SSH_CMD[@]}" "chmod +x \"$REMOTE_DIR/scripts/\"*.sh 2>/dev/null || true; \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh\" $REMOTE_FLAGS"
 
     echo -e "\n=================================================================="
     echo -e "\033[1;32m🎉 [HOÀN TẤT] REMOTE ONE CLICK DEPLOY ĐÃ KẾT THÚC THÀNH CÔNG!\033[0m"

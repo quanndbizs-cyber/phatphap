@@ -1,10 +1,10 @@
 #!/bin/bash
 # ==============================================================================
 # Script: pack_middle_sync.sh
-# Mục đích: Đóng gói các tài nguyên dùng chung (media, plugins)
+# Mục đích: Đóng gói các tài nguyên dùng chung (media, plugins, settings.yaml)
 #          vào thư mục trung gian content/middle_sync để commit lên nhánh content.
-# Lưu ý: Thư mục settings/ CHỨA THÔNG TIN NHẠY CẢM (mật khẩu, khóa bảo mật)
-#        nên KHÔNG đóng gói vào đây mà được đồng bộ thủ công.
+# Lưu ý: Chỉ đóng gói cấu hình chung settings/settings.yaml.
+#        KHÔNG đóng gói secrets.yaml hoặc thư mục người dùng settings/users/.
 # ==============================================================================
 
 set -e
@@ -23,24 +23,31 @@ echo "=========================================================="
 
 mkdir -p "$MIDDLE_SYNC_DIR/media"
 mkdir -p "$MIDDLE_SYNC_DIR/plugins"
+mkdir -p "$MIDDLE_SYNC_DIR/settings"
 
-# Đảm bảo không còn sót thư mục settings/ nhạy cảm trong middle_sync
-rm -rf "$MIDDLE_SYNC_DIR/settings"
+# 1. Đồng bộ cấu hình chung settings/settings.yaml (bảo vệ tuyệt đối secrets và users)
+if [ -f "$BASE_DIR/settings/settings.yaml" ]; then
+    echo "-> 1. Đóng gói cấu hình settings/settings.yaml..."
+    cp -f "$BASE_DIR/settings/settings.yaml" "$MIDDLE_SYNC_DIR/settings/settings.yaml"
+    # Đảm bảo không dính file nhạy cảm
+    rm -f "$MIDDLE_SYNC_DIR/settings/secrets.yaml" "$MIDDLE_SYNC_DIR/settings/"*.pem 2>/dev/null || true
+    rm -rf "$MIDDLE_SYNC_DIR/settings/users" 2>/dev/null || true
+fi
 
-# 1. Đồng bộ media (bỏ qua media/tmp)
-echo "-> 1. Đóng gói thư mục media..."
+# 2. Đồng bộ media (bỏ qua media/tmp)
+echo "-> 2. Đóng gói thư mục media..."
 if [ -d "$BASE_DIR/media" ]; then
     rsync -rlv --no-perms --no-owner --no-group --no-times --exclude="tmp/*" "$BASE_DIR/media/" "$MIDDLE_SYNC_DIR/media/"
 fi
 
-# 2. Đồng bộ plugins tuỳ biến (ví dụ mediaplayer)
-echo "-> 2. Đóng gói plugins đặc thù..."
+# 3. Đồng bộ plugins tuỳ biến (ví dụ mediaplayer)
+echo "-> 3. Đóng gói plugins đặc thù..."
 if [ -d "$BASE_DIR/plugins/mediaplayer" ]; then
     mkdir -p "$MIDDLE_SYNC_DIR/plugins/mediaplayer"
     rsync -rlv --delete --no-perms --no-owner --no-group --no-times "$BASE_DIR/plugins/mediaplayer/" "$MIDDLE_SYNC_DIR/plugins/mediaplayer/"
 fi
 
 echo "=========================================================="
-echo "✅ Đã đóng gói thành công vào content/middle_sync/ (Đã loại bỏ settings):"
+echo "✅ Đã đóng gói thành công vào content/middle_sync/:"
 ls -la "$MIDDLE_SYNC_DIR"
 echo "=========================================================="

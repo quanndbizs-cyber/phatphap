@@ -132,9 +132,10 @@ if git ls-tree HEAD content >/dev/null 2>&1; then
     fi
 fi
 
-# 6. Kiểm tra xem working tree có dirty không (bỏ qua submodule content)
-# Cấu hình bỏ qua dirty status của submodule content tạm thời
-git config submodule.content.ignore all
+# 6. Kiểm tra xem working tree có dirty không (bỏ qua submodule content nếu có)
+if [[ -n "$ORIG_CONTENT_SHA" ]]; then
+    git config submodule.content.ignore all 2>/dev/null || true
+fi
 
 DIRTY_FILES="$(git status --porcelain -uno --ignore-submodules=all)"
 if [[ -n "$DIRTY_FILES" ]]; then
@@ -162,18 +163,20 @@ set -e
 # 9. Xử lý conflict ở thư mục / submodule content
 echo -e "${BLUE}* Tự động giải quyết conflict thư mục content (giữ nguyên content hiện tại)...${NC}"
 
-# Xoá các file content phát sinh từ upstream ra khỏi index
-git rm -rf --ignore-unmatch content/ >/dev/null 2>&1 || true
-git rm -rf --ignore-unmatch 'content~*' >/dev/null 2>&1 || true
+# Xoá các file content phát sinh từ upstream ra khỏi index (chỉ xoá khỏi staging index bằng --cached)
+git rm -rf --cached --ignore-unmatch content/ .gitmodules >/dev/null 2>&1 || true
+git rm -rf --cached --ignore-unmatch 'content~*' >/dev/null 2>&1 || true
 rm -rf content~* 2>/dev/null || true
 
-# Khôi phục submodule content và .gitmodules từ HEAD
-git reset HEAD -- content .gitmodules >/dev/null 2>&1 || true
-git checkout HEAD -- content .gitmodules >/dev/null 2>&1 || true
-
-# Nếu content là submodule, đảm bảo git index ghi nhận đúng commit hash ban đầu
+# Khôi phục submodule content và .gitmodules từ HEAD (nếu trước đó có theo dõi submodule)
 if [[ -n "$ORIG_CONTENT_SHA" ]]; then
+    git reset HEAD -- content .gitmodules >/dev/null 2>&1 || true
+    git checkout HEAD -- content .gitmodules >/dev/null 2>&1 || true
     git update-index --cacheinfo 160000,"$ORIG_CONTENT_SHA",content 2>/dev/null || true
+else
+    # Khi content là repository độc lập, bảo đảm không bị dính file content từ upstream vào git root
+    git rm -rf --cached --ignore-unmatch content/ .gitmodules >/dev/null 2>&1 || true
+    rm -f .gitmodules 2>/dev/null || true
 fi
 
 # 10. Kiểm tra xem còn file conflict nào NGOÀI content không
@@ -206,7 +209,7 @@ if [[ "$AUTO_COMMIT" == "false" ]]; then
     exit 0
 fi
 
-COMMIT_MSG="chore: update Typemill source from ${RESOLVED_REF} (preserve content submodule)"
+COMMIT_MSG="chore: update Typemill source from ${RESOLVED_REF} (preserve content)"
 git commit -m "$COMMIT_MSG" >/dev/null
 
 NEW_HEAD="$(git rev-parse --short HEAD)"
