@@ -1509,7 +1509,7 @@ article td {
 /* Mobile Responsive Table Modes (<= 768px / 48em) */
 @media screen and (max-width: 48em) {
 	.tm-table-mobile-bar {
-		display: flex;
+		display: flex !important;
 		align-items: center;
 		justify-content: space-between;
 		flex-wrap: wrap;
@@ -1565,16 +1565,20 @@ article td {
 	   Mỗi hàng (tr) thành 1 thẻ độc lập, gắn nhãn tiêu đề cột rõ ràng
 	   --------------------------------------------------------------------- */
 	.tm-table.tm-table-cards {
-		overflow-x: visible;
+		display: block !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		overflow-x: visible !important;
 		margin-top: 0.4rem;
 	}
 
 	.tm-table.tm-table-cards table,
 	.tm-table.tm-table-cards tbody {
-		display: block;
-		width: 100%;
-		border: none;
-		background: transparent;
+		display: block !important;
+		width: 100% !important;
+		min-width: 0 !important;
+		border: none !important;
+		background: transparent !important;
 	}
 
 	.tm-table.tm-table-cards thead {
@@ -1582,7 +1586,7 @@ article td {
 	}
 
 	.tm-table.tm-table-cards tbody tr {
-		display: block;
+		display: block !important;
 		background: var(--td-paper-card, #fffdf8) !important;
 		border: 1.5px solid #decba8 !important;
 		border-radius: 12px !important;
@@ -1592,9 +1596,10 @@ article td {
 	}
 
 	.tm-table.tm-table-cards tbody td {
-		display: block;
+		display: block !important;
 		width: 100% !important;
-		box-sizing: border-box;
+		min-width: 0 !important;
+		box-sizing: border-box !important;
 		padding: 0.68rem 0.95rem !important;
 		border: none !important;
 		border-bottom: 1px dashed #e6d7bc !important;
@@ -1649,8 +1654,11 @@ article td {
 	   --------------------------------------------------------------------- */
 	.tm-table.tm-table-scroll,
 	.tm-table:not(.tm-table-cards) {
+		display: block !important;
+		width: 100% !important;
+		max-width: 100% !important;
 		overflow-x: auto !important;
-		-webkit-overflow-scrolling: touch;
+		-webkit-overflow-scrolling: touch !important;
 		border: 1px solid #decba8;
 		border-radius: 10px;
 		box-shadow: inset -8px 0 12px -8px rgba(90, 34, 22, 0.18);

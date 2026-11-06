@@ -293,8 +293,8 @@
   function applyTableMode(wrapper, mode) {
     wrapper.classList.toggle('tm-table-cards', mode === 'cards');
     wrapper.classList.toggle('tm-table-scroll', mode === 'scroll');
-    var bar = wrapper.previousElementSibling;
-    if (bar && bar.classList.contains('tm-table-mobile-bar')) {
+    var bar = wrapper._mobileBar || wrapper.previousElementSibling;
+    if (bar && bar.classList && bar.classList.contains('tm-table-mobile-bar')) {
       var btns = bar.querySelectorAll('.tm-table-mode-btn');
       for (var i = 0; i < btns.length; i++) {
         var btnMode = btns[i].getAttribute('data-table-mode');
@@ -310,7 +310,7 @@
   }
 
   function initResponsiveTables() {
-    var tables = document.querySelectorAll('article table, .grid-main table');
+    var tables = document.querySelectorAll('article table, .grid-main table, .tm-table table');
     if (!tables.length) return;
 
     var defaultMode = getStoredTableMode();
@@ -377,6 +377,7 @@
         '</div>' +
         '<span class="tm-table-scroll-hint" style="display:none;">↔ Vuốt ngang để xem</span>';
 
+      wrapper._mobileBar = bar;
       wrapper.parentNode.insertBefore(bar, wrapper);
       applyTableMode(wrapper, defaultMode);
     }
@@ -396,6 +397,7 @@
         applyTableMode(allWrappers[i], targetMode);
       }
     });
+    window.initResponsiveTables = initResponsiveTables;
   }
 
   function initAll() {
