@@ -1,2 +1,3 @@
-# Ignore sensitive settings in middle_sync
-middle_sync/settings/
+# Ignore sensitive settings in middle_sync but allow settings.yaml
+middle_sync/settings/*
+!middle_sync/settings/settings.yaml
