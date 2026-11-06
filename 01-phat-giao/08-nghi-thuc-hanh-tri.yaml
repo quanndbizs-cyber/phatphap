@@ -3,11 +3,14 @@ description: 'Cẩm nang toàn diện về thời khóa tịnh tu hằng ngày, 
 author: 'Ban Biên Tập Tịnh Độ Liên Hoa'
 manualdate: '2026-11-05'
 meta:
-    modified: '2026-11-04'
     pageid: 2c5fd54ff43d6888
-    author: quannd
-    created: '2026-11-04'
-    time: 19-05-32
-    navtitle: 'nghi thuc hanh tri'
+    navtitle: 'Nghi Thức Hành Trì'
     title: 'Nghi Thức Hành Trì & Công Phu Tịnh Tu Niệm Phật Thành Tựu { #nghi-thuc-hanh-tri }'
     description: 'Pháp môn Tịnh Độ lấy Tín - Nguyện - Hạnh làm ba món tư lương không thể thiếu. Muốn đời này nhất định thành tựu vãng sanh'
+    owner: quannd
+    author: quannd
+    modified: '2026-11-07'
+    created: '2026-11-04'
+    time: 19-05-32
+    hide: false
+    noindex: false
