@@ -1186,8 +1186,7 @@ một khoản tiền khá lớn.
 Thế nhưng không ngờ
 Thầy tôi biên thư từ chối mà nói rằng:
 
--
-“Thầy rất cảm động trước lòng tốt của con, nhưng thật ra Thầy đã có dịp đi
+- “Thầy rất cảm động trước lòng tốt của con, nhưng thật ra Thầy đã có dịp đi
 nhiều nơi trong nhiều đời rồi. Nếu quả con thương Thầy thì hãy dùng số tiền đó
 giúp đỡ chúng sanh, như vậy là đã trả ơn cho Thầy”.
 
