@@ -1,0 +1,195 @@
+title: 'Thư Viện Phật Pháp & Tịnh Độ Liên Hoa'
+author: quannd
+copyright: 'Bản quyền thuộc về Thư Viện Phật Pháp & Tịnh Độ Liên Hoa'
+year: '2026'
+language: en
+langattr: vi
+cspdisabled: true
+proxy: true
+projects: null
+projectswitch: false
+projecthome: false
+maximageuploads: 20
+maxfileuploads: 50
+editor: visual
+formats:
+    - markdown
+    - headline
+    - ulist
+    - olist
+    - table
+    - quote
+    - notice
+    - image
+    - video
+    - audio
+    - file
+    - toc
+    - hr
+    - definition
+    - code
+    - shortcode
+authpagebgcolor: '#4f1c11'
+authpagetextcolor: '#fff6dc'
+authpagerightbg: '#fcf9f2'
+authpagerighttextcolor: '#2b1d12'
+authpagerightcontent: ''
+authpagestacked: false
+mailfrom: quanntu@gmail.com
+mailfromname: quannd
+mailsmtp: true
+mailhost: smtp.gmail.com
+mailport: '587'
+mailsmtpsecure: tls
+mailsmtpauth: true
+mailusername: ndquandtbk@gmail.com
+theme: tinhdo
+plugins:
+    bookreader:
+        active: true
+        defaultSide: right
+        draggable: true
+        showSearch: true
+        showProgress: true
+        minHeadings: '3'
+    demo:
+        message: 'You can enter a message here.'
+        theme: edgeless
+        website: 'http://typemill.net'
+        background: '#ffffff'
+        demotitle: 'Demo Form'
+        message_success: "## Thank you!\r\n\r\nYour input passed validation and was stored as a demo record."
+        message_error: "## Error\r\n\r\nPlease correct the errors in the form."
+        name_label: Name
+        email_label: E-mail
+        subject_label: Subject
+        message_label: Message
+        button_label: Send
+        mediaimage: media/live/sen-adida-phat.jpg
+        active: false
+    mediaplayer:
+        active: true
+        defaultHeight: 680px
+        themeMode: dark
+themes:
+    tinhdo:
+        elderlyModeSupport: true
+        layoutsize: full
+        blogimage: true
+        landingpage: true
+        introPosition: '1'
+        tinhdoPosition: '1.5'
+        teaserPosition: '2'
+        contrastPosition: '0'
+        naviPosition: '3'
+        newsPosition: '0'
+        introFullsize: false
+        introTitle: 'Thư Viện Phật Pháp & Tịnh Độ Liên Hoa'
+        introMarkdown: "Không gian **Trí tuệ thâm sâu • An tĩnh • Thanh tịnh • Trang nghiêm** — nơi lưu trữ và chia sẻ kinh sách, pháp âm khai thị, câu chuyện nhân quả và phương pháp tu học chuyển hóa tâm thức.\n\n*« Chân thành • Thanh tịnh • Bình đẳng • Chánh giác • Từ bi — Nhìn thấu • Buông xả • Tự tại • Tùy duyên • Niệm Phật »*"
+        introButtonLink: '#khu-vuc-tinh-do'
+        introButtonLabel: 'Vào Khu Vực Chuyên Tu Tịnh Độ'
+        introBackground: media/live/sen-adida-phat.jpg
+        infoMarkdown: '## Info Segment'
+        teaser1title: 'Phật Giáo & Chánh Pháp'
+        teaser1text: 'Các bài giảng pháp âm, Đệ Tử Quy, khai thị hộ niệm, chuyển hóa sân hận và thực hành thiền định - tịnh độ.'
+        teaser1link: phat-giao
+        teaser1label: 'Xem Phật Giáo'
+        teaser2title: 'Câu Chuyện Nhân Quả'
+        teaser2text: 'Tuyển tập đa phương tiện Báo Ứng Hiện Đời (Trọn bộ 7 Tập: Audio MP3, Sách Đọc, PDF & Video) minh chứng sống động về luật Nhân Quả.'
+        teaser2link: nhan-qua/bao-ung-hien-doi-tuyen-tap
+        teaser2label: 'Xem Báo Ứng Hiện Đời'
+        teaser3title: 'Khoa Học & Giáo Dục'
+        teaser3text: 'Đối chiếu khoa học hiện đại với sự tu tập tâm thức, ứng dụng Trí tuệ Nhân tạo (AI) và phương pháp giáo dục.'
+        teaser3link: giao-duc
+        teaser3label: 'Xem Giáo Dục'
+        contrastTitle: 'The Contrast Element'
+        contrastText: 'Configure the contrast element in the theme settings.'
+        contrastLink: 'https://typemill.net'
+        contrastLabel: 'Link to somewhere'
+        naviTitle: 'Mục Lục Toàn Thư Viện Liên Hoa'
+        naviDepth: '2'
+        authorPosition:
+            - top
+        authorIntro: 'Biên tập:'
+        datePosition:
+            - top
+        dateIntro: 'Cập nhật:'
+        dateFormat: d.m.Y
+        collapseNav: true
+        expand: 'Mở rộng mục lục'
+        collapse: 'Thu gọn mục lục'
+        next: 'Bài tiếp theo'
+        previous: 'Bài trước'
+        footercolumns:
+            - footer1
+            - footer2
+            - footer3
+        footer1: "### 🪷 Thư Viện Tịnh Độ Liên Hoa\n\nKhông gian lưu trữ và chia sẻ kinh sách, pháp âm Tịnh Độ, truyện nhân quả Báo Ứng Hiện Đời và tri thức tu học thanh tịnh.\n\n**Chân thành • Thanh tịnh • Bình đẳng • Chánh giác • Từ bi**\n\n**Nhìn thấu • Buông xả • Tự tại • Tùy duyên • Niệm Phật**"
+        footer2: "### Chuyên Mục Tu Học\n\n* [Khu Vực Chuyên Tu Tịnh Độ](/#khu-vuc-tinh-do)\n* [Phật Giáo & Chánh Pháp](/phat-giao)\n* [Câu Chuyện Nhân Quả](/nhan-qua)\n* [Khoa Học & Giáo Dục](/giao-duc)\n* [Thông Báo & Tin Mới](/thong-bao)"
+        footer3: "### Pháp Âm & Kinh Sách Tiêu Biểu\n\n* [Đệ Tử Quy - Thầy Thái Lễ Húc](/phat-giao/de-tu-quy)\n* [Các Bài Khai Thị Hộ Niệm](/phat-giao/cac-bai-khai-thi)\n* [Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)\n* [Sân Hận Và Công Đức](/phat-giao/san-han-va-cong-duc)\n* [Tu Tập Và Khoa Học](/phat-giao/tu-tap-va-khoa-hoc)"
+        brandcolorprimary: '#231710'
+        fontcolorprimary: '#fcf9f2'
+        brandcolortertiary: '#6e2b19'
+        fontcolortertiary: '#fff8e7'
+        bordercolortertiary: '#c9972c'
+        fontcolorlink: '#8c3b19'
+        brandcolorsecondary: '#fcf9f2'
+        fontcolorsecondary: '#2b1d12'
+        contentnavihoverbackground: '#6e2b19'
+        contentnavihovercolor: '#fff6dc'
+        thinbordercolor: '#dfd1b8'
+        footercolumns:
+            - footer1
+            - footer2
+            - footer3
+        footer1: "### 🪷 Thư Viện Tịnh Độ Liên Hoa\n\nKhông gian lưu trữ và chia sẻ kinh sách, pháp âm Tịnh Độ, truyện nhân quả Báo Ứng Hiện Đời và tri thức tu học thanh tịnh.\n\n**Chân thành • Thanh tịnh • Bình đẳng • Chánh giác • Từ bi**\n\n**Nhìn thấu • Buông xả • Tự tại • Tùy duyên • Niệm Phật**"
+        footer2: "### Chuyên Mục Tu Học\n\n* [Khu Vực Chuyên Tu Tịnh Độ](/#khu-vuc-tinh-do)\n* [Phật Giáo & Chánh Pháp](/phat-giao)\n* [Câu Chuyện Nhân Quả](/nhan-qua)\n* [Khoa Học & Giáo Dục](/giao-duc)\n* [Thông Báo & Tin Mới](/thong-bao)"
+        footer3: "### Pháp Âm & Kinh Sách Tiêu Biểu\n\n* [Đệ Tử Quy - Thầy Thái Lễ Húc](/phat-giao/de-tu-quy)\n* [Các Bài Khai Thị Hộ Niệm](/phat-giao/cac-bai-khai-thi)\n* [Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)\n* [Sân Hận Và Công Đức](/phat-giao/san-han-va-cong-duc)\n* [Tu Tập Và Khoa Học](/phat-giao/tu-tap-va-khoa-hoc)"
+    cyanine:
+        layoutsize: large
+        blogimage: true
+        landingpage: true
+        introPosition: '1'
+        introFullsize: false
+        introTitle: 'Thư Viện Tổng Hợp Tri Thức & An Lạc'
+        introMarkdown: 'Nơi tổng hợp và chia sẻ các bài viết, kinh sách, pháp âm về Phật Giáo, Câu Chuyện Nhân Quả và Khoa Học Giáo Dục.'
+        introButtonLink: phat-giao
+        introButtonLabel: 'Khám Phá Thư Viện'
+        teaserPosition: '2'
+        teaser1title: 'Phật Giáo & Chánh Pháp'
+        teaser1text: 'Các bài giảng pháp âm, Đệ Tử Quy, khai thị hộ niệm, giáo lý căn bản và thực hành thiền định.'
+        teaser1link: phat-giao
+        teaser1label: 'Xem Phật Giáo'
+        teaser2title: 'Câu Chuyện Nhân Quả'
+        teaser2text: 'Tuyển tập Audio Báo Ứng Hiện Đời (7 Tập) và những minh chứng sống động về luật Nhân Quả.'
+        teaser2link: nhan-qua
+        teaser2label: 'Xem Nhân Quả'
+        teaser3title: 'Khoa Học & Giáo Dục'
+        teaser3text: 'Phân tích đa chiều về Trí tuệ Nhân tạo (AI), Chiến lược PCTT và phương pháp học tập hiện đại.'
+        teaser3link: giao-duc
+        teaser3label: 'Xem Giáo Dục'
+        infoPosition: '0'
+        contrastPosition: '0'
+        naviPosition: '3'
+        naviTitle: 'Mục Lục Toàn Thư Viện'
+        naviDepth: '2'
+        newsPosition: '0'
+        authorPosition:
+            - top
+        authorIntro: 'Tác giả:'
+        datePosition:
+            - top
+        dateIntro: 'Cập nhật:'
+        dateFormat: d.m.Y
+        collapseNav: true
+        expand: 'Mở rộng mục lục'
+        collapse: 'Thu gọn mục lục'
+        next: 'Bài tiếp theo'
+        previous: 'Bài trước'
+        footercolumns:
+            - footer1
+            - footer2
+            - footer3
+        footer1: "### Thư Viện Tri Thức & An Lạc\n\nNền tảng lưu trữ và chia sẻ kinh sách, pháp âm, truyện nhân quả và tri thức giáo dục hiện đại."
+        footer2: "### Chuyên Mục Chính\n\n* [Phật Giáo & Chánh Pháp](/phat-giao)\n* [Câu Chuyện Nhân Quả](/nhan-qua)\n* [Khoa Học & Giáo Dục](/giao-duc)\n* [Thông Báo & Tin Mới](/thong-bao)"
+        footer3: "### Pháp Âm Nổi Bật\n\n* [Đệ Tử Quy - Thầy Thái Lễ Húc](/phat-giao/de-tu-quy)\n* [Các Bài Khai Thị Mẫu (ABS)](/phat-giao/cac-bai-khai-thi)\n* [Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)"
