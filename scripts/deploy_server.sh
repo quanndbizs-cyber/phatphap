@@ -52,15 +52,18 @@ if [[ -d "$BASE_DIR/content/.git" || -f "$BASE_DIR/content/.git" ]]; then
     git -C "$BASE_DIR/content" config core.fileMode false 2>/dev/null || true
     # Dọn dẹp thay đổi tạm thời trên server để đảm bảo cập nhật luôn trơn tru
     git -C "$BASE_DIR/content" checkout -- . 2>/dev/null || true
+    # Xoá nhánh local trùng tên origin/content nếu có (tránh ambiguous refname)
+    git -C "$BASE_DIR/content" branch -D origin/content 2>/dev/null || true
+    git -C "$BASE_DIR/content" checkout content 2>/dev/null || true
     git -C "$BASE_DIR/content" fetch origin content
     if [[ "$FORCE_PULL" == "true" ]]; then
-        echo "   [!] Chế độ Force: reset hard về origin/content..."
-        git -C "$BASE_DIR/content" reset --hard origin/content
+        echo "   [!] Chế độ Force: reset hard về remotes/origin/content..."
+        git -C "$BASE_DIR/content" reset --hard remotes/origin/content
     else
         if ! git -C "$BASE_DIR/content" pull --ff-only origin content; then
             echo "   [!] Phát hiện phân kỳ git trên nhánh content (do forced update hoặc rebase)."
-            echo "   [!] Tự động chuyển sang reset hard về origin/content để đồng bộ..."
-            git -C "$BASE_DIR/content" reset --hard origin/content
+            echo "   [!] Tự động chuyển sang reset hard về remotes/origin/content để đồng bộ..."
+            git -C "$BASE_DIR/content" reset --hard remotes/origin/content
         fi
     fi
     echo "   [✓] Nhánh content đã được cập nhật thành công."
@@ -193,7 +196,8 @@ fi
 # 7. Run test kit. Keep the original non-blocking behavior.
 if [[ -f "$BASE_DIR/scripts/test_stage.sh" ]]; then
     echo "-> 7. Đang chạy bộ Test Kit kiểm tra hệ thống..."
-    if ! "$BASE_DIR/scripts/test_stage.sh"; then
+    chmod +x "$BASE_DIR/scripts/"*.sh 2>/dev/null || true
+    if ! bash "$BASE_DIR/scripts/test_stage.sh"; then
         echo "[WARN] Test Kit có lỗi; deploy đã cập nhật và reload nhưng cần kiểm tra test."
     fi
 fi
