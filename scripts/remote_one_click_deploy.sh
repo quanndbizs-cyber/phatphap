@@ -321,8 +321,15 @@ run_local_and_trigger_remote() {
         SSH_CMD=(ssh -t -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -p "$SSH_PORT" -i "$SSH_KEY" "$SSH_USER@$SSH_HOST")
     fi
 
+    # Đảm bảo remote repository được cập nhật script mới nhất trước khi kích hoạt
+    if [[ "$FORCE_PULL" == "true" ]]; then
+        PRE_CMD="cd \"$REMOTE_DIR\" && git fetch origin v2.x 2>/dev/null && git reset --hard origin/v2.x 2>/dev/null || true; "
+    else
+        PRE_CMD="cd \"$REMOTE_DIR\" && git fetch origin v2.x 2>/dev/null && (git pull --ff-only origin v2.x 2>/dev/null || git reset --hard origin/v2.x 2>/dev/null) || true; "
+    fi
+
     # Đảm bảo quyền thực thi và chạy deploy trên server
-    "${SSH_CMD[@]}" "chmod +x \"$REMOTE_DIR/scripts/\"*.sh 2>/dev/null || true; \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh\" $REMOTE_FLAGS"
+    "${SSH_CMD[@]}" "${PRE_CMD}chmod +x \"$REMOTE_DIR/scripts/\"*.sh 2>/dev/null || true; \"$REMOTE_DIR/scripts/remote_one_click_deploy.sh\" $REMOTE_FLAGS"
 
     echo -e "\n=================================================================="
     echo -e "\033[1;32m🎉 [HOÀN TẤT] REMOTE ONE CLICK DEPLOY ĐÃ KẾT THÚC THÀNH CÔNG!\033[0m"
