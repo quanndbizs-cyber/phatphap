@@ -533,25 +533,48 @@ def clean_cac_kinh_ve_nhan_qua():
     print("\n--- 3. Cleaning 13-cac-kinh-ve-nhan-qua.md ---")
     file_path = f"{OUT_DIR}/13-cac-kinh-ve-nhan-qua.md"
     with open(file_path, "r", encoding="utf-8") as f:
-        content = f.read()
+        text = f.read()
 
-    content = content.replace('="center" style="margin-top: 0; margin-bottom: 0">', '')
+    text = text.replace('="center" style="margin-top: 0; margin-bottom: 0">', '')
 
-    ch1_match = re.search(r'(## 01\. Lời Nói Đầu & Ý Nghĩa Nhân Quả Ba Đời.*?> \[↑ Về Mục Lục\]\(#muc-luc\)\n\n)(.*?)(> \*\*Điểm Nhấn Chiêm Nghiệm & Lời Tổ Dạy:\*\*)', content, flags=re.S)
-    if ch1_match:
-        prefix, ch1_body, suffix = ch1_match.groups()
-        pos_ttt = ch1_body.find("Thích Thiền Tâm.")
-        if pos_ttt != -1:
-            clean_ch1_body = ch1_body[:pos_ttt + len("Thích Thiền Tâm.")].strip()
-            clean_ch1_body = clean_ch1_body.replace("  \n", " ").replace(" \n", " ")
-            clean_ch1_body = clean_ch1_body.replace("CÁC \n KINH VỀ NHÂN QUẢ \n\n ---o0o--- \n\n Kinh Nhân Quả Ba Đời \n\n Việt dịch: \n Thích Thiền Tâm \n\n Lời Nói Đầu",
-                                                    "### Kinh Nhân Quả Ba Đời\n*Việt dịch: HT. Thích Thiền Tâm*\n\n**Lời Nói Đầu**")
-            new_ch1 = f"{prefix}\n{clean_ch1_body}\n\n{suffix}"
-            content = content[:ch1_match.start()] + new_ch1 + content[ch1_match.end():]
-            print("  + Chapter 1 cleaned: removed raw English TOC junk and formatted header.")
+    raw_blocks = re.split(r"\n\s*\n+", text)
+    blocks = []
+    for b in raw_blocks:
+        lines = [l.rstrip() for l in b.splitlines() if l.strip()]
+        if not lines:
+            continue
+        if lines[0].lstrip().startswith(("#", ">", "*", "---")) or any(l.endswith("  ") for l in lines):
+            blocks.append("\n".join(lines))
+        elif re.match(r"^(\d+\.|\(\d+\))$", lines[0].strip()) and len(lines) > 1:
+            marker = lines[0].strip()
+            rest = re.sub(r"\s+", " ", " ".join(l.strip() for l in lines[1:]))
+            blocks.append(f"{marker} {rest}")
+        else:
+            joined = re.sub(r"\s+", " ", " ".join(l.strip() for l in lines))
+            blocks.append(joined)
+
+    cleaned_blocks = []
+    for idx, b in enumerate(blocks):
+        if b in ("Phật nói", "Phật Thuyết", "Phần Phụ Lục", "Summary") and idx + 1 < len(blocks) and "Điểm Nhấn Chiêm Nghiệm" in blocks[idx + 1]:
+            continue
+        if b.startswith("**Điểm Nhấn Chiêm Nghiệm"):
+            b = "> " + b
+        cleaned_blocks.append(b)
+    blocks = cleaned_blocks
+
+    merged_blocks = []
+    i = 0
+    while i < len(blocks):
+        b = blocks[i]
+        if re.match(r"^(\d+\.|\(\d+\))$", b.strip()) and i + 1 < len(blocks):
+            merged_blocks.append(f"{b.strip()} {blocks[i + 1]}")
+            i += 2
+        else:
+            merged_blocks.append(b)
+            i += 1
 
     with open(file_path, "w", encoding="utf-8") as f:
-        f.write(content)
+        f.write("\n\n".join(merged_blocks) + "\n")
     print("=> 13-cac-kinh-ve-nhan-qua.md cleaned successfully!")
 
 # ==============================================================================

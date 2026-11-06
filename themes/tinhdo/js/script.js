@@ -277,9 +277,131 @@
     });
   }
 
+  // =========================================================================
+  // 3. RESPONSIVE TABLES FOR MOBILE (HYBRID CARD VIEW + HORIZONTAL SCROLL)
+  // =========================================================================
+  var STORAGE_KEY_TABLE_MODE = 'tm_mobile_table_mode'; // 'cards' (default) or 'scroll'
+
+  function getStoredTableMode() {
+    try {
+      var m = localStorage.getItem(STORAGE_KEY_TABLE_MODE);
+      if (m === 'scroll' || m === 'cards') return m;
+    } catch(e) {}
+    return 'cards';
+  }
+
+  function applyTableMode(wrapper, mode) {
+    wrapper.classList.toggle('tm-table-cards', mode === 'cards');
+    wrapper.classList.toggle('tm-table-scroll', mode === 'scroll');
+    var bar = wrapper.previousElementSibling;
+    if (bar && bar.classList.contains('tm-table-mobile-bar')) {
+      var btns = bar.querySelectorAll('.tm-table-mode-btn');
+      for (var i = 0; i < btns.length; i++) {
+        var btnMode = btns[i].getAttribute('data-table-mode');
+        var isActive = btnMode === mode;
+        btns[i].classList.toggle('active', isActive);
+        btns[i].setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      }
+      var hint = bar.querySelector('.tm-table-scroll-hint');
+      if (hint) {
+        hint.style.display = mode === 'scroll' ? 'inline-flex' : 'none';
+      }
+    }
+  }
+
+  function initResponsiveTables() {
+    var tables = document.querySelectorAll('article table, .grid-main table');
+    if (!tables.length) return;
+
+    var defaultMode = getStoredTableMode();
+
+    for (var t = 0; t < tables.length; t++) {
+      var table = tables[t];
+      var wrapper = table.closest('.tm-table');
+      if (!wrapper) {
+        wrapper = document.createElement('div');
+        wrapper.className = 'tm-table';
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+      }
+
+      if (wrapper.getAttribute('data-tm-responsive-ready') === 'true') {
+        continue;
+      }
+      wrapper.setAttribute('data-tm-responsive-ready', 'true');
+
+      // Extract column headers from thead or first tr
+      var headers = [];
+      var thEls = table.querySelectorAll('thead th, thead td');
+      if (!thEls.length) {
+        var firstRow = table.querySelector('tr');
+        if (firstRow) {
+          thEls = firstRow.querySelectorAll('th');
+        }
+      }
+      for (var h = 0; h < thEls.length; h++) {
+        headers.push((thEls[h].textContent || '').replace(/\s+/g, ' ').trim());
+      }
+
+      // Assign data-label to each cell in tbody
+      var rows = table.querySelectorAll('tbody tr');
+      if (!rows.length) {
+        var allRows = table.querySelectorAll('tr');
+        var startRow = thEls.length ? 1 : 0;
+        rows = Array.prototype.slice.call(allRows, startRow);
+      }
+
+      for (var r = 0; r < rows.length; r++) {
+        var cells = rows[r].querySelectorAll('td');
+        for (var c = 0; c < cells.length; c++) {
+          if (headers[c] && !cells[c].getAttribute('data-label')) {
+            cells[c].setAttribute('data-label', headers[c]);
+          }
+          if (c === 0) {
+            cells[c].classList.add('tm-td-primary');
+          }
+        }
+      }
+
+      // Create mobile control bar right above .tm-table
+      var bar = document.createElement('div');
+      bar.className = 'tm-table-mobile-bar';
+      bar.innerHTML =
+        '<div class="tm-table-mode-group" role="group" aria-label="Chế độ xem bảng trên điện thoại">' +
+          '<button type="button" class="tm-table-mode-btn" data-table-mode="cards" aria-pressed="true">' +
+            '🗂️ Dạng Thẻ' +
+          '</button>' +
+          '<button type="button" class="tm-table-mode-btn" data-table-mode="scroll" aria-pressed="false">' +
+            '📊 Dạng Bảng' +
+          '</button>' +
+        '</div>' +
+        '<span class="tm-table-scroll-hint" style="display:none;">↔ Vuốt ngang để xem</span>';
+
+      wrapper.parentNode.insertBefore(bar, wrapper);
+      applyTableMode(wrapper, defaultMode);
+    }
+
+    // Event delegation for switching table mode
+    document.addEventListener('click', function(e) {
+      var modeBtn = e.target.closest('.tm-table-mode-btn');
+      if (!modeBtn) return;
+      e.preventDefault();
+      var targetMode = modeBtn.getAttribute('data-table-mode') || 'cards';
+      try {
+        localStorage.setItem(STORAGE_KEY_TABLE_MODE, targetMode);
+      } catch(err) {}
+
+      var allWrappers = document.querySelectorAll('.tm-table[data-tm-responsive-ready="true"]');
+      for (var i = 0; i < allWrappers.length; i++) {
+        applyTableMode(allWrappers[i], targetMode);
+      }
+    });
+  }
+
   function initAll() {
     initMobileMenu();
     initFontSizeController();
+    initResponsiveTables();
   }
 
   if (document.readyState === 'loading') {
@@ -288,3 +410,4 @@
     initAll();
   }
 })();
+
