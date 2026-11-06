@@ -1,6 +1,6 @@
 ---
 name: Project Governance, 2-Branch Git Architecture & Content Publishing Rules
-description: Mandatory rules for separating Software (v2.x branch) vs Content (content branch), strict selective Git commits, completion reporting, and automated Markdown/YAML content publishing in Typemill.
+description: Mandatory rules for separating Software (v2.x branch) vs Content (content branch), strict selective Git commits, completion reporting, automated Markdown/YAML content publishing in Typemill, and scripts/deployment governance.
 ---
 
 # Quy Tắc Quản Trị Dự Án & Xuất Bản Nội Dung (Project Governance)
@@ -121,3 +121,34 @@ meta:
 ### Bước 4: Làm mới bộ đệm Điều hướng (Navigation Cache) & Kiểm thử
 * Sau khi thêm/sửa/xóa bất kỳ file nào trong `content/`, xóa các file cache trong `/var/www/html/phatphap/data/navigation/*` để Typemill tự động quét lại cây thư mục ngay lập tức.
 * Kiểm tra URL bài viết bằng `curl -I http://localhost/phatphap/<chuyen-muc>/<slug>` đảm bảo trả về `HTTP 200 OK`.
+
+---
+
+## 4. Quy Tắc Quản Trị Scripts & Tự Động Hóa Triển Khai (Scripts & Deployment Governance)
+
+Mọi thao tác phát triển, bảo trì và thực thi các script trong thư mục `scripts/` bắt buộc tuân thủ 5 nguyên tắc:
+
+### 4.1. Tuyệt đối không hardcode đường dẫn và thông tin máy chủ
+* Toàn bộ các script `.sh`, `.py`, `.php` không được ghi cứng đường dẫn thư mục cài đặt (`/var/www/html/phatphap`, `/mnt/d/...`), IP máy chủ (`192.168.1.22`), cổng SSH (`22`), hoặc tên tài khoản (`quannd`).
+* Bắt buộc sử dụng cơ chế nạp cấu hình tập trung:
+  * Nạp `source "$(dirname "${BASH_SOURCE[0]}")/config.sh"`.
+  * Cấu hình lưu trữ tại `scripts/deploy.env` (tạo từ file mẫu `scripts/deploy.env.example`).
+  * Cho phép người dùng ghi đè (override) linh hoạt qua biến môi trường dòng lệnh hoặc CLI flag (`--host`, `--port`, `--user`, `--key`, `--path`).
+
+### 4.2. Bảo vệ kiến trúc 2 Git Repository Độc Lập
+* Thư mục `content/` là một Git repository độc lập (nhánh `content`), hoàn toàn tách rời khỏi Web root (`v2.x`).
+* **CẤM** tạo lại Git Submodule (tuyệt đối không tạo file `.gitmodules` hay commit hash con trỏ submodule trong nhánh `v2.x`).
+* Thư mục `content/` bắt buộc nằm trong `.gitignore` của Web root (`v2.x`).
+* Khi nâng cấp lõi Typemill upstream bằng `scripts/pull_tp_update.sh`, script phải tự động loại trừ và bảo vệ nguyên vẹn thư mục `content/` độc lập.
+
+### 4.3. Bắt buộc đồng bộ tài liệu hướng dẫn (`scripts/README.md`)
+* Mỗi khi thêm mới, xóa bỏ script, đổi tên file hoặc thay đổi logic/tham số dòng lệnh (flags), Agent **BẮT BUỘC** phải cập nhật đồng bộ ngay vào `scripts/README.md`.
+* `scripts/README.md` là nguồn chân lý duy nhất (Single Source of Truth) cho lập trình viên và AI Agent khi vận hành hệ thống kịch bản.
+
+### 4.4. Cơ chế Force Pull & xử lý phân kỳ an toàn
+* Các quy trình triển khai (`remote_one_click_deploy.sh`, `deploy_server.sh`) bắt buộc hỗ trợ cờ `--force` (hoặc `-f`).
+* Khi remote GitHub có commit bị forced push hoặc rebase dẫn đến phân kỳ (`hint: Diverging branches can't be fast-forwarded`), script phải tự động chuyển sang `git reset --hard` về commit mới nhất từ remote tracking branch tương ứng (`remotes/origin/<branch>`), không để quy trình deploy bị dừng lại.
+
+### 4.5. An toàn cấu hình & bảo mật thông tin
+* Cấu hình giao diện chung của website được đồng bộ an toàn qua `content/middle_sync/settings/settings.yaml`.
+* **TUYỆT ĐỐI CẤM** đưa các file nhạy cảm (`settings/secrets.yaml`, `settings/users/`, private keys, certificates) vào `middle_sync/` hay commit lên Git.
