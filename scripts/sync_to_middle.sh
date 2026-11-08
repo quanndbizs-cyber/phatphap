@@ -2,9 +2,9 @@
 # ==============================================================================
 # Script: sync_to_middle.sh
 # Mục đích: [Dành cho Dev Localhost] 1-Click duy nhất để:
-#           1. Tự động đồng bộ các tài nguyên chung (media, plugins)
-#              vào thư mục trung gian content/middle_sync/ (KHÔNG gồm settings)
-#           2. Tự động kiểm tra thay đổi trong thư mục content (bài viết, media, plugins...)
+#           1. Tự động đồng bộ các tài nguyên chung (media, settings.yaml)
+#              vào thư mục trung gian content/middle_sync/ (KHÔNG copy plugins vì đã ở main)
+#           2. Tự động kiểm tra thay đổi trong thư mục content (bài viết, media...)
 #           3. Tự động git add, git commit và git push lên GitHub nhánh 'content'
 #
 # Cách sử dụng:
@@ -51,7 +51,7 @@ echo -e "${CYAN}🔄 [DEV LOCAL] 1-CLICK ĐỒNG BỘ LOCAL -> MIDDLE_SYNC -> GI
 echo -e "${BLUE}==================================================================${NC}"
 
 # BƯỚC 1: ĐỒNG BỘ TỪ LOCAL VÀO CONTENT/MIDDLE_SYNC
-echo -e "\n${YELLOW}-> BƯỚC 1: Đang sao chép settings, media, plugins vào content/middle_sync/...${NC}"
+echo -e "\n${YELLOW}-> BƯỚC 1: Đang sao chép settings, media vào content/middle_sync/ (bỏ qua plugins)...${NC}"
 "$BASE_DIR/scripts/pack_middle_sync.sh" $PROD_FLAG
 
 # BƯỚC 2: KIỂM TRA THAY ĐỔI TRONG CONTENT WORKTREE

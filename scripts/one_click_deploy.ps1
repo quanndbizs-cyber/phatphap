@@ -25,15 +25,29 @@ wsl bash -c "$baseDir/scripts/pack_middle_sync.sh $prodArg"
 # 2. Commit & Push nhánh content
 Set-Location "$baseDir/content"
 wsl git add -A
-$status = wsl git status --porcelain
-if ($status) {
+$statusContent = wsl git status --porcelain
+if ($statusContent) {
     $commitMsg = "Sync middle_sync & content: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
     wsl git commit -m "$commitMsg"
-    Write-Host "-> Đang đẩy dữ liệu lên GitHub (origin content)..." -ForegroundColor Yellow
+    Write-Host "-> Đang đẩy dữ liệu content lên GitHub (origin content)..." -ForegroundColor Yellow
     wsl git push origin content
-    Write-Host "✅ Đã push thành công!" -ForegroundColor Green
+    Write-Host "✅ Đã push nhánh content thành công!" -ForegroundColor Green
 } else {
     Write-Host "ℹ️ Không có thay đổi mới trong content/." -ForegroundColor Gray
+}
+
+# 2b. Commit & Push nhánh main (v2.x)
+Set-Location $baseDir
+wsl git add -A
+$statusMain = wsl git status --porcelain
+if ($statusMain) {
+    $mainCommitMsg = "feat(deploy): update codebase ($(Get-Date -Format 'yyyy-MM-dd HH:mm:ss'))"
+    wsl git commit -m "$mainCommitMsg"
+    Write-Host "-> Đang đẩy mã nguồn main lên GitHub..." -ForegroundColor Yellow
+    wsl git push origin v2.x
+    Write-Host "✅ Đã push nhánh main (v2.x) thành công!" -ForegroundColor Green
+} else {
+    Write-Host "ℹ️ Không có thay đổi mới trong mã nguồn main." -ForegroundColor Gray
 }
 
 # 3. Kích hoạt server nếu có SSH

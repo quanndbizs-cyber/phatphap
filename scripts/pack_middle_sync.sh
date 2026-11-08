@@ -1,10 +1,12 @@
 #!/bin/bash
 # ==============================================================================
 # Script: pack_middle_sync.sh
-# Mục đích: Đóng gói các tài nguyên dùng chung (media, plugins, settings.yaml)
+# Mục đích: Đóng gói các tài nguyên dùng chung (media, settings.yaml)
 #          vào thư mục trung gian content/middle_sync để commit lên nhánh content.
-# Lưu ý: Chỉ đóng gói cấu hình chung settings/settings.yaml.
-#        KHÔNG đóng gói secrets.yaml hoặc thư mục người dùng settings/users/.
+# Lưu ý: 
+#   - KHÔNG copy plugins sang content vì plugins đã được commit vào main (v2.x).
+#   - Chỉ đóng gói cấu hình chung settings/settings.yaml.
+#   - KHÔNG đóng gói secrets.yaml hoặc thư mục người dùng settings/users/.
 # ==============================================================================
 
 set -e
@@ -22,7 +24,6 @@ echo "📦 Đang chuẩn bị dữ liệu vào $MIDDLE_SYNC_DIR..."
 echo "=========================================================="
 
 mkdir -p "$MIDDLE_SYNC_DIR/media"
-mkdir -p "$MIDDLE_SYNC_DIR/plugins"
 mkdir -p "$MIDDLE_SYNC_DIR/settings"
 
 # 1. Đồng bộ cấu hình chung settings/settings.yaml (bảo vệ tuyệt đối secrets và users)
@@ -40,11 +41,10 @@ if [ -d "$BASE_DIR/media" ]; then
     rsync -rlv --no-perms --no-owner --no-group --no-times --exclude="tmp/*" "$BASE_DIR/media/" "$MIDDLE_SYNC_DIR/media/"
 fi
 
-# 3. Đồng bộ plugins tuỳ biến (ví dụ mediaplayer)
-echo "-> 3. Đóng gói plugins đặc thù..."
-if [ -d "$BASE_DIR/plugins/mediaplayer" ]; then
-    mkdir -p "$MIDDLE_SYNC_DIR/plugins/mediaplayer"
-    rsync -rlv --delete --no-perms --no-owner --no-group --no-times "$BASE_DIR/plugins/mediaplayer/" "$MIDDLE_SYNC_DIR/plugins/mediaplayer/"
+# 3. Loại bỏ thư mục plugins khỏi content/middle_sync/ (plugins đã được commit trực tiếp vào main repo)
+if [ -d "$MIDDLE_SYNC_DIR/plugins" ]; then
+    echo "-> 3. Loại bỏ plugins khỏi middle_sync/ (plugins được quản lý trực tiếp trong nhánh main v2.x)..."
+    rm -rf "$MIDDLE_SYNC_DIR/plugins"
 fi
 
 echo "=========================================================="

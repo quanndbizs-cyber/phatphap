@@ -209,9 +209,10 @@ run_server_deployment() {
         echo "     [!] Đã kích hoạt --force: Thực hiện reset hard về origin/$CURRENT_BRANCH..."
         git -C "$BASE_DIR" reset --hard "origin/$CURRENT_BRANCH"
     else
-        if ! git -C "$BASE_DIR" pull --ff-only origin "$CURRENT_BRANCH"; then
-            echo -e "     \033[1;33m[!] Nhánh $CURRENT_BRANCH bị phân kỳ (do forced push từ remote hoặc conflict cục bộ).\033[0m"
-            echo -e "     \033[1;33m[!] Tự động fallback: reset hard về origin/$CURRENT_BRANCH để đồng bộ chính xác...\033[0m"
+        echo "     [i] Kéo cập nhật với --rebase và --autostash..."
+        if ! git -C "$BASE_DIR" pull --rebase --autostash origin "$CURRENT_BRANCH"; then
+            echo -e "     \033[1;33m[!] Rebase phân kỳ hoặc gặp xung đột. Đang tự động reset hard về origin/$CURRENT_BRANCH để đồng bộ...\033[0m"
+            git -C "$BASE_DIR" rebase --abort 2>/dev/null || true
             git -C "$BASE_DIR" reset --hard "origin/$CURRENT_BRANCH"
         fi
     fi
@@ -325,7 +326,7 @@ run_local_and_trigger_remote() {
     if [[ "$FORCE_PULL" == "true" ]]; then
         PRE_CMD="cd \"$REMOTE_DIR\" && git fetch origin v2.x 2>/dev/null && git reset --hard origin/v2.x 2>/dev/null || true; "
     else
-        PRE_CMD="cd \"$REMOTE_DIR\" && git fetch origin v2.x 2>/dev/null && (git pull --ff-only origin v2.x 2>/dev/null || git reset --hard origin/v2.x 2>/dev/null) || true; "
+        PRE_CMD="cd \"$REMOTE_DIR\" && git fetch origin v2.x 2>/dev/null && (git pull --rebase --autostash origin v2.x 2>/dev/null || git reset --hard origin/v2.x 2>/dev/null) || true; "
     fi
 
     # Đảm bảo quyền thực thi và chạy deploy trên server

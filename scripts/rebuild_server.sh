@@ -56,13 +56,15 @@ echo -e "${BLUE}==========================================================${NC}"
 if [ "$DO_PULL" = true ]; then
     echo -e "${CYAN}-> 1. Git pull cập nhật thay đổi...${NC}"
     if [ -d "$BASE_DIR/.git" ]; then
-        echo "   + Pull nhánh chính..."
-        git pull || echo -e "${YELLOW}[WARN] Git pull repo chính không thành công hoặc không có remote.${NC}"
+        MAIN_BRANCH="$(git -C "$BASE_DIR" branch --show-current 2>/dev/null || echo "v2.x")"
+        [[ -z "$MAIN_BRANCH" ]] && MAIN_BRANCH="v2.x"
+        echo "   + Pull nhánh chính ($MAIN_BRANCH) với --rebase --autostash..."
+        git -C "$BASE_DIR" pull --rebase --autostash origin "$MAIN_BRANCH" || echo -e "${YELLOW}[WARN] Git pull repo chính không thành công hoặc không có remote.${NC}"
     fi
 
     if [[ -d "$BASE_DIR/content/.git" || -f "$BASE_DIR/content/.git" ]]; then
-        echo "   + Pull nhánh content..."
-        git -C "$BASE_DIR/content" pull || echo -e "${YELLOW}[WARN] Git pull content không thành công.${NC}"
+        echo "   + Pull nhánh content với --rebase --autostash..."
+        git -C "$BASE_DIR/content" pull --rebase --autostash origin content || echo -e "${YELLOW}[WARN] Git pull content không thành công.${NC}"
     fi
 else
     echo -e "${CYAN}-> 1. Bỏ qua git pull (chế độ rebuild tức thời).${NC}"
@@ -76,11 +78,6 @@ if [[ -d "$MIDDLE_SYNC_DIR" ]]; then
         mkdir -p "$BASE_DIR/media"
         rsync -rl --no-perms --no-owner --no-group --no-times \
             "$MIDDLE_SYNC_DIR/media/" "$BASE_DIR/media/" 2>/dev/null || true
-    fi
-    if [[ -d "$MIDDLE_SYNC_DIR/plugins" ]]; then
-        mkdir -p "$BASE_DIR/plugins"
-        rsync -rl --no-perms --no-owner --no-group --no-times \
-            "$MIDDLE_SYNC_DIR/plugins/" "$BASE_DIR/plugins/" 2>/dev/null || true
     fi
 fi
 

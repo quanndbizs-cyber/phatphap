@@ -36,7 +36,7 @@ echo "🚀 [1-CLICK DEPLOY] BẮT ĐẦU QUY TRÌNH DEPLOY..."
 echo "=================================================================="
 
 # BƯỚC 1: ĐÓNG GÓI VÀO CONTENT/MIDDLE_SYNC
-echo "-> BƯỚC 1: Đóng gói media, plugins vào content/middle_sync/ (Settings đồng bộ thủ công)..."
+echo "-> BƯỚC 1: Đóng gói media, settings vào content/middle_sync/ (KHÔNG copy plugins)..."
 "$BASE_DIR/scripts/pack_middle_sync.sh"
 
 # BƯỚC 2: COMMIT VÀ PUSH NHÁNH CONTENT
@@ -51,13 +51,27 @@ if git diff --staged --quiet; then
 else
     COMMIT_MSG="Sync middle_sync & content: $(date '+%Y-%m-%d %H:%M:%S')"
     git commit -m "$COMMIT_MSG"
-    echo "   [✓] Đã tạo commit: $COMMIT_MSG"
+    echo "   [✓] Đã tạo commit content: $COMMIT_MSG"
     echo "   [i] Đang push lên Git remote origin content..."
     git push origin content
     echo "   [✓] Đã push nhánh content thành công lên GitHub!"
 fi
 
+# BƯỚC 2b: COMMIT VÀ PUSH NHÁNH MAIN (v2.x)
+echo -e "\n-> BƯỚC 2b: Tự động commit & push nhánh main (v2.x) lên Git..."
 cd "$BASE_DIR"
+git add -A
+if git diff --staged --quiet; then
+    echo "   [i] Không có thay đổi mới trong mã nguồn main để commit."
+else
+    MAIN_COMMIT_MSG="feat(deploy): update codebase ($(date '+%Y-%m-%d %H:%M:%S'))"
+    git commit -m "$MAIN_COMMIT_MSG"
+    echo "   [✓] Đã tạo commit main: $MAIN_COMMIT_MSG"
+fi
+CURRENT_MAIN_BRANCH=$(git branch --show-current 2>/dev/null || echo "v2.x")
+echo "   [i] Đang push lên Git remote origin $CURRENT_MAIN_BRANCH..."
+git push origin "$CURRENT_MAIN_BRANCH"
+echo "   [✓] Đã push nhánh $CURRENT_MAIN_BRANCH thành công lên GitHub!"
 
 # BƯỚC 3: KÍCH HOẠT DEPLOY TRÊN SERVER
 echo -e "\n-> BƯỚC 3: Triển khai lên Deploy Server..."

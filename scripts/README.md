@@ -73,22 +73,29 @@ Tất cả các script trong hệ thống đều tự động nạp cấu hình 
 
 ### 2.2. `deploy_server.sh` — Triển khai trực tiếp trên Remote Server
 * **Vị trí:** [`scripts/deploy_server.sh`](file:///var/www/html/phatphap/scripts/deploy_server.sh)
-* **Mục đích:** Chạy trực tiếp trên Production Server để cập nhật dữ liệu và áp dụng vào Web Server.
+* **Mục đích:** Chạy trực tiếp trên Production Server để cập nhật toàn diện cả mã nguồn (`v2.x`) và nội dung (`content`), kiểm tra hệ thống và áp dụng an toàn.
 * **Quy trình thực hiện:**
-  1. Kéo dữ liệu mới nhất từ nhánh `content` trên GitHub (`git pull --ff-only origin content`, hỗ trợ tự động fallback sang `git reset --hard origin/content` khi có forced push).
-  2. Đồng bộ `settings/settings.yaml`, plugins và media tùy biến từ `content/middle_sync/` vào thư mục hệ thống (bảo vệ tuyệt đối secrets và user logins).
-  3. Xóa sạch cache navigation (`data/navigation/`) và Twig template cache (`cache/`).
-  4. Phân quyền ghi chuẩn `775` cho `www-data` trên các thư mục dữ liệu (`cache`, `content`, `data`, `media`, `settings`).
-  5. Kiểm tra cú pháp Nginx (`nginx -t`) và reload an toàn `php8.4-fpm` cùng `nginx`.
-  6. Tự động tái tạo Search Index toàn trang (`build_search_index.php`).
-  7. Kích hoạt bộ kiểm thử tự động `test_stage.sh`.
+  1. Ghi nhận commit SHA ban đầu của Web root (`v2.x`) và Content (`content`) để phục vụ rollback tự động và báo cáo thay đổi.
+  2. Kéo mã nguồn Web root mới nhất (`v2.x`) bằng `git pull --rebase --autostash origin v2.x`.
+  3. Kéo dữ liệu bài viết mới nhất từ nhánh `content` bằng `git pull --rebase --autostash origin content`.
+  4. Đồng bộ `settings/settings.yaml` và media từ `content/middle_sync/` vào hệ thống (**KHÔNG copy plugins**, do plugins được quản lý trực tiếp trong nhánh chính `v2.x`).
+  5. Kiểm tra trước deploy: quét cú pháp PHP (`php -l`) toàn bộ `system/` và `plugins/`, kiểm tra cấu hình Nginx (`nginx -t`). Nếu phát hiện lỗi, tự động kích hoạt **Rollback** về trạng thái cũ.
+  6. Xóa sạch cache navigation (`data/navigation/`) và Twig template cache (`cache/`).
+  7. Phân quyền ghi chuẩn `775` cho `www-data` trên các thư mục dữ liệu (`cache`, `content`, `data`, `media`, `settings`).
+  8. Reload an toàn `php8.4-fpm` cùng `nginx`.
+  9. Tự động tái tạo Search Index toàn trang (`build_search_index.php`).
+  10. Kích hoạt bộ kiểm thử tự động `test_stage.sh`. **Nếu bài test thất bại, hệ thống tự động hoàn nguyên (Rollback) về trạng thái commit trước khi deploy, khôi phục cache và reload dịch vụ.**
+  11. Thống kê và in báo cáo chi tiết các commit mới và file thay đổi trên cả hai nhánh sau khi hoàn tất.
 * **Lệnh chạy:**
   ```bash
-  # Chạy bằng user SSH deploy thông thường (không cần sudo):
+  # Chạy bằng user SSH deploy thông thường (hoặc sudo):
   ./scripts/deploy_server.sh
 
   # Chạy cưỡng bức cập nhật commit mới nhất (Force Pull):
   ./scripts/deploy_server.sh --force
+
+  # Bỏ qua kiểm tra Test Kit:
+  ./scripts/deploy_server.sh --skip-test
   ```
 
 ---
@@ -130,12 +137,13 @@ Tất cả các script trong hệ thống đều tự động nạp cấu hình 
 
 ### 2.5. `pack_middle_sync.sh` & `sync_to_middle.sh` — Đóng gói tài nguyên dùng chung
 * **Vị trí:** [`scripts/pack_middle_sync.sh`](file:///var/www/html/phatphap/scripts/pack_middle_sync.sh), [`scripts/sync_to_middle.sh`](file:///var/www/html/phatphap/scripts/sync_to_middle.sh)
-* **Mục đích:** Do hệ thống tách riêng Git Web root (`v2.x`) và Git Content (`content`), các tài nguyên như file âm thanh, ảnh (`media/`), plugin đặc thù (`plugins/mediaplayer/`) và cấu hình giao diện chung (`settings/settings.yaml`) được đóng gói vào thư mục trung gian `content/middle_sync/` để đồng bộ theo nhánh `content`.
+* **Mục đích:** Do hệ thống tách riêng Git Web root (`v2.x`) và Git Content (`content`), các tài nguyên như file âm thanh, ảnh (`media/`) và cấu hình giao diện chung (`settings/settings.yaml`) được đóng gói vào thư mục trung gian `content/middle_sync/` để đồng bộ theo nhánh `content`.
+* **Loại trừ Plugins:** Toàn bộ plugin được commit và quản lý trực tiếp trong nhánh chính `v2.x`, do đó tuyệt đối **không copy plugins sang `content/middle_sync`**.
 * **Lưu ý an toàn:** Script tự động loại trừ các file nhạy cảm (`settings/secrets.yaml`, `settings/users/`, khóa bảo mật) để không bao giờ lộ mật khẩu hay secret key lên Git.
 * **Lệnh chạy:**
   ```bash
   ./scripts/pack_middle_sync.sh
-  ./scripts/sync_to_middle.sh -m "Cập nhật media, plugins và settings"
+  ./scripts/sync_to_middle.sh -m "Cập nhật media và settings"
   ```
 
 ---
