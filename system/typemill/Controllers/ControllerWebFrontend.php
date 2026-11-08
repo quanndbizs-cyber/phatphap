@@ -371,10 +371,30 @@ class ControllerWebFrontend extends Controller
 			stripos($pageTitle, 'buhd') !== false
 		);
 
+		$isNhanQuaTopic = (
+			stripos($url, 'phat-giao') !== false ||
+			stripos($url, 'nhan-qua') !== false ||
+			stripos($url, 'giao-duc') !== false ||
+			stripos($itemUrl, 'phat-giao') !== false ||
+			stripos($itemUrl, 'nhan-qua') !== false ||
+			stripos($itemUrl, 'giao-duc') !== false ||
+			stripos($itemPath, '01-phat-giao') !== false ||
+			stripos($itemPath, '02-nhan-qua') !== false ||
+			stripos($itemPath, '03-giao-duc') !== false ||
+			stripos($pageTitle, 'phật giáo') !== false ||
+			stripos($pageTitle, 'nhân quả') !== false ||
+			stripos($pageTitle, 'giáo dục') !== false
+		);
+
 		if($isBuhd)
 		{
 			$metaImageUrl = 'media/thumbs/buhd.jpeg';
 			$metaImageAlt = 'Báo Ứng Hiện Đời';
+		}
+		elseif($isNhanQuaTopic)
+		{
+			$metaImageUrl = !empty($metadata['meta']['heroimage']) ? $metadata['meta']['heroimage'] : 'media/thumbs/nhanqua.jpg';
+			$metaImageAlt = !empty($metadata['meta']['heroimagealt']) ? $metadata['meta']['heroimagealt'] : $pageTitle;
 		}
 		else
 		{
