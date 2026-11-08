@@ -20,7 +20,7 @@
       }
     });
 
-    // Close menu when clicking any navigation link
+    // Close menu when clicking any navigation link (leaf link or head link to direct page)
     var navLinks = document.querySelectorAll('.mainnavigation a');
     for (var i = 0; i < navLinks.length; i++) {
       navLinks[i].addEventListener('click', function() {
@@ -29,6 +29,49 @@
         }
       });
     }
+  }
+
+  // =========================================================================
+  // 1b. NAVIGATION ACCORDION (MỞ RỘNG / THU LẠI PHÂN CẤP TỪNG MỤC)
+  // =========================================================================
+  function initNavigationAccordion() {
+    document.addEventListener('click', function(e) {
+      var toggleBtn = e.target.closest('.nav-folder-toggle');
+      if (!toggleBtn) return;
+
+      e.preventDefault();
+      e.stopPropagation();
+
+      var li = toggleBtn.closest('li.folder');
+      if (!li) return;
+
+      var sublist = li.querySelector(':scope > ul.nav-sublist, :scope > ul');
+      var isExpanded = li.classList.contains('is-expanded');
+
+      if (isExpanded) {
+        // Thu lại phân cấp (collapse)
+        li.classList.remove('is-expanded');
+        li.classList.add('is-collapsed');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+        var folderNameEl = toggleBtn.querySelector('.nav-folder-title');
+        var nameText = folderNameEl ? folderNameEl.textContent.trim() : '';
+        toggleBtn.setAttribute('title', 'Bấm để mở rộng mục ' + nameText);
+        if (sublist) {
+          sublist.style.display = 'none';
+        }
+      } else {
+        // Mở rộng phân cấp (expand)
+        li.classList.remove('is-collapsed');
+        li.classList.add('is-expanded');
+        toggleBtn.setAttribute('aria-expanded', 'true');
+        var folderNameEl = toggleBtn.querySelector('.nav-folder-title');
+        var nameText = folderNameEl ? folderNameEl.textContent.trim() : '';
+        toggleBtn.setAttribute('title', 'Bấm để thu lại mục ' + nameText);
+        if (sublist) {
+          sublist.style.display = 'block';
+        }
+      }
+    });
   }
 
   // =========================================================================
@@ -402,6 +445,7 @@
 
   function initAll() {
     initMobileMenu();
+    initNavigationAccordion();
     initFontSizeController();
     initResponsiveTables();
   }

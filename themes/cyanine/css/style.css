@@ -432,6 +432,58 @@ button.play-video::after {
 .contentnav .folder.active > ul,.contentnav .folder.activeParent > ul{
 	display: block;
 }
+.mainnavigation li.folder.is-expanded > ul{
+	display: block !important;
+}
+.mainnavigation li.folder.is-collapsed > ul{
+	display: none !important;
+}
+.nav-folder-row {
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+}
+.nav-head-link {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	min-width: 36px;
+	padding: 0 !important;
+	text-decoration: none;
+	cursor: pointer;
+}
+.nav-folder-toggle {
+	display: flex !important;
+	align-items: center;
+	justify-content: space-between;
+	flex: 1 1 auto;
+	width: calc(100% - 36px);
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	text-align: left;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	padding: 0.5rem !important;
+}
+.nav-folder-title {
+	flex: 1 1 auto;
+	padding-right: 8px;
+}
+.nav-folder-arrow {
+	display: inline-flex;
+	font-size: 1.25rem;
+	line-height: 1;
+	transition: transform 0.22s ease;
+}
+li.folder.is-expanded > .nav-folder-row .nav-folder-arrow,
+.nav-folder-toggle[aria-expanded="true"] .nav-folder-arrow {
+	transform: rotate(90deg);
+}
 .burgerbutton{
 	display: inline-block;
 	font-size: 2em;

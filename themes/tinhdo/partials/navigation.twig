@@ -5,25 +5,53 @@
     {% for element in navigation %}
 
 		{% set depth = element.keyPathArray|length %}
+        {% set hasChildren = (element.elementType == 'folder') and (element.folderContent|length > 0) and (element.contains == 'pages') %}
+        {% set isExpanded = element.active or element.activeParent %}
 
         {% if element.activeParent %}
-			<li class="bt bb margin-bottom-1 {{ element.elementType }} level-{{ depth }} activeParent">
+			<li class="bt bb margin-bottom-1 {{ element.elementType }} level-{{ depth }} activeParent{{ hasChildren ? (isExpanded ? ' is-expanded' : ' is-collapsed') : '' }}">
 		{% elseif element.active %}
-			<li class="bt bb margin-bottom-1 {{ element.elementType }} level-{{ depth }} active">
+			<li class="bt bb margin-bottom-1 {{ element.elementType }} level-{{ depth }} active{{ hasChildren ? (isExpanded ? ' is-expanded' : ' is-collapsed') : '' }}">
 		{% else %}
-			<li class="bt bb margin-bottom-1 {{ element.elementType }} level-{{ depth }}">
+			<li class="bt bb margin-bottom-1 {{ element.elementType }} level-{{ depth }}{{ hasChildren ? (isExpanded ? ' is-expanded' : ' is-collapsed') : '' }}">
 		{% endif %}
         
-        {% if (element.elementType == 'folder') %}
-				<a class="link dib w-100 relative fw7 pv2 pr2 indent-l-{{depth}} margin-bottom-1 arrow-after" href="{{ element.urlRel }}">{% if chapnum %}{{ element.chapter }}. {% endif %}{{ element.name }}</a>
-		{% if (element.folderContent|length > 0) and (element.contains == 'pages') %}	
-                <ul class="list pa0">
-                    {{ macros.loop_over(element.folderContent, chapnum) }}
-                </ul>
-		{% endif %}
-            {% else %}
-				<a class="link dib w-100 relative fw3 pv2 pr2 indent-l-{{depth}} margin-bottom-1 arrow-after" href="{{ element.urlRel }}">{% if chapnum %}{{ element.chapter }} {% endif %}{{ element.name }}</a>
-            {% endif %}
+        {% if hasChildren %}
+            <div class="nav-folder-row flex items-stretch w-100 relative margin-bottom-1 indent-l-{{depth}}">
+                {# Phần đầu mục: Click vào đây vào thẳng trang của mục đó #}
+                <a class="nav-head-link flex items-center justify-center" 
+                   href="{{ element.urlRel }}" 
+                   title="Vào thẳng trang: {{ element.name|e }}" 
+                   aria-label="Vào thẳng trang: {{ element.name|e }}">
+                    <span class="nav-head-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                        </svg>
+                    </span>
+                </a>
+
+                {# Giữa mục và mũi tên: Click vào đây mở rộng / thu lại phân cấp #}
+                <button type="button" 
+                        class="nav-folder-toggle flex-auto flex items-center justify-between pointer bn bg-transparent tl" 
+                        aria-expanded="{{ isExpanded ? 'true' : 'false' }}"
+                        title="Bấm để {{ isExpanded ? 'thu lại' : 'mở rộng' }} mục {{ element.name|e }}">
+                    <span class="nav-folder-title">{% if chapnum %}{{ element.chapter }}. {% endif %}{{ element.name }}</span>
+                    <span class="nav-folder-arrow" aria-hidden="true">›</span>
+                </button>
+            </div>
+            
+            <ul class="list pa0 nav-sublist">
+                {{ macros.loop_over(element.folderContent, chapnum) }}
+            </ul>
+        {% else %}
+            {# Mục nhỏ hoặc mục không còn phân cấp: vào thẳng link #}
+            <a class="nav-leaf-link link dib w-100 relative fw3 pv2 pr2 indent-l-{{depth}} margin-bottom-1 arrow-after" href="{{ element.urlRel }}">
+                {% if chapnum %}{{ element.chapter }} {% endif %}{{ element.name }}
+            </a>
+        {% endif %}
         </li>
     {% endfor %}
 {% endmacro %}
