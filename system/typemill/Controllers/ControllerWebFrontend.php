@@ -346,44 +346,93 @@ class ControllerWebFrontend extends Controller
 		{
 			$assets->addMeta('noindex','<meta name="robots" content="noindex">');
 		}
-		$assets->addMeta('og_site_name','<meta property="og:site_name" content="' . htmlspecialchars($this->settings['title'], ENT_QUOTES, 'UTF-8') . '">');
-		$assets->addMeta('og_title','<meta property="og:title" content="' . htmlspecialchars($metadata['meta']['title'], ENT_QUOTES, 'UTF-8') . '">');
-		$assets->addMeta('og_description','<meta property="og:description" content="' . htmlspecialchars($metadata['meta']['description'], ENT_QUOTES, 'UTF-8') . '">');
-		$assets->addMeta('og_type','<meta property="og:type" content="article">');
-		$assets->addMeta('og_url','<meta property="og:url" content="' . htmlspecialchars($item->urlAbs, ENT_QUOTES, 'UTF-8') . '">');
 
+		$pageTitle = !empty($metadata['meta']['title']) ? $metadata['meta']['title'] : ($this->settings['title'] ?? 'Thư Viện Phật Pháp');
+		$pageDesc = !empty($metadata['meta']['description']) ? $metadata['meta']['description'] : ($this->settings['description'] ?? $pageTitle);
 
-		# meta image
-		$metaImageUrl = $metadata['meta']['heroimage'] ?? false;
-		$metaImageAlt = $metadata['meta']['heroimagealt'] ?? false;
-		if(!$metaImageUrl OR $metaImageUrl == '')
+		$assets->addMeta('og_site_name','<meta property="og:site_name" content="' . htmlspecialchars($this->settings['title'] ?? '', ENT_QUOTES, 'UTF-8') . '">');
+		$assets->addMeta('og_title','<meta property="og:title" content="' . htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') . '">');
+		$assets->addMeta('og_description','<meta property="og:description" content="' . htmlspecialchars($pageDesc, ENT_QUOTES, 'UTF-8') . '">');
+		$assets->addMeta('og_type','<meta property="og:type" content="' . ($home ? 'website' : 'article') . '">');
+		$assets->addMeta('og_url','<meta property="og:url" content="' . htmlspecialchars($item->urlAbs ?? $fullUrl, ENT_QUOTES, 'UTF-8') . '">');
+
+		# meta preview image for social sharing
+		$itemUrl = $item->urlRelWoF ?? $url;
+		$itemPath = $item->path ?? '';
+
+		$isBuhd = (
+			stripos($url, 'bao-ung-hien-doi') !== false ||
+			stripos($url, 'buhd') !== false ||
+			stripos($itemUrl, 'bao-ung-hien-doi') !== false ||
+			stripos($itemUrl, 'buhd') !== false ||
+			stripos($itemPath, 'bao-ung-hien-doi') !== false ||
+			stripos($itemPath, 'buhd') !== false ||
+			stripos($pageTitle, 'báo ứng hiện đời') !== false ||
+			stripos($pageTitle, 'buhd') !== false
+		);
+
+		if($isBuhd)
 		{
-			# extract first image from content
-			$firstImageMD = $content->getFirstImage($contentArray);
-			if($firstImageMD)
+			$metaImageUrl = 'media/thumbs/buhd.jpeg';
+			$metaImageAlt = 'Báo Ứng Hiện Đời';
+		}
+		else
+		{
+			$metaImageUrl = $metadata['meta']['heroimage'] ?? false;
+			$metaImageAlt = $metadata['meta']['heroimagealt'] ?? false;
+			if(!$metaImageUrl OR $metaImageUrl == '')
 			{
-				preg_match('#\((.*?)\)#', $firstImageMD, $img_url_result);
-				$metaImageUrl = isset($img_url_result[1]) ? $img_url_result[1] : false;
-				if($metaImageUrl)
+				# extract first image from content
+				$firstImageMD = $content->getFirstImage($contentArray);
+				if($firstImageMD)
 				{
-					preg_match('#\[(.*?)\]#', $firstImageMD, $img_alt_result);
-					$metaImageAlt = isset($img_alt_result[1]) ? $img_alt_result[1] : false;
+					preg_match('#\((.*?)\)#', $firstImageMD, $img_url_result);
+					$metaImageUrl = isset($img_url_result[1]) ? $img_url_result[1] : false;
+					if($metaImageUrl)
+					{
+						preg_match('#\[(.*?)\]#', $firstImageMD, $img_alt_result);
+						$metaImageAlt = isset($img_alt_result[1]) ? $img_alt_result[1] : false;
+					}
+				}
+				elseif($logo)
+				{
+					$metaImageUrl = $logo;
+					$pathinfo = pathinfo($this->settings['logo']);
+					$metaImageAlt = $pathinfo['filename'];
+				}
+				else
+				{
+					# Default website preview image
+					$metaImageUrl = 'media/thumbs/sen-adida-phat.jpg';
+					$metaImageAlt = $pageTitle;
 				}
 			}
-			elseif($logo)
-			{
-				$metaImageUrl = $logo;
-				$pathinfo = pathinfo($this->settings['logo']);
-				$metaImageAlt = $pathinfo['filename'];
-			}
-		}
-		if($metaImageUrl)
-		{
-			$assets->addMeta('og_image','<meta property="og:image" content="' . htmlspecialchars($urlinfo['baseurl'] . '/' . $metaImageUrl, ENT_QUOTES, 'UTF-8') . '">');
-			$assets->addMeta('twitter_image_alt','<meta name="twitter:image:alt" content="' . htmlspecialchars($metaImageAlt, ENT_QUOTES, 'UTF-8') . '">');
-			$assets->addMeta('twitter_card','<meta name="twitter:card" content="summary_large_image">');
 		}
 
+		if($metaImageUrl)
+		{
+			if(strpos($metaImageUrl, 'http://') === 0 || strpos($metaImageUrl, 'https://') === 0)
+			{
+				$fullMetaImageUrl = $metaImageUrl;
+			}
+			else
+			{
+				$cleanImagePath = ltrim($metaImageUrl, '/');
+				$fullMetaImageUrl = rtrim($urlinfo['baseurl'], '/') . '/' . $cleanImagePath;
+			}
+
+			$assets->addMeta('og_image','<meta property="og:image" content="' . htmlspecialchars($fullMetaImageUrl, ENT_QUOTES, 'UTF-8') . '">');
+			$assets->addMeta('og_image_secure','<meta property="og:image:secure_url" content="' . htmlspecialchars($fullMetaImageUrl, ENT_QUOTES, 'UTF-8') . '">');
+			$assets->addMeta('twitter_card','<meta name="twitter:card" content="summary_large_image">');
+			$assets->addMeta('twitter_title','<meta name="twitter:title" content="' . htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') . '">');
+			$assets->addMeta('twitter_description','<meta name="twitter:description" content="' . htmlspecialchars($pageDesc, ENT_QUOTES, 'UTF-8') . '">');
+			$assets->addMeta('twitter_image','<meta name="twitter:image" content="' . htmlspecialchars($fullMetaImageUrl, ENT_QUOTES, 'UTF-8') . '">');
+			if($metaImageAlt)
+			{
+				$assets->addMeta('twitter_image_alt','<meta name="twitter:image:alt" content="' . htmlspecialchars($metaImageAlt, ENT_QUOTES, 'UTF-8') . '">');
+			}
+			$assets->addMeta('image_src','<link rel="image_src" href="' . htmlspecialchars($fullMetaImageUrl, ENT_QUOTES, 'UTF-8') . '">');
+		}
 		$notice = $this->missingRessources();
 		if($notice !== false)
 		{
