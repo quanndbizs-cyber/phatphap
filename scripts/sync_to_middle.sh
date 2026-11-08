@@ -57,6 +57,7 @@ echo -e "\n${YELLOW}-> BƯỚC 1: Đang sao chép settings, media vào content/m
 # BƯỚC 2: KIỂM TRA THAY ĐỔI TRONG CONTENT WORKTREE
 echo -e "\n${YELLOW}-> BƯỚC 2: Kiểm tra trạng thái Git trong thư mục content/...${NC}"
 cd "$BASE_DIR/content"
+rm -f .git/index.lock 2>/dev/null || true
 
 # Stage tất cả các thay đổi (bao gồm bài viết mới, ảnh mới và middle_sync)
 git add -A
@@ -80,20 +81,19 @@ else
     echo -e "\n${YELLOW}-> BƯỚC 3: Đang commit vào nhánh 'content'...${NC}"
     git commit -m "$COMMIT_MSG"
     echo -e "${GREEN}✓ Đã tạo commit thành công:${NC} $COMMIT_MSG"
+fi
 
-    # BƯỚC 4: PUSH LÊN GITHUB
-    echo -e "\n${YELLOW}-> BƯỚC 4: Đang đẩy lên GitHub (origin content)...${NC}"
-    if git push origin content; then
-        echo -e "${GREEN}==================================================================${NC}"
-        echo -e "${GREEN}🎉 ĐỒNG BỘ VÀ PUSH LÊN GITHUB THÀNH CÔNG!${NC}"
-        echo -e "   Nhánh   : content"
-        echo -e "   Commit  : $COMMIT_MSG"
-        echo -e "   Server deploy bây giờ đã sẵn sàng để pull về."
-        echo -e "${GREEN}==================================================================${NC}"
-    else
-        echo -e "${RED}⚠️  Không thể tự động push lên GitHub (kiểm tra kết nối mạng/credentials).${NC}"
-        echo -e "   Bạn có thể tự chạy lệnh: ${CYAN}cd $BASE_DIR/content && git push origin content${NC}"
-    fi
+# BƯỚC 4: PUSH LÊN GITHUB
+echo -e "\n${YELLOW}-> BƯỚC 4: Đang đẩy lên GitHub (origin content)...${NC}"
+if git push origin content; then
+    echo -e "${GREEN}==================================================================${NC}"
+    echo -e "${GREEN}🎉 ĐỒNG BỘ VÀ PUSH LÊN GITHUB THÀNH CÔNG!${NC}"
+    echo -e "   Nhánh   : content"
+    echo -e "   Server deploy bây giờ đã sẵn sàng để pull về."
+    echo -e "${GREEN}==================================================================${NC}"
+else
+    echo -e "${RED}⚠️  Không thể tự động push lên GitHub (kiểm tra kết nối mạng/credentials).${NC}"
+    echo -e "   Bạn có thể tự chạy lệnh: ${CYAN}cd $BASE_DIR/content && git push origin content${NC}"
 fi
 
 cd "$BASE_DIR"

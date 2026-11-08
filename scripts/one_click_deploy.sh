@@ -35,26 +35,27 @@ echo "=================================================================="
 echo "🚀 [1-CLICK DEPLOY] BẮT ĐẦU QUY TRÌNH DEPLOY..."
 echo "=================================================================="
 
-# BƯỚC 1: ĐÓNG GÓI VÀO CONTENT/MIDDLE_SYNC
-echo "-> BƯỚC 1: Đóng gói media, settings vào content/middle_sync/ (KHÔNG copy plugins)..."
-"$BASE_DIR/scripts/pack_middle_sync.sh"
-
-# BƯỚC 2: COMMIT VÀ PUSH NHÁNH CONTENT
-echo -e "\n-> BƯỚC 2: Tự động commit & push nhánh content lên Git..."
-cd "$BASE_DIR/content"
-
-# Stage tất cả các file trong content bao gồm middle_sync
-git add -A
-
-if git diff --staged --quiet; then
-    echo "   [i] Không có thay đổi mới trong content/ để commit."
+# BƯỚC 1: ĐỒNG BỘ VÀO CONTENT/MIDDLE_SYNC & PUSH NHÁNH CONTENT
+echo "-> BƯỚC 1: Chạy sync_to_middle.sh (đóng gói media, settings vào content/middle_sync/ & push content)..."
+if [ -f "$BASE_DIR/scripts/sync_to_middle.sh" ]; then
+    "$BASE_DIR/scripts/sync_to_middle.sh" $PROD_FLAG
 else
-    COMMIT_MSG="Sync middle_sync & content: $(date '+%Y-%m-%d %H:%M:%S')"
-    git commit -m "$COMMIT_MSG"
-    echo "   [✓] Đã tạo commit content: $COMMIT_MSG"
-    echo "   [i] Đang push lên Git remote origin content..."
+    "$BASE_DIR/scripts/pack_middle_sync.sh" $PROD_FLAG
+    cd "$BASE_DIR/content"
+    rm -f .git/index.lock 2>/dev/null || true
+    git add -A
+    if ! git diff --staged --quiet; then
+        COMMIT_MSG="Sync middle_sync & content: $(date '+%Y-%m-%d %H:%M:%S')"
+        git commit -m "$COMMIT_MSG"
+        echo "   [✓] Đã tạo commit content: $COMMIT_MSG"
+    fi
     git push origin content
-    echo "   [✓] Đã push nhánh content thành công lên GitHub!"
+fi
+
+# BƯỚC 1b: TÁI TẠO SEARCH INDEX TOÀN TRANG
+if [ -f "$BASE_DIR/scripts/build_search_index.php" ] && command -v php >/dev/null 2>&1; then
+    echo -e "\n-> BƯỚC 1b: Tái tạo client search-index.json..."
+    php "$BASE_DIR/scripts/build_search_index.php" || true
 fi
 
 # BƯỚC 2b: COMMIT VÀ PUSH NHÁNH MAIN (v2.x)

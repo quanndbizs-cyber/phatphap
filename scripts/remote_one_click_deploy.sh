@@ -264,27 +264,27 @@ run_local_and_trigger_remote() {
 
     # 2. Đóng gói middle_sync và Git Push nếu không có cờ --skip-push
     if [[ "$SKIP_PUSH" == false ]]; then
-        # 2.1 Đóng gói media, plugins vào content/middle_sync/
-        echo -e "\n\033[1;34m-> BƯỚC 1: Đóng gói media & plugins vào content/middle_sync/...\033[0m"
-        if [[ -f "$BASE_DIR/scripts/pack_middle_sync.sh" ]]; then
+        # 2.1 Đồng bộ và đóng gói dữ liệu vào content/middle_sync/ qua sync_to_middle.sh
+        echo -e "\n\033[1;34m-> BƯỚC 1: Chạy sync_to_middle.sh (đóng gói media, settings vào content/middle_sync/ & push content)...\033[0m"
+        if [[ -f "$BASE_DIR/scripts/sync_to_middle.sh" ]]; then
+            bash "$BASE_DIR/scripts/sync_to_middle.sh"
+        elif [[ -f "$BASE_DIR/scripts/pack_middle_sync.sh" ]]; then
             bash "$BASE_DIR/scripts/pack_middle_sync.sh"
+            cd "$BASE_DIR/content"
+            rm -f .git/index.lock 2>/dev/null || true
+            git add -A
+            if ! git diff --staged --quiet; then
+                git commit -m "Sync middle_sync & content: $(date '+%Y-%m-%d %H:%M:%S')"
+            fi
+            git push origin content
+            cd "$BASE_DIR"
         fi
 
-        # 2.2 Commit & Push nhánh content
-        echo -e "\n\033[1;34m-> BƯỚC 2: Kiểm tra & Push Git repository content...\033[0m"
-        cd "$BASE_DIR/content"
-        rm -f .git/index.lock 2>/dev/null || true
-        git add -A
-        if git diff --staged --quiet; then
-            echo "   [i] Nhánh content không có thay đổi mới chưa commit."
-        else
-            COMMIT_MSG="Sync middle_sync & content: $(date '+%Y-%m-%d %H:%M:%S')"
-            git commit -m "$COMMIT_MSG"
-            echo "   [✓] Đã tạo commit content: $COMMIT_MSG"
+        # 2.2 Tái tạo Search Index toàn trang (nếu có script)
+        if [[ -f "$BASE_DIR/scripts/build_search_index.php" ]] && command -v php >/dev/null 2>&1; then
+            echo -e "\n\033[1;34m-> BƯỚC 2: Tái tạo client search-index.json...\033[0m"
+            php "$BASE_DIR/scripts/build_search_index.php" || true
         fi
-        echo "   [i] Đang push nhánh content lên origin content..."
-        git push origin content
-        echo -e "   \033[1;32m[✓] Nhánh content đã được push thành công lên GitHub!\033[0m"
 
         # 2.3 Commit & Push nhánh Web root (v2.x)
         echo -e "\n\033[1;34m-> BƯỚC 3: Kiểm tra & Push Git Web root...\033[0m"
