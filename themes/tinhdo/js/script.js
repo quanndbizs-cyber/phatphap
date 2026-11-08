@@ -480,10 +480,95 @@
     }
   }
 
+  function initTopDropdownAndFloatingDock() {
+    // 1. Top menu dropdown ("Danh mục chính")
+    var topDropdown = document.getElementById('tm-top-dropdown');
+    var topDropdownBtn = document.getElementById('tm-top-dropdown-btn');
+    if (topDropdown && topDropdownBtn) {
+      topDropdownBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var isOpen = topDropdown.classList.toggle('is-open');
+        topDropdownBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+
+      document.addEventListener('click', function(e) {
+        if (!topDropdown.contains(e.target) && topDropdown.classList.contains('is-open')) {
+          topDropdown.classList.remove('is-open');
+          topDropdownBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && topDropdown.classList.contains('is-open')) {
+          topDropdown.classList.remove('is-open');
+          topDropdownBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
+    // 2. Floating font bar right-edge auto-show/hide
+    var floatBar = document.getElementById('tm-floating-font-bar');
+    var dockToggle = document.getElementById('tm-float-dock-toggle');
+    if (floatBar && dockToggle) {
+      var dockTimer = null;
+      var resetDockTimer = function() {
+        clearTimeout(dockTimer);
+        if (floatBar.classList.contains('tm-dock-expanded')) {
+          dockTimer = setTimeout(function() {
+            floatBar.classList.remove('tm-dock-expanded');
+            floatBar.classList.add('tm-dock-collapsed');
+            dockToggle.setAttribute('aria-expanded', 'false');
+          }, 5000);
+        }
+      };
+
+      dockToggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var isExpanded = floatBar.classList.toggle('tm-dock-expanded');
+        floatBar.classList.toggle('tm-dock-collapsed', !isExpanded);
+        dockToggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+        if (isExpanded) {
+          resetDockTimer();
+        } else {
+          clearTimeout(dockTimer);
+        }
+      });
+
+      floatBar.addEventListener('click', function() {
+        if (floatBar.classList.contains('tm-dock-expanded')) {
+          resetDockTimer();
+        }
+      });
+
+      document.addEventListener('click', function(e) {
+        if (!floatBar.contains(e.target) && floatBar.classList.contains('tm-dock-expanded')) {
+          floatBar.classList.remove('tm-dock-expanded');
+          floatBar.classList.add('tm-dock-collapsed');
+          dockToggle.setAttribute('aria-expanded', 'false');
+          clearTimeout(dockTimer);
+        }
+      });
+
+      var scrollTimer = null;
+      window.addEventListener('scroll', function() {
+        if (!floatBar.classList.contains('tm-dock-expanded')) {
+          floatBar.classList.add('tm-scrolling-hide');
+          clearTimeout(scrollTimer);
+          scrollTimer = setTimeout(function() {
+            floatBar.classList.remove('tm-scrolling-hide');
+          }, 600);
+        }
+      }, { passive: true });
+    }
+  }
+
   function initAll() {
     initMobileMenu();
     initNavigationAccordion();
     initFontSizeController();
+    initTopDropdownAndFloatingDock();
     initResponsiveTables();
     initDropcapNotes();
   }

@@ -79,10 +79,10 @@
 
 		{% block stylesheets %}
     
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tachyons.min.css?20261108b" />
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/style.css?20261108b" />
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tinhdo.css?20261108b" />
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/search.css?20261108b" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tachyons.min.css?20261109a" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/style.css?20261109a" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tinhdo.css?20261109a" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/search.css?20261109a" />
 			
 			<style>
 
@@ -278,23 +278,29 @@
 
 		{% block content %}{% endblock %}
 
-		{# Floating font size & reading controls for readers (especially elderly readers) #}
-		<aside id="tm-floating-font-bar" class="tm-floating-font-bar" aria-label="Điều chỉnh đọc kinh & sách">
-			{# 1 Button A+ chu kỳ tăng & reset #}
-			<button type="button" class="tm-float-font-btn tm-font-cycle-btn" title="Tăng cỡ chữ (A+) — chạm mốc tối đa sẽ quay về 100%" aria-label="Tăng cỡ chữ">
-				<span class="tm-font-cycle-label">A+</span>
-				<span class="tm-font-scale-badge tm-font-scale-text">100%</span>
+		{# Floating font size & reading controls for readers (auto-collapses to right edge) #}
+		<aside id="tm-floating-font-bar" class="tm-floating-font-bar tm-dock-collapsed" aria-label="Điều chỉnh đọc kinh & sách">
+			<button type="button" class="tm-float-dock-toggle" id="tm-float-dock-toggle" title="Mở/Đóng công cụ cỡ chữ & chế độ đọc" aria-label="Mở/Đóng công cụ cỡ chữ" aria-expanded="false">
+				<span class="tm-dock-toggle-text">Aa</span>
+				<span class="tm-dock-toggle-arrow" aria-hidden="true">◂</span>
 			</button>
-			{# Chế độ đọc ban đêm (icon mặt trăng khuyết) #}
-			<button type="button" class="tm-float-font-btn tm-night-mode-btn" title="Chế độ đọc ban đêm (dịu mắt)" aria-label="Chế độ đọc ban đêm">
-				<span class="tm-night-icon" aria-hidden="true">🌙</span>
-			</button>
-			{% if theme.elderlyModeSupport %}
-			{# Chế độ Chữ Lớn Toàn Diện cho Người Cao Tuổi #}
-			<button type="button" class="tm-float-font-btn tm-elderly-mode-btn" title="Chế độ Chữ Lớn & Nút Bấm To cho Người Cao Tuổi" aria-label="Chế độ chữ lớn người cao tuổi">
-				<span class="tm-elderly-icon" aria-hidden="true">👓</span>
-			</button>
-			{% endif %}
+			<div class="tm-float-font-tools" id="tm-float-font-tools">
+				{# 1 Button A+ chu kỳ tăng & reset #}
+				<button type="button" class="tm-float-font-btn tm-font-cycle-btn" title="Tăng cỡ chữ (A+) — chạm mốc tối đa sẽ quay về 100%" aria-label="Tăng cỡ chữ">
+					<span class="tm-font-cycle-label">A+</span>
+					<span class="tm-font-scale-badge tm-font-scale-text">100%</span>
+				</button>
+				{# Chế độ đọc ban đêm (icon mặt trăng khuyết) #}
+				<button type="button" class="tm-float-font-btn tm-night-mode-btn" title="Chế độ đọc ban đêm (dịu mắt)" aria-label="Chế độ đọc ban đêm">
+					<span class="tm-night-icon" aria-hidden="true">🌙</span>
+				</button>
+				{% if theme.elderlyModeSupport %}
+				{# Chế độ Chữ Lớn Toàn Diện cho Người Cao Tuổi #}
+				<button type="button" class="tm-float-font-btn tm-elderly-mode-btn" title="Chế độ Chữ Lớn & Nút Bấm To cho Người Cao Tuổi" aria-label="Chế độ chữ lớn người cao tuổi">
+					<span class="tm-elderly-icon" aria-hidden="true">👓</span>
+				</button>
+				{% endif %}
+			</div>
 		</aside>
 			
 		{% include 'partials/footer.twig' %}
@@ -331,8 +337,8 @@
 				</script>
 			{% endif %}
 
-			<script src="{{ base_url }}/themes/tinhdo/js/script.js?20261108b"></script>
-			<script src="{{ base_url }}/themes/tinhdo/js/search.js?20261108b"></script>
+			<script src="{{ base_url }}/themes/tinhdo/js/script.js?20261109a"></script>
+			<script src="{{ base_url }}/themes/tinhdo/js/search.js?20261109a"></script>
 			{{ assets.renderJS() }}
 		
 		{% endblock %}

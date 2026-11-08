@@ -39,8 +39,31 @@
 				{% endif %}
 			</div>
 			<span class="mantra-badge">☸ Nam Mô A Di Đà Phật</span>
-			<a href="{{ base_url }}/phat-giao/cac-bai-khai-thi" class="tinhdo-quick-pill">Chuyên Tu Tịnh Độ</a>
-			<a href="{{ base_url }}/nhan-qua/bao-ung-hien-doi-tuyen-tap" class="tinhdo-quick-pill">Báo Ứng Hiện Đời</a>
+			<div class="tinhdo-top-dropdown" id="tm-top-dropdown">
+				<button type="button" class="tinhdo-top-dropdown-btn" id="tm-top-dropdown-btn" aria-haspopup="true" aria-expanded="false">
+					<span class="tinhdo-dropdown-icon" aria-hidden="true">🪷</span>
+					<span class="tinhdo-dropdown-label">Danh mục chính</span>
+					<span class="tinhdo-dropdown-caret" aria-hidden="true">▾</span>
+				</button>
+				<div class="tinhdo-top-dropdown-menu" id="tm-top-dropdown-menu" role="menu" aria-label="Danh mục chính">
+					<a href="{{ base_url }}/phat-giao/cac-bai-khai-thi" class="tinhdo-top-dropdown-item" role="menuitem">
+						<span class="tinhdo-dd-num">1.</span>
+						<span class="tinhdo-dd-text">Các bài khai thị</span>
+					</a>
+					<a href="{{ base_url }}/phat-giao/khuyen-nguoi-niem-phat" class="tinhdo-top-dropdown-item" role="menuitem">
+						<span class="tinhdo-dd-num">2.</span>
+						<span class="tinhdo-dd-text">Khuyên người niệm Phật</span>
+					</a>
+					<a href="{{ base_url }}/nhan-qua/bao-ung-hien-doi-tuyen-tap" class="tinhdo-top-dropdown-item" role="menuitem">
+						<span class="tinhdo-dd-num">3.</span>
+						<span class="tinhdo-dd-text">Báo Ứng Hiện Đời (BUHD)</span>
+					</a>
+					<a href="{{ base_url }}/phat-giao/kinh-phap-cu" class="tinhdo-top-dropdown-item" role="menuitem">
+						<span class="tinhdo-dd-num">4.</span>
+						<span class="tinhdo-dd-text">Kinh Pháp Cú</span>
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

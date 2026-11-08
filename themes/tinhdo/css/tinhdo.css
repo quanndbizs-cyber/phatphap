@@ -124,6 +124,113 @@ h1, h2, h3, h4, h5, h6, .logo, .tinhdo-sanctuary-title, .board-pillar .pillar-vn
 	color: #fff !important;
 }
 
+/* Top Bar Dropdown Menu for Main Sections (Danh mục chính) */
+.tinhdo-top-dropdown {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+}
+
+.tinhdo-top-dropdown-btn {
+	display: inline-flex !important;
+	align-items: center;
+	gap: 0.4rem;
+	font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 0.84rem !important;
+	font-weight: 700 !important;
+	color: #fceec7 !important;
+	background: linear-gradient(135deg, rgba(110, 43, 25, 0.85) 0%, rgba(70, 26, 15, 0.92) 100%) !important;
+	border: 1.5px solid #d4af37 !important;
+	padding: 0.28rem 0.85rem !important;
+	border-radius: 999px !important;
+	cursor: pointer;
+	line-height: 1.35 !important;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 246, 214, 0.2) !important;
+	transition: all 0.18s ease;
+}
+
+.tinhdo-top-dropdown-btn:hover,
+.tinhdo-top-dropdown.is-open .tinhdo-top-dropdown-btn {
+	background: linear-gradient(135deg, #8c3b19 0%, #632412 100%) !important;
+	border-color: #f6d57a !important;
+	color: #ffffff !important;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45), 0 0 10px rgba(212, 175, 55, 0.35) !important;
+}
+
+.tinhdo-dropdown-caret {
+	font-size: 0.78rem;
+	color: #f5d061;
+	transition: transform 0.2s ease;
+}
+
+.tinhdo-top-dropdown.is-open .tinhdo-dropdown-caret {
+	transform: rotate(180deg);
+}
+
+.tinhdo-top-dropdown-menu {
+	position: absolute;
+	top: calc(100% + 8px);
+	right: 0;
+	min-width: 260px;
+	background: linear-gradient(180deg, #2d160e 0%, #1d0e09 100%);
+	border: 1.5px solid #d4af37;
+	border-radius: 12px;
+	padding: 0.45rem;
+	box-shadow: 0 14px 36px rgba(0, 0, 0, 0.65), 0 0 16px rgba(212, 175, 55, 0.22);
+	z-index: 99998;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(-6px);
+	transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+}
+
+.tinhdo-top-dropdown:hover .tinhdo-top-dropdown-menu,
+.tinhdo-top-dropdown:focus-within .tinhdo-top-dropdown-menu,
+.tinhdo-top-dropdown.is-open .tinhdo-top-dropdown-menu {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+
+.tinhdo-top-dropdown-item {
+	display: flex !important;
+	align-items: center;
+	gap: 0.55rem;
+	padding: 0.58rem 0.85rem;
+	border-radius: 8px;
+	color: #fff4da !important;
+	text-decoration: none !important;
+	font-size: 0.9rem;
+	font-weight: 600;
+	border-bottom: 1px solid rgba(212, 175, 55, 0.14);
+	transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.tinhdo-top-dropdown-item:last-child {
+	border-bottom: none;
+}
+
+.tinhdo-top-dropdown-item:hover,
+.tinhdo-top-dropdown-item:focus {
+	background: linear-gradient(90deg, rgba(201, 151, 44, 0.26) 0%, rgba(140, 59, 25, 0.45) 100%);
+	color: #ffe999 !important;
+	transform: translateX(2px);
+}
+
+.tinhdo-dd-num {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 22px;
+	height: 22px;
+	border-radius: 6px;
+	background: rgba(212, 175, 55, 0.18);
+	border: 1px solid rgba(212, 175, 55, 0.4);
+	color: #f5d061;
+	font-size: 0.76rem;
+	font-weight: 700;
+}
+
 /* Sacred Plaque Strip across all pages */
 .tinhdo-plaque-strip {
 	background: linear-gradient(90deg, #331910 0%, #4e2215 50%, #331910 100%);
@@ -1318,28 +1425,99 @@ li.folder.is-expanded > .nav-folder-row .nav-folder-arrow,
 	padding: 0.32rem 0.65rem;
 }
 
-/* 3. Floating Font Bar (Cố định góc phải màn hình, thuận tiện khi cuộn bài) */
+/* 3. Floating Font Bar (Gọn gàng bên mép phải màn hình, tự động hiện/ẩn tránh chiếm không gian & chèn thanh công cụ) */
 .tm-floating-font-bar {
 	position: fixed;
-	bottom: 22px;
-	right: 22px;
+	bottom: 84px;
+	right: 0;
 	z-index: 9990;
 	display: inline-flex;
 	align-items: center;
-	gap: 3px;
-	background: rgba(40, 19, 13, 0.94);
+	gap: 0;
+	background: rgba(38, 18, 12, 0.96);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 	border: 1.5px solid #d4af37;
-	border-radius: 30px;
-	padding: 4px 8px;
-	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 240, 200, 0.15);
-	transition: all 0.2s ease;
+	border-right: none;
+	border-radius: 26px 0 0 26px;
+	padding: 4px 6px 4px 5px;
+	box-shadow: -4px 6px 20px rgba(0, 0, 0, 0.48), 0 0 0 1px rgba(255, 240, 200, 0.14);
+	transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
 }
 
-.tm-floating-font-bar:hover {
-	box-shadow: 0 6px 22px rgba(0, 0, 0, 0.55), 0 0 12px rgba(212, 175, 55, 0.4);
+.tm-floating-font-bar:hover,
+.tm-floating-font-bar.tm-dock-expanded {
+	box-shadow: -6px 8px 24px rgba(0, 0, 0, 0.58), 0 0 14px rgba(212, 175, 55, 0.4);
 	border-color: #f7d56e;
+}
+
+.tm-float-dock-toggle {
+	display: inline-flex !important;
+	align-items: center;
+	justify-content: center;
+	gap: 3px;
+	background: linear-gradient(135deg, #6e2b19 0%, #44180d 100%) !important;
+	color: #fceec7 !important;
+	border: 1px solid rgba(245, 208, 97, 0.55) !important;
+	border-radius: 20px !important;
+	padding: 5px 9px !important;
+	min-height: 32px !important;
+	font-size: 0.84rem !important;
+	font-weight: 800 !important;
+	cursor: pointer;
+	line-height: 1.1 !important;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35) !important;
+	transition: all 0.18s ease;
+	flex-shrink: 0;
+}
+
+.tm-float-dock-toggle:hover {
+	background: linear-gradient(135deg, #8c3b19 0%, #5a2212 100%) !important;
+	border-color: #ffe285 !important;
+	color: #ffffff !important;
+}
+
+.tm-dock-toggle-arrow {
+	font-size: 0.78rem;
+	color: #f5d061;
+	transition: transform 0.25s ease;
+}
+
+.tm-floating-font-bar.tm-dock-expanded .tm-dock-toggle-arrow,
+.tm-floating-font-bar:hover .tm-dock-toggle-arrow {
+	transform: rotate(180deg);
+}
+
+.tm-float-font-tools {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	overflow: hidden;
+	max-width: 260px;
+	opacity: 1;
+	margin-left: 5px;
+	padding-right: 4px;
+	transition: max-width 0.28s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s ease, margin-left 0.25s ease, padding-right 0.25s ease;
+}
+
+/* Khi thu gọn sang bên phải: chỉ hiện nút mấu Aa ◂ nhỏ gọn sát mép phải */
+.tm-floating-font-bar.tm-dock-collapsed:not(:hover):not(:focus-within):not(.tm-dock-expanded) .tm-float-font-tools {
+	max-width: 0;
+	opacity: 0;
+	margin-left: 0;
+	padding-right: 0;
+	pointer-events: none;
+}
+
+.tm-floating-font-bar.tm-dock-collapsed:not(:hover):not(:focus-within):not(.tm-dock-expanded) {
+	opacity: 0.86;
+	padding-right: 4px;
+}
+
+/* Khi đang cuộn trang nhanh trên mobile, thu nhẹ vào mép phải hơn nữa */
+.tm-floating-font-bar.tm-scrolling-hide:not(:hover):not(.tm-dock-expanded) {
+	transform: translateX(18px);
+	opacity: 0.55;
 }
 
 .tm-float-font-icon {
@@ -1439,9 +1617,9 @@ li.folder.is-expanded > .nav-folder-row .nav-folder-arrow,
 /* Responsive adjustment for Mobile */
 @media screen and (max-width: 50em) {
 	.tm-floating-font-bar {
-		bottom: 16px;
-		right: 14px;
-		padding: 3px 6px;
+		bottom: 78px;
+		right: 0;
+		padding: 3px 5px 3px 4px;
 	}
 	.tm-float-font-btn {
 		padding: 3px 8px;
@@ -1453,8 +1631,8 @@ li.folder.is-expanded > .nav-folder-row .nav-folder-arrow,
 		min-width: 38px;
 	}
 	.tm-font-toast {
-		bottom: 64px;
-		right: 14px;
+		bottom: 126px;
+		right: 12px;
 		font-size: 0.82rem;
 		padding: 5px 12px;
 	}
