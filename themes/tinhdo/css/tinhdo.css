@@ -597,9 +597,78 @@ article hr::after {
 	font-weight: 600;
 }
 
+/* Card thông tin chung đầu mỗi bài kinh (Dịch giả, xuất xứ, bản dịch Hán...) */
+.sutra-meta {
+	background: linear-gradient(135deg, rgba(251, 245, 232, 0.75) 0%, rgba(255, 253, 248, 0.95) 100%);
+	border: 1px solid var(--td-border, #dfd1b8);
+	border-left: 3px solid var(--td-gold, #c9972c);
+	border-radius: 8px;
+	padding: 0.75rem 1.15rem;
+	margin: 1.25rem 0 1.65rem 0;
+	font-size: 0.92rem;
+	line-height: 1.65;
+	color: var(--td-ink-muted, #5c4738);
+	box-shadow: 0 2px 8px rgba(60, 30, 10, 0.03);
+}
+
+.sutra-meta p {
+	margin: 0.2rem 0 !important;
+	padding: 0 !important;
+	font-size: inherit !important;
+	line-height: inherit !important;
+}
+
+.sutra-meta strong {
+	color: var(--td-mahogany, #5a2216);
+	font-weight: 600;
+}
+
+.sutra-meta em {
+	color: var(--td-ink-muted, #5c4738);
+	font-style: italic;
+}
+
+/* Chế độ ban đêm (Night Mode) cho thẻ thông tin */
+body.tm-night-mode .sutra-meta {
+	background: rgba(35, 23, 16, 0.85) !important;
+	border-color: rgba(201, 151, 44, 0.25) !important;
+	border-left-color: var(--td-gold, #c9972c) !important;
+	color: #d6c6b4 !important;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.tm-night-mode .sutra-meta strong {
+	color: var(--td-gold-bright, #e7c160) !important;
+}
+
+body.tm-night-mode .sutra-meta em {
+	color: #c4b5a5 !important;
+}
+
+/* Đảm bảo tuyệt đối không có drop-cap bên trong thẻ thông tin */
+article .sutra-meta *,
+article .sutra-meta p::first-letter,
+article .sutra-meta::first-letter,
+article .sutra-info *,
+article .sutra-info p::first-letter,
+article .sutra-info::first-letter {
+	float: none !important;
+	font-size: inherit !important;
+	font-family: inherit !important;
+	line-height: inherit !important;
+	color: inherit !important;
+	font-weight: inherit !important;
+	padding: 0 !important;
+	text-shadow: none !important;
+}
+
 /* Beautiful Drop-cap at the beginning of each story */
 article h2 + p::first-letter,
 article h2 + blockquote + p::first-letter,
+article h2 + blockquote + .sutra-meta + p::first-letter,
+article h2 + .sutra-meta + p::first-letter,
+article .sutra-meta + p::first-letter,
+article .sutra-info + p::first-letter,
 article h3 + p::first-letter,
 article .story-dropcap::first-letter {
 	float: left;
