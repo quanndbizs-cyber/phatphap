@@ -10,8 +10,8 @@
 
 ## 1. Khu Vực Chuyên Tu Pháp Môn Tịnh Độ & Pháp Âm Hành Trì
 
-1. **[Đệ Tử Quy (Audio) - Nền Tảng Của Đạo Đức & Tịnh Nghiệp Tam Phước](/phat-giao/de-tu-quy)**: Trình phát trực tiếp 3 bộ bài giảng Đệ Tử Quy (99 bài MP3) của Thầy Thái Lễ Húc & Pháp Sư Ngộ Thông về cái gốc đạo đức làm người.
-2. **[Khuyên Người Niệm Phật (Trọn Bộ 4 Tập) — Cư Sĩ Diệu Âm (Audio • Bài Đọc • Video)](/phat-giao/khuyen-nguoi-niem-phat)**: Tuyển tập 76 bài pháp âm, khai thị hộ niệm và giải đáp thắc mắc tu học Tịnh Độ, tích hợp trình phát Audio MP3, trích đoạn đọc sách và Video minh họa.
+1. **[Khuyên Người Niệm Phật (Trọn Bộ 4 Tập) — Cư Sĩ Diệu Âm (Audio • Bài Đọc • Video)](/phat-giao/khuyen-nguoi-niem-phat)**: Tuyển tập 76 bài pháp âm, khai thị hộ niệm và giải đáp thắc mắc tu học Tịnh Độ, tích hợp trình phát Audio MP3, trích đoạn đọc sách và Video minh họa.
+2. **[Đệ Tử Quy (Audio) - Nền Tảng Của Đạo Đức & Tịnh Nghiệp Tam Phước](/phat-giao/de-tu-quy)**: Trình phát trực tiếp 3 bộ bài giảng Đệ Tử Quy (99 bài MP3) của Thầy Thái Lễ Húc & Pháp Sư Ngộ Thông về cái gốc đạo đức làm người.
 3. **[Nghi Thức Hành Trì & Công Phu Tịnh Tu Niệm Phật Thành Tựu](/phat-giao/nghi-thuc-hanh-tri)**: Cẩm nang toàn diện về thời khóa tịnh tu hằng ngày, văn phát nguyện vãng sinh Tây Phương Cực Lạc, phương pháp Thập Niệm Ký Số của Tổ Ấn Quang và bí quyết nhất hướng chuyên niệm.
 4. **[Các Bài Khai Thị Mẫu & Hộ Niệm Tịnh Độ (Audiobookshelf)](/phat-giao/cac-bai-khai-thi)**: Tuyển tập 50 bài khai thị trợ niệm, nghi thức hành trì và niệm Phật giúp củng cố Tín – Nguyện – Hạnh.
 5. **[Báo Cáo Chuyên Sâu: Căn Nguyên Thảm Họa và Con Đường Giải Thoát Nghiệp Quả](/phat-giao/doi-pho-tham-hoa)**: Phân tích 5 chương dựa trên thông điệp cảnh tỉnh khẩn cấp của Hòa Thượng Tịnh Không.
