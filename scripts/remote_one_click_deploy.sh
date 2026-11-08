@@ -229,7 +229,7 @@ run_server_deployment() {
         exit 1
     fi
 
-    chmod +x "$DEPLOY_SCRIPT"
+    chmod +x "$DEPLOY_SCRIPT" 2>/dev/null || true
     echo "  -> 2.1. Gọi $DEPLOY_SCRIPT..."
     if [[ "$FORCE_PULL" == "true" ]]; then
         bash "$DEPLOY_SCRIPT" --force
