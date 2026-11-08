@@ -4,7 +4,7 @@
 >
 > Toàn văn bản đọc các câu chuyện trong **Báo Ứng Hiện Đời - Tập 5** (35 câu chuyện). Quý đạo hữu có thể dùng mục lục bên dưới để chuyển nhanh đến câu chuyện cần đọc, hoặc bấm vào liên kết nghe audio để vừa đọc vừa nghe giảng giải.
 
-* [← Quay về Trang Audio & Video Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5)
+* [← Quay về Trang Audio & Video Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5)
 * [📚 Đọc Các Tập Khác Trong Trọn Bộ 7 Tập](/nhan-qua/doc-sach)
 
 ---
@@ -51,7 +51,7 @@
 
 ## 1. TÂY DU KÝ VÀ PHONG THẦN {#truyen-1}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Sư phụ, nghe ngài phân tích nhận định truyện Bạch Xà, con cảm thấy rất có lý. Hiện tại con còn vài vấn đề muốn thỉnh giáo sư phụ: Tây Du Ký là bộ truyện trứ danh rất được quần chúng ưa thích, đã dựng thành phim và được bao người hoan nghinh…
 
@@ -130,7 +130,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 2. CƯ SĨ CHÂN MINH {#truyen-2}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ngôi nhà nhỏ hai tầng lầu của cư sĩ Chân Mình vừa khánh thành trong tiếng pháo nổ giòn tan, vợ chồng Chân Minh hân hoan dìu cha mẹ già 80 tuổi vào nhà mới. Chiều hôm đó, họ đãi tiệc nhỏ (gồm trà nước hoa quả bánh trái) cho các láng giềng thân thuộc đến chúc mừng tân gia. Tòa kiến trúc hai tầng của họ là ngôi nhà lầu đầu tiên trong thôn nên được mọi người đặc biệt chú ý, nhất lả cách đây ba năm, gia đình họ còn thuộc hạng nghèo nhất trong làng, nghèo đến cái nhà bếp cũng không có. Bếp của họ được vừng bằng hai manh chiếu rách với bốn cọc cây chống đỡ. Mưa xuống là cái hỏa lò (được tạo hình bằng ba viên gạch mẻ) bị ướt nhẹp…
 
@@ -265,7 +265,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 3. ĐỪNG TRUYỀN LUẬN THUYẾT HỒ ĐỒ {#truyen-3}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hỏi: Nửa tháng trước tôi có thỉnh một tượng Quan Âm, đã bỏ ra 20 đồng đề khai quang, sau đó vui mừng đem về nhà. Nào ngờ khi bạn bè hỏi thăm, biết tồi đem tượng Phật vào nhà sau 11 giờ trưa thì họ thất sắc la tôi:
 
@@ -300,7 +300,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 4. CÔ TÔI {#truyen-4}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Nghĩ đến việc cứu hộ động vật và làm hại động vật đều có báo ứng, nên tôi quyết định viết chuyện này ra, cho người sơ học hiểu thêm.
 
@@ -347,7 +347,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 5. CÁCH LÌA DỤC NIỆM {#truyen-5}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có cặp vợ chồng trẻ đến thỉnh giáo Hòa thượng Diệu Pháp, họ kể mình quy y Phật rồi, ăn chay dễ dàng, rượu thuốc gì cũng đoạn trừ được hết, chỉ duy nhất giới dâm, kiêng cữ mấy lần đều thất bại.
 
@@ -388,7 +388,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 6. VÌ SAO HÀI NHI KHÓC {#truyen-6}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đầu xuân năm nọ, Tiết Nhan (là nhà láng giềng) đột nhiên gọi điện cho tôi nhờ trợ giúp, kể rằng anh đến chúc tết nhà của sếp, gặp lúc hai vợ chồng họ bối rối khốn khổ nhìn đứa con mới sinh (được hơn tháng tuổi) khóc thét không ngừng suốt hai ngày nay. Do các bệnh viện không tìm ra nguyên nhân vi sao bé khóc, nên lòng họ nóng như lửa đốt.
 
@@ -449,7 +449,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 7. NGUYÊN NHÂN BẤT HẠNH {#truyen-7}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một ngày mùa thu năm 2001, một vị cư sĩ dẫn theo một cô khoảng chừng 30 tuổi, trông rất tiều tụy. Cô quỳ trước Hòa thượng Diệu Pháp khóc mướt, không ngừng kể lể những bất hạnh của mình, quên hẳn hiện trường đang có mấy mươi khách…
 
@@ -494,7 +494,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 8. KIM DOANH {#truyen-8}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Kim Doanh, một cô gái khoảng 30 tuổi hướng Hòa thượng Diệu Pháp khóc kể nỗi khổ của minh:
 
@@ -577,7 +577,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 9. TỤNG KINH NIỆM PHẬT CÒN BỊ TAI NẠN Ư? {#truyen-9}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hỏi: Trong “Kinh Địa Tạng” giảng, miêu tả thiên địa quỷ thần thường hộ người niệm Phật, lễ Phật – không để cho hung sự họa hại vào cửa, không cho có các nạn thủy, lửa, trộm, cướp v.v… xảy ra, nghĩa là tất cả ác sự đều tiêu diệt. Nhưng con thấy có nhiều cư sĩ lễ Phật tụng kinh, vẫn gặp những nạn như: Bệnh hoạn, ác nhân, đụng xe, rớt phi cơ v.v.. ngay bản thân con cũng thường gặp việc bất như ý… Con còn thấy có các cao tăng và cư sĩ đức hạnh đột nhiên bị bệnh nặng lìa đời? Mặc dù con không hoài nghi những gì trong “Kinh Địa Tạng” mô tả, nhưng khó tránh được thắc mắc, vì vậy xin ngài giải thích cho con hiểu thêm.
 
@@ -676,7 +676,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 10. BỒ TÁT MẬT HẠNH {#truyen-10}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hòa thượng Diệu Pháp kể, thời gian sư đi Vạn Phật Thành bái kiến ngài Tuyên Hóa, tinh cờ gặp một vị cư sĩ hộ pháp ở Vạn Phật Thành bị tai nạn xe, tử vong.
 
@@ -727,7 +727,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 11. CẨN THẬN KHI PHÁT NGÔN {#truyen-11}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một sáng mùa thu năm 2000, Hòa thượng Diệu Pháp đang giảng pháp cho đám đông mấy mươi người tại nhà một cư sĩ nọ, thi bỗng ngoài cổng có một người đàn ông trung niên bước vào quỳ trước Hòa thượng Diệu Pháp, cuống quýt khẩn cầu sư phụ đến nhà cứu vợ ông giùm.
 
@@ -844,7 +844,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 12. NGUYÊN NHÂN DO ĐÂU? {#truyen-12}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trước đây không lâu, gia đình bạn tôi di cư sang nước Mỹ, sau đó vợ chồng Điền nữ sĩ về nước thăm thân nhân, bà rầu rĩ kể cho tôi nghe bệnh tình em trai Điền Kiệt của bà tại Mỹ. Hy vọng lần về nước này tôi có thề dẫn bà đến bái kiến Hòa thượng Diệu Pháp, thỉnh giáo nguyên nhân bệnh (cả nhà Điền nữ sĩ đã quy y Phật từ năm 1993, một bề duy trì sự nghiệp hoằng pháp).
 
@@ -917,7 +917,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 13. KINH NGHIỆM CẦU CON {#truyen-13}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mồng 1 tháng 10 năm 2006, sư phụ Diệu Chân đi Dương Châu mở thiền thất, ngang qua chỗ tôi ngài đã ghé vào ban pháp nhũ và giảng nhiều điều hay về việc tu học Phật cho các cư sĩ đến bái kiến. Sau đó trước Phật đường ngài tha thiết nhắc nhở tôi:
 
@@ -1018,7 +1018,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 14. NGHỊCH DUYÊN GIỮA CHA MẸ VÀ CON {#truyen-14}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trong cuộc sống hiện nay, khi gặp phải nhiều điều bất như ý, do không rõ nguyên nhân và hiểu thấu những lỗi lầm mình từng tạo trong quá khứ nên tâm tư càng thêm khổ não. Phật thường giảng về nhân quả trong nhiều bộ kinh, điều này có thực không dối! Khi ta gieo một hạt giống là nhân, lúc duyên hội đủ, chín muồi… thì sẽ kết quả, bất kể là hạt giống thiện hay ác!
 
@@ -1089,7 +1089,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 15. GIẾT CÁO BỊ BÁO ỨNG {#truyen-15}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Chuyện này do bà tôi kể lại, được sự đồng ý của bà, tôi xin viết ra chia sẻ cùng quý độc già. Các vị nhất định phải “Dứt tuyệt không làm ác, chuyên làm các điều lành”. Nhân vật kể trong truyện đều có thật, đều do bà tôi chứng kiến. Sau đây là nguyên văn lời kể của bà tôi:
 
@@ -1142,7 +1142,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 16. NÀNG DÂU BẤT HẠNH {#truyen-16}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm 1965 tôi 18 tuổi, tham gia Đoàn Thanh niên, đến trú đóng ở khu vực Hoàng Dương Mông Cổ. Trong thôn làng, gần đội chúng tôi, có gia đình họ Phạm. Họ Phạm có một trưởng nam và một gái út. Phạm công tử lấy vợ người Thiểm Tây, (cô này tên gì tôi cũng không nhớ rõ) vốn mồ côi cha mẹ, trước đây ở với vợ chồng người anh, tính tình hiền, rất đảm đang ngay thẳng.
 
@@ -1229,7 +1229,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 17. CÂU CHUYỆN KHIẾN TÔI RƠI LỆ {#truyen-17}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mùa thu năm đó tôi 12 tuổi, đây là quãng thời gian thê thảm nhất của gia đình tôi: Phụ thân tôi bệnh nặng phải phẫu thuật, mất khả năng lao động. Anh Hai tôi thi rớt đại học, còn mẹ tôi thì dùng lầm nông dược, khiến mười mẫu lúa đang trổ bị thất thu. Cũng vào thời điểm đó tôi bị bệnh thiếu máu nghiêm trọng, thở thoi thóp, cần truyền máu gấp.
 
@@ -1312,7 +1312,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 18. CHÚ ÚT CỦA BẠN TÔI {#truyen-18}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Bạn bè đều biết tôi tin Phật, do chơi thân nên hễ có thắc mắc gì về Phật giáo đều hỏi tôi, hoặc kể cho tôi nghe các việc xảy ra trong gia đình họ.
 
@@ -1383,7 +1383,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 19. ÔNG HÀNG XÓM HUNG DỮ {#truyen-19}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đây là chuyện tôi nghe bà nội kể (người trong cuộc hiện vẫn còn Sống, hơn nữa đang cư ngụ tại cố hương Nam Đầu, ở cách vách nhà tôi). Nội dung câu chicyện là thế này:
 
@@ -1414,7 +1414,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 20. NHÂN DUYÊN GIỮA TÔI VÀ BỒ TÁT {#truyen-20}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Việc này xảy ra vào cuối năm 2003, lúc đó tôi làm hướng dẫn du lịch tại công ty Tam Á ở Hải Nam.
 
@@ -1525,7 +1525,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 21. SÁU CHUYỆN NHÂN QUẢ {#truyen-21}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Gần đây có một vị họ Trương, nhà trụ tại thôn Hồ Khẩu, huyện Tân Trúc, đã viết thư tới, kể rất nhiều câu chuyện nhân quả do chính ông đích thân chứng kiến hoặc nghe thuật lại. Ông khăng định những chuyện này hoàn toàn có thực: Là người thực, việc thực, có bằng chứng hẳn hoi, xin công bố ra để thế nhân cùng cảnh giác. Hy vọng thông qua đây mọi ngườỉ sẽ học được nhiều điều hay, càng tin sâu nhân quả để “Không làm các điêu ác, vâng làm các điều lành” nhờ đó mà phong khí xã hội được cải thiện.
 
@@ -1602,7 +1602,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 22. CHUYÊN KỂ CỦA CẢNH SÁT PHÁP Y {#truyen-22}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi là một cảnh sát y khoa tư pháp, người ta thường gọi là pháp y. Tôi cung cấp tư liệu giám định Y học cho hai Pháp viện và bốn chi nhánh Công an Tư pháp. Nói đơn giản một chút, nếu ở đâu xảy ra án mạng, thì chở xác đến chỗ chúng tôi để chúng tôi nghiệm thây kiểm tra, tìm ra nguyên nhân tử vong, rồi ghi lại báo cáo đầy đủ, giao cho Pháp viện hay Cục Công an.
 
@@ -1809,7 +1809,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 23. ÁC BÁO CỦA VU KHỐNG THÊU DỆT {#truyen-23}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một anh bạn của tồi thuở giờ hay tạo khẩu nghiệp xấu, ưa nói dệt thêu, tung tin đồn thất thiệt, điều này càng gây nguy hại hơn khi anh làm ở lãnh vực truyền thông. Ngày nọ, đột nhiên anh chạy đến xin lỗi tôi, vì hai năm trước đã viết bài tung lên mạng nhằm gây tai tiêng (scandal tình dục vô căn cứ) gieo hại cho tôi và khách hàng; tạo thành quấy nhiêu vô cùng khốn đốn, khiến bạn bề không dám hợp tác với chúng tôi.
 
@@ -1854,7 +1854,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 24. XIN ĐỪNG LÀM VIỆC TỔN ĐỨC {#truyen-24}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Thưa các thiện tri thức, các bạn đồng tu,
 
@@ -1931,7 +1931,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 25. TÌNH CHẤP UYÊN ƯƠNG {#truyen-25}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi là một người vô thần. không theo bất kỳ tôn giáo nào. Nhưng bảy năm trước đã xảy ra một việc lạ lùng làm thay đổi cả cuộc đời tôi.
 
@@ -2050,7 +2050,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 26. TIẾNG GỌI ĐÊM KHUYA {#truyen-26}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm nay tôi 28 tuổi, sau mấy năm yêu thương nồng thắm, ngày 28/5/2011, tôi cùng người bạn trai cùng dắt tay nhau bước vào lễ đường xây dựng hôn nhân. Thời gian này phải nói là tôi đang đắm chìm trong hạnh phúc ngập tràn. Một ngày cuối tháng 8, tôi về nhà thăm mẹ.
 
@@ -2215,7 +2215,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 27. THẦN PHÚC LỘC {#truyen-27}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Các bạn chẳng nên than oán là số mình không may! Bởi thực ra khi vừa bắt đầu kiếp người, có thể phúc báu số mệnh của chúng ta rất lớn, nghĩa là bạn vốn có thể đạt được, hưởng được rất nhiều phúc lộc tuyệt hảo, tối ưu… Nhưng chính do sự thiếu hiểu biết về nhân quả mà ta đã vô tình tàn phá phúc báu của mình (bằng những ý nghĩ, lời nói, hành vi thất đức).
 
@@ -2648,7 +2648,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 28. THÁI MINH THÔNG {#truyen-28}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Cách đây không lâu, tiên sinh Thái Minh Thông kể cho tôi nghe câu chuyện báo ứng có thực của gia đình ông:
 
@@ -2691,7 +2691,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 29. THÁNG SÁU TUYẾT RƠI {#truyen-29}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trước đây tôi luôn cho rằng câu chuyện này là kịch bản hư cấu nổi tiếng do Quan Hán Khanh sáng tác, nào ngờ lại là chuyện thật.
 
@@ -2994,7 +2994,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 30. TÂM SỰ MỘT NỮ KỸ SƯ {#truyen-30}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi ở huyện Bảo Thanh, tỉnh Hắc Long Giang, là một phụ nữ mắc bệnh ung bướu nan y.
 
@@ -3147,7 +3147,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 31. VỊ KHÁCH ĐẾN SỚM {#truyen-31}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ngày mai là tiết Thanh minh rồi, từ đầu xuân đến giờ tôi bận rộn suốt, không hề được nghỉ ngơi, mệt đến khí lực chẳng còn. Hồi chiều lúc giảng pháp cho chư Phật hữu, tôi đuối đến nói không ra hơi, quả thực tôi rất thèm có thời gian được nghỉ, nhưng ước mơ này xem bộ cũng khó với tới. Khuya nay ngủ không được, tôi quyết định thức dậy tụng khóa sớm.
 
@@ -3238,7 +3238,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 32. TỰ TỬ ĐI VỀ ĐẦU {#truyen-32}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi là một cư sĩ ăn chay trường, giữ ngũ giới của Phật. Tôi rất ngưỡng mộ lời nguyện: “Địa ngục chẳng trống, thề chưa thành Phật!” của Bồ tát Địa Tạng. Trong “kinh Địa Tạng” phẩm đầu tiên kể Thánh nữ sau khi niệm Phật một ngày đêm liền thấy mình xuống địa ngục, biết được chỗ mẹ thác sinh…
 
@@ -3375,7 +3375,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 33. QUÁN NHẬU LONG HỔ {#truyen-33}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tốt nghiệp phổ thông xong, được người giới thiệu, tôi vào làm phục vụ bàn tại một nhà hàng có tên là “Quán Nhậu Long Hổ”. Quán nhậu này là một nơi thuộc vùng thâm sơn cây cối sầm uất, có rất nhiều dã thú. Ông chủ quán họ Vi, được xem là vua kinh doanh vì ông mưu trí, khéo tính toán đầu tư, nhờ vậy mà hái được lắm tiền, ông treo bảng bán thịt thú rừng, chào hàng bằng mấy từ “đặc sản thôn quê” quyến rũ, thực khách tìm tới đông nghịt.
 
@@ -3466,7 +3466,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 34. CHUYỆN CÁC KHOA HỌC GIA {#truyen-34}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tác giả bài viết này là cư sĩ Từ Quang, cả nhà ông đều là những nhà khoa học lỗi lạc. Song thân ông là hai khoa học gia, đồng công tác tại Viện Khoa học Trung Quốc. Sau khi tác giả nghiên cứu Phật giáo, sinh cảm phục và phát tâm qui y Tam bảo. Chính lòng hiếu thảo và tâm thành ứng dụng Phật pháp của ông đã cứu được mẹ ngay lúc một chân bà đã bước vào quỷ môn quan. Nhờ vậy mà cha mẹ ông hồi tâm, đồng bước vào con đường tu học theo Phật. Câu chuyện này hoàn toàn có thật và rất đáng tin. Mời quý vị xem bài văn tự thuật của ông:
 
@@ -3567,7 +3567,7 @@ Nhà Xuất Bản Phương Đông
 
 ## 35. LÁ THƯ ĐỘC GIẢ {#truyen-35}
 
-> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 5](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Kính Sư cô, con xin báo một tin vui để Sư cô mừng cho con và cũng để Sư cô phấn khởi khi biết công lao dịch thuật của Sư cô đã giúp đời và giúp người vô cùng trọng đại.
 

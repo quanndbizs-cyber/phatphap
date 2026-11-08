@@ -4,7 +4,7 @@
 >
 > Toàn văn bản đọc các câu chuyện trong **Báo Ứng Hiện Đời - Tập 2** (26 câu chuyện). Quý đạo hữu có thể dùng mục lục bên dưới để chuyển nhanh đến câu chuyện cần đọc, hoặc bấm vào liên kết nghe audio để vừa đọc vừa nghe giảng giải.
 
-* [← Quay về Trang Audio & Video Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2)
+* [← Quay về Trang Audio & Video Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2)
 * [📚 Đọc Các Tập Khác Trong Trọn Bộ 7 Tập](/nhan-qua/doc-sach)
 
 ---
@@ -42,7 +42,7 @@
 
 ## 1. BA MỸ NHÂN {#truyen-1}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Vợ chồng Quan giáo sư hiện.nay 55 tuổi, sinh được ba cô con gái dung mạo mỹ lệ, tuổi tác khá cách nhau: 25, 23, 20. Mặc dù là những tiểu tư lá ngọc cành vàng kiều diễm, nhưng các tiên nương này vẫn chưa có đổi tượng cầu hôn Vợ chồng giáo sư hết sức khỗ sầu. Trong khi đó nhiều thanh niên vừa thoáng nhìn qua các cô thì đã nghiêng ngửa hồn phách, ra công theo đuổi… Nhưng một khi đã phát hiện các tuyệt đại mỹ nhân này không thề nói năng gì, thì họ lập tức thối lui, bỏ đi.
 
@@ -95,7 +95,7 @@ Hạnh Đoan lược dịch
 
 ## 2. NƯỚC LÈO TRỨ DANH {#truyen-2}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Nơi thành phố thuộc miền bắc Thái Lan có quán hủ tiếu nọ, nổi danh nấu nước lèo rất ngon. Danh thơm vang khắp xa gần, ai cũng tìm đến ăn. Nhân sĩ đương thời đều tấm tắc ca ngợi. Nên dù quán chỉ làm việc có buổi sang thôi, mà sáng nào cũng bán đến mấy trăm tô. Trước 12 giờ trưa là hết sạch. Mỗi tô giá khoảng 15-20 đồng tiền Thái. Mỗi ngày thu vào được khoảng 6 ngàn, lời được ba ngàn.
 
@@ -156,7 +156,7 @@ Hạnh Đoan lược dịch
 
 ## 3. NGUYÊN NHÂN ĐÁNG SỢ {#truyen-3}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tất cả báo chí hôm đó đều đăng hàng tít náy: “Bác sĩ trẻ Trương Vĩ Lục tự sát vong thân”… khiến người xem khó mà tin được.
 
@@ -199,7 +199,7 @@ Hạnh Đoan lược dịch
 
 ## 4. ĐÁM TANG CHÓ {#truyen-4}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Nơi đại binh nguyên hình tam giác của dòng sông Mê-kông vương quốc Thái Lan, đất đai phì nhiêu, nước mưa tràn đầy, là nơi sản xuất gạo trù phú của quốc gia. Cho nên xưởng chà lúa ở đây rất vĩ đại quy mô, thuộc dạng đại công nghiệp
 
@@ -264,7 +264,7 @@ Hạnh Đoan lược dịch
 
 ## 5. NGƯỜI ƯA CÂU CÁ {#truyen-5}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Câu cá là hoạt động cực kỳ tàn nhẫn, thử nghĩ xem, nếu như đem móc câu sắc bén đó, đâm vào môi, vào lưỡi của mình, thì sẽ thấy đau đớn đến tận tim phổi. Nghĩa là, dù thế nào người ta cũng vô phương chịu nổi.
 
@@ -315,7 +315,7 @@ Hạnh Đoan lược dịch
 
 ## 6. THỨC NGON ĐẶC CHẾ {#truyen-6}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trong một vùng nông thôn thuộc miền đông bộ Thái Lan, có một nông phu tên A Bang, bà vợ sinh được ba con gồm hai nam, một nữ.Thằng đầu tên ô 9 tuổi, thằng kế tên Hồng 7 tuồi và út gái tên Bạch 5 tuổi.
 
@@ -394,7 +394,7 @@ Hạnh Đoan lược dịch
 
 ## 7. NGƯỜI CHÂN VOI {#truyen-7}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Thái tiên sinh năm nay 67 tuổi, người Triều Châu, năm 1941 Nhật Bản xâm lược Trung Quốc, quê nhà bị vây hàm, sinh hoạt bị ép ngặt, thời thanh niên ông ly hương qua nước Thái Lan mưu sinh. Hiện đang cư ngụ tại miền trung Thái Lan. Sống bằng nghề buôn bán. Hai chân ông bịnh giống như chân voi, đã 9 năm rồi.
 
@@ -431,7 +431,7 @@ Hạnh Đoan lược dịch
 
 ## 8. BÁN RẮN MỐI {#truyen-8}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ngô tiên sinh là Hoa kiều ở Thái Lan, là thương nhân thu mua thổ sản, do nguồn vốn ít, nên chỉ có thể mua liền bán ngay, vì vậy lợi nhuận không nhiều.
 
@@ -480,7 +480,7 @@ Hạnh Đoan lược dịch
 
 ## 9. CÁ “CÂU” NGƯỜI {#truyen-9}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có một y viện huyện thuộc vùng cao nguyên Thái Lan, do giao thông bất tiện, nên bịnh nhân phải đi từ sáng sớm tới bịnh viện để khám và kịp quay về nhà trước khi trời tối.
 
@@ -597,7 +597,7 @@ Hạnh Đoan lược dịch
 
 ## 10. TIẾU THƯ KHỈ {#truyen-10}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tại một thôn làng nọ thuộc miền nam Tháilan, có chàng thanh niên họ Lưu cử hành hôn lễ tân nương là một cô gái có biệt danh “TiểuThư Khỉ”.
 
@@ -656,7 +656,7 @@ Hạnh Đoan lược dịch
 
 ## 11. TRỘM CÔNG GIẢM LIỆU {#truyen-11}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hiện tại trong giới kiến trúc có ba câu danh ngôn:
 
@@ -725,7 +725,7 @@ Hạnh Đoan lược dịch
 
 ## 12. NGƯỜI CHỒNG TÀI HOA {#truyen-12}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Chiêm Nguyệt Quyên là người Đài Loan quê ờ Gia Nghĩa, tháng 7 năm 1979 nàng dẫn con gái Tiểu Man 3 tuổi qua thành phố Hoành tân (Yokohama) Nhật Bản, rồi uống thuốc độc tự sát trong khách sạn.
 
@@ -806,7 +806,7 @@ Hạnh Đoan lược dịch
 
 ## 13. PHÁP QUAN KỲ ÁN {#truyen-13}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một buổi sáng tháng 7 năm 1978, tại một cao nguyên huyện Đài Bắc, hai vợ chồng Thái A Vượng và người bạn thân Lâm Thuận Xa, cùng quảy gánh lên núi hái trái vải. Khi đi ngang qua một hang động bỏ hoang lâu năm, thì bỗng thấy từ trong chạy ra ba con chó, mồm chúng ngậm nội tạng người đang nhỏ máu long tong. Anh Xa hiếu kỳ rón rén bước vào động xem sự thể thể nào, nhưng cảnh tượng đáng sợ trước mắt khiến anh kinh hoàng đứng chết sững: một tiên sinh hơn sáu mươi tuổi đang nằm trên vũng máu; ngực, bụng bị xé rách, nội tạng bị ba con chó hồi nãy ngoạm chạy ra ngoài. Càng khùng hơn nữa là ngồi bên cạnh xác chết là một cô gái điên đầu tóc bù xù, đang cầm khúc ruột của nạn nhân quấn quanh cổ chơi đùa.
 
@@ -861,7 +861,7 @@ Hạnh Đoan lược dịch
 
 ## 14. NHỮNG KẺ BUÔN NGƯỜI {#truyen-14}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm 1981 Sau khi Trung Quốc giải phóng, trăm nghề hưng thịnh, thôn Tả Hậu tỉnh Liêu Ninh hẻo lánh chuyền sống bằng nghề trồng bán dược liệu. Cho nên có người gọi vùng này là làng thuốc, nổi danh toàn quốc.
 
@@ -928,7 +928,7 @@ Hạnh Đoan lược dịch
 
 ## 15. QUÁN NGON CAO CẤP {#truyen-15}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tại đại lộ Tung Sơn của thành phố Đài Bắc phồn hoa. Có một tiệm vịt quay nổi danh khắp xa gần tên là “Quán ngon cao cấp”, làm ăn rất phát đạt, khách ra vào tấp nập, cửa tiệm rộng lớn, thiết kế sang trọng, nhân viên nam nữ phục vụ trong quán đều trẻ trung, mặc toàn tây âu trăng. Bếp trưởng dội nón trắng tinh, tay luôn đeo găng, chứng tỏ mình cực kỳ vệ sinh sạch sẽ.
 
@@ -959,7 +959,7 @@ Hạnh Đoan lược dịch
 
 ## 16. ĐI CÂU BỊ CẢM ĐỘNG {#truyen-16}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tại huyện Liêu Trung tỉnh Liêu Ninh đông bắc Trung Quốc, một buổi sáng đầu thu năm 1997, gió hây hây thổi, dòng Liêu hà yên tĩnh, nước trong biêng biếc, bên bờ cây cỏ tốt tươi, cành lá đong đưa khi làn gió nhẹ thổi qua. Cảnh vật ấm áp hiền hòa dưới ánh nắng ban mai tỏa chiếu.
 
@@ -992,7 +992,7 @@ Hạnh Đoan lược dịch
 
 ## 17. CHUYỆN NƠI LÂM TRƯỜNG {#truyen-17}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tại lâm trường Hồng Nhật huyện Lô Hoắc tình Tứ Xuyên, có một công nhân họ Vương, bình thường ưa câu cá, lúc rảnh thỉ ra sông câu.
 
@@ -1011,7 +1011,7 @@ Hạnh Đoan lược dịch
 
 ## 18. KHI MÁY MỔ HOÀN TẤT {#truyen-18}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm 1997, có một vị kỹ sư tài ba ưu tú, đã thiết kế và chế ra một máy mổ heo độc đáo khác người. Nếu đem heo sống bỏ vào miệng máy thi chỉ mấy phút sau, da, lông thịt, xương, huyết, đầu V.V.. từng phần đều được cắt chia thành phẩm và xuất ra hoàn hảo.
 
@@ -1036,7 +1036,7 @@ Hạnh Đoan lược dịch
 
 ## 19. CẬN TỬ NGHIỆP ĐÁNG SỢ {#truyen-19}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có một nữ cư sĩ thọ Bồ-tát giới là bà X, trì trai hơn 30 năm. Nửa đời sau của bả toàn lả ăn chay, lễ Phật. Sau khi bà qua đời, người nhà đến chùa mời sư Nhân Ba Thiết tụng kinh hồi hướng công đức cho bả. Đương nhiên ngài rất vui vẻ nhận lời.
 
@@ -1117,7 +1117,7 @@ Hạnh Đoan lược dịch
 
 ## 20. THỊT RÙA NGON {#truyen-20}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Người Thượng Hải có câu đầu môi như thế này: “ Hiện thế báo” nghĩa là việc làm trong hiện tại, trả báo đến ngay hiện đời, chẳng đợi sang kiếp sau mới báo. ở Thượng hải có Vương tiên sinh, bình thường rất ưa ăn thịt rùa, nhưng cách chế biến thức ăn của ông rất khác người, ông chế nước ngập nồi, dùng nắp đậy kín nồi (trung tâm nắp có khoét một lổ hồng to cở đầu rùa), ông bỏ rùa sống vào, sau đó mới đun lửa. Khi nước trong nồi dần nóng lên, con rùa bị độ sôi nung nấu đau không chịu nổi, nó bèn thò đầu lên lỗ hổng đó hả miệng thở, lúc này ông đem nước sốt gia vị đã thắng sẵn, đang sôi, rót vào miệng rùa; ép nỏ rụt đầu vào chảo lại. Mục đích của ông là để cho nước gia vị thẩm thấu vào toàn thân rùa như vậy thịt rùa sẽ rất ngon. Nhưng ông chẳng mảy may nghĩ đến nỗi thống khổ của rùa, bên trong thì nước sôi làm bỏng tâm can, bên ngoài thì bị nung đốt. Con rùa đang sống mà ông hành hạ nội công ngoại kích thật dã man. Chưa hết, rùa đang oằn oại, đau đớn giẫy giụa trong nước nóng, rồi chịu không nổi độ nước sôi hành hạ giày vò, muốn trốn cũng không có cửa, cầu sống không có đường, thế là nó đành nhô đầu ra khỏi cái lỗ hổng trên nắp để giải nhiệt tiếp. Lúc này Vương tiên sinh tàn nhẫn lại tiếp tục rưới nước gia vị đun nóng (có đủ muối, dầu, giấm ớt, tiêu) rùa bỏng rát cả lòng VỘI rút đầu xuống, cảnh thò thò rụt rụt cứ thế tái diễn nhiều lần và cuối cùng thì rùa chết đi trong tột cùng thống khổ. Vì tham ăn sướng miệng, mà Vương tiên sinh đành tâm giết hại quá tàn nhẫn.
 
@@ -1140,7 +1140,7 @@ Hạnh Đoan lược dịch
 
 ## 21. TÌNH THƯƠNG CỦA KHỈ LÔNG VÀNG {#truyen-21}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có một hòa thượng 65 tuổi, kể về hồi trẻ lúc chưa xuất gia rất ưa săn bắn. ông kể chuyện của mình như sau:
 
@@ -1173,7 +1173,7 @@ Hạnh Đoan lược dịch
 
 ## 22. HỨA TIÊN SINH {#truyen-22}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Vợ chồng Hứa tiên sinh là thương gia, ngụ ở Mã Lai. Họ có đứa con trai tên là Vu Hùng. Hùng không chăm chỉ học hành, lại ưa giao du bạn xấu, ngày ngày ở ngoài chơi hoang lêu lổng.
 
@@ -1200,7 +1200,7 @@ Hạnh Đoan lược dịch
 
 ## 23. NGỌC LAN {#truyen-23}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một phụ nữ Hoa kiều (tạm gọi là Lan) sang Brazil (Ba-tây) lập nghiệp và đến bịnh viện làm nghĩa công. Sau ba tháng thọ huấn, Lan được cử đến nhà xác, lãnh công tác mà đa số đều sự và không dám nhận.
 
@@ -1227,7 +1227,7 @@ Hạnh Đoan lược dịch
 
 ## 24. CON LỪA {#truyen-24}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mùa thu năm Mậu Ngọ, Đời vua Khang Hi triều Thanh, gia đình Trương Nguyên ngụ ở Bắc Kinh có mua về một con lừa, tính nó rất hung hăng, không những ưa đá, mà còn cắn người nữa. Chỉ có ba cha con Trương Nguyên lả cưỡi được nó thôi. Mỗi khi họ cưỡi, nó tỏ vẻ rất ngoan hiền, thuần phục.
 
@@ -1260,7 +1260,7 @@ Hạnh Đoan lược dịch
 
 ## 25. CÔNG CHÚA THĂNG HOA {#truyen-25}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Nguyên Tác Hán văn: Trần Thu Ngọc
 
@@ -1611,7 +1611,7 @@ Hạnh Đoan lược dịch
 
 ## 26. CHU TÚ HOA {#truyen-26}
 
-> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 (Trích dịch từ tạp chi “Kim Nhật Phật Giáo ” Đài Loan) Nguyên tác Bạch thoại: Nữ Ký giả Lý Ngọc
 

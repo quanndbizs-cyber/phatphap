@@ -22,13 +22,13 @@
 
 * 🌟 **[Trung Tâm Báo Ứng Hiện Đời — Trọn Bộ 7 Tập (Audio, Sách Đọc & Video)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)**: Trình phát tích hợp hơn 260 bài MP3 trực tiếp từ Audiobookshelf, bảng tra cứu từng truyện, sách PDF và Video.
 * 📖 **[Đọc Sách Báo Ứng Hiện Đời Trọn Bộ 7 Tập (Toàn Văn Trực Tiếp)](/nhan-qua/doc-sach)**: Kho bản đọc trọn vẹn 238 câu chuyện với mục lục chi tiết, tra cứu và đọc trực tiếp trên website.
-* 📘 **[Báo Ứng Hiện Đời — Tập 1 (20 bài MP3 + 23 Truyện Tóm Tắt + PDF + Video YouTube)](/nhan-qua/bao-ung-hien-doi-tap-1)**
-* 📗 **[Báo Ứng Hiện Đời — Tập 2 (28 bài MP3 + Tóm Tắt 27 Câu Chuyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tap-2)**
-* 📙 **[Báo Ứng Hiện Đời — Tập 3 (46 bài MP3 + Tóm Tắt 24 Nhóm Truyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tap-3)**
-* 📕 **[Báo Ứng Hiện Đời — Tập 4 (48 bài MP3 + Tóm Tắt 35 Mục Truyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tap-4)**
-* 📓 **[Báo Ứng Hiện Đời — Tập 5 (43 bài MP3 Trực Tiếp — Phần 1 & Phần 2)](/nhan-qua/bao-ung-hien-doi-tap-5)**
-* 📔 **[Báo Ứng Hiện Đời — Tập 6 (46 bài MP3 Trực Tiếp + Danh Mục Truyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tap-6)**
-* 📕 **[Báo Ứng Hiện Đời — Tập 7 (36 bài MP3 + Danh Mục 35 Truyện Audio.com)](/nhan-qua/bao-ung-hien-doi-tap-7)**
+* 📘 **[Báo Ứng Hiện Đời — Tập 1 (20 bài MP3 + 23 Truyện Tóm Tắt + PDF + Video YouTube)](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1)**
+* 📗 **[Báo Ứng Hiện Đời — Tập 2 (28 bài MP3 + Tóm Tắt 27 Câu Chuyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2)**
+* 📙 **[Báo Ứng Hiện Đời — Tập 3 (46 bài MP3 + Tóm Tắt 24 Nhóm Truyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3)**
+* 📕 **[Báo Ứng Hiện Đời — Tập 4 (48 bài MP3 + Tóm Tắt 35 Mục Truyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-4)**
+* 📓 **[Báo Ứng Hiện Đời — Tập 5 (43 bài MP3 Trực Tiếp — Phần 1 & Phần 2)](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-5)**
+* 📔 **[Báo Ứng Hiện Đời — Tập 6 (46 bài MP3 Trực Tiếp + Danh Mục Truyện & Sách Đọc)](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-6)**
+* 📕 **[Báo Ứng Hiện Đời — Tập 7 (36 bài MP3 + Danh Mục 35 Truyện Audio.com)](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7)**
 
 ---
 

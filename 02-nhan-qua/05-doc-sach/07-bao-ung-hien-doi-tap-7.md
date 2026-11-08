@@ -4,7 +4,7 @@
 >
 > Toàn văn bản đọc các câu chuyện trong **Báo Ứng Hiện Đời - Tập 7** (20 câu chuyện). Quý đạo hữu có thể dùng mục lục bên dưới để chuyển nhanh đến câu chuyện cần đọc, hoặc bấm vào liên kết nghe audio để vừa đọc vừa nghe giảng giải.
 
-* [← Quay về Trang Audio & Video Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7)
+* [← Quay về Trang Audio & Video Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7)
 * [📚 Đọc Các Tập Khác Trong Trọn Bộ 7 Tập](/nhan-qua/doc-sach)
 
 ---
@@ -36,7 +36,7 @@
 
 ## 1. ANH BẠN SINH VIÊN {#truyen-1}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 TÚ là bạn học chung trường với tôi. Anh cao vừa tầm, dung mạo bình thường, gia cảnh nghèo, tính nhút nhát hay mắc cỡ, anh giống tôi ở chỗ ưa lướt net vui chơi, học tập nhàn nhã. Chúng tôi đồng học Văn khoa, cùng chưa xong năm tư.
 
@@ -99,7 +99,7 @@ Biên dịch: Hạnh Đoan
 
 ## 2. CÂU CHUYỆN CỦA TÔI {#truyen-2}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm nay tôi 27 tuổi. Hồi học lớp ba tiểu học, thông qua người khác, tôi biết đến phim ảnh sex và kể từ đó tôi giã biệt tính ngây thơ của tuổi đồng niên, lún sâu vào vực thẳm tà dâm.
 
@@ -168,7 +168,7 @@ Biên dịch: Hạnh Đoan
 
 ## 3. CHUYỆN CỦA FRANK {#truyen-3}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ngày 28 tháng Tư năm 1982, tôi gọi thợ tới sửa vật dụng trong nhà mình, anh tên Frank, nhân phẩm rất tốt. Nghe Frank nói tiếng Anh pha giọng Đức, tôi bèn đổi sang dùng tiếng Đức đàm thoại với anh. Nhờ hai mươi năm trước tôi từng lãnh giải thưởng văn học ở Vienna nước Áo, nên đối với người sống ở thủ đô Vienna cũng rất có cảm tình, tôi và anh nói chuyện rất tương đắc.
 
@@ -219,7 +219,7 @@ Biên dịch: Hạnh Đoan
 
 ## 4. ĐẠI LỄ MÔNG SƠN CỨU ĐỘ VONG LINH {#truyen-4}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trước đây, ở Vancouver người tin Phật không nhiều, nên số lượng đến nghe Phật pháp có thể đếm trên đầu ngón tay. Nhưng bây giờ đã tiến triển khả quan.
 
@@ -350,7 +350,7 @@ Biên dịch: Hạnh Đoan
 
 ## 5. BÌNH RƯỢU THUỐC {#truyen-5}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một người bạn đồng tu của tôi kể thân mẫu cô bị chứng tiểu đường thời kỳ cuối đang nhập viện, nhờ tôi giúp quán sát nhân quả cho bà dùm, cô cầm ảnh bà tới cho tôi xem, tôi vừa nhìn vào thì phát hiện có một con vật đang “đóng đô” nơi bàng quang của bà, nhìn giống như rắn mà không phải rắn, vì thân mập to phình, màu sắc giống như con lươn khủng bị nuôi bằng thuốc thúc tăng trưởng, nhưng tướng mạo hình dáng coi bộ lại giống rắn hơn lươn, tôi suy đoán mãi, mà vẫn không nhìn ra nó là con gì, bèn hỏi nó:
 
@@ -409,7 +409,7 @@ Biên dịch: Hạnh Đoan
 
 ## 6. NƠI MẸ TÔI ĐẾN {#truyen-6}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mẹ tôi chết ở Đại Lục, tôi đem công đức xuất gia hồi hướng cho bà và đích thân chứng kiến mẹ thăng thiên, đây là việc ngàn chân muôn thật, (địa điểm xảy ra tại Tháp Thất Bảo Điện Địa Tạng, thuộc chùa Đại Giác ở Cơ Long, Đài Loan).
 
@@ -494,7 +494,7 @@ Biên dịch: Hạnh Đoan
 
 ## 7. BUỔI CẦU SIÊU KỲ LẠ {#truyen-7}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hôm qua tôi được mời đi làm lễ siêu độ cho một thanh niên trẻ, thuộc con nhà giàu có. Ông nội và phụ thân y đều là phú thương. Trong lúc tổ chức lễ sám, cúng phẩm chưng bày rất phong nhiêu. Tôi lên pháp tòa, mới ngồi chưa bao lâu, thì thấy quan Táo thần trong nhà, cầm một tám vải trắng, trên viết hai từ: “DÂM BÁO”, đưa cho tôi xem.
 
@@ -647,7 +647,7 @@ Biên dịch: Hạnh Đoan
 
 ## 8. CÔ BẠN TIẾN SĨ {#truyen-8}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Cô Y bạn tôi là Tiến sĩ Kinh tế kiêm Giảng sư cao học, cô không hiểu Phật giáo, không học Phật, nhưng lại ngộ ra chuyện sinh tử của kiếp người là một vòng tuần hoàn liên tục chẳng đáng sợ.
 
@@ -692,7 +692,7 @@ Biên dịch: Hạnh Đoan
 
 ## 9. NGỌN GIÁO NƠI TƯỢNG QUAN CÔNG {#truyen-9}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đa số chúng tôi đều rất tin nhân quả báo ứng, vì đã chứng kiến nhiều vụ án ly kỳ mà khoa học không thề giải thích được. Phần đông các bạn đồng nghiệp của tôi, trên xe đều thờ tượng Phật hoặc đeo chú hộ thân… Trước khi xuất phát chúng tôi thường chắp tay niệm Phật, im lặng cầu nguyện, điều này đã thành quy luật bất thành văn. Thành phố Bắc Kinh là nơi tôi công tác, đã phát sinh nhiều vụ án rất quái, phải nói là khó mà tưởng tượng ra.
 
@@ -749,7 +749,7 @@ Biên dịch: Hạnh Đoan
 
 ## 10. HAI BẢN KINH ĐẦU TIÊN {#truyen-10}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đây là câu chuyện có thực do tôi đích thân trải qua, tuyệt không nói dối.
 
@@ -796,7 +796,7 @@ Biên dịch: Hạnh Đoan
 
 ## 11. ĐẠI SƯ THĂM BỊNH {#truyen-11}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Câu chuyện có thực này xảy ra vào đầu năm 1990.
 
@@ -915,7 +915,7 @@ Biên dịch: Hạnh Đoan
 
 ## 12. QUỶ THẦN {#truyen-12}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đầu tiên phải biết, quỷ thần sống trong chiều không gian bất đồng cùng chúng ta. Họ thực có tồn tại và cũng có hình dáng sinh mệnh, về điểm này, hiện nay các khoa học gia đều có thể chứng minh sự tồn tại của họ. Thế nên, chúng ta đối với quỷ thần nhất định phải cảnh giác. S ở dĩ, Tăng Tử từng cảnh cáo: Quân tử luôn thận trọng khi ở một mình (dù ta ở một mình nhưng vẫn nằm trong hoàn cảnh: “Thập mục sở thị, thập thủ sở chỉ” (Mười mắt nhìn, mười tay chỉ). Phải biết, nhất cử nhất động của ta chư quỷ thần đều nhìn thấy! Những người hiểu rõ việc này, làm sao mà không răn dè run sợ? Làm sao mà lúc ở một mình, lại dám có hành vi khinh suất được?
 
@@ -946,7 +946,7 @@ Biên dịch: Hạnh Đoan
 
 ## 13. GIÀ LAM CÓ THÊM MỘT VỊ HỘ PHÁP {#truyen-13}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đại Tướng quân Lý Mật triều đường, sau khi chết sinh làm Thần, đã hồi tâm quy y theo Phật môn và khuyên hóa nhiều chúng quỷ theo Phật.
 
@@ -1085,7 +1085,7 @@ Biên dịch: Hạnh Đoan
 
 ## 14. NGƯỜI XƯA NAY Ở ĐÂY {#truyen-14}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một pháp hữu trong nhóm bạn đồng tu của tôi xin tạm gọi là cô X. Cô dung mạo xinh đẹp, có năng khiếu âm nhạc bẩm sinh, tuổi còn thơ đã vào học viện âm nhạc, trong mắt thầy bạn, cô là ngôi sao nhỏ, đã sớm lên sân khấu biểu diễn, được kết nạp vào đoàn âm nhạc chuyên nghiệp và vinh dự ký hợp đồng với công ty ca vũ nổi tiếng.
 
@@ -1190,7 +1190,7 @@ Biên dịch: Hạnh Đoan
 
 ## 15. TIỀN KIẾP CỦA CỤ RÙA {#truyen-15}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ngày 25 tháng 6 năm 2011 tôi và một số Phật tử đến tham dự pháp hội siêu độ nơi chùa Thúy Phong (núi Cửu Hoa) để cầu siêu cho tất cả chúng sinh tử nạn vì chiến tranh, thiên tai, họa ương.
 
@@ -1247,7 +1247,7 @@ Biên dịch: Hạnh Đoan
 
 ## 16. ÔNG TRÙM XÃ HỘI ĐEN {#truyen-16}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Lần đầu gặp, tôi thấy Mã huynh đang phóng sinh chim trong Niệm Phật Đường cùng với một pháp hữu khác.
 
@@ -1526,7 +1526,7 @@ Biên dịch: Hạnh Đoan
 
 ## 17. HẬU THÂN LÝ BẠCH {#truyen-17}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ngày 28 tháng 9, nữ sĩ Hàng Minh, nhà thôi miên trứ danh từ New York đến Los Angeles để thuyết giảng, có mời tôi tham dự, tôi nghĩ đây là hoạt động ý nghĩa, liền nhận lời đến phụ diễn thuyết.
 
@@ -1699,7 +1699,7 @@ Biên dịch: Hạnh Đoan
 
 ## 18. NHẤT KIẾN CHUNG TÌNH {#truyen-18}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Bất kỳ chuyện gì cũng có nhân quả, thỉ như khi ta khởi niệm yêu thương, xét ra giữa phu thê và huynh đệ, đều không giống nhau. Chẳng hạn như người vừa mới gặp, trong tiền kiếp họ vốn là phu thê hay người yêu từng đã có tình sâu, đời trước từng hẹn thề phát nguyện: cầu được mãi mãi bên nhau… thì đời này có thể sẽ cùng tiếp nối tiền duyên. Còn nếu đời trước hai bên chỉ là huynh đệ tỷ muội, khi gặp lại cũng có cảm giác vừa nhìn đã thương, nhưng vì không có duyên phu thê nên sẽ không đi đến hôn nhân.
 
@@ -1762,7 +1762,7 @@ Biên dịch: Hạnh Đoan
 
 ## 19. SIÊU ĐỘ ÔNG NGOẠI {#truyen-19}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm 2011 là thời điểm cuộc sống của tôi cực kỳ xuống dốc, sức khỏe cũng không tốt. Vì vậy tôi bèn lên mạng tra tìm phương pháp thay đổi mệnh vận, thì tình cờ gặp trang web “Chuyên tu kinh Địa Tạng”… Trưởng đoàn biết tôi là kẻ sơ cơ mới nghiên cứu giáo lý Phật, chưa có kinh sách gì, bèn gởi tặng tôi: Kinh Địa Tạng, kinh Kim Cang, kinh Dược Sư và một số sách nhân quả, thiện thư…
 
@@ -1837,7 +1837,7 @@ Biên dịch: Hạnh Đoan
 
 ## 20. NHỮNG LẦN TRIỀU SƠN CÙNG NGÀI HƯ VÂN {#truyen-20}
 
-> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Lời người dịch:
 

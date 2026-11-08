@@ -4,7 +4,7 @@
 >
 > Toàn văn bản đọc các câu chuyện trong **Báo Ứng Hiện Đời - Tập 1** (25 câu chuyện). Quý đạo hữu có thể dùng mục lục bên dưới để chuyển nhanh đến câu chuyện cần đọc, hoặc bấm vào liên kết nghe audio để vừa đọc vừa nghe giảng giải.
 
-* [← Quay về Trang Audio & Video Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1)
+* [← Quay về Trang Audio & Video Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1)
 * [📚 Đọc Các Tập Khác Trong Trọn Bộ 7 Tập](/nhan-qua/doc-sach)
 
 ---
@@ -41,7 +41,7 @@
 
 ## 1. Lời người dịch {#truyen-1}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Cuốn sách này được chia làm ba phần, phần một của cư sĩ Quả Khanh, phần hai là câu chuyện của nhiều tác giả trên nhiều nước(đích thân mục kích hoặc nghe kể) đã viết ra và gởi đến Hội Đạo Đức Trung Hoa. Phần ba là chuyện do ký giả trực tiếp phỏng vấn hay nghe kể lại mà viết ra
 
@@ -70,7 +70,7 @@ Hạnh Đoan biên dịch
 
 ## 2. Lời tác giả {#truyen-2}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Nguyên nhân tôi đến với đạo
 
@@ -175,7 +175,7 @@ Hạnh Đoan biên dịch
 
 ## 3. Thiếu niên bất lương {#truyen-3}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Một ngày vào năm 1995, nơi nhà khách tự viện Ngũ Đài Sơn, có hai mươi mấy người chờ đợi được thỉnh giáo Hòa thượng Diệu Pháp. Những người này đến từ trời Nam đất Bắc, luân phiên nhau hỏi. Mà vị Sư phụ sung mãn trí huệ kia, các vấn đề khách nêu lên dù nặng nề đến mấy thì Ngài đều giải đáp hết sức ổn thõa dễ dàng. Tất cả giống như “Vừa trị bệnh là thấy hiệu quả ngay, lay người tỉnh mạnh”, khiến cho mọi người nghe cảm giác như được uống cam lồ, pháp hỷ tràn trề sung mãn.
 
@@ -246,7 +246,7 @@ Hạnh Đoan biên dịch
 
 ## 4. Giật mình tỉnh ngộ {#truyen-4}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 (Tâm sự của con trai người bạn cư sĩ Quả Khanh)
 
@@ -339,7 +339,7 @@ Hạnh Đoan biên dịch
 
 ## 5. Gà trống lông vàng {#truyen-5}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có một nông dân họ Chương bị bệnh ung thư Phổi tới giai đoạn mà cả 2 bệnh viện lớn đều tuyên bố bó tay và dặn dò người nhà nên lo chuẩn bị hậu sự cho ông.
 
@@ -418,7 +418,7 @@ Hạnh Đoan biên dịch
 
 ## 6. Bệnh trời cho {#truyen-6}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đầu năm 1994, anh Giả, chồng của chị Lý bị bệnh ghẻ. Toàn thân anh nổi đầy ghẻ, vừa chảy mủ vừa nhức nhối khó chịu, đã chạy chữa khắp nơi từ Đông đến Tây y nhưng đều không thấy kết quả.
 
@@ -513,7 +513,7 @@ Hạnh Đoan biên dịch
 
 ## 7. Trong xưởng có cái gì, nhà tôi có cái đó {#truyen-7}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hồng tiên sinh hơn 50 tuổi, là thợ máy làm trong xưởng cơ giới của chính phủ. Một chiều nọ ông đi cùng lão cư sĩ đến bái kiến Sư phụ Diệu Pháp. Vừa vào cửa ông liền cười ha hả chắp tay vái và cung kính khom mình ba lần trước Sư phụ, cũng không đợi mời ngồi, ông tự nhiên ngồi xuống. Thoạt nhìn đã biết tính cách ông rất sảng khoái.
 
@@ -602,7 +602,7 @@ Hạnh Đoan biên dịch
 
 ## 8. Dùi lỗ lấy nhọt {#truyen-8}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hồng tiên sinh hơn 50 tuổi, là thợ máy làm trong xưởng cơ giới của chính phủ. Một chiều nọ ông đi cùng lão cư sĩ đến bái kiến Sư phụ Diệu Pháp. Vừa vào cửa ông liền cười ha hả chắp tay vái và cung kính khom mình ba lần trước Sư phụ, cũng không đợi mời ngồi, ông tự nhiên ngồi xuống. Thoạt nhìn đã biết tính cách ông rất sảng khoái.
 
@@ -719,7 +719,7 @@ Hạnh Đoan biên dịch
 
 ## 9. Nhai xương mút tuỷ {#truyen-9}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Mùa hạ năm 1996, vợ một phú ông từ Đài Loan đến. Bà bị bệnh viêm xoang mũi ngót mười mấy năm chưa khỏi, nên phải sang Đại Lục, lên Ngũ Đài Sơn xin bái kiến Hòa thượng. Cầu Ngài chỉ ra nguyên nhân căn bệnh.
 
@@ -766,7 +766,7 @@ Hạnh Đoan biên dịch
 
 ## 10. Cư sĩ cũng phải có đủ đức hạnh {#truyen-10}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm 1993, anh thợ họ Lý đến nhà tôi nghe Sư phụ giảng pháp, phát tâm tin Phật. Nửa tháng sau anh xin quy y Tam Bảo, còn cầm tờ “chứng nhận quy y” đến khoe với tôi.
 
@@ -817,7 +817,7 @@ Hạnh Đoan biên dịch
 
 ## 11. Tổ kiến và nhà ở {#truyen-11}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có hai vợ chồng dắt đứa con trai khoảng mười mấy tuổi đến xin gặp Hòa thượng Diệu Pháp, để thỉnh giáo.
 
@@ -862,7 +862,7 @@ Hạnh Đoan biên dịch
 
 ## 12. Thai phụ tụng Kinh Địa Tạng {#truyen-12}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Bốn năm trước tôi quen một cô gái tên Hải Ba, là sinh viên, tính điềm đạm xinh đẹp, rất thông minh. Cô nguyên quán ở Đông Bắc, sinh ra trong một gia đình rất tin Phật.
 
@@ -921,7 +921,7 @@ Hạnh Đoan biên dịch
 
 ## 13. Ăn thịt chướng ngại thiện chung {#truyen-13}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có một phụ nữ hơn 50 tuổi, từng niệm Phật nhiều năm, hiện đang mắc bệnh tiểu đường. Hòa thượng Diệu Pháp bảo là do bà sát sinh quá nặng mà chiêu cảm nên.
 
@@ -974,7 +974,7 @@ Hạnh Đoan biên dịch
 
 ## 14. Đọc nhiều kinh Phật tăng trí tuệ {#truyen-14}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Hồ nữ cư sĩ hướng Hòa thượng Diệu Pháp thỉnh giáo, bà bị bệnh tim từ ba bốn năm nay, mặc dù đã đi bệnh viện chữa trị, nhưng lúc tốt lúc xấu. Sau đó, nhờ người giới thiệu, kể là: “Sư phụ giảng giải Phật lý rất hay. Nếu tin theo không ăn thịt sát sinh, hằng ngày niệm Phật và làm thiện thì có thể khiến tim khỏe lại!”
 
@@ -1025,7 +1025,7 @@ Hạnh Đoan biên dịch
 
 ## 15. Thân phụ cầu siêu độ {#truyen-15}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có vị bác sĩ họ Hoàng mắc bệnh rất lạ, khi trời vừa tối là hai mắt ông đứng tròng, không nói năng, không ngủ nghê gì, mà còn tay đấm, chân đá… nhưng trời vừa sáng thì ông trở lại bình thường.
 
@@ -1124,7 +1124,7 @@ Hạnh Đoan biên dịch
 
 ## 16. Bịnh tùng khẩu nhập {#truyen-16}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Nếu muốn không bị bịnh
 
@@ -1161,7 +1161,7 @@ Hạnh Đoan biên dịch
 
 ## 17. Thai nhi nghe Kinh, giải oán hờn {#truyen-17}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Chàng trai Mạnh Vĩ và cô gái Chung Hồng là đôi tình nhân có đồng tín ngưỡng Phật. Sau khi kết hôn, cả hai đồng tâm đồng chí, cùng tụng kinh, trì giới tu hành, là gia đình Phật hóa gương mẫu, họ sống rất hạnh phúc, khiến các bạn đồng tu phải hâm mộ, ước ao.
 
@@ -1230,7 +1230,7 @@ Hạnh Đoan biên dịch
 
 ## 18. Báo ứng không ngờ {#truyen-18}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Năm năm trước, Hạ tiên sinh hơn 40 tuổi, con trai ông là Cún được 12 tuổi. Ngay từ nhỏ Cún đã hết sức ương bướng. Sau khi cho đi học, không những nó ham chơi, chẳng chịu học hành, ưa đánh nhau, lại thường xuyên trốn học. Cha, mẹ, thầy giáo đều bó tay hết cách đối với thằng bé. Cún quậy tưng làm cho cả nhà không được yên.
 
@@ -1297,7 +1297,7 @@ Hạnh Đoan biên dịch
 
 ## 19. Chứng bệnh sợ bóng tối {#truyen-19}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Trần nữ sĩ tuổi hơn 40, đang cùng chồng đến bái kiến Hòa thượng Diệu Pháp.
 
@@ -1320,7 +1320,7 @@ Hạnh Đoan biên dịch
 
 ## 20. Mỹ nữ và thổ phỉ {#truyen-20}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Có một nữ sĩ định cư ở hải ngoại tìm đến cầu kiến Hòa thượng Diệu Pháp. Cô ta tự giới thiệu về mình:
 
@@ -1407,7 +1407,7 @@ Hạnh Đoan biên dịch
 
 ## 21. Tiên sinh dạy học {#truyen-21}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tỉnh Sơn Tây có một đôi vợ chồng trẻ sinh được một đứa con trai, đã 3 tuổi mà vẫn chưa biết đi, nói cũng không rành. Bác sĩ khám xong, bảo thằng bé bị chứng liệt não nhẹ. Hai vợ chồng vạn phần lo lắng, liền nhờ tôi đến hỏi Hòa thượng dùm.
 
@@ -1452,7 +1452,7 @@ Hạnh Đoan biên dịch
 
 ## 22. Ăn chay trì giới mới được lợi ích {#truyen-22}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Đổng phu nhân ngụ ở tầng dưới, tuổi hơn 40, tánh chất phác, rộng rãi. Bà bị tiêu chảy mười mấy năm nay. Hàng ngày phải đi ít nhất 4-5 lần, nhiều thì mười mấy lần. Hễ bụng vừa đau là phải lao ra nhà xí, bác sĩ nói bà bị viêm ruột mãn tính. Dù uống rất nhiều thuốc nhưng không có hiệu quả.
 
@@ -1515,7 +1515,7 @@ Hạnh Đoan biên dịch
 
 ## 23. Nhân nào quả nấy {#truyen-23}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Láng giềng tôi có bác Trương ưa luyện khí công, còn dùng khí công để chữa bịnh cho người. Nhưng ông trị người không hết mà bản thân ông cũng bị căn bệnh hành hạ. Ông bị chóng mặt đã 3-4 năm nay. uống thuốc, trị liệu kiểu gi cũng không kết quả.
 
@@ -1588,7 +1588,7 @@ Hạnh Đoan biên dịch
 
 ## 24. Hộ trì Phật Pháp bằng đức hạnh {#truyen-24}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Tôi hỏi sư phụ:
 
@@ -1617,7 +1617,7 @@ Hạnh Đoan biên dịch
 
 ## 25. Quả báo của việc mua bán thịt động vật sống (Rắn mối) {#truyen-25}
 
-> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
+> [🎧 Nghe Audio Tập 1](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-1#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
 Ngô tiên sinh là Hoa kiều ở Thái Lan, là thương nhân thu mua thổ sản. Do nguồn vốn ít, nên chỉ có thể mua liền bán ngay, vì vậy lợi nhuận không nhiều. Gần đây, có người giới thiệu ông thu mua rắn mối, lợi nhuận rất cao. Nhưng Ngô tiên sinh chỉ làm có ba tháng thì không chịu làm nữa.
 
