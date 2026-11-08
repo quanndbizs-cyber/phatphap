@@ -492,5 +492,347 @@
                 window.tmHubSelect(hub.id, 0);
             }
         });
+
+        initKpcReader();
     });
+
+    /* =========================================================================
+       4. KINH PHÁP CÚ SINGLE-VERSE READER & TOC ([:kpcreader:] & [:kpctoc:])
+       ========================================================================= */
+    var kpcMasterData = null;
+    var kpcCurrentVerse = 1;
+    var KPC_STORAGE_KEY = "tm_kpc_last_verse";
+
+    function getRequestedVerse(defaultVerse) {
+        try {
+            var params = new URLSearchParams(window.location.search);
+            var qBai = parseInt(params.get("bai") || params.get("ke") || params.get("verse") || "", 10);
+            if (!isNaN(qBai) && qBai >= 1 && qBai <= 423) {
+                return qBai;
+            }
+            var hash = window.location.hash || "";
+            var hm = hash.match(/#(?:bai-|ke-|verse-)?(\d{1,3})$/i);
+            if (hm) {
+                var hBai = parseInt(hm[1], 10);
+                if (hBai >= 1 && hBai <= 423) {
+                    return hBai;
+                }
+            }
+            var saved = parseInt(localStorage.getItem(KPC_STORAGE_KEY) || "", 10);
+            if (!isNaN(saved) && saved >= 1 && saved <= 423) {
+                return saved;
+            }
+        } catch (e) {}
+        return defaultVerse || 1;
+    }
+
+    function renderKpcStoryBlocks(blocks) {
+        if (!blocks || !blocks.length) return "";
+        var html = "";
+        for (var i = 0; i < blocks.length; i++) {
+            var b = blocks[i];
+            if (!b) continue;
+            if (b.type === "para" && b.text) {
+                html += '<p class="tm-kpc-story-para">' + escapeHtml(b.text) + '</p>';
+            } else if (b.type === "verse" && b.lines && b.lines.length) {
+                html += '<blockquote class="tm-kpc-story-poem">';
+                for (var l = 0; l < b.lines.length; l++) {
+                    html += '<div class="tm-kpc-poem-line">' + escapeHtml(b.lines[l]) + '</div>';
+                }
+                html += '</blockquote>';
+            } else if (b.type === "image" && b.url) {
+                html +=
+                    '<figure class="tm-kpc-story-figure">' +
+                    '  <img src="' + escapeHtml(b.url) + '" alt="Minh họa Tích truyện Kinh Pháp Cú" loading="lazy" />' +
+                    '</figure>';
+            } else if (b.type === "verse_table" && b.cells && b.cells.length) {
+                html += '<div class="tm-kpc-story-vtable">';
+                for (var c = 0; c < b.cells.length; c++) {
+                    var cellLines = b.cells[c] || [];
+                    html += '<div class="tm-kpc-story-vcell">';
+                    for (var cl = 0; cl < cellLines.length; cl++) {
+                        html += '<div>' + escapeHtml(cellLines[cl]) + '</div>';
+                    }
+                    html += '</div>';
+                }
+                html += '</div>';
+            }
+        }
+        return html;
+    }
+
+    function renderKpcVerseView(vnum, updateHistory) {
+        var app = document.getElementById("tm-kpc-reader");
+        var stage = document.getElementById("tm-kpc-stage");
+        if (!app || !stage || !kpcMasterData) return;
+
+        vnum = parseInt(vnum, 10);
+        if (isNaN(vnum) || vnum < 1) vnum = 1;
+        if (vnum > 423) vnum = 423;
+        kpcCurrentVerse = vnum;
+
+        try {
+            localStorage.setItem(KPC_STORAGE_KEY, String(vnum));
+        } catch (e) {}
+
+        if (updateHistory !== false && window.history && window.history.replaceState) {
+            try {
+                var u = new URL(window.location.href);
+                u.searchParams.set("bai", String(vnum));
+                window.history.replaceState({ bai: vnum }, "", u.toString());
+            } catch (e) {}
+        }
+
+        // Sync selectors & buttons
+        var verseSel = document.getElementById("tm-kpc-verse-select");
+        if (verseSel) verseSel.value = String(vnum);
+
+        var jumpInp = document.getElementById("tm-kpc-jump-input");
+        if (jumpInp) jumpInp.value = String(vnum);
+
+        var prevBtn = document.getElementById("tm-kpc-prev-btn");
+        var nextBtn = document.getElementById("tm-kpc-next-btn");
+        if (prevBtn) prevBtn.disabled = (vnum <= 1);
+        if (nextBtn) nextBtn.disabled = (vnum >= 423);
+
+        var v = kpcMasterData.verses[String(vnum)];
+        if (!v) {
+            stage.innerHTML = '<div class="tm-media-alert">Không tìm thấy dữ liệu bài kệ ' + vnum + '.</div>';
+            return;
+        }
+
+        var phamSel = document.getElementById("tm-kpc-pham-select");
+        if (phamSel) {
+            var opts = phamSel.querySelectorAll("option");
+            opts.forEach(function (opt) {
+                var pid = parseInt(opt.getAttribute("data-pham-id") || "0", 10);
+                if (pid === v.pham_id) {
+                    phamSel.value = opt.value;
+                }
+            });
+        }
+
+        var st = (v.story_id && kpcMasterData.stories) ? kpcMasterData.stories[v.story_id] : null;
+        var paliLines = v.pali_lines || [];
+        var vnLines = v.vn_lines || [];
+        var verseImg = v.verse_img || v.story_img || "";
+        var yt = v.youtube || null;
+        var storyVerses = v.story_verses || [vnum];
+
+        // Sibling verses pill bar when a story covers multiple verses (e.g. 3-4 or 183-185)
+        var siblingHtml = "";
+        if (storyVerses.length > 1) {
+            siblingHtml = '<div class="tm-kpc-sibling-bar"><span class="tm-kpc-sibling-lbl">🔗 Cụm bài kệ cùng tích truyện:</span>';
+            storyVerses.forEach(function (sv) {
+                var act = (sv === vnum) ? " active" : "";
+                siblingHtml += '<button type="button" class="tm-kpc-sibling-pill' + act + '" onclick="window.tmKpcGoTo(' + sv + ')">Bài kệ ' + sv + '</button>';
+            });
+            siblingHtml += '</div>';
+        }
+
+        var paliHtml = "";
+        for (var p = 0; p < paliLines.length; p++) {
+            paliHtml += '<div class="tm-kpc-line">' + escapeHtml(paliLines[p]) + '</div>';
+        }
+        var vnHtml = "";
+        for (var j = 0; j < vnLines.length; j++) {
+            vnHtml += '<div class="tm-kpc-line">' + escapeHtml(vnLines[j]) + '</div>';
+        }
+
+        // Media grid (Illustration image from loiphatday.org + YouTube Short from @PhapGiacTam)
+        var mediaHtml = '<div class="tm-kpc-media-grid' + (yt ? ' has-both' : ' single-img') + '">';
+        if (verseImg) {
+            mediaHtml +=
+                '<div class="tm-kpc-media-card tm-kpc-img-card">' +
+                '  <div class="tm-kpc-media-head">🖼️ Tranh Minh Họa Bài Kệ ' + vnum + '</div>' +
+                '  <div class="tm-kpc-img-wrap">' +
+                '    <a href="' + escapeHtml(verseImg) + '" target="_blank" rel="noopener noreferrer" title="Bấm để xem ảnh kích thước đầy đủ">' +
+                '      <img src="' + escapeHtml(verseImg) + '" alt="Tranh minh họa Kinh Pháp Cú - Bài kệ ' + vnum + '" loading="eager" />' +
+                '    </a>' +
+                '  </div>' +
+                '</div>';
+        }
+        if (yt && yt.video_id) {
+            var embedUrl = "https://www.youtube.com/embed/" + encodeURIComponent(yt.video_id) + "?rel=0";
+            mediaHtml +=
+                '<div class="tm-kpc-media-card tm-kpc-yt-card">' +
+                '  <div class="tm-kpc-media-head">' +
+                '    <span>🎬 Video 30s Hiểu Kinh Pháp Cú (Câu ' + vnum + ')</span>' +
+                '    <a href="' + escapeHtml(yt.shorts_url || yt.video_url) + '" target="_blank" rel="noopener noreferrer" class="tm-kpc-yt-ext">↗ YouTube</a>' +
+                '  </div>' +
+                '  <div class="tm-kpc-yt-topic">' + escapeHtml(yt.title || "") + '</div>' +
+                '  <div class="tm-kpc-yt-frame-wrap">' +
+                '    <iframe src="' + embedUrl + '" title="' + escapeHtml(yt.title || ("Kinh Pháp Cú Câu " + vnum)) + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe>' +
+                '  </div>' +
+                '</div>';
+        }
+        mediaHtml += '</div>';
+
+        // Story Section (luồng đọc liền mạch từ Bài Kệ xuống Tích Truyện của Bài Kệ)
+        var storyHtml = "";
+        if (st) {
+            var tagsHtml = "";
+            if (st.tags && st.tags.length) {
+                tagsHtml = '<div class="tm-kpc-story-tags"><span class="tm-kpc-tag-lbl">🏷️ Chủ đề:</span>';
+                st.tags.forEach(function (tg) {
+                    tagsHtml += '<span class="tm-kpc-tag">' + escapeHtml(tg) + '</span>';
+                });
+                tagsHtml += '</div>';
+            }
+
+            storyHtml =
+                '<div class="tm-kpc-flow-bridge">' +
+                '  <a href="#tm-kpc-story-anchor" class="tm-kpc-flow-btn" onclick="var el=document.getElementById(\'tm-kpc-story-anchor\');if(el){event.preventDefault();el.scrollIntoView({behavior:\'smooth\',block:\'start\'});}">' +
+                '    <span>📖 Đọc tiếp theo luồng: <strong>Tích Truyện Của Bài Kệ ' + vnum + ' (' + escapeHtml(st.story_name || st.title) + ')</strong></span>' +
+                '    <span class="tm-kpc-flow-down">↓</span>' +
+                '  </a>' +
+                '</div>' +
+                '<section class="tm-kpc-story-section" id="tm-kpc-story-anchor">' +
+                '  <div class="tm-kpc-story-header">' +
+                '    <span class="tm-kpc-story-eyebrow">☸ DUYÊN KHỞI &amp; TÍCH TRUYỆN KINH PHÁP CÚ</span>' +
+                '    <h2 class="tm-kpc-story-title">' + escapeHtml(st.title) + '</h2>' +
+                '    ' + siblingHtml +
+                '  </div>' +
+                '  <div class="tm-kpc-story-body">' +
+                '    ' + renderKpcStoryBlocks(st.blocks) +
+                '  </div>' +
+                '  ' + tagsHtml +
+                '  <div class="tm-kpc-story-footer-nav">' +
+                '    <button type="button" class="tm-kpc-foot-btn" onclick="window.tmKpcStep(-1)" ' + (vnum <= 1 ? 'disabled' : '') + '>⏮ Bài kệ trước (' + (vnum > 1 ? (vnum - 1) : 1) + ')</button>' +
+                '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-top" onclick="var r=document.getElementById(\'tm-kpc-reader\');if(r)r.scrollIntoView({behavior:\'smooth\'});">↑ Lên đầu bài kệ ' + vnum + '</button>' +
+                '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-next" onclick="window.tmKpcStep(1)" ' + (vnum >= 423 ? 'disabled' : '') + '>Bài kệ tiếp (' + (vnum < 423 ? (vnum + 1) : 423) + ') ⏭</button>' +
+                '  </div>' +
+                '</section>';
+        }
+
+        stage.innerHTML =
+            '<article class="tm-kpc-verse-card">' +
+            '  <header class="tm-kpc-verse-header">' +
+            '    <div class="tm-kpc-pham-badge">Phẩm ' + (v.pham_id < 10 ? "0" + v.pham_id : v.pham_id) + ' • ' + escapeHtml(v.pham_name) + ' (' + escapeHtml(v.pham_pali) + ')</div>' +
+            '    <div class="tm-kpc-verse-num-badge">Bài kệ <strong>' + vnum + '</strong> / 423</div>' +
+            '  </header>' +
+            '  <h2 class="tm-kpc-verse-heading">Kệ Pháp Cú Số ' + vnum + (st && st.story_name ? (' — ' + escapeHtml(st.story_name)) : '') + '</h2>' +
+            '  ' + siblingHtml +
+            '  <div class="tm-kpc-bilingual-box">' +
+            '    <div class="tm-kpc-lang-col tm-kpc-pali-col">' +
+            '      <div class="tm-kpc-lang-label">📜 Nguyên tác Pāli</div>' +
+            '      <div class="tm-kpc-lang-lines">' + paliHtml + '</div>' +
+            '    </div>' +
+            '    <div class="tm-kpc-lang-col tm-kpc-vn-col">' +
+            '      <div class="tm-kpc-lang-label">🪷 Việt dịch (HT. Thích Minh Châu)</div>' +
+            '      <div class="tm-kpc-lang-lines">' + vnHtml + '</div>' +
+            '    </div>' +
+            '  </div>' +
+            '  ' + mediaHtml +
+            '</article>' +
+            storyHtml;
+    }
+
+    window.tmKpcGoTo = function (vnum, scrollReader) {
+        renderKpcVerseView(vnum, true);
+        if (scrollReader !== false) {
+            var app = document.getElementById("tm-kpc-reader");
+            if (app) {
+                app.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    };
+
+    window.tmKpcStep = function (delta) {
+        var target = kpcCurrentVerse + delta;
+        if (target < 1 || target > 423) return;
+        window.tmKpcGoTo(target, true);
+    };
+
+    window.tmKpcJumpInput = function () {
+        var inp = document.getElementById("tm-kpc-jump-input");
+        if (!inp) return;
+        var val = parseInt(inp.value, 10);
+        if (!isNaN(val) && val >= 1 && val <= 423) {
+            window.tmKpcGoTo(val, true);
+        }
+    };
+
+    window.tmKpcFilterPham = function (phamId, btnEl) {
+        var pills = document.querySelectorAll("#tm-kpc-filter-pills .tm-kpc-filter-pill");
+        pills.forEach(function (p) {
+            p.classList.toggle("active", p === btnEl);
+        });
+        var secs = document.querySelectorAll("#tm-kpc-toc-sections .tm-kpc-toc-section");
+        secs.forEach(function (sec) {
+            var spid = sec.getAttribute("data-pham-section");
+            sec.style.display = (phamId === "all" || spid === String(phamId)) ? "block" : "none";
+        });
+    };
+
+    window.tmKpcFilterToc = function (query) {
+        var q = (query || "").trim().toLowerCase();
+        var secs = document.querySelectorAll("#tm-kpc-toc-sections .tm-kpc-toc-section");
+        secs.forEach(function (sec) {
+            var items = sec.querySelectorAll(".tm-kpc-toc-item");
+            var visibleCount = 0;
+            items.forEach(function (it) {
+                var txt = it.getAttribute("data-search") || "";
+                var vnum = it.getAttribute("data-verse") || "";
+                var match = !q || txt.indexOf(q) !== -1 || vnum === q;
+                it.style.display = match ? "flex" : "none";
+                if (match) visibleCount++;
+            });
+            sec.style.display = visibleCount > 0 ? "block" : "none";
+        });
+    };
+
+    window.tmKpcTocGoNum = function () {
+        var app = document.getElementById("tm-kpc-toc-app");
+        var inp = document.getElementById("tm-kpc-toc-num");
+        if (!app || !inp) return;
+        var v = parseInt(inp.value, 10);
+        if (!isNaN(v) && v >= 1 && v <= 423) {
+            var readerUrl = app.getAttribute("data-reader-url") || "/phat-giao/kinh-phap-cu/doc-kinh-phap-cu";
+            window.location.href = readerUrl + "?bai=" + v;
+        }
+    };
+
+    function initKpcReader() {
+        var app = document.getElementById("tm-kpc-reader");
+        if (!app) return;
+
+        var jsonUrl = app.getAttribute("data-json-url");
+        var initVerse = parseInt(app.getAttribute("data-init-verse") || "1", 10);
+        var targetVerse = getRequestedVerse(initVerse);
+
+        fetch(jsonUrl)
+            .then(function (r) { return r.json(); })
+            .then(function (data) {
+                kpcMasterData = data;
+                renderKpcVerseView(targetVerse, false);
+            })
+            .catch(function (err) {
+                var stage = document.getElementById("tm-kpc-stage");
+                if (stage) {
+                    stage.innerHTML = '<div class="tm-media-alert">Không thể tải dữ liệu Kinh Pháp Cú: ' + escapeHtml(String(err)) + '</div>';
+                }
+            });
+
+        window.addEventListener("popstate", function () {
+            if (kpcMasterData) {
+                var v = getRequestedVerse(1);
+                renderKpcVerseView(v, false);
+            }
+        });
+
+        // Keyboard left/right arrow support when not typing in an input
+        document.addEventListener("keydown", function (e) {
+            if (!kpcMasterData) return;
+            var tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : "";
+            if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || (e.target && e.target.isContentEditable)) {
+                return;
+            }
+            if (e.key === "ArrowLeft") {
+                window.tmKpcStep(-1);
+            } else if (e.key === "ArrowRight") {
+                window.tmKpcStep(1);
+            }
+        });
+    }
 })();

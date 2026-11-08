@@ -1,0 +1,5734 @@
+{
+  "meta": {
+    "title": "Kinh Pháp Cú (Dhammapada) — Trọn Bộ 26 Phẩm, 423 Bài Kệ & Tích Truyện",
+    "translator": "Hòa thượng Thích Minh Châu (Việt dịch kệ) • Tỳ-khưu Tâm Pháp & nhóm biên tập KinhPhapCu.vn (Tích truyện)",
+    "total_phams": 26,
+    "total_verses": 423,
+    "total_stories": 304,
+    "total_videos": 280
+  },
+  "phams": [
+    {
+      "id": 1,
+      "name": "Phẩm Song Yếu",
+      "pali": "Yamakavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-01-pham-song-yeu",
+      "verse_start": 1,
+      "verse_end": 20,
+      "verse_count": 20
+    },
+    {
+      "id": 2,
+      "name": "Phẩm Không Phóng Dật",
+      "pali": "Appamādavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-02-pham-khong-phong-dat",
+      "verse_start": 21,
+      "verse_end": 32,
+      "verse_count": 12
+    },
+    {
+      "id": 3,
+      "name": "Phẩm Tâm",
+      "pali": "Cittavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-03-pham-tam",
+      "verse_start": 33,
+      "verse_end": 43,
+      "verse_count": 11
+    },
+    {
+      "id": 4,
+      "name": "Phẩm Hoa",
+      "pali": "Pupphavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-04-pham-hoa",
+      "verse_start": 44,
+      "verse_end": 59,
+      "verse_count": 16
+    },
+    {
+      "id": 5,
+      "name": "Phẩm Ngu",
+      "pali": "Bālavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-05-pham-ngu",
+      "verse_start": 60,
+      "verse_end": 75,
+      "verse_count": 16
+    },
+    {
+      "id": 6,
+      "name": "Phẩm Hiền Trí",
+      "pali": "Paṇḍitavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-06-pham-hien-tri",
+      "verse_start": 76,
+      "verse_end": 89,
+      "verse_count": 14
+    },
+    {
+      "id": 7,
+      "name": "Phẩm A-La-Hán",
+      "pali": "Arahantavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-07-pham-a-la-han",
+      "verse_start": 90,
+      "verse_end": 99,
+      "verse_count": 10
+    },
+    {
+      "id": 8,
+      "name": "Phẩm Ngàn",
+      "pali": "Sahassavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-08-pham-ngan",
+      "verse_start": 100,
+      "verse_end": 115,
+      "verse_count": 16
+    },
+    {
+      "id": 9,
+      "name": "Phẩm Ác",
+      "pali": "Pāpavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-09-pham-ac",
+      "verse_start": 116,
+      "verse_end": 128,
+      "verse_count": 13
+    },
+    {
+      "id": 10,
+      "name": "Phẩm Hình Phạt",
+      "pali": "Daṇḍavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-10-pham-hinh-phat",
+      "verse_start": 129,
+      "verse_end": 145,
+      "verse_count": 17
+    },
+    {
+      "id": 11,
+      "name": "Phẩm Già",
+      "pali": "Jarāvagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-11-pham-gia",
+      "verse_start": 146,
+      "verse_end": 156,
+      "verse_count": 11
+    },
+    {
+      "id": 12,
+      "name": "Phẩm Tự Ngã",
+      "pali": "Attavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-12-pham-tu-nga",
+      "verse_start": 157,
+      "verse_end": 166,
+      "verse_count": 10
+    },
+    {
+      "id": 13,
+      "name": "Phẩm Thế Gian",
+      "pali": "Lokavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-13-pham-the-gian",
+      "verse_start": 167,
+      "verse_end": 178,
+      "verse_count": 12
+    },
+    {
+      "id": 14,
+      "name": "Phẩm Phật Đà",
+      "pali": "Buddhavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-14-pham-phat-da",
+      "verse_start": 179,
+      "verse_end": 196,
+      "verse_count": 18
+    },
+    {
+      "id": 15,
+      "name": "Phẩm An Lạc",
+      "pali": "Sukhavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-15-pham-an-lac",
+      "verse_start": 197,
+      "verse_end": 208,
+      "verse_count": 12
+    },
+    {
+      "id": 16,
+      "name": "Phẩm Hỷ Ái",
+      "pali": "Piyavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-16-pham-hy-ai",
+      "verse_start": 209,
+      "verse_end": 220,
+      "verse_count": 12
+    },
+    {
+      "id": 17,
+      "name": "Phẩm Phẫn Nộ",
+      "pali": "Kodhavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-17-pham-phan-no",
+      "verse_start": 221,
+      "verse_end": 234,
+      "verse_count": 14
+    },
+    {
+      "id": 18,
+      "name": "Phẩm Cấu Uế",
+      "pali": "Malavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-18-pham-cau-ue",
+      "verse_start": 235,
+      "verse_end": 255,
+      "verse_count": 21
+    },
+    {
+      "id": 19,
+      "name": "Phẩm Pháp Trụ",
+      "pali": "Dhammaṭṭhavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-19-pham-phap-tru",
+      "verse_start": 256,
+      "verse_end": 272,
+      "verse_count": 17
+    },
+    {
+      "id": 20,
+      "name": "Phẩm Đạo",
+      "pali": "Maggavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-20-pham-dao",
+      "verse_start": 273,
+      "verse_end": 289,
+      "verse_count": 17
+    },
+    {
+      "id": 21,
+      "name": "Phẩm Tạp Lục",
+      "pali": "Pakiṇṇakavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-21-pham-tap-luc",
+      "verse_start": 290,
+      "verse_end": 305,
+      "verse_count": 16
+    },
+    {
+      "id": 22,
+      "name": "Phẩm Địa Ngục",
+      "pali": "Nirayavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-22-pham-dia-nguc",
+      "verse_start": 306,
+      "verse_end": 319,
+      "verse_count": 14
+    },
+    {
+      "id": 23,
+      "name": "Phẩm Voi",
+      "pali": "Nāgavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-23-pham-voi",
+      "verse_start": 320,
+      "verse_end": 333,
+      "verse_count": 14
+    },
+    {
+      "id": 24,
+      "name": "Phẩm Tham Ái",
+      "pali": "Taṇhāvagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-24-pham-tham-ai",
+      "verse_start": 334,
+      "verse_end": 359,
+      "verse_count": 26
+    },
+    {
+      "id": 25,
+      "name": "Phẩm Tỳ Kheo",
+      "pali": "Bhikkhuvagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-25-pham-ty-kheo",
+      "verse_start": 360,
+      "verse_end": 382,
+      "verse_count": 23
+    },
+    {
+      "id": 26,
+      "name": "Phẩm Bà La Môn",
+      "pali": "Brāhmaṇavagga",
+      "url_loiphatday": "https://loiphatday.org/kinh-phap-cu-26-pham-ba-la-mon",
+      "verse_start": 383,
+      "verse_end": 423,
+      "verse_count": 41
+    }
+  ],
+  "toc": [
+    {
+      "num": 1,
+      "pham_id": 1,
+      "first_line": "Ý dẫn đầu các pháp,",
+      "vn_preview": "Ý dẫn đầu các pháp, / Ý làm chủ, ý tạo;",
+      "story_name": "TRƯỞNG LÃO CAKKHUPĀLA",
+      "story_verses": [
+        1
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 2,
+      "pham_id": 1,
+      "first_line": "Ý dẫn đầu các pháp,",
+      "vn_preview": "Ý dẫn đầu các pháp, / Ý làm chủ, ý tạo;",
+      "story_name": "CẬU KIM HOÀN",
+      "story_verses": [
+        2
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 3,
+      "pham_id": 1,
+      "first_line": "Nó mắng tôi, đánh tôi,",
+      "vn_preview": "Nó mắng tôi, đánh tôi, / Nó thắng tôi, cướp tôi",
+      "story_name": "TRƯỞNG LÃO TISSA",
+      "story_verses": [
+        3,
+        4
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 4,
+      "pham_id": 1,
+      "first_line": "Nó mắng tôi, đánh tôi,",
+      "vn_preview": "Nó mắng tôi, đánh tôi, / Nó thắng tôi, cướp tôi",
+      "story_name": "TRƯỞNG LÃO TISSA",
+      "story_verses": [
+        3,
+        4
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 5,
+      "pham_id": 1,
+      "first_line": "Với hận diệt hận thù,",
+      "vn_preview": "Với hận diệt hận thù, / Ðời này không có được.",
+      "story_name": "NGƯỜI SANH LÀM NỮ DẠ XOA",
+      "story_verses": [
+        5
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 6,
+      "pham_id": 1,
+      "first_line": "Và người khác không biết,",
+      "vn_preview": "Và người khác không biết, / Chúng ta đây bị hại.",
+      "story_name": "CÁC TỲ KHƯU Ở KOSAMBI",
+      "story_verses": [
+        6
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 7,
+      "pham_id": 1,
+      "first_line": "Ai sống nhìn tịnh tướng,",
+      "vn_preview": "Ai sống nhìn tịnh tướng, / Không hộ trì các căn,",
+      "story_name": "TIỂU HẮC và ĐẠI HẮC",
+      "story_verses": [
+        7,
+        8
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 8,
+      "pham_id": 1,
+      "first_line": "Ai sống quán bất tịnh,",
+      "vn_preview": "Ai sống quán bất tịnh, / Khéo hộ trì các căn,",
+      "story_name": "TIỂU HẮC và ĐẠI HẮC",
+      "story_verses": [
+        7,
+        8
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 9,
+      "pham_id": 1,
+      "first_line": "Ai mặc áo cà sa.",
+      "vn_preview": "Ai mặc áo cà sa. / tâm chưa rời uế trược,",
+      "story_name": "DEVADATTA ĐƯỢC Y QUÝ",
+      "story_verses": [
+        9,
+        10
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 10,
+      "pham_id": 1,
+      "first_line": "Ai rời bỏ uế trược,",
+      "vn_preview": "Ai rời bỏ uế trược, / giới luật khéo nghiêm trì,",
+      "story_name": "DEVADATTA ĐƯỢC Y QUÝ",
+      "story_verses": [
+        9,
+        10
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 11,
+      "pham_id": 1,
+      "first_line": "Không chân, tưởng chân thật,",
+      "vn_preview": "Không chân, tưởng chân thật, / chân thật, thấy không chân:",
+      "story_name": "ÔNG SAÑJAYA KHÔNG ĐẦU PHẬT",
+      "story_verses": [
+        11,
+        12
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 12,
+      "pham_id": 1,
+      "first_line": "Chân thật, biết chân thật,",
+      "vn_preview": "Chân thật, biết chân thật, / Không chân, biết không chân:",
+      "story_name": "ÔNG SAÑJAYA KHÔNG ĐẦU PHẬT",
+      "story_verses": [
+        11,
+        12
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 13,
+      "pham_id": 1,
+      "first_line": "Như mái nhà vụng lợp,",
+      "vn_preview": "Như mái nhà vụng lợp, / Mưa liền xâm nhập vào.",
+      "story_name": "ĐẠI ĐỨC NANDA",
+      "story_verses": [
+        13,
+        14
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 14,
+      "pham_id": 1,
+      "first_line": "Như ngôi nhà khéo lợp,",
+      "vn_preview": "Như ngôi nhà khéo lợp, / Mưa không xâm nhập vào.",
+      "story_name": "ĐẠI ĐỨC NANDA",
+      "story_verses": [
+        13,
+        14
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 15,
+      "pham_id": 1,
+      "first_line": "Nay sầu, đời sau sầu,",
+      "vn_preview": "Nay sầu, đời sau sầu, / Kẻ ác, hai đời sầu;",
+      "story_name": "ĐỒ TỂ CUNDA",
+      "story_verses": [
+        15
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 16,
+      "pham_id": 1,
+      "first_line": "Nay vui, đời sau vui,",
+      "vn_preview": "Nay vui, đời sau vui, / Làm phước, hai đời vui,",
+      "story_name": "THIỆN NAM SÙNG ĐẠO DHAMMIKA",
+      "story_verses": [
+        16
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 17,
+      "pham_id": 1,
+      "first_line": "Nay than, đời sau than,",
+      "vn_preview": "Nay than, đời sau than, / Kẻ ác, hai đời than,",
+      "story_name": "DEVADATTA",
+      "story_verses": [
+        17
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 18,
+      "pham_id": 1,
+      "first_line": "Nay sướng, đời sau sướng,",
+      "vn_preview": "Nay sướng, đời sau sướng, / Làm phước, hai đời sướng.",
+      "story_name": "SUMANĀDEVĪ",
+      "story_verses": [
+        18
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 19,
+      "pham_id": 1,
+      "first_line": "Nếu người nói nhiều kinh,",
+      "vn_preview": "Nếu người nói nhiều kinh, / Không hành trì, phóng dật;",
+      "story_name": "HAI VỊ TỲ KHƯU BẠN",
+      "story_verses": [
+        19,
+        20
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 20,
+      "pham_id": 1,
+      "first_line": "Dầu nói ít kinh điển,",
+      "vn_preview": "Dầu nói ít kinh điển, / Nhưng hành pháp, tùy pháp,",
+      "story_name": "HAI VỊ TỲ KHƯU BẠN",
+      "story_verses": [
+        19,
+        20
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 21,
+      "pham_id": 2,
+      "first_line": "Không phóng dật, đường sống,",
+      "vn_preview": "Không phóng dật, đường sống, / Phóng dật là đường chết.",
+      "story_name": "HOÀNG HẬU SĀMĀVATĪ",
+      "story_verses": [
+        21,
+        22,
+        23
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 22,
+      "pham_id": 2,
+      "first_line": "Biết rõ sai biệt ấy,",
+      "vn_preview": "Biết rõ sai biệt ấy, / Người trí không phóng dật,",
+      "story_name": "HOÀNG HẬU SĀMĀVATĪ",
+      "story_verses": [
+        21,
+        22,
+        23
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 23,
+      "pham_id": 2,
+      "first_line": "Người hằng tu thiền định,",
+      "vn_preview": "Người hằng tu thiền định, / Thường kiên trì tinh tấn.",
+      "story_name": "HOÀNG HẬU SĀMĀVATĪ",
+      "story_verses": [
+        21,
+        22,
+        23
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 24,
+      "pham_id": 2,
+      "first_line": "Nỗ lực, giữ chánh niệm,",
+      "vn_preview": "Nỗ lực, giữ chánh niệm, / Tịnh hạnh, hành thận trọng",
+      "story_name": "KUMBHAGHOSAKA",
+      "story_verses": [
+        24
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 25,
+      "pham_id": 2,
+      "first_line": "Nỗ lực, không phóng dật,",
+      "vn_preview": "Nỗ lực, không phóng dật, / Tự điều, khéo chế ngự.",
+      "story_name": "TRƯỞNG LÃO TIỂU BẦN ĐẶC",
+      "story_verses": [
+        25
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 26,
+      "pham_id": 2,
+      "first_line": "Chúng ngu si, thiếu trí,",
+      "vn_preview": "Chúng ngu si, thiếu trí, / Chuyên sống đời phóng dật.",
+      "story_name": "CÁI TẾT THÁC LOẠN",
+      "story_verses": [
+        26,
+        27
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 27,
+      "pham_id": 2,
+      "first_line": "Chớ sống đời phóng dật,",
+      "vn_preview": "Chớ sống đời phóng dật, / Chớ mê say dục lạc.",
+      "story_name": "CÁI TẾT THÁC LOẠN",
+      "story_verses": [
+        26,
+        27
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 28,
+      "pham_id": 2,
+      "first_line": "Người trí dẹp phóng dật,",
+      "vn_preview": "Người trí dẹp phóng dật, / Với hạnh không phóng dật,",
+      "story_name": "ĐẠI ĐỨC MAHĀKASSAPA",
+      "story_verses": [
+        28
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 29,
+      "pham_id": 2,
+      "first_line": "Tinh cần giữa phóng dật,",
+      "vn_preview": "Tinh cần giữa phóng dật, / Tỉnh thức giữa quần mê.",
+      "story_name": "HAI VỊ TỲ KHƯU BẠN",
+      "story_verses": [
+        29
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 30,
+      "pham_id": 2,
+      "first_line": "Ðế Thích [1] không phóng dật,",
+      "vn_preview": "Ðế Thích [1] không phóng dật, / Ðạt ngôi vị Thiên chủ.",
+      "story_name": "ĐỨC SAKKA",
+      "story_verses": [
+        30
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 31,
+      "pham_id": 2,
+      "first_line": "Vui thích không phóng dật,",
+      "vn_preview": "Vui thích không phóng dật, / Tỷ kheo sợ phóng dật,",
+      "story_name": "VỊ TỲ KHƯU QUÁN LỬA RỪNG",
+      "story_verses": [
+        31
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 32,
+      "pham_id": 2,
+      "first_line": "Vui thích không phóng dật,",
+      "vn_preview": "Vui thích không phóng dật, / Tỷ kheo sợ phóng dật,",
+      "story_name": "ĐẠI ĐỨC TISSA Ở THỊ XÃ",
+      "story_verses": [
+        32
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 33,
+      "pham_id": 3,
+      "first_line": "Tâm hoảng hốt giao động,",
+      "vn_preview": "Tâm hoảng hốt giao động, / Khó hộ trì, khó nhiếp,",
+      "story_name": "TRƯỞNG LÃO MÊ KỲ DẠ",
+      "story_verses": [
+        33,
+        34
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 34,
+      "pham_id": 3,
+      "first_line": "Như cá quăng lên bờ,",
+      "vn_preview": "Như cá quăng lên bờ, / Vất ra ngoài thủy giới;",
+      "story_name": "TRƯỞNG LÃO MÊ KỲ DẠ",
+      "story_verses": [
+        33,
+        34
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 35,
+      "pham_id": 3,
+      "first_line": "Khó nắm giữ, khinh động,",
+      "vn_preview": "Khó nắm giữ, khinh động, / Theo các dục quay cuồng.",
+      "story_name": "VỊ TỲ KHƯU Ở THỦY LƯU THÔN",
+      "story_verses": [
+        35
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 36,
+      "pham_id": 3,
+      "first_line": "Tâm khó thấy, tế nhị,",
+      "vn_preview": "Tâm khó thấy, tế nhị, / Theo các dục quay cuồng.",
+      "story_name": "VỊ TỲ KHƯU BẤT MÃN",
+      "story_verses": [
+        36
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 37,
+      "pham_id": 3,
+      "first_line": "Chạy xa, sống một mình,",
+      "vn_preview": "Chạy xa, sống một mình, / Không thân, ẩn hang sâu [1]",
+      "story_name": "ĐẠI ĐỨC HỘ TĂNG ĐIỆT",
+      "story_verses": [
+        37
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 38,
+      "pham_id": 3,
+      "first_line": "Ai tâm không an trú,",
+      "vn_preview": "Ai tâm không an trú, / Không biết chân diệu pháp,",
+      "story_name": "ĐẠI ĐỨC PHỤC TÂM",
+      "story_verses": [
+        38,
+        39
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 39,
+      "pham_id": 3,
+      "first_line": "Tâm không đầy tràn dục,",
+      "vn_preview": "Tâm không đầy tràn dục, / Tâm không (hận) công phá,",
+      "story_name": "ĐẠI ĐỨC PHỤC TÂM",
+      "story_verses": [
+        38,
+        39
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 40,
+      "pham_id": 3,
+      "first_line": "Biết thân như đồ gốm,",
+      "vn_preview": "Biết thân như đồ gốm, / Trú tâm như thành trì,",
+      "story_name": "CÁC TỲ KHƯU QUÁN TỰ NGÃ",
+      "story_verses": [
+        40
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 41,
+      "pham_id": 3,
+      "first_line": "Không bao lâu thân này,",
+      "vn_preview": "Không bao lâu thân này, / Sẽ nằm dài trên đất,",
+      "story_name": "ĐẠI ĐỨC TISSA THÚI THÂY",
+      "story_verses": [
+        41
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 42,
+      "pham_id": 3,
+      "first_line": "Kẻ thù hại kẻ thù,",
+      "vn_preview": "Kẻ thù hại kẻ thù, / Oan gia hại oan gia,",
+      "story_name": "NAN ĐÀ CHỦ TRẠI BÒ",
+      "story_verses": [
+        42
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 43,
+      "pham_id": 3,
+      "first_line": "Ðiều mẹ cha bà con,",
+      "vn_preview": "Ðiều mẹ cha bà con, / Không có thể làm được,",
+      "story_name": "ĐẠI ĐỨC TU LỆ DA",
+      "story_verses": [
+        43
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 44,
+      "pham_id": 4,
+      "first_line": "“Ai chinh phục đất này",
+      "vn_preview": "“Ai chinh phục đất này / Dạ ma, Thiên giới này?",
+      "story_name": "VỊ TỲ KHƯU ĐÀM LUẬN VỀ ĐỊA ĐẠI",
+      "story_verses": [
+        44,
+        45
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 45,
+      "pham_id": 4,
+      "first_line": "“Hữu học chinh phục đất,",
+      "vn_preview": "“Hữu học chinh phục đất, / Dạ ma, Thiên giới này.",
+      "story_name": "VỊ TỲ KHƯU ĐÀM LUẬN VỀ ĐỊA ĐẠI",
+      "story_verses": [
+        44,
+        45
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 46,
+      "pham_id": 4,
+      "first_line": "“Biết thân như bọt nước,",
+      "vn_preview": "“Biết thân như bọt nước, / Ngộ thân là như huyễn,",
+      "story_name": "TỲ KHƯU QUÁN BÀO ẢNH",
+      "story_verses": [
+        46
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 47,
+      "pham_id": 4,
+      "first_line": "“Người nhặt các loại hoa,",
+      "vn_preview": "“Người nhặt các loại hoa, / Ý đắm say, tham nhiễm,",
+      "story_name": "VIḌŪḌABHA (LƯU LY VƯƠNG)",
+      "story_verses": [
+        47
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 48,
+      "pham_id": 4,
+      "first_line": "Người nhặt các loại hoa,",
+      "vn_preview": "Người nhặt các loại hoa, / Ý đắm say tham nhiễm,",
+      "story_name": "NÀNG SỰ PHỤ",
+      "story_verses": [
+        48
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 49,
+      "pham_id": 4,
+      "first_line": "“Như ong đến với hoa,",
+      "vn_preview": "“Như ong đến với hoa, / Không hại sắc và hương,",
+      "story_name": "BÁ HỘ KHAN NANG",
+      "story_verses": [
+        49
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 50,
+      "pham_id": 4,
+      "first_line": "“Không nên nhìn lỗi người,",
+      "vn_preview": "“Không nên nhìn lỗi người, / Người làm hay không làm.",
+      "story_name": "TU SĨ NGOẠI ĐẠO TIỂU ĐIỆP",
+      "story_verses": [
+        50
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 51,
+      "pham_id": 4,
+      "first_line": "“Như bông hoa tươi đẹp,",
+      "vn_preview": "“Như bông hoa tươi đẹp, / Có sắc nhưng không hương.",
+      "story_name": "THIỆN NAM TẢN THỦ",
+      "story_verses": [
+        51,
+        52
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 52,
+      "pham_id": 4,
+      "first_line": "“Như bông hoa tươi đẹp,",
+      "vn_preview": "“Như bông hoa tươi đẹp, / Có sắc lại thêm hương;",
+      "story_name": "THIỆN NAM TẢN THỦ",
+      "story_verses": [
+        51,
+        52
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 53,
+      "pham_id": 4,
+      "first_line": "“Như từ một đống hoa,",
+      "vn_preview": "“Như từ một đống hoa, / Nhiều tràng hoa được làm.",
+      "story_name": "ĐẠI TÍN NỮ THIỆN CHI",
+      "story_verses": [
+        53
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 54,
+      "pham_id": 4,
+      "first_line": "“Hương các loại hoa thơm",
+      "vn_preview": "“Hương các loại hoa thơm / Không ngược bay chiều gió",
+      "story_name": "ĐẠI ĐỨC ĀNANDA VẤN ĐẠO",
+      "story_verses": [
+        54,
+        55
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 55,
+      "pham_id": 4,
+      "first_line": "“Hoa chiên đàn, già la,",
+      "vn_preview": "“Hoa chiên đàn, già la, / Hoa sen, hoa vũ quý,",
+      "story_name": "ĐẠI ĐỨC ĀNANDA VẤN ĐẠO",
+      "story_verses": [
+        54,
+        55
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 56,
+      "pham_id": 4,
+      "first_line": "“Ít giá trị hương này,",
+      "vn_preview": "“Ít giá trị hương này, / Hương già la, chiên đàn;",
+      "story_name": "ĐẠI ĐỨC MAHĀKASSAPA ĐƯỢC VUA TRỜI ĐỂ BÁT",
+      "story_verses": [
+        56
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 57,
+      "pham_id": 4,
+      "first_line": "“Nhưng ai có giới hạnh,",
+      "vn_preview": "“Nhưng ai có giới hạnh, / An trú không phóng dật,",
+      "story_name": "ĐẠI ĐỨC CỒ ĐIỆT VIÊN TỊCH",
+      "story_verses": [
+        57
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 58,
+      "pham_id": 4,
+      "first_line": "“Như giữa đống rác nhớp,",
+      "vn_preview": "“Như giữa đống rác nhớp, / Quăng bỏ trên đường lớn,",
+      "story_name": "ÔNG OÁN TRÁCH THÍ",
+      "story_verses": [
+        58,
+        59
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 59,
+      "pham_id": 4,
+      "first_line": "“Cũng vậy giữa quần sanh,",
+      "vn_preview": "“Cũng vậy giữa quần sanh, / Uế nhiễm, mù, phàm tục,",
+      "story_name": "ÔNG OÁN TRÁCH THÍ",
+      "story_verses": [
+        58,
+        59
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 60,
+      "pham_id": 5,
+      "first_line": "“Ðêm dài cho kẻ thức,",
+      "vn_preview": "“Ðêm dài cho kẻ thức, / Ðường dài cho kẻ mệt,",
+      "story_name": "TRAI NGHÈO CÓ VỢ ĐẸP",
+      "story_verses": [
+        60
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 61,
+      "pham_id": 5,
+      "first_line": "“Tìm không được bạn đường,",
+      "vn_preview": "“Tìm không được bạn đường, / Hơn mình hay bằng mình,",
+      "story_name": "ĐỆ TỬ CỦA ĐẠI ĐỨC MA HA CA DIẾP",
+      "story_verses": [
+        61
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 62,
+      "pham_id": 5,
+      "first_line": "“Con tôi, tài sản tôi,",
+      "vn_preview": "“Con tôi, tài sản tôi, / Người ngu sanh ưu não,",
+      "story_name": "TRƯỞNG GIẢ A NAN",
+      "story_verses": [
+        62
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 63,
+      "pham_id": 5,
+      "first_line": "“Người ngu nghĩ mình ngu,",
+      "vn_preview": "“Người ngu nghĩ mình ngu, / Nhờ vậy thành có trí.",
+      "story_name": "NGƯỜI ĐIẾM MÓC TÚI",
+      "story_verses": [
+        63
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 64,
+      "pham_id": 5,
+      "first_line": "“Người ngu, dầu trọn đời,",
+      "vn_preview": "“Người ngu, dầu trọn đời, / Thân cận người có trí,",
+      "story_name": "ĐẠI ĐỨC ƯU ĐÀ DI",
+      "story_verses": [
+        64
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 65,
+      "pham_id": 5,
+      "first_line": "“Người trí, dầu một khắc,",
+      "vn_preview": "“Người trí, dầu một khắc, / Thân cận người có trí,",
+      "story_name": "NHÓM TỲ KHƯU BẠT ĐỀ",
+      "story_verses": [
+        65
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 66,
+      "pham_id": 5,
+      "first_line": "“Người ngu si thiếu trí,",
+      "vn_preview": "“Người ngu si thiếu trí, / Tự ngã thành kẻ thù.",
+      "story_name": "ÔNG THIỆN GIÁC CÙI",
+      "story_verses": [
+        66
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 67,
+      "pham_id": 5,
+      "first_line": "“Nghiệp làm không chánh thiện,",
+      "vn_preview": "“Nghiệp làm không chánh thiện, / Làm rồi sanh ăn năn,",
+      "story_name": "NGƯỜI NÔNG PHU MẮC NẠN",
+      "story_verses": [
+        67
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 68,
+      "pham_id": 5,
+      "first_line": "“Và nghiệp làm chánh thiện,",
+      "vn_preview": "“Và nghiệp làm chánh thiện, / Làm rồi không ăn năn,",
+      "story_name": "NGƯỜI HÀNG HOA HẢO Ý",
+      "story_verses": [
+        68
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 69,
+      "pham_id": 5,
+      "first_line": "“Người ngu nghĩ là ngọt,",
+      "vn_preview": "“Người ngu nghĩ là ngọt, / Khi ác chưa chín muồi;",
+      "story_name": "NỮ THÁNH UPPALAVAṆṆĀ",
+      "story_verses": [
+        69
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 70,
+      "pham_id": 5,
+      "first_line": "“Tháng tháng với ngọn cỏ,",
+      "vn_preview": "“Tháng tháng với ngọn cỏ, / Người ngu có ăn uống",
+      "story_name": "JAMBŪKĀJĪVAKA",
+      "story_verses": [
+        70
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 71,
+      "pham_id": 5,
+      "first_line": "“Nghiệp ác đã được làm,",
+      "vn_preview": "“Nghiệp ác đã được làm, / Như sữa, không đông ngay,",
+      "story_name": "NGẠ QUỶ MÌNH RẮN",
+      "story_verses": [
+        71
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 72,
+      "pham_id": 5,
+      "first_line": "“Tự nó chịu bất hạnh,",
+      "vn_preview": "“Tự nó chịu bất hạnh, / Khi danh đến kẻ ngu.",
+      "story_name": "NGẠ QUỶ ĐẬP ĐẦU",
+      "story_verses": [
+        72
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 73,
+      "pham_id": 5,
+      "first_line": "“Ưa danh không tương xứng,",
+      "vn_preview": "“Ưa danh không tương xứng, / Muốn ngồi trước tỷ kheo,",
+      "story_name": "ĐẠI ĐỨC THIỆN PHÁP",
+      "story_verses": [
+        73,
+        74
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 74,
+      "pham_id": 5,
+      "first_line": "“Mong cả hai tăng, tục,",
+      "vn_preview": "“Mong cả hai tăng, tục, / Nghĩ rằng (chính ta làm).",
+      "story_name": "ĐẠI ĐỨC THIỆN PHÁP",
+      "story_verses": [
+        73,
+        74
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 75,
+      "pham_id": 5,
+      "first_line": "“Khác thay duyên thế lợi,",
+      "vn_preview": "“Khác thay duyên thế lợi, / Khác thay đường Niết Bàn.",
+      "story_name": "ĐẠI ĐỨC ĐỀ XÁ Ở RỪNG",
+      "story_verses": [
+        75
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 76,
+      "pham_id": 6,
+      "first_line": "“Nếu thấy bậc hiền trí,",
+      "vn_preview": "“Nếu thấy bậc hiền trí, / Chỉ lỗi và khiển trách,",
+      "story_name": "ĐẠI ĐỨC LA ĐÀ",
+      "story_verses": [
+        76
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 77,
+      "pham_id": 6,
+      "first_line": "“Những người hay khuyên dạy,",
+      "vn_preview": "“Những người hay khuyên dạy, / Ngăn người khác làm ác,",
+      "story_name": "ÁC TĂNG",
+      "story_verses": [
+        77
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 78,
+      "pham_id": 6,
+      "first_line": "“Chớ thân với bạn ác,",
+      "vn_preview": "“Chớ thân với bạn ác, / Chớ thân kẻ tiểu nhân.",
+      "story_name": "ĐẠI ĐỨC SA NẶC",
+      "story_verses": [
+        78
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 79,
+      "pham_id": 6,
+      "first_line": "“Pháp hỷ đem an lạc,",
+      "vn_preview": "“Pháp hỷ đem an lạc, / Với tâm tư thuần tịnh;",
+      "story_name": "ĐẠI ĐỨC MA HA KIẾP TÂN NA",
+      "story_verses": [
+        79
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 80,
+      "pham_id": 6,
+      "first_line": "“Người trị thủy dẫn nước,",
+      "vn_preview": "“Người trị thủy dẫn nước, / Kẻ làm tên nắn tên,",
+      "story_name": "SA DI TRÍ GIẢ",
+      "story_verses": [
+        80
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 81,
+      "pham_id": 6,
+      "first_line": "“Như đá tảng kiên cố,",
+      "vn_preview": "“Như đá tảng kiên cố, / Không gió nào giao động,",
+      "story_name": "ĐẠI ĐỨC BẠT ĐÀ LÙN",
+      "story_verses": [
+        81
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 82,
+      "pham_id": 6,
+      "first_line": "“Như hồ nước sâu thẳm,",
+      "vn_preview": "“Như hồ nước sâu thẳm, / Trong sáng, không khuấy đục,",
+      "story_name": "MẸ CÔNG CHÚA CÀ NA",
+      "story_verses": [
+        82
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 83,
+      "pham_id": 6,
+      "first_line": "“Người hiền bỏ tất cả,",
+      "vn_preview": "“Người hiền bỏ tất cả, / Người lành không bàn dục,",
+      "story_name": "NĂM TRĂM VỊ TỲ KHƯU",
+      "story_verses": [
+        83
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 84,
+      "pham_id": 6,
+      "first_line": "“Không vì mình, vì người.",
+      "vn_preview": "“Không vì mình, vì người. / Không cầu được con cái,",
+      "story_name": "ĐẠI ĐỨC HỢP PHÁ - Câu Kệ 84",
+      "story_verses": [
+        84
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 85,
+      "pham_id": 6,
+      "first_line": "“Ít người giữa nhân loại,",
+      "vn_preview": "“Ít người giữa nhân loại, / Ðến được bờ bên kia",
+      "story_name": "NGHE THUYẾT PHÁP",
+      "story_verses": [
+        85,
+        86
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 86,
+      "pham_id": 6,
+      "first_line": "“Những ai hành trì pháp,",
+      "vn_preview": "“Những ai hành trì pháp, / Theo chánh pháp khéo dạy,",
+      "story_name": "NGHE THUYẾT PHÁP",
+      "story_verses": [
+        85,
+        86
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 87,
+      "pham_id": 6,
+      "first_line": "Kẻ trí bỏ pháp đen,",
+      "vn_preview": "Kẻ trí bỏ pháp đen, / Tu tập theo pháp trắng.",
+      "story_name": "KHÁCH TĂNG",
+      "story_verses": [
+        87,
+        88,
+        89
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 88,
+      "pham_id": 6,
+      "first_line": "“Hãy cầu vui Niết Bàn,",
+      "vn_preview": "“Hãy cầu vui Niết Bàn, / Bỏ dục, không sở hữu,",
+      "story_name": "KHÁCH TĂNG",
+      "story_verses": [
+        87,
+        88,
+        89
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 89,
+      "pham_id": 6,
+      "first_line": "“Những ai với chánh tâm,",
+      "vn_preview": "“Những ai với chánh tâm, / Khéo tu tập giác chi,",
+      "story_name": "KHÁCH TĂNG",
+      "story_verses": [
+        87,
+        88,
+        89
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 90,
+      "pham_id": 7,
+      "first_line": "“Ðích đã đến, không sầu,",
+      "vn_preview": "“Ðích đã đến, không sầu, / Giải thoát ngoài tất cả,",
+      "story_name": "Tích NGỰ Y KỲ BÁ BĂNG CHÂN PHẬT (Jīvakapañhavatthu) - (Pháp Cú câu 90",
+      "story_verses": [
+        90
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 91,
+      "pham_id": 7,
+      "first_line": "“Tự sách tấn, chánh niệm,",
+      "vn_preview": "“Tự sách tấn, chánh niệm, / Không thích cư xá nào,",
+      "story_name": "TRƯỞNG LÃO MA HA CA DIẾP BỊ CHÊ",
+      "story_verses": [
+        91
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 92,
+      "pham_id": 7,
+      "first_line": "“Tài sản không chất chứa,",
+      "vn_preview": "“Tài sản không chất chứa, / Ăn uống biết liễu tri,",
+      "story_name": "TRƯỞNG LÃO BÊ LÁT THÁ XI XÔ",
+      "story_verses": [
+        92
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 93,
+      "pham_id": 7,
+      "first_line": "“Ai lậu hoặc đoạn sạch,",
+      "vn_preview": "“Ai lậu hoặc đoạn sạch, / Ăn uống không tham đắm,",
+      "story_name": "TRƯỞNG LÃO A NẬU LÂU ĐÀ",
+      "story_verses": [
+        93
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 94,
+      "pham_id": 7,
+      "first_line": "“Ai nhiếp phục các căn,",
+      "vn_preview": "“Ai nhiếp phục các căn, / Như đánh xe điều ngự,",
+      "story_name": "TRƯỞNG LÃO MA HA CA CHIÊN DIÊN",
+      "story_verses": [
+        94
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 95,
+      "pham_id": 7,
+      "first_line": "“Như đất, không hiềm hận,",
+      "vn_preview": "“Như đất, không hiềm hận, / Như cột trụ, kiên trì,",
+      "story_name": "TRƯỞNG LÃO XÁ LỢI PHẤT BỊ CÁO GIAN",
+      "story_verses": [
+        95
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 96,
+      "pham_id": 7,
+      "first_line": "“Người tâm ý an tịnh,",
+      "vn_preview": "“Người tâm ý an tịnh, / Lời an, nghiệp cũng an,",
+      "story_name": "TRƯỞNG LÃO ĐỀ XÁ Ở KIỀU THƯỞNG DI",
+      "story_verses": [
+        96
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 97,
+      "pham_id": 7,
+      "first_line": "“Không tin, hiểu vô vi.",
+      "vn_preview": "“Không tin, hiểu vô vi. / Người cắt mọi hệ lụy",
+      "story_name": "TRƯỞNG LÃO XÁ LỢI PHẤT TỰ TIN",
+      "story_verses": [
+        97
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 98,
+      "pham_id": 7,
+      "first_line": "“Làng mạc hay rừng núi",
+      "vn_preview": "“Làng mạc hay rừng núi / Thung lũng hay đồi cao,",
+      "story_name": "TRƯỞNG LÃO LY BÀ ĐA Ở RỪNG KEO",
+      "story_verses": [
+        98
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 99,
+      "pham_id": 7,
+      "first_line": "“Khả ái thay núi rừng,",
+      "vn_preview": "“Khả ái thay núi rừng, / Chỗ người phàm không ưa,",
+      "story_name": "PHỤ NỮ GHẸO THIỀN SƯ",
+      "story_verses": [
+        99
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 100,
+      "pham_id": 8,
+      "first_line": "“Dầu nói ngàn ngàn lời,",
+      "vn_preview": "“Dầu nói ngàn ngàn lời, / Nhưng không gì lợi ích,",
+      "story_name": "ĐAO PHỦ THỦ NANH ĐỒNG",
+      "story_verses": [
+        100
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 101,
+      "pham_id": 8,
+      "first_line": "“Dầu nói ngàn câu kệ",
+      "vn_preview": "“Dầu nói ngàn câu kệ / Nhưng không gì lợi ích,",
+      "story_name": "TRƯỞNG LÃO BA HÍ DÁ MẶC Y VỎ CÂY",
+      "story_verses": [
+        101
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 102,
+      "pham_id": 8,
+      "first_line": "“Dầu nói trăm câu kệ",
+      "vn_preview": "“Dầu nói trăm câu kệ / Nhưng không gì lợi ích,",
+      "story_name": "TỲ KHƯU NI TÓC QUĂN",
+      "story_verses": [
+        102,
+        103
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 103,
+      "pham_id": 8,
+      "first_line": "“Dầu tại bãi chiến trường",
+      "vn_preview": "“Dầu tại bãi chiến trường / Thắng ngàn ngàn quân địch,",
+      "story_name": "TỲ KHƯU NI TÓC QUĂN",
+      "story_verses": [
+        102,
+        103
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 104,
+      "pham_id": 8,
+      "first_line": "“Tự thắng, tốt đẹp hơn,",
+      "vn_preview": "“Tự thắng, tốt đẹp hơn, / Hơn chiến thắng người khác.",
+      "story_name": "BÀ LA MÔN HỎI PHÁP VÔ ÍCH",
+      "story_verses": [
+        104,
+        105
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 105,
+      "pham_id": 8,
+      "first_line": "“Dầu Thiên Thần, Thát Bà,",
+      "vn_preview": "“Dầu Thiên Thần, Thát Bà, / Dầu Ma vương, Phạm Thiên",
+      "story_name": "BÀ LA MÔN HỎI PHÁP VÔ ÍCH",
+      "story_verses": [
+        104,
+        105
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 106,
+      "pham_id": 8,
+      "first_line": "“Tháng tháng bỏ ngàn vàng,",
+      "vn_preview": "“Tháng tháng bỏ ngàn vàng, / Tế tự cả trăm năm,",
+      "story_name": "BÀ LA MÔN CẬU CỦA TRƯỠNG LÃO XÁ LỢI PHẤT",
+      "story_verses": [
+        106
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 107,
+      "pham_id": 8,
+      "first_line": "“Dầu trải một trăm năm,",
+      "vn_preview": "“Dầu trải một trăm năm, / Thờ lửa tại rừng sâu,",
+      "story_name": "BÀ LA MÔN CHÁU CỦA TRƯỠNG LÃO XÁ LỢI PHẤT",
+      "story_verses": [
+        107
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 108,
+      "pham_id": 8,
+      "first_line": "“Suốt năm cúng tế vật,",
+      "vn_preview": "“Suốt năm cúng tế vật, / Ðể cầu phước ở đời.",
+      "story_name": "BÀ LA MÔN BẠN CỦA TRƯỠNG LÃO XÁ LỢI PHẤT",
+      "story_verses": [
+        108
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 109,
+      "pham_id": 8,
+      "first_line": "“Thường tôn trọng, kính lễ",
+      "vn_preview": "“Thường tôn trọng, kính lễ / Bậc kỳ lão trưởng thượng,",
+      "story_name": "CẬU BÉ ÍCH THỌ",
+      "story_verses": [
+        109
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 110,
+      "pham_id": 8,
+      "first_line": "Dầu sống một trăm năm",
+      "vn_preview": "Dầu sống một trăm năm / Ác giới, không thiền định,",
+      "story_name": "SADI ĐÒN XÓC",
+      "story_verses": [
+        110
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 111,
+      "pham_id": 8,
+      "first_line": "“Ai sống một trăm năm,",
+      "vn_preview": "“Ai sống một trăm năm, / Ác tuệ, không thiền định.",
+      "story_name": "TRƯỞNG LÃO KIỀU TRẦN NHƯ GỐC CÂY",
+      "story_verses": [
+        111
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 112,
+      "pham_id": 8,
+      "first_line": "“Ai sống một trăm năm,",
+      "vn_preview": "“Ai sống một trăm năm, / Lười nhác không tinh tấn,",
+      "story_name": "TRƯỞNG LÃO XÀ NÔ",
+      "story_verses": [
+        112
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 113,
+      "pham_id": 8,
+      "first_line": "“Ai sống một trăm năm,",
+      "vn_preview": "“Ai sống một trăm năm, / Không thấy pháp sinh diệt,",
+      "story_name": "NÀNG SA ĐỌA ĐẮC A LA HÁN",
+      "story_verses": [
+        113
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 114,
+      "pham_id": 8,
+      "first_line": "“Ai sống một trăm năm,",
+      "vn_preview": "“Ai sống một trăm năm, / Không thấy câu bất tử,",
+      "story_name": "NÀNG KIỀU ĐÀM ỐM ĐẮC A LA HÁN",
+      "story_verses": [
+        114
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 115,
+      "pham_id": 8,
+      "first_line": "“Ai sống một trăm năm,",
+      "vn_preview": "“Ai sống một trăm năm, / Không thấy pháp tối thượng,",
+      "story_name": "TỲ KHƯU NI ĐA TỬ ĐẮC A LA HÁN",
+      "story_verses": [
+        115
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 116,
+      "pham_id": 9,
+      "first_line": "“Hãy gấp làm điều lành,",
+      "vn_preview": "“Hãy gấp làm điều lành, / Ngăn tâm làm điều ác.",
+      "story_name": "BÀ LA MÔN MỘT ÁO",
+      "story_verses": [
+        116
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 117,
+      "pham_id": 9,
+      "first_line": "“Nếu người làm điều ác,",
+      "vn_preview": "“Nếu người làm điều ác, / Chớ tiếp tục làm thêm.",
+      "story_name": "TRƯỞNG LÃO XÂY ĐÁ XÁ KÁ",
+      "story_verses": [
+        117
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 118,
+      "pham_id": 9,
+      "first_line": "“Nếu người làm điều thiện,",
+      "vn_preview": "“Nếu người làm điều thiện, / Nên tiếp tục làm thêm.",
+      "story_name": "THIÊN NỮ CỐM RANG",
+      "story_verses": [
+        118
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 119,
+      "pham_id": 9,
+      "first_line": "“Người ác thấy là hiền.",
+      "vn_preview": "“Người ác thấy là hiền. / Khi ác chưa chín muồi,",
+      "story_name": "ÔNG CẤP CÔ ĐỘC ĐUỔI THIÊN NỮ",
+      "story_verses": [
+        119,
+        120
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 120,
+      "pham_id": 9,
+      "first_line": "“Người hiền thấy là ác,",
+      "vn_preview": "“Người hiền thấy là ác, / Khi thiện chưa chín muồi.",
+      "story_name": "ÔNG CẤP CÔ ĐỘC ĐUỔI THIÊN NỮ",
+      "story_verses": [
+        119,
+        120
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 121,
+      "pham_id": 9,
+      "first_line": "“Chớ chê khinh điều ác,",
+      "vn_preview": "“Chớ chê khinh điều ác, / Cho rằng “chưa đến mình “,",
+      "story_name": "TỲ KHƯU KHINH GIỚI NHỎ",
+      "story_verses": [
+        121
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 122,
+      "pham_id": 9,
+      "first_line": "“Chớ chê khinh điều thiện",
+      "vn_preview": "“Chớ chê khinh điều thiện / Cho rằng “Chưa đến mình, ”",
+      "story_name": "BÁ HỘ CHÂN MÈO",
+      "story_verses": [
+        122
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 123,
+      "pham_id": 9,
+      "first_line": "“Ít bạn đường, nhiều tiền,",
+      "vn_preview": "“Ít bạn đường, nhiều tiền, / Người buôn tránh đường hiểm.",
+      "story_name": "PHÚ THƯƠNG TRÁNH HIỂM LỘ",
+      "story_verses": [
+        123
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 124,
+      "pham_id": 9,
+      "first_line": "“Bàn tay không thương tích,",
+      "vn_preview": "“Bàn tay không thương tích, / Có thể cầm thuốc độc.",
+      "story_name": "THỢ SĂN KÊ HỮU",
+      "story_verses": [
+        124
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 125,
+      "pham_id": 9,
+      "first_line": "“Hại người không ác tâm,",
+      "vn_preview": "“Hại người không ác tâm, / Người thanh tịnh, không uế,",
+      "story_name": "THỢ SĂN GẶP THIỀN SƯ",
+      "story_verses": [
+        125
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 126,
+      "pham_id": 9,
+      "first_line": "“Một số sinh bào thai,",
+      "vn_preview": "“Một số sinh bào thai, / Kẻ ác sinh địa ngục,",
+      "story_name": "TRƯỞNG LÃO ĐỀ XÁ VÀ ANH THỢ NGỌC",
+      "story_verses": [
+        126
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 127,
+      "pham_id": 9,
+      "first_line": "“Không trên trời, giữa biển,",
+      "vn_preview": "“Không trên trời, giữa biển, / Không lánh vào động núi,",
+      "story_name": "BA NHÓM TỲ KHƯU",
+      "story_verses": [
+        127
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 128,
+      "pham_id": 9,
+      "first_line": "“Không trên trời, giữa biển,",
+      "vn_preview": "“Không trên trời, giữa biển, / Không lánh vào động núi,",
+      "story_name": "VUA THIỆN GIÁC BỊ ĐẤT RÚT",
+      "story_verses": [
+        128
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 129,
+      "pham_id": 10,
+      "first_line": "“Mọi người sợ hình phạt,",
+      "vn_preview": "“Mọi người sợ hình phạt, / Mọi người sợ tử vong.",
+      "story_name": "NHÓM LỤC SƯ HÀNH HUNG",
+      "story_verses": [
+        129
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 130,
+      "pham_id": 10,
+      "first_line": "“Mọi người sợ hình phạt,",
+      "vn_preview": "“Mọi người sợ hình phạt, / Mọi người thích sống còn;",
+      "story_name": "NHÓM LỤC SƯ ĐE DỌA",
+      "story_verses": [
+        130
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 131,
+      "pham_id": 10,
+      "first_line": "“Chúng sanh cầu an lạc,",
+      "vn_preview": "“Chúng sanh cầu an lạc, / Ai dùng trượng hại người,",
+      "story_name": "LŨ TRẺ ĐẬP RẮN",
+      "story_verses": [
+        131,
+        132
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 132,
+      "pham_id": 10,
+      "first_line": "“Chúng sanh cầu an lạc,",
+      "vn_preview": "“Chúng sanh cầu an lạc, / Không dùng trượng hại người,",
+      "story_name": "LŨ TRẺ ĐẬP RẮN",
+      "story_verses": [
+        131,
+        132
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 133,
+      "pham_id": 10,
+      "first_line": "“Chớ nói lời ác độc,",
+      "vn_preview": "“Chớ nói lời ác độc, / Nói ác, bị nói lại,",
+      "story_name": "TRƯỞNG LÃO KON ĐÁ THA NÁ",
+      "story_verses": [
+        133,
+        134
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 134,
+      "pham_id": 10,
+      "first_line": "“Nếu tự mình yên lặng,",
+      "vn_preview": "“Nếu tự mình yên lặng, / Như chiếc chuông bị bể.",
+      "story_name": "TRƯỞNG LÃO KON ĐÁ THA NÁ",
+      "story_verses": [
+        133,
+        134
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 135,
+      "pham_id": 10,
+      "first_line": "“Với gậy người chăn bò,",
+      "vn_preview": "“Với gậy người chăn bò, / Lùa bò ra bãi cỏ;",
+      "story_name": "BÁT QUAN TRAI CỦA PHỤ NỮ",
+      "story_verses": [
+        135
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 136,
+      "pham_id": 10,
+      "first_line": "“Người ngu làm điều ác,",
+      "vn_preview": "“Người ngu làm điều ác, / Không ý thức việc làm.",
+      "story_name": "NGẠ QUỶ MÌNH TRĂN",
+      "story_verses": [
+        136
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 137,
+      "pham_id": 10,
+      "first_line": "“Dùng trượng phạt không trượng,",
+      "vn_preview": "“Dùng trượng phạt không trượng, / Làm ác người không ác.",
+      "story_name": "TRƯỞNG LÃO MỤC KIỀN LIÊN NÍP BÀN",
+      "story_verses": [
+        137,
+        138,
+        139,
+        140
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 138,
+      "pham_id": 10,
+      "first_line": "“Hoặc khổ thọ khốc liệt,",
+      "vn_preview": "“Hoặc khổ thọ khốc liệt, / Thân thể bị thương vong,",
+      "story_name": "TRƯỞNG LÃO MỤC KIỀN LIÊN NÍP BÀN",
+      "story_verses": [
+        137,
+        138,
+        139,
+        140
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 139,
+      "pham_id": 10,
+      "first_line": "“Hoặc tai họa từ vua,",
+      "vn_preview": "“Hoặc tai họa từ vua, / Hay bị vu trọng tội;",
+      "story_name": "TRƯỞNG LÃO MỤC KIỀN LIÊN NÍP BÀN",
+      "story_verses": [
+        137,
+        138,
+        139,
+        140
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 140,
+      "pham_id": 10,
+      "first_line": "“Hoặc phòng ốc nhà cửa",
+      "vn_preview": "“Hoặc phòng ốc nhà cửa / Bị hỏa tai thiêu đốt.",
+      "story_name": "TRƯỞNG LÃO MỤC KIỀN LIÊN NÍP BÀN",
+      "story_verses": [
+        137,
+        138,
+        139,
+        140
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 141,
+      "pham_id": 10,
+      "first_line": "“Không phải sống lõa thể",
+      "vn_preview": "“Không phải sống lõa thể / Bện tóc, tro trét mình,",
+      "story_name": "TỲ KHƯU NHIỀU VẬT DỤNG",
+      "story_verses": [
+        141
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 142,
+      "pham_id": 10,
+      "first_line": "“Ai sống tự trang sức,",
+      "vn_preview": "“Ai sống tự trang sức, / Nhưng an tịnh, nhiếp phục,",
+      "story_name": "ĐẠI THẦN SAN TÁ TÍ",
+      "story_verses": [
+        142
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 143,
+      "pham_id": 10,
+      "first_line": "“Thật khó tìm ở đời,",
+      "vn_preview": "“Thật khó tìm ở đời, / Người biết thẹn, tự chế,",
+      "story_name": "TRƯỞNG LÃO KHỐ RÁCH",
+      "story_verses": [
+        143,
+        144
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 144,
+      "pham_id": 10,
+      "first_line": "“Như ngựa hiền chạm roi,",
+      "vn_preview": "“Như ngựa hiền chạm roi, / Hãy nhiệt tâm, hăng hái,",
+      "story_name": "TRƯỞNG LÃO KHỐ RÁCH",
+      "story_verses": [
+        143,
+        144
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 145,
+      "pham_id": 10,
+      "first_line": "“Người trị thủy dẫn nước,",
+      "vn_preview": "“Người trị thủy dẫn nước, / Kẻ làm tên nắn tên,",
+      "story_name": "SADI HẠNH PHÚC",
+      "story_verses": [
+        145
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 146,
+      "pham_id": 11,
+      "first_line": "“Cười gì, hân hoan gì,",
+      "vn_preview": "“Cười gì, hân hoan gì, / Khi đời mãi bị thiêu?",
+      "story_name": "BẠN BÀ THIỆN CHI SAY",
+      "story_verses": [
+        146
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 147,
+      "pham_id": 11,
+      "first_line": "“Hãy xem bong bóng đẹp,",
+      "vn_preview": "“Hãy xem bong bóng đẹp, / Chỗ chất chứa vết thương,",
+      "story_name": "NÀNG XÍ RÍ MA",
+      "story_verses": [
+        147
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 148,
+      "pham_id": 11,
+      "first_line": "“Sắc này bị suy già,",
+      "vn_preview": "“Sắc này bị suy già, / Ổ tật bệnh, mỏng manh,",
+      "story_name": "TRƯỞNG LÃO NI ÚT TÁ RA BỊ TÉ",
+      "story_verses": [
+        148
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 149,
+      "pham_id": 11,
+      "first_line": "“Như trái bầu mùa thu,",
+      "vn_preview": "“Như trái bầu mùa thu, / Bị vất bỏ quăng đi,",
+      "story_name": "NHÓM TĂNG THƯỢNG MẠN",
+      "story_verses": [
+        149
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 150,
+      "pham_id": 11,
+      "first_line": "“Thành này làm bằng xương,",
+      "vn_preview": "“Thành này làm bằng xương, / Quét tô bằng thịt máu,",
+      "story_name": "TỲ KHEO NI SẮC NAN ĐÀ",
+      "story_verses": [
+        150
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 151,
+      "pham_id": 11,
+      "first_line": "“Xe vua đẹp cũng già.",
+      "vn_preview": "“Xe vua đẹp cũng già. / Thân này rồi sẽ già,",
+      "story_name": "HOÀNG HẬU MẠT LỴ THĂNG HÀ",
+      "story_verses": [
+        151
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 152,
+      "pham_id": 11,
+      "first_line": "“Người ít nghe kém học,",
+      "vn_preview": "“Người ít nghe kém học, / Lớn già như trâu đực.",
+      "story_name": "TRƯỞNG LÃO LÔ LƯU ĐÀ DI LẨN THẨN",
+      "story_verses": [
+        152
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 153,
+      "pham_id": 11,
+      "first_line": "“Lang thang bao kiếp sống",
+      "vn_preview": "“Lang thang bao kiếp sống / Ta tìm nhưng chẳng gặp,",
+      "story_name": "PHẬT THÀNH ĐẠO",
+      "story_verses": [
+        153,
+        154
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 154,
+      "pham_id": 11,
+      "first_line": "“Ôi! Người làm nhà kia",
+      "vn_preview": "“Ôi! Người làm nhà kia / Nay ta đã thấy ngươi!",
+      "story_name": "PHẬT THÀNH ĐẠO",
+      "story_verses": [
+        153,
+        154
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 155,
+      "pham_id": 11,
+      "first_line": "“Lúc trẻ, không phạm hạnh,",
+      "vn_preview": "“Lúc trẻ, không phạm hạnh, / Không tìm kiếm bạc tiền.",
+      "story_name": "ĐẠI PHÚ PHÁ SẢN",
+      "story_verses": [
+        155,
+        156
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 156,
+      "pham_id": 11,
+      "first_line": "“Lúc trẻ không phạm hạnh,",
+      "vn_preview": "“Lúc trẻ không phạm hạnh, / Không tìm kiếm bạc tiền;",
+      "story_name": "ĐẠI PHÚ PHÁ SẢN",
+      "story_verses": [
+        155,
+        156
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 157,
+      "pham_id": 12,
+      "first_line": "“Nếu biết yêu tự ngã,",
+      "vn_preview": "“Nếu biết yêu tự ngã, / Phải khéo bảo vệ mình,",
+      "story_name": "BỒ ĐỀ VƯƠNG TỬ",
+      "story_verses": [
+        157
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 158,
+      "pham_id": 12,
+      "first_line": "“Trước hết tự đặt mình,",
+      "vn_preview": "“Trước hết tự đặt mình, / Vào những gì thích đáng.",
+      "story_name": "THÍCH TỬ UPANANDA",
+      "story_verses": [
+        158
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 159,
+      "pham_id": 12,
+      "first_line": "“Hãy tự làm cho mình,",
+      "vn_preview": "“Hãy tự làm cho mình, / Như điều mình dạy người.",
+      "story_name": "TRƯỞNG LÃO ĐỀ XÁ TINH TẤN THIỀN",
+      "story_verses": [
+        159
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 160,
+      "pham_id": 12,
+      "first_line": "“Tự mình y chỉ mình,",
+      "vn_preview": "“Tự mình y chỉ mình, / Nào có y chỉ khác.",
+      "story_name": "MẸ CỦA TRƯỞNG LÃO CA DIẾP ĐỒNG TỬ",
+      "story_verses": [
+        160
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 161,
+      "pham_id": 12,
+      "first_line": "“Ðiều ác tự mình làm,",
+      "vn_preview": "“Ðiều ác tự mình làm, / Tự mình sanh, mình tạo.",
+      "story_name": "THIỆN NAM MÁ HA KA LÁ",
+      "story_verses": [
+        161
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 162,
+      "pham_id": 12,
+      "first_line": "“Phá giới quá trầm trọng,",
+      "vn_preview": "“Phá giới quá trầm trọng, / Như dây leo bám cây",
+      "story_name": "ĐỀ BÀ ĐẠT ĐA GÂY TỘI ÁC",
+      "story_verses": [
+        162
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 163,
+      "pham_id": 12,
+      "first_line": "“Dễ làm các điều ác,",
+      "vn_preview": "“Dễ làm các điều ác, / Dễ làm tự hại mình.",
+      "story_name": "CỐ Ý CHIA RẼ TĂNG",
+      "story_verses": [
+        163
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 164,
+      "pham_id": 12,
+      "first_line": "“Kẻ ngu si miệt thị,",
+      "vn_preview": "“Kẻ ngu si miệt thị, / Giáo pháp bậc La Hán,",
+      "story_name": "TRƯỞNG LÃO KA LÁ",
+      "story_verses": [
+        164
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 165,
+      "pham_id": 12,
+      "first_line": "“Tự mình, làm điều ác,",
+      "vn_preview": "“Tự mình, làm điều ác, / Tự mình làm nhiễm ô,",
+      "story_name": "THIỆN NAM TIỂU KA LÁ",
+      "story_verses": [
+        165
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 166,
+      "pham_id": 12,
+      "first_line": "“Chớ theo pháp hạ liệt.",
+      "vn_preview": "“Chớ theo pháp hạ liệt. / Chớ sống mặc, buông lung;",
+      "story_name": "TRƯỞNG LÃO TỰ LỢI",
+      "story_verses": [
+        166
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 167,
+      "pham_id": 13,
+      "first_line": "“Dầu lợi người bao nhiêu,",
+      "vn_preview": "“Dầu lợi người bao nhiêu, / Chớ quên phần tư lợi,",
+      "story_name": "VỊ TỲ KHƯU TRẺ",
+      "story_verses": [
+        167
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 168,
+      "pham_id": 13,
+      "first_line": "“Nỗ lực, chớ phóng dật!",
+      "vn_preview": "“Nỗ lực, chớ phóng dật! / Hãy sống theo chánh hạnh;",
+      "story_name": "ĐỨC VUA SUDDHODANA",
+      "story_verses": [
+        168,
+        169
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 169,
+      "pham_id": 13,
+      "first_line": "“Hãy khéo sống chánh hạnh,",
+      "vn_preview": "“Hãy khéo sống chánh hạnh, / Chớ sống theo tà hạnh!",
+      "story_name": "ĐỨC VUA SUDDHODANA",
+      "story_verses": [
+        168,
+        169
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 170,
+      "pham_id": 13,
+      "first_line": "“Hãy nhìn như bọt nước,",
+      "vn_preview": "“Hãy nhìn như bọt nước, / Hãy nhìn như cảnh huyễn!",
+      "story_name": "CHƯ TỲ KHƯU TU THIỀN QUÁN",
+      "story_verses": [
+        170
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 171,
+      "pham_id": 13,
+      "first_line": "“Hãy đến nhìn đời này,",
+      "vn_preview": "“Hãy đến nhìn đời này, / Như xe vua lộng lẫy,",
+      "story_name": "HOÀNG TỬ ABHAYA",
+      "story_verses": [
+        171
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 172,
+      "pham_id": 13,
+      "first_line": "“Ai sống trước buông lung,",
+      "vn_preview": "“Ai sống trước buông lung, / Sau sống không phóng dật,",
+      "story_name": "TRƯỞNG LÃO SAMMAJJANA",
+      "story_verses": [
+        172
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 173,
+      "pham_id": 13,
+      "first_line": "“Ai dùng các hạnh lành,",
+      "vn_preview": "“Ai dùng các hạnh lành, / Làm xóa mờ nghiệp ác,",
+      "story_name": "TRƯỞNG LÃO ANGULIMĀLA",
+      "story_verses": [
+        173
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 174,
+      "pham_id": 13,
+      "first_line": "“Ðời này thật mù quáng,",
+      "vn_preview": "“Ðời này thật mù quáng, / Ít kẻ thấy rõ ràng.",
+      "story_name": "CON GÁI NGƯỜI THỢ DỆT",
+      "story_verses": [
+        174
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 175,
+      "pham_id": 13,
+      "first_line": "“Như chim thiên nga bay,",
+      "vn_preview": "“Như chim thiên nga bay, / Thần thông liệng giữa trời;",
+      "story_name": "CHUYỆN BA MƯƠI VỊ TỲ KHƯU",
+      "story_verses": [
+        175
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 176,
+      "pham_id": 13,
+      "first_line": "“Ai vi phạm một pháp,",
+      "vn_preview": "“Ai vi phạm một pháp, / Ai nói lời vọng ngữ,",
+      "story_name": "NÀNG CIÑCAMĀṆAVIKĀ",
+      "story_verses": [
+        176
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 177,
+      "pham_id": 13,
+      "first_line": "“Keo kiết không sanh thiên,",
+      "vn_preview": "“Keo kiết không sanh thiên, / Kẻ ngu ghét bố thí,",
+      "story_name": "ĐẠI THÍ VÔ SONG",
+      "story_verses": [
+        177
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 178,
+      "pham_id": 13,
+      "first_line": "“Hơn thống lãnh cõi đất,",
+      "vn_preview": "“Hơn thống lãnh cõi đất, / Hơn được sanh cõi trời,",
+      "story_name": "CÔNG TỬ KĀLA",
+      "story_verses": [
+        178
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 179,
+      "pham_id": 14,
+      "first_line": "“Vị chiến thắng không bại,",
+      "vn_preview": "“Vị chiến thắng không bại, / Vị bước đi trên đời,",
+      "story_name": "CON GÁI MA VƯƠNG",
+      "story_verses": [
+        179,
+        180
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 180,
+      "pham_id": 14,
+      "first_line": "“Ai giải tỏa lưới tham,",
+      "vn_preview": "“Ai giải tỏa lưới tham, / Ái phược hết dắt dẫn,",
+      "story_name": "CON GÁI MA VƯƠNG",
+      "story_verses": [
+        179,
+        180
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 181,
+      "pham_id": 14,
+      "first_line": "“Người trí chuyên thiền định,",
+      "vn_preview": "“Người trí chuyên thiền định, / Thích an tịnh viễn ly,",
+      "story_name": "THỂ HIỆN SONG THÔNG NHIẾP NGOẠI ĐẠO",
+      "story_verses": [
+        181
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 182,
+      "pham_id": 14,
+      "first_line": "“Khó thay, được làm người,",
+      "vn_preview": "“Khó thay, được làm người, / Khó thay, được sống còn,",
+      "story_name": "LONG VƯƠNG ERAKAPATTA",
+      "story_verses": [
+        182
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 183,
+      "pham_id": 14,
+      "first_line": "“Không làm mọi điều ác.",
+      "vn_preview": "“Không làm mọi điều ác. / Thành tựu các hạnh lành,",
+      "story_name": "VỀ CÂU HỎI CỦA TRƯỞNG LÃO ĀNANDA",
+      "story_verses": [
+        183,
+        184,
+        185
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 184,
+      "pham_id": 14,
+      "first_line": "“Chư Phật thường giảng dạy;",
+      "vn_preview": "“Chư Phật thường giảng dạy; / Nhẫn, khổ hạnh tối thượng,",
+      "story_name": "VỀ CÂU HỎI CỦA TRƯỞNG LÃO ĀNANDA",
+      "story_verses": [
+        183,
+        184,
+        185
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 185,
+      "pham_id": 14,
+      "first_line": "“Không phỉ báng, phá hoại,",
+      "vn_preview": "“Không phỉ báng, phá hoại, / Hộ trì giới căn bản,",
+      "story_name": "VỀ CÂU HỎI CỦA TRƯỞNG LÃO ĀNANDA",
+      "story_verses": [
+        183,
+        184,
+        185
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 186,
+      "pham_id": 14,
+      "first_line": "“Dầu mưa bằng tiền vàng,",
+      "vn_preview": "“Dầu mưa bằng tiền vàng, / Các dục khó thỏa mãn.",
+      "story_name": "VỊ TỲ KHƯU KHÔNG HOAN HỶ",
+      "story_verses": [
+        186,
+        187
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 187,
+      "pham_id": 14,
+      "first_line": "“Ðệ tử bậc chánh giác,",
+      "vn_preview": "“Ðệ tử bậc chánh giác, / Không tìm cầu dục lạc,",
+      "story_name": "VỊ TỲ KHƯU KHÔNG HOAN HỶ",
+      "story_verses": [
+        186,
+        187
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 188,
+      "pham_id": 14,
+      "first_line": "“Loài người sợ hoảng hốt,",
+      "vn_preview": "“Loài người sợ hoảng hốt, / Tìm nhiều chỗ quy y,",
+      "story_name": "QUỐC SƯ AGGIDATTA",
+      "story_verses": [
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 189,
+      "pham_id": 14,
+      "first_line": "“Quy y ấy không ổn,",
+      "vn_preview": "“Quy y ấy không ổn, / Không quy y tối thượng.",
+      "story_name": "QUỐC SƯ AGGIDATTA",
+      "story_verses": [
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 190,
+      "pham_id": 14,
+      "first_line": "“Ai quy y Ðức Phật,",
+      "vn_preview": "“Ai quy y Ðức Phật, / Chánh pháp và chư tăng,",
+      "story_name": "QUỐC SƯ AGGIDATTA",
+      "story_verses": [
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 191,
+      "pham_id": 14,
+      "first_line": "“Thấy khổ và khổ tập,",
+      "vn_preview": "“Thấy khổ và khổ tập, / Thấy sự khổ vượt qua,",
+      "story_name": "QUỐC SƯ AGGIDATTA",
+      "story_verses": [
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 192,
+      "pham_id": 14,
+      "first_line": "“Thật quy y an ổn,",
+      "vn_preview": "“Thật quy y an ổn, / Thật quy y tối thượng,",
+      "story_name": "QUỐC SƯ AGGIDATTA",
+      "story_verses": [
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 193,
+      "pham_id": 14,
+      "first_line": "“Khó gặp bậc thánh nhơn,",
+      "vn_preview": "“Khó gặp bậc thánh nhơn, / Không phải đâu cũng có.",
+      "story_name": "CÂU HỎI TRƯỞNG LÃO ĀNANDA",
+      "story_verses": [
+        193
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 194,
+      "pham_id": 14,
+      "first_line": "“Vui thay, Phật ra đời!",
+      "vn_preview": "“Vui thay, Phật ra đời! / Vui thay, Pháp được giảng!",
+      "story_name": "CHUYỆN CHƯ TỲ KHƯU",
+      "story_verses": [
+        194
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 195,
+      "pham_id": 14,
+      "first_line": "“Cúng dường bậc đáng cúng,",
+      "vn_preview": "“Cúng dường bậc đáng cúng, / Chư Phật hoặc đệ tử,",
+      "story_name": "BẢO THÁP CỦA NGÀI KASSAPA",
+      "story_verses": [
+        195,
+        196
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 196,
+      "pham_id": 14,
+      "first_line": "“Cúng dường bậc như vậy,",
+      "vn_preview": "“Cúng dường bậc như vậy, / Tịch tịnh, không sợ hãi,",
+      "story_name": "BẢO THÁP CỦA NGÀI KASSAPA",
+      "story_verses": [
+        195,
+        196
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 197,
+      "pham_id": 15,
+      "first_line": "“Vui thay, chúng ta sống,",
+      "vn_preview": "“Vui thay, chúng ta sống, / Không hận, giữa hận thù!",
+      "story_name": "HAI HOÀNG TỘC TRANH GIÀNH NƯỚC",
+      "story_verses": [
+        197,
+        198,
+        199
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 198,
+      "pham_id": 15,
+      "first_line": "“Vui thay, chúng ta sống,",
+      "vn_preview": "“Vui thay, chúng ta sống, / Không bệnh, giữa ốm đau!",
+      "story_name": "HAI HOÀNG TỘC TRANH GIÀNH NƯỚC",
+      "story_verses": [
+        197,
+        198,
+        199
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 199,
+      "pham_id": 15,
+      "first_line": "“Vui thay, chúng ta sống,",
+      "vn_preview": "“Vui thay, chúng ta sống, / Không rộn giữa rộn ràng;",
+      "story_name": "HAI HOÀNG TỘC TRANH GIÀNH NƯỚC",
+      "story_verses": [
+        197,
+        198,
+        199
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 200,
+      "pham_id": 15,
+      "first_line": "“Vui thay chúng ta sống,",
+      "vn_preview": "“Vui thay chúng ta sống, / Không gì, gọi của ta.",
+      "story_name": "MA VƯƠNG TRÊU PHẬT",
+      "story_verses": [
+        200
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 201,
+      "pham_id": 15,
+      "first_line": "“Chiến thắng sinh thù oán,",
+      "vn_preview": "“Chiến thắng sinh thù oán, / Thất bại chịu khổ đau,",
+      "story_name": "ĐỨC VUA KOSALA BẠI TRẬN",
+      "story_verses": [
+        201
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 202,
+      "pham_id": 15,
+      "first_line": "“Lửa nào sánh lửa tham?",
+      "vn_preview": "“Lửa nào sánh lửa tham? / Ác nào bằng sân hận?",
+      "story_name": "MỘT THIẾU NỮ GIA GIÁO",
+      "story_verses": [
+        202
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 203,
+      "pham_id": 15,
+      "first_line": "“Ðói ăn, bệnh tối thượng,",
+      "vn_preview": "“Ðói ăn, bệnh tối thượng, / Các hành, khổ tối thượng,",
+      "story_name": "ÔNG THIỆN NAM ĐƯỢC ĂN CƠM PHẬT",
+      "story_verses": [
+        203
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 204,
+      "pham_id": 15,
+      "first_line": "“Không bệnh, lợi tối thượng,",
+      "vn_preview": "“Không bệnh, lợi tối thượng, / Biết đủ, tiền tối thượng,",
+      "story_name": "ĐỨC VUA PASENADI BỚT ĂN",
+      "story_verses": [
+        204
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 205,
+      "pham_id": 15,
+      "first_line": "“Ðã nếm vị độc cư,",
+      "vn_preview": "“Ðã nếm vị độc cư, / Ðược hưởng vị nhàn tịnh,",
+      "story_name": "ĐẠI ĐỨC TISSA CÚNG DƯỜNG CAO THƯỢNG",
+      "story_verses": [
+        205
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 206,
+      "pham_id": 15,
+      "first_line": "“Lành thay, thấy thánh nhân,",
+      "vn_preview": "“Lành thay, thấy thánh nhân, / Sống chung thường hưởng lạc.",
+      "story_name": "THIÊN VƯƠNG ĐẾ THÍCH SĂN SÓC PHẬT",
+      "story_verses": [
+        206,
+        207,
+        208
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 207,
+      "pham_id": 15,
+      "first_line": "“Sống chung với người ngu,",
+      "vn_preview": "“Sống chung với người ngu, / Lâu dài bị lo buồn.",
+      "story_name": "THIÊN VƯƠNG ĐẾ THÍCH SĂN SÓC PHẬT",
+      "story_verses": [
+        206,
+        207,
+        208
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 208,
+      "pham_id": 15,
+      "first_line": "“Bậc hiền sĩ, trí tuệ",
+      "vn_preview": "“Bậc hiền sĩ, trí tuệ / Bậc nghe nhiều, trì giới,",
+      "story_name": "THIÊN VƯƠNG ĐẾ THÍCH SĂN SÓC PHẬT",
+      "story_verses": [
+        206,
+        207,
+        208
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 209,
+      "pham_id": 16,
+      "first_line": "“Tự chuyên, không đáng chuyên",
+      "vn_preview": "“Tự chuyên, không đáng chuyên / Không chuyên, việc đáng chuyên.",
+      "story_name": "BỘ BA CHA - MẸ - CON XUẤT GIA",
+      "story_verses": [
+        209,
+        210,
+        211
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 210,
+      "pham_id": 16,
+      "first_line": "“Chớ gần gũi người yêu,",
+      "vn_preview": "“Chớ gần gũi người yêu, / Trọn đời xa kẻ ghét.",
+      "story_name": "BỘ BA CHA - MẸ - CON XUẤT GIA",
+      "story_verses": [
+        209,
+        210,
+        211
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 211,
+      "pham_id": 16,
+      "first_line": "“Do vậy chớ yêu ai,",
+      "vn_preview": "“Do vậy chớ yêu ai, / Ái biệt ly là ác;",
+      "story_name": "BỘ BA CHA - MẸ - CON XUẤT GIA",
+      "story_verses": [
+        209,
+        210,
+        211
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 212,
+      "pham_id": 16,
+      "first_line": "“Do ái sinh sầu ưu,",
+      "vn_preview": "“Do ái sinh sầu ưu, / Do ái sinh sợ hãi,",
+      "story_name": "MỘT GIA TRƯỞNG KHÓC CON",
+      "story_verses": [
+        212
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 213,
+      "pham_id": 16,
+      "first_line": "“Ái luyến sinh sầu ưu,",
+      "vn_preview": "“Ái luyến sinh sầu ưu, / Ái luyến sinh sợ hãi.",
+      "story_name": "TÍN NỮ VISĀKHĀ KHÓC CHÁU GÁI",
+      "story_verses": [
+        213
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 214,
+      "pham_id": 16,
+      "first_line": "“Hỷ ái sinh sầu ưu,",
+      "vn_preview": "“Hỷ ái sinh sầu ưu, / Hỷ ái sinh sợ hãi.",
+      "story_name": "CÁC VƯƠNG TỬ LICCHAVĪ GIÀNH KỲ NỮ",
+      "story_verses": [
+        214
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 215,
+      "pham_id": 16,
+      "first_line": "“Dục ái sinh sầu ưu,",
+      "vn_preview": "“Dục ái sinh sầu ưu, / Dục ái sinh sợ hãi,",
+      "story_name": "CÔNG TỬ ANITTĀGANDHA",
+      "story_verses": [
+        215
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 216,
+      "pham_id": 16,
+      "first_line": "“Tham ái sinh sầu ưu,",
+      "vn_preview": "“Tham ái sinh sầu ưu, / Tham ái sinh sợ hãi.",
+      "story_name": "ÔNG BÀ LA MÔN THẤT HỨA",
+      "story_verses": [
+        216
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 217,
+      "pham_id": 16,
+      "first_line": "“Ðủ giới đức, chánh kiến;",
+      "vn_preview": "“Ðủ giới đức, chánh kiến; / Trú pháp, chứng chân lý,",
+      "story_name": "NĂM TRĂM CẬU BÉ DÂNG BÁNH ĐẾN NGÀI KASSAPA",
+      "story_verses": [
+        217
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 218,
+      "pham_id": 16,
+      "first_line": "“Ước vọng pháp ly ngôn",
+      "vn_preview": "“Ước vọng pháp ly ngôn / Ý cảm xúc thượng quả",
+      "story_name": "ĐẠI ĐỨC A NA HÀM",
+      "story_verses": [
+        218
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 219,
+      "pham_id": 16,
+      "first_line": "“Khách lâu ngày ly hương,",
+      "vn_preview": "“Khách lâu ngày ly hương, / An toàn từ xa về,",
+      "story_name": "NANDIYA VỀ TRỜI",
+      "story_verses": [
+        219,
+        220
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 220,
+      "pham_id": 16,
+      "first_line": "“Cũng vậy các phước nghiệp,",
+      "vn_preview": "“Cũng vậy các phước nghiệp, / Ðón chào người làm lành,",
+      "story_name": "NANDIYA VỀ TRỜI",
+      "story_verses": [
+        219,
+        220
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 221,
+      "pham_id": 17,
+      "first_line": "“Bỏ phẫn nộ, ly mạn,",
+      "vn_preview": "“Bỏ phẫn nộ, ly mạn, / Vượt qua mọi kiết sử,",
+      "story_name": "THÍCH NỮ ROHINĪ",
+      "story_verses": [
+        221
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 222,
+      "pham_id": 17,
+      "first_line": "“Ai chặn được phẫn nộ,",
+      "vn_preview": "“Ai chặn được phẫn nộ, / Như dừng xe đang lăn,",
+      "story_name": "TỲ KHƯU ĐỐN CÂY RỪNG",
+      "story_verses": [
+        222
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 223,
+      "pham_id": 17,
+      "first_line": "“Lấy không giận thắng giận,",
+      "vn_preview": "“Lấy không giận thắng giận, / Lấy thiện thắng không thiện,",
+      "story_name": "TÍN NỮ UTTARĀ",
+      "story_verses": [
+        223
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 224,
+      "pham_id": 17,
+      "first_line": "“Nói thật, không phẫn nộ,",
+      "vn_preview": "“Nói thật, không phẫn nộ, / Của ít, thí người xin,",
+      "story_name": "MOGGALLĀNA VẤN ĐẠO",
+      "story_verses": [
+        224
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 225,
+      "pham_id": 17,
+      "first_line": "“Bậc hiền không hại ai,",
+      "vn_preview": "“Bậc hiền không hại ai, / Thân thường được chế ngự,",
+      "story_name": "CHƯ TĂNG VẤN ĐẠO",
+      "story_verses": [
+        225
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 226,
+      "pham_id": 17,
+      "first_line": "“Những người thường giác tỉnh,",
+      "vn_preview": "“Những người thường giác tỉnh, / Ngày đêm siêng tu học,",
+      "story_name": "NỮ TỲ PUNṆĀ",
+      "story_verses": [
+        226
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 227,
+      "pham_id": 17,
+      "first_line": "“A-tu-la, nên biết,",
+      "vn_preview": "“A-tu-la, nên biết, / Xưa vậy, nay cũng vậy,",
+      "story_name": "THIỆN NAM ATULA",
+      "story_verses": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 228,
+      "pham_id": 17,
+      "first_line": "“Xưa, vị lai, và nay,",
+      "vn_preview": "“Xưa, vị lai, và nay, / Ðâu có sự kiện này,",
+      "story_name": "THIỆN NAM ATULA",
+      "story_verses": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 229,
+      "pham_id": 17,
+      "first_line": "“Sáng sáng, thẩm xét kỹ.",
+      "vn_preview": "“Sáng sáng, thẩm xét kỹ. / Bậc có trí tán thán.",
+      "story_name": "THIỆN NAM ATULA",
+      "story_verses": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 230,
+      "pham_id": 17,
+      "first_line": "“Hạnh sáng như vàng ròng,",
+      "vn_preview": "“Hạnh sáng như vàng ròng, / Ai dám chê vị ấy?",
+      "story_name": "THIỆN NAM ATULA",
+      "story_verses": [
+        227,
+        228,
+        229,
+        230
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 231,
+      "pham_id": 17,
+      "first_line": "“Giữ thân đừng phẫn nộ,",
+      "vn_preview": "“Giữ thân đừng phẫn nộ, / Phòng thân khéo bảo vệ,",
+      "story_name": "NHÓM TỲ KHƯU LỤC SƯ",
+      "story_verses": [
+        231,
+        232,
+        233,
+        234
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 232,
+      "pham_id": 17,
+      "first_line": "“Giữ lời đừng phẫn nộ,",
+      "vn_preview": "“Giữ lời đừng phẫn nộ, / Phòng lời, khéo bảo vệ,",
+      "story_name": "NHÓM TỲ KHƯU LỤC SƯ",
+      "story_verses": [
+        231,
+        232,
+        233,
+        234
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 233,
+      "pham_id": 17,
+      "first_line": "“Giữ ý đừng phẫn nộ,",
+      "vn_preview": "“Giữ ý đừng phẫn nộ, / Phòng ý, khéo bảo vệ,",
+      "story_name": "NHÓM TỲ KHƯU LỤC SƯ",
+      "story_verses": [
+        231,
+        232,
+        233,
+        234
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 234,
+      "pham_id": 17,
+      "first_line": "“Bậc trí bảo vệ thân,",
+      "vn_preview": "“Bậc trí bảo vệ thân, / Bảo vệ luôn lời nói",
+      "story_name": "NHÓM TỲ KHƯU LỤC SƯ",
+      "story_verses": [
+        231,
+        232,
+        233,
+        234
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 235,
+      "pham_id": 18,
+      "first_line": "“Ngươi nay giống lá héo,",
+      "vn_preview": "“Ngươi nay giống lá héo, / Diêm sứ đang chờ ngươi,",
+      "story_name": "CON TRAI ÔNG HÀNG BÒ",
+      "story_verses": [
+        235,
+        236,
+        237,
+        238
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 236,
+      "pham_id": 18,
+      "first_line": "“Hãy tự làm hòn đảo,",
+      "vn_preview": "“Hãy tự làm hòn đảo, / Tinh cần gấp, sáng suốt.",
+      "story_name": "CON TRAI ÔNG HÀNG BÒ",
+      "story_verses": [
+        235,
+        236,
+        237,
+        238
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 237,
+      "pham_id": 18,
+      "first_line": "“Ðời ngươi nay sắp tàn,",
+      "vn_preview": "“Ðời ngươi nay sắp tàn, / Tiến gần đến Diêm Vương.",
+      "story_name": "CON TRAI ÔNG HÀNG BÒ",
+      "story_verses": [
+        235,
+        236,
+        237,
+        238
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 238,
+      "pham_id": 18,
+      "first_line": "“Hãy tự làm hòn đảo,",
+      "vn_preview": "“Hãy tự làm hòn đảo, / Tinh cần gấp sáng suốt.",
+      "story_name": "CON TRAI ÔNG HÀNG BÒ",
+      "story_verses": [
+        235,
+        236,
+        237,
+        238
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 239,
+      "pham_id": 18,
+      "first_line": "“Bậc trí theo tuần tự.",
+      "vn_preview": "“Bậc trí theo tuần tự. / Từng sát na trừ dần.",
+      "story_name": "ÔNG BÀ LA MÔN TUẦN TỰ",
+      "story_verses": [
+        239
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 240,
+      "pham_id": 18,
+      "first_line": "“Như sét từ sắt sanh,",
+      "vn_preview": "“Như sét từ sắt sanh, / Sắt sanh lại ăn sắt,",
+      "story_name": "ĐẠI ĐỨC TISSA GIỮ Y",
+      "story_verses": [
+        240
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 241,
+      "pham_id": 18,
+      "first_line": "“Không tụng làm nhớp kinh,",
+      "vn_preview": "“Không tụng làm nhớp kinh, / Không đứng dậy, bẩn nhà,",
+      "story_name": "ĐẠI ĐỨC LOḶUDĀYI DỐT PHÁP",
+      "story_verses": [
+        241
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 242,
+      "pham_id": 18,
+      "first_line": "“Tà hạnh nhơ đàn bà,",
+      "vn_preview": "“Tà hạnh nhơ đàn bà, / Xan tham nhớp kẻ thí,",
+      "story_name": "MỘT CÔNG TỬ BỊ CẮM SỪNG",
+      "story_verses": [
+        242,
+        243
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 243,
+      "pham_id": 18,
+      "first_line": "“Trong hàng cấu uế ấy,",
+      "vn_preview": "“Trong hàng cấu uế ấy, / Vô minh, nhơ tối thượng,",
+      "story_name": "MỘT CÔNG TỬ BỊ CẮM SỪNG",
+      "story_verses": [
+        242,
+        243
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 244,
+      "pham_id": 18,
+      "first_line": "“Dễ thay, sống không hổ",
+      "vn_preview": "“Dễ thay, sống không hổ / Sống lỗ mãng như quạ,",
+      "story_name": "TỲ KHƯU CŪḶASĀRI TÀ MẠNG",
+      "story_verses": [
+        244,
+        245
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 245,
+      "pham_id": 18,
+      "first_line": "“Khó thay, sống xấu hổ,",
+      "vn_preview": "“Khó thay, sống xấu hổ, / Thường thường cầu thanh tịnh.",
+      "story_name": "TỲ KHƯU CŪḶASĀRI TÀ MẠNG",
+      "story_verses": [
+        244,
+        245
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 246,
+      "pham_id": 18,
+      "first_line": "“Ai ở đời sát sinh,",
+      "vn_preview": "“Ai ở đời sát sinh, / Nói láo không chân thật,",
+      "story_name": "NĂM CẬN SỰ NAM (VỚI NĂM GIỚI)",
+      "story_verses": [
+        246,
+        247,
+        248
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 247,
+      "pham_id": 18,
+      "first_line": "“Uống rượu men, rượu nấu,",
+      "vn_preview": "“Uống rượu men, rượu nấu, / Người sống đam mê vậy,",
+      "story_name": "NĂM CẬN SỰ NAM (VỚI NĂM GIỚI)",
+      "story_verses": [
+        246,
+        247,
+        248
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 248,
+      "pham_id": 18,
+      "first_line": "“Vậy người, hãy nên biết,",
+      "vn_preview": "“Vậy người, hãy nên biết, / Không chế ngự là ác.",
+      "story_name": "NĂM CẬN SỰ NAM (VỚI NĂM GIỚI)",
+      "story_verses": [
+        246,
+        247,
+        248
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 249,
+      "pham_id": 18,
+      "first_line": "“Do tín tâm, hỷ tâm",
+      "vn_preview": "“Do tín tâm, hỷ tâm / Loài người mới bố thí.",
+      "story_name": "TISSA NHÀ SƯ TRẺ (HAY CHÊ)",
+      "story_verses": [
+        249,
+        250
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 250,
+      "pham_id": 18,
+      "first_line": "“Ai cắt được, phá được,",
+      "vn_preview": "“Ai cắt được, phá được, / Tận gốc nhổ tâm ấy.",
+      "story_name": "TISSA NHÀ SƯ TRẺ (HAY CHÊ)",
+      "story_verses": [
+        249,
+        250
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 251,
+      "pham_id": 18,
+      "first_line": "“Lửa nào bằng lửa tham!",
+      "vn_preview": "“Lửa nào bằng lửa tham! / Chấp nào bằng sân hận!",
+      "story_name": "NĂM CẬN SỰ NAM THÍNH PHÁP",
+      "story_verses": [
+        251
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 252,
+      "pham_id": 18,
+      "first_line": "“Dễ thay thấy lỗi người,",
+      "vn_preview": "“Dễ thay thấy lỗi người, / Lỗi mình thấy mới khó.",
+      "story_name": "TRƯỞNG GIẢ MEṆḌAKA",
+      "story_verses": [
+        252
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 253,
+      "pham_id": 18,
+      "first_line": "“Ai thấy lỗi của người,",
+      "vn_preview": "“Ai thấy lỗi của người, / Thường sanh lòng chỉ trích,",
+      "story_name": "ĐẠI ĐỨC UJJHĀNASAÑÑĪ",
+      "story_verses": [
+        253
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 254,
+      "pham_id": 18,
+      "first_line": "“Hư không, không dấu chân,",
+      "vn_preview": "“Hư không, không dấu chân, / Ngoài đây, không sa môn,",
+      "story_name": "DU SĨ SUBHADDA",
+      "story_verses": [
+        254,
+        255
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 255,
+      "pham_id": 18,
+      "first_line": "“Hư không, không dấu chân,",
+      "vn_preview": "“Hư không, không dấu chân, / Ngoài đây, không sa môn.",
+      "story_name": "DU SĨ SUBHADDA",
+      "story_verses": [
+        254,
+        255
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 256,
+      "pham_id": 19,
+      "first_line": "“Ngươi đâu phải pháp trụ,",
+      "vn_preview": "“Ngươi đâu phải pháp trụ, / Xử sự quá chuyên chế,",
+      "story_name": "CÁC QUAN TÒA",
+      "story_verses": [
+        256,
+        257
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 257,
+      "pham_id": 19,
+      "first_line": "“Không chuyên chế, đúng pháp,",
+      "vn_preview": "“Không chuyên chế, đúng pháp, / Công bằng, dắt dẫn người,",
+      "story_name": "CÁC QUAN TÒA",
+      "story_verses": [
+        256,
+        257
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 258,
+      "pham_id": 19,
+      "first_line": "“Không phải vì nói nhiều,",
+      "vn_preview": "“Không phải vì nói nhiều, / Mới xứng danh bậc trí.",
+      "story_name": "NHÓM LỤC SƯ GÂY RỐI",
+      "story_verses": [
+        258
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 259,
+      "pham_id": 19,
+      "first_line": "Không phải vì nói nhiều,",
+      "vn_preview": "Không phải vì nói nhiều, / Mới xứng danh trì pháp,",
+      "story_name": "ĐẠI ĐỨC EKUDĀNA",
+      "story_verses": [
+        259
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 260,
+      "pham_id": 19,
+      "first_line": "Không phải là trưởng lão,",
+      "vn_preview": "Không phải là trưởng lão, / Dầu cho có bạc đầu.",
+      "story_name": "ĐẠI ĐỨC LAKUṆṬAKA BHADDIYA",
+      "story_verses": [
+        260,
+        261
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 261,
+      "pham_id": 19,
+      "first_line": "“Ai chân thật, đúng pháp,",
+      "vn_preview": "“Ai chân thật, đúng pháp, / Không hại, biết chế phục,",
+      "story_name": "ĐẠI ĐỨC LAKUṆṬAKA BHADDIYA",
+      "story_verses": [
+        260,
+        261
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 262,
+      "pham_id": 19,
+      "first_line": "“Không phải nói lưu loát,",
+      "vn_preview": "“Không phải nói lưu loát, / Không phải sắc mặt đẹp,",
+      "story_name": "NHIỀU VỊ TỲ KHƯU THAM VỌNG",
+      "story_verses": [
+        262,
+        263
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 263,
+      "pham_id": 19,
+      "first_line": "“Ai cắt được, phá được",
+      "vn_preview": "“Ai cắt được, phá được / Tận gốc nhổ tâm ấy",
+      "story_name": "NHIỀU VỊ TỲ KHƯU THAM VỌNG",
+      "story_verses": [
+        262,
+        263
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 264,
+      "pham_id": 19,
+      "first_line": "“Ðầu trọc, không sa môn",
+      "vn_preview": "“Ðầu trọc, không sa môn / Nếu phóng túng, nói láo.",
+      "story_name": "HATTHAKA TRỚ TRÊU",
+      "story_verses": [
+        264,
+        265
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 265,
+      "pham_id": 19,
+      "first_line": "“Ai lắng dịu hoàn toàn,",
+      "vn_preview": "“Ai lắng dịu hoàn toàn, / Các điều ác lớn nhỏ,",
+      "story_name": "HATTHAKA TRỚ TRÊU",
+      "story_verses": [
+        264,
+        265
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 266,
+      "pham_id": 19,
+      "first_line": "” Chỉ khất thực nhờ người,",
+      "vn_preview": "” Chỉ khất thực nhờ người, / Ðâu phải là tỷ kheo!",
+      "story_name": "THẦY BÀ LA MÔN KHẤT SĨ",
+      "story_verses": [
+        266,
+        267
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 267,
+      "pham_id": 19,
+      "first_line": "” Ai vượt qua thiện ác,",
+      "vn_preview": "” Ai vượt qua thiện ác, / Chuyên sống đời Phạm Hạnh,",
+      "story_name": "THẦY BÀ LA MÔN KHẤT SĨ",
+      "story_verses": [
+        266,
+        267
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 268,
+      "pham_id": 19,
+      "first_line": "“Im lặng nhưng ngu si,",
+      "vn_preview": "“Im lặng nhưng ngu si, / Ðâu được gọi ẩn sĩ?",
+      "story_name": "NGOẠI ĐẠO LÀM THINH",
+      "story_verses": [
+        268,
+        269
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 269,
+      "pham_id": 19,
+      "first_line": "” Từ bỏ các ác pháp,",
+      "vn_preview": "” Từ bỏ các ác pháp, / Mới thật là ẩn sĩ.",
+      "story_name": "NGOẠI ĐẠO LÀM THINH",
+      "story_verses": [
+        268,
+        269
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 270,
+      "pham_id": 19,
+      "first_line": "” Còn sát hại sinh linh,",
+      "vn_preview": "” Còn sát hại sinh linh, / Ðâu được gọi Hiền thánh.",
+      "story_name": "NGƯỜI DÂN CHÀI TÊN ARIYA",
+      "story_verses": [
+        270
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 271,
+      "pham_id": 19,
+      "first_line": "“Chẳng phải chỉ giới cấm",
+      "vn_preview": "“Chẳng phải chỉ giới cấm / Cũng không phải học nhiều,",
+      "story_name": "NHIỀU VỊ TỲ KHƯU TỰ MÃN",
+      "story_verses": [
+        271,
+        272
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 272,
+      "pham_id": 19,
+      "first_line": "“Ta hưởng an ổn lạc,",
+      "vn_preview": "“Ta hưởng an ổn lạc, / Phàm phu chưa hưởng được.",
+      "story_name": "NHIỀU VỊ TỲ KHƯU TỰ MÃN",
+      "story_verses": [
+        271,
+        272
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 273,
+      "pham_id": 20,
+      "first_line": "“Tám chánh, đường thù thắng,",
+      "vn_preview": "“Tám chánh, đường thù thắng, / Bốn câu, lý thù thắng.",
+      "story_name": "NĂM TRĂM TỲ KHƯU LUẬN ĐẠO",
+      "story_verses": [
+        273,
+        274,
+        275,
+        276
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 274,
+      "pham_id": 20,
+      "first_line": "“Ðường này, không đường khác",
+      "vn_preview": "“Ðường này, không đường khác / Ðưa đến kiến thanh tịnh.",
+      "story_name": "NĂM TRĂM TỲ KHƯU LUẬN ĐẠO",
+      "story_verses": [
+        273,
+        274,
+        275,
+        276
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 275,
+      "pham_id": 20,
+      "first_line": "“Nếu người theo đường này,",
+      "vn_preview": "“Nếu người theo đường này, / Ðau khổ được đoạn tận.",
+      "story_name": "NĂM TRĂM TỲ KHƯU LUẬN ĐẠO",
+      "story_verses": [
+        273,
+        274,
+        275,
+        276
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 276,
+      "pham_id": 20,
+      "first_line": "“Người hãy nhiệt tình làm,",
+      "vn_preview": "“Người hãy nhiệt tình làm, / Như Lai chỉ thuyết dạy.",
+      "story_name": "NĂM TRĂM TỲ KHƯU LUẬN ĐẠO",
+      "story_verses": [
+        273,
+        274,
+        275,
+        276
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 277,
+      "pham_id": 20,
+      "first_line": "“Tất cả hành vô thường ”",
+      "vn_preview": "“Tất cả hành vô thường ” / Với Tuệ, quán thấy vậy",
+      "story_name": "NĂM TRĂM TỲ KHƯU QUÁN VÔ THƯỜNG",
+      "story_verses": [
+        277
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 278,
+      "pham_id": 20,
+      "first_line": "“Tất cả hành khổ đau",
+      "vn_preview": "“Tất cả hành khổ đau / Với Tuệ quán thấy vậy,",
+      "story_name": "QUÁN KHỔ NÃO",
+      "story_verses": [
+        278
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 279,
+      "pham_id": 20,
+      "first_line": "“Tất cả pháp vô ngã,",
+      "vn_preview": "“Tất cả pháp vô ngã, / Với Tuệ quán thấy vậy,",
+      "story_name": "QUÁN PHI NGÃ",
+      "story_verses": [
+        279
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 280,
+      "pham_id": 20,
+      "first_line": "“Khi cần, không nỗ lực,",
+      "vn_preview": "“Khi cần, không nỗ lực, / Tuy trẻ mạnh, nhưng lười",
+      "story_name": "ĐẠI ĐỨC TISSA NÔN TU",
+      "story_verses": [
+        280
+      ],
+      "has_video": true,
+      "has_img": true
+    },
+    {
+      "num": 281,
+      "pham_id": 20,
+      "first_line": "“Lời nói được thận trọng,",
+      "vn_preview": "“Lời nói được thận trọng, / Tâm tư khéo hộ phòng,",
+      "story_name": "NGẠ QUỶ HEO",
+      "story_verses": [
+        281
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 282,
+      "pham_id": 20,
+      "first_line": "“Tu Thiền, trí tuệ sanh,",
+      "vn_preview": "“Tu Thiền, trí tuệ sanh, / Bỏ Thiền, trí tuệ diệt.",
+      "story_name": "ĐẠI ĐỨC POTHILA",
+      "story_verses": [
+        282
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 283,
+      "pham_id": 20,
+      "first_line": "“Ðốn rừng không đốn cây",
+      "vn_preview": "“Ðốn rừng không đốn cây / Từ rừng, sinh sợ hãi;",
+      "story_name": "CÁC ĐẠI ĐỨC GIÀ",
+      "story_verses": [
+        283,
+        284
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 284,
+      "pham_id": 20,
+      "first_line": "“Khi nào chưa cắt tiệt,",
+      "vn_preview": "“Khi nào chưa cắt tiệt, / Ái dục giữa gái trai,",
+      "story_name": "CÁC ĐẠI ĐỨC GIÀ",
+      "story_verses": [
+        283,
+        284
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 285,
+      "pham_id": 20,
+      "first_line": "“Tự cắt dây ái dục,",
+      "vn_preview": "“Tự cắt dây ái dục, / Như tay bẻ sen thu,",
+      "story_name": "ĐỆ TỬ ĐẠI ĐỨC SĀRIPUTTA",
+      "story_verses": [
+        285
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 286,
+      "pham_id": 20,
+      "first_line": "“Mùa mưa ta ở đây",
+      "vn_preview": "“Mùa mưa ta ở đây / Ðông, hạ cũng ở đây,",
+      "story_name": "ĐẠI PHÚ THƯƠNG",
+      "story_verses": [
+        286
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 287,
+      "pham_id": 20,
+      "first_line": "“Người tâm ý đắm say",
+      "vn_preview": "“Người tâm ý đắm say / Con cái và súc vật,",
+      "story_name": "NÀNG KISĀ GOTAMĪ",
+      "story_verses": [
+        287
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 288,
+      "pham_id": 20,
+      "first_line": "“Một khi tử thần đến,",
+      "vn_preview": "“Một khi tử thần đến, / Không có con che chở,",
+      "story_name": "NÀNG PATĀCĀRĀ",
+      "story_verses": [
+        288,
+        289
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 289,
+      "pham_id": 20,
+      "first_line": "“Biết rõ ý nghĩa này,",
+      "vn_preview": "“Biết rõ ý nghĩa này, / Bậc trí lo trì giới,",
+      "story_name": "NÀNG PATĀCĀRĀ",
+      "story_verses": [
+        288,
+        289
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 290,
+      "pham_id": 21,
+      "first_line": "“Nhờ từ bỏ lạc nhỏ,",
+      "vn_preview": "“Nhờ từ bỏ lạc nhỏ, / Thấy được lạc lớn hơn,",
+      "story_name": "HẠNH NGHIỆP CỦA ĐỨC PHẬT",
+      "story_verses": [
+        290
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 291,
+      "pham_id": 21,
+      "first_line": "“Gieo khổ đau cho người,",
+      "vn_preview": "“Gieo khổ đau cho người, / Mong cầu lạc cho mình,",
+      "story_name": "THIẾU NỮ ĂN TRỨNG GÀ",
+      "story_verses": [
+        291
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 292,
+      "pham_id": 21,
+      "first_line": "“Việc đáng làm, không làm,",
+      "vn_preview": "“Việc đáng làm, không làm, / Không đáng làm, lại làm,",
+      "story_name": "CHUYỆN TỲ KHƯU XỨ BHADDIYA",
+      "story_verses": [
+        292,
+        293
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 293,
+      "pham_id": 21,
+      "first_line": "“Người siêng năng cần mẫn,",
+      "vn_preview": "“Người siêng năng cần mẫn, / Thường thường quán thân niệm,",
+      "story_name": "CHUYỆN TỲ KHƯU XỨ BHADDIYA",
+      "story_verses": [
+        292,
+        293
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 294,
+      "pham_id": 21,
+      "first_line": "“Sau khi giết mẹ cha,",
+      "vn_preview": "“Sau khi giết mẹ cha, / Giết hai Vua Sát lỵ,",
+      "story_name": "TRƯỞNG LÃO LAKUṆṬAKA BHADDIYA",
+      "story_verses": [
+        294,
+        295
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 295,
+      "pham_id": 21,
+      "first_line": "“Sau khi giết mẹ cha,",
+      "vn_preview": "“Sau khi giết mẹ cha, / Hai vua Bà-la-môn,",
+      "story_name": "TRƯỞNG LÃO LAKUṆṬAKA BHADDIYA",
+      "story_verses": [
+        294,
+        295
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 296,
+      "pham_id": 21,
+      "first_line": "“Ðệ tử Gotama,",
+      "vn_preview": "“Ðệ tử Gotama, / Luôn luôn tự tỉnh giác",
+      "story_name": "CON TRAI ÔNG DĀRUSĀKAṬIKA",
+      "story_verses": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 297,
+      "pham_id": 21,
+      "first_line": "“Ðệ tử Gotama,",
+      "vn_preview": "“Ðệ tử Gotama, / Luôn luôn tự tỉnh giác,",
+      "story_name": "CON TRAI ÔNG DĀRUSĀKAṬIKA",
+      "story_verses": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 298,
+      "pham_id": 21,
+      "first_line": "“Ðệ tử Gotama,",
+      "vn_preview": "“Ðệ tử Gotama, / Luôn luôn tự tỉnh giác,",
+      "story_name": "CON TRAI ÔNG DĀRUSĀKAṬIKA",
+      "story_verses": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 299,
+      "pham_id": 21,
+      "first_line": "“Ðệ tử Gotama,",
+      "vn_preview": "“Ðệ tử Gotama, / Luôn luôn tự tỉnh giác,",
+      "story_name": "CON TRAI ÔNG DĀRUSĀKAṬIKA",
+      "story_verses": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 300,
+      "pham_id": 21,
+      "first_line": "“Ðệ tử Gotama,",
+      "vn_preview": "“Ðệ tử Gotama, / Luôn luôn tự tỉnh giác,",
+      "story_name": "CON TRAI ÔNG DĀRUSĀKAṬIKA",
+      "story_verses": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 301,
+      "pham_id": 21,
+      "first_line": "“Ðệ tử Gotama,",
+      "vn_preview": "“Ðệ tử Gotama, / Luôn luôn tự tỉnh giác,",
+      "story_name": "CON TRAI ÔNG DĀRUSĀKAṬIKA",
+      "story_verses": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 302,
+      "pham_id": 21,
+      "first_line": "“Vui hạnh xuất gia khó,",
+      "vn_preview": "“Vui hạnh xuất gia khó, / Tại gia sinh hoạt khó,",
+      "story_name": "TỲ KHƯU VAJĪPUTTA",
+      "story_verses": [
+        302
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 303,
+      "pham_id": 21,
+      "first_line": "“Tín tâm, sống giới hạnh",
+      "vn_preview": "“Tín tâm, sống giới hạnh / Ðủ danh xưng tài sản,",
+      "story_name": "TRƯỞNG GIẢ CITTA",
+      "story_verses": [
+        303
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 304,
+      "pham_id": 21,
+      "first_line": "“Người lành dầu ở xa",
+      "vn_preview": "“Người lành dầu ở xa / Sáng tỏ như núi tuyết,",
+      "story_name": "NÀNG CŪḶASUBHADDĀ",
+      "story_verses": [
+        304
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 305,
+      "pham_id": 21,
+      "first_line": "“Ai ngồi nằm một mình.",
+      "vn_preview": "“Ai ngồi nằm một mình. / Ðộc hành không buồn chán,",
+      "story_name": "TRƯỞNG LÃO EKAVIHĀRĪ",
+      "story_verses": [
+        305
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 306,
+      "pham_id": 22,
+      "first_line": "“Nói láo đọa địa ngục",
+      "vn_preview": "“Nói láo đọa địa ngục / Có làm nói không làm,",
+      "story_name": "NỮ NGOẠI GIÁO SUNDAR",
+      "story_verses": [
+        306
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 307,
+      "pham_id": 22,
+      "first_line": "“Nhiều người khoác cà sa,",
+      "vn_preview": "“Nhiều người khoác cà sa, / Ác hạnh không nhiếp phục.",
+      "story_name": "CHUYỆN KHỔ NHÂN",
+      "story_verses": [
+        307
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 308,
+      "pham_id": 22,
+      "first_line": "“Tốt hơn nuốt hòn sắt",
+      "vn_preview": "“Tốt hơn nuốt hòn sắt / Cháy đỏ như than hồng,",
+      "story_name": "CHƯ TỲ KHƯU TRÚ GẦN SÔNG VAGGUMUDĀ",
+      "story_verses": [
+        308
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 309,
+      "pham_id": 22,
+      "first_line": "“Bốn nạn chờ đợi người,",
+      "vn_preview": "“Bốn nạn chờ đợi người, / Phóng dật theo vợ người;",
+      "story_name": "THANH NIÊN KHEMAKA",
+      "story_verses": [
+        309,
+        310
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 310,
+      "pham_id": 22,
+      "first_line": "“Mắc họa, đọa ác thú,",
+      "vn_preview": "“Mắc họa, đọa ác thú, / Bị hoảng sợ, ít vui.",
+      "story_name": "THANH NIÊN KHEMAKA",
+      "story_verses": [
+        309,
+        310
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 311,
+      "pham_id": 22,
+      "first_line": "“Như cỏ sa (1) vụng nắm,",
+      "vn_preview": "“Như cỏ sa (1) vụng nắm, / Tất bị họa đứt tay",
+      "story_name": "TỲ KHƯU ĐA NGÔN",
+      "story_verses": [
+        311,
+        312,
+        313
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 312,
+      "pham_id": 22,
+      "first_line": "“Sống phóng đãng buông lung,",
+      "vn_preview": "“Sống phóng đãng buông lung, / Theo giới cấm ô nhiễm,",
+      "story_name": "TỲ KHƯU ĐA NGÔN",
+      "story_verses": [
+        311,
+        312,
+        313
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 313,
+      "pham_id": 22,
+      "first_line": "“Cần phải làm, nên làm",
+      "vn_preview": "“Cần phải làm, nên làm / Làm cùng tận khả năng",
+      "story_name": "TỲ KHƯU ĐA NGÔN",
+      "story_verses": [
+        311,
+        312,
+        313
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 314,
+      "pham_id": 22,
+      "first_line": "“Ác hạnh không nên làm,",
+      "vn_preview": "“Ác hạnh không nên làm, / Làm xong, chịu khổ lụy,",
+      "story_name": "CHUYỆN NỮ NHÂN HỜN GHEN",
+      "story_verses": [
+        314
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 315,
+      "pham_id": 22,
+      "first_line": "“Như thành ở biên thùy,",
+      "vn_preview": "“Như thành ở biên thùy, / Trong ngoài đều phòng hộ",
+      "story_name": "CHUYỆN TĂNG KHÁCH",
+      "story_verses": [
+        315
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 316,
+      "pham_id": 22,
+      "first_line": "“Không đáng hổ, lại hổ.",
+      "vn_preview": "“Không đáng hổ, lại hổ. / Việc đáng hổ, lại không.",
+      "story_name": "CHUYỆN NIGANTHA",
+      "story_verses": [
+        316,
+        317
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 317,
+      "pham_id": 22,
+      "first_line": "“Không đáng sợ, lại sợ,",
+      "vn_preview": "“Không đáng sợ, lại sợ, / Ðáng sợ, lại thấy không,",
+      "story_name": "CHUYỆN NIGANTHA",
+      "story_verses": [
+        316,
+        317
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 318,
+      "pham_id": 22,
+      "first_line": "“Không lỗi, lại thấy lỗi,",
+      "vn_preview": "“Không lỗi, lại thấy lỗi, / Có lỗi, lại thấy không,",
+      "story_name": "MÔN ĐỒ NGOẠI GIÁO",
+      "story_verses": [
+        318,
+        319
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 319,
+      "pham_id": 22,
+      "first_line": "“Có lỗi, biết có lỗi,",
+      "vn_preview": "“Có lỗi, biết có lỗi, / Không lỗi, biết là không,",
+      "story_name": "MÔN ĐỒ NGOẠI GIÁO",
+      "story_verses": [
+        318,
+        319
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 320,
+      "pham_id": 23,
+      "first_line": "“Ta như voi giữa trận,",
+      "vn_preview": "“Ta như voi giữa trận, / Hứng chịu cung tên rơi,",
+      "story_name": "CHUYỆN BẬC ĐẠO SƯ",
+      "story_verses": [
+        320,
+        321,
+        322
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 321,
+      "pham_id": 23,
+      "first_line": "“Voi luyện, đưa dự hội,",
+      "vn_preview": "“Voi luyện, đưa dự hội, / Ngựa luyện, được vua cưỡi,",
+      "story_name": "CHUYỆN BẬC ĐẠO SƯ",
+      "story_verses": [
+        320,
+        321,
+        322
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 322,
+      "pham_id": 23,
+      "first_line": "“Tốt thay, con la thuần,",
+      "vn_preview": "“Tốt thay, con la thuần, / Thuần chủng loài ngựa Xinh.",
+      "story_name": "CHUYỆN BẬC ĐẠO SƯ",
+      "story_verses": [
+        320,
+        321,
+        322
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 323,
+      "pham_id": 23,
+      "first_line": "“Chẳng phải loài cưỡi ấy,",
+      "vn_preview": "“Chẳng phải loài cưỡi ấy, / Ðưa người đến Niết-Bàn,",
+      "story_name": "CHUYỆN MỘT TĂNG SĨ",
+      "story_verses": [
+        323
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 324,
+      "pham_id": 23,
+      "first_line": "“Con voi tên Tài Hộ,",
+      "vn_preview": "“Con voi tên Tài Hộ, / Phát dục, khó điều phục,",
+      "story_name": "BÀ LA MÔN LÃO NIÊN",
+      "story_verses": [
+        324
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 325,
+      "pham_id": 23,
+      "first_line": "“Người ưa ngủ, ăn lớn",
+      "vn_preview": "“Người ưa ngủ, ăn lớn / Nằm lăn lóc qua lại,",
+      "story_name": "QUỐC VƯƠNG PASENADIKOSALA",
+      "story_verses": [
+        325
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 326,
+      "pham_id": 23,
+      "first_line": "“Trước tâm này buông lung,",
+      "vn_preview": "“Trước tâm này buông lung, / Chạy theo ái, dục, lạc.",
+      "story_name": "SA DI SĀNU",
+      "story_verses": [
+        326
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 327,
+      "pham_id": 23,
+      "first_line": "“Hãy vui không phóng dật,",
+      "vn_preview": "“Hãy vui không phóng dật, / Khéo phòng hộ tâm ý.",
+      "story_name": "THỚT TƯỢNG PĀVERAKA",
+      "story_verses": [
+        327
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 328,
+      "pham_id": 23,
+      "first_line": "“Nếu được bạn hiền trí",
+      "vn_preview": "“Nếu được bạn hiền trí / Ðáng sống chung, hạnh lành,",
+      "story_name": "CHUYỆN CHƯ TỲ KHƯU",
+      "story_verses": [
+        328,
+        329,
+        330
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 329,
+      "pham_id": 23,
+      "first_line": "“Không gặp bạn hiền trí.",
+      "vn_preview": "“Không gặp bạn hiền trí. / Ðáng sống chung, hạnh lành",
+      "story_name": "CHUYỆN CHƯ TỲ KHƯU",
+      "story_verses": [
+        328,
+        329,
+        330
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 330,
+      "pham_id": 23,
+      "first_line": "“Tốt hơn sống một mình,",
+      "vn_preview": "“Tốt hơn sống một mình, / Không kết bạn người ngu.",
+      "story_name": "CHUYỆN CHƯ TỲ KHƯU",
+      "story_verses": [
+        328,
+        329,
+        330
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 331,
+      "pham_id": 23,
+      "first_line": "“Vui thay, bạn lúc cần!",
+      "vn_preview": "“Vui thay, bạn lúc cần! / Vui thay, sống biết đủ,",
+      "story_name": "CHUYỆN MA VƯƠNG",
+      "story_verses": [
+        331,
+        332,
+        333
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 332,
+      "pham_id": 23,
+      "first_line": "“Vui thay, hiếu kính mẹ,",
+      "vn_preview": "“Vui thay, hiếu kính mẹ, / Vui thay, hiếu kính cha,",
+      "story_name": "CHUYỆN MA VƯƠNG",
+      "story_verses": [
+        331,
+        332,
+        333
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 333,
+      "pham_id": 23,
+      "first_line": "“Vui thay, già có giới!",
+      "vn_preview": "“Vui thay, già có giới! / Vui thay, tín an trú!",
+      "story_name": "CHUYỆN MA VƯƠNG",
+      "story_verses": [
+        331,
+        332,
+        333
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 334,
+      "pham_id": 24,
+      "first_line": "“Người sống đời phóng dật,",
+      "vn_preview": "“Người sống đời phóng dật, / Ái tăng như giây leo.",
+      "story_name": "CON CÁ KAPILA",
+      "story_verses": [
+        334,
+        335,
+        336,
+        337
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 335,
+      "pham_id": 24,
+      "first_line": "“Ai sống trong đời này,",
+      "vn_preview": "“Ai sống trong đời này, / Bị ái dục buộc ràng",
+      "story_name": "CON CÁ KAPILA",
+      "story_verses": [
+        334,
+        335,
+        336,
+        337
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 336,
+      "pham_id": 24,
+      "first_line": "“Ai sống trong đời này",
+      "vn_preview": "“Ai sống trong đời này / Ái dục được hàng phục",
+      "story_name": "CON CÁ KAPILA",
+      "story_verses": [
+        334,
+        335,
+        336,
+        337
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 337,
+      "pham_id": 24,
+      "first_line": "“Ðây điều lành Ta dạy,",
+      "vn_preview": "“Ðây điều lành Ta dạy, / Các người tụ họp đây.",
+      "story_name": "CON CÁ KAPILA",
+      "story_verses": [
+        334,
+        335,
+        336,
+        337
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 338,
+      "pham_id": 24,
+      "first_line": "“Như cây bị chặt đốn,",
+      "vn_preview": "“Như cây bị chặt đốn, / Gốc chưa hại vẫn bền",
+      "story_name": "CHUYỆN CON HEO NÁI",
+      "story_verses": [
+        338,
+        339,
+        340,
+        341,
+        342,
+        343
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 339,
+      "pham_id": 24,
+      "first_line": "“Ba mươi sáu dòng Ái (1),",
+      "vn_preview": "“Ba mươi sáu dòng Ái (1), / Trôi người đốn khả ái.",
+      "story_name": "CHUYỆN CON HEO NÁI",
+      "story_verses": [
+        338,
+        339,
+        340,
+        341,
+        342,
+        343
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 340,
+      "pham_id": 24,
+      "first_line": "“Dòng ái dục chảy khắp,",
+      "vn_preview": "“Dòng ái dục chảy khắp, / Như giây leo mọc tràn,",
+      "story_name": "CHUYỆN CON HEO NÁI",
+      "story_verses": [
+        338,
+        339,
+        340,
+        341,
+        342,
+        343
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 341,
+      "pham_id": 24,
+      "first_line": "“Người đời nhớ ái dục,",
+      "vn_preview": "“Người đời nhớ ái dục, / Ưa thích các hỷ lạc.",
+      "story_name": "CHUYỆN CON HEO NÁI",
+      "story_verses": [
+        338,
+        339,
+        340,
+        341,
+        342,
+        343
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 342,
+      "pham_id": 24,
+      "first_line": "“Người bị ái buộc ràng,",
+      "vn_preview": "“Người bị ái buộc ràng, / Vùng vẫy và hoảng sợ,",
+      "story_name": "CHUYỆN CON HEO NÁI",
+      "story_verses": [
+        338,
+        339,
+        340,
+        341,
+        342,
+        343
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 343,
+      "pham_id": 24,
+      "first_line": "“Người bị ái buộc ràng,",
+      "vn_preview": "“Người bị ái buộc ràng, / Vùng vẫy và hoảng sợ,",
+      "story_name": "CHUYỆN CON HEO NÁI",
+      "story_verses": [
+        338,
+        339,
+        340,
+        341,
+        342,
+        343
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 344,
+      "pham_id": 24,
+      "first_line": "“Lìa rừng lại hướng rừng (2)",
+      "vn_preview": "“Lìa rừng lại hướng rừng (2) / Thoát rừng chạy theo rừng.",
+      "story_name": "CHUYỆN VỊ TỲ KHƯU HOÀN TỤC",
+      "story_verses": [
+        344
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 345,
+      "pham_id": 24,
+      "first_line": "“Sắt, cây, gai trói buộc",
+      "vn_preview": "“Sắt, cây, gai trói buộc / Người trí xem chưa bền.",
+      "story_name": "CHUYỆN KHÁM ĐƯỜNG",
+      "story_verses": [
+        345,
+        346
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 346,
+      "pham_id": 24,
+      "first_line": "“Người có trí nói rằng:",
+      "vn_preview": "“Người có trí nói rằng: / “Trói buộc này thật bền.",
+      "story_name": "CHUYỆN KHÁM ĐƯỜNG",
+      "story_verses": [
+        345,
+        346
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 347,
+      "pham_id": 24,
+      "first_line": "“Người đắm say ái dục",
+      "vn_preview": "“Người đắm say ái dục / Tự lao mình xuống dòng",
+      "story_name": "HOÀNG HẬU KHEMĀ",
+      "story_verses": [
+        347
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 348,
+      "pham_id": 24,
+      "first_line": "“Bỏ quá, hiện, vị lai,",
+      "vn_preview": "“Bỏ quá, hiện, vị lai, / Ðến bờ kia cuộc đời,",
+      "story_name": "CÔNG TỬ UGGASENA",
+      "story_verses": [
+        348
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 349,
+      "pham_id": 24,
+      "first_line": "“Người tà ý nhiếp phục,",
+      "vn_preview": "“Người tà ý nhiếp phục, / Tham sắc bén nhìn tịnh,",
+      "story_name": "HIỀN TRÍ CŪḶADHANUGGAHA",
+      "story_verses": [
+        349,
+        350
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 350,
+      "pham_id": 24,
+      "first_line": "“Ai vui, an tịnh ý,",
+      "vn_preview": "“Ai vui, an tịnh ý, / Quán bất tịnh, thường niệm,",
+      "story_name": "HIỀN TRÍ CŪḶADHANUGGAHA",
+      "story_verses": [
+        349,
+        350
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 351,
+      "pham_id": 24,
+      "first_line": "“Ai tới đích, không sợ,",
+      "vn_preview": "“Ai tới đích, không sợ, / Ly ái, không nhiễm ô",
+      "story_name": "CHUYỆN MA VƯƠNG",
+      "story_verses": [
+        351,
+        352
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 352,
+      "pham_id": 24,
+      "first_line": "“Ái lìa, không chấp thủ.",
+      "vn_preview": "“Ái lìa, không chấp thủ. / Cú pháp khéo biện tài",
+      "story_name": "CHUYỆN MA VƯƠNG",
+      "story_verses": [
+        351,
+        352
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 353,
+      "pham_id": 24,
+      "first_line": "“Ta hàng phục tất cả,",
+      "vn_preview": "“Ta hàng phục tất cả, / Ta rõ biết tất cả,",
+      "story_name": "DU SĨ UPAKA",
+      "story_verses": [
+        353
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 354,
+      "pham_id": 24,
+      "first_line": "“Pháp thí, thắng mọi thí!",
+      "vn_preview": "“Pháp thí, thắng mọi thí! / Pháp vị, thắng mọi vị!",
+      "story_name": "ĐỨC THIÊN VƯƠNG ĐẾ THÍCH",
+      "story_verses": [
+        354
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 355,
+      "pham_id": 24,
+      "first_line": "“Tài sản hại người ngu.",
+      "vn_preview": "“Tài sản hại người ngu. / Không người tìm bờ kia",
+      "story_name": "VỊ TRƯỞNG GIẢ KHÔNG CON",
+      "story_verses": [
+        355
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 356,
+      "pham_id": 24,
+      "first_line": "“Cỏ làm hại ruộng vườn,",
+      "vn_preview": "“Cỏ làm hại ruộng vườn, / Tham làm hại người đời.",
+      "story_name": "THIÊN TỬ AṄKURA",
+      "story_verses": [
+        356,
+        357,
+        358,
+        359
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 357,
+      "pham_id": 24,
+      "first_line": "“Cỏ làm hại ruộng vườn,",
+      "vn_preview": "“Cỏ làm hại ruộng vườn, / Sân làm hại người đời.",
+      "story_name": "THIÊN TỬ AṄKURA",
+      "story_verses": [
+        356,
+        357,
+        358,
+        359
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 358,
+      "pham_id": 24,
+      "first_line": "“Cỏ làm hại ruộng vườn,",
+      "vn_preview": "“Cỏ làm hại ruộng vườn, / Si làm hại người đời,",
+      "story_name": "THIÊN TỬ AṄKURA",
+      "story_verses": [
+        356,
+        357,
+        358,
+        359
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 359,
+      "pham_id": 24,
+      "first_line": "“Cỏ làm hại ruộng vườn,",
+      "vn_preview": "“Cỏ làm hại ruộng vườn, / Dục làm hại người đời.",
+      "story_name": "THIÊN TỬ AṄKURA",
+      "story_verses": [
+        356,
+        357,
+        358,
+        359
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 360,
+      "pham_id": 25,
+      "first_line": "“Lành thay, phòng hộ mắt!",
+      "vn_preview": "“Lành thay, phòng hộ mắt! / Lành thay, phòng hộ tai.",
+      "story_name": "NĂM VỊ TỲ KHƯU",
+      "story_verses": [
+        360,
+        361
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 361,
+      "pham_id": 25,
+      "first_line": "“Lành thay,phòng hộ thân!",
+      "vn_preview": "“Lành thay,phòng hộ thân! / Lành thay, phòng hộ lời,",
+      "story_name": "NĂM VỊ TỲ KHƯU",
+      "story_verses": [
+        360,
+        361
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 362,
+      "pham_id": 25,
+      "first_line": "“Người chế ngự tay chân,",
+      "vn_preview": "“Người chế ngự tay chân, / Chế ngự lời và đầu,",
+      "story_name": "VỊ TỲ KHƯU GIẾT HẠC",
+      "story_verses": [
+        362
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 363,
+      "pham_id": 25,
+      "first_line": "“Tỷ kheo chế ngự miệng,",
+      "vn_preview": "“Tỷ kheo chế ngự miệng, / Vừa lời, không cống cao,",
+      "story_name": "TỲ KHƯU KOKĀLIKA",
+      "story_verses": [
+        363
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 364,
+      "pham_id": 25,
+      "first_line": "“Vị tỷ kheo thích Pháp,",
+      "vn_preview": "“Vị tỷ kheo thích Pháp, / Mến pháp, suy tư Pháp.",
+      "story_name": "TRƯỞNG LÃO DHAMMĀRĀMA",
+      "story_verses": [
+        364
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 365,
+      "pham_id": 25,
+      "first_line": "“Không khinh điều mình được,",
+      "vn_preview": "“Không khinh điều mình được, / Không ganh người khác được",
+      "story_name": "HAI VỊ TỲ KHƯU NGHỊCH GẶP NHAU",
+      "story_verses": [
+        365,
+        366
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 366,
+      "pham_id": 25,
+      "first_line": "“Tỷ kheo dầu được ít,",
+      "vn_preview": "“Tỷ kheo dầu được ít, / Không khinh điều mình được,",
+      "story_name": "HAI VỊ TỲ KHƯU NGHỊCH GẶP NHAU",
+      "story_verses": [
+        365,
+        366
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 367,
+      "pham_id": 25,
+      "first_line": "“Hoàn toàn, đối danh sắc,",
+      "vn_preview": "“Hoàn toàn, đối danh sắc, / Không chấp Ta, của Ta.",
+      "story_name": "BÀ LA MÔN PAÑCAGGADĀYAKA",
+      "story_verses": [
+        367
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 368,
+      "pham_id": 25,
+      "first_line": "“Tỷ kheo trú từ bi,",
+      "vn_preview": "“Tỷ kheo trú từ bi, / Tín thành giáo Pháp Phật,",
+      "story_name": "NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 369,
+      "pham_id": 25,
+      "first_line": "“Tỷ kheo, tát thuyền này,",
+      "vn_preview": "“Tỷ kheo, tát thuyền này, / Thuyền không, nhẹ đi mau.",
+      "story_name": "NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 370,
+      "pham_id": 25,
+      "first_line": "“Ðoạn năm (1), từ bỏ năm (2),",
+      "vn_preview": "“Ðoạn năm (1), từ bỏ năm (2), / Tu tập năm (3) tối thượng,",
+      "story_name": "NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 371,
+      "pham_id": 25,
+      "first_line": "“Tỷ kheo, hãy tu thiền,",
+      "vn_preview": "“Tỷ kheo, hãy tu thiền, / Chớ buông lung phóng dật,",
+      "story_name": "NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 372,
+      "pham_id": 25,
+      "first_line": "“Không trí tuệ, không thiền,",
+      "vn_preview": "“Không trí tuệ, không thiền, / Không thiền, không trí tuệ.",
+      "story_name": "NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 373,
+      "pham_id": 25,
+      "first_line": "“Bước vào ngôi nhà trống,",
+      "vn_preview": "“Bước vào ngôi nhà trống, / Tỷ kheo tâm an tịnh,",
+      "story_name": "NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 374,
+      "pham_id": 25,
+      "first_line": "“Người luôn luôn chánh niệm,",
+      "vn_preview": "“Người luôn luôn chánh niệm, / Sự sanh diệt các uẩn,",
+      "story_name": "NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 375,
+      "pham_id": 25,
+      "first_line": "“Ðây Tỷ kheo có trí,",
+      "vn_preview": "“Ðây Tỷ kheo có trí, / Tụ tập pháp căn bản",
+      "story_name": "NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 376,
+      "pham_id": 25,
+      "first_line": "“Giao thiệp khéo thân thiện,",
+      "vn_preview": "“Giao thiệp khéo thân thiện, / Cử chỉ mực đoan trang.",
+      "story_name": "NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 377,
+      "pham_id": 25,
+      "first_line": "“Như hoa Vassikà (6),",
+      "vn_preview": "“Như hoa Vassikà (6), / Quăng bỏ cánh úa tàn,",
+      "story_name": "CHUYỆN 500 VỊ TỲ KHƯU",
+      "story_verses": [
+        377
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 378,
+      "pham_id": 25,
+      "first_line": "“Thân tịnh, lời an tịnh,",
+      "vn_preview": "“Thân tịnh, lời an tịnh, / An tịnh, khéo thiền tịnh.",
+      "story_name": "TRƯỞNG LÃO SANTAKĀYA",
+      "story_verses": [
+        378
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 379,
+      "pham_id": 25,
+      "first_line": "“Tự mình chỉ trích mình,",
+      "vn_preview": "“Tự mình chỉ trích mình, / Tự mình dò xét mình,",
+      "story_name": "TRƯỞNG LÃO NAṆGALAKŪṬA",
+      "story_verses": [
+        379,
+        380
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 380,
+      "pham_id": 25,
+      "first_line": "“Tự mình y chỉ mình,",
+      "vn_preview": "“Tự mình y chỉ mình, / Tự mình đi đến mình,",
+      "story_name": "TRƯỞNG LÃO NAṆGALAKŪṬA",
+      "story_verses": [
+        379,
+        380
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 381,
+      "pham_id": 25,
+      "first_line": "“Tỷ kheo nhiều hân hoan,",
+      "vn_preview": "“Tỷ kheo nhiều hân hoan, / Tịnh tín giáo pháp Phật,",
+      "story_name": "TRƯỞNG LÃO VAKKALI",
+      "story_verses": [
+        381
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 382,
+      "pham_id": 25,
+      "first_line": "“Tỷ kheo tuy tuổi nhỏ",
+      "vn_preview": "“Tỷ kheo tuy tuổi nhỏ / Siêng tu giáo pháp Phật,",
+      "story_name": "SADI SUMANA",
+      "story_verses": [
+        382
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 383,
+      "pham_id": 26,
+      "first_line": "“Hỡi này Bà là môn,",
+      "vn_preview": "“Hỡi này Bà là môn, / Hãy tinh tấn đoạn dòng,",
+      "story_name": "VỊ BÀ LA MÔN NHIỀU ĐỨC TIN",
+      "story_verses": [
+        383
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 384,
+      "pham_id": 26,
+      "first_line": "“Nhờ thường trú hai pháp (1)",
+      "vn_preview": "“Nhờ thường trú hai pháp (1) / Ðến được bờ bên kia.",
+      "story_name": "NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        384
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 385,
+      "pham_id": 26,
+      "first_line": "“Không bờ này, bờ kia (2)",
+      "vn_preview": "“Không bờ này, bờ kia (2) / Cả hai bờ không có,",
+      "story_name": "CHUYỆN MA VƯƠNG",
+      "story_verses": [
+        385
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 386,
+      "pham_id": 26,
+      "first_line": "“Tu thiền, trú ly trần",
+      "vn_preview": "“Tu thiền, trú ly trần / Phận sự xong, vô lậu,",
+      "story_name": "MỘT VỊ BÀ LA MÔN",
+      "story_verses": [
+        386
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 387,
+      "pham_id": 26,
+      "first_line": "“Mặt trời sáng ban ngày,",
+      "vn_preview": "“Mặt trời sáng ban ngày, / Mặt trăng sáng ban đêm.",
+      "story_name": "TRƯỞNG LÃO ĀNANDA",
+      "story_verses": [
+        387
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 388,
+      "pham_id": 26,
+      "first_line": "“Dứt ác gọi Phạm chí,",
+      "vn_preview": "“Dứt ác gọi Phạm chí, / Tịnh hạnh gọi Sa môn,",
+      "story_name": "CHUYỆN MỘT NGƯỜI XUẤT GIA",
+      "story_verses": [
+        388
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 389,
+      "pham_id": 26,
+      "first_line": "“Chớ có đập Phạm chí!",
+      "vn_preview": "“Chớ có đập Phạm chí! / Phạm chí chớ đập lại!",
+      "story_name": "TRƯỞNG LÃO SĀRIPUTTA",
+      "story_verses": [
+        389,
+        390
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 390,
+      "pham_id": 26,
+      "first_line": "“Ðối với Bà-la-môn,",
+      "vn_preview": "“Ðối với Bà-la-môn, / Ðây (3) không lợi ích nhỏ.",
+      "story_name": "TRƯỞNG LÃO SĀRIPUTTA",
+      "story_verses": [
+        389,
+        390
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 391,
+      "pham_id": 26,
+      "first_line": "“Với người thân miệng ý,",
+      "vn_preview": "“Với người thân miệng ý, / Không làm các ác hạnh",
+      "story_name": "TRƯỞNG LÃO NI MAHĀ PAJĀPATIGOTAMĪ",
+      "story_verses": [
+        391
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 392,
+      "pham_id": 26,
+      "first_line": "“Từ ai, biết chánh pháp",
+      "vn_preview": "“Từ ai, biết chánh pháp / Bậc Chánh Giác thuyết giảng,",
+      "story_name": "CHUYỆN TRƯỞNG LÃO SĀRIPUTTA",
+      "story_verses": [
+        392
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 393,
+      "pham_id": 26,
+      "first_line": "“Ðược gọi Bà-la-môn,",
+      "vn_preview": "“Ðược gọi Bà-la-môn, / Không vì đầu bện tóc,",
+      "story_name": "CHUYỆN BÀ LA MÔN JĀṬILA",
+      "story_verses": [
+        393
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 394,
+      "pham_id": 26,
+      "first_line": "“Kẻ ngu, có ích gì",
+      "vn_preview": "“Kẻ ngu, có ích gì / Bện tóc với da dê,",
+      "story_name": "BÀ LA MÔN KUHAKA",
+      "story_verses": [
+        394
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 395,
+      "pham_id": 26,
+      "first_line": "“Người mặc áo đống rác,",
+      "vn_preview": "“Người mặc áo đống rác, / Gầy ốm, lộ mạch gân,",
+      "story_name": "NÀNG KISĀGOTAMĪ",
+      "story_verses": [
+        395
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 396,
+      "pham_id": 26,
+      "first_line": "“Ta không gọi Phạm Chí,",
+      "vn_preview": "“Ta không gọi Phạm Chí, / Vì chỗ sanh, mẹ sanh.",
+      "story_name": "CHUYỆN VỊ BÀ LA MÔN",
+      "story_verses": [
+        396
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 397,
+      "pham_id": 26,
+      "first_line": "“Ðoạn hết các kiết sử,",
+      "vn_preview": "“Ðoạn hết các kiết sử, / Không còn gì lo sợ",
+      "story_name": "NGÀI UGGASENA",
+      "story_verses": [
+        397
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 398,
+      "pham_id": 26,
+      "first_line": "“Bỏ đai da (4), bỏ cương (5)",
+      "vn_preview": "“Bỏ đai da (4), bỏ cương (5) / Bỏ dây (6), đồ sở thuộc (7),",
+      "story_name": "CHUYỆN HAI VỊ BÀ LA MÔN",
+      "story_verses": [
+        398
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 399,
+      "pham_id": 26,
+      "first_line": "“Không ác ý, nhẫn chịu,",
+      "vn_preview": "“Không ác ý, nhẫn chịu, / Phỉ báng, đánh, phạt hình,",
+      "story_name": "BÀ LA MÔN AKKOSAKA BHĀRADVĀJA",
+      "story_verses": [
+        399
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 400,
+      "pham_id": 26,
+      "first_line": "“Không hận, hết bổn phận,",
+      "vn_preview": "“Không hận, hết bổn phận, / Trì giới, không tham ái,",
+      "story_name": "TRƯỞNG LÃO SĀRIPUTTA",
+      "story_verses": [
+        400
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 401,
+      "pham_id": 26,
+      "first_line": "“Như nước trên lá sen,",
+      "vn_preview": "“Như nước trên lá sen, / Như hột cải đầu kim,",
+      "story_name": "TRƯỞNG LÃO NI UPPALAVAṆṆĀ",
+      "story_verses": [
+        401
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 402,
+      "pham_id": 26,
+      "first_line": "“Ai tự trên đời này,",
+      "vn_preview": "“Ai tự trên đời này, / Giác khổ, diệt trừ khổ,",
+      "story_name": "CHUYỆN MỘT VỊ BÀ LA MÔN",
+      "story_verses": [
+        402
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 403,
+      "pham_id": 26,
+      "first_line": "“Người trí tuệ sâu xa,",
+      "vn_preview": "“Người trí tuệ sâu xa, / Khéo biết đạo, phi đạo",
+      "story_name": "TRƯỞNG LÃO NI KHEMĀ",
+      "story_verses": [
+        403
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 404,
+      "pham_id": 26,
+      "first_line": "“Không liên hệ cả hai,",
+      "vn_preview": "“Không liên hệ cả hai, / Xuất gia và thế tục,",
+      "story_name": "TRƯỞNG LÃO TISSA NGỤ TRONG NÚI",
+      "story_verses": [
+        404
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 405,
+      "pham_id": 26,
+      "first_line": "“Bỏ trượng, đối chúng sanh,",
+      "vn_preview": "“Bỏ trượng, đối chúng sanh, / Yếu kém hay kiên cường,",
+      "story_name": "CHUYỆN NHIỀU VỊ TỲ KHƯU",
+      "story_verses": [
+        405
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 406,
+      "pham_id": 26,
+      "first_line": "“Thân thiện giữa thù địch",
+      "vn_preview": "“Thân thiện giữa thù địch / Ôn hòa giữa hung hăng.",
+      "story_name": "CÁC SADI",
+      "story_verses": [
+        406
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 407,
+      "pham_id": 26,
+      "first_line": "“Người bỏ rơi tham sân,",
+      "vn_preview": "“Người bỏ rơi tham sân, / Không mạn không ganh tị,",
+      "story_name": "TRƯỞNG LÃO MAHĀPAṆṬHAKA",
+      "story_verses": [
+        407
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 408,
+      "pham_id": 26,
+      "first_line": "“Nói lên lời ôn hòa,",
+      "vn_preview": "“Nói lên lời ôn hòa, / Lợi ích và chân thật,",
+      "story_name": "TRƯỞNG LÃO PILIṆḌAVACCHA",
+      "story_verses": [
+        408
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 409,
+      "pham_id": 26,
+      "first_line": "“Ở đời, vật dài, ngắn,",
+      "vn_preview": "“Ở đời, vật dài, ngắn, / Nhỏ, lớn, đẹp hay xấu",
+      "story_name": "CHUYỆN MỘT VỊ TỲ KHƯU",
+      "story_verses": [
+        409
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 410,
+      "pham_id": 26,
+      "first_line": "“Người không có hy cầu,",
+      "vn_preview": "“Người không có hy cầu, / Ðời này và đời sau,",
+      "story_name": "TRƯỞNG LÃO SĀRIPUTTA",
+      "story_verses": [
+        410
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 411,
+      "pham_id": 26,
+      "first_line": "“Người không còn tham ái,",
+      "vn_preview": "“Người không còn tham ái, / Có trí, không nghi hoặc,",
+      "story_name": "TRƯỞNG LÃO MOGGALLĀNA",
+      "story_verses": [
+        411
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 412,
+      "pham_id": 26,
+      "first_line": "“Người sống ở đời này",
+      "vn_preview": "“Người sống ở đời này / Không nhiễm cả thiện ác,",
+      "story_name": "TRƯỞNG LÃO REVATA",
+      "story_verses": [
+        412
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 413,
+      "pham_id": 26,
+      "first_line": "“Như trăng, sạch không uế",
+      "vn_preview": "“Như trăng, sạch không uế / Sáng trong và tịnh lặng,",
+      "story_name": "TRƯỞNG LÃO CANDĀBHA",
+      "story_verses": [
+        413
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 414,
+      "pham_id": 26,
+      "first_line": "“Vượt đường nguy hiểm này,",
+      "vn_preview": "“Vượt đường nguy hiểm này, / Nhiếp phục luân hồi, si,",
+      "story_name": "TRƯỞNG LÃO SĪVALI",
+      "story_verses": [
+        414
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 415,
+      "pham_id": 26,
+      "first_line": "“Ai ở đời, đoạn dục,",
+      "vn_preview": "“Ai ở đời, đoạn dục, / Bỏ nhà, sống xuất gia,",
+      "story_name": "TRƯỞNG LÃO SUNDARASAMUDDA",
+      "story_verses": [
+        415
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 416,
+      "pham_id": 26,
+      "first_line": "“Ai ở đời đoạn ái",
+      "vn_preview": "“Ai ở đời đoạn ái / Bỏ nhà, sống xuất gia,",
+      "story_name": "Truyện Kinh Pháp Cú 416 - TRƯỞNG LÃO JOTIKA",
+      "story_verses": [
+        416
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 417,
+      "pham_id": 26,
+      "first_line": "“Bỏ trói buộc loài người,",
+      "vn_preview": "“Bỏ trói buộc loài người, / Vượt trói buộc cõi trời.",
+      "story_name": "CHUYỆN TRƯỞNG LÃO JĀṬILA",
+      "story_verses": [
+        417
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 418,
+      "pham_id": 26,
+      "first_line": "“Bỏ điều ưa, điều ghét,",
+      "vn_preview": "“Bỏ điều ưa, điều ghét, / Mát lạnh, diệt sanh y",
+      "story_name": "CHUYỆN VỊ TỲ KHƯU KHIÊU VŨ (THỨ NHẤT)",
+      "story_verses": [
+        418
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 419,
+      "pham_id": 26,
+      "first_line": "“Ai hiểu rõ hoàn toàn",
+      "vn_preview": "“Ai hiểu rõ hoàn toàn / Sanh tử các chúng sanh,",
+      "story_name": "TRƯỞNG LÃO VAṄGĪSA",
+      "story_verses": [
+        419,
+        420
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 420,
+      "pham_id": 26,
+      "first_line": "“Với ai, loài trời, người",
+      "vn_preview": "“Với ai, loài trời, người / Cùng với Càn thát bà,",
+      "story_name": "TRƯỞNG LÃO VAṄGĪSA",
+      "story_verses": [
+        419,
+        420
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 421,
+      "pham_id": 26,
+      "first_line": "“Ai quá, hiện, vị lai",
+      "vn_preview": "“Ai quá, hiện, vị lai / Không một sở hữu gì,",
+      "story_name": "TRƯỞNG LÃO NI DHAMMADINNĀ",
+      "story_verses": [
+        421
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 422,
+      "pham_id": 26,
+      "first_line": "“Bậc trâu chúa, thù thắng",
+      "vn_preview": "“Bậc trâu chúa, thù thắng / Bậc anh hùng, đại sĩ,",
+      "story_name": "TRƯỞNG LÃO ANGULIMĀLA",
+      "story_verses": [
+        422
+      ],
+      "has_video": false,
+      "has_img": true
+    },
+    {
+      "num": 423,
+      "pham_id": 26,
+      "first_line": "“Ai biết được đời trước,",
+      "vn_preview": "“Ai biết được đời trước, / Thấy thiên giới, đọa xứ,",
+      "story_name": "BÀ LA MÔN DEVAHITA",
+      "story_verses": [
+        423
+      ],
+      "has_video": false,
+      "has_img": true
+    }
+  ]
+}

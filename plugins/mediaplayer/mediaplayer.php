@@ -41,8 +41,8 @@ class mediaplayer extends Plugin
     public function onTwigLoaded()
     {
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css');
-            $this->addJS('/mediaplayer/js/mediaplayer.js');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261109a');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261109a');
         }
     }
 
@@ -162,7 +162,37 @@ class mediaplayer extends Plugin
                 'open'  => 'text',
             ];
             $shortcodeArray['data']['/accordion'] = [];
+            $shortcodeArray['data']['kpcreader'] = [
+                'verse'   => 'text',
+                'toc_url' => 'text',
+            ];
+            $shortcodeArray['data']['kpctoc'] = [
+                'reader_url' => 'text',
+                'mode'       => 'text',
+            ];
             $shortcode->setData($shortcodeArray);
+            return;
+        }
+
+        # 1b. [:kpcreader verse="1" toc_url="/phat-giao/kinh-phap-cu/muc-luc-kinh-phap-cu" :]
+        if ($name === 'kpcreader') {
+            $shortcode->stopPropagation();
+            $this->playerRendered = true;
+            $verse  = (int)($params['verse'] ?? 1);
+            if ($verse < 1 || $verse > 423) {
+                $verse = 1;
+            }
+            $tocUrl = trim($params['toc_url'] ?? '/phat-giao/kinh-phap-cu/muc-luc-kinh-phap-cu');
+            $shortcode->setData($this->renderKpcReader($verse, $tocUrl));
+            return;
+        }
+
+        # 1c. [:kpctoc reader_url="/phat-giao/kinh-phap-cu/doc-kinh-phap-cu" mode="full" :]
+        if ($name === 'kpctoc') {
+            $shortcode->stopPropagation();
+            $readerUrl = trim($params['reader_url'] ?? '/phat-giao/kinh-phap-cu/doc-kinh-phap-cu');
+            $mode      = trim($params['mode'] ?? 'full');
+            $shortcode->setData($this->renderKpcToc($readerUrl, $mode));
             return;
         }
 
@@ -797,6 +827,202 @@ class mediaplayer extends Plugin
               . '    </div>'
               . '  </div>'
               . '</div>';
+
+        return $html;
+    }
+
+    protected function getKpcIndex(): array
+    {
+        $path = __DIR__ . '/data/kpc_index.json';
+        if (file_exists($path)) {
+            $decoded = json_decode(file_get_contents($path), true);
+            if (is_array($decoded)) {
+                return $decoded;
+            }
+        }
+        return ['meta' => [], 'phams' => [], 'toc' => []];
+    }
+
+    protected function renderKpcReader(int $initialVerse, string $tocUrl): string
+    {
+        $idxData = $this->getKpcIndex();
+        $phams   = $idxData['phams'] ?? [];
+        $toc     = $idxData['toc'] ?? [];
+
+        $masterJsonUrl = htmlspecialchars($this->qualifyUrl('/media/files/kinh-phap-cu/kpc_master.json'), ENT_QUOTES, 'UTF-8');
+        $safeTocUrl    = htmlspecialchars($this->qualifyUrl($tocUrl), ENT_QUOTES, 'UTF-8');
+        $introUrl      = htmlspecialchars($this->qualifyUrl('/phat-giao/kinh-phap-cu'), ENT_QUOTES, 'UTF-8');
+
+        # Build Pham <option> list and quick jump <option> list
+        $phamOptions = '';
+        foreach ($phams as $p) {
+            $pid    = (int)($p['id'] ?? 1);
+            $pname  = htmlspecialchars($p['name'] ?? '', ENT_QUOTES, 'UTF-8');
+            $vstart = (int)($p['verse_start'] ?? 1);
+            $vend   = (int)($p['verse_end'] ?? 20);
+            $phamOptions .= '<option value="' . $vstart . '" data-pham-id="' . $pid . '" data-start="' . $vstart . '" data-end="' . $vend . '">'
+                          . sprintf('%02d. %s (Kệ %d–%d)', $pid, $pname, $vstart, $vend)
+                          . '</option>';
+        }
+
+        $verseOptions = '';
+        foreach ($toc as $item) {
+            $vnum  = (int)($item['num'] ?? 1);
+            $fline = htmlspecialchars(mb_strimwidth($item['first_line'] ?? '', 0, 48, '…', 'UTF-8'), ENT_QUOTES, 'UTF-8');
+            $sel   = ($vnum === $initialVerse) ? ' selected' : '';
+            $verseOptions .= '<option value="' . $vnum . '"' . $sel . '>Bài kệ ' . $vnum . ' — ' . $fline . '</option>';
+        }
+
+        $html = '<div class="tm-kpc-reader-app" id="tm-kpc-reader" data-json-url="' . $masterJsonUrl . '" data-toc-url="' . $safeTocUrl . '" data-intro-url="' . $introUrl . '" data-init-verse="' . $initialVerse . '">'
+              . '  <div class="tm-kpc-top-strip">'
+              . '    <div class="tm-kpc-top-left">'
+              . '      <a href="' . $introUrl . '" class="tm-kpc-pill-link" title="Về trang Giới thiệu Kinh Pháp Cú">☸ Giới thiệu</a>'
+              . '      <a href="' . $safeTocUrl . '" class="tm-kpc-pill-link tm-kpc-pill-toc" title="Mở trang Mục Lục riêng (26 Phẩm &amp; 423 Bài Kệ)">📑 Mục lục (423 bài)</a>'
+              . '    </div>'
+              . '    <div class="tm-kpc-top-right">'
+              . '      <label for="tm-kpc-pham-select" class="tm-kpc-sr-only">Chọn Phẩm</label>'
+              . '      <select id="tm-kpc-pham-select" class="tm-kpc-select tm-kpc-pham-select" onchange="window.tmKpcGoTo(this.value)" title="Chuyển nhanh theo 26 Phẩm">'
+              .          $phamOptions
+              . '      </select>'
+              . '    </div>'
+              . '  </div>'
+              . '  <div class="tm-kpc-stage" id="tm-kpc-stage">'
+              . '    <div class="tm-kpc-loading">🪷 Đang tải bài kệ &amp; tích truyện Kinh Pháp Cú...</div>'
+              . '  </div>'
+              . '  <nav class="tm-kpc-sticky-bar" id="tm-kpc-sticky-bar" aria-label="Điều hướng bài kệ Kinh Pháp Cú">'
+              . '    <div class="tm-kpc-sticky-inner">'
+              . '      <button type="button" class="tm-kpc-nav-btn tm-kpc-prev-btn" id="tm-kpc-prev-btn" onclick="window.tmKpcStep(-1)" title="Bài kệ trước (Phím mũi tên trái ←)">'
+              . '        <span class="tm-kpc-nav-arrow">⏮</span> <span class="tm-kpc-nav-txt">Bài trước</span>'
+              . '      </button>'
+              . '      <div class="tm-kpc-jump-group">'
+              . '        <a href="' . $safeTocUrl . '" class="tm-kpc-toc-btn" title="Vào trang Mục Lục riêng để chọn bài bất kỳ">'
+              . '          <span>📑</span> <span class="tm-kpc-toc-txt">Mục lục</span>'
+              . '        </a>'
+              . '        <select id="tm-kpc-verse-select" class="tm-kpc-verse-select" onchange="window.tmKpcGoTo(this.value)" aria-label="Chọn nhanh bài kệ từ 1 đến 423">'
+              .            $verseOptions
+              . '        </select>'
+              . '        <div class="tm-kpc-num-jump">'
+              . '          <input type="number" id="tm-kpc-jump-input" class="tm-kpc-jump-input" min="1" max="423" placeholder="1-423" aria-label="Nhập số bài kệ (1-423)" onkeydown="if(event.key===\'Enter\'){event.preventDefault();window.tmKpcJumpInput();}" />'
+              . '          <button type="button" class="tm-kpc-jump-go" onclick="window.tmKpcJumpInput()" title="Chuyển tới bài kệ này">Đến</button>'
+              . '        </div>'
+              . '      </div>'
+              . '      <button type="button" class="tm-kpc-nav-btn tm-kpc-next-btn" id="tm-kpc-next-btn" onclick="window.tmKpcStep(1)" title="Bài kệ tiếp theo (Phím mũi tên phải →)">'
+              . '        <span class="tm-kpc-nav-txt">Bài sau</span> <span class="tm-kpc-nav-arrow">⏭</span>'
+              . '      </button>'
+              . '    </div>'
+              . '  </nav>'
+              . '</div>';
+
+        return $html;
+    }
+
+    protected function renderKpcToc(string $readerUrl, string $mode = 'full'): string
+    {
+        $idxData       = $this->getKpcIndex();
+        $phams         = $idxData['phams'] ?? [];
+        $toc           = $idxData['toc'] ?? [];
+        $safeReaderUrl = htmlspecialchars($this->qualifyUrl($readerUrl), ENT_QUOTES, 'UTF-8');
+
+        if ($mode === 'overview') {
+            # Compact 26-Pham overview grid for the Introduction page
+            $html = '<div class="tm-kpc-pham-grid">';
+            foreach ($phams as $p) {
+                $pid    = (int)($p['id'] ?? 1);
+                $pname  = htmlspecialchars($p['name'] ?? '', ENT_QUOTES, 'UTF-8');
+                $ppali  = htmlspecialchars($p['pali'] ?? '', ENT_QUOTES, 'UTF-8');
+                $vstart = (int)($p['verse_start'] ?? 1);
+                $vend   = (int)($p['verse_end'] ?? 20);
+                $vcount = (int)($p['verse_count'] ?? ($vend - $vstart + 1));
+
+                $html .= '<a href="' . $safeReaderUrl . '?bai=' . $vstart . '" class="tm-kpc-pham-card">'
+                       . '  <div class="tm-kpc-pham-card-top">'
+                       . '    <span class="tm-kpc-pham-num">Phẩm ' . sprintf('%02d', $pid) . '</span>'
+                       . '    <span class="tm-kpc-pham-range">Kệ ' . $vstart . '–' . $vend . ' (' . $vcount . ' câu)</span>'
+                       . '  </div>'
+                       . '  <div class="tm-kpc-pham-title">' . $pname . '</div>'
+                       . '  <div class="tm-kpc-pham-pali">' . $ppali . '</div>'
+                       . '</a>';
+            }
+            $html .= '</div>';
+            return $html;
+        }
+
+        # Group toc verses by pham_id
+        $byPham = [];
+        foreach ($toc as $v) {
+            $pid = (int)($v['pham_id'] ?? 1);
+            $byPham[$pid][] = $v;
+        }
+
+        $phamFilterPills = '<button type="button" class="tm-kpc-filter-pill active" data-pham="all" onclick="window.tmKpcFilterPham(\'all\', this)">Tất cả 26 Phẩm (423 bài)</button>';
+        foreach ($phams as $p) {
+            $pid   = (int)($p['id'] ?? 1);
+            $pname = htmlspecialchars($p['name'] ?? '', ENT_QUOTES, 'UTF-8');
+            $vstart = (int)($p['verse_start'] ?? 1);
+            $vend   = (int)($p['verse_end'] ?? 20);
+            $phamFilterPills .= '<button type="button" class="tm-kpc-filter-pill" data-pham="' . $pid . '" onclick="window.tmKpcFilterPham(\'' . $pid . '\', this)">'
+                              . sprintf('%02d. %s (%d–%d)', $pid, $pname, $vstart, $vend)
+                              . '</button>';
+        }
+
+        $html = '<div class="tm-kpc-toc-app" id="tm-kpc-toc-app" data-reader-url="' . $safeReaderUrl . '">'
+              . '  <div class="tm-kpc-toc-controls">'
+              . '    <div class="tm-kpc-toc-search-row">'
+              . '      <input type="search" id="tm-kpc-toc-search" class="tm-kpc-toc-search" placeholder="🔍 Tìm theo số bài kệ (1–423), lời kệ hoặc tên tích truyện (vd: Cakkhupāla, 183, vô thường)..." oninput="window.tmKpcFilterToc(this.value)" />'
+              . '      <div class="tm-kpc-toc-quickjump">'
+              . '        <input type="number" id="tm-kpc-toc-num" class="tm-kpc-jump-input" min="1" max="423" placeholder="Số bài (1-423)" onkeydown="if(event.key===\'Enter\'){event.preventDefault();window.tmKpcTocGoNum();}" />'
+              . '        <button type="button" class="tm-kpc-jump-go" onclick="window.tmKpcTocGoNum()">Đọc ngay →</button>'
+              . '      </div>'
+              . '    </div>'
+              . '    <div class="tm-kpc-filter-pills" id="tm-kpc-filter-pills">'
+              .        $phamFilterPills
+              . '    </div>'
+              . '  </div>'
+              . '  <div class="tm-kpc-toc-sections" id="tm-kpc-toc-sections">';
+
+        foreach ($phams as $p) {
+            $pid    = (int)($p['id'] ?? 1);
+            $pname  = htmlspecialchars($p['name'] ?? '', ENT_QUOTES, 'UTF-8');
+            $ppali  = htmlspecialchars($p['pali'] ?? '', ENT_QUOTES, 'UTF-8');
+            $vstart = (int)($p['verse_start'] ?? 1);
+            $vend   = (int)($p['verse_end'] ?? 20);
+            $vlist  = $byPham[$pid] ?? [];
+
+            $html .= '<section class="tm-kpc-toc-section" data-pham-section="' . $pid . '" id="pham-' . $pid . '">'
+                   . '  <div class="tm-kpc-toc-sec-header">'
+                   . '    <div>'
+                   . '      <span class="tm-kpc-sec-badge">Phẩm ' . sprintf('%02d', $pid) . ' • ' . $ppali . '</span>'
+                   . '      <h3 class="tm-kpc-sec-title">' . $pname . ' <small>(Bài kệ ' . $vstart . ' – ' . $vend . ')</small></h3>'
+                   . '    </div>'
+                   . '    <a href="' . $safeReaderUrl . '?bai=' . $vstart . '" class="tm-kpc-sec-readbtn">Đọc từ kệ ' . $vstart . ' →</a>'
+                   . '  </div>'
+                   . '  <div class="tm-kpc-toc-grid">';
+
+            foreach ($vlist as $v) {
+                $vnum      = (int)($v['num'] ?? 1);
+                $preview   = htmlspecialchars($v['vn_preview'] ?? ($v['first_line'] ?? ''), ENT_QUOTES, 'UTF-8');
+                $storyName = htmlspecialchars($v['story_name'] ?? '', ENT_QUOTES, 'UTF-8');
+                $hasVideo  = !empty($v['has_video']);
+                $searchStr = htmlspecialchars(mb_strtolower($vnum . ' ' . ($v['vn_preview'] ?? '') . ' ' . ($v['story_name'] ?? '') . ' ' . $pname, 'UTF-8'), ENT_QUOTES, 'UTF-8');
+
+                $html .= '<a href="' . $safeReaderUrl . '?bai=' . $vnum . '" class="tm-kpc-toc-item" data-verse="' . $vnum . '" data-search="' . $searchStr . '">'
+                       . '  <div class="tm-kpc-toc-item-top">'
+                       . '    <span class="tm-kpc-toc-vnum">Bài kệ ' . $vnum . '</span>'
+                       . '    <span class="tm-kpc-toc-icons">'
+                       .        '🖼️' . ($hasVideo ? ' 🎬' : '')
+                       . '    </span>'
+                       . '  </div>'
+                       . '  <div class="tm-kpc-toc-vtext">' . $preview . '</div>'
+                       . ($storyName ? '<div class="tm-kpc-toc-story">📖 Tích truyện: <strong>' . $storyName . '</strong></div>' : '')
+                       . '</a>';
+            }
+
+            $html .= '  </div>'
+                   . '</section>';
+        }
+
+        $html .= '  </div>'
+               . '</div>';
 
         return $html;
     }
