@@ -7,6 +7,7 @@ license: MIT
 
 settings:
   elderlyModeSupport: true
+  dropcap_categories: 'nhan-qua,phat-giao'
   blogimage: true
   landingpage: true
   introPosition: '1'
@@ -357,6 +358,10 @@ forms:
           type: checkbox
           label: 'Chế Độ Hỗ Trợ Người Cao Tuổi'
           checkboxlabel: 'Cho phép bật giao diện cỡ chữ lớn toàn diện (bao gồm nút bấm, menu và nội dung)'
+        dropcap_categories:
+          type: text
+          label: 'Danh Mục Bật Drop-cap (Chữ Hoa Đầu Bài)'
+          description: 'Danh sách các slug thư mục áp dụng drop-cap cho các bài kinh, truyện (cách nhau bởi dấu phẩy, mặc định: nhan-qua,phat-giao).'
         layoutsize:
           type: select
           label: Layout Size

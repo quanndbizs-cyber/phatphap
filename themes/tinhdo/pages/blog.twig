@@ -33,7 +33,21 @@
 		<div class="grid-main ph3 ph4-l pv3 lh-copy f4 fw3">
 
 			{% if theme.blogintro %}
-				<article>
+				{% set dropcapConfigCategories = (theme.dropcap_categories|default('nhan-qua,phat-giao'))|split(',') %}
+				{% set isDropcapCategory = false %}
+				{% for cat in dropcapConfigCategories %}
+					{% set trimmedCat = cat|trim %}
+					{% if trimmedCat and (trimmedCat in item.path or trimmedCat in item.urlRel or trimmedCat == item.slug) %}
+						{% set isDropcapCategory = true %}
+					{% endif %}
+				{% endfor %}
+				{% set enableDropcap = false %}
+				{% if meta.dropcap is defined %}
+					{% set enableDropcap = meta.dropcap %}
+				{% elseif isDropcapCategory %}
+					{% set enableDropcap = true %}
+				{% endif %}
+				<article class="{{ enableDropcap ? 'td-dropcap-enabled' : '' }}">
 					<header>
 					
 						<h1>{{ title|e }}</h1>

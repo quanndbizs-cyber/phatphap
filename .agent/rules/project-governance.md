@@ -122,6 +122,31 @@ meta:
 * Sau khi thêm/sửa/xóa bất kỳ file nào trong `content/`, xóa các file cache trong `/var/www/html/phatphap/data/navigation/*` để Typemill tự động quét lại cây thư mục ngay lập tức.
 * Kiểm tra URL bài viết bằng `curl -I http://localhost/phatphap/<chuyen-muc>/<slug>` đảm bảo trả về `HTTP 200 OK`.
 
+### 3.3. Quy tắc Định dạng Markdown Thuần & CẤM Chèn Thẻ HTML Trực Tiếp (Markdown Purity Rule)
+* **Bối cảnh kỹ thuật**: Parser Markdown của Typemill (`Parsedown`) chạy ở chế độ an toàn nghiêm ngặt (`SafeMode=true`, `system/typemill/Models/Content.php:178`). Khi gặp bất kỳ thẻ HTML thô nào (`<div>`, `<p>`, `<span>`, `<section>`, `<style>`...), parser sẽ tự động escape toàn bộ thành ký tự thực thể (`&lt;div...&gt;`), làm lộ mã nguồn HTML dạng văn bản thô trực tiếp trên giao diện website người dùng nhìn thấy.
+* **Quy tắc tuyệt đối**:
+  1. **CẤM đưa trực tiếp các thẻ HTML thô** (`<div>`, `<span>`, `<p>`, v.v.) vào các file `.md` hiển thị trên web.
+  2. **Trường hợp ngoại lệ duy nhất**: Các khối mã nguồn raw code được bao bọc rõ ràng trong code fence (ví dụ: ` ```html ... ``` `) dùng để hướng dẫn kỹ thuật hoặc hiển thị code mẫu cho người đọc, KHÔNG phải để render giao diện.
+  3. **Giải pháp định dạng khối / thẻ thông tin (Info Cards / Callouts)**:
+     - Dùng Markdown Blockquote (`> ...`) kết hợp định dạng Markdown chuẩn (`**In đậm**`, `*In nghiêng*`, liên kết `[text](url)`).
+     - Dùng các kiểu Notice chuẩn của Typemill (`! `, `!! `, `!!! `) hoặc shortcodes đã được đăng ký và hỗ trợ bởi plugin/theme.
+
+### 3.4. Quy tắc Phân Loại Định Dạng Chữ Hoa Đầu Bài (Drop-cap Scoping Rule)
+* **Mục đích**: Drop-cap (chữ hoa khổ lớn nghệ thuật ở đầu bài/đoạn) tạo nét trang nghiêm, cổ kính đặc thù cho các bài Kinh điển và Câu chuyện Nhân Quả/Đạo lý. Tuy nhiên, các văn bản hành chính, thông báo, tài liệu học tập, giáo dục hoặc khoa học nếu áp dụng drop-cap sẽ làm mất tính chuyên nghiệp hoặc gây rối mắt.
+* **Quy tắc phân loại và cấu hình**:
+  1. **Mặc định theo chuyên mục (Category-based default)**:
+     - Mặc định chỉ bật Drop-cap (`td-dropcap-enabled`) cho các bài viết thuộc chuyên mục **Kinh Điển & Câu Chuyện** (ví dụ: `02-nhan-qua/` / `nhan-qua`, `01-phat-giao/` / `phat-giao`).
+     - Tất cả các bài viết thuộc các chuyên mục khác (ví dụ: `03-giao-duc/`, `04-thong-bao/`...) mặc định hiển thị bình thường (**không bật drop-cap**).
+  2. **Cấu hình danh mục linh hoạt (Theme Configuration)**:
+     - Có thể cấu hình danh sách category bật drop-cap thông qua `settings.dropcap_categories` trong `themes/tinhdo/tinhdo.yaml` (hoặc qua giao diện quản trị Admin của Typemill).
+  3. **Ghi đè cấp bài viết (Page Metadata Override)**:
+     - Nếu một bài viết cụ thể cần bật hoặc tắt drop-cap, định nghĩa trực tiếp trong file metadata YAML của bài viết:
+       - `meta.dropcap: true` (Bắt buộc bật drop-cap cho bài viết này).
+       - `meta.dropcap: false` (Bắt buộc tắt drop-cap cho bài viết này, hiển thị văn bản bình thường).
+  4. **Triển khai CSS**:
+     - Toàn bộ CSS drop-cap phải được scope dưới class `article.td-dropcap-enabled`.
+     - Phải luôn có luật reset (`float: none !important; font-size: inherit !important;`) đối với các khối trích dẫn (`blockquote`), thẻ thông tin (`sutra-meta`, `notice`), để phần thông tin dịch giả/mục lục đầu bài không bao giờ bị dính drop-cap ngoài ý muốn.
+
 ---
 
 ## 4. Quy Tắc Quản Trị Scripts & Tự Động Hóa Triển Khai (Scripts & Deployment Governance)

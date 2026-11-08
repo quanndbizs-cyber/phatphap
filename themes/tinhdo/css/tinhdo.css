@@ -645,7 +645,14 @@ body.tm-night-mode .sutra-meta em {
 	color: #c4b5a5 !important;
 }
 
-/* Đảm bảo tuyệt đối không có drop-cap bên trong thẻ thông tin */
+/* Đảm bảo tuyệt đối không có drop-cap bên trong thẻ thông tin, trích dẫn, ghi chú */
+article blockquote,
+article blockquote *,
+article blockquote p::first-letter,
+article blockquote::first-letter,
+article .notice1 *::first-letter,
+article .notice2 *::first-letter,
+article .notice3 *::first-letter,
 article .sutra-meta *,
 article .sutra-meta p::first-letter,
 article .sutra-meta::first-letter,
@@ -662,14 +669,17 @@ article .sutra-info::first-letter {
 	text-shadow: none !important;
 }
 
-/* Beautiful Drop-cap at the beginning of each story */
-article h2 + p::first-letter,
-article h2 + blockquote + p::first-letter,
-article h2 + blockquote + .sutra-meta + p::first-letter,
-article h2 + .sutra-meta + p::first-letter,
-article .sutra-meta + p::first-letter,
-article .sutra-info + p::first-letter,
-article h3 + p::first-letter,
+/* Beautiful Drop-cap at the beginning of each story/sutra - scoped to td-dropcap-enabled */
+article.td-dropcap-enabled h2 + p::first-letter,
+article.td-dropcap-enabled h2 + blockquote + p::first-letter,
+article.td-dropcap-enabled h2 + blockquote + blockquote + p::first-letter,
+article.td-dropcap-enabled h2 + blockquote + .sutra-meta + p::first-letter,
+article.td-dropcap-enabled h2 + .sutra-meta + p::first-letter,
+article.td-dropcap-enabled .sutra-meta + p::first-letter,
+article.td-dropcap-enabled .sutra-info + p::first-letter,
+article.td-dropcap-enabled h3 + p::first-letter,
+article.td-dropcap-enabled h3 + blockquote + p::first-letter,
+article.td-dropcap-enabled .story-dropcap::first-letter,
 article .story-dropcap::first-letter {
 	float: left;
 	font-family: 'Noto Serif', Georgia, serif;
