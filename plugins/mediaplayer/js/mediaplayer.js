@@ -437,6 +437,15 @@
         }
     };
 
+    window.tmToggleSummary = function (summaryEl) {
+        if (!summaryEl) return;
+        summaryEl.classList.toggle("is-expanded");
+        var btn = summaryEl.querySelector(".tm-summary-toggle-btn");
+        if (btn) {
+            btn.textContent = summaryEl.classList.contains("is-expanded") ? "Thu gọn ▴" : "Xem thêm ▾";
+        }
+    };
+
     window.tmToggleAccordion = function (btn) {
         if (!btn || !btn.parentElement) return;
         var item = btn.parentElement;

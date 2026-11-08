@@ -729,7 +729,20 @@ class mediaplayer extends Plugin
                    . '  </div>';
 
             if ($summary) {
-                $html .= '  <div class="tm-story-summary">' . $summary . '</div>';
+                $rawSummary = trim(strip_tags($st['summary'] ?? ''));
+                $lineCount  = count(explode("\n", $rawSummary));
+                $isLong     = ($lineCount > 3) || (mb_strlen($rawSummary, 'UTF-8') > 160);
+
+                if ($isLong) {
+                    $html .= '  <div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">'
+                           . '    <div class="tm-summary-text">' . $summary . '</div>'
+                           . '    <div class="tm-summary-toggle-row"><span class="tm-summary-toggle-btn">Xem thêm ▾</span></div>'
+                           . '  </div>';
+                } else {
+                    $html .= '  <div class="tm-story-summary">'
+                           . '    <div class="tm-summary-text">' . $summary . '</div>'
+                           . '  </div>';
+                }
             }
 
             if (!empty($st['video_url'])) {
