@@ -122,12 +122,13 @@ meta:
 * Sau khi thêm/sửa/xóa bất kỳ file nào trong `content/`, xóa các file cache trong `/var/www/html/phatphap/data/navigation/*` để Typemill tự động quét lại cây thư mục ngay lập tức.
 * Kiểm tra URL bài viết bằng `curl -I http://localhost/phatphap/<chuyen-muc>/<slug>` đảm bảo trả về `HTTP 200 OK`.
 
-### 3.3. Quy tắc Định dạng Markdown Thuần & CẤM Chèn Thẻ HTML Trực Tiếp (Markdown Purity Rule)
-* **Bối cảnh kỹ thuật**: Parser Markdown của Typemill (`Parsedown`) chạy ở chế độ an toàn nghiêm ngặt (`SafeMode=true`, `system/typemill/Models/Content.php:178`). Khi gặp bất kỳ thẻ HTML thô nào (`<div>`, `<p>`, `<span>`, `<section>`, `<style>`...), parser sẽ tự động escape toàn bộ thành ký tự thực thể (`&lt;div...&gt;`), làm lộ mã nguồn HTML dạng văn bản thô trực tiếp trên giao diện website người dùng nhìn thấy.
+### 3.3. Quy tắc Định dạng Markdown Thuần & CẤM Chèn Thẻ HTML / Mã Anchor Giả (Markdown Purity Rule)
+* **Bối cảnh kỹ thuật**: Parser Markdown của Typemill (`Parsedown`) chạy ở chế độ an toàn nghiêm ngặt (`SafeMode=true`, `system/typemill/Models/Content.php:178`). Khi gặp bất kỳ thẻ HTML thô nào (`<div>`, `<p>`, `<span>`, `<section>`, `<style>`...), parser sẽ tự động escape toàn bộ thành ký tự thực thể (`&lt;div...&gt;`), làm lộ mã nguồn HTML dạng văn bản thô trực tiếp trên giao diện website người dùng nhìn thấy. Ngoài ra, Typemill tự động tạo anchor link chuẩn cho mọi tiêu đề bài viết dựa trên slug.
 * **Quy tắc tuyệt đối**:
   1. **CẤM đưa trực tiếp các thẻ HTML thô** (`<div>`, `<span>`, `<p>`, v.v.) vào các file `.md` hiển thị trên web.
-  2. **Trường hợp ngoại lệ duy nhất**: Các khối mã nguồn raw code được bao bọc rõ ràng trong code fence (ví dụ: ` ```html ... ``` `) dùng để hướng dẫn kỹ thuật hoặc hiển thị code mẫu cho người đọc, KHÔNG phải để render giao diện.
-  3. **Giải pháp định dạng khối / thẻ thông tin (Info Cards / Callouts)**:
+  2. **CẤM đưa mã anchor giả / thuộc tính thủ công dạng `{ #slug }`** vào tiêu đề Markdown (`## Tiêu đề { #anchor }`) hoặc tiêu đề YAML (`title: '... { #anchor }'`). Typemill đã tự động tạo anchor slug chuẩn cho mọi tiêu đề (`[#](#slug)`). Việc ghi `{ #... }` sẽ khiến hệ thống không nhận diện được và hiển thị thành văn bản thô (raw code) xấu xí trên trang web.
+  3. **Trường hợp ngoại lệ duy nhất**: Các khối mã nguồn raw code được bao bọc rõ ràng trong code fence (ví dụ: ` ```html ... ``` `) dùng để hướng dẫn kỹ thuật hoặc hiển thị code mẫu cho người đọc, KHÔNG phải để render giao diện.
+  4. **Giải pháp định dạng khối / thẻ thông tin (Info Cards / Callouts)**:
      - Dùng Markdown Blockquote (`> ...`) kết hợp định dạng Markdown chuẩn (`**In đậm**`, `*In nghiêng*`, liên kết `[text](url)`).
      - Dùng các kiểu Notice chuẩn của Typemill (`! `, `!! `, `!!! `) hoặc shortcodes đã được đăng ký và hỗ trợ bởi plugin/theme.
 
@@ -143,9 +144,12 @@ meta:
      - Nếu một bài viết cụ thể cần bật hoặc tắt drop-cap, định nghĩa trực tiếp trong file metadata YAML của bài viết:
        - `meta.dropcap: true` (Bắt buộc bật drop-cap cho bài viết này).
        - `meta.dropcap: false` (Bắt buộc tắt drop-cap cho bài viết này, hiển thị văn bản bình thường).
-  4. **Triển khai CSS**:
+  4. **Tránh drop-cap trên đoạn chú thích trong dấu ngoặc đơn `(...)`**:
+     - Các đoạn chỉ dẫn nghi thức, chú thích hành trì mở đầu bằng dấu ngoặc đơn `(...)` hoặc `*(...)*` (ví dụ: `*(Đứng thẳng hoặc quỳ trang nghiêm...)*`) tuyệt đối **KHÔNG ĐƯỢC** phóng to chữ hoa đầu dòng.
+     - Drop-cap phải được tự động bỏ qua đoạn chú thích và chuyển sang đoạn văn bản chính (kệ tụng, bài kinh) kế tiếp.
+  5. **Triển khai CSS & JavaScript**:
      - Toàn bộ CSS drop-cap phải được scope dưới class `article.td-dropcap-enabled`.
-     - Phải luôn có luật reset (`float: none !important; font-size: inherit !important;`) đối với các khối trích dẫn (`blockquote`), thẻ thông tin (`sutra-meta`, `notice`), để phần thông tin dịch giả/mục lục đầu bài không bao giờ bị dính drop-cap ngoài ý muốn.
+     - Phải luôn có luật reset (`float: none !important; font-size: inherit !important;`) đối với các khối trích dẫn (`blockquote`), thẻ thông tin (`sutra-meta`, `notice`), và các đoạn chú thích ngoặc đơn (`p.no-dropcap`, `p.tm-sutra-note`, `p:has(> em:only-child)`), để phần thông tin dịch giả/mục lục đầu bài và chú thích không bao giờ bị dính drop-cap ngoài ý muốn.
 
 ---
 

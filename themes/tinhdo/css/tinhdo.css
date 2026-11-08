@@ -645,7 +645,7 @@ body.tm-night-mode .sutra-meta em {
 	color: #c4b5a5 !important;
 }
 
-/* Đảm bảo tuyệt đối không có drop-cap bên trong thẻ thông tin, trích dẫn, ghi chú */
+/* Đảm bảo tuyệt đối không có drop-cap bên trong thẻ thông tin, trích dẫn, ghi chú & đoạn chú thích */
 article blockquote,
 article blockquote *,
 article blockquote p::first-letter,
@@ -658,7 +658,18 @@ article .sutra-meta p::first-letter,
 article .sutra-meta::first-letter,
 article .sutra-info *,
 article .sutra-info p::first-letter,
-article .sutra-info::first-letter {
+article .sutra-info::first-letter,
+article.td-dropcap-enabled p.no-dropcap,
+article.td-dropcap-enabled p.no-dropcap *,
+article.td-dropcap-enabled p.no-dropcap::first-letter,
+article.td-dropcap-enabled p.no-dropcap *::first-letter,
+article.td-dropcap-enabled p.tm-sutra-note,
+article.td-dropcap-enabled p.tm-sutra-note *,
+article.td-dropcap-enabled p.tm-sutra-note::first-letter,
+article.td-dropcap-enabled h2 + p:has(> em:only-child)::first-letter,
+article.td-dropcap-enabled h3 + p:has(> em:only-child)::first-letter,
+article.td-dropcap-enabled h2 + blockquote + p:has(> em:only-child)::first-letter,
+article.td-dropcap-enabled h3 + blockquote + p:has(> em:only-child)::first-letter {
 	float: none !important;
 	font-size: inherit !important;
 	font-family: inherit !important;
@@ -679,6 +690,10 @@ article.td-dropcap-enabled .sutra-meta + p::first-letter,
 article.td-dropcap-enabled .sutra-info + p::first-letter,
 article.td-dropcap-enabled h3 + p::first-letter,
 article.td-dropcap-enabled h3 + blockquote + p::first-letter,
+article.td-dropcap-enabled h2 + p:has(> em:only-child) + p::first-letter,
+article.td-dropcap-enabled h3 + p:has(> em:only-child) + p::first-letter,
+article.td-dropcap-enabled h2 + blockquote + p:has(> em:only-child) + p::first-letter,
+article.td-dropcap-enabled h3 + blockquote + p:has(> em:only-child) + p::first-letter,
 article.td-dropcap-enabled .story-dropcap::first-letter,
 article .story-dropcap::first-letter {
 	float: left;
@@ -691,6 +706,15 @@ article .story-dropcap::first-letter {
 	color: #c9972c;
 	font-weight: 700;
 	text-shadow: 1px 1px 2px rgba(90, 34, 22, 0.2);
+}
+
+/* Đoạn chú thích nghi thức / chỉ dẫn hành trì trong ngoặc đơn */
+article p.tm-sutra-note {
+	color: #7d5b41;
+	font-style: italic;
+}
+body.tm-night-mode article p.tm-sutra-note {
+	color: #c4b5a5;
 }
 
 /* Contemplative reflection boxes & story pauses */

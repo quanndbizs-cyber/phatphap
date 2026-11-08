@@ -443,11 +443,49 @@
     window.initResponsiveTables = initResponsiveTables;
   }
 
+  // =========================================================================
+  // 5. DROPCAP & PARENTHESIZED NOTES ADJUSTMENT (TRÁNH VIẾT HOA CHÚ THÍCH ())
+  // =========================================================================
+  function initDropcapNotes() {
+    var article = document.querySelector('article.td-dropcap-enabled');
+    if (!article) return;
+
+    var paras = article.querySelectorAll('p');
+    for (var i = 0; i < paras.length; i++) {
+      var p = paras[i];
+      var text = p.textContent.trim();
+      // Bỏ qua các đoạn chú thích mở đầu bằng dấu ngoặc đơn (...)
+      if (/^[\s*_\-—]*\(/.test(text)) {
+        p.classList.add('no-dropcap');
+        p.classList.add('tm-sutra-note');
+
+        // Nếu đoạn chú thích này nằm ngay sau tiêu đề h2, h3 hoặc blockquote,
+        // thì chuyển drop-cap sang đoạn văn kế tiếp (nội dung chính của bài)
+        var prev = p.previousElementSibling;
+        while (prev && prev.tagName === 'P' && prev.classList.contains('no-dropcap')) {
+          prev = prev.previousElementSibling;
+        }
+        if (prev && (/^H[1-6]$/.test(prev.tagName) || prev.tagName === 'BLOCKQUOTE')) {
+          var next = p.nextElementSibling;
+          while (next && next.tagName === 'P') {
+            var nextText = next.textContent.trim();
+            if (!/^[\s*_\-—]*\(/.test(nextText)) {
+              next.classList.add('story-dropcap');
+              break;
+            }
+            next = next.nextElementSibling;
+          }
+        }
+      }
+    }
+  }
+
   function initAll() {
     initMobileMenu();
     initNavigationAccordion();
     initFontSizeController();
     initResponsiveTables();
+    initDropcapNotes();
   }
 
   if (document.readyState === 'loading') {
