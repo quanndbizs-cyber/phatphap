@@ -197,6 +197,38 @@ foreach ($rii as $fileInfo) {
     }
 }
 
+// 3. Index Kinh Pháp Cú (423 verses & stories) if kpc_index.json exists
+$kpcIndexFile = $baseDir . '/plugins/mediaplayer/data/kpc_index.json';
+if (file_exists($kpcIndexFile)) {
+    $kpcData = json_decode(file_get_contents($kpcIndexFile), true);
+    if (is_array($kpcData) && !empty($kpcData['toc'])) {
+        $phamMap = [];
+        foreach ($kpcData['phams'] ?? [] as $p) {
+            $phamMap[(int)$p['id']] = $p['name'] ?? '';
+        }
+        foreach ($kpcData['toc'] as $v) {
+            $vnum      = (int)($v['num'] ?? 0);
+            $pid       = (int)($v['pham_id'] ?? 1);
+            $pname     = $phamMap[$pid] ?? 'Kinh Pháp Cú';
+            $storyName = $v['story_name'] ?? '';
+            $preview   = $v['vn_preview'] ?? ($v['first_line'] ?? '');
+            $vTitle    = 'Kinh Pháp Cú — Bài kệ ' . $vnum . ($storyName ? (' (' . $storyName . ')') : '');
+            $vUrl      = '/phat-giao/kinh-phap-cu/doc-kinh-phap-cu?bai=' . $vnum;
+            $vSnippet  = $pname . ' • ' . $preview . ($storyName ? (' • Tích truyện: ' . $storyName) : '');
+            $items[] = [
+                'id'       => 'kpc_' . $vnum,
+                'title'    => $vTitle,
+                'url'      => $vUrl,
+                'category' => 'Kinh Pháp Cú',
+                'parent'   => $pname,
+                'snippet'  => $vSnippet,
+                'type'     => 'chapter',
+                'norm'     => strtolower(removeVietnameseAccents($vTitle . ' ' . $vSnippet)),
+            ];
+        }
+    }
+}
+
 // Write JSON output
 $dir = dirname($outputFile);
 if (!is_dir($dir)) {
