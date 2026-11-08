@@ -257,27 +257,28 @@ echo "   [✓] Đã làm sạch thư mục cache."
 # ------------------------------------------------------------------------------
 # BƯỚC 6: PHÂN QUYỀN THƯ MỤC GHI DỮ LIỆU
 # ------------------------------------------------------------------------------
-echo -e "\n-> 6. Kiểm tra & phân quyền thư mục ghi dữ liệu (chmod 775)..."
+echo -e "\n-> 6. Kiểm tra & phân quyền thư mục ghi dữ liệu (chmod 777/775)..."
 mkdir -p "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" \
          "$BASE_DIR/media" "$BASE_DIR/settings"
 
+TARGET_USER="${SUDO_USER:-$(whoami)}"
 if id www-data >/dev/null 2>&1; then
     if [[ "$(id -u)" -eq 0 ]]; then
-        chown -R www-data:www-data \
+        chown -R "$TARGET_USER:www-data" \
             "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" \
             "$BASE_DIR/media" "$BASE_DIR/settings" 2>/dev/null || true
     else
         if sudo -n true 2>/dev/null; then
-            sudo -n chown -R www-data:www-data \
+            sudo -n chown -R "$TARGET_USER:www-data" \
                 "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" \
                 "$BASE_DIR/media" "$BASE_DIR/settings" 2>/dev/null || true
         fi
     fi
 fi
 
-chmod -R 775 "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" \
-             "$BASE_DIR/media" "$BASE_DIR/settings" 2>/dev/null || true
-echo "   [✓] Đã cập nhật quyền truy cập 775."
+chmod -R 777 "$BASE_DIR/cache" "$BASE_DIR/data" "$BASE_DIR/media" "$BASE_DIR/settings" "$BASE_DIR/content" 2>/dev/null || true
+chmod -R 775 "$BASE_DIR/content/.git" 2>/dev/null || true
+echo "   [✓] Đã cập nhật quyền truy cập thư mục ghi dữ liệu."
 
 # ------------------------------------------------------------------------------
 # BƯỚC 7: RELOAD DỊCH VỤ PHP-FPM & NGINX
