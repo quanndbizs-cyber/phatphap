@@ -1,6 +1,8 @@
 meta:
     title: 'Khoa Học & Giáo Dục'
     description: 'Tổng hợp những bài phân tích chuyên sâu, nghiên cứu công nghệ AI, phòng chống thiên tai và phương pháp giáo dục hiện đại.'
+    heroimage: /media/thumbs/nhanqua.jpg
+    heroimagealt: 'Khoa Học & Giáo Dục'
     owner: quannd
     author: quannd
     created: '2026-11-01'

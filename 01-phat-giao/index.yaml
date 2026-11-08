@@ -1,6 +1,8 @@
 meta:
     title: 'Phật Giáo & Chánh Pháp'
     description: 'Ánh sáng từ bi và trí tuệ. Khám phá các giáo lý căn bản, pháp âm khai thị và thực hành thiền định.'
+    heroimage: /media/thumbs/nhanqua.jpg
+    heroimagealt: 'Phật Giáo Chánh Pháp'
     owner: quannd
     author: quannd
     created: '2026-11-01'

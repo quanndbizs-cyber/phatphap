@@ -1,6 +1,8 @@
 meta:
     title: 'Kho Tàng Kinh Điển & Câu Chuyện Nhân Quả'
     description: 'Kho tàng kinh điển, sách đọc và những câu chuyện người thật việc thật về luật Nhân Quả — Nghiệp Báo: Các Kinh Về Nhân Quả, Báo Ứng Hiện Đời, Những Chuyện Nhân Quả, An Sĩ Toàn Thư, Con Đường Sáng.'
+    heroimage: /media/thumbs/nhanqua.jpg
+    heroimagealt: 'Câu Chuyện Nhân Quả'
     owner: quannd
     author: quannd
     created: '2026-11-01'
