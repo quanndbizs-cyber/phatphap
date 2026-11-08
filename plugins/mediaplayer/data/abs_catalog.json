@@ -4615,6 +4615,948 @@
           "duration": 2792
         }
       ]
+    },
+    "knnp1": {
+      "id": "knnp-tap-1",
+      "title": "Khuyên Người Niệm Phật — Tập 1",
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Lời Giới Thiệu Quyết Lòng Niệm Phật",
+          "duration": 1909,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/01%20T1%20L%E1%BB%9Di%20Gi%E1%BB%9Bi%20Thi%E1%BB%87u%20Quy%E1%BA%BFt%20L%C3%B2ng%20Ni%E1%BB%87m%20Ph%E1%BA%ADt.mp3"
+        },
+        {
+          "index": 2,
+          "title": "Niệm Phật Để Thành Phật",
+          "duration": 1127,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/02%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20%C4%90%E1%BB%83%20Th%C3%A0nh%20Ph%E1%BA%ADt.mp3"
+        },
+        {
+          "index": 3,
+          "title": "Niệm Phật Cầu Đạt Đến Đỉnh Cao",
+          "duration": 1044,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/03%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20C%E1%BA%A7u%20%C4%90%E1%BA%A1t%20%C4%90%E1%BA%BFn%20%C4%90%E1%BB%89nh%20Cao.mp3"
+        },
+        {
+          "index": 4,
+          "title": "Tu Tịnh Nghiệp Chứ Không Phải Thiện Nghiệp",
+          "duration": 1513,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/04%20T1%20Tu%20T%E1%BB%8Bnh%20Nghi%E1%BB%87p%20Ch%E1%BB%A9%20Kh%C3%B4ng%20Ph%E1%BA%A3i%20Thi%E1%BB%87n%20Nghi%E1%BB%87p.mp3"
+        },
+        {
+          "index": 5,
+          "title": "Chết Không Phải Là Hết",
+          "duration": 945,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/05%20T1%20Ch%E1%BA%BFt%20Kh%C3%B4ng%20Ph%E1%BA%A3i%20L%C3%A0%20H%E1%BA%BFt.mp3"
+        },
+        {
+          "index": 6,
+          "title": "Khuyên Người Niệm Phật",
+          "duration": 1172,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/06%20T1%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Ni%E1%BB%87m%20Ph%E1%BA%ADt.mp3"
+        },
+        {
+          "index": 7,
+          "title": "Niệm Phật Khai Mở Trí Tuệ",
+          "duration": 1243,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/07%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Khai%20M%E1%BB%9F%20Tr%C3%AD%20Tu%E1%BB%87.mp3"
+        },
+        {
+          "index": 8,
+          "title": "Đới Nghiệp Vãng Sanh",
+          "duration": 1360,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/08%20T1%20%C4%90%E1%BB%9Bi%20Nghi%E1%BB%87p%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 9,
+          "title": "Nhìn Cho Thấu Buông Cho Trót",
+          "duration": 1168,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/09%20T1%20Nh%C3%ACn%20Cho%20Th%E1%BA%A5u%20Bu%C3%B4ng%20Cho%20Tr%C3%B3t.mp3"
+        },
+        {
+          "index": 10,
+          "title": "Ta Bà Khổ Ta Bà Khổ",
+          "duration": 1310,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/10%20T1%20Ta%20B%C3%A0%20Kh%E1%BB%95%20Ta%20B%C3%A0%20Kh%E1%BB%95.mp3"
+        },
+        {
+          "index": 11,
+          "title": "Buông Xả Thì Tự Tại",
+          "duration": 1295,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/11%20T1%20Bu%C3%B4ng%20X%E1%BA%A3%20Th%C3%AC%20T%E1%BB%B1%20T%E1%BA%A1i.mp3"
+        },
+        {
+          "index": 12,
+          "title": "Cụ Triệu Vĩnh Phương Vãng Sanh",
+          "duration": 1092,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/12%20T1%20C%E1%BB%A5%20Tri%E1%BB%87u%20V%C4%A9nh%20Ph%C6%B0%C6%A1ng%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 13,
+          "title": "Hộ Niệm",
+          "duration": 1259,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/13%20T1%20H%E1%BB%99%20Ni%E1%BB%87m.mp3"
+        },
+        {
+          "index": 14,
+          "title": "Tự Chọn Cảnh Giới Tương Lai",
+          "duration": 2125,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/14%20T1%20T%E1%BB%B1%20Ch%E1%BB%8Dn%20C%E1%BA%A3nh%20Gi%E1%BB%9Bi%20T%C6%B0%C6%A1ng%20Lai.mp3"
+        },
+        {
+          "index": 15,
+          "title": "Cần Cẩn Thận Lúc Lâm Chung",
+          "duration": 2378,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/15%20T1%20C%E1%BA%A7n%20C%E1%BA%A9n%20Th%E1%BA%ADn%20L%C3%BAc%20L%C3%A2m%20Chung.mp3"
+        },
+        {
+          "index": 16,
+          "title": "Sân Giận Đường Về Địa Ngục",
+          "duration": 1990,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/16%20T1%20S%C3%A2n%20Gi%E1%BA%ADn%20%C4%90%C6%B0%E1%BB%9Dng%20V%E1%BB%81%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c.mp3"
+        },
+        {
+          "index": 17,
+          "title": "Địa Ngục Ở Đâu",
+          "duration": 1294,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/17%20T1%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20%E1%BB%9E%20%C4%90%C3%A2u.mp3"
+        },
+        {
+          "index": 18,
+          "title": "Địa Ngục Ở Đâu Tt",
+          "duration": 1299,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/18%20T1%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20%E1%BB%9E%20%C4%90%C3%A2u%20Tt.mp3"
+        },
+        {
+          "index": 19,
+          "title": "Tu Hành Ví Như Thi Cử",
+          "duration": 2134,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/19%20T1%20Tu%20H%C3%A0nh%20V%C3%AD%20Nh%C6%B0%20Thi%20C%E1%BB%AD.mp3"
+        },
+        {
+          "index": 20,
+          "title": "Thiện Căn Phước Đức Nhân Duyên",
+          "duration": 2035,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/20%20T1%20Thi%E1%BB%87n%20C%C4%83n%20Ph%C6%B0%E1%BB%9Bc%20%C4%90%E1%BB%A9c%20Nh%C3%A2n%20Duy%C3%AAn.mp3"
+        },
+        {
+          "index": 21,
+          "title": "Hiểm Họa Của Tiền Bạc",
+          "duration": 2342,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/21%20T1%20Hi%E1%BB%83m%20H%E1%BB%8Da%20C%E1%BB%A7a%20Ti%E1%BB%81n%20B%E1%BA%A1c.mp3"
+        },
+        {
+          "index": 22,
+          "title": "Niệm Phật Có 10 Đại Thiện Lợi",
+          "duration": 750,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/22%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20C%C3%B3%2010%20%C4%90%E1%BA%A1i%20Thi%E1%BB%87n%20L%E1%BB%A3i.mp3"
+        },
+        {
+          "index": 23,
+          "title": "Cần Thanh Tịnh Không Vọng Cầu",
+          "duration": 2056,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/23%20T1%20C%E1%BA%A7n%20Thanh%20T%E1%BB%8Bnh%20Kh%C3%B4ng%20V%E1%BB%8Dng%20C%E1%BA%A7u.mp3"
+        },
+        {
+          "index": 24,
+          "title": "Định Mệnh Nhân Quả Danh Vọng",
+          "duration": 2083,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/24%20T1%20%C4%90%E1%BB%8Bnh%20M%E1%BB%87nh%20Nh%C3%A2n%20Qu%E1%BA%A3%20Danh%20V%E1%BB%8Dng.mp3"
+        },
+        {
+          "index": 25,
+          "title": "Phật Ở Trong Nhà Có Cầu Có Ứng",
+          "duration": 1531,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/25%20T1%20Ph%E1%BA%ADt%20%E1%BB%9E%20Trong%20Nh%C3%A0%20C%C3%B3%20C%E1%BA%A7u%20C%C3%B3%20%E1%BB%A8ng.mp3"
+        },
+        {
+          "index": 26,
+          "title": "Sự Gia Trì",
+          "duration": 1879,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/26%20T1%20S%E1%BB%B1%20Gia%20Tr%C3%AC.mp3"
+        }
+      ]
+    },
+    "knnp2": {
+      "id": "knnp-tap-2",
+      "title": "Khuyên Người Niệm Phật — Tập 2",
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Cứu Người Như Cứu Lửa – Trả Lời Thư Người Chị",
+          "duration": 2618,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/27%20T2%20C%E1%BB%A9u%20Ng%C6%B0%E1%BB%9Di%20Nh%C6%B0%20C%E1%BB%A9u%20L%E1%BB%ADa%20%E2%80%93%20Tr%E1%BA%A3%20L%E1%BB%9Di%20Th%C6%B0%20Ng%C6%B0%E1%BB%9Di%20Ch%E1%BB%8B.mp3"
+        },
+        {
+          "index": 2,
+          "title": "Cứu Người Như Cứu Lửa – Trả Lời Thư Người Chị Tiếp Theo",
+          "duration": 1675,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/28%20T2%20C%E1%BB%A9u%20Ng%C6%B0%E1%BB%9Di%20Nh%C6%B0%20C%E1%BB%A9u%20L%E1%BB%ADa%20%E2%80%93%20Tr%E1%BA%A3%20L%E1%BB%9Di%20Th%C6%B0%20Ng%C6%B0%E1%BB%9Di%20Ch%E1%BB%8B%20Ti%E1%BA%BFp%20Theo.mp3"
+        },
+        {
+          "index": 3,
+          "title": "Lời Khuyên Cháu Gái – An Lạc Và Hiếu Nghĩa",
+          "duration": 2099,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/29%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ch%C3%A1u%20G%C3%A1i%20%E2%80%93%20An%20L%E1%BA%A1c%20V%C3%A0%20Hi%E1%BA%BFu%20Ngh%C4%A9a.mp3"
+        },
+        {
+          "index": 4,
+          "title": "Lời Khuyên Người Bác – Đời Như Một Giấc Mộng",
+          "duration": 1415,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/30%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%C3%A1c%20%E2%80%93%20%C4%90%E1%BB%9Di%20Nh%C6%B0%20M%E1%BB%99t%20Gi%E1%BA%A5c%20M%E1%BB%99ng.mp3"
+        },
+        {
+          "index": 5,
+          "title": "Lời Khuyên Em Gái – Niệm Phật Con Đường Cứu Mẹ",
+          "duration": 2090,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/31%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Con%20%C4%90%C6%B0%E1%BB%9Dng%20C%E1%BB%A9u%20M%E1%BA%B9.mp3"
+        },
+        {
+          "index": 6,
+          "title": "Lời Khuyên Cô Bốn – Niệm Phật Phương Pháp Giải Nạn",
+          "duration": 2524,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/32%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20C%C3%B4%20B%E1%BB%91n%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Ph%C6%B0%C6%A1ng%20Ph%C3%A1p%20Gi%E1%BA%A3i%20N%E1%BA%A1n.mp3"
+        },
+        {
+          "index": 7,
+          "title": "Lời Khuyên Em Gái – Niệm Phật Với Lời Phát Nguyện",
+          "duration": 2552,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/33%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20V%E1%BB%9Bi%20L%E1%BB%9Di%20Ph%C3%A1t%20Nguy%E1%BB%87n.mp3"
+        },
+        {
+          "index": 8,
+          "title": "Lời Khuyên Em Gái – Niệm Phật Con Đường Thành Phật",
+          "duration": 1704,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/34%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Con%20%C4%90%C6%B0%E1%BB%9Dng%20Th%C3%A0nh%20Ph%E1%BA%ADt.mp3"
+        },
+        {
+          "index": 9,
+          "title": "Lời Khuyên Em Gái – Niệm Phật Một Lòng Tin Phật",
+          "duration": 2098,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/35%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20M%E1%BB%99t%20L%C3%B2ng%20Tin%20Ph%E1%BA%ADt.mp3"
+        },
+        {
+          "index": 10,
+          "title": "Lời Khuyên Em Gái – Niệm Phật Cần Giữ Tâm Thanh Tịnh",
+          "duration": 1783,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/36%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20C%E1%BA%A7n%20Gi%E1%BB%AF%20T%C3%A2m%20Thanh%20T%E1%BB%8Bnh.mp3"
+        },
+        {
+          "index": 11,
+          "title": "Lời Khuyên Em Gái – Đời Là Mộng Nhân Quả Là Thực",
+          "duration": 1489,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/37%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20%C4%90%E1%BB%9Di%20L%C3%A0%20M%E1%BB%99ng%20Nh%C3%A2n%20Qu%E1%BA%A3%20L%C3%A0%20Th%E1%BB%B1c.mp3"
+        },
+        {
+          "index": 12,
+          "title": "Lời Khuyên Em Gái – Phải Tu Theo Lời Phật Dạy",
+          "duration": 1558,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/38%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ph%E1%BA%A3i%20Tu%20Theo%20L%E1%BB%9Di%20Ph%E1%BA%ADt%20D%E1%BA%A1y.mp3"
+        },
+        {
+          "index": 13,
+          "title": "Lời Khuyên Em Gái – Tổng Quát Về Sự Hộ Niệm",
+          "duration": 1506,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/39%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20T%E1%BB%95ng%20Qu%C3%A1t%20V%E1%BB%81%20S%E1%BB%B1%20H%E1%BB%99%20Ni%E1%BB%87m.mp3"
+        },
+        {
+          "index": 14,
+          "title": "Lời Khuyên Em Gái – Tổng Quát Về Sự Hộ Niệm (tiếp Theo)",
+          "duration": 1764,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/40%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20T%E1%BB%95ng%20Qu%C3%A1t%20V%E1%BB%81%20S%E1%BB%B1%20H%E1%BB%99%20Ni%E1%BB%87m%20%28ti%E1%BA%BFp%20Theo%29.mp3"
+        },
+        {
+          "index": 15,
+          "title": "Lời Khuyên Quý Bác Đồng Tu – Hộ Niệm Và Gia Đình",
+          "duration": 2411,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/41%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Qu%C3%BD%20B%C3%A1c%20%C4%90%E1%BB%93ng%20Tu%20%E2%80%93%20H%E1%BB%99%20Ni%E1%BB%87m%20V%C3%A0%20Gia%20%C4%90%C3%ACnh.mp3"
+        },
+        {
+          "index": 16,
+          "title": "Lời Khuyên Em Gái – Tu Hành Cần Hợp Căn Hợp Thời",
+          "duration": 2177,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/42%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Tu%20H%C3%A0nh%20C%E1%BA%A7n%20H%E1%BB%A3p%20C%C4%83n%20H%E1%BB%A3p%20Th%E1%BB%9Di.mp3"
+        },
+        {
+          "index": 17,
+          "title": "Lời Khuyên Em Gái – Chuyên Tu Thành Tựu Cao",
+          "duration": 1430,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/43%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Chuy%C3%AAn%20Tu%20Th%C3%A0nh%20T%E1%BB%B1u%20Cao.mp3"
+        },
+        {
+          "index": 18,
+          "title": "Lời Khuyên Người Cô – Làm Lành Để Chuyển Nghiệp",
+          "duration": 1229,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/44%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20C%C3%B4%20%E2%80%93%20L%C3%A0m%20L%C3%A0nh%20%C4%90%E1%BB%83%20Chuy%E1%BB%83n%20Nghi%E1%BB%87p.mp3"
+        },
+        {
+          "index": 19,
+          "title": "Lời Khuyên Em Gái – Buông Xả Niệm Phật Vãng Sanh",
+          "duration": 2138,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/45%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Bu%C3%B4ng%20X%E1%BA%A3%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 20,
+          "title": "Lời Khuyên Người Cô – Sám Hối Hồi Hướng",
+          "duration": 1552,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/46%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20C%C3%B4%20%E2%80%93%20S%C3%A1m%20H%E1%BB%91i%20H%E1%BB%93i%20H%C6%B0%E1%BB%9Bng.mp3"
+        },
+        {
+          "index": 21,
+          "title": "Lời Khuyên Người Em – Khổ Tứ Diệu Thánh Đế",
+          "duration": 2492,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/47%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20Kh%E1%BB%95%20T%E1%BB%A9%20Di%E1%BB%87u%20Th%C3%A1nh%20%C4%90%E1%BA%BF.mp3"
+        },
+        {
+          "index": 22,
+          "title": "Lời Khuyên Người Em – Đọc Tụng Kinh Điển Theo Tín Giải Hạnh Chứng",
+          "duration": 2434,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/48%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20%C4%90%E1%BB%8Dc%20T%E1%BB%A5ng%20Kinh%20%C4%90i%E1%BB%83n%20Theo%20T%C3%ADn%20Gi%E1%BA%A3i%20H%E1%BA%A1nh%20Ch%E1%BB%A9ng.mp3"
+        },
+        {
+          "index": 23,
+          "title": "Lời Khuyên Người Em – Quyết Tâm Cứu Độ Chúng Sanh",
+          "duration": 2842,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/49%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20Quy%E1%BA%BFt%20T%C3%A2m%20C%E1%BB%A9u%20%C4%90%E1%BB%99%20Ch%C3%BAng%20Sanh.mp3"
+        },
+        {
+          "index": 24,
+          "title": "Lời Khuyên Người Bạn – Đừng Tu Lòng Vòng Nữa",
+          "duration": 2150,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/50%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E2%80%93%20%C4%90%E1%BB%ABng%20Tu%20L%C3%B2ng%20V%C3%B2ng%20N%E1%BB%AFa%20H%E1%BA%BFt%20T%E1%BA%ADp%2002.mp3"
+        }
+      ]
+    },
+    "knnp3": {
+      "id": "knnp-tap-3",
+      "title": "Khuyên Người Niệm Phật — Tập 3",
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Lời Giới Thiệu",
+          "duration": 1609,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/51%20T3%20L%E1%BB%9Di%20Gi%E1%BB%9Bi%20Thi%E1%BB%87u.mp3"
+        },
+        {
+          "index": 2,
+          "title": "Lời Khuyên Đồng Tu Ở An Thái – Tâm Chí Thành Chí Kính",
+          "duration": 2019,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/52%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20%C4%90%E1%BB%93ng%20Tu%20%E1%BB%9E%20An%20Th%C3%A1i%20%E2%80%93%20T%C3%A2m%20Ch%C3%AD%20Th%C3%A0nh%20Ch%C3%AD%20K%C3%ADnh.mp3"
+        },
+        {
+          "index": 3,
+          "title": "Lời Khuyên Người Em Trai – Cảnh Giới",
+          "duration": 2398,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/53%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20Trai%20%E2%80%93%20C%E1%BA%A3nh%20Gi%E1%BB%9Bi.mp3"
+        },
+        {
+          "index": 4,
+          "title": "Lời Khuyên Vợ Chồng Người Em – Cảnh Giới Người",
+          "duration": 2234,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/54%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20V%E1%BB%A3%20Ch%E1%BB%93ng%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20C%E1%BA%A3nh%20Gi%E1%BB%9Bi%20Ng%C6%B0%E1%BB%9Di.mp3"
+        },
+        {
+          "index": 5,
+          "title": "Lời Khuyên Người Em Trai – Lý Sự Cơ",
+          "duration": 2168,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/55%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20Trai%20%E2%80%93%20L%C3%BD%20S%E1%BB%B1%20C%C6%A1.mp3"
+        },
+        {
+          "index": 6,
+          "title": "Lời Khuyên Người Em Trai – Mơ Về Tiên Cảnh",
+          "duration": 2489,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/56%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20Trai%20%E2%80%93%20M%C6%A1%20V%E1%BB%81%20Ti%C3%AAn%20C%E1%BA%A3nh.mp3"
+        },
+        {
+          "index": 7,
+          "title": "Lời Khuyên Người Bạn Ở Paris – Một Đường Thẳng Tiến",
+          "duration": 2302,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/57%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E1%BB%9E%20Paris%20%E2%80%93%20M%E1%BB%99t%20%C4%90%C6%B0%E1%BB%9Dng%20Th%E1%BA%B3ng%20Ti%E1%BA%BFn.mp3"
+        },
+        {
+          "index": 8,
+          "title": "Lời Khuyên Người Em Gái – Phải Giữ Hạnh Khiêm Cung",
+          "duration": 2646,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/58%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20G%C3%A1i%20%E2%80%93%20Ph%E1%BA%A3i%20Gi%E1%BB%AF%20H%E1%BA%A1nh%20Khi%C3%AAm%20Cung.mp3"
+        },
+        {
+          "index": 9,
+          "title": "Lời Khuyên Cha Mẹ – Tập Trung Năng Lực Về Một Hướng",
+          "duration": 2837,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/59%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Cha%20M%E1%BA%B9%20%E2%80%93%20T%E1%BA%ADp%20Trung%20N%C4%83ng%20L%E1%BB%B1c%20V%E1%BB%81%20M%E1%BB%99t%20H%C6%B0%E1%BB%9Bng.mp3"
+        },
+        {
+          "index": 10,
+          "title": "Lời Khuyên Một Số Bạn Đạo – Ban Hộ Niệm",
+          "duration": 2780,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/60%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20M%E1%BB%99t%20S%E1%BB%91%20B%E1%BA%A1n%20%C4%90%E1%BA%A1o%20%E2%80%93%20Ban%20H%E1%BB%99%20Ni%E1%BB%87m.mp3"
+        },
+        {
+          "index": 11,
+          "title": "Lời Khuyên Một Đạo Hữu Ở Pháp – Đừng Tu Đoạn Mất Đường Giải Thoát",
+          "duration": 2017,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/61%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20M%E1%BB%99t%20%C4%90%E1%BA%A1o%20H%E1%BB%AFu%20%E1%BB%9E%20Ph%C3%A1p%20%E2%80%93%20%C4%90%E1%BB%ABng%20Tu%20%C4%90o%E1%BA%A1n%20M%E1%BA%A5t%20%C4%90%C6%B0%E1%BB%9Dng%20Gi%E1%BA%A3i%20Tho%C3%A1t.mp3"
+        },
+        {
+          "index": 12,
+          "title": "Lời Khuyên Người Bạn Ở Paris – Phát Tâm Bồ Đề",
+          "duration": 1435,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/62%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E1%BB%9E%20Paris%20%E2%80%93%20Ph%C3%A1t%20T%C3%A2m%20B%E1%BB%93%20%C4%90%E1%BB%81.mp3"
+        },
+        {
+          "index": 13,
+          "title": "Lời Khuyên Người Bạn Ở Paris – Phát Tâm Bồ Đề Tt",
+          "duration": 1697,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/63%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E1%BB%9E%20Paris%20%E2%80%93%20Ph%C3%A1t%20T%C3%A2m%20B%E1%BB%93%20%C4%90%E1%BB%81%20Tt.mp3"
+        },
+        {
+          "index": 14,
+          "title": "Lời Khuyên Song Thân – Làm Thiện Tích Phước Để Hỗ Trợ Vãng Sanh",
+          "duration": 2559,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/64%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Song%20Th%C3%A2n%20%E2%80%93%20L%C3%A0m%20Thi%E1%BB%87n%20T%C3%ADch%20Ph%C6%B0%E1%BB%9Bc%20%C4%90%E1%BB%83%20H%E1%BB%97%20Tr%E1%BB%A3%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 15,
+          "title": "Lời Khuyên Song Thân – Địa Ngục Và Vấn Đề Nhân Quả",
+          "duration": 1434,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/65%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Song%20Th%C3%A2n%20%E2%80%93%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20V%C3%A0%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20Nh%C3%A2n%20Qu%E1%BA%A3.mp3"
+        },
+        {
+          "index": 16,
+          "title": "Lời Khuyên Song Thân – Địa Ngục Và Vấn Đề Nhân Quả Tiếp Theo",
+          "duration": 1604,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/66%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Song%20Th%C3%A2n%20%E2%80%93%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20V%C3%A0%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20Nh%C3%A2n%20Qu%E1%BA%A3%20Ti%E1%BA%BFp%20Theo.mp3"
+        },
+        {
+          "index": 17,
+          "title": "Lời Khuyên Chung – Nói Chung Về Cách Tu Hành",
+          "duration": 1629,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/67%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Chung%20%E2%80%93%20N%C3%B3i%20Chung%20V%E1%BB%81%20C%C3%A1ch%20Tu%20H%C3%A0nh%20H%E1%BA%BFt%20T%E1%BA%ADp%2003.mp3"
+        }
+      ]
+    },
+    "knnp4": {
+      "id": "knnp-tap-4",
+      "title": "Khuyên Người Niệm Phật — Tập 4",
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Mấy Dòng Tỏ Bày – Nhất Môn Thâm Nhập Trường Kỳ Huân Tu",
+          "duration": 2664,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/68%20T4%20M%E1%BA%A5y%20D%C3%B2ng%20T%E1%BB%8F%20B%C3%A0y%20%E2%80%93%20Nh%E1%BA%A5t%20M%C3%B4n%20Th%C3%A2m%20Nh%E1%BA%ADp%20Tr%C6%B0%E1%BB%9Dng%20K%E1%BB%B3%20Hu%C3%A2n%20Tu.mp3"
+        },
+        {
+          "index": 2,
+          "title": "Ý Thức Về Sự Chướng Ngại",
+          "duration": 2507,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/69%20T4%20%C3%9D%20Th%E1%BB%A9c%20V%E1%BB%81%20S%E1%BB%B1%20Ch%C6%B0%E1%BB%9Bng%20Ng%E1%BA%A1i.mp3"
+        },
+        {
+          "index": 3,
+          "title": "Khóc Lóc Mối Nguy Hại Cho Người Lúc Lâm Chung",
+          "duration": 2563,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/70%20T4%20Kh%C3%B3c%20L%C3%B3c%20M%E1%BB%91i%20Nguy%20H%E1%BA%A1i%20Cho%20Ng%C6%B0%E1%BB%9Di%20L%C3%BAc%20L%C3%A2m%20Chung.mp3"
+        },
+        {
+          "index": 4,
+          "title": "Hộ Niệm Khó Hay Dễ – Vấn Đề Đạo Lý Và Tâm Lý",
+          "duration": 2474,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/71%20T4%20H%E1%BB%99%20Ni%E1%BB%87m%20Kh%C3%B3%20Hay%20D%E1%BB%85%20%E2%80%93%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20%C4%90%E1%BA%A1o%20L%C3%BD%20V%C3%A0%20T%C3%A2m%20L%C3%BD.mp3"
+        },
+        {
+          "index": 5,
+          "title": "Hộ Niệm Khó Hay Dễ – Niềm Tin Con Người Và Hoàn Cảnh",
+          "duration": 2664,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/72%20T4%20H%E1%BB%99%20Ni%E1%BB%87m%20Kh%C3%B3%20Hay%20D%E1%BB%85%20%E2%80%93%20Ni%E1%BB%81m%20Tin%20Con%20Ng%C6%B0%E1%BB%9Di%20V%C3%A0%20Ho%C3%A0n%20C%E1%BA%A3nh.mp3"
+        },
+        {
+          "index": 6,
+          "title": "Cần Biết Rõ Đường Vãng Sanh",
+          "duration": 2524,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/73%20T4%20C%E1%BA%A7n%20Bi%E1%BA%BFt%20R%C3%B5%20%C4%90%C6%B0%E1%BB%9Dng%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 7,
+          "title": "Niệm Phật Xuất Tam Giới Bất Khả Tư Nghì",
+          "duration": 2830,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/74%20T4%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Xu%E1%BA%A5t%20Tam%20Gi%E1%BB%9Bi%20B%E1%BA%A5t%20Kh%E1%BA%A3%20T%C6%B0%20Ngh%C3%AC.mp3"
+        },
+        {
+          "index": 8,
+          "title": "Buông Xả Mới Được Vãng Sanh",
+          "duration": 2443,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/75%20T4%20Bu%C3%B4ng%20X%E1%BA%A3%20M%E1%BB%9Bi%20%C4%90%C6%B0%E1%BB%A3c%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 9,
+          "title": "Vấn Đề Cảm Ứng – Hết",
+          "duration": 2614,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/76%20T4%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20C%E1%BA%A3m%20%E1%BB%A8ng%20%E2%80%93%20H%E1%BA%BFt.mp3"
+        }
+      ]
+    },
+    "knnp": {
+      "id": "knnp-tron-bo-4-tap",
+      "title": "Khuyên Người Niệm Phật (Trọn Bộ 4 Tập)",
+      "tracks": [
+        {
+          "index": 1,
+          "title": "[Tập 1] Lời Giới Thiệu Quyết Lòng Niệm Phật",
+          "duration": 1909,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/01%20T1%20L%E1%BB%9Di%20Gi%E1%BB%9Bi%20Thi%E1%BB%87u%20Quy%E1%BA%BFt%20L%C3%B2ng%20Ni%E1%BB%87m%20Ph%E1%BA%ADt.mp3"
+        },
+        {
+          "index": 2,
+          "title": "[Tập 1] Niệm Phật Để Thành Phật",
+          "duration": 1127,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/02%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20%C4%90%E1%BB%83%20Th%C3%A0nh%20Ph%E1%BA%ADt.mp3"
+        },
+        {
+          "index": 3,
+          "title": "[Tập 1] Niệm Phật Cầu Đạt Đến Đỉnh Cao",
+          "duration": 1044,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/03%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20C%E1%BA%A7u%20%C4%90%E1%BA%A1t%20%C4%90%E1%BA%BFn%20%C4%90%E1%BB%89nh%20Cao.mp3"
+        },
+        {
+          "index": 4,
+          "title": "[Tập 1] Tu Tịnh Nghiệp Chứ Không Phải Thiện Nghiệp",
+          "duration": 1513,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/04%20T1%20Tu%20T%E1%BB%8Bnh%20Nghi%E1%BB%87p%20Ch%E1%BB%A9%20Kh%C3%B4ng%20Ph%E1%BA%A3i%20Thi%E1%BB%87n%20Nghi%E1%BB%87p.mp3"
+        },
+        {
+          "index": 5,
+          "title": "[Tập 1] Chết Không Phải Là Hết",
+          "duration": 945,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/05%20T1%20Ch%E1%BA%BFt%20Kh%C3%B4ng%20Ph%E1%BA%A3i%20L%C3%A0%20H%E1%BA%BFt.mp3"
+        },
+        {
+          "index": 6,
+          "title": "[Tập 1] Khuyên Người Niệm Phật",
+          "duration": 1172,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/06%20T1%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Ni%E1%BB%87m%20Ph%E1%BA%ADt.mp3"
+        },
+        {
+          "index": 7,
+          "title": "[Tập 1] Niệm Phật Khai Mở Trí Tuệ",
+          "duration": 1243,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/07%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Khai%20M%E1%BB%9F%20Tr%C3%AD%20Tu%E1%BB%87.mp3"
+        },
+        {
+          "index": 8,
+          "title": "[Tập 1] Đới Nghiệp Vãng Sanh",
+          "duration": 1360,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/08%20T1%20%C4%90%E1%BB%9Bi%20Nghi%E1%BB%87p%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 9,
+          "title": "[Tập 1] Nhìn Cho Thấu Buông Cho Trót",
+          "duration": 1168,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/09%20T1%20Nh%C3%ACn%20Cho%20Th%E1%BA%A5u%20Bu%C3%B4ng%20Cho%20Tr%C3%B3t.mp3"
+        },
+        {
+          "index": 10,
+          "title": "[Tập 1] Ta Bà Khổ Ta Bà Khổ",
+          "duration": 1310,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/10%20T1%20Ta%20B%C3%A0%20Kh%E1%BB%95%20Ta%20B%C3%A0%20Kh%E1%BB%95.mp3"
+        },
+        {
+          "index": 11,
+          "title": "[Tập 1] Buông Xả Thì Tự Tại",
+          "duration": 1295,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/11%20T1%20Bu%C3%B4ng%20X%E1%BA%A3%20Th%C3%AC%20T%E1%BB%B1%20T%E1%BA%A1i.mp3"
+        },
+        {
+          "index": 12,
+          "title": "[Tập 1] Cụ Triệu Vĩnh Phương Vãng Sanh",
+          "duration": 1092,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/12%20T1%20C%E1%BB%A5%20Tri%E1%BB%87u%20V%C4%A9nh%20Ph%C6%B0%C6%A1ng%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 13,
+          "title": "[Tập 1] Hộ Niệm",
+          "duration": 1259,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/13%20T1%20H%E1%BB%99%20Ni%E1%BB%87m.mp3"
+        },
+        {
+          "index": 14,
+          "title": "[Tập 1] Tự Chọn Cảnh Giới Tương Lai",
+          "duration": 2125,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/14%20T1%20T%E1%BB%B1%20Ch%E1%BB%8Dn%20C%E1%BA%A3nh%20Gi%E1%BB%9Bi%20T%C6%B0%C6%A1ng%20Lai.mp3"
+        },
+        {
+          "index": 15,
+          "title": "[Tập 1] Cần Cẩn Thận Lúc Lâm Chung",
+          "duration": 2378,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/15%20T1%20C%E1%BA%A7n%20C%E1%BA%A9n%20Th%E1%BA%ADn%20L%C3%BAc%20L%C3%A2m%20Chung.mp3"
+        },
+        {
+          "index": 16,
+          "title": "[Tập 1] Sân Giận Đường Về Địa Ngục",
+          "duration": 1990,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/16%20T1%20S%C3%A2n%20Gi%E1%BA%ADn%20%C4%90%C6%B0%E1%BB%9Dng%20V%E1%BB%81%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c.mp3"
+        },
+        {
+          "index": 17,
+          "title": "[Tập 1] Địa Ngục Ở Đâu",
+          "duration": 1294,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/17%20T1%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20%E1%BB%9E%20%C4%90%C3%A2u.mp3"
+        },
+        {
+          "index": 18,
+          "title": "[Tập 1] Địa Ngục Ở Đâu Tt",
+          "duration": 1299,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/18%20T1%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20%E1%BB%9E%20%C4%90%C3%A2u%20Tt.mp3"
+        },
+        {
+          "index": 19,
+          "title": "[Tập 1] Tu Hành Ví Như Thi Cử",
+          "duration": 2134,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/19%20T1%20Tu%20H%C3%A0nh%20V%C3%AD%20Nh%C6%B0%20Thi%20C%E1%BB%AD.mp3"
+        },
+        {
+          "index": 20,
+          "title": "[Tập 1] Thiện Căn Phước Đức Nhân Duyên",
+          "duration": 2035,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/20%20T1%20Thi%E1%BB%87n%20C%C4%83n%20Ph%C6%B0%E1%BB%9Bc%20%C4%90%E1%BB%A9c%20Nh%C3%A2n%20Duy%C3%AAn.mp3"
+        },
+        {
+          "index": 21,
+          "title": "[Tập 1] Hiểm Họa Của Tiền Bạc",
+          "duration": 2342,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/21%20T1%20Hi%E1%BB%83m%20H%E1%BB%8Da%20C%E1%BB%A7a%20Ti%E1%BB%81n%20B%E1%BA%A1c.mp3"
+        },
+        {
+          "index": 22,
+          "title": "[Tập 1] Niệm Phật Có 10 Đại Thiện Lợi",
+          "duration": 750,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/22%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20C%C3%B3%2010%20%C4%90%E1%BA%A1i%20Thi%E1%BB%87n%20L%E1%BB%A3i.mp3"
+        },
+        {
+          "index": 23,
+          "title": "[Tập 1] Cần Thanh Tịnh Không Vọng Cầu",
+          "duration": 2056,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/23%20T1%20C%E1%BA%A7n%20Thanh%20T%E1%BB%8Bnh%20Kh%C3%B4ng%20V%E1%BB%8Dng%20C%E1%BA%A7u.mp3"
+        },
+        {
+          "index": 24,
+          "title": "[Tập 1] Định Mệnh Nhân Quả Danh Vọng",
+          "duration": 2083,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/24%20T1%20%C4%90%E1%BB%8Bnh%20M%E1%BB%87nh%20Nh%C3%A2n%20Qu%E1%BA%A3%20Danh%20V%E1%BB%8Dng.mp3"
+        },
+        {
+          "index": 25,
+          "title": "[Tập 1] Phật Ở Trong Nhà Có Cầu Có Ứng",
+          "duration": 1531,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/25%20T1%20Ph%E1%BA%ADt%20%E1%BB%9E%20Trong%20Nh%C3%A0%20C%C3%B3%20C%E1%BA%A7u%20C%C3%B3%20%E1%BB%A8ng.mp3"
+        },
+        {
+          "index": 26,
+          "title": "[Tập 1] Sự Gia Trì",
+          "duration": 1879,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/26%20T1%20S%E1%BB%B1%20Gia%20Tr%C3%AC.mp3"
+        },
+        {
+          "index": 27,
+          "title": "[Tập 2] Cứu Người Như Cứu Lửa – Trả Lời Thư Người Chị",
+          "duration": 2618,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/27%20T2%20C%E1%BB%A9u%20Ng%C6%B0%E1%BB%9Di%20Nh%C6%B0%20C%E1%BB%A9u%20L%E1%BB%ADa%20%E2%80%93%20Tr%E1%BA%A3%20L%E1%BB%9Di%20Th%C6%B0%20Ng%C6%B0%E1%BB%9Di%20Ch%E1%BB%8B.mp3"
+        },
+        {
+          "index": 28,
+          "title": "[Tập 2] Cứu Người Như Cứu Lửa – Trả Lời Thư Người Chị Tiếp Theo",
+          "duration": 1675,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/28%20T2%20C%E1%BB%A9u%20Ng%C6%B0%E1%BB%9Di%20Nh%C6%B0%20C%E1%BB%A9u%20L%E1%BB%ADa%20%E2%80%93%20Tr%E1%BA%A3%20L%E1%BB%9Di%20Th%C6%B0%20Ng%C6%B0%E1%BB%9Di%20Ch%E1%BB%8B%20Ti%E1%BA%BFp%20Theo.mp3"
+        },
+        {
+          "index": 29,
+          "title": "[Tập 2] Lời Khuyên Cháu Gái – An Lạc Và Hiếu Nghĩa",
+          "duration": 2099,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/29%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ch%C3%A1u%20G%C3%A1i%20%E2%80%93%20An%20L%E1%BA%A1c%20V%C3%A0%20Hi%E1%BA%BFu%20Ngh%C4%A9a.mp3"
+        },
+        {
+          "index": 30,
+          "title": "[Tập 2] Lời Khuyên Người Bác – Đời Như Một Giấc Mộng",
+          "duration": 1415,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/30%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%C3%A1c%20%E2%80%93%20%C4%90%E1%BB%9Di%20Nh%C6%B0%20M%E1%BB%99t%20Gi%E1%BA%A5c%20M%E1%BB%99ng.mp3"
+        },
+        {
+          "index": 31,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Niệm Phật Con Đường Cứu Mẹ",
+          "duration": 2090,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/31%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Con%20%C4%90%C6%B0%E1%BB%9Dng%20C%E1%BB%A9u%20M%E1%BA%B9.mp3"
+        },
+        {
+          "index": 32,
+          "title": "[Tập 2] Lời Khuyên Cô Bốn – Niệm Phật Phương Pháp Giải Nạn",
+          "duration": 2524,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/32%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20C%C3%B4%20B%E1%BB%91n%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Ph%C6%B0%C6%A1ng%20Ph%C3%A1p%20Gi%E1%BA%A3i%20N%E1%BA%A1n.mp3"
+        },
+        {
+          "index": 33,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Niệm Phật Với Lời Phát Nguyện",
+          "duration": 2552,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/33%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20V%E1%BB%9Bi%20L%E1%BB%9Di%20Ph%C3%A1t%20Nguy%E1%BB%87n.mp3"
+        },
+        {
+          "index": 34,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Niệm Phật Con Đường Thành Phật",
+          "duration": 1704,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/34%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Con%20%C4%90%C6%B0%E1%BB%9Dng%20Th%C3%A0nh%20Ph%E1%BA%ADt.mp3"
+        },
+        {
+          "index": 35,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Niệm Phật Một Lòng Tin Phật",
+          "duration": 2098,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/35%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20M%E1%BB%99t%20L%C3%B2ng%20Tin%20Ph%E1%BA%ADt.mp3"
+        },
+        {
+          "index": 36,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Niệm Phật Cần Giữ Tâm Thanh Tịnh",
+          "duration": 1783,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/36%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20C%E1%BA%A7n%20Gi%E1%BB%AF%20T%C3%A2m%20Thanh%20T%E1%BB%8Bnh.mp3"
+        },
+        {
+          "index": 37,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Đời Là Mộng Nhân Quả Là Thực",
+          "duration": 1489,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/37%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20%C4%90%E1%BB%9Di%20L%C3%A0%20M%E1%BB%99ng%20Nh%C3%A2n%20Qu%E1%BA%A3%20L%C3%A0%20Th%E1%BB%B1c.mp3"
+        },
+        {
+          "index": 38,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Phải Tu Theo Lời Phật Dạy",
+          "duration": 1558,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/38%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ph%E1%BA%A3i%20Tu%20Theo%20L%E1%BB%9Di%20Ph%E1%BA%ADt%20D%E1%BA%A1y.mp3"
+        },
+        {
+          "index": 39,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Tổng Quát Về Sự Hộ Niệm",
+          "duration": 1506,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/39%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20T%E1%BB%95ng%20Qu%C3%A1t%20V%E1%BB%81%20S%E1%BB%B1%20H%E1%BB%99%20Ni%E1%BB%87m.mp3"
+        },
+        {
+          "index": 40,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Tổng Quát Về Sự Hộ Niệm (tiếp Theo)",
+          "duration": 1764,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/40%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20T%E1%BB%95ng%20Qu%C3%A1t%20V%E1%BB%81%20S%E1%BB%B1%20H%E1%BB%99%20Ni%E1%BB%87m%20%28ti%E1%BA%BFp%20Theo%29.mp3"
+        },
+        {
+          "index": 41,
+          "title": "[Tập 2] Lời Khuyên Quý Bác Đồng Tu – Hộ Niệm Và Gia Đình",
+          "duration": 2411,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/41%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Qu%C3%BD%20B%C3%A1c%20%C4%90%E1%BB%93ng%20Tu%20%E2%80%93%20H%E1%BB%99%20Ni%E1%BB%87m%20V%C3%A0%20Gia%20%C4%90%C3%ACnh.mp3"
+        },
+        {
+          "index": 42,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Tu Hành Cần Hợp Căn Hợp Thời",
+          "duration": 2177,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/42%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Tu%20H%C3%A0nh%20C%E1%BA%A7n%20H%E1%BB%A3p%20C%C4%83n%20H%E1%BB%A3p%20Th%E1%BB%9Di.mp3"
+        },
+        {
+          "index": 43,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Chuyên Tu Thành Tựu Cao",
+          "duration": 1430,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/43%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Chuy%C3%AAn%20Tu%20Th%C3%A0nh%20T%E1%BB%B1u%20Cao.mp3"
+        },
+        {
+          "index": 44,
+          "title": "[Tập 2] Lời Khuyên Người Cô – Làm Lành Để Chuyển Nghiệp",
+          "duration": 1229,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/44%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20C%C3%B4%20%E2%80%93%20L%C3%A0m%20L%C3%A0nh%20%C4%90%E1%BB%83%20Chuy%E1%BB%83n%20Nghi%E1%BB%87p.mp3"
+        },
+        {
+          "index": 45,
+          "title": "[Tập 2] Lời Khuyên Em Gái – Buông Xả Niệm Phật Vãng Sanh",
+          "duration": 2138,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/45%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Bu%C3%B4ng%20X%E1%BA%A3%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 46,
+          "title": "[Tập 2] Lời Khuyên Người Cô – Sám Hối Hồi Hướng",
+          "duration": 1552,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/46%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20C%C3%B4%20%E2%80%93%20S%C3%A1m%20H%E1%BB%91i%20H%E1%BB%93i%20H%C6%B0%E1%BB%9Bng.mp3"
+        },
+        {
+          "index": 47,
+          "title": "[Tập 2] Lời Khuyên Người Em – Khổ Tứ Diệu Thánh Đế",
+          "duration": 2492,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/47%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20Kh%E1%BB%95%20T%E1%BB%A9%20Di%E1%BB%87u%20Th%C3%A1nh%20%C4%90%E1%BA%BF.mp3"
+        },
+        {
+          "index": 48,
+          "title": "[Tập 2] Lời Khuyên Người Em – Đọc Tụng Kinh Điển Theo Tín Giải Hạnh Chứng",
+          "duration": 2434,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/48%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20%C4%90%E1%BB%8Dc%20T%E1%BB%A5ng%20Kinh%20%C4%90i%E1%BB%83n%20Theo%20T%C3%ADn%20Gi%E1%BA%A3i%20H%E1%BA%A1nh%20Ch%E1%BB%A9ng.mp3"
+        },
+        {
+          "index": 49,
+          "title": "[Tập 2] Lời Khuyên Người Em – Quyết Tâm Cứu Độ Chúng Sanh",
+          "duration": 2842,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/49%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20Quy%E1%BA%BFt%20T%C3%A2m%20C%E1%BB%A9u%20%C4%90%E1%BB%99%20Ch%C3%BAng%20Sanh.mp3"
+        },
+        {
+          "index": 50,
+          "title": "[Tập 2] Lời Khuyên Người Bạn – Đừng Tu Lòng Vòng Nữa",
+          "duration": 2150,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/50%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E2%80%93%20%C4%90%E1%BB%ABng%20Tu%20L%C3%B2ng%20V%C3%B2ng%20N%E1%BB%AFa%20H%E1%BA%BFt%20T%E1%BA%ADp%2002.mp3"
+        },
+        {
+          "index": 51,
+          "title": "[Tập 3] Lời Giới Thiệu",
+          "duration": 1609,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/51%20T3%20L%E1%BB%9Di%20Gi%E1%BB%9Bi%20Thi%E1%BB%87u.mp3"
+        },
+        {
+          "index": 52,
+          "title": "[Tập 3] Lời Khuyên Đồng Tu Ở An Thái – Tâm Chí Thành Chí Kính",
+          "duration": 2019,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/52%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20%C4%90%E1%BB%93ng%20Tu%20%E1%BB%9E%20An%20Th%C3%A1i%20%E2%80%93%20T%C3%A2m%20Ch%C3%AD%20Th%C3%A0nh%20Ch%C3%AD%20K%C3%ADnh.mp3"
+        },
+        {
+          "index": 53,
+          "title": "[Tập 3] Lời Khuyên Người Em Trai – Cảnh Giới",
+          "duration": 2398,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/53%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20Trai%20%E2%80%93%20C%E1%BA%A3nh%20Gi%E1%BB%9Bi.mp3"
+        },
+        {
+          "index": 54,
+          "title": "[Tập 3] Lời Khuyên Vợ Chồng Người Em – Cảnh Giới Người",
+          "duration": 2234,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/54%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20V%E1%BB%A3%20Ch%E1%BB%93ng%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20C%E1%BA%A3nh%20Gi%E1%BB%9Bi%20Ng%C6%B0%E1%BB%9Di.mp3"
+        },
+        {
+          "index": 55,
+          "title": "[Tập 3] Lời Khuyên Người Em Trai – Lý Sự Cơ",
+          "duration": 2168,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/55%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20Trai%20%E2%80%93%20L%C3%BD%20S%E1%BB%B1%20C%C6%A1.mp3"
+        },
+        {
+          "index": 56,
+          "title": "[Tập 3] Lời Khuyên Người Em Trai – Mơ Về Tiên Cảnh",
+          "duration": 2489,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/56%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20Trai%20%E2%80%93%20M%C6%A1%20V%E1%BB%81%20Ti%C3%AAn%20C%E1%BA%A3nh.mp3"
+        },
+        {
+          "index": 57,
+          "title": "[Tập 3] Lời Khuyên Người Bạn Ở Paris – Một Đường Thẳng Tiến",
+          "duration": 2302,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/57%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E1%BB%9E%20Paris%20%E2%80%93%20M%E1%BB%99t%20%C4%90%C6%B0%E1%BB%9Dng%20Th%E1%BA%B3ng%20Ti%E1%BA%BFn.mp3"
+        },
+        {
+          "index": 58,
+          "title": "[Tập 3] Lời Khuyên Người Em Gái – Phải Giữ Hạnh Khiêm Cung",
+          "duration": 2646,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/58%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20G%C3%A1i%20%E2%80%93%20Ph%E1%BA%A3i%20Gi%E1%BB%AF%20H%E1%BA%A1nh%20Khi%C3%AAm%20Cung.mp3"
+        },
+        {
+          "index": 59,
+          "title": "[Tập 3] Lời Khuyên Cha Mẹ – Tập Trung Năng Lực Về Một Hướng",
+          "duration": 2837,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/59%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Cha%20M%E1%BA%B9%20%E2%80%93%20T%E1%BA%ADp%20Trung%20N%C4%83ng%20L%E1%BB%B1c%20V%E1%BB%81%20M%E1%BB%99t%20H%C6%B0%E1%BB%9Bng.mp3"
+        },
+        {
+          "index": 60,
+          "title": "[Tập 3] Lời Khuyên Một Số Bạn Đạo – Ban Hộ Niệm",
+          "duration": 2780,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/60%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20M%E1%BB%99t%20S%E1%BB%91%20B%E1%BA%A1n%20%C4%90%E1%BA%A1o%20%E2%80%93%20Ban%20H%E1%BB%99%20Ni%E1%BB%87m.mp3"
+        },
+        {
+          "index": 61,
+          "title": "[Tập 3] Lời Khuyên Một Đạo Hữu Ở Pháp – Đừng Tu Đoạn Mất Đường Giải Thoát",
+          "duration": 2017,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/61%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20M%E1%BB%99t%20%C4%90%E1%BA%A1o%20H%E1%BB%AFu%20%E1%BB%9E%20Ph%C3%A1p%20%E2%80%93%20%C4%90%E1%BB%ABng%20Tu%20%C4%90o%E1%BA%A1n%20M%E1%BA%A5t%20%C4%90%C6%B0%E1%BB%9Dng%20Gi%E1%BA%A3i%20Tho%C3%A1t.mp3"
+        },
+        {
+          "index": 62,
+          "title": "[Tập 3] Lời Khuyên Người Bạn Ở Paris – Phát Tâm Bồ Đề",
+          "duration": 1435,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/62%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E1%BB%9E%20Paris%20%E2%80%93%20Ph%C3%A1t%20T%C3%A2m%20B%E1%BB%93%20%C4%90%E1%BB%81.mp3"
+        },
+        {
+          "index": 63,
+          "title": "[Tập 3] Lời Khuyên Người Bạn Ở Paris – Phát Tâm Bồ Đề Tt",
+          "duration": 1697,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/63%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E1%BB%9E%20Paris%20%E2%80%93%20Ph%C3%A1t%20T%C3%A2m%20B%E1%BB%93%20%C4%90%E1%BB%81%20Tt.mp3"
+        },
+        {
+          "index": 64,
+          "title": "[Tập 3] Lời Khuyên Song Thân – Làm Thiện Tích Phước Để Hỗ Trợ Vãng Sanh",
+          "duration": 2559,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/64%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Song%20Th%C3%A2n%20%E2%80%93%20L%C3%A0m%20Thi%E1%BB%87n%20T%C3%ADch%20Ph%C6%B0%E1%BB%9Bc%20%C4%90%E1%BB%83%20H%E1%BB%97%20Tr%E1%BB%A3%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 65,
+          "title": "[Tập 3] Lời Khuyên Song Thân – Địa Ngục Và Vấn Đề Nhân Quả",
+          "duration": 1434,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/65%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Song%20Th%C3%A2n%20%E2%80%93%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20V%C3%A0%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20Nh%C3%A2n%20Qu%E1%BA%A3.mp3"
+        },
+        {
+          "index": 66,
+          "title": "[Tập 3] Lời Khuyên Song Thân – Địa Ngục Và Vấn Đề Nhân Quả Tiếp Theo",
+          "duration": 1604,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/66%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Song%20Th%C3%A2n%20%E2%80%93%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20V%C3%A0%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20Nh%C3%A2n%20Qu%E1%BA%A3%20Ti%E1%BA%BFp%20Theo.mp3"
+        },
+        {
+          "index": 67,
+          "title": "[Tập 3] Lời Khuyên Chung – Nói Chung Về Cách Tu Hành",
+          "duration": 1629,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/67%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Chung%20%E2%80%93%20N%C3%B3i%20Chung%20V%E1%BB%81%20C%C3%A1ch%20Tu%20H%C3%A0nh%20H%E1%BA%BFt%20T%E1%BA%ADp%2003.mp3"
+        },
+        {
+          "index": 68,
+          "title": "[Tập 4] Mấy Dòng Tỏ Bày – Nhất Môn Thâm Nhập Trường Kỳ Huân Tu",
+          "duration": 2664,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/68%20T4%20M%E1%BA%A5y%20D%C3%B2ng%20T%E1%BB%8F%20B%C3%A0y%20%E2%80%93%20Nh%E1%BA%A5t%20M%C3%B4n%20Th%C3%A2m%20Nh%E1%BA%ADp%20Tr%C6%B0%E1%BB%9Dng%20K%E1%BB%B3%20Hu%C3%A2n%20Tu.mp3"
+        },
+        {
+          "index": 69,
+          "title": "[Tập 4] Ý Thức Về Sự Chướng Ngại",
+          "duration": 2507,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/69%20T4%20%C3%9D%20Th%E1%BB%A9c%20V%E1%BB%81%20S%E1%BB%B1%20Ch%C6%B0%E1%BB%9Bng%20Ng%E1%BA%A1i.mp3"
+        },
+        {
+          "index": 70,
+          "title": "[Tập 4] Khóc Lóc Mối Nguy Hại Cho Người Lúc Lâm Chung",
+          "duration": 2563,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/70%20T4%20Kh%C3%B3c%20L%C3%B3c%20M%E1%BB%91i%20Nguy%20H%E1%BA%A1i%20Cho%20Ng%C6%B0%E1%BB%9Di%20L%C3%BAc%20L%C3%A2m%20Chung.mp3"
+        },
+        {
+          "index": 71,
+          "title": "[Tập 4] Hộ Niệm Khó Hay Dễ – Vấn Đề Đạo Lý Và Tâm Lý",
+          "duration": 2474,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/71%20T4%20H%E1%BB%99%20Ni%E1%BB%87m%20Kh%C3%B3%20Hay%20D%E1%BB%85%20%E2%80%93%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20%C4%90%E1%BA%A1o%20L%C3%BD%20V%C3%A0%20T%C3%A2m%20L%C3%BD.mp3"
+        },
+        {
+          "index": 72,
+          "title": "[Tập 4] Hộ Niệm Khó Hay Dễ – Niềm Tin Con Người Và Hoàn Cảnh",
+          "duration": 2664,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/72%20T4%20H%E1%BB%99%20Ni%E1%BB%87m%20Kh%C3%B3%20Hay%20D%E1%BB%85%20%E2%80%93%20Ni%E1%BB%81m%20Tin%20Con%20Ng%C6%B0%E1%BB%9Di%20V%C3%A0%20Ho%C3%A0n%20C%E1%BA%A3nh.mp3"
+        },
+        {
+          "index": 73,
+          "title": "[Tập 4] Cần Biết Rõ Đường Vãng Sanh",
+          "duration": 2524,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/73%20T4%20C%E1%BA%A7n%20Bi%E1%BA%BFt%20R%C3%B5%20%C4%90%C6%B0%E1%BB%9Dng%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 74,
+          "title": "[Tập 4] Niệm Phật Xuất Tam Giới Bất Khả Tư Nghì",
+          "duration": 2830,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/74%20T4%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Xu%E1%BA%A5t%20Tam%20Gi%E1%BB%9Bi%20B%E1%BA%A5t%20Kh%E1%BA%A3%20T%C6%B0%20Ngh%C3%AC.mp3"
+        },
+        {
+          "index": 75,
+          "title": "[Tập 4] Buông Xả Mới Được Vãng Sanh",
+          "duration": 2443,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/75%20T4%20Bu%C3%B4ng%20X%E1%BA%A3%20M%E1%BB%9Bi%20%C4%90%C6%B0%E1%BB%A3c%20V%C3%A3ng%20Sanh.mp3"
+        },
+        {
+          "index": 76,
+          "title": "[Tập 4] Vấn Đề Cảm Ứng – Hết",
+          "duration": 2614,
+          "src": "https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/76%20T4%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20C%E1%BA%A3m%20%E1%BB%A8ng%20%E2%80%93%20H%E1%BA%BFt.mp3"
+        }
+      ]
     }
   },
   "by_id": {

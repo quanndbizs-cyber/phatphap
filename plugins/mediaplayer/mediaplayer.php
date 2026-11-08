@@ -317,13 +317,14 @@ class mediaplayer extends Plugin
             $itemId = $entry['id'];
             $tracks = [];
             foreach ($entry['tracks'] as $t) {
-                $ino   = $t['ino'];
-                $fname = preg_replace('/\.(mp3|m4a|aac|ogg|wav)$/i', '', $t['filename'] ?? ('Bài ' . $t['index']));
+                $ino   = $t['ino'] ?? '';
+                $fname = preg_replace('/\.(mp3|m4a|aac|ogg|wav)$/i', '', $t['filename'] ?? ($t['title'] ?? ('Bài ' . $t['index'])));
+                $src   = $t['src'] ?? ($t['url'] ?? ($ino ? ($host . '/api/items/' . $itemId . '/file/' . $ino . '?token=' . $token) : ''));
                 $tracks[] = [
                     'index'    => $t['index'],
                     'title'    => $fname,
                     'duration' => (int)($t['duration'] ?? 0),
-                    'src'      => $host . '/api/items/' . $itemId . '/file/' . $ino . '?token=' . $token,
+                    'src'      => $src,
                 ];
             }
             $groups[] = [
@@ -353,11 +354,14 @@ class mediaplayer extends Plugin
             $totalCount += count($g['tracks']);
         }
 
+        $isAbsSource = str_contains($firstSrc, 'audiobookshelf');
+        $badgeText   = $isAbsSource ? '● PHÁT TRỰC TIẾP MP3 (AUDIOBOOKSHELF)' : '● PHÁT TRỰC TIẾP MP3';
+
         $html = '<div class="tm-absplayer" id="' . $uid . '" data-groups="' . $jsonGroups . '">'
               . '  <div class="tm-abs-top">'
               . '    <div class="tm-abs-info">'
               . '      <div class="tm-abs-badge-row">'
-              . '        <span class="tm-abs-livebadge">● PHÁT TRỰC TIẾP MP3 (AUDIOBOOKSHELF)</span>'
+              . '        <span class="tm-abs-livebadge">' . $badgeText . '</span>'
               . '        <span class="tm-abs-totalbadge">Tổng số: ' . $totalCount . ' bài</span>';
         if ($extUrl) {
             $safeExt = htmlspecialchars($this->qualifyUrl($extUrl), ENT_QUOTES, 'UTF-8');
