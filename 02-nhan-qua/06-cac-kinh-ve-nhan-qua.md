@@ -31,9 +31,11 @@
 
 > [↑ Về Mục Lục](#muc-luc)
 
-**Việt dịch:** Thích Thiền Tâm
+<div class="sutra-meta">
+<p><strong>Việt dịch:</strong> Thích Thiền Tâm</p>
+</div>
 
-**Lời Nói Đầu**
+### Lời Nói Đầu
 
 Thuở xưa, có người đến hỏi một vị Thiền sư: “Bậc tu hành đã ngộ lý Chân Không, có lạc vào vòng Nhân Quả đặng?” Thiền sư đáp: “Bậc đại tu hành chẳng lạc vào vòng nhân quả.”
 
@@ -217,7 +219,10 @@ Nam mô Bổn Sư Thích Ca Mâu Ni Phật. ( 3 lần)
 
 > [↑ Về Mục Lục](#muc-luc)
 
-Kinh Nhân Quả Ba Đời
+<div class="sutra-meta">
+<p><strong>Kinh Nhân Quả Ba Đời</strong> <em>(Tam Thế Nhân Quả Kinh)</em></p>
+<p><strong>Việt dịch:</strong> Cố Đại Sư Thích Thiền Tâm</p>
+</div>
 
 Một hôm, Tôn giả A Nan Đà, ở trên hội Linh Sơn cùng với một ngàn hai trăm năm mươi đại Tỳ Kheo câu hội.
 
@@ -824,9 +829,10 @@ Nam Mô Bổn Sư Thích Ca Mâu Ni Phật
 
 > [↑ Về Mục Lục](#muc-luc)
 
-Dịch giả: Thích Thiện Trì
-
-(Bản chữ Hán của Sa môn Thích Huệ Giản)
+<div class="sutra-meta">
+<p><strong>Dịch giả:</strong> Thích Thiện Trì</p>
+<p><em>(Bản chữ Hán của Sa môn Thích Huệ Giản)</em></p>
+</div>
 
 Như thật tôi nghe, một thuở nọ Phật cùng 1.250 vị Tỳ Kheo vân tập ở vườn cây của Trưởng giả Cấp-Cô-Độc và Thái tử Kỳ-Đà (*) tại nước Xá Vệ. Bấy giờ có 10.000 vị Bồ Tát và Trời, Rồng, Quỷ, Thần, vô số Thính chúng đều cung kính tựu hội vòng quanh Phật, nghe Phật thuyết pháp, tất cả đều vui vẻ. Trong khi đó, có một Ông già bần cùng mà thọ đến hai trăm tuổi, lông mày dài đẹp, hai lỗ tai rộng lớn, răng trắng và đều đặn, hai tay dài quá gối, xem qua dung mạo tựa như người có phước tướng nhưng chịu phải cảnh nghèo khổ, quần áo không đủ để che thân, rách nát lõa lồ, lại thường bị cảnh đói khát, kéo lê từng bước, vừa đi vừa thở một cách mỏi mệt. Đã trải qua mười năm, ông nghe có Phật tại thế, trong lòng rất vui mừng, ngày đêm luôn luôn phát nguyện được gặp Phật. Ông chống gậy lần hồi tìm đến, cầu mong được yết kiến Ngài. Chẳng may vừa đến ngõ Tịnh Xá, ông lại gặp phải các vị Phạm Thiên, Đế Thích chận lại không cho vào. Uất ức, ông già mới kêu than:
 
@@ -916,9 +922,10 @@ Nam Mô Bổn Sư Thích Ca Mâu Ni Phật.
 
 > [↑ Về Mục Lục](#muc-luc)
 
-Dịch giả: Thích Thiện Trì
-
-(Bản chữ Hán của Sa môn Pháp Cự, Đại Tạng quyển 34, Kinh Tập bộ số 739)
+<div class="sutra-meta">
+<p><strong>Dịch giả:</strong> Thích Thiện Trì</p>
+<p><em>(Bản chữ Hán của Sa môn Pháp Cự, Đại Tạng quyển 34, Kinh Tập bộ số 739)</em></p>
+</div>
 
 Phật bảo A-Nan rằng: Ở đời có người thờ Phật, từ đó về sau được giàu sang. Có người thờ Phật, từ đó về sau gặp nhiều sự suy tổn bất lợi.
 
@@ -942,11 +949,11 @@ Nam Mô Bổn Sư Thích Ca Mâu Ni Phật
 
 > [↑ Về Mục Lục](#muc-luc)
 
-Cho Trưởng Giả Thủ Ca
-
-Việt dịch: Thích Chánh Lạc
-
-(Hán dịch: Đời Tùy, Dương Xuyên Quận Thủ Cù Đám Pháp Trí.)
+<div class="sutra-meta">
+<p><em>(Kinh nói cho Trưởng Giả Thủ Ca)</em></p>
+<p><strong>Việt dịch:</strong> Thích Chánh Lạc</p>
+<p><em>(Hán dịch: Đời Tùy, Dương Xuyên Quận Thủ Cù Đám Pháp Trí.)</em></p>
+</div>
 
 Nghe như vầy, một thời Phật ở tại vườn ông Cấp Cô Độc, rừng cây ông Kỳ Đà, nước Xá Vệ.
 
@@ -1796,9 +1803,11 @@ Nam Mô Bổn Sư Thích Ca Mâu Ni Phật.
 
 > [↑ Về Mục Lục](#muc-luc)
 
-Thích Trung Quán dịch
+<div class="sutra-meta">
+<p><strong>Việt dịch:</strong> Thích Trung Quán</p>
+</div>
 
-Lời Mở Đầu
+### Lời Mở Đầu
 
 Khi nói đến nhân quả nghiệp báo thì không ít người trề môi cười nhạt, họ quan niệm những điều đó như là chuyện cổ tích, luân lý khuyên người, chớ chẳng phải thực tế, không dính dáng gì với đời sống văn minh tiến bộ ngày nay. Đâu biết rằng khắp cả cuộc sống nhân gian, ngay chính bản thân đời sống của họ, cũng như mọi người không thoát ngoài nhân quả. Đến cả khoa học phát minh ngày nay cũng được xây dựng từ nhân quả. Bình tâm suy nghĩ chín chắn, ta thấy thành quả của khoa học khởi đi từ nhân quả thực nghiệm. Sự thăng trầm của kiếp sống chúng sanh nhân loại liên quan mật thiết với nhân quả thiện ác.
 
@@ -1818,7 +1827,7 @@ Hoa Kỳ, mùa Phật Đản 2540
 
 Thích Đức Niệm.
 
-Phật nói Kinh Thiện Ác Nhân Quả
+### Phật Nói Kinh Thiện Ác Nhân Quả
 
 Chính tôi được nghe một thời đức Phật ở nước Xá Vệ, tại vườn ông Cấp Cô Độc, rặng cây Thái tử Kỳ Đà.
 
@@ -2198,9 +2207,10 @@ Nam Mô Bổn Sư Thích Ca Mâu Ni Phật.
 
 > [↑ Về Mục Lục](#muc-luc)
 
-Việt dịch: Thích Chánh Lạc
-
-Hán dịch: Đời Tống Tây Thiên, Tam Tạng Đại Sư Thi Hộ phụng chiếu.
+<div class="sutra-meta">
+<p><strong>Việt dịch:</strong> Thích Chánh Lạc</p>
+<p><strong>Hán dịch:</strong> Đời Tống Tây Thiên, Tam Tạng Đại Sư Thi Hộ phụng chiếu.</p>
+</div>
 
 Tôi nghe như vầy: Một thời Phật ở tại vườn cây Ni Câu Đà, thành Ca Tỳ La Vệ, trụ xứ của dòng họ Thích, cùng chúng Bí-sô đông đủ.
 
@@ -2326,13 +2336,11 @@ Bấy giờ tôn giả A-Nan và Bí-sô-ni Ma-ha-ba-xà-ba-đề nghe Phật n�
 
 > [↑ Về Mục Lục](#muc-luc)
 
-Kinh Phân Biệt Thiện Ác Báo Ứng
-
-Việt dịch : Thích Chánh Lạc
-
-Hán dịch : Đời Tống, Tây Thiên Trung Ấn Độ, Sa môn Thiên Tức Tai phụng chiếu.
-
-Quyển 1
+<div class="sutra-meta">
+<p><strong>Kinh Phân Biệt Thiện Ác Báo Ứng</strong> <em>(Quyển 1)</em></p>
+<p><strong>Việt dịch:</strong> Thích Chánh Lạc</p>
+<p><strong>Hán dịch:</strong> Đời Tống, Tây Thiên Trung Ấn Độ, Sa môn Thiên Tức Tai phụng chiếu.</p>
+</div>
 
 Tôi nghe như vầy: Một thời Thế Tôn ở vườn ông Cấp Cô Độc, rừng cây ông Kỳ Đà, nước Xá Vệ. Bấy giờ đức Thế Tôn đúng giờ ăn, ôm bát mang y vào thành Xá Vệ, thứ lớp khất thực. Ngài đi đến nhà của trưởng giả Đâu-nễ-dã-tử Du-ca, đứng ở ngoài cửa. Bấy giờ trưởng giả Du Ca có một con chó tên là Thương Khư, nó thường đứng giữ cửa. Khi ấy trưởng giả thường dùng bát đồng đựng đầy đồ ăn ngon cho Thương Khư ăn. Con chó thấy đức Thế Tôn nó liền sân hận và sủa. Bấy giờ đức Thế Tôn nói với con Thương Khư:
 
@@ -3792,11 +3800,12 @@ Khi đức Phật nói pháp này, lúc ấy trưởng giả Du Ca bạch Phật
 
 Nam mô Bổn Sư Thích Ca Mâu Ni Phật.
 
-Phật nói Kinh Phân Biệt
+### Phật Nói Kinh Phân Biệt
 
-Dịch giả: Thích Thiện Trì
-
-(Bản chữ Hán của Tam Tạng Pháp sư Trúc Pháp Hộ, Đại Tạng quyển 14 Kinh Tập bộ 1).
+<div class="sutra-meta">
+<p><strong>Dịch giả:</strong> Thích Thiện Trì</p>
+<p><em>(Bản chữ Hán của Tam Tạng Pháp sư Trúc Pháp Hộ, Đại Tạng quyển 14 Kinh Tập bộ 1)</em></p>
+</div>
 
 Như thật tôi nghe, một thuở nọ Phật ở vườn cây của Trưởng giả Cấp Cô Độc và Thái tử Kỳ Đà, tại nước Xá-Vệ. Trong một buổi sớm mai, ánh bình minh trải vàng trên muôn ngàn hoa lá, Đức Phật với lớp y vàng đoan nghiêm tĩnh tọa. Ngài bảo A-Nan:
 
@@ -3924,9 +3933,10 @@ Ngược lại mười điều trên là mười điều ác.
 
 > [↑ Về Mục Lục](#muc-luc)
 
-Việt dịch: Thích Chánh Lạc
-
-Hán dịch: Đời Tống, Minh giáo Đại Sư Pháp Thiên
+<div class="sutra-meta">
+<p><strong>Việt dịch:</strong> Thích Chánh Lạc</p>
+<p><strong>Hán dịch:</strong> Đời Tống, Minh giáo Đại Sư Pháp Thiên</p>
+</div>
 
 Tôi nghe như vầy: Một thời đức Phật ở tại vườn ông Cấp Cô Độc, rừng cây ông Kỳ Đà, nước Xá Vệ. Bấy giờ có một vị trưởng giả tên là Cấp Cô Độc đi đến chỗ đức Phật, lấy đầu mặt lạy dưới chân Phật, rồi ngồi qua một bên.
 
@@ -4020,11 +4030,11 @@ Nam mô Bổn Sư Thích Ca Mâu Ni Phật.
 
 > [↑ Về Mục Lục](#muc-luc)
 
-Việt dịch : Thích Nữ Diệu Thiện
-
-Hán dịch : Thi Hộ
-
-Quyển 1
+<div class="sutra-meta">
+<p><strong>Việt dịch:</strong> Thích Nữ Diệu Thiện</p>
+<p><strong>Hán dịch:</strong> Thi Hộ</p>
+<p><em>(Quyển 1)</em></p>
+</div>
 
 Tôi nghe như vầy: Một thời đức Phật ở tại tinh xá Ca Lan Đà Trúc Lâm, thành Vương xá. Trong thành ấy có một trưởng giả tên Thiện Hiền, có nhiều của cải, tài sản quý báu, nhiều quyền lực. Trưởng giả này rất kính tin các ngoại đạo Ni-kiền-đà.
 
@@ -5248,9 +5258,10 @@ Bí sô ni: Tỳ kheo ni
 
 > [↑ Về Mục Lục](#muc-luc)
 
-Nhân Quả Luân Hồi Tạp Lục
-
-ThíchThiềnTâm
+<div class="sutra-meta">
+<p><strong>Tác phẩm:</strong> Nhân Quả Luân Hồi Tạp Lục</p>
+<p><strong>Sưu tầm & Biên soạn:</strong> Cố Đại Sư Thích Thiền Tâm</p>
+</div>
 
 Ai nói luân hồi chuyện vẩn vơ,
 
