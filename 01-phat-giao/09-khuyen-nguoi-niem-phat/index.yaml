@@ -1,0 +1,3197 @@
+meta:
+  title: Khuyên Người Niệm Phật — Tuyển Tập 4 Tập (Audio • Bài Đọc • Video)
+  description: Trọn bộ tác phẩm Khuyên Người Niệm Phật 4 Tập của Cư sĩ Diệu Âm gồm
+    76 bài MP3, trích đoạn đọc sách và Video YouTube.
+  heroimage: /media/thumbs/nhanqua.jpg
+  heroimagealt: Khuyên Người Niệm Phật - Cư Sĩ Diệu Âm
+  owner: quannd
+  author: Cư Sĩ Diệu Âm
+  created: '2026-11-08'
+  modified: '2026-11-08'
+  time: 17-00-00
+  navtitle: Khuyên Người Niệm Phật
+  pageid: knnpmainhub01
+mediaplayer:
+  knnp:
+    title: Khuyên Người Niệm Phật
+    subtitle: Cư Sĩ Diệu Âm (Trọn bộ 4 Tập — 76 bài MP3)
+    items:
+    - title: 'Tập 1: Quyết Lòng Niệm Phật'
+      subtitle: 26 bài MP3 • 25 lá thư khai thị • Video
+      abs_key: knnp1
+      url: /phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-1
+      read_url: /phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-1
+    - title: 'Tập 2: Cứu Người Như Cứu Lửa'
+      subtitle: 24 bài MP3 • 23 lá thư khai thị • Video
+      abs_key: knnp2
+      url: /phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-2
+      read_url: /phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-2
+    - title: 'Tập 3: Tâm Chí Thành Chí Kính'
+      subtitle: 17 bài MP3 • 16 lá thư khai thị • Video
+      abs_key: knnp3
+      url: /phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-3
+      read_url: /phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-3
+    - title: 'Tập 4: Nhất Môn Thâm Nhập Trường Kỳ Huân Tu'
+      subtitle: 9 bài MP3 • 10 lá thư khai thị • Video
+      abs_key: knnp4
+      url: /phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-4
+      read_url: /phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-4
+  knnp1_stories:
+    items:
+    - id: 1
+      tap: 1
+      global_idx: 1
+      title: Lời Giới Thiệu Quyết Lòng Niệm Phật
+      duration: 1909
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/01%20T1%20L%E1%BB%9Di%20Gi%E1%BB%9Bi%20Thi%E1%BB%87u%20Quy%E1%BA%BFt%20L%C3%B2ng%20Ni%E1%BB%87m%20Ph%E1%BA%ADt.mp3
+      video_url: https://www.youtube.com/watch?v=wp9FQB1HWGE
+      read_url: https://cusidieuam.com/2021/08/27/khuyen-nguoi-niem-phat/
+      read_label: 📖 Xem bài gốc
+      summary: 'Lời khai thị của Đại sư Ấn Quang.
+
+        Bất luận là người tại gia hay xuất gia, cần phải trên kính dưới hòa, nhẫn
+        nhục điều mà người khác khó nhẫn được, làm những việc mà người khác khó làm
+        được; thay người làm những việc cực nhọc, thành toàn cho người là việc tốt
+        đẹp.
+
+        Khi tĩnh tọa thường nghĩ đến điều lỗi của mình.
+
+        Lúc nhàn đàm đừng bàn đến điều sai trái của người.
+
+        Lúc đi, đứng, nằm, ngồi, ăn, mặc, từ sáng đến tối, từ tối đến sáng chỉ niệm
+        Phật hiệu không để gián đoạn: hoặc niệm nho nhỏ, hoặc niệm thầm.
+
+        Ngoài việc niệm Phật, đừng dấy khởi một niệm nào khác.
+
+        Nếu khởi vọng niệm phải tức thời bỏ ngay.
+
+        Thường có lòng hổ thẹn và tâm sám hối.
+
+        Nếu đã tu trì, phải tự hiểu là công phu của ta hãy còn nông cạn, chẳng nên
+        tự kiêu căng, khoa trương.
+
+        Chỉ nên chăm sóc việc nhà mình, đừng nên dính vào việc nhà người.
+
+        Chỉ nên nhìn đến những hình dạng tốt đẹp, đừng để mắt tới những hình dạng
+        xấu xa bại hoại.
+
+        Hãy coi mọi người như Bồ-tát, mà ta chỉ là kẻ phàm phu.'
+    - id: 2
+      tap: 1
+      global_idx: 2
+      title: Niệm Phật Để Thành Phật
+      duration: 1127
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/02%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20%C4%90%E1%BB%83%20Th%C3%A0nh%20Ph%E1%BA%ADt.mp3
+      video_url: https://www.youtube.com/watch?v=dDymKAWdmn0
+      read_url: https://cusidieuam.com/2021/08/27/khuyen-nguoi-niem-phat-2/
+      read_label: 📖 Xem bài gốc
+      summary: 'Việc tu hành của cha má là quan trọng nhất.
+
+        Hơn nữa hãy đưa thư của con cho anh chị Hai, anh chị Ba, anh chị Bốn, bà con,
+        cô bác coi, nhiều khi họ phát tâm tu hành thì cha má được phước lắm đó.
+
+        Phàm hễ có đi thì mới tới, có thấy mới biết.
+
+        Con có cơ duyên đi đây đi đó, gặp nhiều duyên tốt về Phật pháp cho nên con
+        trực thấy được con đường giải thoát mới vội vã cho cha má biết hầu khuyên
+        cha má ngay tức thời hạ thủ công phu NIỆM PHẬT kẻo trễ mất uổng lắm!
+
+        Hằng ngày, con đều đọc kinh niệm Phật, đi chùa.
+
+        Ngoài giờ đi làm, con ngày ngày lo đọc giảng ký của Hòa Thượng Tịnh Không,
+        một vị pháp sư vĩ đại trên thế giới chuyên tu về pháp môn Tịnh-độ.
+
+        Giảng ký của Ngài dài hàng ngàn ngàn trang giấy, được dịch từ tiếng Tàu sang
+        tiếng Việt.
+
+        Người ta dịch xong con lo chỉnh văn lại cho đúng câu đúng nghĩa.
+
+        Vô tình con học được Phật pháp vi diệu.
+
+        Hòa Thượng Tịnh Không là một cao tăng đức độ, nổi tiếng đến nỗi các vị Hòa
+        Thượng, Thượng Tọa, Đại đức khác phải cúi đầu đảnh lễ Ngài.
+
+        Khắp nơi trên thế giới cung thỉnh Ngài, và Ngài đi vòng quanh thế giới thuyết
+        pháp độ sanh.
+
+        Mỗi lần Ngài giảng kinh, tăng chúng và Phật tử tề tựu nghe pháp trên cả ngàn
+        người.'
+    - id: 3
+      tap: 1
+      global_idx: 3
+      title: Niệm Phật Cầu Đạt Đến Đỉnh Cao
+      duration: 1044
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/03%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20C%E1%BA%A7u%20%C4%90%E1%BA%A1t%20%C4%90%E1%BA%BFn%20%C4%90%E1%BB%89nh%20Cao.mp3
+      video_url: https://www.youtube.com/watch?v=aGjPjD0ZQUE
+      read_url: https://cusidieuam.com/2021/08/27/khuyen-nguoi-niem-phat-3/
+      read_label: 📖 Xem bài gốc
+      summary: 'Không phải tự nhiên con cứ nói mãi với cha má về việc tu hành.
+
+        Ít có người ra nước ngoài rồi viết thư về khuyên tu hành, giảng giải như vậy
+        đâu.
+
+        Vì, thật sự thế gian này sáu tỉ người có mấy ai nghĩ đến chuyện tu hành.
+
+        Sáu tỉ người có đến 5 tỉ 9 chỉ lo làm sao có tiền, có địa vị, có danh vọng,
+        có nhà cao cửa rộng, lo ăn nhậu, lo tranh đoạt đủ thứ cho nở mày, nở mặt với
+        bà con cô bác!
+
+        Thậm chí có nhiều người trước khi nhắm mắt trong tay vẫn còn nắm gói tiền,
+        vẫn còn hãnh diện cái quá khứ giàu sang vinh hiển của mình.
+
+        Nghĩ cho kỹ cũng khá buồn cười!
+
+        Không biết họ giữ cái danh đó được bao lâu?
+
+        Không biết sau khi nhắm mắt họ đi về đâu?
+
+        Có đem theo được những cái vinh dự hão huyền mà họ suốt đời cặm cụi truy tầm
+        không?
+
+        Những thứ danh vọng phù phiếm đó có còn lưu mãi trong đời không?
+
+        Hay chỉ vừa nhắm mắt thì tất cả cái hão huyền đều tan theo huyền hão!
+
+        Con hằng ngày đọc giảng ký của Hòa Thượng Tịnh Không, lời giảng của Ngài hiện
+        nay đi khắp thế giới, không còn dùng đến sách vở lưu trữ được nữa, mà người
+        ta phải dùng đến dụng cụ, phương tiện khoa học tối tân để gìn giữ, để phổ
+        biến.'
+    - id: 4
+      tap: 1
+      global_idx: 4
+      title: Tu Tịnh Nghiệp Chứ Không Phải Thiện Nghiệp
+      duration: 1513
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/04%20T1%20Tu%20T%E1%BB%8Bnh%20Nghi%E1%BB%87p%20Ch%E1%BB%A9%20Kh%C3%B4ng%20Ph%E1%BA%A3i%20Thi%E1%BB%87n%20Nghi%E1%BB%87p.mp3
+      video_url: https://www.youtube.com/watch?v=U4STOypGSCI
+      read_url: https://cusidieuam.com/2021/08/27/khuyen-nguoi-niem-phat-4/
+      read_label: 📖 Xem bài gốc
+      summary: 'Trong thư này con sẽ nói với cha má một chuyện sắp sửa xảy ra ở đây.
+
+        Chuyện một người cho biết sắp được vãng sanh.
+
+        Chuyện này ở các nơi thì cho là lạ lùng, còn ở đây với pháp tu tối thắng vi
+        diệu, hễ người nào chí thành tu hành đều được vãng sanh về Tây-phương Cực-lạc
+        với Phật A-di-đà cả.
+
+        Quý hóa quá đi mà mãi đến nay, qua bao nhiêu thư của con cha cũng mới có mở
+        một lời khen nhẹ thôi chứ chính cha má chưa hạ quyết tâm tu hành.
+
+        Triêu tồn tịch vong sát na dị thế mà chờ sao được?
+
+        Đã có đường cho mình giải thoát mà không chịu đi, cứ ngồi đây lý luận, nghi
+        ngờ thì ai có thể cứu mình đây?
+
+        Vô thường tấn tốc, ngưỡng mong cha má quyết chí thành tâm đồng niệm Phật.
+
+        Con kể cho cha má nghe, chuyện là ngày hôm nay ở Tịnh-tông-Học-Hội (tức hội
+        niệm Phật) tại Brisbane đang dọn dẹp để đón Hòa Thượng Tịnh Không từ Singapore
+        qua vào ngày thứ Bảy 25/11 và cũng chuẩn bị cho ba tuần lễ kiết thất niệm
+        Phật bắt đầu từ 26/11.
+
+        Ngọc qua chùa để dọn, con thì ở nhà lo chuyện giảng ký, khi về nàng nói với
+        con là bà Bảy sắp sửa vãng sanh.
+
+        Chuyện này chắc cha má nghe giống như chuyện phim ảnh, nhưng ở đây người ta
+        coi là chuyện thường.
+
+        Riêng con, hồi giờ thường nghe nói vãng sanh qua sách vở, tin tức, hình ảnh
+        chứ thấy tận mắt thì rất là hiếm, vì lâu lắm mới có một người chết chứ đâu
+        có hoài.
+
+        Bà Bảy này thường gặp tụi con hàng tuần ở chỗ niệm Phật, nay bà báo cho biết
+        rằng bà sắp sửa về với Phật.'
+    - id: 5
+      tap: 1
+      global_idx: 5
+      title: Chết Không Phải Là Hết
+      duration: 945
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/05%20T1%20Ch%E1%BA%BFt%20Kh%C3%B4ng%20Ph%E1%BA%A3i%20L%C3%A0%20H%E1%BA%BFt.mp3
+      video_url: https://www.youtube.com/watch?v=6x3jB45XgH8
+      read_url: https://cusidieuam.com/2021/08/27/khuyen-nguoi-niem-phat-5/
+      read_label: 📖 Xem bài gốc
+      summary: 'Hội Niệm Phật vừa kết thúc một khóa niệm Phật ba tuần vào ngày 17/12/00.
+
+        Nhìn thấy người ta tu mà con cảm thấy thương hại, tội nghiệp cho cha má, anh
+        chị em, bà con, con cháu của mình.
+
+        Vì nghiệp báo của cuộc đời quá nặng mà mãi mãi trầm luân trong bể khổ, hết
+        lo chuyện này rồi chuyện khác, hết kiếm tiền lại nghĩa ơn, hết lo nhà rồi
+        lo nợ đời.
+
+        Hì hục suốt cuộc đời, rồi đến khi gần già trực nhìn lại không được một cái
+        gì hết, chỉ còn một khối nghiệp vĩ đại mang theo, chỉ còn một cảnh giới hãi
+        hùng phải chịu trong hàng vạn kiếp.
+
+        Mấy tấm hình này có tấm con chụp Bà Bảy Tịnh-Bửu, người mà con nói trong thơ
+        trước, còn mấy tấm kia người ta chụp còn sót lại trong tháng trước, con gởi
+        về luôn để cha má hình dung phần nào cảnh tu Niệm Phật.
+
+        Mình sống trên đời để làm gì?
+
+        Có lợi được hay không, khi chính bản thân mình bị dìm vào ngục tối ngàn năm.
+
+        Có tiền, có sung sướng không nếu sau khi hết thân này ta đầu thai vào hàng
+        súc sanh ngu muội, bị người ta bắt cày bừa rồi sau cùng họ mổ để ăn thịt?
+
+        Không phải ta chết đi là hết đâu cha má.
+
+        Chắc chắn ta vẫn còn sống, mà còn sống rất lâu rất lâu.
+
+        Tu hành đừng nên bừa bãi, đừng nghĩ rằng chết là hết mà cứ làm ào nói ốn để
+        sau cùng dở khóc, dở cười, lỡ sụp hố rồi muốn thoát ra đâu còn được nữa!
+
+        Cha má nên biết rằng, cái cảnh giới của người sắp chết và sau khi chết trong
+        bốn mươi chín ngày của Thân-Trung-Ấm rất đáng sợ.'
+    - id: 6
+      tap: 1
+      global_idx: 6
+      title: Khuyên Người Niệm Phật
+      duration: 1172
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/06%20T1%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Ni%E1%BB%87m%20Ph%E1%BA%ADt.mp3
+      video_url: https://www.youtube.com/watch?v=X4cAgY7ZYeU
+      read_url: https://cusidieuam.com/2021/08/27/khuyen-nguoi-niem-phat-6/
+      read_label: 📖 Xem bài gốc
+      summary: 'Thời gian như tên bắn, mạng người vô thường biết còn mất lúc nào mà
+        chờ, mà đợi.
+
+        Khi con đã quyết định nghỉ làm thì con không còn tiền bạc nữa, con chỉ đủ
+        để ăn hàng ngày là được.
+
+        Về việc phụng dưỡng cha má, con cũng xin đóng góp cùng với anh chị em, việc
+        này không ai được quyền từ chối.
+
+        Cái phước đó lớn hay nhỏ tùy theo tâm tu hành của cha má.
+
+        Con thường nói, hễ người có tu thì tự nhiên được hưởng phước, còn người cứ
+        chạy cầu phước thì phước sẽ tận và rồi sẽ lận đận trong trong cảnh khó khăn,
+        thoát không được nghiệp báo!
+
+        Cái lo chính là, tuổi già cha má đã có quyết định rõ đường đi chưa?
+
+        Trong lá thư cha ký tên, còn nét chữ là người nào viết (em Thứ phải không?),
+        chứng tỏ cha đã yếu hay đang bị bệnh, sao không nói cho con biết lý do?
+
+        Cuộc đời quá vô thường, cha má không hay biết sao!
+
+        Cái nhà hư sập thì không tốt, nhưng cha má lo buồn làm chi?
+
+        Hồi trước mình tới hai căn nhà thật to.
+
+        Ngày bà nội còn sống, bà lo từng chút, tằn tiện từng đồng để làm vốn.
+
+        Nhà mình ruộng đất nhiều, hương quả từ đường lớn lắm bây giờ đâu rồi?'
+    - id: 7
+      tap: 1
+      global_idx: 7
+      title: Niệm Phật Khai Mở Trí Tuệ
+      duration: 1243
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/07%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Khai%20M%E1%BB%9F%20Tr%C3%AD%20Tu%E1%BB%87.mp3
+      video_url: https://www.youtube.com/watch?v=zHKkcCZeBu8
+      read_url: https://cusidieuam.com/2021/08/27/khuyen-nguoi-niem-phat-7/
+      read_label: 📖 Xem bài gốc
+      summary: 'Sao con cứ muốn viết thư cho cha má hoài, không viết chịu không được.
+
+        Nếu ngừng vài ngày thì con thấy cái điều con muốn nói với cha sao nó tràn
+        ngập lên.
+
+        Vì thực tế, nếu có viết hoài thì cũng viết không hết.
+
+        Bên cạnh đó, không biết cha má có thâu lượm được tất cả ý của con không?
+
+        Con vẫn cứ sợ cha má lơ là, rồi nghe người này nói vào, người kia nói ra,
+        rốt cuộc bao nhiêu thư con gửi về thành ra vô dụng.
+
+        Thưa cha má, vào giữa thời đại này, tìm một người hiểu lý đạo không dễ đâu,
+        thì những người hằng ngày đến với cha má, tìm đâu ra một người biết khuyến
+        tấn tu hành, làm thiện, nhất là ủng hộ chuyện niệm Phật cầu sanh Cực-lạc Thế-Giới,
+        là chuyện giống như huyền thoại, như trên trời rơi xuống, khó cho một người
+        bình thường hiểu tới.
+
+        Dù ngay trong bà con, anh em, chú bác của mình chưa chắc đã có người thức
+        tỉnh chứ đừng nói chi đến người bên ngoài.
+
+        Ấy thế, đem chuyện giải thoát này mà bàn với người không biết đạo thì tốt
+        hơn đừng bàn.
+
+        Cái bệnh nặng nhất của chúng sanh trong thời này làø nghiệp chướng, đã kết
+        tập lâu đời nhiều kiếp, nó kết thành một khối vô minh kiên cố, muốn phá nó
+        đâu phải dễ.
+
+        Vô minh lôi kéo theo vô minh.
+
+        Đã là vô minh thì làm sao họ dễ dàng chấp nhận giác ngộ!
+
+        Mình hồi giờ chung sống trong cái vô minh bất giác đó, mình nhậu lai rai với
+        họ, mình ơn nghĩa thị phi với họ, mình đánh cờ tướng với họ bỗng nhiên mình
+        muốn thoát ra làm sao tránh khỏi sự dị nghị dèm pha.'
+    - id: 8
+      tap: 1
+      global_idx: 8
+      title: Đới Nghiệp Vãng Sanh
+      duration: 1360
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/08%20T1%20%C4%90%E1%BB%9Bi%20Nghi%E1%BB%87p%20V%C3%A3ng%20Sanh.mp3
+      video_url: https://www.youtube.com/watch?v=j6cD8YFPsz0
+      read_url: https://cusidieuam.com/2021/08/27/khuyen-nguoi-niem-phat-8/
+      read_label: 📖 Xem bài gốc
+      summary: 'Sắp sửa có người về Việt-Nam, con gửi thư về thăm cha má cộng với
+        mấy băng thuyết pháp, và mấy món quà nhỏ cho em Thứ niệm Phật.
+
+        Trong anh chị em nhà mình đã có người nghe theo lời con khuyên vậy cũng là
+        đại phước rồi.
+
+        Em Thứ niệm Phật, em Thứ được hưởng thiện lợi, cha má niệm Phật cha má được
+        hưởng thiện lợi.
+
+        Ai tu nấy đắc, không ai tu giùm cho ai được cả.
+
+        Cái lo lắng lớn nhất của con hiện giờ là cha má tuổi già sức yếu, viêïc tu
+        hành giải thoát trở thành vấn đề tối cấp bách và quan trọng.
+
+        Khi cha má nhận được một số băng thuyết pháp thì cố gắng nương theo đó tu
+        tập, những thư này chỉ là cái mối đầu cho cha má tiếp nhận lời pháp thôi.
+
+        Trong suốt thời gian qua con liên tục viết thư về cha má, cũng chỉ nhắm tới
+        một chuyện là cố gắng khơi cho được cái đầu mối đó, để từ đó cha má đi vào
+        con đường Phật đạo, pháp môn giải thoát.
+
+        Khả năng của con nhiều lắm cũng chỉ giúp cha má thấy rõ cái đầu mối đó thôi,
+        còn có ngộ nhập vào sự giải thoát hay không hoàn toàn tùy theo quyết tâm của
+        cha má, chứ con không thể nào đi giùm cho cha má được.
+
+        Nhận thư, con không biết cha má có giờ đọc không?
+
+        Có nhận thấy được cái tầm quan trọng của nó không?
+
+        Nếu càng đọc mà cha má càng cảm thấy vui, cảm thấy phấn khởi thì con mừng
+        lắm, một ngày rất gần cha má sẽ thấy được sự an lạc vì tìm được nguồn sáng
+        để đi.
+
+        Còn nếu ngược lại, thì đó là do căn phần của cha má.'
+    - id: 9
+      tap: 1
+      global_idx: 9
+      title: Nhìn Cho Thấu Buông Cho Trót
+      duration: 1168
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/09%20T1%20Nh%C3%ACn%20Cho%20Th%E1%BA%A5u%20Bu%C3%B4ng%20Cho%20Tr%C3%B3t.mp3
+      video_url: https://www.youtube.com/watch?v=U-0twKA9ytg
+      read_url: https://cusidieuam.com/2021/08/27/khuyen-nguoi-niem-phat-9/
+      read_label: 📖 Xem bài gốc
+      summary: 'Tuổi già không có gì cần thiết hơn là cố gắng tinh tấn tu hành để
+        tìm phương giải thoát.
+
+        Nhà cửa chắc đã khởi công, tiền bạc chắc cũng đã tạm ổn.
+
+        Nơi thờ phụng ông bà chắc cũng sẽ được khang trang.
+
+        Đây là cơ hội cho cha má yên tâm rũ sạch mọi sự bận bịu để lo niệm Phật tu
+        hành.
+
+        Cha hãy giao cho anh chị em nào đó trông coi, chăm sóc việc nhà, chứ cha má
+        không nghe theo lời con, cứ lăng xăng vào mấy thứ vặt vãnh thì rốt cuộc không
+        làm được gì cả, mà cuộc đời của cha với má cũng không ai cứu nổi nữa đâu.
+
+        Trăm ngàn lần con tha thiết xin cha má hãy nghe lời con, mau mau phát tâm
+        niệm A-di-đà Phật, đừng chần chờ nữa.
+
+        Ngày cha má ra đi, cha má không thể nào mang theo cái nhà Từ-Đường gì đó đâu.
+
+        Tiếng khen chê của hàng xóm không cứu được mình ra khỏi địa ngục, không ai
+        tới nhà lao chịu khổ giùm cho mình, chịu đau giùm cho mình, chịu rên siết
+        giùm cho mình đâu cha má ạ.
+
+        Nếu cha má không chịu tu hành, thì coi như lòng hiếu thảo của con xưa nay
+        đã tràn, đã đủ rồi!
+
+        Bây giờ có cấp dưỡng cho cha má ăn uống no say cũng chỉ tạo thêm nghiệp khổ
+        cho cha má chứ không ích gì.
+
+        Con quyết chí, đường con vạch ra con sẽ đi.
+
+        Lúc đó cha má khó có thể liên lạc được với con nữa.'
+    - id: 10
+      tap: 1
+      global_idx: 10
+      title: Ta Bà Khổ Ta Bà Khổ
+      duration: 1310
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/10%20T1%20Ta%20B%C3%A0%20Kh%E1%BB%95%20Ta%20B%C3%A0%20Kh%E1%BB%95.mp3
+      video_url: https://www.youtube.com/watch?v=yvAZIbcEvwI
+      read_url: https://cusidieuam.com/2021/08/27/khuyen-nguoi-niem-phat-10/
+      read_label: 📖 Xem bài gốc
+      summary: 'Cha Má kính thương, (thư này tiếp theo thư ngày 5/6/2001)
+
+        Vì khai triển về ý nghĩa hai mươi chữ trên tượng đức Phật A-di-đà quá rộng,
+        ở đây con cố gắng thâu tóm lại ngắn gọn.
+
+        Một người tu Phật nếu hiểu được hai mươi chữ này thôi cũng đủ đắc đạo vãng
+        sanhï.
+
+        Một đời tu hành của Hòa-Thượng Tịnh-Không, đến nay đã bốn mươi hai năm thuyết
+        kinh giảng đạo, tóm lược trong hai mươi chữ này với câu Phật hiệu A-di-đà.
+
+        Hàng triệu người khắp nơi trên thế giới ngày đêm tinh tấn tu hành và từng
+        người từng người giải thoát khỏi tam giới, khỏi lục đạo luân hồi, vãng sanh
+        Tây-phương cũng từ pháp tu Niệm Phật đó cha má ạ.
+
+        Chân-Thành, Thanh-Tịnh, Bình-Đẳng, Chánh-Giác, Từ-Bi.
+
+        Khán-Phá, Phóng-Hạ, Tự-Tại, Tùy-Duyên, Niệm-Phật.
+
+        Khởi đầu là “Chân-Thành”, kết thúc là “Niệm-Phật”.
+
+        “Chân Thành Niệm Phật” là pháp môn thành Phật.
+
+        “Niệm-Phật” thật “Chân-Thành” thì chỉ trong một đời này thôi ta sẽ vĩnh viễn
+        thoát ly bể khổ sinh tử, luân hồi, nghiệp báo.
+
+        Không niệm Phật không thể thành Phật được!
+
+        Chữ đầu và chữ cuối đã thâu tóm cả một pháp môn thành Phật tối vi diệu, bằng
+        một sự hành trì rất đơn giản, dễ dàng, ai ai cũng có thể tu trì được, ai ai
+        cũng thoát khỏi tam giới vô an này được.'
+    - id: 11
+      tap: 1
+      global_idx: 11
+      title: Buông Xả Thì Tự Tại
+      duration: 1295
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/11%20T1%20Bu%C3%B4ng%20X%E1%BA%A3%20Th%C3%AC%20T%E1%BB%B1%20T%E1%BA%A1i.mp3
+      video_url: https://www.youtube.com/watch?v=x8lSi26SEbM
+      read_url: https://cusidieuam.com/2022/04/21/khuyen-nguoi-niem-phat-cu-si-dieu-am-quyet-long-niem-phat-01/
+      read_label: 📖 Xem bài gốc
+      summary: 'Tuổi trẻ mà khuyên họ buông xả thì khó lắm, vì tình trần còn đang
+        lừng lẫy, tương lai còn đầy tham vọng thì làm sao buông xả được.
+
+        Còn người khi tuổi đã về chiều, nhìn lại cuộc đời mới thấy như trò huyễn hóa,
+        nên dễ đi về với đạo, dễ ngộ đạo hơn tuổi trẻ.
+
+        Thế nhưng, trong gia đình mình mấy đứa em đã biến chuyển làm con mừng lắm.
+
+        Em Thứ đã phát tâm niệm Phật, em An cũng đã bắt đầu phát tâm tu tập.
+
+        Đây là hiện tượng cảm ứng rất tốt.
+
+        Riêng gia đình cô Sáu có mấy người ăn chay trường, tu hành khá tốt.
+
+        Cháu NgọcHiền, con của Ngọc đi xuất gia, đây là duyên lành khó kiếm và đáng
+        quý.
+
+        Huy-Hồng cũng đã phát tâm tu hành rất tinh tấn.
+
+        Hôm trước ở đây có sư cô Diệu-Anh về Việt-Nam, con kêu tụi nó tới gặp Sư Cô,
+        khi qua lại Úc, Sư Cô cho con biết là tất cả đều tinh tấn niệm Phật, An lúc
+        nào cũng thầm niệm Phật, Hồng thì quyết tâm cầu về Tây-phương.
+
+        Nghe nói như vậy, con sung sướng không còn gì hơn.
+
+        Tất cả đều là duyên lành thiện căn phúc đức từ nhiều kiếp.
+
+        Trong gia đình mình, nếu ai đọc được những thư này mà trực nhận thấy được
+        con đường đi thì không còn gì quý hơn.'
+    - id: 12
+      tap: 1
+      global_idx: 12
+      title: Cụ Triệu Vĩnh Phương Vãng Sanh
+      duration: 1092
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/12%20T1%20C%E1%BB%A5%20Tri%E1%BB%87u%20V%C4%A9nh%20Ph%C6%B0%C6%A1ng%20V%C3%A3ng%20Sanh.mp3
+      video_url: https://www.youtube.com/watch?v=DbNGVJBfqy0
+      read_url: https://cusidieuam.com/2022/04/21/khuyen-nguoi-niem-phat-quyet-long-niem-phat-01/
+      read_label: 📖 Xem bài gốc
+      summary: 'Trong thư này, như đã hứa từ thư trước, con sẽ kể cha má nghe chuyện
+        một bà cụ chín mươi bốn tuổi vãng sanh lưu lại ngọc xá lợi.
+
+        Vãng sanh là chuyện thường tình như những chuyện khác, giống như những cuộn
+        băng và sách con gởi về cho cha má về niệm Phật vãng sanh lưu xá-lợi.
+
+        Nhưng đặc biệt chuyện vãng sanh này đã được họ quay phim tại chỗ từ đầu tới
+        cuối.
+
+        Bà cụ không những lưu lại xá-lợi mà còn lưu lại cả đến “XÁ LỢI HÌNH PHẬT”,
+        một hiện tượng rất hiếm có.
+
+        Bà cụ ấy tên là Triệu-Vinh-Phương, người Trung-Hoa, bà bình tĩnh niệm Phật
+        đến hơi thở cuối cùng, đến giây phút cuối cùng bà vẫn còn mở mắt nhìn tượng
+        Phật A-di-đà trước khi từ từ nhắm lại ra đi.
+
+        Hồi giờ nghe nói thì nhiều, ít khi nhìn thấy, khi đã nhìn thấy rõ ràng trước
+        mắt, từng chi tiết một con không tránh khỏi ngạc nhiên về sự vi diệu của tiếng
+        niệm Phật.
+
+        Chính con đã từng nghe qua, từng niệm Phật, đã từng nhìn thấy rất nhiều hình
+        chụp lại.
+
+        Nhưng nhìn hình ảnh, đọc sách chỉ có cảm giác bình thường, còn thấy được hiện
+        tượng đang diễn biến thật là cảm kích.
+
+        Bà cụ Triệu-Vinh-Phương được cái phước đức to lớn là nguyên cả một đại gia
+        đình đều tu Phật, hiểu Phật, đều niệm Phật, cho nên họ đã làm đúng theo như
+        kinh Phật chỉ dạy.
+
+        Bà biết được ngày giờ ra đi, ba ngày trước ngày vãng sanh con cháu đều tề
+        tựu về cùng nhau hộ-niệm cho bà.
+
+        Cuộc vãng sanh này được quay phim để lưu lại làm kỷ niệm.
+
+        Vô tình cuộn phim đó được phổ biến rộng ra ngoài, Hội-Tịnh-tông họ làm thành
+        VCD để phổ biến, nhờ thế mà con được coi.'
+    - id: 13
+      tap: 1
+      global_idx: 13
+      title: Hộ Niệm
+      duration: 1259
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/13%20T1%20H%E1%BB%99%20Ni%E1%BB%87m.mp3
+      video_url: https://www.youtube.com/watch?v=V8pU2qv0rJo
+      read_url: https://cusidieuam.com/2022/04/21/khuyen-nguoi-niem-phat-phat-de-thanh-phat-02/
+      read_label: 📖 Xem bài gốc
+      summary: 'Cuộc đời một người rất ngắn ngủi, thân này chỉ một thoáng qua là đi
+        vào hư không, trả về cát bụi, làm sao mà tồn tại trường thọ qua thời gian.
+
+        Người tuổi trẻ nhìn thấy cuộc đời sáu bảy chục năm nữa tưởng là lâu lắm!
+
+        Nhưng khi tuổi xế chiều mà không tính trước chuyện thoát thân thì thật là
+        một điều sơ sót đáng tội nghiệp!
+
+        Ai mà không muốn người thân yêu ở mãi với ta, nhưng khôn ngoan hơn một chút
+        nữa, thì suy tính cho cuộc sống tương lai dài lâu mới là người trí huệ, liễu
+        ngộ rốt ráo.
+
+        Hôm qua là ta, hôm nay là ta và ngày mai cũng chính là ta, xin cha má cẩn
+        thận.
+
+        Trong phần thư trước con nói chuyện HỘ-NIỆM, đây là điều tối quan trọng cho
+        một người muốn một đời này thoát khỏi đọa lạc.
+
+        Vì trước giờ mình không học Phật, không hiểu Phật, không biết đâu là đường
+        giải thoát, cho nên danh từ HỘ-NIỆM mới nghe cảm thấy lạ, còn người hiểu Phật
+        pháp rồi thì họ rất chú trọng và đặc biệt quan tâm.
+
+        Hộ-niệm cho người ra đi cần phải chuẩn bị về vấn đề tâm lý.
+
+        Tâm lý của chính người ra đi, tâm lý của thân nhân con cái và người đến hộ
+        niệm.
+
+        Con xin nhắc đi nhắc lại với cha má là con người ai cũng có số phần cả, ngoài
+        những người tu hành đạt được đạo cao, tự họ có thể đi hay ở tùy ý, còn tất
+        cả đều đã được đặt để bởi định mệnh sẵn.
+
+        Hộ-niệm hay không hộ-niệm thì năm, tháng, ngày, giờ, ra đi vẫn đúng như theo
+        định số, khó thể thay đổi.
+
+        Nói rõ thêm nữa, người không niệm Phật, hoặc có niệm Phật cầu về Tây-phương
+        thì ngày bỏ xác thân trần tục của họ cũng không thay đổi, chỉ có khác nhau
+        là người niệm Phật cầu sanh Tịnh-độ thì lúc lâm chung được an nhiên tự tại,
+        tâm hồn bình tĩnh sáng suốt, không đau đớn, hoặc nếu có bị đau bệnh cũng được
+        nhẹ đi rất nhiều, (đau bệnh là do nghiệp chướng của mình chưa phá nổi), và
+        sau cùng cái quý báu nhất là được vãng sanh về thế giới Cực-lạc với Phật.'
+    - id: 14
+      tap: 1
+      global_idx: 14
+      title: Tự Chọn Cảnh Giới Tương Lai
+      duration: 2125
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/14%20T1%20T%E1%BB%B1%20Ch%E1%BB%8Dn%20C%E1%BA%A3nh%20Gi%E1%BB%9Bi%20T%C6%B0%C6%A1ng%20Lai.mp3
+      video_url: https://www.youtube.com/watch?v=VbZVDe9YBGM
+      read_url: https://cusidieuam.com/2022/04/21/khuyen-nguoi-niem-phat-buong-xa-thi-tu-tai-11/
+      read_label: 📖 Xem bài gốc
+      summary: 'Hôm trước con mới nhận được thư cháu Tuyết con chị hai, cháu nói bà
+        nội cháu yếu rất nặng khó có thể qua khỏi.
+
+        Bác trong thời gian chờ ngày ra đi đã nghe lời khuyên phát tâm ngày đêm niệm
+        Phật.
+
+        Nghe như vậy con mừng lắm vì đây là cơ may hiếm có của bác, do thiện căn phúc
+        đức lớn nên cuối đời có người đến chỉ con “ Đường-Về Cực-lạc”.
+
+        Nếu bác đã tin tưởng đã phát tâm dũng mãnh, biết buông xả tất cả để niệm Phật
+        cầu sanh Tịnh-độ thì cơ hội để cho bác hưởng một đại phúc báu vô cùng vô tận
+        cho một đời người, khó có ai so sánh được.
+
+        Chắc đến giờ này thì cha má đã nhận được cuộn video “Hoa-Khai Kiến-Phật”,
+        cuộn phim quay cuộc vãng sanh của cụ Triệu-Vinh-Phương rồi.
+
+        Xin cha má hãy coi đi coi lại thật kỹ câu chuyện đó để thấy được sự tối linh
+        nghiệm của pháp tu niệm Phật.
+
+        Cuộn phim này là cả một bài pháp sống thực, một bài “hiện thân thuyết pháp”
+        cho những ai còn mập mờ trên con đường tu hành.
+
+        Xin cha má hãy trân trọng suy nghiệm.
+
+        Đến đây thì coi như con đã hoàn tất được một đoạn đường quan trọng những gì
+        con muốn nói với cha má.
+
+        Đầu tiên khi vừa phát hiện một sự thật quý báu là con đường vãng sanh Tây-phương
+        Cực-lạc, con đường giải thoát trọn vẹn mà đức Thế-Tôn đã để lại cho chúng
+        sanh, con bắt đầu viết thư cho cha má hay liền.
+
+        Con mau mắn viết thư đến nỗi nhiều lúc làm cha bực mình, nhưng thực ra tâm
+        của con cũng chỉ một lòng lo lắng cho cha má, con sợ chỉ cần chậm trễ một
+        chút là ngàn đời ân hận.
+
+        Người phát tâm niệm Phật dũng mãnh cầu sanh về cõi Phật thì có thể thành tựu
+        con đường giải thoát ngay trong một đời này.'
+    - id: 15
+      tap: 1
+      global_idx: 15
+      title: Cần Cẩn Thận Lúc Lâm Chung
+      duration: 2378
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/15%20T1%20C%E1%BA%A7n%20C%E1%BA%A9n%20Th%E1%BA%ADn%20L%C3%BAc%20L%C3%A2m%20Chung.mp3
+      video_url: https://www.youtube.com/watch?v=vCdWGVngoMc
+      read_url: https://cusidieuam.com/2022/04/21/khuyen-nguoi-niem-phat-tap-03-niem-phat-cau-dat-den-dinh-cao/
+      read_label: 📖 Xem bài gốc
+      summary: 'Thế giới trong tương lai có thể sẽ xảy ra nhiều tai ương hiểm nạn
+        kinh khủng lắm, cường độ có thể khó tưởng tượng chứ không phải tầm thường!
+
+        Muốn cứu vãn phần nào tình thế này không còn cách nào khác hơn là khuyên người
+        tu hành cho nhiều, nhờ đó mà xoay chuyển phần nào cái khổ nạn xã hội.
+
+        Nhưng cứu người không những chỉ thoát khỏi vài cái tại nạn thiên nhiên, hoặc
+        sống sót sau vài cuộc chiến tranh là đủ đâu.
+
+        Vì nghiệp chướng vẫn còn đó, làm sao con người tránh khỏi nghiệp báo?
+
+        Giảm nạn thế gian là sự ảnh hưởng tự nhiên của việc tu hành, còn cứu độ chúng
+        sanh vượt qua được tam giới để vãng sanh Tây-phương mới là điểm chính yếu.
+
+        Hôm Tết nói chuyện được với cha má và anh chị Ba, biết được tất cả đều có
+        niệm Phật làm con mừng lắm.
+
+        Giác ngộ cuộc đời sớm chừng nào hay chừng đó, đừng để quá trễ tràng thì không
+        còn cứu kịp nữa đâu.
+
+        Nhưng qua điện thoại, con lại phát hiện một vấn đề khá quan trọng mà con không
+        dám không nói.
+
+        Đó là chuyện: có người niệm Phật vãng sanh, có người niệm suốt cuộc đời cũng
+        không được vãng sanh.
+
+        Mới đây có một Phật tử hỏi thầy Ngộ-Thông như vầy: “Thưa thầy, con cũng quyết
+        tâm niệm Phật và cầu vãng sanh, nhưng điều kiện để được vãng sanh Tây-phương
+        Cực-lạc là khi lâm chung phải được tỉnh táo và niệm cho được mười câu Phật
+        hiệu.
+
+        Con thấy một trăm người chết người nào cũng mê man bất tỉnh hoặc quằn quại
+        đau đớn ra đi, thì làm sao niệm Phật được.
+
+        Điều này làm cho con lo lắng vô cùng và nhiều lúc thấy chán nản, vì làm sao
+        biết mình sẽ được may mắn, không bị mê man khi ra đi đây?”.'
+    - id: 16
+      tap: 1
+      global_idx: 16
+      title: Sân Giận Đường Về Địa Ngục
+      duration: 1990
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/16%20T1%20S%C3%A2n%20Gi%E1%BA%ADn%20%C4%90%C6%B0%E1%BB%9Dng%20V%E1%BB%81%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c.mp3
+      video_url: https://www.youtube.com/watch?v=aISGnE_mt7E
+      read_url: https://cusidieuam.com/2022/04/21/tap-16-san-gian-duong-ve-dia-nguc/
+      read_label: 📖 Xem bài gốc
+      summary: 'Thực tế mà nói, nếu hiểu được đạo pháp rồi thì mới thấy rằng cuộc
+        đời mình hoàn toàn tự mình lựa chọn tương lai, mình muốn đi đâu, muốn sướng
+        hay khổ, muốn giải thoát hay đọa lạc đều do chính mình tạo ra cả mà mình không
+        hay.
+
+        Ngay cả cái vận mạng của mình cũng là do chính mình tạo lấy, cho nên nếu biết
+        cách tu hành thì có thể cải đổi vận mạng được như thường.
+
+        Đây là sự thật, chắc chắn thật.
+
+        Ví dụ, như người tạo tội ác phải đọa địa ngục, chắc chắn phải đọa vào địa
+        ngục thiên thu vạn kiếp, nay nếu biết hồi đầu cải sửa vẫn có thể thoát nạn
+        và được vãng sanh về tới Tây-phương Cực-lạc.
+
+        Đây là lời kinh Phật nói ..
+
+        Thưa cha má, thà mê mờ không biết thì đành chấp nhận rủi may, chứ khi đã biết
+        được đường đi, biết được chân tướng sự thật của vũ trụ nhân sinh thì quyết
+        định con đường thoát thân phải đi, đi cho đúng, cho vững, đừng đi quờ quạng
+        mà uổng phí một đời luống qua.
+
+        Thời khóa tu hành sắp sẵn không có chỗ hở, nhưng con cũng đã tự phát nguyện
+        niệm Phật thêm để cầu cho thế giới hòa bình, chúng sanh khỏi nạn Hằng ngày,
+        con đều hồi hướng công đức cho cha má, nguyện cầu cho cha má sớm thức tỉnh
+        đường đạo, dũng mãnh tinh tấn niệm Phật cầu sanh Tịnh-độ.
+
+        Con thành tâm động viên cha má hãy vững lòng tin tưởng pháp môn niệm Phật.
+
+        Cha má tin lời Phật, vững lòng phát nguyện cầu vãng sanh Tây-phương, một hướng
+        chuyên tâm niệm Phật, và chỉ có niệm Phật thôi, thì con tin chắc chắn cha
+        và má sẽ được vãng sanh.
+
+        Tất cả anh chị em, bà con xa gần, ai phát được lòng tin vững chắc, cứ y theo
+        lời thư con tu hành thì ai cũng đắc được thiện lợi, một cái thiện lợi có giá
+        trị bằng triệu kiếp tu hành, bằng vạn đời cực khổ lao nhọc, vĩnh viễn khỏi
+        bị đọa lạc, vô tận thời gian an vui cực lạc chứ không phải nhỏ, xin chớ xem
+        thường.
+
+        Cho nên, muốn giải thoát được chỉ có niệm Phật, niệm Phật phải chí tâm, chí
+        tâm là nhứt tâm, nhứt tâm là không được xen tạp, xen tạp là vừa niệm Phật
+        mà còn ôm đồm những cách tu hành khác, xen tạp là đi sai pháp môn, đi sai
+        pháp môn thì trở thành pháp tu tự lực, tự lực là tự mình bỏ rơi sự gia trì
+        của 48 đại nguyện của Phật A-di-đà.
+
+        Không có sự gia trì của 48 đại nguyện, thì trong thời đại mạt pháp này khó
+        có thể thoát nạn.'
+    - id: 17
+      tap: 1
+      global_idx: 17
+      title: Địa Ngục Ở Đâu
+      duration: 1294
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/17%20T1%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20%E1%BB%9E%20%C4%90%C3%A2u.mp3
+      video_url: https://www.youtube.com/watch?v=tfZAAZYCQUs
+      read_url: https://cusidieuam.com/2022/04/21/17-dia-nguc-o-dau/
+      read_label: 📖 Xem bài gốc
+      summary: '“Cuộc đời như áng mây trôi, khi tan, khi hợp, đổi thay không thường”,
+        hãy cố gắng tu hành, quyết thoát ly sinh tử, khổ nạn.
+
+        Đừng chần chờ đừng do dự mà mất cơ hội ngàn vàng khó mua này.
+
+        Tu hành pháp môn nào cũng được, đạo nào cũng được, cũng tốt cả.
+
+        Nhưng tu với mục đích quyết giải thoát thì cần nghiên cứu cho kỹ vì không
+        phải pháp môn nào cũng dễ đưa đến giải thoát được đâu.
+
+        Trong nhà Phật với tám mươi bốn ngàn pháp môn đã bao trùm tất cả mọi phép
+        tu, mọi tôn giáo xuất hiện trên thế gian, khó có một chánh pháp nào lọt ra
+        khỏi trong tám mươi bốn ngàn pháp đó.
+
+        Trong đó, đặc biệt Pháp “Niệm Phật” là pháp thù thắng trong tất cả pháp thù
+        thắng, là vì không những có khả năng đưa một chúng sanh vượt qua tam giới,
+        thoát khỏi luân hồi lục đạo mà còn vãng sanh Tây-phương Cực-lạc Thế-giới để
+        một đời thành Phật.
+
+        Nếu hiểu thấu được pháp giới thì mới thấy đây là một chuyện bất khả tư nghì,
+        với trí con người không thể nào hiểu tới.
+
+        Đã là thân phận con người ai cũng phải chịu cái khổ “Sanh, Lão, Bệnh, Tử”,
+        nhưng người biết chí thành niệm Phật cầu sanh Tây-phương thì thoát được chữ
+        “TỬ” này.
+
+        Trong kinh Luận, chư Tổ sư Phật giáo gọi đây là “Pháp Môn Bất Tử”.
+
+        Người được vãng sanh Tâyphương không phải là chết mà họ vẫn tiếp tục sống,
+        họ chỉ chuyển thân từ nhục thân thành liên hoa hóa thân.
+
+        Hòa Thượng Tịnh Không nói rõ rằng, vãng sanh không phải là chết rồi mới vãng
+        sanh mà đang sống họ đi vãng sanh, tức là họ tự liệng thân xác lại trong lúc
+        vẫn còn đang sống để đi theo Phật và tiếp tục sống trong một cảnh giới hoàn
+        toàn khác tốt đẹp, vi diệu, thần thông biến hóa tự tại tối thắng phi thường
+        và tất cả những sự việc trong đời họ vẫn còn biết rõ rệt.
+
+        Không những thế bắt đầu từ đó họ còn biết luôn cả vô lượng kiếp về trước họ
+        đã từng làm gì, tu hành như thế nào, kiếp nào bị đọa, kiếp nào cao sang.'
+    - id: 18
+      tap: 1
+      global_idx: 18
+      title: Địa Ngục Ở Đâu Tt
+      duration: 1299
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/18%20T1%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20%E1%BB%9E%20%C4%90%C3%A2u%20Tt.mp3
+      video_url: https://www.youtube.com/watch?v=tfZAAZYCQUs
+      read_url: https://cusidieuam.com/2022/04/21/17-dia-nguc-o-dau/
+      read_label: 📖 Xem bài gốc
+      summary: '“Cuộc đời như áng mây trôi, khi tan, khi hợp, đổi thay không thường”,
+        hãy cố gắng tu hành, quyết thoát ly sinh tử, khổ nạn.
+
+        Đừng chần chờ đừng do dự mà mất cơ hội ngàn vàng khó mua này.
+
+        Tu hành pháp môn nào cũng được, đạo nào cũng được, cũng tốt cả.
+
+        Nhưng tu với mục đích quyết giải thoát thì cần nghiên cứu cho kỹ vì không
+        phải pháp môn nào cũng dễ đưa đến giải thoát được đâu.
+
+        Trong nhà Phật với tám mươi bốn ngàn pháp môn đã bao trùm tất cả mọi phép
+        tu, mọi tôn giáo xuất hiện trên thế gian, khó có một chánh pháp nào lọt ra
+        khỏi trong tám mươi bốn ngàn pháp đó.
+
+        Trong đó, đặc biệt Pháp “Niệm Phật” là pháp thù thắng trong tất cả pháp thù
+        thắng, là vì không những có khả năng đưa một chúng sanh vượt qua tam giới,
+        thoát khỏi luân hồi lục đạo mà còn vãng sanh Tây-phương Cực-lạc Thế-giới để
+        một đời thành Phật.
+
+        Nếu hiểu thấu được pháp giới thì mới thấy đây là một chuyện bất khả tư nghì,
+        với trí con người không thể nào hiểu tới.
+
+        Đã là thân phận con người ai cũng phải chịu cái khổ “Sanh, Lão, Bệnh, Tử”,
+        nhưng người biết chí thành niệm Phật cầu sanh Tây-phương thì thoát được chữ
+        “TỬ” này.
+
+        Trong kinh Luận, chư Tổ sư Phật giáo gọi đây là “Pháp Môn Bất Tử”.
+
+        Người được vãng sanh Tâyphương không phải là chết mà họ vẫn tiếp tục sống,
+        họ chỉ chuyển thân từ nhục thân thành liên hoa hóa thân.
+
+        Hòa Thượng Tịnh Không nói rõ rằng, vãng sanh không phải là chết rồi mới vãng
+        sanh mà đang sống họ đi vãng sanh, tức là họ tự liệng thân xác lại trong lúc
+        vẫn còn đang sống để đi theo Phật và tiếp tục sống trong một cảnh giới hoàn
+        toàn khác tốt đẹp, vi diệu, thần thông biến hóa tự tại tối thắng phi thường
+        và tất cả những sự việc trong đời họ vẫn còn biết rõ rệt.
+
+        Không những thế bắt đầu từ đó họ còn biết luôn cả vô lượng kiếp về trước họ
+        đã từng làm gì, tu hành như thế nào, kiếp nào bị đọa, kiếp nào cao sang.'
+    - id: 19
+      tap: 1
+      global_idx: 19
+      title: Tu Hành Ví Như Thi Cử
+      duration: 2134
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/19%20T1%20Tu%20H%C3%A0nh%20V%C3%AD%20Nh%C6%B0%20Thi%20C%E1%BB%AD.mp3
+      video_url: https://www.youtube.com/watch?v=SfPUofV4MZU
+      read_url: https://cusidieuam.com/2022/04/21/18-tu-hanh-vi-nhu-thi-cu/
+      read_label: 📖 Xem bài gốc
+      summary: 'Khi hiểu được đạo pháp mới thấy tu hành cần phải cẩn thận, sơ hở một
+        tí có thể chuyển xoay họa phước, hễ đúng thì phước, lệch thành ra họa.
+
+        Vì thế nên người tu thì nhiều mà đắc thì ít.
+
+        Cái khó nhứt là vì thời này đã mạt pháp rồi, tâm con người bị hoàn cảnh vật
+        chất chi phối quá nhiều.
+
+        Tâm trí bị ô nhiễm thành ra ai ai cũng thích chạy theo ảo vọng, ít ai lo chuyện
+        giải thoát.
+
+        Những người già cả, lớn tuổi, lụm cụm họ cảm nhận được sự hão huyền của kiếp
+        người mới thấy mối tu đạo ló dạng.
+
+        Nhưng tu hành lại quá khó, sơ hở là phạm luật, phạm giới, cho nên nếu mình
+        thực sự muốn thành tựu đạo quả thì phải để tâm chú ý, chứ không nên tự mạn
+        cho rằng mình đã thành công, đã có nhiều công đức.
+
+        Như cha má thấy, tu hành trọn đời chỉ cần một lần sân giận, nóng nảy là tất
+        cả công phu đều bị tiêu hủy sạch trơn, bảy tám mươi năm tu tập trở thành số
+        không mà người đó không hay, cứ đinh ninh là mình tu hành ngon lành, hơn nhiều
+        người khác.
+
+        Cái ngạo mạn nó đóng kín tâm trí lại làm cho họ tự đâm đầu vào ngõ cụt mà
+        không hay.
+
+        Còn hại hơn thế nữa, cứ một lần giận dữ thì lại cấy vào tâm thức mình một
+        chủng tử địa ngục, khó gỡ ra được.
+
+        Chủng tử địa ngục trong tâm nhiều hơn các thứ khác thì mình sẽ bị thọ báo
+        ở địa ngục chứ làm sao tránh khỏi.
+
+        Người tu hành cần ghi nhớ điều này, đừng bao giờ sanh tâm kiêu mạn.
+
+        Chính Ngài Ấn-Quang Đại sư, vị Tổ thứ mười ba của Tịnh-độ Tông Trung-Hoa,
+        một vị đại tôn sư mà lúc nào cũng tự nhắc nhở rằng công phu của mình còn kém.'
+    - id: 20
+      tap: 1
+      global_idx: 20
+      title: Thiện Căn Phước Đức Nhân Duyên
+      duration: 2035
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/20%20T1%20Thi%E1%BB%87n%20C%C4%83n%20Ph%C6%B0%E1%BB%9Bc%20%C4%90%E1%BB%A9c%20Nh%C3%A2n%20Duy%C3%AAn.mp3
+      video_url: https://www.youtube.com/watch?v=JuwQRisoylQ
+      read_url: https://cusidieuam.com/2022/04/21/19-thien-can-phuc-duc-nhan-duyen/
+      read_label: 📖 Xem bài gốc
+      summary: 'Tu hành mà hiểu thấu được Phật pháp thì thấy lý thú, vững lòng tin,
+        tinh tấn tiến bước.
+
+        Mỗi lá thư, đầu tiên con đều nói một chút lý đạo.
+
+        Cho nên, nếu đọc nhiều thư của con cũng thấy vui với nguồn đạo, thấm lần vào
+        Phật pháp.
+
+        Còn phần sau của thư thường con nói đến những điểm cụ thể cần thực hiện, cần
+        cho cha má và cũng cần cho những ai muốn niệm Phật cầu sanh về Tịnh-độ.
+
+        Con biết được hoàn cảnh của cha má, anh chị em, bà con, cô bác ở quê nhà rất
+        khó khăn để nghe được Phật pháp, thành ra con phải dùng cách này để từng bước
+        giải bày.
+
+        Xin cha má cố gắng đọc kỹ.
+
+        Cha hoặc má hãy bảo con cháu mỗi người thay phiên nhau đọc cho cha má nghe.
+
+        Điều này rất có lợi vì nhờ vậy mà con cháu cũng hiểu được đạo, cũng có thể
+        cùng phát tâm tu hành ..
+
+        nhứt là người nào chưa tin Phật pháp thì cha má cứ nhờ đọc nhiều lần, biết
+        đâu cha má cứu được người đó.
+
+        Hễ cha má thích con cháu đọc thì con cháu cũng thích đọc cho cha má nghe,
+        hễ có đọc thì có cơ hội hiểu.
+
+        Nếu khuyến khích con cái trong nhà đều niệm Phật thì chính cha má đã tạo được
+        một công đức lớn.
+
+        Nhờ đó mà thiện căn của chính mình tăng trưởng, và cái lợi ích thiết thực
+        nhất là khi lâm chung mình đã có một số người hùng hậu vây quanh để hộ-niệm
+        bảo vệ mình, có vậy mới tránh được cái nạn oán thân, trái chủ.'
+    - id: 21
+      tap: 1
+      global_idx: 21
+      title: Hiểm Họa Của Tiền Bạc
+      duration: 2342
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/21%20T1%20Hi%E1%BB%83m%20H%E1%BB%8Da%20C%E1%BB%A7a%20Ti%E1%BB%81n%20B%E1%BA%A1c.mp3
+      video_url: https://www.youtube.com/watch?v=COPhiO1BigY
+      read_url: https://cusidieuam.com/2022/04/21/20-hiem-hoa-cua-tien-bac/
+      read_label: 📖 Xem bài gốc
+      summary: 'Chuyến về thăm lần này con đã thấy khá nhiều sự việc mà trước nay
+        con không thấy, những hiện thực chung quanh con rõ ràng hơn trước đây.
+
+        Trong những ngày ngắn ngủi đó con đã cố gắng niệm Phật trợ lực cho cha.
+
+        Cha tỉnh lại được từ cơn bệnh nặng.
+
+        Trợ niệm cho cha đau nặng nhưng con không mở một lời cầu xin Phật, Bồ-tát
+        gia trì cho cha khỏe lại, trái lại con cứ một lòng cầu nguyện vãng sanh cho
+        cha.
+
+        Kết quả thì, chỉ vỏn vẹn hai ngày cha bình phục trở lại.
+
+        Cái lý này sâu lắm, vi diệu lắm.
+
+        Thành tâm niệm Phật cầu về Tây-phương không phải là phải chết, mà niệm Phật
+        cầu vãng sanh làm nghiệp chướng dễ tiêu tan, nếu báo thân đã mãn thì cha được
+        vãng sanh Cực Lạc, nếu chưa mãn thì tự nhiên bình phục rất nhanh.
+
+        Cái lý này vi diệu không thể nói một vài lời được đâu.
+
+        Đây cũng là dịp may, rõ ràng trên đời “đắc thất nan truy họa phước”.
+
+        Cha không đau như vậy đâu có dịp thấy sự hiển linh của câu Phật hiệu.
+
+        Bây giờ cha má đã quyết lòng niệm Phật ngày đêm, má cũng bắt đầu buông xả,
+        làm con mừng không thể tả được.
+
+        Nhưng nhìn kỹ thì nghiệp chướng vẫn còn, oan gia vẫn có, trái chủ chưa xa
+        đâu.'
+    - id: 22
+      tap: 1
+      global_idx: 22
+      title: Niệm Phật Có 10 Đại Thiện Lợi
+      duration: 750
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/22%20T1%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20C%C3%B3%2010%20%C4%90%E1%BA%A1i%20Thi%E1%BB%87n%20L%E1%BB%A3i.mp3
+      video_url: https://www.youtube.com/watch?v=T5lb6cQYOng
+      read_url: https://cusidieuam.com/2022/04/21/21-niem-phat-co-muoi-dai-thien-loi/
+      read_label: 📖 Xem bài gốc
+      summary: 'Người niệm Phật hưởng được mười đại lợi ích sau đây:
+
+        Thanh tịnh niệm Phật thì tự nhiên được mười điểm lợi trên.
+
+        Tuy nhiên phải nhớ kỹ hai chữ “TỰ-NHIÊN” và “THANH-TỊNH”.
+
+        Tự nhiên là không phải mong cầu, người mong cầu thì không phải là tự nhiên,
+        vì mong cầu thì tâm không thanh tịnh.
+
+        Một khi tâm không thanh tịnh thì mở ngõ cho tà khí xâm nhập, vô tình pháp
+        tu thì Chánh mà ý niệm sai lệch thành ra là tà.
+
+        Điều thứ tư nói, tất cả ác quỷ dạ-xoa, la-sát, không thể hại người niệm Phật,
+        oan gia trái chủ đâu thể đòi nợ được, chính thế mà chúng mới sợ hành giả niệm
+        Phật, lo sợ chúng ta có công phu đắc lực.
+
+        Cho nên, người mới khởi tu niệm Phật, công phu đắc lực, ban đầu thường bị
+        chúng tới phá đám.
+
+        Chúng giả người thân yêu, giả Bồ-tát tới dụ khị mình, đôi khi chúng có thể
+        giả dạng luôn cả Phật để làm cho mình đắm say vào đó.
+
+        Một khi đã thích vào đó rồi thì nó sẽ hướng dẫn mình đi tới chỗ sai đường
+        lạc lối, mất phần vãng sanh.
+
+        Điều thứ bảy nói chiêm bao thì thấy điềm tốt, thấy thần kỳ diệu sắc thân Phật
+        A-di-đà.
+
+        Đây là quả báo tự nhiên của tâm đã được thanh-tịnh, chứ không phải đêm đêm
+        cầu nguyện thấy được Phật, thấy được điềm lành.
+
+        Người niệm Phật không nên cầu xin những thứ lợi lạc tầm thường mà đành bị
+        mất phần giải thoát, vì đây là lòng tham luyến trần tục.'
+    - id: 23
+      tap: 1
+      global_idx: 23
+      title: Cần Thanh Tịnh Không Vọng Cầu
+      duration: 2056
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/23%20T1%20C%E1%BA%A7n%20Thanh%20T%E1%BB%8Bnh%20Kh%C3%B4ng%20V%E1%BB%8Dng%20C%E1%BA%A7u.mp3
+      video_url: https://www.youtube.com/watch?v=qp29HbsoYfU
+      read_url: https://cusidieuam.com/2022/04/21/22-cau-thanh-tinh-khong-vong-cau/
+      read_label: 📖 Xem bài gốc
+      summary: 'Niệm Phật được mười điều lợi ích, trong đó cái lợi sau cùng là được
+        vãng sanh về Tâyphương Cực-lạc thế giới, một đời này thôi ta thoát khỏi sinh-tử
+        luân-hồi.
+
+        Đây là cái lợi ích chung cuộc.
+
+        Không có cái lợi ích này thì tất cả những lợi ích kia chỉ là mộng-huyễn, vì
+        có thu lợi nhiều đến mấy đi nữa nhưng rồi cũng chết, gắng gượng sống thêm
+        một vài năm bệnh hoạn trong cái xã hội đầy sầu não, sau cùng chính thần-thức
+        của mình bị đọa lạc, thì có gì đâu mà lợi?!
+
+        “Chuyển thân thọ thân, cải hình dị đạo”.
+
+        Cố gắng tu hành nhắm thẳng tới sự giải thoát viên mãn, đừng nên bám víu vào
+        những điều lợi vụn vặt mà tự hại ngàn đời.
+
+        Bây giờ, trí-huệ đang trói trong cái nhục thân phàm tục cho nên mình không
+        thấy, chứ một khi đã thấy rồi thì sự việc này quan hệ lớn lắm.
+
+        Bị đọa lạc kinh khủng lắm!
+
+        Không thể lơ là bừa bãi được đâu.
+
+        Nhiều lá thư rồi con nhắc đến chuyện này, mong cha má thức ngộ, làm gương
+        cho gia đình, bà con cô bác, cùng tỉnh cơn mê, cùng nhìn ra sự thật, cố gắng
+        tu hành tránh hiểm nạn.
+
+        Về quê, tuy thời gian ngắn ngủi, nhưng con thấy cũng khá nhiều điều, có dịp
+        con lần lượt nói ra cho mọi người nghe.
+
+        Tu hành coi vậy chứ có nhiều nẻo lắt léo, chú ý lắm may ra mới thấy vấn đề!
+
+        Hòa-Thượng Tịnh-Không ít khi nói thẳng tên, sửa thẳng việc, nhưng một khi
+        Ngài thấy cái sai lầm của người nào thì trong những buổi thăng tòa giảng kinh
+        Ngài nói ra sự việc đó.'
+    - id: 24
+      tap: 1
+      global_idx: 24
+      title: Định Mệnh Nhân Quả Danh Vọng
+      duration: 2083
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/24%20T1%20%C4%90%E1%BB%8Bnh%20M%E1%BB%87nh%20Nh%C3%A2n%20Qu%E1%BA%A3%20Danh%20V%E1%BB%8Dng.mp3
+      video_url: https://www.youtube.com/watch?v=ZPlGzLt9c8g
+      read_url: https://cusidieuam.com/2022/04/21/23-dinh-menh-nhan-qua-danh-vong/
+      read_label: 📖 Xem bài gốc
+      summary: 'Tất cả vạn sự sự vật không có gì thoát khỏi định luật nhân quả.
+
+        Thiên cơ, định mệnh chỉ là một cách gọi khác của định luật nhân-quả mà thôi.
+
+        Trồng dưa được dưa, trồng đậu được đậu, chính vì vậy mà An nó tìm cách cho
+        cha má có cơ hội bố thí làm phước để tạo thêm phước báu lót đường tương lai
+        cho cha má.
+
+        Trong những ngày về thăm, An nó tâm sự với con rằng, “ mình làm sao cho cha
+        má an tâm không lo gì về tiền bạc, hơn nữa còn phải coi nhẹ tiền bạc.
+
+        Mỗi tháng tiêu dùng nếu thiếu mình bồi đắp cho đủ, nếu dư cha má phải đem
+        cho người ta hết, cho nhiều mình sẽ bù vào nhiều cho cha má, nếu còn dư mình
+        trừ số tiền đó trong phần cấp dưỡng tháng sau ”.
+
+        Nghĩ tới lời này mà con thương em nó, trong tất cả những người con của cha
+        má không biết còn có ai thành tâm, thành ý hiếu thảo lo lắng cho cha má như
+        An nữa không?
+
+        “Bổ bất túc, tổn hữu dư”, (bù chỗ thiếu, lấy phần dư) là đạo lý của Lão-học,
+        là triết lý của dịch-học, không biết An nó học sách Thánh-Hiền từ hồi nào
+        mà nói lên được đạo lý này.
+
+        Cha má bố thí nhiều, mình nguyện cung ứng thêm cho cha má làm phước cứu giúp
+        người.
+
+        Cha má để dành lại thì coi như tiêu dùng còn dư mình phải lấy lại phần đó.
+
+        An đề nghị như vậy là nó không muốn cha má tiếc tiền trong việc bố thí giúp
+        người.
+
+        Nghĩ tới ý tưởng này con mới giựt mình vì con vẫn còn có nhiều sơ sót, một
+        đề nghị đơn giản như vậy mà chính con chưa nghĩ ra.
+
+        Tư tưởng này người bình thường khó hiểu tới, nhưng người thông hiểu được đạo
+        mới thấy chí lý, cao siêu.'
+    - id: 25
+      tap: 1
+      global_idx: 25
+      title: Phật Ở Trong Nhà Có Cầu Có Ứng
+      duration: 1531
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/25%20T1%20Ph%E1%BA%ADt%20%E1%BB%9E%20Trong%20Nh%C3%A0%20C%C3%B3%20C%E1%BA%A7u%20C%C3%B3%20%E1%BB%A8ng.mp3
+      video_url: https://www.youtube.com/watch?v=qdrndDN0Uv8
+      read_url: https://cusidieuam.com/2022/04/21/24-phat-o-trong-nha-co-cau-co-ung/
+      read_label: 📖 Xem bài gốc
+      summary: 'Thành kính niệm Phật tự nhiên sẽ được Phật lực gia trì, sự cảm ứng
+        bất khả tư nghì.
+
+        Những sự cảm ứng này nhiều khi nó hiển hiện trước mắt, hoặc âm thầm xảy ra
+        sát bên cạnh mà mình không hay.
+
+        Ví dụ, chuyến về thăm gia đình, thăm cha bệnh trong tháng Sáu vừa rồi là con
+        đã làm một việc khá liều lĩnh, bây giờ tất cả đã xong con mới dám nói lại.
+
+        Thời gian con về là lúc con đang bệnh, bác sĩ cấm con không được lái xe, không
+        được đi xa, không được đi máy bay.
+
+        Bịnh của con rất kỵ trời nắng nóng, hễ nóng lên có thể bị xỉu liền.
+
+        Thế mà khi vừa nghe cha ngã bịnh, vì phải cần cứu cha, con quyết định liều
+        lĩnh bay về ngay trong thời điểm thời tiết Việt-Nam rất nóng.
+
+        Chuyến đi ngắn ngủi nhưng tất cả những thủ tục bảo hiểm đều trả hết, và Ngọc
+        chuẩn bị sẵn sàng bốc con ngược trở lại Úc bất cứ lúc nào.
+
+        Vậy mà sự việc lại êm xuôi không có gì trở ngại.
+
+        Cha má nhớ không, ngày đầu tiên con vừa bước chân về tới nhà thì trời chuyển
+        mưa tầm tã, rồi suốt những ngày sau đó thời tiết dịu lại, trời tiếp tục mưa
+        lai rai.
+
+        Thật là một chuyện may mắn hiếm có, nhờ thế mà con ở lại quê được lâu.
+
+        Có thể đây là một chuyện trùng hợp, nhưng dù sao đi nữa, nhờ vậy mới giúp
+        cho con làm tròn những gì con muốn làm khi gặp cha má.
+
+        Gần hai ngày trước khi lên máy bay, hầu như con tự giam mình trong niệm Phật
+        đường, để ngày đêm nguyện cầu đức A-di-đà Phật gia trì những việc con đang
+        làm để cho con trả phần nào chữ hiếu.'
+    - id: 26
+      tap: 1
+      global_idx: 26
+      title: Sự Gia Trì
+      duration: 1879
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/26%20T1%20S%E1%BB%B1%20Gia%20Tr%C3%AC.mp3
+      video_url: https://www.youtube.com/watch?v=tH3f_JDKWSc
+      read_url: https://cusidieuam.com/2022/04/21/25-su-gia-tri/
+      read_label: 📖 Xem bài gốc
+      summary: 'Con vừa mới hay được tin là em Chương, con cô Sáu ở Bình-Dương, thay
+        mặt Cô Sáu cùng tất cả anh chị em trong gia đình, xuống Sài-Gòn gặp An để
+        bàn việc cấp dưỡng cho cha má để cha má an tâm tu hành.
+
+        Nghe được tin này, con vô cùng cảm động và thật sự tán thán công đức của Cô
+        và tất cả các em.
+
+        Có lẽ đây là niềm an ủi rất lớn cho cha má trong tuổi về già.
+
+        Hay được việc các em ở Bình-Dương đã phát tâm cúng dường cho cậu mợ Hai an
+        tâm niệm Phật, con lại nghĩ đến một điều khá hay!
+
+        Trong thư trước, con nói đến “Phật tại môn trung, hữu cầu tất ứng”.
+
+        Con viết vừa xong thư đó thì thì hay được tin này.
+
+        Sự ứng cảm của Phật, Bồ-tát đa hình, đa dạng, vô hình, hữu hình, hiện thực,
+        vô thực khó có thể lường biết được.
+
+        Đây là một phước đức mà chỉ có người thực tâm tu hành mới cảm thọ được.
+
+        Thưa cha má, cái phước từ đâu mà có?
+
+        Chư Tổ dạy rằng, một lòng nhất tâm niệm Phật, thì một câu Nam-mô A-diđà Phật
+        có thể phá được tám mươi ức kiếp nghiệp chướng trọng tội.
+
+        Nói cách khác, một câu chí tâm niệm Phật có một công đức, phước báu, lớn bằng
+        tám mươi ức kiếp làm lành.
+
+        Đây là một công đức mà chư Phật gọi là “bất khả tư nghì”, nghĩa là không thể
+        bàn luận được, không thể giải thích được.'
+  knnp2_stories:
+    items:
+    - id: 1
+      tap: 2
+      global_idx: 27
+      title: Cứu Người Như Cứu Lửa – Trả Lời Thư Người Chị
+      duration: 2618
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/27%20T2%20C%E1%BB%A9u%20Ng%C6%B0%E1%BB%9Di%20Nh%C6%B0%20C%E1%BB%A9u%20L%E1%BB%ADa%20%E2%80%93%20Tr%E1%BA%A3%20L%E1%BB%9Di%20Th%C6%B0%20Ng%C6%B0%E1%BB%9Di%20Ch%E1%BB%8B.mp3
+      video_url: https://www.youtube.com/watch?v=X3ers6D3brA
+      read_url: https://cusidieuam.com/2022/04/21/26-cuu-nguoi-nhu-cuu-lua/
+      read_label: 📖 Xem bài gốc
+      summary: 'Em vừa mới niệm Phật ba tiếng đồng hồ trong niệm Phật đường về nhà
+        thì nhận được thư của chị.
+
+        Đọc thư chị mà em cảm động quá, biết chị tin Phật và có lòng lo lắng cho Bác.
+
+        Đây là lòng hiếu thảo đáng quý của người dâu.
+
+        “Hiếu dưỡng phụ mẫu” là điều đầu tiên trong 11 điều tu phước của Phật giáo,
+        nguồn gốc tu học Phật là báo hiếu cha mẹ, phải tận tâm cứu độ mới được.
+
+        Cứu người cấp bách như lửa cháy đầu, cho nên xin anh chị Hai quyết tâm làm
+        ngay những gì em nói.
+
+        Em đã gởi về anh chị Hai hai lá thư mới nhứt nói về sự “Hộ-Niệm”, xin đọc
+        thật kỹ, rồi đem về đọc cho cha má nghe.
+
+        Hãy đọc cho tất cả anh chị em đều nghe thì tự nhiên biết sẽ làm gì.
+
+        Hãy chuẩn bị làm ngay đừng chần chờ.
+
+        Thời gian không chờ mình đâu!
+
+        Làm ngay có nghĩa là tự thực hiện cho chính mình và thực hiện khi có người
+        nhà mình ra đi.
+
+        Còn như vẫn chưa biết làm gì thì cho em biết càng sớm càng tốt, em sẽ nói
+        rõ hơn.
+
+        Em viết cho cha má, nhưng cũng như cho tất cả những cha mẹ khác, tất cả những
+        người con khác, xin đừng ngại đọc cho nhau nghe.'
+    - id: 2
+      tap: 2
+      global_idx: 28
+      title: Cứu Người Như Cứu Lửa – Trả Lời Thư Người Chị Tiếp Theo
+      duration: 1675
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/28%20T2%20C%E1%BB%A9u%20Ng%C6%B0%E1%BB%9Di%20Nh%C6%B0%20C%E1%BB%A9u%20L%E1%BB%ADa%20%E2%80%93%20Tr%E1%BA%A3%20L%E1%BB%9Di%20Th%C6%B0%20Ng%C6%B0%E1%BB%9Di%20Ch%E1%BB%8B%20Ti%E1%BA%BFp%20Theo.mp3
+      video_url: https://www.youtube.com/watch?v=X3ers6D3brA
+      read_url: https://cusidieuam.com/2022/04/21/26-cuu-nguoi-nhu-cuu-lua/
+      read_label: 📖 Xem bài gốc
+      summary: 'Em vừa mới niệm Phật ba tiếng đồng hồ trong niệm Phật đường về nhà
+        thì nhận được thư của chị.
+
+        Đọc thư chị mà em cảm động quá, biết chị tin Phật và có lòng lo lắng cho Bác.
+
+        Đây là lòng hiếu thảo đáng quý của người dâu.
+
+        “Hiếu dưỡng phụ mẫu” là điều đầu tiên trong 11 điều tu phước của Phật giáo,
+        nguồn gốc tu học Phật là báo hiếu cha mẹ, phải tận tâm cứu độ mới được.
+
+        Cứu người cấp bách như lửa cháy đầu, cho nên xin anh chị Hai quyết tâm làm
+        ngay những gì em nói.
+
+        Em đã gởi về anh chị Hai hai lá thư mới nhứt nói về sự “Hộ-Niệm”, xin đọc
+        thật kỹ, rồi đem về đọc cho cha má nghe.
+
+        Hãy đọc cho tất cả anh chị em đều nghe thì tự nhiên biết sẽ làm gì.
+
+        Hãy chuẩn bị làm ngay đừng chần chờ.
+
+        Thời gian không chờ mình đâu!
+
+        Làm ngay có nghĩa là tự thực hiện cho chính mình và thực hiện khi có người
+        nhà mình ra đi.
+
+        Còn như vẫn chưa biết làm gì thì cho em biết càng sớm càng tốt, em sẽ nói
+        rõ hơn.
+
+        Em viết cho cha má, nhưng cũng như cho tất cả những cha mẹ khác, tất cả những
+        người con khác, xin đừng ngại đọc cho nhau nghe.'
+    - id: 3
+      tap: 2
+      global_idx: 29
+      title: Lời Khuyên Cháu Gái – An Lạc Và Hiếu Nghĩa
+      duration: 2099
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/29%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ch%C3%A1u%20G%C3%A1i%20%E2%80%93%20An%20L%E1%BA%A1c%20V%C3%A0%20Hi%E1%BA%BFu%20Ngh%C4%A9a.mp3
+      video_url: https://www.youtube.com/watch?v=9YFXp_Srm0c
+      read_url: https://cusidieuam.com/2022/04/21/27-an-lac-va-hieu-nghia/
+      read_label: 📖 Xem bài gốc
+      summary: 'Cậu đã đọc kỹ thư cháu, trước tiên cậu khen cháu lắm đó.
+
+        Một người trẻ mà có tâm hướng Phật trong một môi trường sinh hoạt khó khăn
+        như cháu thật hiếm có và đáng quý.
+
+        Sự hướng về Phật tu tập không phải là việc tầm thường đâu, đây chính là thiện
+        căn của cháu đã có từ trong những đời trước.
+
+        Ví dụ như khi cậu Năm viết thư về quê cho ông bà ngoại, thì dì Thứ của cháu
+        đã cảm ứng trước tất cả mọi người.
+
+        Đây chính là thiện căn phúc đức và nhân duyên của dì Thứ có đầy đủ hơn so
+        với người khác trong gia đình.
+
+        Trong đời này chúng ta là thân thuộc, vợ chồng, cha con, cậu cháu, anh chị
+        em với nhau… tất cả đều do một duyên nợ từ tiền kiếp nào đó.
+
+        Sau cuộc đời này có thể còn gặp nhau, cũng có thể không bao giờ gặp lại.
+
+        Cuộc sống của một chúng sanh trải dài từ thật lâu xa trong quá khứ vô cùng
+        cho đến mãi về tương lai thời gian vô tận.
+
+        Cháu hãy tưởng tượng có hai sợi chỉ thật dài, bỗng nhiên nó nhập lại một cái
+        gút, rồi sau đó lại tiếp tục đi tiếp.
+
+        Mỗi sợi chỉ tượng trưng một mạng sống, hai sợi chỉ gút lại là cái duyên nợ
+        ân oán với nhau trong đời này.
+
+        Thời gian chúng ta ở chung với nhau nó dài cũng giống như cái gút so với chiều
+        dài sợi chỉ vậy cháu ạ.
+
+        Khi cháu hiểu được Phật pháp rồi cháu sẽ thấy rõ ràng những sợi chỉ đó và
+        những cái gút đó.'
+    - id: 4
+      tap: 2
+      global_idx: 30
+      title: Lời Khuyên Người Bác – Đời Như Một Giấc Mộng
+      duration: 1415
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/30%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%C3%A1c%20%E2%80%93%20%C4%90%E1%BB%9Di%20Nh%C6%B0%20M%E1%BB%99t%20Gi%E1%BA%A5c%20M%E1%BB%99ng.mp3
+      video_url: https://www.youtube.com/watch?v=OmMYBGD7-dU
+      read_url: https://cusidieuam.com/2022/04/21/28-doi-nhu-mot-giac-mong/
+      read_label: 📖 Xem bài gốc
+      summary: 'Hôm trước cháu có nhận được thư cháu Tuyết cho biết bác đang bị bệnh.
+
+        Từ xa xôi cháu không biết gì hơn thành tâm cầu Phật gia trì cho bác.
+
+        Nghe cháu Tuyết nói rằng bác đã phát tâm niệm Phật, cháu mừng lắm.
+
+        Nếu vững lòng tin, chí thành niệm Phật, nguyện cầu sanh về Tây-phương thì
+        bác dễ được sự cảm ứng đạo giao, hoặc là sớm bình phục, hoặc có mãn báo thân
+        này thì bác được hoàn thành viên mãn giải thoát.
+
+        Phật pháp lý đạo cao siêu, thậm thâm vi diệu, không thể nào chỉ trong một
+        lá thư tầm thường mà cháu có thể giải thích cho trọn.
+
+        Hãy lấy niềm tin để đi về đất Phật bác ạ.
+
+        Cuộc đời có khác gì một giấc mộng đâu bác!
+
+        Ai hiểu đạo thì tìm cách thoát cảnh mộng để trở về với cảnh giác.
+
+        Người mê muội thì vừa thoát cơn mộng này thì chìm vào cơn mộng khác, triền
+        miên trong mộng khó có ngày thoát thân.
+
+        Đêm đêm ta nằm trong tiểu mộng, thì cuộc đời này từ lúc sinh ra đến lúc buông
+        tay cũng chỉ là một đại mộng!
+
+        Khi một người về đến Tây Phương Cực-lạc rồi, họ quay nhìn xuống thì bảy tám
+        mươi năm của con người trên thế gian này cũng chỉ là tiểu mộng mà thôi, vì
+        đối với thời gian vô cùng vô tận ở cõi Tâyphương thì đây chỉ là một giấc ngủ
+        trưa của họ.
+
+        Cháu thành tâm cầu nguyện cho bác được thoát nạn trong đời.'
+    - id: 5
+      tap: 2
+      global_idx: 31
+      title: Lời Khuyên Em Gái – Niệm Phật Con Đường Cứu Mẹ
+      duration: 2090
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/31%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Con%20%C4%90%C6%B0%E1%BB%9Dng%20C%E1%BB%A9u%20M%E1%BA%B9.mp3
+      video_url: https://www.youtube.com/watch?v=jW3GZIZWELA
+      read_url: https://cusidieuam.com/2022/04/21/29-niem-phat-con-duong-cuu-me/
+      read_label: 📖 Xem bài gốc
+      summary: 'Anh Năm vừa thực hiện một chuyến ngao du xa hơn một nửa quả địa cầu
+        mới về.
+
+        Anh đi ngay trong thời điểm mà tụi khủng bố cướp 4 chiếc máy bay tấn công
+        nước Mỹ.
+
+        Ngày 11/9/01 hai chiếc máy bay tông vào hai tòa nhà cao nhất thế giới (trung
+        tâm mậu dịch thế giới) ở New York thì anh Năm đang ở bên đó, chỉ mới vừa rời
+        Mỹ đi qua Toronto ở Canada, một nước sát cạnh Mỹ, có thể lái xe qua lại được.
+
+        Khi vừa tới nhà thì anh Năm nhận được thư em.
+
+        Đầu thư cho anh gởi lời thăm Thành, và chúc toàn gia đình em an khương, hạnh
+        phúc.
+
+        Vân, đọc thư em mà anh Năm vui buồn lẫn lộn(!).
+
+        Vui vì nhìn lại được nét bút của em vẫn như xưa, vẫn như ngày mình còn trẻ,
+        em là đứa em dễ thương và có lẽ thương anh Năm nhiều nhất.
+
+        Buồn vì nay lại hay tin cô Bốn bị bệnh đang nằm trong bệnh viện.
+
+        Cô bệnh mà còn nhớ tới anh Năm và nhắn em nhờ anh Năm đọc kinh “Thủy Sám”
+        cho cô.
+
+        Anh Năm đã để tên cầu an cho cô trong Niệm Phật Đường rồi, cầu cho cô sớm
+        giải nạn.
+
+        Đời thật là vô thường, thật là huyễn hóa, phải không em?!
+
+        Vân, anh có xuất gia hồi nào đâu mà hỏi ở chùa hay ở nhà?'
+    - id: 6
+      tap: 2
+      global_idx: 32
+      title: Lời Khuyên Cô Bốn – Niệm Phật Phương Pháp Giải Nạn
+      duration: 2524
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/32%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20C%C3%B4%20B%E1%BB%91n%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Ph%C6%B0%C6%A1ng%20Ph%C3%A1p%20Gi%E1%BA%A3i%20N%E1%BA%A1n.mp3
+      video_url: https://www.youtube.com/watch?v=26uBRVcp9MQ
+      read_url: https://cusidieuam.com/2022/04/21/30-niem-phat-phuong-phap-giai-nan/
+      read_label: 📖 Xem bài gốc
+      summary: 'Con nhận được thư của Vân mới hay cô bị bệnh đang nằm trong bệnh viện.
+
+        Nghe được tin này con buồn vô cùng.
+
+        Trong cơn bệnh cô còn nhớ tới con.
+
+        Con đã để tên cầu an cho cô trong Niệm Phật Đường nơi con thường tới hằng
+        ngày để niệm Phật.
+
+        Cầu chư Phật mười phương gia hộ cho cô, người cô con thương nhất trong đời.
+
+        Thưa cô, trong thư của Vân có nhờ con tụng kinh Thủy-Sám để cầu giải nghiệp
+        cho cô.
+
+        Con biết chắc có lẽ cô Ba cũng đã đọc tụng kinh đó rồi.
+
+        Cầu xin cho cô được sớm bình phục.
+
+        Kinh Thủy-Sám xuất hiện vào thời nhà Đường bên Trung Quốc, Ngài Ngộ Đạt Thiền
+        Sư gặp nạn mới lập đàn đó giải nạn cho Ngài.
+
+        Vào thời đó con người còn tin Phật, tánh tình còn hiền lương, tâm địa còn
+        thanh tịnh.
+
+        Với lại đàn được lập nên bởi một vị quốc sư thì phải có cả hàng ngàn Tăng
+        Ni trong nước thành tâm tụng cầu, toàn dân hộ niệm, mới giải được cho Ngài.
+
+        Bây giờ đã rơi vào thời mạt pháp rồi, lòng người ly loạn, tư tưởng điên đảo,
+        chí hướng chạy theo vật dục, tinh thần xa lìa Phật pháp… cái nghiệp chướng
+        của con người thời đại này lớn vô cùng vô tận thì tụng kinh Thủy-Sám cũng
+        tốt, nhưng thành thực mà nói thì rất khó giải nạn được?!'
+    - id: 7
+      tap: 2
+      global_idx: 33
+      title: Lời Khuyên Em Gái – Niệm Phật Với Lời Phát Nguyện
+      duration: 2552
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/33%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20V%E1%BB%9Bi%20L%E1%BB%9Di%20Ph%C3%A1t%20Nguy%E1%BB%87n.mp3
+      video_url: https://www.youtube.com/watch?v=OKnah9kVSvw
+      read_url: https://cusidieuam.com/2022/04/21/31-niem-phat-voi-loi-phat-nguyen/
+      read_label: 📖 Xem bài gốc
+      summary: 'Hôm Tết nói chuyện được với em anh Năm mừng lắm.
+
+        Nếu những lá thư anh gởi về khuyên cha má tu hành được anh chị em, bà con
+        xem qua và tin tưởng thực hiện thì không còn gì quý báu hơn.
+
+        Nó quý hơn là được tiền, vì sao?
+
+        Một triệu đô-la trước sau gì cũng hết, vài chục năm rồi mình cũng bỏ mà đi,
+        hơn nữa nhiều tiền chưa chắc đã phước, không khéo sinh ra tự cao tự đại, ỷ
+        giàu có mà gây ra tội ác, để sau cùng chịu nạn.
+
+        Khi không hiểu thì mình sống bừa bãi, khi biết được rồi nhiều lúc nghĩ lại
+        những sai lầm của mình làm anh Năm sợ toát mồ hôi!
+
+        Anh Năm may mắn đi khắp nơi, từ Âu sang Á, anh mới mở được con mắt tuệ ra,
+        đây cũng là một cơ duyên hiếm có.
+
+        Anh phát hiện được cái thậm thâm vi diệu của Phật pháp, cái sự thật của vũ
+        trụ nhân sinh, cho nên anh tha thiết khuyên em, cùng tất cả giòng họ mình,
+        bà con trong làng xóm, tất cả mọi người, hãy mau mau tỉnh ngộ, nhất là những
+        người lớn tuổi với tháng ngày mong manh còn sót lại, hãy nên niệm Phật cầu
+        sanh Tịnh-độ, đây là phước đức lớn vô tận.
+
+        Thơ này phần đầu anh nói cho em vài lý đạo thật căn bản của Phật học.
+
+        Vì em hồi giờ chưa biết Phật pháp thì anh chỉ nói những gì căn bản nhứt, dễ
+        hiểu nhứt.
+
+        Bắt được cái đầu mối rồi, sau đó tự nhiên em thâm nhập kinh tạng của Phật.
+
+        Còn phần hai, anh sẽ nói về những hiện tượng em đã thấy.
+
+        Sau này nếu có gì lạ nên cho anh Năm biết liền.'
+    - id: 8
+      tap: 2
+      global_idx: 34
+      title: Lời Khuyên Em Gái – Niệm Phật Con Đường Thành Phật
+      duration: 1704
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/34%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Con%20%C4%90%C6%B0%E1%BB%9Dng%20Th%C3%A0nh%20Ph%E1%BA%ADt.mp3
+      video_url: https://www.youtube.com/watch?v=gafM-wxu42o
+      read_url: https://cusidieuam.com/2022/04/21/32-niem-phat-con-duong-thanh-phat/
+      read_label: 📖 Xem bài gốc
+      summary: 'Anh đang bận lắm nhưng cũng cố gắng viết thư cho em vì anh nghĩ trong
+        gia đình mình nếu có được người nào phát tâm niệm Phật thì cũng là một đại
+        phước cho chính người đó và cũng là đại phước chung, vì những người khác cũng
+        ít nhiều hưởng theo.
+
+        Mới vừa rồi anh nhận được thư của em Hồng con cô Sáu, vì một thiện duyên,
+        Hồng về quê đọc được thư của anh gởi cho cha, nhờ thư đó mà Hồng đã ngộ được
+        đạo.
+
+        Theo như thư Hồng nói đã thường tới chùa tu hành trong bảy năm qua, nhưng
+        vẫn mơ mơ hồ hồ không biết đường nào đi rõ rệt, nên cứ thờ thẫn chờ một cơ
+        may nào đó để gặp thiện tri thức hay minh sư dìu dắt.
+
+        Đến khi đọc được thư của anh gởi về cha má, chợt ngộ ra được, Hồng rất là
+        vui mừng!
+
+        Đọc thư của Hồng, anh Năm vừa cảm động vừa sung sướng.
+
+        Cảm động vì lời thư tha thiết muốn tu học, mừng vì dù sao anh cũng giúp được
+        thêm người nữa trong đại gia đình của mình.
+
+        Anh sẽ viết thư và trực tiếp hướng dẫn cho em Hồng tu học.
+
+        Người ngoài mà anh còn giúp thay huống chi là anh chị em trong gia đình.
+
+        Sự đời có nhiều chuyện lạ, có người mình muốn giúp họ cũng khó mà giúp, có
+        người thì lại tìm mình xin được giúp.
+
+        Rõ ràng tất cả đều do cái duyên, ai có thiện căn phước đức thì không tìm cũng
+        tự nhiên đến.
+
+        Ngày 26/2/2001, Niệm Phật Đường ở đây mở một khóa kiết thất thứ hai trong
+        năm 2001.
+
+        Khóa tu chỉ có bảy ngày để kỷ niệm bà Hán quản tràng ở Singapore đã vãng sanh
+        cách đây bốn năm.'
+    - id: 9
+      tap: 2
+      global_idx: 35
+      title: Lời Khuyên Em Gái – Niệm Phật Một Lòng Tin Phật
+      duration: 2098
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/35%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20M%E1%BB%99t%20L%C3%B2ng%20Tin%20Ph%E1%BA%ADt.mp3
+      video_url: https://www.youtube.com/watch?v=dr_-FFeJXEs
+      read_url: https://cusidieuam.com/2022/04/21/32-niem-phat-mot-long-tin-phat/
+      read_label: 📖 Xem bài gốc
+      summary: 'Đúng như theo thư hôm trướùc anh hứa, là sẽ giải thích thêm cho em
+        ba món tư lương quan trọng trong việc niệm Phật, đó là TÍN-NGUYỆN-HẠNH.
+
+        Anh đã nói qua Nguyện và Hạnh rồi hôm nay anh nói về chữ TÍN một chút cho
+        em nắm căn bản của pháp tu, để cho em yên tâm, rồi sau đó dần dần anh bổ túc
+        thêm.
+
+        Nên nhớ đừng nôn nóng, đừng vội vã, cứ tự nhiên bình thản trong tất cả mọi
+        trường hợp cho tâm thanh tịnh.
+
+        Em nói anh Năm viết thư hay thì coi phải vui vẻ làm theo, chứ nói hay mà coi
+        thì khóc là sao?
+
+        Đừng để tâm từ bi phát triển nhiều quá không tốt.
+
+        Mấy câu hỏi của em hay lắm, anh sẽ giải thích liền ở cuối thư.
+
+        Những thư này khơi cho em vài căn bản trước, sau khi căn bản có rồi anh tìm
+        cách gởi video, cassette thuyêùt pháp về cho em.
+
+        Anh ở đây rất nhiều băng pháp Phật, nếu có duyên chắc chắn em sẽ có.
+
+        Nên nhớ băng giảng thì phải có tên, chứ em nói cuộn số 2, thì anh biết cuộn
+        nào, thuộc bộ nào?
+
+        TÍN: Chữ TÍN khó lắm đó, không dễ dàng đâu, sau này rồi em sẽ thấy, đem chuyện
+        niệm Phật thành Phật nói với người đời, 100 người chưa chắc tìm được một người
+        tin đâu.
+
+        Vì con người đời nay ít làm thiện tích phước, lại ưa thích làm việc ác, tạo
+        ra nhiều nghiệp chướng.
+
+        Chính cái nghiệp chướng này đã làm trở ngại con đường giải thoát của họ.'
+    - id: 10
+      tap: 2
+      global_idx: 36
+      title: Lời Khuyên Em Gái – Niệm Phật Cần Giữ Tâm Thanh Tịnh
+      duration: 1783
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/36%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20C%E1%BA%A7n%20Gi%E1%BB%AF%20T%C3%A2m%20Thanh%20T%E1%BB%8Bnh.mp3
+      video_url: https://www.youtube.com/watch?v=qfFgt7tEFJk
+      read_url: https://cusidieuam.com/2022/04/21/33-niem-phat-can-giu-tam-thanh-tinh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Anh Năm nhận được thư em viết giùm cho cha, trong đó có đoạn thư của
+        em.
+
+        Đọc thư vừa thương cha má vừa thương em.
+
+        Cứ mỗi lần nhận thư như vậy anh Năm muốn viết nhiều thật nhiều cho cha má,
+        thật nhiều cho em và cho những anh chị em khác.
+
+        Nhưng cái gì cũng tùy theo cái duyên, không thể phan duyên làm thầy dạy đời
+        bừa bãi được.
+
+        Anh Năm còn rất nhiều lời để viết cho cha má, nhưng tạm thời anh viết cho
+        em trước, rồi sau đó tùy duyên anh sẽ làm tiếp.
+
+        Vừa rồi anh cố gắng nhờ người chuyển băng giảng pháp về cho cha má nhưng không
+        được.
+
+        Tiếc quá, vì đó là những lời Pháp của Ngài Tịnh Không mà giới Phật giáo khắp
+        nơi trên thế giới ngày nay họ coi là bảo vật vô giá.
+
+        VN mình chưa đủ phước đức để nghe vì phải chờ dịch lần qua tiếng Việt.
+
+        Muốn dịch cho hết lời pháp này, nếu chuyên tâm, phải mất ít nhất nửa thế kỷ
+        nữa may ra mới dịch hết một phần.
+
+        Tuy nhiên chuyển âm được phần nào anh cố gắng gởi về phần đó.
+
+        Nên nhớ vì phương tiện gởi quá khó khăn, nên phải cẩn thận sao ra giữ bản
+        gốc trước khi dùng
+
+        Em, anh Năm hơi buồn khi nhận được thư!'
+    - id: 11
+      tap: 2
+      global_idx: 37
+      title: Lời Khuyên Em Gái – Đời Là Mộng Nhân Quả Là Thực
+      duration: 1489
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/37%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20%C4%90%E1%BB%9Di%20L%C3%A0%20M%E1%BB%99ng%20Nh%C3%A2n%20Qu%E1%BA%A3%20L%C3%A0%20Th%E1%BB%B1c.mp3
+      video_url: https://www.youtube.com/watch?v=hk-yxtF5K0U
+      read_url: https://cusidieuam.com/2022/04/21/34-doi-la-mong-nhan-qua-la-thuc/
+      read_label: 📖 Xem bài gốc
+      summary: 'Anh Năm đã nhận được thư em, đọc kỹ, thấy em có tu hành, anh mừng
+        lắm.
+
+        Đó là em có căn duyên tốt, nhất là em đã hướng dẫn con em, Ngọc Hiền, đi xuất
+        gia.
+
+        Hôm trước Thứ cũng có nhắc đến em.
+
+        Trên đời này người gặp được Phật pháp cũng là căn duyên nhiều đời nhiều kiếp
+        rồi chứ không phải dễ.
+
+        Riêng anh khi gặp được pháp môn niệm Phật, bỗng nhiên anh thấy được cái lý
+        đạo thậm thâm vi diệu trong tiếng niệm “Nam-mô A-di-đà Phật”.
+
+        Anh lập tức quay đầu lạy Phật, niệm Phật cầu sanh Tịnh-độ.
+
+        Đây là pháp môn chắc chắn anh sẽ giữ cho đến ngày vãng sanh mà thôi, không
+        thay đổi.
+
+        Chị Năm em cũng thấy được đường tu hành từ tiếng niệm Phật, nhất là trong
+        gia đình của nàng đã có bà nội niệm Phật vãng sanh cách đây mấy mươi năm.
+
+        Bà biết trước ngày ra đi, an nhiên niệm Phật ra đi lúc 96 tuổi.
+
+        Bà không xuất gia, thỉnh thoảng đi chùa.
+
+        Suốt đời chỉ thờ một bức tượng Phật A-di-đà và niệm “Nam-mô A-di-đà Phật”
+        suốt ngày.
+
+        Khi đó chị Năm còn nhỏû, cả nhà ít ai hiểu gì về Phật pháp, bà nội có khuyên
+        con cháu niệm Phật nhưng ai ai cũng lo làm kiếm tiền, không thèm để ý tới
+        những lời của bà cụ già lẩm cẩm!'
+    - id: 12
+      tap: 2
+      global_idx: 38
+      title: Lời Khuyên Em Gái – Phải Tu Theo Lời Phật Dạy
+      duration: 1558
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/38%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Ph%E1%BA%A3i%20Tu%20Theo%20L%E1%BB%9Di%20Ph%E1%BA%ADt%20D%E1%BA%A1y.mp3
+      video_url: https://www.youtube.com/watch?v=qfFgt7tEFJk
+      read_url: https://cusidieuam.com/2022/04/21/35-phai-tu-theo-loi-phat-day/
+      read_label: 📖 Xem bài gốc
+      summary: 'Anh Năm vừa nhận được thư em, anh viết liền cho em đây vì thư em đã
+        mở ra mấy vấn đề khá hay.
+
+        Hồng cũng đang chờ thư anh nhưng anh ưu tiên cho em trước đó.
+
+        Đọc thư em, anh biết được em đã nghiên cứu nhiều về Phật học.
+
+        Đó là hữu duyên với Phật pháp.
+
+        Anh cũng mới mò mẫn đây thôi chứ không phải “đạo pháp cao” như em tưởng đâu!
+
+        Anh cảm ơn em đã thường về thăm cậu mợ.
+
+        Thư anh viết cho cậu mợ gởi kèm theo cho em, là để gợi ý cho em bắt chước
+        làm theo, khuyên cô Sáu niệm Phật, để em trả chữ hiếu làm con, thế thôi.
+
+        Em Ngọc, Niệm Phật thành Phật là pháp môn bất khả tư nghì.
+
+        Một người căn tánh bình thường không dễ gì tin được đâu!
+
+        Một người căn tánh cao mà thiện căn phước đức không có cũng khó mà thể ngộ.
+
+        Pháp của Phật để lại gần ba ngàn năm rồi mà nay vẫn còn nhiều người nghi ngờ
+        đúng hay sai!
+
+        Chính vì thế, cơ hội giải thoát của chúng sanh vẫn còn hiếm hoi, rất khó có
+        được.'
+    - id: 13
+      tap: 2
+      global_idx: 39
+      title: Lời Khuyên Em Gái – Tổng Quát Về Sự Hộ Niệm
+      duration: 1506
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/39%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20T%E1%BB%95ng%20Qu%C3%A1t%20V%E1%BB%81%20S%E1%BB%B1%20H%E1%BB%99%20Ni%E1%BB%87m.mp3
+      video_url: https://www.youtube.com/watch?v=XGAHkGd9H5k
+      read_url: https://cusidieuam.com/2022/04/21/36-tong-quat-ve-su-ho-niem/
+      read_label: 📖 Xem bài gốc
+      summary: 'Trong một hoàn cảnh khó khăn bận bịu mà em cùng quý bác và anh chị
+        em đã cố gắng tạo được một “Niệm Phật Đường” nhỏ và mỗi ngày gặp nhau tinh
+        tấn niệm Phật thật là quý hóa.
+
+        Hãy quyết tâm tin tưởng vào lời Phật dạy, niệm Phật cầu sanh về Tây-phương.
+
+        Trong đời này chúng ta gặp nhau rồi cùng nhau niệm Phật chính là một duyên
+        lành, anh nhớ từng khuôn mặt dễ thương của tất cả quý bác và anh chị em ở
+        An Thái, nhưng tên thì có người còn nhớ, có người chưa biết.
+
+        Nếu có dịp chụp chung một bô hình rồi ghi hết tên gởi sang Úc thì hay quá.
+
+        Hãy cố gắng giúp đỡ lẫn nhau, khuyến tấn tu hành, Ngọc thấy có gì cần anh
+        giúp đỡ thì cho anh biết.
+
+        Nguyện cầu A-di-đà Phật gia trì cứu độ tất cả được vãng sanh Tịnh-độ, một
+        báo thân này viên thành Phật đạo.
+
+        Anh không bao giờ quên em cùng quý bác, quý anh chị em ở An Thái đã lặn lội
+        xa xăm vào niệm Phật với anh.
+
+        Anh Năm rất sung sướng và cảm động khi nghe em nói rằng tất cả quý bác sẵn
+        sàng vào hộ niệm cho cha má anh khi cần.
+
+        Anh rất tán thán ý kiến này, đây là tâm lượng Bồ-tát.
+
+        Người tu hành chân chánh là vậy đó, khi đã biết được con đường giải thoát
+        thì nên thành tâm phát nguyện cứu giúp người khác, bằng cách khuyên người
+        niệm Phật, quyết tâm hộ niệm cho nhau, mong cho từng người được vãng sanh
+        Tây-phương Cựclạc.
+
+        Hãy chân thành để làm thì tự nhiên có sự cảm ứng.
+
+        Cứu người không ngại khó khăn, không cần trả ơn, nghe được một người vãng
+        sanh ta mừng như chính ta được vãng sanh vậy.'
+    - id: 14
+      tap: 2
+      global_idx: 40
+      title: Lời Khuyên Em Gái – Tổng Quát Về Sự Hộ Niệm (tiếp Theo)
+      duration: 1764
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/40%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20T%E1%BB%95ng%20Qu%C3%A1t%20V%E1%BB%81%20S%E1%BB%B1%20H%E1%BB%99%20Ni%E1%BB%87m%20%28ti%E1%BA%BFp%20Theo%29.mp3
+      video_url: https://www.youtube.com/watch?v=XGAHkGd9H5k
+      read_url: https://cusidieuam.com/2022/04/21/36-tong-quat-ve-su-ho-niem/
+      read_label: 📖 Xem bài gốc
+      summary: 'Trong một hoàn cảnh khó khăn bận bịu mà em cùng quý bác và anh chị
+        em đã cố gắng tạo được một “Niệm Phật Đường” nhỏ và mỗi ngày gặp nhau tinh
+        tấn niệm Phật thật là quý hóa.
+
+        Hãy quyết tâm tin tưởng vào lời Phật dạy, niệm Phật cầu sanh về Tây-phương.
+
+        Trong đời này chúng ta gặp nhau rồi cùng nhau niệm Phật chính là một duyên
+        lành, anh nhớ từng khuôn mặt dễ thương của tất cả quý bác và anh chị em ở
+        An Thái, nhưng tên thì có người còn nhớ, có người chưa biết.
+
+        Nếu có dịp chụp chung một bô hình rồi ghi hết tên gởi sang Úc thì hay quá.
+
+        Hãy cố gắng giúp đỡ lẫn nhau, khuyến tấn tu hành, Ngọc thấy có gì cần anh
+        giúp đỡ thì cho anh biết.
+
+        Nguyện cầu A-di-đà Phật gia trì cứu độ tất cả được vãng sanh Tịnh-độ, một
+        báo thân này viên thành Phật đạo.
+
+        Anh không bao giờ quên em cùng quý bác, quý anh chị em ở An Thái đã lặn lội
+        xa xăm vào niệm Phật với anh.
+
+        Anh Năm rất sung sướng và cảm động khi nghe em nói rằng tất cả quý bác sẵn
+        sàng vào hộ niệm cho cha má anh khi cần.
+
+        Anh rất tán thán ý kiến này, đây là tâm lượng Bồ-tát.
+
+        Người tu hành chân chánh là vậy đó, khi đã biết được con đường giải thoát
+        thì nên thành tâm phát nguyện cứu giúp người khác, bằng cách khuyên người
+        niệm Phật, quyết tâm hộ niệm cho nhau, mong cho từng người được vãng sanh
+        Tây-phương Cựclạc.
+
+        Hãy chân thành để làm thì tự nhiên có sự cảm ứng.
+
+        Cứu người không ngại khó khăn, không cần trả ơn, nghe được một người vãng
+        sanh ta mừng như chính ta được vãng sanh vậy.'
+    - id: 15
+      tap: 2
+      global_idx: 41
+      title: Lời Khuyên Quý Bác Đồng Tu – Hộ Niệm Và Gia Đình
+      duration: 2411
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/41%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Qu%C3%BD%20B%C3%A1c%20%C4%90%E1%BB%93ng%20Tu%20%E2%80%93%20H%E1%BB%99%20Ni%E1%BB%87m%20V%C3%A0%20Gia%20%C4%90%C3%ACnh.mp3
+      video_url: https://www.youtube.com/watch?v=B-3j5uhHL-Q
+      read_url: https://cusidieuam.com/2022/04/21/37-ho-niem-va-gia-dinh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Nghe được tin quý bác rất tinh tấn tu hành, ngày ngày đều hội nhau
+        niệm Phật, cháu vui lắm.
+
+        Lại nghe nói rằng quý bác rất thích đọc thư của cháu viết về, nhiều hôm đọc
+        thư cháu cho mọi người cùng nghe trong những buổi niệm Phật, làm cho cháu
+        không những vui mà còn vô cùng cảm động.
+
+        Nếu những lá thư đó được nhiều người thích đọc, thích nghe theo tu hành, thì
+        cháu rất vui vì đã làm được một chút ít việc để đền đáp ơn Phật.
+
+        Tri ân báo ân, khả năng của cháu chỉ biết khuyên người niệm Phật.
+
+        Trong thời mạt pháp này, niệm Phật vãng sanh Tây-phương là con đường ta phải
+        chọn, để một đời thoát ly sanh tử luân hồi, viên thành đạo quả, nhất là đối
+        với một chúng sanh có nhiều nghiệp chướng như chúng ta.
+
+        Hình Phật cháu đã gởi về rồi, nếu trong làng xóm có người nào cần thì quý
+        bác cứ tặng cho họ, thiếu thì cháu tìm cách gởi thêm.
+
+        Khi nhận được hình Phật dễ dàng hoặc có trở ngại gì thì cũng cho cháu biết
+        liền để cháu tìm cách gởi tiếp.
+
+        Còn về sự hộ niệm thì đúng thật là tối quan trọng.
+
+        Chỉ cần một câu hỏi đơn giản như vậy, cháu cũng cảm nhận được rằng quý bác
+        thật sự đã tin đúng chỗ, đi đúng đường, cầu đúng sự.
+
+        Tu hành muốn thành đạo thì cần nhất là phải đi thẳng tắp và đi cho đúng.
+
+        Quý bác quyết thành tâm tu hành đứng đắn, y theo giáo Phật phụng hành, thì
+        tự nhiên mọi chuyện sẽ diễn biến tốt đẹp, tất cả mọi sự đã có chư Phật chư
+        Bồ-tát gia trì.
+
+        Thành công hay không là chính mình có thực sự muốn vãng sanh về với Phật hay
+        không mà thôi.'
+    - id: 16
+      tap: 2
+      global_idx: 42
+      title: Lời Khuyên Em Gái – Tu Hành Cần Hợp Căn Hợp Thời
+      duration: 2177
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/42%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Tu%20H%C3%A0nh%20C%E1%BA%A7n%20H%E1%BB%A3p%20C%C4%83n%20H%E1%BB%A3p%20Th%E1%BB%9Di.mp3
+      video_url: https://www.youtube.com/watch?v=fkBxflesjVk
+      read_url: https://cusidieuam.com/2022/04/21/38-tu-hanh-can-hop-can-hop-thoi/
+      read_label: 📖 Xem bài gốc
+      summary: 'Anh Năm đã nhận được thư em.
+
+        Đọc thư em anh rất cảm động.
+
+        Mới cầm thư và thấy cái tên ngoài bìa là anh đã nhận ra em ngay.
+
+        Hồi tưởng lại những ngày còn sống ở cái nhà nhỏ xíu ở đường Bạch Đằng Qui
+        Nhơn, thật là vui.
+
+        Anh còn nhớ anh có người em tên Hồng trắng đẹp như nàng tiên, hiền và dễ thương
+        vô cùng.
+
+        Hồi đó em còn nhỏ xíu, anh Năm thì cũng đã biết xấc lấc rồi.
+
+        Thế mà thời gian đã 30 năm trôi qua.
+
+        Thời gian giống như một giấc mơ.
+
+        Anh Năm vẫn tưởng tượng được em vẫn xinh xắn, vẫn dễ thương, vẫn hiền như
+        một tiên nữ xưa kia.
+
+        Anh Năm chúc em cùng gia đình hạnh phúc, an lạc.
+
+        Em Hồng, anh rất mừng khi đọc được thư em, rất mừng là vì em hiểu đạo, và
+        cũng rất mừng vì những thư anh Năm viết về cho gia đình có nhiều người thích
+        đọc, nhiều người thích nghe.
+
+        Khi hiểu được Phật pháp anh Năm mới thấy tội nghiệp cho con người.'
+    - id: 17
+      tap: 2
+      global_idx: 43
+      title: Lời Khuyên Em Gái – Chuyên Tu Thành Tựu Cao
+      duration: 1430
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/43%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Chuy%C3%AAn%20Tu%20Th%C3%A0nh%20T%E1%BB%B1u%20Cao.mp3
+      video_url: https://www.youtube.com/watch?v=mMmoC5L7-Sk
+      read_url: https://cusidieuam.com/2022/04/21/39-chuyen-tu-thanh-tuu-cao/
+      read_label: 📖 Xem bài gốc
+      summary: 'Hầu hết ai cũng muốn nghiên cứu cho nhiều kinh sách để hiểu Phật pháp.
+
+        Họ nghĩ rằng nhờ hiểu kinh điển thì lý đạo mới thông và tu hành mới tiến bộ.
+
+        Trong khi đó nhiều thư anh lại khuyên ngược lại, sách báo nên coi càng ít
+        càng tốt, kinh Phật nên biết càng ít càng hay.
+
+        Nghe qua có vẻ ngược ngạo, khó có ai chấp nhận!
+
+        Nếu như sách vở, báo chí, phim ảnh, v.v..
+
+        là sản phẩm của con người, thuộc về tri thức của thế gian, người tu hành nên
+        giảm tối đa hoặc cắt đứt hẳn là điều có thể chấp nhận, nhưng còn kinh Phật
+        tại sao lại cũng giảm thiểu?
+
+        Thực ra, đây là lời của HT Tịnh Không dạy chứ không phải anh.
+
+        Ngài dạy rằng, tu hành ta chỉ chọn một bộ kinh nào thích hợp nhất rồi chuyên
+        tâm trì tụng một bộ kinh đó thôi, thì sẽ rất dễ thành tựu.
+
+        “Nhất kinh thông, nhất thiết kinh thông”, thông hiểu được một bộ kinh thì
+        tất cả kinh điển từ đó mà thông theo.
+
+        Cho nên kinh điển trì tụng nên chọn lựa càng ít càng tốt, nếu người nào chỉ
+        chuyên trì tụng một bộ kinh thì tốt nhứt.
+
+        Ngài dạy rằng, trong tông Tịnhđộ có tất cả năm bộ kinh và một bộ luận, gọi
+        là ngũ kinh nhất luận, người nào chỉ chọn một bộ kinh cùng trì giữ câu Phật
+        hiệu A-di-đà Phật suốt đời, người đó có thể được vãng sanh phẩm vị cao, còn
+        ai tham tụng, tham nghiên cứu càng nhiều kinh thì phẩm vị càng thấp.
+
+        Người nào ngoài ngũ kinh Tịnh-độ ra mà cảm thấy chưa đủ, còn muốn nghiên cứu
+        thêm, muốn trì tụng nhiều các kinh khác nữa, thì cơ hội vãng sanh không bảo
+        đảm!'
+    - id: 18
+      tap: 2
+      global_idx: 44
+      title: Lời Khuyên Người Cô – Làm Lành Để Chuyển Nghiệp
+      duration: 1229
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/44%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20C%C3%B4%20%E2%80%93%20L%C3%A0m%20L%C3%A0nh%20%C4%90%E1%BB%83%20Chuy%E1%BB%83n%20Nghi%E1%BB%87p.mp3
+      video_url: https://www.youtube.com/watch?v=8DWw1nA8AwE
+      read_url: https://cusidieuam.com/2022/04/21/42-lam-lanh-de-chuyen-nghiep/
+      read_label: 📖 Xem bài gốc
+      summary: 'Năm mới con viết thư về thăm cô và tất cả các em.
+
+        Cầu Phật gia trì cho cô và gia đình thân tâm an lạc.
+
+        Đúng ra con định viết thư cho Cô lâu lắm rồi, nhưng không viết được.
+
+        Hằng ngày thời khóa niệm Phật đã chiếm hết thời giờ, công việc riêng chỉ còn
+        dành vài mươi phút lúc nghỉ để làm.
+
+        Mới đây con lại không được khỏe lắm, cho nên trong khoảng thời gian này con
+        không liên lạc được với ai cả.
+
+        Vừa rồi qua điện thoại, vài phút nói chuyện con nghe cô nói còn đang bệnh,
+        cô cảm thấy buồn vì niệm Phật nhiều lắm mà sao không thấy giảm bớt?
+
+        Không biết cái nghiệp chướng gì mà nặng dữ vậy?
+
+        Bao giờ mới hết nghiệp đây?
+
+        Mong rằng trong năm mới cô chóng được bình phục, vui hơn.
+
+        Học Phật, nếu thấu rõ đường đi, thấy rõ kết quả thì mình vui nhiều lắm.
+
+        Còn nếu mờ mịt thì sống thấy khổ, tu hành cũng dễ chao đảo, dễ mất niềm tin,
+        mất nguồn vui.
+
+        Hôm nay, trước tiên con xin kể cho cô một câu chuyện vui, chuyện một bà bác
+        vừa mới vãng sanh tại đây.'
+    - id: 19
+      tap: 2
+      global_idx: 45
+      title: Lời Khuyên Em Gái – Buông Xả Niệm Phật Vãng Sanh
+      duration: 2138
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/45%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Em%20G%C3%A1i%20%E2%80%93%20Bu%C3%B4ng%20X%E1%BA%A3%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20V%C3%A3ng%20Sanh.mp3
+      video_url: https://www.youtube.com/watch?v=gV5nL5PcKAY
+      read_url: https://cusidieuam.com/2022/04/21/40-buong-xa-niem-phat-vang-sanh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Khi nhận được thư này thì em hãy liên lạc ngay với An để nhận những
+        cuộn video giảng pháp của HT Tịnh-Không, rất quý, trong đó có một cuộn có
+        tựa đề là “Hoa Khai Kiến Phật”, chính là cuộn “Triệu Vinh Phương lão cư sĩ
+        vãng sanh lục ảnh”.
+
+        Cuộn phim này quay tại chỗ sự việc bà cụ Triệu Vinh Phương niệm Phật vãng
+        sanh năm 1999 tại Trung Quốc.
+
+        Chắc em đã nghe được rồi trong những thư khác của anh phải không?
+
+        Theo anh Năm nghĩ, người nào coi được cuộn video này là đã có nhiều duyên
+        lành lắm đó.
+
+        Không dễ gì coi được tận mắt cảnh “thế nào là Vãng Sanh về Tây-phương Cực-lạc”
+        đâu, vì không dễ gì mà có người chịu cho quay phim hay chụp hình lúc họ đang
+        vãng sanh.
+
+        Vào thời điểm quan trọng nhất của cuộc đời tu hành, không ai dám sơ ý làm
+        vọng động đến thần thức đang vãng sanh, nhưng ở đây gia đình đã biết chắc
+        chắn cụ Triệu được vãng sanh mới cho con cháu quay lại tại chỗ, vô tình cuộn
+        phim này đã trở thành bảo vật cho những ai tu Phật, là bằng chứng rõ rệt chứng
+        minh cụ thể những lời Phật dạy trong kinh không sai một chút nào.
+
+        Chắc chắn là thực, và đây cũng để trả lời cho những ai còn đặt câu hỏi.
+
+        Hẳn nhiên rất nhiều người được vãng sanh, mỗi người vãng sanh một kiểu, nhưng
+        tựu trung đều có những điểm giống nhau như: biết trước ngày giờ ra đi, tỉnh
+        táo niệm Phật tới hơi thở cuối cùng, thấy Phật A-di-đà đến tiếp dẫn, Phật
+        quang chiếu xúc, hương thơm bay ra, hiện ra tướng lành, đôi khi để lại xá
+        lợi, v.v Tất cả những hiện tượng này đều được Phật nói rõ ràng trong các kinh
+        A-di-đà, Quán Vô Lượng Thọ, Niệm Phật Ba-la-mật, và nhất là kinh Vô-Lượng-Thọ.
+
+        Tại Niệm Phật Đường ở đây cũng vừa nhận được một tin vãng sanh nữa, đó là
+        phụ thân của ông thư ký trong Hội Niệm Phật ở Sydney, mới vãng sanh vào ngày
+        30/5/2001.
+
+        Đó là cụ Trần Văn Lâm, họ vừa chụp hình dán trên bảng với rất nhiều ngọc xá
+        lợi màu xanh lục.
+
+        Nên nhớ xá lợi và ngọc xá lợi khác nhau.
+
+        XÁ LỢI là xương, thịt, máu… tựu cứng rắn lại như ngọc thạch nhưng chưa thành
+        viên ngọc, còn NGỌC-XÁ-LỢI thì đã biến thành tròn như viên ngọc, láng như
+        ngọc thạch bằng hạt gạo, hạt đậu, hạt bắp v.v Cụ Trần Văn Lâm, trên hình chụp
+        để lại có cả hai thứ, anh thấy rất nhiều xá lợi đã biến thành viên ngọc cho
+        nên anh gọi là NGỌC-XÁ-LỢI.'
+    - id: 20
+      tap: 2
+      global_idx: 46
+      title: Lời Khuyên Người Cô – Sám Hối Hồi Hướng
+      duration: 1552
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/46%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20C%C3%B4%20%E2%80%93%20S%C3%A1m%20H%E1%BB%91i%20H%E1%BB%93i%20H%C6%B0%E1%BB%9Bng.mp3
+      video_url: https://www.youtube.com/watch?v=z4-nUKjItio
+      read_url: https://cusidieuam.com/2022/04/21/43-sam-hoi-hoi-huong/
+      read_label: 📖 Xem bài gốc
+      summary: 'Tu hành phải vạch ra mục đích rõ ràng.
+
+        Nhờ có mục đích sẵn ta mới khỏi bị lạc đường, tâm ta mới khỏi vướng mắc những
+        cám dỗ hoặc trở ngại trên đường tu tập.
+
+        Thường sự thất bại không phải ở những sự cố lớn mà chính là những trở ngại
+        âm thầm, vô hình tướng trong tâm.
+
+        Thông thường người ta cho những sự hao mất tiền bạc, gặp tai nạn, bị bệnh
+        hoạn là lớn, chứ thực ra đây chưa phải là lớn lắm đâu.
+
+        Cái chuyện thực sự lớn, vô cùng lớn, chính là sự đọa lạc hàng triệu kiếp mà
+        mình không hề biết tới.
+
+        Vì không biết đường thoát thân, tâm tâm cứ dính chặt trong tam đồ lục đạo,
+        sanh tử luân hồi để chờ nhận lãnh nghiệp báo.
+
+        Đây mới chính là chuyện lớn cần phải được chú ý cho kiếp nhân sinh.
+
+        Nhân thiện quả thiện, nhân ác quả ác.
+
+        Tu hành là thiện pháp, chắc chắn được thiện quả, nhưng khi bắt đầu tu hành
+        thì đầu tiên là không tạo ác duyên mới, không có ác nghiệp mới, chứ đâu phải
+        dễ dàng xóa được nghiệp chướng cũ, nợ cũ đã được kết tập từ vô lượng kiếp
+        đến nay.
+
+        Định luật nhân quả là có nợ có trả.
+
+        Như vậy dù tu hay không tu, nợ nần chúng ta đều phải thanh toán.
+
+        Chỉ có khác nhau một điều, người không biết tu hành thì nghiệp duyên dai dẳng,
+        nghiệp chướng chất chồng, nghiệp báo bất tận.'
+    - id: 21
+      tap: 2
+      global_idx: 47
+      title: Lời Khuyên Người Em – Khổ Tứ Diệu Thánh Đế
+      duration: 2492
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/47%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20Kh%E1%BB%95%20T%E1%BB%A9%20Di%E1%BB%87u%20Th%C3%A1nh%20%C4%90%E1%BA%BF.mp3
+      video_url: https://www.youtube.com/watch?v=GclWZYv1Y9g
+      read_url: https://cusidieuam.com/2022/04/21/45-kho-tu-dieu-thanh-de/
+      read_label: 📖 Xem bài gốc
+      summary: 'Gởi vợ chồng em Đường – Thạnh,
+
+        Đọc thư em, anh cảm nhận được cả vui lẫn buồn, anh rất thông cảm hoàn cảnh
+        của hai em.
+
+        Thư này anh viết cho cả hai em cùng đọc để từ từ thấm lần vào Phật pháp.
+
+        Tất cả những câu hỏi của em, chắc chắn anh sẽ lần lượt trả lời rõ ràng.
+
+        Anh rất thường viết thư trả lời thắc mắc, khuyên người tu tập, nhưng những
+        cái căn bản nhất anh lại quên, ít bao giờ để ý tới.
+
+        Từ nay có gì thắc mắc cứ tiếp tục hỏi, phải hỏi liền để hiểu, hỏi để em hiểu,
+        hỏi cho anh khôn ra.
+
+        Đây là sự thực, chứ không nên nghĩ rằng: “ Chẳng lẽ một chút cũng viết thư
+        hỏi.
+
+        Đây cũng là điều bất tiện ”.
+
+        Nhiều người cứ mãi lo nghĩ đến chuyện “sông sâu, biển rộng”, có ngờ đâu lại
+        bị vấp ngã chỉ vì một “lỗ chân trâu”.
+
+        Em nên nhớ, một sự nghi ngờ nhỏ nếu không giải tỏa nó sẽ trở thành chướng
+        ngại lớn, có thể phá tan sự nghiệp hay bẻ gãy cái ý nguyện tốt đẹp ban đầu
+        của mình chứ không phải thường đâu.
+
+        Đừng bao giờ nghĩ rằng những thắc mắc của mình là nhỏ, không mấy quan trọng.
+
+        Ngược lại, cũng đừng bao giờ tự cho mình là người thông minh hiểu rộng.'
+    - id: 22
+      tap: 2
+      global_idx: 48
+      title: Lời Khuyên Người Em – Đọc Tụng Kinh Điển Theo Tín Giải Hạnh Chứng
+      duration: 2434
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/48%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20%C4%90%E1%BB%8Dc%20T%E1%BB%A5ng%20Kinh%20%C4%90i%E1%BB%83n%20Theo%20T%C3%ADn%20Gi%E1%BA%A3i%20H%E1%BA%A1nh%20Ch%E1%BB%A9ng.mp3
+      video_url: ''
+      read_url: https://cusidieuam.com/2022/04/21/46-doc-tung-kinh-dien-theo-tin-giai-hanh-chung/
+      read_label: 📖 Xem bài gốc
+      summary: 'Anh muốn lập lại lời nói của em một lần nữa:
+
+        “Đời này quá khổ, không biết bao nhiêu nỗi khổ kể cho hết ”.
+
+        Thư trước anh giải bày cho em về sự khổ não, chắc em đã nhận được và hiểu
+        thêm chút ít về sự khổ của cuộc đời.
+
+        Anh đem pháp Tứ Diệu Đế để nói về khổ.
+
+        Giờ đây chúng ta hãy xét lại coi, rốt cuộc khổ não từ đâu mà có?
+
+        Phật dạy, “Nhất thiết hữu vi pháp như mộng huyễn bào ảnh”, nghĩa là tất cả
+        vạn sự vạn vật là tuồng như mộng như huyễn, hư vọng, không thực.
+
+        Pháp hữu vi là những gì có thể thấy được, sự khổ đau là một pháp hữu vi, thì
+        nó cũng phải hư vọng.
+
+        Nói rõ hơn nữa, những sự khổ đau mà ta thường xuyên chịu đựng có thể chỉ là
+        chuyện huyễn hóa chứ không phải có thực!
+
+        Vì tâm hồn ta đang khổ thì ta thấy khổ!
+
+        Nếu cùng một hoàn cảnh như vậy nhưng tâm hồn ta đang vui thì ta thấy vui.
+
+        Sự vui hay buồn chỉ là sự phản chiếu những gì đang có trong tâm mà thôi!
+
+        Nói cách khác, khổ đau chỉ là sản phẩm do tâm hồn ta tạo ra!'
+    - id: 23
+      tap: 2
+      global_idx: 49
+      title: Lời Khuyên Người Em – Quyết Tâm Cứu Độ Chúng Sanh
+      duration: 2842
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/49%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20Quy%E1%BA%BFt%20T%C3%A2m%20C%E1%BB%A9u%20%C4%90%E1%BB%99%20Ch%C3%BAng%20Sanh.mp3
+      video_url: https://www.youtube.com/watch?v=4mk83lZ7YWE
+      read_url: https://cusidieuam.com/2022/04/21/47-quyet-tam-cuu-do-chung-sanh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Anh gửi cho Hải, anh gửi cho Thứ,
+
+        Anh viết gởi cho cả hai em, anh thương hai em nhiều lắm.
+
+        Có điều đáng tiếc là hình như hai em không chịu đọc kỹ thư anh.
+
+        Mỗi lần viết thư cho các em, anh Năm nắn nót từng chữ, trân trọng từng câu,
+        cẩn thận từng ý, mà các em không chịu tiếp thu cẩn thận.
+
+        Cuộc đời chúng ta sống qua mấy chục năm, một năm 365 ngày, một ngày 24 giờ
+        cho các em chịu khổ, vậy mà các em còn chịu được, trong khi đọc thư của anh
+        chỉ mất 30 phút, 30 phút có thể giúp các em khỏi khổ, thế mà các em lại lười
+        biếng.
+
+        Thấy vậy mà anh vừa thương, vừa trách!
+
+        Có khi nào các em tự hỏi rằng, vì đâu mà chúng ta lại khổ?
+
+        Vì cái gì mà chúng ta chịu khổ?
+
+        Tại vì sao mà chúng ta phải suốt đời bận bịu trong khổ đau?
+
+        Bận bịu đến nỗi không có được một vài phút yên tĩnh để bàn luận chuyện thoát
+        khổ, và bây giờ phải đối diện với khổ đau mà rơi nước mắt!
+
+        Các em có lần nào giựt mình tự hỏi tại sao như vậy không?
+
+        Cái khổ của cuộc đời này lớn lắm đó!'
+    - id: 24
+      tap: 2
+      global_idx: 50
+      title: Lời Khuyên Người Bạn – Đừng Tu Lòng Vòng Nữa
+      duration: 2150
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/50%20T2%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E2%80%93%20%C4%90%E1%BB%ABng%20Tu%20L%C3%B2ng%20V%C3%B2ng%20N%E1%BB%AFa%20H%E1%BA%BFt%20T%E1%BA%ADp%2002.mp3
+      video_url: https://www.youtube.com/watch?v=cNy9L0QBf5Q
+      read_url: https://cusidieuam.com/2022/04/21/48-dung-tu-long-vong-nua/
+      read_label: 📖 Xem bài gốc
+      summary: 'KHUYÊN NGƯỜI NIỆM PHẬT Tác Giả: Cư sĩ Diệu Âm Phật lịch năm 2547 /
+        Dương lịch năm 2003'
+  knnp3_stories:
+    items:
+    - id: 1
+      tap: 3
+      global_idx: 51
+      title: Lời Giới Thiệu
+      duration: 1609
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/51%20T3%20L%E1%BB%9Di%20Gi%E1%BB%9Bi%20Thi%E1%BB%87u.mp3
+      video_url: https://www.youtube.com/watch?v=8-gDz9GAe2s
+      read_url: https://cusidieuam.com/2022/04/21/49-quyen-3-tam-chi-thanh-kinh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Tâm chí thành, chí kính tự nó tạo ra công đức.
+
+        Chư Tổ dạy, một phần thành kính được một phần công đức, mười phần thành kính
+        được mười phần công đức.
+
+        Nhất thiết phải có tâm thành kính mới thâm nhập vào Phật đạo, mới khai ngộ
+        được chơn tánh.
+
+        Người không có tâm thành kính Phật Bồ-tát thì dù cho có thông minh, tài cao,
+        là trượng phu quân tử hay anh hùng hào kiệt, thì nhiều lắm cũng chỉ là sự
+        thành công trong thiện pháp của thế gian mà thôi!
+
+        Nghĩa là, đường thiện có thể đi, nhưng luân hồi sanh tử chắc chắn khó thoát
+        khỏi!
+
+        Kính gởi quí đạo hữu Niệm Phật Đường An Thái và Như Ngọc,
+
+        Hôm trước có nhận được một số hình chụp quí bác và anh chị em đang niệm Phật.
+
+        Những tấm hình này quí lắm, một kỷ niệm thật thân thương.
+
+        Nhìn thấy quí đạo hữu tinh tấn tu hành ai cũng phải khen.
+
+        Với một niệm Phật đường nho nhỏ, phương tiện thì eo hẹp, nhưng thấy mọi người
+        đều có sắc diện nghiêm trang, kính cẩn, tay chuỗi, tay chắp, chí tâm niệm
+        Phật thật là cảm phục.
+
+        Trong những thư trước viết cho Như Ngọc, cho quí bác, hôm nay xin viết về
+        thăm chị Sáu, anh Ba, anh Hai, v.v Nói chung Diệu Âm này không dám quên một
+        người nào hết.
+
+        Chỉ vì đồng tu nhiều quá không thể nào viết đến từng người.'
+    - id: 2
+      tap: 3
+      global_idx: 52
+      title: Lời Khuyên Đồng Tu Ở An Thái – Tâm Chí Thành Chí Kính
+      duration: 2019
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/52%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20%C4%90%E1%BB%93ng%20Tu%20%E1%BB%9E%20An%20Th%C3%A1i%20%E2%80%93%20T%C3%A2m%20Ch%C3%AD%20Th%C3%A0nh%20Ch%C3%AD%20K%C3%ADnh.mp3
+      video_url: https://www.youtube.com/watch?v=8-gDz9GAe2s
+      read_url: https://cusidieuam.com/2022/04/21/49-quyen-3-tam-chi-thanh-kinh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Tâm chí thành, chí kính tự nó tạo ra công đức.
+
+        Chư Tổ dạy, một phần thành kính được một phần công đức, mười phần thành kính
+        được mười phần công đức.
+
+        Nhất thiết phải có tâm thành kính mới thâm nhập vào Phật đạo, mới khai ngộ
+        được chơn tánh.
+
+        Người không có tâm thành kính Phật Bồ-tát thì dù cho có thông minh, tài cao,
+        là trượng phu quân tử hay anh hùng hào kiệt, thì nhiều lắm cũng chỉ là sự
+        thành công trong thiện pháp của thế gian mà thôi!
+
+        Nghĩa là, đường thiện có thể đi, nhưng luân hồi sanh tử chắc chắn khó thoát
+        khỏi!
+
+        Kính gởi quí đạo hữu Niệm Phật Đường An Thái và Như Ngọc,
+
+        Hôm trước có nhận được một số hình chụp quí bác và anh chị em đang niệm Phật.
+
+        Những tấm hình này quí lắm, một kỷ niệm thật thân thương.
+
+        Nhìn thấy quí đạo hữu tinh tấn tu hành ai cũng phải khen.
+
+        Với một niệm Phật đường nho nhỏ, phương tiện thì eo hẹp, nhưng thấy mọi người
+        đều có sắc diện nghiêm trang, kính cẩn, tay chuỗi, tay chắp, chí tâm niệm
+        Phật thật là cảm phục.
+
+        Trong những thư trước viết cho Như Ngọc, cho quí bác, hôm nay xin viết về
+        thăm chị Sáu, anh Ba, anh Hai, v.v Nói chung Diệu Âm này không dám quên một
+        người nào hết.
+
+        Chỉ vì đồng tu nhiều quá không thể nào viết đến từng người.'
+    - id: 3
+      tap: 3
+      global_idx: 53
+      title: Lời Khuyên Người Em Trai – Cảnh Giới
+      duration: 2398
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/53%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20Trai%20%E2%80%93%20C%E1%BA%A3nh%20Gi%E1%BB%9Bi.mp3
+      video_url: https://www.youtube.com/watch?v=Q15ZzxiBPOc
+      read_url: https://cusidieuam.com/2022/04/21/50-canh-gioi/
+      read_label: 📖 Xem bài gốc
+      summary: 'Anh đã viết cho hai em nói về sự khổ, nói về cách đọc tụng kinh, hy
+        vọng nó giúp các em giải quyết được phần nào chướng ngại phải không?
+
+        Hôm nay anh lại mở thư em ra đọc lại để đi đến vấn đề khó khăn khác.
+
+        Những điều khó khăn này, nếu cho anh hay sớm hơn, thì có lẽ đến nay các em
+        cảm thấy thoải mái và tự tại nhiều rồi, chứ đâu đến nỗi bây giờ mà “ em phải
+        lần mò đi tìm từng chút ” có vẻ khó khăn dữ vậy.
+
+        Tìm hiểu thì tốt, nhưng có lúc tìm được, có nơi không có tài liệu thì tìm
+        đâu cho ra.
+
+        Tìm không ra tức là “Cầu bất đắc khổ”.
+
+        Đời đã là khổ lại còn đi cầu thêm cái khổ làm chi?
+
+        Tục ngữ VN có câu, “đi một ngày đàng, học một sàng khôn”, cái khôn này do
+        đi mà thấy, chứ không phải ngồi ở nhà tra cứu trong sách vở mà có đâu.
+
+        Muốn tu sửa thì phải thực hành mới có ích lợi.
+
+        Thôi anh bắt đầu trả lời tiếp những câu hỏi của em đây.
+
+        Hỏi: Cửu pháp giới, tam đồ, lục đạo sanh tử luân hồi là gì?
+
+        Trả lời: Cửu pháp giới là chín pháp giới.
+
+        Chúng sanh ở trong lục đạo phải chịu chết-sống, sống-chết thường xuyên nên
+        gọi là “Sanh tử”.'
+    - id: 4
+      tap: 3
+      global_idx: 54
+      title: Lời Khuyên Vợ Chồng Người Em – Cảnh Giới Người
+      duration: 2234
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/54%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20V%E1%BB%A3%20Ch%E1%BB%93ng%20Ng%C6%B0%E1%BB%9Di%20Em%20%E2%80%93%20C%E1%BA%A3nh%20Gi%E1%BB%9Bi%20Ng%C6%B0%E1%BB%9Di.mp3
+      video_url: https://www.youtube.com/watch?v=gRVoL5xx3uw
+      read_url: https://cusidieuam.com/2022/04/21/51-canh-gioi-nguoi/
+      read_label: 📖 Xem bài gốc
+      summary: 'Hiểu về cảnh giới giúp cho ta có cái nhìn tổng quát về vũ trụ nhân
+        sinh, khỏi mập mờ chạy theo những chốn hiểm nạn, thấy được rõ ràng đường đi
+        cho tương lai.
+
+        Nên đi về những cảnh giới thiện.
+
+        Hãy tránh xa những cảnh giới ác.
+
+        Đối với địa ngục thì cảnh ngã quỉ là thiện, đối với ngã quỉ thì cảnh súc sanh
+        là thiện, đối với súc sanh thì cảnh giới người là thiện.
+
+        Chúng ta đang ở trong một cảnh giới thiện là người, nhưng cái thiện của cảnh
+        giới người chỉ so sánh được đối với loài súc sanh, loài ngã quỉ, với các loài
+        chúng sanh đã bị rơi vào địa ngục mà thôi, chứ không thể so bì được với các
+        cảnh giới cao hơn!
+
+        Do đó, tu hành mà không thể vượt lên khỏi cảnh người thì khó trốn thoát khổ
+        nạn.
+
+        Đã là người, lại tu hành để thành người, thì cuộc đời này có tu mà không có
+        tiến, sự chuyển hóa đành phải giậm chân tại chỗ!
+
+        Vạn sự vạn vật luôn luôn tiến hóa.
+
+        Cảnh giới của vũ trụ nhân sinh chuyển biến không ngừng.
+
+        Thì trong dòng nhân sinh này con người phải biết lèo lái con thuyền huệ mạng
+        của mình tiến về cội nguồn hạnh phúc.
+
+        Nếu đứng lại là lùi, dòng nghiệp lực sẽ lôi ta tới tận cùng của sự thảm hại!
+
+        Tu mà không tiến thật là oan uổng vậy!'
+    - id: 5
+      tap: 3
+      global_idx: 55
+      title: Lời Khuyên Người Em Trai – Lý Sự Cơ
+      duration: 2168
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/55%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20Trai%20%E2%80%93%20L%C3%BD%20S%E1%BB%B1%20C%C6%A1.mp3
+      video_url: https://www.youtube.com/watch?v=eaAs25-6TJ8
+      read_url: https://cusidieuam.com/2022/04/21/52-ly-su-co/
+      read_label: 📖 Xem bài gốc
+      summary: 'Học Phật cần phải biết nhẫn nại, từ từ mà hiểu thì mới có thể thâm
+        nhập vào Phật pháp.
+
+        Một câu hỏi của em về lục đạo luân hồi đã liên quan đến những cảnh giới rộng
+        lớn, anh muốn tóm gọn một cách tổng quát, nhưng đã trải dài qua bao nhiêu
+        trang giấy rồi mà chưa giải quyết xong.
+
+        Thấy được điều này nên ngay từ đầu anh đã nói, đừng bao giờ nghĩ rằng những
+        thắc mắc của mình là nhỏ nhặt.
+
+        Nhỏ là vì mình chưa thấy, chứ nếu thấy được thì cái nhỏ đó có thể sẽ lớn bao
+        trùm cả hư không pháp giới.
+
+        Một là tất cả, tất cả là một.
+
+        Hiểu được pháp Phật thì từ một điểm có thể thấy đến cảnh giới vô lượng vô
+        biên, trong vô lượng vô biên cảnh giới ta có thể thâu tóm lại thành một điểm.
+
+        Càng hiểu càng sâu, càng thấy càng rộng.
+
+        Phật pháp thật là thậm thâm vi diệu, nếu hời hợt đứng bên ngoài nhìn vào thì
+        khó liễu ngộ được chân tướng vậy!
+
+        Đối với đạo pháp quá sức thâm sâu cao diệu, muốn hiểu phải lấy cái tâm thanh
+        tịnh mà hiểu, đừng nên chú trọng quá nhiều vào hình thức.
+
+        Anh thường nói rằng, người thích nghiên cứu có tỉ lệ thành tựu thấp hơn người
+        chí thành tu tập.
+
+        Nghiên cứu nhiều thì cái tâm của mình thường chạy ra ngoài để lượm lặt những
+        thứ kiến thức hữu lậu vô thường của thế gian, đó là sống theo vọng tâm, hay
+        gọi là “Ngoại đạo”.
+
+        Người chí thành tu tập thì họ chuyên nhất vào chuyện chính yếu để thoát ly
+        sanh tử luân hồi, họ lo thúc liễm thân tâm, làm cho tâm định lại, có sức sống
+        nội tâm mạnh, đó là “Nội đạo”.'
+    - id: 6
+      tap: 3
+      global_idx: 56
+      title: Lời Khuyên Người Em Trai – Mơ Về Tiên Cảnh
+      duration: 2489
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/56%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20Trai%20%E2%80%93%20M%C6%A1%20V%E1%BB%81%20Ti%C3%AAn%20C%E1%BA%A3nh.mp3
+      video_url: https://www.youtube.com/watch?v=eaAs25-6TJ8
+      read_url: https://cusidieuam.com/2022/04/21/53-mo-ve-tien-canh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Phật pháp lý đạo cao siêu, thậm thâm vô ngần, quảng đại vô biên!
+
+        Muốn tìm hiểu về Phật pháp không phải chỉ dựa vào kiến thức thế gian mà liễu
+        ngộ được!
+
+        Như vậy muốn hiểu sâu về Phật pháp ta phải làm sao?
+
+        “Phật” có nghĩa là “Giác”.
+
+        Niệm Giác thì được giác ngộ.
+
+        Danh hiệu A-di-đà có nghĩa là Vô Lượng; “A” là Vô; “Di-Đà” là Lượng.
+
+        “A-di-đà Phật” là “Vô-Lượng-Giác”.
+
+        Niệm “A-di-đà Phật” là niệm Vô-lượng Giác.
+
+        Vô-Lượng-Giác nghĩa là giác ngộ rốt ráo, hiểu rõ về thái hư pháp giới, thấu
+        rõ chân tướng của vũ trụ nhân sinh.
+
+        Tất cả cảnh giới vô lượng vô biên đều bao hàm trong câu A-di-đà Phật.
+
+        “Vô Lượng” có nghĩa là nhiều vô cùng, vô tận, vô số, vô biên, không kể xiết.
+
+        Trong cái “Vô-Lượng” đó, thì “Vô-Lượng-Thọ” và “Vô-Lượng-Quang” là đại biểu
+        cho tất cả “Vô-Lượng”.'
+    - id: 7
+      tap: 3
+      global_idx: 57
+      title: Lời Khuyên Người Bạn Ở Paris – Một Đường Thẳng Tiến
+      duration: 2302
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/57%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E1%BB%9E%20Paris%20%E2%80%93%20M%E1%BB%99t%20%C4%90%C6%B0%E1%BB%9Dng%20Th%E1%BA%B3ng%20Ti%E1%BA%BFn.mp3
+      video_url: https://www.youtube.com/watch?v=PpxSjYwldi0
+      read_url: https://cusidieuam.com/2022/04/21/53-mot-duong-tien-thang/
+      read_label: 📖 Xem bài gốc
+      summary: 'Kính gởi đạo hữu Huệ Sanh,
+
+        Con người sinh ra lặn hụp trong biển khổ sanh tử luân hồi khổ không nói hết.
+
+        Có người cố gắng trồi lên mặt nước, hớp một hơi không khí, rồi chìm xuống
+        lại dưới đáy đại dương.
+
+        Có người cố gắng bơi, nhưng bơi lòng vòng, sau cùng cũng chìm xuống đó.
+
+        Đây là hai cảnh giới mình đã bàn với nhau trong sáu tháng trước.
+
+        Nay lại được nói chuyện với chị, lần này tôi xin tiếp tục lá thư dang dở,
+        nói đến cảnh thứ ba mà thầy Trí Tu đề cập đến: Có người sinh ra họ bơi thẳng
+        một đường qua bờ bên kia, bờ giải thoát.
+
+        Trước tiên tôi thấy rất phấn khởi khi biết chị Huệ Sanh có phát tâm nguyện
+        lớn, càng ngày tu càng nhiều, pháp hỉ sung mãn, tươi vui hơn ra.
+
+        Đây là hiện tượng khá tốt.
+
+        Học Phật nếu biết rõ đường đi nước bước thì lòng tin của mình được cũng cố,
+        chí nguyện mạnh mẽ, sự tu vững vàng.
+
+        Tín-hạnh-nguyện đầy đủ là con đường thành tựu đạo quả.
+
+        Xin nhận lời giúp cho quí đạo hữu ở Paris tìm hiểu về sự hộ niệm và cách thức
+        cộng tu niệm Phật, thư tới Diệu Âm sẽ cố gắng nói chuyện này.
+
+        Cảnh thứ nhất: trồi lên hụp xuống, chỉ cho người không chịu tu hành, chúng
+        ta đã bỏ đường này rồi, khỏi cần vướng bận đến nữa.'
+    - id: 8
+      tap: 3
+      global_idx: 58
+      title: Lời Khuyên Người Em Gái – Phải Giữ Hạnh Khiêm Cung
+      duration: 2646
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/58%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20Em%20G%C3%A1i%20%E2%80%93%20Ph%E1%BA%A3i%20Gi%E1%BB%AF%20H%E1%BA%A1nh%20Khi%C3%AAm%20Cung.mp3
+      video_url: https://www.youtube.com/watch?v=XM_juQWgPz0
+      read_url: https://cusidieuam.com/2022/04/21/54-phai-giu-hanh-khiem-cung/
+      read_label: 📖 Xem bài gốc
+      summary: 'Trong mấy câu hỏi của em, có một vấn đề khá quan trọng, anh vội vã
+        trả lời thư liền!
+
+        Tu hành nhất định phải cẩn thận, đời mạt pháp không thể bừa bãi được đâu em
+        ạ.
+
+        Luôn luôn dựa theo thiện tri thức, dựa theo đúng kinh điển Phật, học hiểu
+        những lời chỉ dẫn của chư vị Tổ sư.
+
+        Còn khi gặp một hiện tượng hơi đặc biệt thì cần phải hỏi kỹ, chớ nên vội vã
+        nghe theo.
+
+        Trả lời thư em anh Năm cũng phải dựa theo kinh, theo lời Tổ chứ không dám
+        tự quyền đâu!
+
+        Khi tới vấn đề quan trọng anh sẽ nhấn mạnh cho em thấy.
+
+        Hỏi 1: Em tu nhưng không hành, không sửa nghiệp được, đến bị bệnh lung tung,
+        !?
+
+        Trả lời: Em nghĩ rằng tu mà không hành cho nên sanh bệnh.
+
+        Đây là một ý nghĩ hơi ngộ nghĩnh!
+
+        Em nói như vậy làm cho anh nghĩ đến hai trường hợp:
+
+        Một là, người “Có tu có hành” thì không bệnh.
+
+        Người tu hành tâm thanh tịnh thì thân cũng thanh tịnh, thân thể thanh tịnh
+        thì không bệnh!'
+    - id: 9
+      tap: 3
+      global_idx: 59
+      title: Lời Khuyên Cha Mẹ – Tập Trung Năng Lực Về Một Hướng
+      duration: 2837
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/59%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Cha%20M%E1%BA%B9%20%E2%80%93%20T%E1%BA%ADp%20Trung%20N%C4%83ng%20L%E1%BB%B1c%20V%E1%BB%81%20M%E1%BB%99t%20H%C6%B0%E1%BB%9Bng.mp3
+      video_url: https://www.youtube.com/watch?v=YTyJD3a8SIE
+      read_url: https://cusidieuam.com/2022/04/21/56-tap-trung-nang-luc-ve-mot-huong/
+      read_label: 📖 Xem bài gốc
+      summary: 'Tết sắp đến rồi con viết thư về thăm cha má.
+
+        Có lẽ sau tết con sẽ về, cha má và anh chị em cố gắng sắp xếp thì giờ niệm
+        Phật với con.
+
+        Đời này nóng lạnh vài mươi năm, sanh-lão-bệnh-tử, lăn lóc trong trần đời khổ
+        hải vô biên rồi sau cùng thân xác cũng phải trả về với cát bụi!
+
+        Cuộc đời này như mộng, thế gian như huyễn, thân mạng vô thường, tuổi đã về
+        chiều thì còn lo lắng chuyện đời làm chi?
+
+        Tạo sự nghiệp gì nữa đây?!
+
+        Còn tham luyến thế trần chi nữa mà coi chừng bị vướng nạn.
+
+        Lỡ vướng nạn rồi thì chịu khổ hàng vạn vạn năm, thậm chí hàng vạn kiếp!
+
+        Hãy mạnh dạn buông xả để lo tu hành.
+
+        Những thứ ruộng vườn, nhà cửa, tiền bạc, xe cộ, danh vọng, tiếng tăm, tất
+        cả rồi đây cũng thành số 0!
+
+        Chỉ còn chăng là khối nghiệp mang theo, dìm mãi thần thức của ta trong bể
+        khổ!
+
+        Cha má hãy quyết tâm hàng ngày niệm Phật cầu mong cuối đời mình được vãng
+        sanh, an nhiên tự tại, hưởng được đại phúc báu, đại trí huệ ở cõi nhất chân
+        pháp giới, đừng nên chần chờ dụ dự mà lỡ bị đọa đày thì tội nghiệp cho cha
+        má lắm!
+
+        Vì biết được con đường viên mãn đạo quả trong đời, cho nên con phải thưa cho
+        cạn lời, để mong cho cha má thức tỉnh kịp thời, quay đầu kịp lúc, tự cứu lấy
+        mình.'
+    - id: 10
+      tap: 3
+      global_idx: 60
+      title: Lời Khuyên Một Số Bạn Đạo – Ban Hộ Niệm
+      duration: 2780
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/60%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20M%E1%BB%99t%20S%E1%BB%91%20B%E1%BA%A1n%20%C4%90%E1%BA%A1o%20%E2%80%93%20Ban%20H%E1%BB%99%20Ni%E1%BB%87m.mp3
+      video_url: https://www.youtube.com/watch?v=0P7AhLWELg4
+      read_url: https://cusidieuam.com/2022/04/21/57-ban-ho-niem/
+      read_label: 📖 Xem bài gốc
+      summary: '(Tiếp theo lời thư 44 nói về “Cảnh giới Trung ấm”, Khuyên người niệm
+        Phật, tập 2).
+
+        Câu chuyện cô Lương Thị Chuẩn, con ông Lương Văn Liêm ở làng Vần, xã Yên Thắng,
+        huyện Long Chánh, tỉnh Thanh Hóa chết năm 1988 đã đầu thai thành cô Hà Thị
+        Khuyên con ông bà Hà Văn Lợi và Lò Thị Sơn ở làng Buốc, xã Lâm Phú, cùng trong
+        huyện Long Chánh là đề tài còn khá hay!
+
+        Thư trước cậu đã trả lời được vài câu hỏi nhưng chưa xong.
+
+        Hôm nay cậu tiếp tục tới phần còn sót lại.
+
+        Trả lời một thư phải gián đoạn mấy tháng trường là vì cậu khá bận, chắc cháu
+        hiểu được việc này!
+
+        Hy vọng cháu cũng có đọc những lời thư khác và giúp ích được ít nhiều cho
+        cháu.
+
+        Cháu có nhiều suy nghĩ khá sắc bén, đáng khen.
+
+        Hỏi: Hiện tượng này có liên quan gì đến Phật pháp không?
+
+        Đây là hiện tượng sanh tử luân hồi mà trong Phật giáo nói rất rõ.
+
+        Đối với Phật pháp, thì câu chuyện của cháu kể rất có giá trị, chứng minh được
+        rằng chết rồi không phải hết, mà chết chỉ là đổi cái thân.
+
+        Năm 1988 cô Chuẩn chết, nhưng đó chỉ là thân xác của cô chết, chứ thần thức
+        của cô không chết, đã lang thang theo đám tang rồi đầu thai trở lại thành
+        cô Hà Thị Khuyên.
+
+        Những chuyện này nên phổ biến cho nhiều người biết, rất là hay!'
+    - id: 11
+      tap: 3
+      global_idx: 61
+      title: Lời Khuyên Một Đạo Hữu Ở Pháp – Đừng Tu Đoạn Mất Đường Giải Thoát
+      duration: 2017
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/61%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20M%E1%BB%99t%20%C4%90%E1%BA%A1o%20H%E1%BB%AFu%20%E1%BB%9E%20Ph%C3%A1p%20%E2%80%93%20%C4%90%E1%BB%ABng%20Tu%20%C4%90o%E1%BA%A1n%20M%E1%BA%A5t%20%C4%90%C6%B0%E1%BB%9Dng%20Gi%E1%BA%A3i%20Tho%C3%A1t.mp3
+      video_url: https://www.youtube.com/watch?v=jGxbmD9yBjM
+      read_url: https://cusidieuam.com/2022/04/21/59-phat-bo-de-tam/
+      read_label: 📖 Xem bài gốc
+      summary: 'Nhận được thư Diệu Nhàn, không có thời giờ viết thư trả lời, Diệu
+        Âm đành phải gởi mấy băng giảng kinh của HT Tịnh-Không cho đạo hữu coi trước,
+        kèm theo đó có cuộn “Tự tại vãng sanh”, quay lại cụ Ngụy Quốc Hưng vãng sanh
+        vào tháng 2/2003.
+
+        Đạo hữu cố gắng dành thời giờ coi qua.
+
+        Cuộc vãng sanh này bất khả tư nghì!
+
+        Diệu Nhàn nên cố gắng sang thêm để cúng dường nhiều người cùng xem.
+
+        Xây dựng lòng tin Phật pháp cho họ, giúp nhiều người phát tâm niệm Phật, công
+        đức này lớn lắm đó.
+
+        Tự tại vãng sanh, danh từ tuy đơn sơ, nhưng trên đời người nào thực hiện được
+        chuyện này thì hưởng được một phước báu vô cùng vô tận, cái phước thành tựu
+        đạo Bồ-đề, cái phước được làm Phật, cái phước mà một chúng sanh có thể phải
+        tu vô lượng kiếp mới có được, chứ không phải tầm thường!
+
+        Xem cuộn “Tự tại vãng sanh”, mới thấy Phật pháp nhiệm mầu!
+
+        Trước đây có cuộn “Hoa khai kiến Phật”, ta đã thấy sự vi diệu của câu Phật
+        hiệu, nay xem thêm “Tự tại vãng sanh” lại thấy càng vi diệu hơn.
+
+        Năm 2001, tôi đi qua Honolulu, có biết qua một cuộn phim khác quay lại cuộc
+        vãng sanh của một vị cư sĩ trẻ vãng sanh cũng thật là vi diệu.
+
+        Nhưng vì thời gian lưu lại quá ít, không kịp xin bản lưu, chứ nếu được thì
+        chúng ta có thêm những chứng liệu vô giá về sự vãng sanh Tây-phương Cực-lạc.
+
+        Người con Phật chúng ta phải khẳng định rằng lời Phật nói đúng sự thật, có
+        nhiều sự chứng minh cụ thể, chứ không phải là những loại “Quyền Thuyết” đâu.
+
+        Thông thường chúng ta biết rằng, muốn có ngày chứng quả vị Phật một chúng
+        sanh phải tu trải qua vô lượng kiếp thời gian chứ không phải đơn giản.'
+    - id: 12
+      tap: 3
+      global_idx: 62
+      title: Lời Khuyên Người Bạn Ở Paris – Phát Tâm Bồ Đề
+      duration: 1435
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/62%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E1%BB%9E%20Paris%20%E2%80%93%20Ph%C3%A1t%20T%C3%A2m%20B%E1%BB%93%20%C4%90%E1%BB%81.mp3
+      video_url: https://www.youtube.com/watch?v=h7-pWENUhac
+      read_url: https://cusidieuam.com/2022/04/21/60-lam-thien-tich-phuoc-de-ho-tro-vang-sanh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Ở đây có một ông bác khi đọc xong tập “Khuyên người niệm Phật” chợt
+        thấy được đường tu hành, hằng ngày bác tự lập ba thời khóa niệm Phật rất tốt.
+
+        Ban ngày thì con cháu ồn ào, bác chỉ thầm niệm Phật, đêm đến 12 giờ khuya
+        là bắt đầu thức dậy công phu.
+
+        Bác nói: “Tôi bắt chước theo sách này, gặp ai tôi cũng khuyên họ nên niệm
+        Phật”.
+
+        Bây giờ thì mỗi lá thư của bác gởi cho bạn bè, cho người thân, cho con cháu
+        đã biến thành thư “Khuyên người niệm Phật”, nội dung hoàn toàn khác với những
+        gì bác thường viết trước đây.
+
+        Nhiều người nghe nói đến “Phát Bồ-đề Tâm” thì cảm thấy mông lung, hoặc lo
+        ngại vì thấy chuyện này quá lớn!
+
+        Nhưng có ngờ đâu, nhiều khi chính họ đang làm chuyện Bồ-đề tâm mà không hay
+        biết.
+
+        Ông bác phát được một tâm nguyện nho nhỏ: “gặp ai cũng khuyên họ nên niệm
+        Phật”, là bác đã vô tình đang làm một chuyện phát Bồ-đề tâm mà bác không hay.
+
+        Những tâm nguyện thành tâm giúp đời, cứu người mong cho chúng sanh thành đạo
+        Bồ-đề đều là những cách phát tâm Bồ-đề.
+
+        Ngài Tĩnh Am đại sư dạy rằng: “Cửa yếu vào đạo lấy sự phát tâm làm đầu, việc
+        cấp thiết tu hành lấy sự lập nguyện làm bước trước.
+
+        Nguyện có lập thì chúng sanh mới độ nổi, tâm có phát thì đạo mới thành tựu”.
+
+        Phát Bồ-đề tâm vô cùng quan trọng.
+
+        Diệu Âm có tâm nguyện “Khuyên người niệm Phật”, mong cho cha mẹ, anh chị em,
+        bà con, bạn bè phát tâm niệm Phật cầu sanh Tây-phương, tình cờ những lời thư
+        lại được ấn tống thành bộ sách.'
+    - id: 13
+      tap: 3
+      global_idx: 63
+      title: Lời Khuyên Người Bạn Ở Paris – Phát Tâm Bồ Đề Tt
+      duration: 1697
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/63%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Ng%C6%B0%E1%BB%9Di%20B%E1%BA%A1n%20%E1%BB%9E%20Paris%20%E2%80%93%20Ph%C3%A1t%20T%C3%A2m%20B%E1%BB%93%20%C4%90%E1%BB%81%20Tt.mp3
+      video_url: https://www.youtube.com/watch?v=h7-pWENUhac
+      read_url: https://cusidieuam.com/2022/04/21/60-lam-thien-tich-phuoc-de-ho-tro-vang-sanh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Ở đây có một ông bác khi đọc xong tập “Khuyên người niệm Phật” chợt
+        thấy được đường tu hành, hằng ngày bác tự lập ba thời khóa niệm Phật rất tốt.
+
+        Ban ngày thì con cháu ồn ào, bác chỉ thầm niệm Phật, đêm đến 12 giờ khuya
+        là bắt đầu thức dậy công phu.
+
+        Bác nói: “Tôi bắt chước theo sách này, gặp ai tôi cũng khuyên họ nên niệm
+        Phật”.
+
+        Bây giờ thì mỗi lá thư của bác gởi cho bạn bè, cho người thân, cho con cháu
+        đã biến thành thư “Khuyên người niệm Phật”, nội dung hoàn toàn khác với những
+        gì bác thường viết trước đây.
+
+        Nhiều người nghe nói đến “Phát Bồ-đề Tâm” thì cảm thấy mông lung, hoặc lo
+        ngại vì thấy chuyện này quá lớn!
+
+        Nhưng có ngờ đâu, nhiều khi chính họ đang làm chuyện Bồ-đề tâm mà không hay
+        biết.
+
+        Ông bác phát được một tâm nguyện nho nhỏ: “gặp ai cũng khuyên họ nên niệm
+        Phật”, là bác đã vô tình đang làm một chuyện phát Bồ-đề tâm mà bác không hay.
+
+        Những tâm nguyện thành tâm giúp đời, cứu người mong cho chúng sanh thành đạo
+        Bồ-đề đều là những cách phát tâm Bồ-đề.
+
+        Ngài Tĩnh Am đại sư dạy rằng: “Cửa yếu vào đạo lấy sự phát tâm làm đầu, việc
+        cấp thiết tu hành lấy sự lập nguyện làm bước trước.
+
+        Nguyện có lập thì chúng sanh mới độ nổi, tâm có phát thì đạo mới thành tựu”.
+
+        Phát Bồ-đề tâm vô cùng quan trọng.
+
+        Diệu Âm có tâm nguyện “Khuyên người niệm Phật”, mong cho cha mẹ, anh chị em,
+        bà con, bạn bè phát tâm niệm Phật cầu sanh Tây-phương, tình cờ những lời thư
+        lại được ấn tống thành bộ sách.'
+    - id: 14
+      tap: 3
+      global_idx: 64
+      title: Lời Khuyên Song Thân – Làm Thiện Tích Phước Để Hỗ Trợ Vãng Sanh
+      duration: 2559
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/64%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Song%20Th%C3%A2n%20%E2%80%93%20L%C3%A0m%20Thi%E1%BB%87n%20T%C3%ADch%20Ph%C6%B0%E1%BB%9Bc%20%C4%90%E1%BB%83%20H%E1%BB%97%20Tr%E1%BB%A3%20V%C3%A3ng%20Sanh.mp3
+      video_url: https://www.youtube.com/watch?v=ZMzZBMG9h0Q
+      read_url: https://cusidieuam.com/2022/04/21/61-dia-nguc-va-van-de-nhan-qua/
+      read_label: 📖 Xem bài gốc
+      summary: 'Một chúng sanh đầy nghiệp chướng như chúng ta, muốn thoát ly tam giới,
+        thoát ly sanh tử luân hồi, so sánh ra còn khó hơn chuyện mò kim dưới đáy biển!
+
+        Trong số người tu hành, tìm được một người thành tựu lại càng khó!
+
+        Thế nhưng, nghe thấy những người vãng sanh Tây-phương thì con nghĩ cha má
+        sẽ phấn khởi, vững lòng tin tưởng pháp niệm Phật cầu sanh Tịnh-độ đang dẫn
+        mình đến chỗ thành tựu.
+
+        Người có lòng tin thâm sâu vào lời Phật dạy, thành tâm niệm Phật, tha thiết
+        nguyện vãng sanh Tây-phương đều được vãng sanh.
+
+        Chuyện vãng sanh đến nay đã quá nhiều, đây là sự thực, chắc cha má không còn
+        nghi ngờ nữa.
+
+        Có nhiều cuộc vãng sanh giống như một sự biểu diễn.
+
+        Trong thế kỷ 20, Ngài Cô Lô Giang, đệ tử của HT Đế-Nhàn, ba năm niệm Phật
+        rồi đứng vãng sanh, nhục thân đứng im như vậy trong ba ngày để chờ sư phụ
+        về mai táng.
+
+        Vào khoảng thập niên 40, cụ Hạ Liên Cư cũng đứng vãng sanh, con chuột của
+        cụ nuôi cũng đứng vãng sanh theo.
+
+        Năm 2003, thầy Thích Ngộ Toàn, (đệ tử của HT Tịnh-Không), ngài vừa mới đi
+        thăm phòng thờ của cụ về kể lại thêm một phát hiện mới, là cặp đèn cầy mà
+        trong tiền thời cụ Hạ dùng dang dở, đang giữ lại tại chỗ thờ làm kỷ niệm,
+        đã biến thành ngọc xá lợi từ hồi nào mà không ai hay!
+
+        Quá nhiều điều lạ, ngoài sức tưởng tượng của chúng ta!
+
+        Nhất là chuyện lạ này lại xảy ra trong thời đại mà nền văn minh khoa học đã
+        phát triển mạnh, con người đã bắt đầu đặt chân lên sao hỏa, có hướng muốn
+        chinh phục không gian!
+
+        Đạo tràng niệm Phật ở đây thường xuyên nhận được những tin tức về sự vãng
+        sanh.'
+    - id: 15
+      tap: 3
+      global_idx: 65
+      title: Lời Khuyên Song Thân – Địa Ngục Và Vấn Đề Nhân Quả
+      duration: 1434
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/65%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Song%20Th%C3%A2n%20%E2%80%93%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20V%C3%A0%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20Nh%C3%A2n%20Qu%E1%BA%A3.mp3
+      video_url: https://www.youtube.com/watch?v=nqNTbNaIlFY
+      read_url: https://cusidieuam.com/2022/04/21/62-dia-nguc-va-van-de-nhan-qua/
+      read_label: 📖 Xem bài gốc
+      summary: 'Trong cuối tháng tư vừa qua, ở Tịnh Tông Học Viện có tổ chức lễ kỷ
+        niệm bảy năm ngày bà quảng tràng họ Hàn vãng sanh.
+
+        Trong giờ ăn trưa, vào phòng trai đường con thấy trên vách có dán những tấm
+        “Địa ngục đồ”.
+
+        Những tấm hình diễn tả lại những cảnh tra tấn quá dã man dưới địa ngục, nhìn
+        thấy phải khiếp sợ!
+
+        Chỗ này nạn nhân bị thảy vào chảo dầu sôi, chỗ kia bị cưa thân làm từng mảnh.
+
+        Có chỗ bị cắt lưỡi, có chỗ bị chặt đầu máu me tung tóe.
+
+        Chỗ này bị chó sắt cắn xé, chỗ nọ thì cọp beo vồ chụp, banh thân moi ruột,
+        v.v Toàn là những hình ảnh quá khiếp hãi!
+
+        Có một ông bác, đang theo dự khóa Phật thất, có lẽ vui tính rồi sẵn dịp hỏi
+        con: “Người làm ác thì xuống địa ngục bị hành tội, còn những người ở dưới
+        địa ngục đi hành hạ tội nhân đủ cách quá ư dã man, như vậy họ có tội không?”.
+
+        Nghe câu hỏi làm con giựt mình.
+
+        Thưa cha má, trong thư trước con bàn sâu đến chuyện tạo phước để hỗ trợ việc
+        vãng sanh.
+
+        Hôm nay con bàn đến chuyện sám nghiệp.
+
+        Sám nghiệp liên quan đến nghiệp chướng, nhân quả, địa ngục.
+
+        Những vấn đề này trước đây con cũng thường nói qua, nhưng mỗi một lần nhắc
+        đến con đi sâu thêm một chút.'
+    - id: 16
+      tap: 3
+      global_idx: 66
+      title: Lời Khuyên Song Thân – Địa Ngục Và Vấn Đề Nhân Quả Tiếp Theo
+      duration: 1604
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/66%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Song%20Th%C3%A2n%20%E2%80%93%20%C4%90%E1%BB%8Ba%20Ng%E1%BB%A5c%20V%C3%A0%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20Nh%C3%A2n%20Qu%E1%BA%A3%20Ti%E1%BA%BFp%20Theo.mp3
+      video_url: https://www.youtube.com/watch?v=nqNTbNaIlFY
+      read_url: https://cusidieuam.com/2022/04/21/62-dia-nguc-va-van-de-nhan-qua/
+      read_label: 📖 Xem bài gốc
+      summary: 'Trong cuối tháng tư vừa qua, ở Tịnh Tông Học Viện có tổ chức lễ kỷ
+        niệm bảy năm ngày bà quảng tràng họ Hàn vãng sanh.
+
+        Trong giờ ăn trưa, vào phòng trai đường con thấy trên vách có dán những tấm
+        “Địa ngục đồ”.
+
+        Những tấm hình diễn tả lại những cảnh tra tấn quá dã man dưới địa ngục, nhìn
+        thấy phải khiếp sợ!
+
+        Chỗ này nạn nhân bị thảy vào chảo dầu sôi, chỗ kia bị cưa thân làm từng mảnh.
+
+        Có chỗ bị cắt lưỡi, có chỗ bị chặt đầu máu me tung tóe.
+
+        Chỗ này bị chó sắt cắn xé, chỗ nọ thì cọp beo vồ chụp, banh thân moi ruột,
+        v.v Toàn là những hình ảnh quá khiếp hãi!
+
+        Có một ông bác, đang theo dự khóa Phật thất, có lẽ vui tính rồi sẵn dịp hỏi
+        con: “Người làm ác thì xuống địa ngục bị hành tội, còn những người ở dưới
+        địa ngục đi hành hạ tội nhân đủ cách quá ư dã man, như vậy họ có tội không?”.
+
+        Nghe câu hỏi làm con giựt mình.
+
+        Thưa cha má, trong thư trước con bàn sâu đến chuyện tạo phước để hỗ trợ việc
+        vãng sanh.
+
+        Hôm nay con bàn đến chuyện sám nghiệp.
+
+        Sám nghiệp liên quan đến nghiệp chướng, nhân quả, địa ngục.
+
+        Những vấn đề này trước đây con cũng thường nói qua, nhưng mỗi một lần nhắc
+        đến con đi sâu thêm một chút.'
+    - id: 17
+      tap: 3
+      global_idx: 67
+      title: Lời Khuyên Chung – Nói Chung Về Cách Tu Hành
+      duration: 1629
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/67%20T3%20L%E1%BB%9Di%20Khuy%C3%AAn%20Chung%20%E2%80%93%20N%C3%B3i%20Chung%20V%E1%BB%81%20C%C3%A1ch%20Tu%20H%C3%A0nh%20H%E1%BA%BFt%20T%E1%BA%ADp%2003.mp3
+      video_url: https://www.youtube.com/watch?v=vL98lTKPp1E
+      read_url: https://cusidieuam.com/2022/04/21/63-noi-chung-ve-cach-tu-hanh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Kính gởi chung quí đạo hữu đồng tu,
+
+        Có một vài câu hỏi về cách tu niệm Phật.
+
+        Nhiều vị nghe nói nhiều về pháp môn niệm Phật nhưng không biết cụ thể phải
+        niệm như thế nào?
+
+        Nhất là quí vị ở các vùng quê xa tự viện, xa chùa chiền, không có đạo tràng,
+        chưa từng tham dự khóa Phật thất nào, nên phần nhiều bị lúng túng về việc
+        tu hành.
+
+        Đây là vấn đề khá thực tế.
+
+        Hôm nay Diệu Âm cố gắng bàn về chuyện này.
+
+        Lâu nay chúng ta nói nhiều về pháp niệm Phật, chứ thành thực mà nói thì chỉ
+        nói riêng về pháp TRÌ DANH NIỆM PHẬT mà thôi.
+
+        Vì đây là phương pháp thù thắng nhất, tiện lợi nhất, phổ cập tất cả căn cơ
+        mà chư Phật, chư Tổ sư, Đại đức đều tuyên dương.
+
+        Chứ đúng ra, niệm Phật có bốn môn:
+
+        Thật Tướng Niệm Phật: tức là nhập vào đệ nhất nghĩa tâm, là niệm tánh Phật
+        bản lai của chính mình, thuộc về Thiền, nhưng cảnh giới hiển lộ là Tịnh-độ.
+
+        Chỉ hợp với hàng thượng thượng căn.
+
+        Quán Tưởng Niệm Phật: nói đến trong kinh Quán Vô Lượng Thọ, để quán tưởng
+        y-báo và chánh-báo của cõi Cực-lạc, công đức rất lớn.'
+  knnp4_stories:
+    items:
+    - id: 1
+      tap: 4
+      global_idx: 68
+      title: Mấy Dòng Tỏ Bày – Nhất Môn Thâm Nhập Trường Kỳ Huân Tu
+      duration: 2664
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/68%20T4%20M%E1%BA%A5y%20D%C3%B2ng%20T%E1%BB%8F%20B%C3%A0y%20%E2%80%93%20Nh%E1%BA%A5t%20M%C3%B4n%20Th%C3%A2m%20Nh%E1%BA%ADp%20Tr%C6%B0%E1%BB%9Dng%20K%E1%BB%B3%20Hu%C3%A2n%20Tu.mp3
+      video_url: https://www.youtube.com/watch?v=q7EafDm7hsw
+      read_url: https://cusidieuam.com/2022/04/21/66-nhat-mon-tham-nhap-truong-ky-huan-tu/
+      read_label: 📖 Xem bài gốc
+      summary: 'Pháp môn niệm Phật là pháp rất khó tin, như trong kinh Phật nói là
+        nan tín chi pháp!
+
+        Chính vì thế, nói ra mà người ta không tin tưởng là chuyện thường tình, không
+        có gì xa lạ.
+
+        Nhưng một người nào đó vừa mới nghe nhắc đến câu A-di-đà Phật mà phát tâm
+        tu hành, ngày đêm cố gắng chấp trì danh hiệu để niệm, một lòng cầu nguyện
+        vãng sanh thì thật sự là đặc biệt, nhất định không thể là người tầm thường.
+
+        Những người này trong quá khứ chắc chắn đã cúng dường vô số đức Phật mà chúng
+        ta không biết.
+
+        Chính nhờ thiện căn vô cùng lớn đó mới tạo tín tâm vào pháp môn một đời thành
+        Phật này.
+
+        Nói như vậy, để cho cô Lệ Tân cùng quý cô bác đang lập nhóm liên hữu ở thôn
+        Cây Quân thấy rõ được rằng, nếu chân thành niệm Phật, chí kính lễ Phật, với
+        đầy đủ niềm tin, tha thiết nguyện cầu vãng sanh, thì có thể biết được thiện
+        căn của mình lớn lắm và xác định vị trí của từng người ở Liên Trì Hải Hội.
+
+        Niệm Phật vãng sanh về Cực-lạc, dự phần ở ao sen thất bảo là điều chắc chắn,
+        không thể sai lệch.
+
+        Người nào quyết lòng theo đúng lời Phật dạy để tu hành, thì sự thành đạo ở
+        ngay trong đời này.
+
+        Diệu Âm xin thành tâm chúc mừng tất cả quý đạo hữu.
+
+        Mấy vấn đề của cô Lệ Tân đưa ra khá thực tế, rất hữu ích.
+
+        Diệu Âm sẽ cố gắng nêu ra đây một vài ý kiến cá nhân đã học hỏi được, rồi
+        xin tùy duyên nhận xét, chứ không dám nhận lãnh tiếng chỉ bảo như cô Lệ Tân
+        nói đâu.
+
+        Vấn đề đầu tiên của cô Lệ Tân đưa ra có liên quan đến sự tụng kinh cầu an,
+        cầu siêu, cầu tiêu tai giải nạn, tụng kinh báo hiếu mùa vu lan.'
+    - id: 2
+      tap: 4
+      global_idx: 69
+      title: Ý Thức Về Sự Chướng Ngại
+      duration: 2507
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/69%20T4%20%C3%9D%20Th%E1%BB%A9c%20V%E1%BB%81%20S%E1%BB%B1%20Ch%C6%B0%E1%BB%9Bng%20Ng%E1%BA%A1i.mp3
+      video_url: https://www.youtube.com/watch?v=LOErOk4ZzH4
+      read_url: https://cusidieuam.com/2022/04/21/67-y-thuc-ve-su-chuong-ngai/
+      read_label: 📖 Xem bài gốc
+      summary: 'Kinh gởi cô Lệ Tân cùng cô bác cộng tu!
+
+        Thời này tu hành có nhiều chướng ngại lắm.
+
+        Chướng ngại có ba loại, một là phiền não chướng, hai là nghiệp chướng, ba
+        là báo chướng.
+
+        Phiền não chướng là tham-sân-si; Cô bác muốn tu hành cho thành tựu thì nên
+        tìm cách giảm bớt ba chất độc này, mỗi ngày mỗi giảm cho đến hết luôn mới
+        dễ trốn thoát ba cảnh đọa lạc.
+
+        Tham lam là đường ngã quỷ, sân khuể là đường địa ngục, ngu si là đường súc
+        sanh.
+
+        Nghiệp chướng là ngũ nghịch thập ác, sát đạo dâm vọng.
+
+        Muốn tu thì cố gắng giữ năm giới, nhất là giới sát sanh.
+
+        Hãy giữ lòng từ bi thương mạng chúng nó, có thế thì ta dễ được thoát nạn.
+
+        Báo chướng là hậu quả bị đọa lạc trong ba đường khổ: địa ngục, ngạ quỷ, súc
+        sanh.
+
+        Phiền não nghiệp chướng là nhân, báo chướng là quả.
+
+        Nhân nào quả đó, nhân duyên quả báo không sai một ly một tấc.
+
+        Khi thấy được đường tu hành mới biết rằng trong quá khứ chính mình đã sơ ý
+        tạo ra quá nhiều nghiệp ác như giết hại chúng sanh, tham lạm công quỹ, chống
+        báng Phật pháp, sân giận, đố kỵ, vọng ngôn, xảo ngữ, trộm cướp, lường gạt,
+        ganh tỵ, thị phi, v.v nay gặp được Phật pháp mới hay quả báo này toàn là địa
+        ngục, không địa ngục thì ngạ quỷ, không ngạ quỷ cũng là đường súc vật thì
+        sợ đến đêm ngày ăn ngủ không yên!'
+    - id: 3
+      tap: 4
+      global_idx: 70
+      title: Khóc Lóc Mối Nguy Hại Cho Người Lúc Lâm Chung
+      duration: 2563
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/70%20T4%20Kh%C3%B3c%20L%C3%B3c%20M%E1%BB%91i%20Nguy%20H%E1%BA%A1i%20Cho%20Ng%C6%B0%E1%BB%9Di%20L%C3%BAc%20L%C3%A2m%20Chung.mp3
+      video_url: https://www.youtube.com/watch?v=cLMa-miU1Ao
+      read_url: https://cusidieuam.com/2022/04/21/68-khoc-loc-moi-nguy-hai-cho-nguoi-luc-lam-chung/
+      read_label: 📖 Xem bài gốc
+      summary: 'Cô Lệ Tân cùng quý đạo hữu!
+
+        Đời người thật ngắn ngủi, sống chết là chuyện thường tình.
+
+        Có người coi cái chết nhẹ tợ lông hồng, nhưng có người coi cái chết nặng hơn
+        dãy núi Trường sơn.
+
+        Người hiểu Phật đạo không sợ chết, họ an nhiên tự tại vãng sanh.
+
+        Người không hiểu Phật pháp họ sợ cảnh ra đi làm cho tâm hồn thường trực đối
+        diện với nỗi hãi hùng khủng bố!
+
+        Chung quanh chuyện người lâm chung, trước đây có một vài đạo hữu có nêu lên
+        vấn đề chướng ngại do con cháu khóc lóc, người thân yêu trong gia đình không
+        hiểu đạo gây ra sự ồn náo.
+
+        Thư của cô Lệ Tân cũng có nêu lên những khó khăn tương tự.
+
+        Hai thư trước giải quyết một ít chuyện.
+
+        Hôm nay Diệu Âm xin cố gắng bàn đến những chuyện khá phổ biến này.
+
+        Những chướng ngại này, nếu nhẹ thì làm mất phần siêu thoát, nếu nặng có thể
+        đày đọa người thân vào ba đường ác để chịu vạn kiếp khổ đau.
+
+        Những chướng ngại ở đây suy cho cùng thì thật quá oan uổng, vì nó chính lại
+        là hậu quả của tình cảm, thương yêu mà vụng dại!
+
+        Bình thường, con người hẹp hòi, ganh ghét, đố kỵ mới hại nhau, đây là chuyện
+        thường tình của thế nhân.'
+    - id: 4
+      tap: 4
+      global_idx: 71
+      title: Hộ Niệm Khó Hay Dễ – Vấn Đề Đạo Lý Và Tâm Lý
+      duration: 2474
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/71%20T4%20H%E1%BB%99%20Ni%E1%BB%87m%20Kh%C3%B3%20Hay%20D%E1%BB%85%20%E2%80%93%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20%C4%90%E1%BA%A1o%20L%C3%BD%20V%C3%A0%20T%C3%A2m%20L%C3%BD.mp3
+      video_url: https://www.youtube.com/watch?v=r1zFWtArzSY
+      read_url: https://cusidieuam.com/2022/04/21/69-ho-niem-kho-hay-de-van-de-dao-ly-va-tam-ly/
+      read_label: 📖 Xem bài gốc
+      summary: 'Kinh gửi cô Lệ Tân và quý đồng tu,
+
+        Chúng ta tiếp tục bàn chuyện còn đang dở dang:
+
+        việc hộ niệm khó quá, nó mới mẻ quá, có người chấp nhận, có người lại cho
+        rằng bố mẹ ra đi con cái phải khóc, không khóc thì thiên hạ bảo là bất hiếu
+
+        Vấn đề con cháu khóc lóc khi người thân ra đi là một đại nạn cho người chết,
+        chúng ta đã bàn qua trong thư trước.
+
+        Xin cô bác đồng tu nhớ kỹ, đừng vì một chút tình cảm thế tục mà vô tình hãm
+        hại người thân của mình trong tam đồ ác đạo vạn kiếp.
+
+        Hôm nay xin nói về việc hộ niệm khó quá, mới mẻ quá !
+
+        Người ta nghĩ hộ niệm khó quá cũng có thể đúng đấy!
+
+        Tuy nhiên không phải quá khó như nhiều người tưởng, vì chính tôi cũng từng
+        hộ niệm cho người vãng sanh.
+
+        Còn sự hộ niệm có vẻ mới mẻ, thì chỉ mới mẻ đối với người Việt Nam chứ không
+        xa lạ lắm đối với người học Phật Trung Quốc và các nơi khác.
+
+        Hơn nữa, người niệm Phật cầu sanh Cực-lạc thì sự hộ niệm lại rất quen thuộc,
+        đây là điều cần thiết để bảo đảm sự vãng sanh được chắc chắn.
+
+        Riêng ở một số nơi, sự thực hành Phật giáo bị thiên lệch, thiếu người hoằng
+        dương chánh pháp, nhiều người đi chùa lễ Phật tụng kinh lâu năm, nhưng tình
+        thực mà nói, hầu hết chưa hiểu rõ Phật pháp là gì.
+
+        Thành ra cứ thấy có tới chùa tới miễu quỳ lạy các pho tượng cầu tài, cầu lộc,
+        cầu mua may bán đắc, v.v..'
+    - id: 5
+      tap: 4
+      global_idx: 72
+      title: Hộ Niệm Khó Hay Dễ – Niềm Tin Con Người Và Hoàn Cảnh
+      duration: 2664
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/72%20T4%20H%E1%BB%99%20Ni%E1%BB%87m%20Kh%C3%B3%20Hay%20D%E1%BB%85%20%E2%80%93%20Ni%E1%BB%81m%20Tin%20Con%20Ng%C6%B0%E1%BB%9Di%20V%C3%A0%20Ho%C3%A0n%20C%E1%BA%A3nh.mp3
+      video_url: https://www.youtube.com/watch?v=QSUaT3S9x_Y
+      read_url: https://cusidieuam.com/2022/04/21/70-ho-niem-kho-hay-de-niem-tin-con-nguoi-va-hoan-canh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Kính gởi các cô bác đồng tu,
+
+        Xin tiếp tục vấn đề hộ niệm khó hay dễ.
+
+        Có người cho rằng hộ niệm khó quá, mới mẻ quá, nhưng ở mấy dòng cuối của thư
+        trước tôi có kể qua cho cô bác nghe là chúng tôi vừa mới hộ niệm cho một người
+        khác nữa vãng sanh.
+
+        Đó là chị Vũ Thị Hậu, 51 tuổi, bỏ báo thân vào khoảng 2 giờ sáng ngày 21/10/05
+        và hỏa thiêu vào lúc 11 giờ ngày 25/10/05.
+
+        Suốt 4 ngày tại nhà quàng đều có làm lễ cầu siêu bình thường như mọi đám tang
+        khác, hằng ngày cũng có nhiều người viếng điếu, nhưng có lẽ ít ai thấy được
+        sự quí hóa vô giá của đám tang này
+
+        Chị Vũ Thị Hậu đã vãng sanh chứ không phải chết.
+
+        Trước ngày ra đi gần ba tuần lễ, chị được thầy Thích Thiện Huệ và các đồng
+        tu niệm Phật hộ niệm mỗi đêm, và được hộ niệm tám tiếng đồng hồ sau khi bỏ
+        xác thân.
+
+        Chị niệm Phật và ra đi trong tiếng niệm Phật của chồng chị, của mẹ chị, của
+        nhiều đồng tu hộ niệm.
+
+        Ra đi xong, thân xác chị mềm mại, càng lúc càng mềm, càng lúc càng tươi, tiếp
+        tục suốt bốn ngày sau khi tắt thở vẫn mềm mại, vẫn tươi nhuận, diện mạo vẫn
+        hồng hào, tay chân không xanh không tái cho đến khi hỏa thiêu.
+
+        Mỗi ngày tại nhà quàng từ 9 giờ sáng đến 11 giờ đều có thầy Thích Thiện Hữu,
+        trụ trì chùa Phật Đà cùng một số Phật tử đến đọc kinh cầu siêu.
+
+        Trong suốt mấy ngày liền tôi vẫn thấy thân xác chị tươi nhuận mềm mại như
+        người đang ngủ.
+
+        Đến ngày thứ ba, thì nhóm hộ niệm có nhiều người rảnh và cùng nhau tới dự
+        lễ.'
+    - id: 6
+      tap: 4
+      global_idx: 73
+      title: Cần Biết Rõ Đường Vãng Sanh
+      duration: 2524
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/73%20T4%20C%E1%BA%A7n%20Bi%E1%BA%BFt%20R%C3%B5%20%C4%90%C6%B0%E1%BB%9Dng%20V%C3%A3ng%20Sanh.mp3
+      video_url: https://www.youtube.com/watch?v=3SZefnpAT_U
+      read_url: https://cusidieuam.com/2022/04/21/71-can-biet-ro-duong-vang-sanh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Kính gởi đạo huynh Thiện Khánh,
+
+        Diệu Âm có chút duyên sự phải đi Pháp, Âu châu hơn một tháng, vừa về thì nhận
+        được thư của anh và một số thư khác.
+
+        Việc may mắn đầu tiên là khi vừa về tới Úc thì tôi đã sớm có dịp được bái
+        kiến HT Tịnh-Không và trình bày lên Ngài cái nguyện vọng của anh.
+
+        Nhưng trong thời gian này Ngài rất bận, vừa mới xong mấy đại lễ thì Ngài phải
+        bôn ba xuất ngoại để hoằng pháp.
+
+        Thôi thì cũng tùy duyên, có duyên thì “Hữu cầu tất ứng” chứ không nên vội.
+
+        Nếu anh có được thủ pháp của Ngài thì thật là quý hóa lắm vậy.
+
+        Kính anh Thiện Khánh, có lẽ chúng ta có duyên với nhau nên đời này ở xa mà
+        thành gần.
+
+        Tôi rất sung sướng được làm quen với một người biết làm thơ, biết tu hành
+        và tâm hồn nhiệt thành như anh.
+
+        Đọc thư anh tôi rất lấy làm cảm kích, nhưng thật sự không dám nhận những lời
+        tán thán và cảm ơn của anh.
+
+        Khi gặp được pháp môn niệm Phật thì tôi tin tưởng, rồi lấy lòng tín ngưỡng
+        đó mà thành tâm khuyên người niệm Phật.
+
+        Lòng chân thành khuyên giải, mong cho những ai nghe được phát khởi lòng tin,
+        muốn được vãng sanh, chí tâm niệm Phật.
+
+        Cầu xin tất cả đắc được thiện lợi.'
+    - id: 7
+      tap: 4
+      global_idx: 74
+      title: Niệm Phật Xuất Tam Giới Bất Khả Tư Nghì
+      duration: 2830
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/74%20T4%20Ni%E1%BB%87m%20Ph%E1%BA%ADt%20Xu%E1%BA%A5t%20Tam%20Gi%E1%BB%9Bi%20B%E1%BA%A5t%20Kh%E1%BA%A3%20T%C6%B0%20Ngh%C3%AC.mp3
+      video_url: https://www.youtube.com/watch?v=GJHIsLpDcj4
+      read_url: https://cusidieuam.com/2022/04/21/72-niem-phat-xuat-tam-gioi-bat-kha-tu-nghi/
+      read_label: 📖 Xem bài gốc
+      summary: 'Niệm Phật bất khả tư nghì!
+
+        Trước đây chị chỉ nghe nói sự vi diệu của pháp niệm Phật, chứ chắc chưa từng
+        thấy qua.
+
+        Nay chính người mẹ đã vãng sanh, chị đã thấy được tận mắt những hiện tượng
+        bất khả tư nghì.
+
+        Phải chăng đây là một bài hiện thân thuyết pháp, làm cho chị cùng gia đình
+        tăng trưởng niềm tin vào pháp niệm Phật.
+
+        Xin thành tâm chúc mừng cho chị, chúc mừng cho cả gia đình và thành kính chúc
+        mừng cho Bác.
+
+        Nguyện cầu hương linh Bác vãng sanh cao phẩm, sớm ngày trở lại cõi Ta-bà cứu
+        độ chúng sanh.
+
+        Phật nói: Bất khả dĩ thiểu thiện căn phước đức nhân duyên đắc sanh bỉ quốc.
+
+        Người ít thiện căn, ít phước đức, ít nhân duyên không thể nào được vãng sanh
+        về thế giới Tây-phương Cực-lạc của đức Phật A-di-đà.
+
+        Nghĩa là, vãng sanh được về thế giới Cực-lạc không phải là chuyện dễ.
+
+        Nhiều người tu hành lâu năm, khổ cực dụng công, sức tu tập thật giỏi, nhưng
+        cuối cùng chưa chắc đã biết đâu là chỗ quy hướng tối thắng.
+
+        Thế mà, Bác vừa được vãng sanh, Bác đã hưởng được một đại thiện căn, đại phước
+        đức, đại nhân duyên.
+
+        Cái thiện căn phước đức này mấy ai sánh bằng?'
+    - id: 8
+      tap: 4
+      global_idx: 75
+      title: Buông Xả Mới Được Vãng Sanh
+      duration: 2443
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/75%20T4%20Bu%C3%B4ng%20X%E1%BA%A3%20M%E1%BB%9Bi%20%C4%90%C6%B0%E1%BB%A3c%20V%C3%A3ng%20Sanh.mp3
+      video_url: https://www.youtube.com/watch?v=hRjrzdhnjZk
+      read_url: https://cusidieuam.com/2022/04/21/73-buong-xa-moi-duoc-vang-sanh/
+      read_label: 📖 Xem bài gốc
+      summary: 'Tu hành nhằm để “Ly khổ đắc lạc”, nghĩa là thoát khổ được vui.
+
+        Trên đời này thiên hạ sợ nhất là chết, người niệm Phật coi sự chết sống là
+        chuyện tự nhiên, bình thường như những chuyện bình thường khác.
+
+        Quyết lòng làm lành lánh dữ, ngày ngày niệm Phật cầu sanh Tịnh-độ.
+
+        Giữ vững niềm tin, phát nguyện vãng sanh tha thiết, chân chánh tu hành.
+
+        Vậy thì còn điều gì lớn hơn nữa để lo âu phiền muộn?!
+
+        Anh kính lời thăm tất cả cô bác tại đạo tràng.
+
+        Anh luôn luôn nhớ đến tất cả đồng tu ở Long Khánh.
+
+        Mỗi lần về thăm quê, anh đều cảm nhận được lòng quí mến của cô bác, anh xin
+        cảm niệm tấm thịnh tình này.
+
+        Mong quí Cô Bác cố gắng tinh tấn niệm Phật, sự thành tựu đang chờ mọi người
+        đó.
+
+        Mới mở đầu thư, em viết như vầy: “ Hôm nay viết thư cho anh mà cũng là lần
+        đầu em sợ nhất ”.
+
+        Nghe đến tiếng Sợ nhất làm anh giựt mình nên phải đọc thật kỹ để coi thử chuyện
+        gì có vẻ dễ sợ vậy!
+
+        Nhưng tìm hoài không thấy.'
+    - id: 9
+      tap: 4
+      global_idx: 76
+      title: Vấn Đề Cảm Ứng – Hết
+      duration: 2614
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/Khuyen%20Nguoi%20Niem%20Phat%20-%20DPA%2032kbps/76%20T4%20V%E1%BA%A5n%20%C4%90%E1%BB%81%20C%E1%BA%A3m%20%E1%BB%A8ng%20%E2%80%93%20H%E1%BA%BFt.mp3
+      video_url: https://www.youtube.com/watch?v=yvAZIbcEvwI
+      read_url: https://cusidieuam.com/2022/04/21/74-van-de-cam-ung/
+      read_label: 📖 Xem bài gốc
+      summary: 'Thư gởi đạo hữu Tâm Minh, cùng quí liên hữu Tịnh Thư Quán!
+
+        Thành thật cảm ơn rất nhiều về một số disc DVD, MP3, VCD pháp của đạo hữu
+        Tâm Minh gởi tặng.
+
+        Diệu Âm cũng có chung một tâm nguyện với quí liên hữu, cố gắng ấn hành những
+        băng đĩa khuyến tu niệm Phật.
+
+        Thời mạt pháp này mà rời câu A-di-đà Phật, thì chúng ta không còn có hy vọng
+        nào khác để thành tựu chánh quả.
+
+        Đã lỡ vô ý chịu trầm luân khổ nạn vô lượng kiếp qua rồi, nay cơ duyên thành
+        Phật đã đến, xin quí liên hữu hãy một lòng trì giữ câu A-di-đà Phật để một
+        đời này được vãng sanh thành Phật.
+
+        Sự hoạt động của đạo hữu cùng anh chị em Tịnh Thư Quán đã đem lại rất nhiều
+        tiện ích thiết thực trong việc truyền bá pháp Phật, nhất là xiển dương pháp
+        môn Tịnh độ cho người Việt Nam.
+
+        Anh chị em đã làm một công việc vì lợi ích chúng sanh, vì Phật pháp trường
+        tồn, chắc chắn sẽ được chư Phật Bồ-tát gia trì.
+
+        Riêng Diệu Âm thì thành thật cảm kích và khâm phục.
+
+        Mong anh chị em cố gắng hoạt động mạnh mẽ để người Việt Nam khắp thế giới
+        được sự nương nhờ.
+
+        Chúng ta mỗi người góp một tay lưu truyền đạo pháp, giúp người vãng sanh.
+
+        Cầu nguyện cho tất cả quí anh chị em trong một báo thân này đều thành tựu
+        đại nguyện.
+
+        Cuối năm 2006 đầu năm 2007, Diệu Âm về Việt Nam thời gian ba tháng.'
