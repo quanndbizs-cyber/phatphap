@@ -10,7 +10,7 @@ Cẩm nang này đúc kết toàn bộ nghi thức hành trì trang nghiêm, chu
 
 ---
 
-## 1. Yếu Chỉ Pháp Môn Tịnh Độ & Ba Món Tư Lương { #yeu-chi-tinh-do }
+## 1. Yếu Chỉ Pháp Môn Tịnh Độ & Ba Món Tư Lương
 
 Đức Phật Thích Ca Mâu Ni chỉ rõ trong Kinh Vô Lượng Thọ và Kinh A Di Đà: Trong thời mạt pháp, chúng sanh nghiệp chướng sâu dày, chướng duyên trùng trùng, nương tựa vào tự lực đoạn sạch kiến tư phiền não để ra khỏi luân hồi là việc muôn phần khó khăn. Chỉ có nương tựa vào bản nguyện tha lực của Đức Từ Phụ A Di Đà, tin sâu nguyện thiết, chấp trì danh hiệu, mới có thể **Đới Nghiệp Vãng Sanh**, một đời thoát khỏi sanh tử luân hồi, chứng quả vị Bất Thoái Chuyển.
 
@@ -37,11 +37,11 @@ Ba món tư lương quyết định thành tựu gồm có:
 
 ---
 
-## 2. Thời Khóa Tịnh Tu Công Phu Hằng Ngày (Sáng & Tối) { #thoi-khoa-cong-phu }
+## 2. Thời Khóa Tịnh Tu Công Phu Hằng Ngày (Sáng & Tối)
 
 Thời khóa tịnh tu nên chia thành hai buổi: **Sáng sớm** (khi tâm trí còn an tĩnh, trước lúc bắt đầu công việc) và **Buổi tối** (trước khi đi ngủ, sau khi đã xong mọi việc trần duyên). Tùy thời gian cho phép, có thể thực hiện khóa lễ khoảng 30 đến 45 phút.
 
-### 2.1. Nguyện Hương & Tịnh Tam Nghiệp { #nguyen-huong }
+### 2.1. Nguyện Hương & Tịnh Tam Nghiệp
 
 *(Thắp ba nén hương, chắp tay quỳ trước bàn thờ Phật, chí tâm đọc)*
 
@@ -62,7 +62,7 @@ Chóng quay về bến giác.
 
 ---
 
-### 2.2. Kệ Tán Thán Phật & Đảnh Lễ Tam Bảo { #danh-le-tam-bao }
+### 2.2. Kệ Tán Thán Phật & Đảnh Lễ Tam Bảo
 
 Đấng Pháp Vương vô thượng,  
 Ba cõi chẳng ai bằng,  
@@ -84,7 +84,7 @@ Xưng dương cùng tán thán,
 
 ---
 
-### 2.3. Tụng Kệ Khai Kinh { #ke-khai-kinh }
+### 2.3. Tụng Kệ Khai Kinh
 
 Phật pháp rộng sâu rất nhiệm mầu,  
 Trăm ngàn muôn kiếp khó tìm cầu.  
@@ -97,7 +97,7 @@ Nguyện hiểu Như Lai nghĩa nhiệm mầu.
 
 ---
 
-### 2.4. Bạt Nhất Thiết Nghiệp Chướng Vãng Sanh Đà La Ni (Chú Vãng Sanh) { #chu-vang-sanh }
+### 2.4. Bạt Nhất Thiết Nghiệp Chướng Vãng Sanh Đà La Ni (Chú Vãng Sanh)
 
 Nam mô a di đa bà dạ, đá tha dà đa dạ, đá địa dạ tha:  
 A di rị đô bà tỳ,  
@@ -110,7 +110,7 @@ Chỉ đa ca lệ, ta bà ha.
 
 ---
 
-### 2.5. Kệ Khen Phật A Di Đà { #ke-khen-phat }
+### 2.5. Kệ Khen Phật A Di Đà
 
 *(Đứng thẳng hoặc quỳ trang nghiêm, chắp tay thành kính)*
 
@@ -125,7 +125,7 @@ Cửu phẩm hàm linh đăng bỉ ngạn.
 
 ---
 
-### 2.6. Trì Danh Hiệu Phật (Chánh Khóa Công Phu) { #tri-danh-hieu-phat }
+### 2.6. Trì Danh Hiệu Phật (Chánh Khóa Công Phu)
 
 *(Khởi niệm chậm rãi, rõ ràng từng tiếng, có thể ngồi xếp bằng hoặc đi kinh hành vòng quanh)*
 
@@ -142,7 +142,7 @@ Cửu phẩm hàm linh đăng bỉ ngạn.
 
 ---
 
-### 2.7. Văn Phát Nguyện Vãng Sanh (Đại Từ Bồ Tát Hồi Hướng Văn) { #van-phat-nguyen-vang-sanh }
+### 2.7. Văn Phát Nguyện Vãng Sanh (Đại Từ Bồ Tát Hồi Hướng Văn)
 
 *(Quỳ gối chắp tay, đọc từ tận đáy lòng với tâm tha thiết cầu thoát ly Ta Bà)*
 
@@ -193,7 +193,7 @@ Bất thối Bồ Tát vi bạn lữ.**
 
 ---
 
-### 2.8. Tam Tự Quy Y & Lễ Tạ { #tam-tu-quy-y }
+### 2.8. Tam Tự Quy Y & Lễ Tạ
 
 * **Tự quy y Phật:** Xin nguyện chúng sanh, thể theo đạo cả, phát lòng vô thượng. *(1 lạy)*
 * **Tự quy y Pháp:** Xin nguyện chúng sanh, thấu rõ kinh tạng, trí huệ như biển. *(1 lạy)*
@@ -206,7 +206,7 @@ Hồi hướng khắp tất cả.
 
 ---
 
-## 3. Bí Quyết Nhiếp Tâm: Phương Pháp Thập Niệm Ký Số Của Tổ Ấn Quang { #phuong-phap-thap-niem-ky-so }
+## 3. Bí Quyết Nhiếp Tâm: Phương Pháp Thập Niệm Ký Số Của Tổ Ấn Quang
 
 Nhiều người niệm Phật than phiền vọng niệm quá nhiều, vừa niệm câu Phật hiệu thì ý nghĩ thế tục đã lăng xăng khởi lên, niệm Phật lâu năm mà công phu không đắc lực. Đại Sư Ấn Quang (vị Tổ thứ 13 của Tịnh Độ Tông) đã truyền dạy phương pháp tối thượng: **Thập Niệm Ký Số**.
 
@@ -236,7 +236,7 @@ Hết 10 câu, lập tức quay lại từ 1, lặp đi lặp lại không dứt
 
 ---
 
-## 4. Phương Pháp Thập Niệm Hằng Ngày Cho Người Bận Rộn { #phap-thap-niem-cho-nguoi-ban-ron }
+## 4. Phương Pháp Thập Niệm Hằng Ngày Cho Người Bận Rộn
 
 Đối với người bận rộn công việc xã hội, không thể ngồi yên 1 giờ đồng hồ để tụng kinh, Hòa Thượng Tịnh Không đã đề xướng **Phương Pháp Thập Niệm 9 Thời Khắc** cực kỳ thực tế. Mỗi lần chỉ tốn chưa đầy 1 phút, nhưng được thực hiện 9 lần rải đều trong suốt cả ngày, tạo thành một mạng lưới tịnh niệm che chở thân tâm.
 
@@ -263,7 +263,7 @@ Hết 10 câu, lập tức quay lại từ 1, lặp đi lặp lại không dứt
 
 ---
 
-## 5. Văn Sám Hối & Phát Bồ Đề Tâm Chân Thật { #van-sam-hoi-phat-nguyen }
+## 5. Văn Sám Hối & Phát Bồ Đề Tâm Chân Thật
 
 Tu Tịnh Độ muốn vãng sanh thì tâm phải tương ưng với tâm Phật. Nếu trong lòng còn chứa đầy tham lam, sân hận, đố kỵ, oán thù, thì miệng niệm Phật mà lòng còn mê muội, khó mong cảm ứng đạo giao. Do đó, mỗi ngày cần phải chí thành sám hối nghiệp chướng.
 
@@ -302,7 +302,7 @@ Tội tiêu tâm tịnh thảy đều không,
 
 ---
 
-## 6. Lời Dặn Dò Lâm Chung & Hộ Niệm Vãng Sanh { #loi-dan-do-lam-chung }
+## 6. Lời Dặn Dò Lâm Chung & Hộ Niệm Vãng Sanh
 
 Giây phút lâm chung là thời điểm ngàn cân treo sợi tóc, quyết định hành trình của thần thức trong muôn kiếp vị lai. Hành giả Tịnh Độ khi còn khỏe mạnh cần phải dặn dò người nhà thật kỹ lưỡng để tránh tạo chướng ngại cho chính mình.
 
@@ -325,7 +325,7 @@ Giây phút lâm chung là thời điểm ngàn cân treo sợi tóc, quyết đ
 
 ---
 
-## 7. Pháp Âm & Danh Sách Tụng Niệm Trực Tiếp { #phap-am-tung-niem }
+## 7. Pháp Âm & Danh Sách Tụng Niệm Trực Tiếp
 
 Đồng tu có thể lắng nghe trực tiếp các bài khai thị tinh yếu, các ca hộ niệm thực tế và thời khóa niệm Phật mẫu trên hệ thống Audiobookshelf tích hợp sẵn dưới đây để trợ duyên cho công phu mỗi ngày:
 
