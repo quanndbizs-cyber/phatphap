@@ -402,10 +402,14 @@
         var drawer = document.getElementById(drawerId);
         if (!drawer) return;
         if (drawer.style.display === "none" || !drawer.innerHTML) {
+            var finalUrl = embedUrl || "";
+            if (finalUrl.indexOf("youtube.com/embed/") !== -1 && finalUrl.indexOf("playsinline=") === -1) {
+                finalUrl += (finalUrl.indexOf("?") === -1 ? "?" : "&") + "playsinline=1&rel=0";
+            }
             drawer.style.display = "block";
             drawer.innerHTML =
                 '<div class="tm-story-video-frame">' +
-                '  <iframe src="' + escapeHtml(embedUrl) + '" style="width:100%; height:380px; border:none; border-radius:8px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>' +
+                '  <iframe src="' + escapeHtml(finalUrl) + '" style="width:100%; height:380px; border:none; border-radius:8px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>' +
                 '</div>';
         } else {
             drawer.style.display = "none";
@@ -541,9 +545,13 @@
                 }
                 html += '</blockquote>';
             } else if (b.type === "image" && b.url) {
+                var storyImgCap = "Minh họa Tích truyện Kinh Pháp Cú — Bài kệ " + kpcCurrentVerse;
                 html +=
                     '<figure class="tm-kpc-story-figure">' +
-                    '  <img src="' + escapeHtml(b.url) + '" alt="Minh họa Tích truyện Kinh Pháp Cú" loading="lazy" />' +
+                    '  <div class="tm-kpc-zoomable-wrap" data-src="' + escapeHtml(b.url) + '" data-caption="' + escapeHtml(storyImgCap) + '" onclick="window.tmKpcOpenLightbox(this.getAttribute(\'data-src\'), this.getAttribute(\'data-caption\'))" role="button" tabindex="0" title="Bấm vào ảnh để mở popup xem ảnh lớn">' +
+                    '    <img src="' + escapeHtml(b.url) + '" alt="' + escapeHtml(storyImgCap) + '" loading="lazy" />' +
+                    '    <span class="tm-kpc-img-zoom-hint">🔍 Bấm để xem ảnh lớn</span>' +
+                    '  </div>' +
                     '</figure>';
             } else if (b.type === "verse_table" && b.cells && b.cells.length) {
                 html += '<div class="tm-kpc-story-vtable">';
@@ -642,27 +650,31 @@
         // Media grid (Illustration image from loiphatday.org + YouTube Short from @PhapGiacTam)
         var mediaHtml = '<div class="tm-kpc-media-grid' + (yt ? ' has-both' : ' single-img') + '">';
         if (verseImg) {
+            var vCap = "Tranh minh họa Kinh Pháp Cú — Bài kệ " + vnum + (st && st.story_name ? (" (" + st.story_name + ")") : "");
             mediaHtml +=
                 '<div class="tm-kpc-media-card tm-kpc-img-card">' +
-                '  <div class="tm-kpc-media-head">🖼️ Tranh Minh Họa Bài Kệ ' + vnum + '</div>' +
-                '  <div class="tm-kpc-img-wrap">' +
-                '    <a href="' + escapeHtml(verseImg) + '" target="_blank" rel="noopener noreferrer" title="Bấm để xem ảnh kích thước đầy đủ">' +
-                '      <img src="' + escapeHtml(verseImg) + '" alt="Tranh minh họa Kinh Pháp Cú - Bài kệ ' + vnum + '" loading="eager" />' +
-                '    </a>' +
+                '  <div class="tm-kpc-media-head">' +
+                '    <span>🖼️ Tranh Minh Họa Bài Kệ ' + vnum + '</span>' +
+                '    <button type="button" class="tm-kpc-head-action" data-src="' + escapeHtml(verseImg) + '" data-caption="' + escapeHtml(vCap) + '" onclick="window.tmKpcOpenLightbox(this.getAttribute(\'data-src\'), this.getAttribute(\'data-caption\'))">🔍 Phóng to</button>' +
+                '  </div>' +
+                '  <div class="tm-kpc-img-wrap tm-kpc-zoomable-wrap" data-src="' + escapeHtml(verseImg) + '" data-caption="' + escapeHtml(vCap) + '" onclick="window.tmKpcOpenLightbox(this.getAttribute(\'data-src\'), this.getAttribute(\'data-caption\'))" role="button" tabindex="0" title="Bấm vào ảnh để mở popup xem ảnh lớn">' +
+                '    <img src="' + escapeHtml(verseImg) + '" alt="' + escapeHtml(vCap) + '" loading="eager" />' +
+                '    <span class="tm-kpc-img-zoom-hint">🔍 Bấm vào ảnh để mở xem cỡ lớn</span>' +
                 '  </div>' +
                 '</div>';
         }
         if (yt && yt.video_id) {
-            var embedUrl = "https://www.youtube.com/embed/" + encodeURIComponent(yt.video_id) + "?rel=0";
+            var embedUrl = "https://www.youtube.com/embed/" + encodeURIComponent(yt.video_id) + "?playsinline=1&rel=0";
+            var watchUrl = yt.shorts_url || yt.video_url || ("https://www.youtube.com/shorts/" + encodeURIComponent(yt.video_id));
             mediaHtml +=
                 '<div class="tm-kpc-media-card tm-kpc-yt-card">' +
                 '  <div class="tm-kpc-media-head">' +
                 '    <span>🎬 Video 30s Hiểu Kinh Pháp Cú (Câu ' + vnum + ')</span>' +
-                '    <a href="' + escapeHtml(yt.shorts_url || yt.video_url) + '" target="_blank" rel="noopener noreferrer" class="tm-kpc-yt-ext">↗ YouTube</a>' +
+                '    <a href="' + escapeHtml(watchUrl) + '" target="_blank" rel="noopener noreferrer" class="tm-kpc-yt-ext">↗ Mở YouTube</a>' +
                 '  </div>' +
                 '  <div class="tm-kpc-yt-topic">' + escapeHtml(yt.title || "") + '</div>' +
                 '  <div class="tm-kpc-yt-frame-wrap">' +
-                '    <iframe src="' + embedUrl + '" title="' + escapeHtml(yt.title || ("Kinh Pháp Cú Câu " + vnum)) + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe>' +
+                '    <iframe src="' + embedUrl + '" title="' + escapeHtml(yt.title || ("Kinh Pháp Cú Câu " + vnum)) + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>' +
                 '  </div>' +
                 '</div>';
         }
@@ -700,6 +712,7 @@
                 '  <div class="tm-kpc-story-footer-nav">' +
                 '    <button type="button" class="tm-kpc-foot-btn" onclick="window.tmKpcStep(-1)" ' + (vnum <= 1 ? 'disabled' : '') + '>⏮ Bài kệ trước (' + (vnum > 1 ? (vnum - 1) : 1) + ')</button>' +
                 '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-top" onclick="var r=document.getElementById(\'tm-kpc-reader\');if(r)r.scrollIntoView({behavior:\'smooth\'});">↑ Lên đầu bài kệ ' + vnum + '</button>' +
+                '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-share" onclick="window.tmKpcOpenShareModal()">🔗 Chia sẻ bài kệ ' + vnum + '</button>' +
                 '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-next" onclick="window.tmKpcStep(1)" ' + (vnum >= 423 ? 'disabled' : '') + '>Bài kệ tiếp (' + (vnum < 423 ? (vnum + 1) : 423) + ') ⏭</button>' +
                 '  </div>' +
                 '</section>';
@@ -709,7 +722,10 @@
             '<article class="tm-kpc-verse-card">' +
             '  <header class="tm-kpc-verse-header">' +
             '    <div class="tm-kpc-pham-badge">Phẩm ' + (v.pham_id < 10 ? "0" + v.pham_id : v.pham_id) + ' • ' + escapeHtml(v.pham_name) + ' (' + escapeHtml(v.pham_pali) + ')</div>' +
-            '    <div class="tm-kpc-verse-num-badge">Bài kệ <strong>' + vnum + '</strong> / 423</div>' +
+            '    <div class="tm-kpc-verse-header-right">' +
+            '      <div class="tm-kpc-verse-num-badge">Bài kệ <strong>' + vnum + '</strong> / 423</div>' +
+            '      <button type="button" class="tm-kpc-share-btn" onclick="window.tmKpcOpenShareModal()" title="Chia sẻ bài kệ Kinh Pháp Cú số ' + vnum + '">🔗 Chia sẻ bài kệ</button>' +
+            '    </div>' +
             '  </header>' +
             '  <h2 class="tm-kpc-verse-heading">Kệ Pháp Cú Số ' + vnum + (st && st.story_name ? (' — ' + escapeHtml(st.story_name)) : '') + '</h2>' +
             '  ' + siblingHtml +
@@ -793,6 +809,290 @@
         }
     };
 
+    /* =========================================================================
+       5. IMAGE LIGHTBOX POPUP (Xem ảnh lớn & Đóng về lại trang)
+       ========================================================================= */
+    function ensureKpcLightbox() {
+        var box = document.getElementById("tm-kpc-lightbox");
+        if (box) return box;
+
+        box = document.createElement("div");
+        box.id = "tm-kpc-lightbox";
+        box.className = "tm-kpc-lightbox";
+        box.setAttribute("role", "dialog");
+        box.setAttribute("aria-modal", "true");
+        box.style.display = "none";
+        box.innerHTML =
+            '<div class="tm-kpc-lb-backdrop" onclick="window.tmKpcCloseLightbox()"></div>' +
+            '<div class="tm-kpc-lb-container" onclick="if(event.target===this)window.tmKpcCloseLightbox()">' +
+            '  <div class="tm-kpc-lb-topbar">' +
+            '    <div class="tm-kpc-lb-caption" id="tm-kpc-lb-caption">Tranh minh họa Kinh Pháp Cú</div>' +
+            '    <div class="tm-kpc-lb-actions">' +
+            '      <button type="button" class="tm-kpc-lb-btn" id="tm-kpc-lb-zoom-btn" onclick="window.tmKpcToggleLightboxZoom()">🔍 Phóng to (+)</button>' +
+            '      <button type="button" class="tm-kpc-lb-btn tm-kpc-lb-close" onclick="window.tmKpcCloseLightbox()" title="Đóng ảnh (Esc)">✕ Đóng</button>' +
+            '    </div>' +
+            '  </div>' +
+            '  <div class="tm-kpc-lb-stage" id="tm-kpc-lb-stage" onclick="if(event.target===this)window.tmKpcCloseLightbox()">' +
+            '    <img id="tm-kpc-lb-img" class="tm-kpc-lb-img" src="" alt="Ảnh phóng to" onclick="event.stopPropagation();window.tmKpcToggleLightboxZoom();" />' +
+            '  </div>' +
+            '  <div class="tm-kpc-lb-bottombar">' +
+            '    <span class="tm-kpc-lb-hint">💡 Chạm vào ảnh để phóng to / thu nhỏ • Bấm Đóng để quay lại trang đọc</span>' +
+            '    <button type="button" class="tm-kpc-lb-btn tm-kpc-lb-close-bottom" onclick="window.tmKpcCloseLightbox()">✕ Đóng &amp; Quay lại bài kệ</button>' +
+            '  </div>' +
+            '</div>';
+        document.body.appendChild(box);
+        return box;
+    }
+
+    window.tmKpcOpenLightbox = function (src, caption) {
+        if (!src) return;
+        var box = ensureKpcLightbox();
+        var img = document.getElementById("tm-kpc-lb-img");
+        var cap = document.getElementById("tm-kpc-lb-caption");
+        var zoomBtn = document.getElementById("tm-kpc-lb-zoom-btn");
+        var stage = document.getElementById("tm-kpc-lb-stage");
+
+        if (img) {
+            img.src = src;
+            img.alt = caption || "Tranh minh họa Kinh Pháp Cú";
+            img.classList.remove("is-zoomed");
+        }
+        if (stage) {
+            stage.classList.remove("is-zoomed");
+        }
+        if (cap) {
+            cap.textContent = caption || "Tranh minh họa Kinh Pháp Cú";
+        }
+        if (zoomBtn) {
+            zoomBtn.textContent = "🔍 Phóng to (+)";
+        }
+        box.style.display = "flex";
+        document.body.classList.add("tm-kpc-modal-open");
+    };
+
+    window.tmKpcToggleLightboxZoom = function () {
+        var img = document.getElementById("tm-kpc-lb-img");
+        var stage = document.getElementById("tm-kpc-lb-stage");
+        var zoomBtn = document.getElementById("tm-kpc-lb-zoom-btn");
+        if (!img) return;
+        var zoomed = img.classList.toggle("is-zoomed");
+        if (stage) {
+            stage.classList.toggle("is-zoomed", zoomed);
+        }
+        if (zoomBtn) {
+            zoomBtn.textContent = zoomed ? "🔎 Thu vừa màn hình (-)" : "🔍 Phóng to (+)";
+        }
+    };
+
+    window.tmKpcCloseLightbox = function () {
+        var box = document.getElementById("tm-kpc-lightbox");
+        if (box) {
+            box.style.display = "none";
+        }
+        document.body.classList.remove("tm-kpc-modal-open");
+    };
+
+    /* =========================================================================
+       6. SHARE KINH PHÁP CÚ VERSE MODAL (Chia sẻ bài kệ Pháp Cú)
+       ========================================================================= */
+    function getKpcSharePayload() {
+        var vnum = kpcCurrentVerse || 1;
+        var v = (kpcMasterData && kpcMasterData.verses) ? kpcMasterData.verses[String(vnum)] : null;
+        var st = (v && v.story_id && kpcMasterData.stories) ? kpcMasterData.stories[v.story_id] : null;
+
+        var u;
+        try {
+            u = new URL(window.location.href);
+            u.searchParams.set("bai", String(vnum));
+            u.hash = "";
+        } catch (e) {
+            u = { toString: function () { return window.location.href; } };
+        }
+        var shareUrl = u.toString();
+
+        var phamTitle = v ? ("Phẩm " + (v.pham_id < 10 ? "0" + v.pham_id : v.pham_id) + ": " + v.pham_name) : "Kinh Pháp Cú";
+        var storyTitle = (st && (st.story_name || st.title)) ? (st.story_name || st.title) : "";
+        var vnText = (v && v.vn_lines && v.vn_lines.length) ? v.vn_lines.join("\n") : "";
+        var paliText = (v && v.pali_lines && v.pali_lines.length) ? v.pali_lines.join("\n") : "";
+
+        var title = "Kinh Pháp Cú - Bài kệ " + vnum + (storyTitle ? (" (" + storyTitle + ")") : "");
+        var fullText =
+            "🪷 KINH PHÁP CÚ — BÀI KỆ " + vnum + " (" + phamTitle + ")\n\n" +
+            (vnText ? (vnText + "\n\n") : "") +
+            (paliText ? ("📜 Pāli:\n" + paliText + "\n\n") : "") +
+            (storyTitle ? ("📖 Tích truyện: " + storyTitle + "\n") : "") +
+            "🔗 Đọc bài kệ & tích truyện tại: " + shareUrl;
+
+        return {
+            vnum: vnum,
+            title: title,
+            phamTitle: phamTitle,
+            storyTitle: storyTitle,
+            vnText: vnText,
+            paliText: paliText,
+            url: shareUrl,
+            fullText: fullText
+        };
+    }
+
+    function ensureKpcShareModal() {
+        var modal = document.getElementById("tm-kpc-share-modal");
+        if (modal) return modal;
+
+        modal = document.createElement("div");
+        modal.id = "tm-kpc-share-modal";
+        modal.className = "tm-kpc-share-modal";
+        modal.setAttribute("role", "dialog");
+        modal.setAttribute("aria-modal", "true");
+        modal.style.display = "none";
+        modal.innerHTML =
+            '<div class="tm-kpc-lb-backdrop" onclick="window.tmKpcCloseShareModal()"></div>' +
+            '<div class="tm-kpc-share-dialog">' +
+            '  <div class="tm-kpc-share-head">' +
+            '    <div class="tm-kpc-share-title" id="tm-kpc-share-title">🔗 Chia sẻ Bài Kệ Kinh Pháp Cú</div>' +
+            '    <button type="button" class="tm-kpc-share-close" onclick="window.tmKpcCloseShareModal()" title="Đóng">✕</button>' +
+            '  </div>' +
+            '  <div class="tm-kpc-share-body">' +
+            '    <div class="tm-kpc-share-preview" id="tm-kpc-share-preview"></div>' +
+            '    <div class="tm-kpc-share-url-row">' +
+            '      <input type="text" id="tm-kpc-share-url-input" class="tm-kpc-share-url-input" readonly onclick="this.select();" />' +
+            '      <button type="button" class="tm-kpc-share-copy-url" onclick="window.tmKpcCopyShare(\'link\')">🔗 Chép Link</button>' +
+            '    </div>' +
+            '    <div class="tm-kpc-share-toast" id="tm-kpc-share-toast" style="display:none;"></div>' +
+            '    <div class="tm-kpc-share-grid">' +
+            '      <button type="button" class="tm-kpc-share-opt tm-kpc-share-opt-primary" onclick="window.tmKpcCopyShare(\'full\')">' +
+            '        <span>📋</span> <div><strong>Sao chép Lời kệ + Liên kết</strong><small>Dán ngay vào Zalo, Messenger, Ghi chú...</small></div>' +
+            '      </button>' +
+            '      <button type="button" class="tm-kpc-share-opt tm-kpc-share-opt-native" id="tm-kpc-share-native-btn" onclick="window.tmKpcNativeShare()">' +
+            '        <span>📱</span> <div><strong>Chia sẻ nhanh qua ứng dụng...</strong><small>Mở menu chia sẻ của điện thoại / trình duyệt</small></div>' +
+            '      </button>' +
+            '    </div>' +
+            '    <div class="tm-kpc-share-social-row">' +
+            '      <a id="tm-kpc-share-fb" href="#" target="_blank" rel="noopener noreferrer" class="tm-kpc-social-btn tm-kpc-social-fb">📘 Chia sẻ Facebook</a>' +
+            '      <a id="tm-kpc-share-tg" href="#" target="_blank" rel="noopener noreferrer" class="tm-kpc-social-btn tm-kpc-social-tg">✈️ Telegram</a>' +
+            '      <a id="tm-kpc-share-mail" href="#" class="tm-kpc-social-btn tm-kpc-social-mail">✉️ Gửi Email</a>' +
+            '    </div>' +
+            '  </div>' +
+            '</div>';
+        document.body.appendChild(modal);
+        return modal;
+    }
+
+    window.tmKpcOpenShareModal = function () {
+        var modal = ensureKpcShareModal();
+        var p = getKpcSharePayload();
+
+        var titleEl = document.getElementById("tm-kpc-share-title");
+        if (titleEl) {
+            titleEl.textContent = "🔗 Chia sẻ Bài Kệ " + p.vnum + " — Kinh Pháp Cú";
+        }
+
+        var prevEl = document.getElementById("tm-kpc-share-preview");
+        if (prevEl) {
+            prevEl.innerHTML =
+                '<div class="tm-kpc-sp-badge">' + escapeHtml(p.phamTitle) + ' • Bài kệ ' + p.vnum + '</div>' +
+                '<div class="tm-kpc-sp-verse">' + escapeHtml(p.vnText).replace(/\n/g, "<br/>") + '</div>' +
+                (p.storyTitle ? ('<div class="tm-kpc-sp-story">📖 Tích truyện: <strong>' + escapeHtml(p.storyTitle) + '</strong></div>') : '');
+        }
+
+        var urlInp = document.getElementById("tm-kpc-share-url-input");
+        if (urlInp) {
+            urlInp.value = p.url;
+        }
+
+        var toast = document.getElementById("tm-kpc-share-toast");
+        if (toast) {
+            toast.style.display = "none";
+        }
+
+        var fbBtn = document.getElementById("tm-kpc-share-fb");
+        if (fbBtn) {
+            fbBtn.href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(p.url) + "&quote=" + encodeURIComponent(p.fullText);
+        }
+        var tgBtn = document.getElementById("tm-kpc-share-tg");
+        if (tgBtn) {
+            tgBtn.href = "https://t.me/share/url?url=" + encodeURIComponent(p.url) + "&text=" + encodeURIComponent(p.fullText);
+        }
+        var mailBtn = document.getElementById("tm-kpc-share-mail");
+        if (mailBtn) {
+            mailBtn.href = "mailto:?subject=" + encodeURIComponent(p.title) + "&body=" + encodeURIComponent(p.fullText);
+        }
+
+        modal.style.display = "flex";
+        document.body.classList.add("tm-kpc-modal-open");
+    };
+
+    window.tmKpcCloseShareModal = function () {
+        var modal = document.getElementById("tm-kpc-share-modal");
+        if (modal) {
+            modal.style.display = "none";
+        }
+        document.body.classList.remove("tm-kpc-modal-open");
+    };
+
+    function showKpcShareToast(msg) {
+        var toast = document.getElementById("tm-kpc-share-toast");
+        if (!toast) return;
+        toast.textContent = msg;
+        toast.style.display = "block";
+    }
+
+    function copyTextToClipboard(text, onDone) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(function () {
+                if (onDone) onDone(true);
+            }).catch(function () {
+                fallbackCopyText(text, onDone);
+            });
+        } else {
+            fallbackCopyText(text, onDone);
+        }
+    }
+
+    function fallbackCopyText(text, onDone) {
+        try {
+            var ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.position = "fixed";
+            ta.style.left = "-9999px";
+            document.body.appendChild(ta);
+            ta.focus();
+            ta.select();
+            document.execCommand("copy");
+            document.body.removeChild(ta);
+            if (onDone) onDone(true);
+        } catch (e) {
+            if (onDone) onDone(false);
+        }
+    }
+
+    window.tmKpcCopyShare = function (mode) {
+        var p = getKpcSharePayload();
+        var textToCopy = (mode === "link") ? p.url : p.fullText;
+        copyTextToClipboard(textToCopy, function (ok) {
+            if (ok) {
+                showKpcShareToast(mode === "link"
+                    ? ("✓ Đã sao chép đường dẫn Bài kệ " + p.vnum + " vào bộ nhớ tạm!")
+                    : ("✓ Đã sao chép trọn vẹn Lời kệ " + p.vnum + " & liên kết! Bạn có thể dán (Paste) ngay."));
+            } else {
+                showKpcShareToast("⚠️ Trình duyệt chặn tự động chép. Hãy bôi đen ô liên kết phía trên để chép.");
+            }
+        });
+    };
+
+    window.tmKpcNativeShare = function () {
+        var p = getKpcSharePayload();
+        if (navigator.share) {
+            navigator.share({
+                title: p.title,
+                text: p.fullText,
+                url: p.url
+            }).catch(function () {});
+        } else {
+            window.tmKpcCopyShare("full");
+        }
+    };
+
     function initKpcReader() {
         var app = document.getElementById("tm-kpc-reader");
         if (!app) return;
@@ -821,11 +1121,21 @@
             }
         });
 
-        // Keyboard left/right arrow support when not typing in an input
+        // Keyboard left/right arrow & Escape support
         document.addEventListener("keydown", function (e) {
+            if (e.key === "Escape") {
+                window.tmKpcCloseLightbox();
+                window.tmKpcCloseShareModal();
+                return;
+            }
             if (!kpcMasterData) return;
             var tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : "";
             if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || (e.target && e.target.isContentEditable)) {
+                return;
+            }
+            var lb = document.getElementById("tm-kpc-lightbox");
+            var sm = document.getElementById("tm-kpc-share-modal");
+            if ((lb && lb.style.display !== "none") || (sm && sm.style.display !== "none")) {
                 return;
             }
             if (e.key === "ArrowLeft") {

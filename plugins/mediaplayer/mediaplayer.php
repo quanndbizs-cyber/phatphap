@@ -41,8 +41,8 @@ class mediaplayer extends Plugin
     public function onTwigLoaded()
     {
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261109a');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261109a');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261109b');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261109b');
         }
     }
 
@@ -878,6 +878,7 @@ class mediaplayer extends Plugin
               . '    <div class="tm-kpc-top-left">'
               . '      <a href="' . $introUrl . '" class="tm-kpc-pill-link" title="Về trang Giới thiệu Kinh Pháp Cú">☸ Giới thiệu</a>'
               . '      <a href="' . $safeTocUrl . '" class="tm-kpc-pill-link tm-kpc-pill-toc" title="Mở trang Mục Lục riêng (26 Phẩm &amp; 423 Bài Kệ)">📑 Mục lục (423 bài)</a>'
+              . '      <button type="button" class="tm-kpc-pill-link tm-kpc-pill-share" onclick="window.tmKpcOpenShareModal()" title="Chia sẻ bài kệ đang đọc">🔗 Chia sẻ</button>'
               . '    </div>'
               . '    <div class="tm-kpc-top-right">'
               . '      <label for="tm-kpc-pham-select" class="tm-kpc-sr-only">Chọn Phẩm</label>'
@@ -905,6 +906,9 @@ class mediaplayer extends Plugin
               . '          <input type="number" id="tm-kpc-jump-input" class="tm-kpc-jump-input" min="1" max="423" placeholder="1-423" aria-label="Nhập số bài kệ (1-423)" onkeydown="if(event.key===\'Enter\'){event.preventDefault();window.tmKpcJumpInput();}" />'
               . '          <button type="button" class="tm-kpc-jump-go" onclick="window.tmKpcJumpInput()" title="Chuyển tới bài kệ này">Đến</button>'
               . '        </div>'
+              . '        <button type="button" class="tm-kpc-toc-btn tm-kpc-sticky-share-btn" onclick="window.tmKpcOpenShareModal()" title="Chia sẻ bài kệ Kinh Pháp Cú này">'
+              . '          <span>🔗</span> <span class="tm-kpc-toc-txt">Chia sẻ</span>'
+              . '        </button>'
               . '      </div>'
               . '      <button type="button" class="tm-kpc-nav-btn tm-kpc-next-btn" id="tm-kpc-next-btn" onclick="window.tmKpcStep(1)" title="Bài kệ tiếp theo (Phím mũi tên phải →)">'
               . '        <span class="tm-kpc-nav-txt">Bài sau</span> <span class="tm-kpc-nav-arrow">⏭</span>'

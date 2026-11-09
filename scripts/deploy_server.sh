@@ -127,7 +127,7 @@ git config --global --add safe.directory "$BASE_DIR/content" 2>/dev/null || true
 echo -e "\n-> 1. Cập nhật nhánh chính Web root ($MAIN_BRANCH) từ Git remote..."
 if [[ -d "$BASE_DIR/.git" || -f "$BASE_DIR/.git" ]]; then
     git -C "$BASE_DIR" config core.fileMode false 2>/dev/null || true
-    git -C "$BASE_DIR" checkout -- plugins/mediaplayer/ cache/ media/files/filerestrictions.yaml themes/tinhdo/js/search-index.json 2>/dev/null || true
+    git -C "$BASE_DIR" checkout -- plugins/mediaplayer/ cache/ media/files/filerestrictions.yaml 2>/dev/null || true
     
     echo "   + Fetching remote origin $MAIN_BRANCH..."
     git -C "$BASE_DIR" fetch origin "$MAIN_BRANCH"
