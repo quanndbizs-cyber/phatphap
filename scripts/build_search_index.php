@@ -229,6 +229,41 @@ if (file_exists($kpcIndexFile)) {
     }
 }
 
+// 4. Index Khuyên Người Niệm Phật (74 letters across 4 volumes) if knnp_index.json exists
+$knnpIndexFile = $baseDir . '/plugins/mediaplayer/data/knnp_index.json';
+if (file_exists($knnpIndexFile)) {
+    $knnpData = json_decode(file_get_contents($knnpIndexFile), true);
+    if (is_array($knnpData) && !empty($knnpData['toc'])) {
+        $tapMap = [];
+        foreach ($knnpData['taps'] ?? [] as $t) {
+            $tapMap[(int)$t['id']] = $t['name'] ?? ('Tập ' . (int)$t['id']);
+        }
+        foreach ($knnpData['toc'] as $l) {
+            $lnum      = (int)($l['num'] ?? 0);
+            $tid       = (int)($l['tap'] ?? 1);
+            $tname     = $tapMap[$tid] ?? ('Khuyên Người Niệm Phật — Tập ' . $tid);
+            $lTitleRaw = $l['title'] ?? '';
+            $recipient = $l['recipient'] ?? '';
+            $preview   = $l['preview'] ?? '';
+            $quote     = $l['quote'] ?? '';
+            $padNum    = str_pad((string)$lnum, 2, '0', STR_PAD_LEFT);
+            $lTitle    = 'Khuyên Người Niệm Phật — Lá thư số ' . $padNum . ': ' . $lTitleRaw;
+            $lUrl      = '/phat-giao/khuyen-nguoi-niem-phat/doc-khuyen-nguoi-niem-phat?thu=' . $lnum;
+            $lSnippet  = $tname . ($recipient ? (' • ' . $recipient) : '') . ' • ' . $preview;
+            $items[] = [
+                'id'       => 'knnp_' . $lnum,
+                'title'    => $lTitle,
+                'url'      => $lUrl,
+                'category' => 'Khuyên Người Niệm Phật',
+                'parent'   => $tname,
+                'snippet'  => $lSnippet,
+                'type'     => 'chapter',
+                'norm'     => strtolower(removeVietnameseAccents($lTitle . ' ' . $lSnippet . ' ' . $quote)),
+            ];
+        }
+    }
+}
+
 // Write JSON output
 $dir = dirname($outputFile);
 if (!is_dir($dir)) {

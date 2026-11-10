@@ -1,0 +1,1171 @@
+{
+  "meta": {
+    "title": "Khuyên Người Niệm Phật — Toàn Tập (74 Lá Thư & Lời Mở Đầu 4 Tập)",
+    "author": "Cư sĩ Diệu Âm (Úc Châu)",
+    "total_letters": 74,
+    "total_taps": 4,
+    "total_audios": 76
+  },
+  "taps": [
+    {
+      "id": 1,
+      "name": "Tập 1 — Lời Khuyên Song Thân",
+      "subtitle": "Lá thư số 01 – 25 (26 bài Audio MP3)",
+      "letter_start": 1,
+      "letter_end": 25,
+      "letter_count": 25,
+      "audio_count": 26,
+      "tap_url": "/phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-1",
+      "pdf_url": "/media/files/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-1.pdf"
+    },
+    {
+      "id": 2,
+      "name": "Tập 2 — Lời Khuyên Gia Đình & Quyến Thuộc",
+      "subtitle": "Lá thư số 26 – 48 (24 bài Audio MP3)",
+      "letter_start": 26,
+      "letter_end": 48,
+      "letter_count": 23,
+      "audio_count": 24,
+      "tap_url": "/phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-2",
+      "pdf_url": "/media/files/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-2.pdf"
+    },
+    {
+      "id": 3,
+      "name": "Tập 3 — Lời Khuyên Bạn Đạo & Ban Hộ Niệm",
+      "subtitle": "Lá thư số 49 – 64 (17 bài Audio MP3)",
+      "letter_start": 49,
+      "letter_end": 64,
+      "letter_count": 16,
+      "audio_count": 17,
+      "tap_url": "/phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-3",
+      "pdf_url": "/media/files/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-3.pdf"
+    },
+    {
+      "id": 4,
+      "name": "Tập 4 — Nhất Môn Thâm Nhập & Hộ Niệm Lâm Chung",
+      "subtitle": "Lá thư số 65 – 74 (09 bài Audio MP3)",
+      "letter_start": 65,
+      "letter_end": 74,
+      "letter_count": 10,
+      "audio_count": 9,
+      "tap_url": "/phat-giao/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-4",
+      "pdf_url": "/media/files/khuyen-nguoi-niem-phat/khuyen-nguoi-niem-phat-tap-4.pdf"
+    }
+  ],
+  "track_to_letter": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12,
+    "13": 13,
+    "14": 14,
+    "15": 15,
+    "16": 16,
+    "17": 17,
+    "18": 17,
+    "19": 18,
+    "20": 19,
+    "21": 20,
+    "22": 21,
+    "23": 22,
+    "24": 23,
+    "25": 24,
+    "26": 25,
+    "27": 26,
+    "28": 26,
+    "29": 27,
+    "30": 28,
+    "31": 29,
+    "32": 30,
+    "33": 31,
+    "34": 32,
+    "35": 33,
+    "36": 34,
+    "37": 35,
+    "38": 36,
+    "39": 37,
+    "40": 37,
+    "41": 38,
+    "42": 39,
+    "43": 40,
+    "44": 42,
+    "45": 41,
+    "46": 43,
+    "47": 45,
+    "48": 46,
+    "49": 47,
+    "50": 48,
+    "51": 49,
+    "52": 49,
+    "53": 50,
+    "54": 51,
+    "55": 52,
+    "56": 53,
+    "57": 54,
+    "58": 55,
+    "59": 56,
+    "60": 58,
+    "61": 59,
+    "62": 60,
+    "63": 60,
+    "64": 61,
+    "65": 62,
+    "66": 62,
+    "67": 63,
+    "68": 65,
+    "69": 67,
+    "70": 68,
+    "71": 69,
+    "72": 70,
+    "73": 71,
+    "74": 72,
+    "75": 73,
+    "76": 74
+  },
+  "toc": [
+    {
+      "num": 1,
+      "tap": 1,
+      "title": "Quyết Lòng Niệm Phật",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Thưa cha má, vì thương cha má mà con cố gắng khuyên cha má tu hành, con tưởng cha má nghe được sẽ mừng lắm. Không ngờ, cha chưa đọc kỹ thư xem con nói những gì, lời thư của con có điều gì trái với đạo lý không, mà…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": true,
+      "track_ids": [
+        1
+      ]
+    },
+    {
+      "num": 2,
+      "tap": 1,
+      "title": "Niệm Phật Để Thành Phật",
+      "recipient": "Lời khuyên song thân — Cha má kính thương",
+      "preview": "Việc tu hành của cha má là quan trọng nhất. Hơn nữa hãy đưa thư của con cho anh chị Hai, anh chị Ba, anh chị Bốn, bà con, cô bác coi, nhiều khi họ phát tâm tu hành thì cha má được phước lắm đó. Phàm hễ có đi thì mới…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        2
+      ]
+    },
+    {
+      "num": 3,
+      "tap": 1,
+      "title": "Niệm Phật Cầu Đạt Đến Đỉnh Cao",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Không phải tự nhiên con cứ nói mãi với cha má về việc tu hành. Ít có người ra nước ngoài rồi viết thư về khuyên tu hành, giảng giải như vậy đâu. Vì, thật sự thế gian này sáu tỉ người có mấy ai nghĩ đến chuyện tu…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        3
+      ]
+    },
+    {
+      "num": 4,
+      "tap": 1,
+      "title": "Tu Tịnh Nghiệp Chứ Không Phải Tu Thiện Nghiệp!",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Trong thư này con sẽ nói với cha má một chuyện sắp sửa xảy ra ở đây. Hay vô cùng! Chuyện một người cho biết sắp được vãng sanh. Chuyện này ở các nơi thì cho là lạ lùng, còn ở đây với pháp tu tối thắng vi diệu, hễ…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        4
+      ]
+    },
+    {
+      "num": 5,
+      "tap": 1,
+      "title": "Chết Không Phải Là Hết",
+      "recipient": "Lời khuyên song thân — Cha má kính thương",
+      "preview": "Hội Niệm Phật vừa kết thúc một khóa niệm Phật ba tuần vào ngày 17/12/00. Nhìn thấy người ta tu mà con cảm thấy thương hại, tội nghiệp cho cha má, anh chị em, bà con, con cháu của mình. Vì nghiệp báo của cuộc đời quá…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        5
+      ]
+    },
+    {
+      "num": 6,
+      "tap": 1,
+      "title": "Khuyên Người Niệm Phật",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Thời gian như tên bắn, mạng người vô thường biết còn mất lúc nào mà chờ, mà đợi. Khi con đã quyết định nghỉ làm thì con không còn tiền bạc nữa, con chỉ đủ để ăn hàng ngày là được. Về việc phụng dưỡng cha má, con cũng…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        6
+      ]
+    },
+    {
+      "num": 7,
+      "tap": 1,
+      "title": "Niệm Phật Khai Mở Trí Huệ",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Sao con cứ muốn viết thư cho cha má hoài, không viết chịu không được. Nếu ngừng vài ngày thì con thấy cái điều con muốn nói với cha sao nó tràn ngập lên. Vì thực tế, nếu có viết hoài thì cũng viết không hết. Bên cạnh…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        7
+      ]
+    },
+    {
+      "num": 8,
+      "tap": 1,
+      "title": "Đới Nghiệp Vãng Sanh",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Sắp sửa có người về Việt-Nam, con gửi thư về thăm cha má cộng với mấy băng thuyết pháp, và mấy món quà nhỏ cho em Thứ niệm Phật. Trong anh chị em nhà mình đã có người nghe theo lời con khuyên vậy cũng là đại phước…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        8
+      ]
+    },
+    {
+      "num": 9,
+      "tap": 1,
+      "title": "Nhìn Cho Thấu, Buông Cho Trót",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Tuổi già không có gì cần thiết hơn là cố gắng tinh tấn tu hành để tìm phương giải thoát. Nhà cửa chắc đã khởi công, tiền bạc chắc cũng đã tạm ổn. Nơi thờ phụng ông bà chắc cũng sẽ được khang trang. Đây là cơ hội cho…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        9
+      ]
+    },
+    {
+      "num": 10,
+      "tap": 1,
+      "title": "Ta Bà Khổ, Ta Bà Khổ!",
+      "recipient": "Lời khuyên song thân — Cha má kính thương",
+      "preview": "Cha Má kính thương, (thư này tiếp theo thư ngày 5/6/2001)",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        10
+      ]
+    },
+    {
+      "num": 11,
+      "tap": 1,
+      "title": "Buông Xả Thì Tự Tại",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Tuổi trẻ mà khuyên họ buông xả thì khó lắm, vì tình trần còn đang lừng lẫy, tương lai còn đầy tham vọng thì làm sao buông xả được. Còn người khi tuổi đã về chiều, nhìn lại cuộc đời mới thấy như trò huyễn hóa, nên dễ…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        11
+      ]
+    },
+    {
+      "num": 12,
+      "tap": 1,
+      "title": "Cụ Triệu Vinh Phương Vãng Sanh",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Trong thư này, như đã hứa từ thư trước, con sẽ kể cha má nghe chuyện một bà cụ chín mươi bốn tuổi vãng sanh lưu lại ngọc xá lợi. Vãng sanh là chuyện thường tình như những chuyện khác, giống như những cuộn băng và…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        12
+      ]
+    },
+    {
+      "num": 13,
+      "tap": 1,
+      "title": "Hộ Niệm",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Cuộc đời một người rất ngắn ngủi, thân này chỉ một thoáng qua là đi vào hư không, trả về cát bụi, làm sao mà tồn tại trường thọ qua thời gian. Người tuổi trẻ nhìn thấy cuộc đời sáu bảy chục năm nữa tưởng là lâu lắm!…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        13
+      ]
+    },
+    {
+      "num": 14,
+      "tap": 1,
+      "title": "Tự Chọn Cảnh Giới Tương Lai",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Hôm trước con mới nhận được thư cháu Tuyết con chị hai, cháu nói bà nội cháu yếu rất nặng khó có thể qua khỏi. Bác trong thời gian chờ ngày ra đi đã nghe lời khuyên phát tâm ngày đêm niệm Phật. Nghe như vậy con mừng…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        14
+      ]
+    },
+    {
+      "num": 15,
+      "tap": 1,
+      "title": "Cẩn Thận Lúc Lâm Chung",
+      "recipient": "Lời khuyên song thân — Cha má kính thương",
+      "preview": "Thế giới trong tương lai có thể sẽ xảy ra nhiều tai ương hiểm nạn kinh khủng lắm, cường độ có thể khó tưởng tượng chứ không phải tầm thường! Muốn cứu vãn phần nào tình thế này không còn cách nào khác hơn là khuyên…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        15
+      ]
+    },
+    {
+      "num": 16,
+      "tap": 1,
+      "title": "Sân Giận: Đường Về Địa Ngục",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Thực tế mà nói, nếu hiểu được đạo pháp rồi thì mới thấy rằng cuộc đời mình hoàn toàn tự mình lựa chọn tương lai, mình muốn đi đâu, muốn sướng hay khổ, muốn giải thoát hay đọa lạc… đều do chính mình tạo ra cả mà mình…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        16
+      ]
+    },
+    {
+      "num": 17,
+      "tap": 1,
+      "title": "Địa Ngục Ở Đâu?",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "“Cuộc đời như áng mây trôi, khi tan, khi hợp, đổi thay không thường”, hãy cố gắng tu hành, quyết thoát ly sinh tử, khổ nạn. Đừng chần chờ đừng do dự mà mất cơ hội ngàn vàng khó mua này. Tu hành pháp môn nào cũng…",
+      "has_audio": true,
+      "audio_count": 2,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        17,
+        18
+      ]
+    },
+    {
+      "num": 18,
+      "tap": 1,
+      "title": "Tu Hành Ví Như Thi Cử",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Khi hiểu được đạo pháp mới thấy tu hành cần phải cẩn thận, sơ hở một tí có thể chuyển xoay họa phước, hễ đúng thì phước, lệch thành ra họa. Vì thế nên người tu thì nhiều mà đắc thì ít. Cái khó nhứt là vì thời này đã…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        19
+      ]
+    },
+    {
+      "num": 19,
+      "tap": 1,
+      "title": "Thiện Căn, Phước Đức, Nhân Duyên",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Tu hành mà hiểu thấu được Phật pháp thì thấy lý thú, vững lòng tin, tinh tấn tiến bước. Mỗi lá thư, đầu tiên con đều nói một chút lý đạo. Cho nên, nếu đọc nhiều thư của con cũng thấy vui với nguồn đạo, thấm lần vào…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        20
+      ]
+    },
+    {
+      "num": 20,
+      "tap": 1,
+      "title": "Hiểm Họa Của Tiền Bạc",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Chuyến về thăm lần này con đã thấy khá nhiều sự việc mà trước nay con không thấy, những hiện thực chung quanh con rõ ràng hơn trước đây. Trong những ngày ngắn ngủi đó con đã cố gắng niệm Phật trợ lực cho cha. Cha…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        21
+      ]
+    },
+    {
+      "num": 21,
+      "tap": 1,
+      "title": "Niệm Phật Có Mười Đại Thiện Lợi",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Người niệm Phật hưởng được mười đại lợi ích sau đây:",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        22
+      ]
+    },
+    {
+      "num": 22,
+      "tap": 1,
+      "title": "Cầu Thanh Tịnh, Không Vọng Cầu",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Niệm Phật được mười điều lợi ích, trong đó cái lợi sau cùng là được vãng sanh về Tây-phương Cực-lạc thế giới, một đời này thôi ta thoát khỏi sinh-tử luân-hồi. Đây là cái lợi ích chung cuộc. Không có cái lợi ích này…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        23
+      ]
+    },
+    {
+      "num": 23,
+      "tap": 1,
+      "title": "Định Mệnh, Nhân Quả, Danh Vọng",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Tất cả vạn sự sự vật không có gì thoát khỏi định luật nhân quả. Thiên cơ, định mệnh chỉ là một cách gọi khác của định luật nhân-quả mà thôi. Trồng dưa được dưa, trồng đậu được đậu, chính vì vậy mà An nó tìm cách cho…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        24
+      ]
+    },
+    {
+      "num": 24,
+      "tap": 1,
+      "title": "Phật Ở Trong Nhà, Có Cầu Có Ứng",
+      "recipient": "Lời khuyên song thân — Cha má kính",
+      "preview": "Thành kính niệm Phật tự nhiên sẽ được Phật lực gia trì, sự cảm ứng bất khả tư nghì. Những sự cảm ứng này nhiều khi nó hiển hiện trước mắt, hoặc âm thầm xảy ra sát bên cạnh mà mình không hay. Ví dụ, chuyến về thăm gia…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        25
+      ]
+    },
+    {
+      "num": 25,
+      "tap": 1,
+      "title": "Sự Gia Trì",
+      "recipient": "Lời khuyên song thân — Cha má kính thương",
+      "preview": "Con vừa mới hay được tin là em Chương, con cô Sáu ở Bình-Dương, thay mặt Cô Sáu cùng tất cả anh chị em trong gia đình, xuống Sài-Gòn gặp An để bàn việc cấp dưỡng cho cha má để cha má an tâm tu hành. Nghe được tin…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        26
+      ]
+    },
+    {
+      "num": 26,
+      "tap": 2,
+      "title": "Cứu Người Như Cứu Lửa",
+      "recipient": "Lời khuyên chị Hai — Trả lời thư người chị",
+      "preview": "Bây giờ em trả lời thư chị, theo thứ tự từ đầu tới cuối. Thư của chị đặt ra nhiều câu hỏi rất hay, rất cần thiết, thực tế và khá quan trọng. Trả lời đầy đủ một câu hỏi của chị là có thể xuyên qua cả một giáo lý thậm…",
+      "has_audio": true,
+      "audio_count": 2,
+      "has_video": true,
+      "has_preface": true,
+      "track_ids": [
+        27,
+        28
+      ]
+    },
+    {
+      "num": 27,
+      "tap": 2,
+      "title": "An Lạc Và Hiếu Nghĩa",
+      "recipient": "Lời khuyên cháu gái — Cháu Thảo thương",
+      "preview": "Cậu đã đọc kỹ thư cháu, trước tiên cậu khen cháu lắm đó. Một người trẻ mà có tâm hướng Phật trong một môi trường sinh hoạt khó khăn như cháu thật hiếm có và đáng quý. Sự hướng về Phật tu tập không phải là việc tầm…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        29
+      ]
+    },
+    {
+      "num": 28,
+      "tap": 2,
+      "title": "Đời: Như Một Giấc Mộng",
+      "recipient": "Lời khuyên người bác — Kính thưa bác",
+      "preview": "Hôm trước cháu có nhận được thư cháu Tuyết cho biết bác đang bị bệnh. Từ xa xôi cháu không biết gì hơn thành tâm cầu Phật gia trì cho bác. Nghe cháu Tuyết nói rằng bác đã phát tâm niệm Phật, cháu mừng lắm. Nếu vững…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        30
+      ]
+    },
+    {
+      "num": 29,
+      "tap": 2,
+      "title": "Niệm Phật: Con Đường Cứu Mẹ",
+      "recipient": "Lời khuyên em gái — Em Thứ thương",
+      "preview": "Anh Năm vừa thực hiện một chuyến ngao du xa hơn một nửa quả địa cầu mới về. Anh đi ngay trong thời điểm mà tụi khủng bố cướp 4 chiếc máy bay tấn công nước Mỹ. Ngày 11/9/01 hai chiếc máy bay tông vào hai tòa nhà cao…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        31
+      ]
+    },
+    {
+      "num": 30,
+      "tap": 2,
+      "title": "Niệm Phật: Phương Pháp Giải Nạn",
+      "recipient": "Lời khuyên cô Bốn — Kính thương cô Bốn",
+      "preview": "Con nhận được thư của Vân mới hay cô bị bệnh đang nằm trong bệnh viện. Nghe được tin này con buồn vô cùng. Trong cơn bệnh cô còn nhớ tới con. Con đã để tên cầu an cho cô trong Niệm Phật Đường nơi con thường tới hằng…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        32
+      ]
+    },
+    {
+      "num": 31,
+      "tap": 2,
+      "title": "Niệm Phật: Với Lời Phát Nguyện",
+      "recipient": "Lời khuyên em gái — Em Thứ",
+      "preview": "Hôm Tết nói chuyện được với em anh Năm mừng lắm. Nếu những lá thư anh gởi về khuyên cha má tu hành được anh chị em, bà con xem qua và tin tưởng thực hiện thì không còn gì quý báu hơn. Nó quý hơn là được tiền, vì sao?…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        33
+      ]
+    },
+    {
+      "num": 32,
+      "tap": 2,
+      "title": "Niệm Phật: Con Đường Thành Phật",
+      "recipient": "Lời khuyên em gái — Em Thứ",
+      "preview": "Anh đang bận lắm nhưng cũng cố gắng viết thư cho em vì anh nghĩ trong gia đình mình nếu có được người nào phát tâm niệm Phật thì cũng là một đại phước cho chính người đó và cũng là đại phước chung, vì những người…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        34
+      ]
+    },
+    {
+      "num": 33,
+      "tap": 2,
+      "title": "Niệm Phật: Một Lòng Tin Phật",
+      "recipient": "Lời khuyên em gái — Em Thứ",
+      "preview": "Đúng như theo thư hôm trước anh hứa, là sẽ giải thích thêm cho em ba món tư lương quan trọng trong việc niệm Phật, đó là TÍN-NGUYỆN-HẠNH. Anh đã nói qua Nguyện và Hạnh rồi hôm nay anh nói về chữ TÍN một chút cho em…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        35
+      ]
+    },
+    {
+      "num": 34,
+      "tap": 2,
+      "title": "Niệm Phật: Cần Giữ Tâm Thanh Tịnh",
+      "recipient": "Lời khuyên em gái — Em Hải-Thứ thương",
+      "preview": "Anh Năm nhận được thư em viết giùm cho cha, trong đó có đọan thư của em. Đọc thư vừa thương cha má vừa thương em. Cứ mỗi lần nhận thư như vậy anh Năm muốn viết nhiều thật nhiều cho cha má, thật nhiều cho em và cho…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        36
+      ]
+    },
+    {
+      "num": 35,
+      "tap": 2,
+      "title": "Đời Là Mộng, Nhân Quả Là Thực",
+      "recipient": "Lời khuyên em gái — Em Ngọc",
+      "preview": "Anh Năm đã nhận được thư em, đọc kỹ, thấy em có tu hành, anh mừng lắm. Đó là em có căn duyên tốt, nhất là em đã hướng dẫn con em, Ngọc Hiền, đi xuất gia. Hôm trước Thứ cũng có nhắc đến em. Trên đời này người gặp được…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        37
+      ]
+    },
+    {
+      "num": 36,
+      "tap": 2,
+      "title": "Phải Tu Theo Lời Phật Dạy",
+      "recipient": "Lời khuyên em gái — Như Ngọc",
+      "preview": "Anh Năm vừa nhận được thư em, anh viết liền cho em đây vì thư em đã mở ra mấy vấn đề khá hay. Hồng cũng đang chờ thư anh nhưng anh ưu tiên cho em trước đó.",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        38
+      ]
+    },
+    {
+      "num": 37,
+      "tap": 2,
+      "title": "Tổng Quát Về Sự “Hộ Niệm”",
+      "recipient": "Lời khuyên em gái — Em Ngọc",
+      "preview": "Trong một hoàn cảnh khó khăn bận bịu mà em cùng quý bác và anh chị em đã cố gắng tạo được một “Niệm Phật Đường” nhỏ và mỗi ngày gặp nhau tinh tấn niệm Phật thật là quý hóa. Hãy quyết tâm tin tưởng vào lời Phật dạy,…",
+      "has_audio": true,
+      "audio_count": 2,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        39,
+        40
+      ]
+    },
+    {
+      "num": 38,
+      "tap": 2,
+      "title": "Hộ Niệm Và Gia Đình",
+      "recipient": "Lời khuyên quý bác đồng tu — Kính quý bác",
+      "preview": "Nghe được tin quý bác rất tinh tấn tu hành, ngày ngày đều hội nhau niệm Phật, cháu vui lắm. Lại nghe nói rằng quý bác rất thích đọc thư của cháu viết về, nhiều hôm đọc thư cháu cho mọi người cùng nghe trong những…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        41
+      ]
+    },
+    {
+      "num": 39,
+      "tap": 2,
+      "title": "Tu Hành Cần Hợp Căn, Hợp Thời",
+      "recipient": "Lời khuyên em gái — Em Hồng thương",
+      "preview": "Anh Năm đã nhận được thư em. Đọc thư em anh rất cảm động. Mới cầm thư và thấy cái tên ngoài bìa là anh đã nhận ra em ngay. Hồi tưởng lại những ngày còn sống ở cái nhà nhỏ xíu ở đường Bạch Đằng Qui Nhơn, thật là vui.…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        42
+      ]
+    },
+    {
+      "num": 40,
+      "tap": 2,
+      "title": "Chuyên Tu: Thành Tựu Cao",
+      "recipient": "Lời khuyên em gái — Em Hồng thương",
+      "preview": "Hầu hết ai cũng muốn nghiên cứu cho nhiều kinh sách để hiểu Phật pháp. Họ nghĩ rằng nhờ hiểu kinh điển thì lý đạo mới thông và tu hành mới tiến bộ. Trong khi đó nhiều thư anh lại khuyên ngược lại, sách báo nên coi…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        43
+      ]
+    },
+    {
+      "num": 41,
+      "tap": 2,
+      "title": "Buông Xả – Niệm Phật – Vãng Sanh",
+      "recipient": "Lời khuyên em gái — Em Hồng thương",
+      "preview": "Khi nhận được thư này thì em hãy liên lạc ngay với An để nhận những cuộn video giảng pháp của HT Tịnh-Không, rất quý, trong đó có một cuộn có tựa đề là “Hoa Khai Kiến Phật”, chính là cuộn “Triệu Vinh Phương lão cư sĩ…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        45
+      ]
+    },
+    {
+      "num": 42,
+      "tap": 2,
+      "title": "Làm Lành Để Chuyển Nghiệp",
+      "recipient": "Lời khuyên người Cô — Kính thương Cô",
+      "preview": "Năm mới con viết thư về thăm cô và tất cả các em. Cầu Phật gia trì cho cô và gia đình thân tâm an lạc. Đúng ra con định viết thư cho Cô lâu lắm rồi, nhưng không viết được. Hằng ngày thời khóa niệm Phật đã chiếm hết…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        44
+      ]
+    },
+    {
+      "num": 43,
+      "tap": 2,
+      "title": "Sám Hối – Hồi Hướng",
+      "recipient": "Lời khuyên người Cô — Kính thương Cô",
+      "preview": "Tu hành phải vạch ra mục đích rõ ràng. Nhờ có mục đích sẵn ta mới khỏi bị lạc đường, tâm ta mới khỏi vướng mắc những cám dỗ hoặc trở ngại trên đường tu tập. Thường sự thất bại không phải ở những sự cố lớn mà chính là…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        46
+      ]
+    },
+    {
+      "num": 44,
+      "tap": 2,
+      "title": "Cảnh Giới Trung-Ấm",
+      "recipient": "Lời khuyên người cháu — Cháu Truyền thương",
+      "preview": "Cậu định viết thư cho cháu thật lâu rồi, nhưng đến nay mới bắt đầu được, có lẽ cháu chờ nóng ruột lắm, nhưng vì lý do đặc biệt cậu không biết làm sao hơn! Đầu thư cậu phải nói lời xin lỗi cháu. Cậu xin cầu chúc cháu…",
+      "has_audio": false,
+      "audio_count": 0,
+      "has_video": false,
+      "has_preface": false,
+      "track_ids": []
+    },
+    {
+      "num": 45,
+      "tap": 2,
+      "title": "Khổ: Tứ-Diệu-Thánh-Đế",
+      "recipient": "Lời khuyên người em — Gởi vợ chồng em Đường – Thạnh",
+      "preview": "Đọc thư em, anh cảm nhận được cả vui lẫn buồn, anh rất thông cảm hoàn cảnh của hai em. Thư này anh viết cho cả hai em cùng đọc để từ từ thấm lần vào Phật pháp. Tất cả những câu hỏi của em, chắc chắn anh sẽ lần lượt…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        47
+      ]
+    },
+    {
+      "num": 46,
+      "tap": 2,
+      "title": "Đọc-Tụng Kinh Điển Theo: Tín-Giải-Hành-Chứng",
+      "recipient": "Lời khuyên người em — Em Đường – Thạnh",
+      "preview": "“Đời này quá khổ, không biết bao nhiêu nỗi khổ kể cho hết…”.",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": false,
+      "has_preface": false,
+      "track_ids": [
+        48
+      ]
+    },
+    {
+      "num": 47,
+      "tap": 2,
+      "title": "Quyết Tâm Cứu Độ Chúng Sanh",
+      "recipient": "Lời khuyên người em — Em Đường",
+      "preview": "Anh viết gởi cho cả hai em, anh thương hai em nhiều lắm. Có điều đáng tiếc là hình như hai em không chịu đọc kỹ thư anh. Mỗi lần viết thư cho các em, anh Năm nắn nót từng chữ, trân trọng từng câu, cẩn thận từng ý, mà…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        49
+      ]
+    },
+    {
+      "num": 48,
+      "tap": 2,
+      "title": "Đừng Tu Lòng Vòng Nữa!",
+      "recipient": "Lời khuyên người bạn — Chị Huệ Sanh",
+      "preview": "Huệ Sanh kể chuyện ở Pháp hay lắm, thì tôi cũng xin nói chuyện về bên Pháp vậy. Có một lần ở Tùng Lâm Linh Sơn, tôi nghe được lời pháp của thầy Trí Tu, thầy giảng rằng, giữa biển nghiệp mênh mông này, có người cứ…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        50
+      ]
+    },
+    {
+      "num": 49,
+      "tap": 3,
+      "title": "Tâm Chí Thành Chí Kính",
+      "recipient": "Lời khuyên đồng tu ở An Thái & Như Ngọc (Kèm Lời Mở Đầu Tập 3)",
+      "preview": "Hôm trước có nhận được một số hình chụp quí bác và anh chị em đang niệm Phật. Những tấm hình này quí lắm, một kỷ niệm thật thân thương. Nhìn thấy quí đạo hữu tinh tấn tu hành ai cũng phải khen. Với một niệm Phật…",
+      "has_audio": true,
+      "audio_count": 2,
+      "has_video": true,
+      "has_preface": true,
+      "track_ids": [
+        51,
+        52
+      ]
+    },
+    {
+      "num": 50,
+      "tap": 3,
+      "title": "Cảnh Giới",
+      "recipient": "Lời khuyên người em trai — Em Đường – Thạnh",
+      "preview": "Anh đã viết cho hai em nói về sự khổ, nói về cách đọc tụng kinh, hy vọng nó giúp các em giải quyết được phần nào chướng ngại phải không? Hôm nay anh lại mở thư em ra đọc lại để đi đến vấn đề khó khăn khác. Những điều…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        53
+      ]
+    },
+    {
+      "num": 51,
+      "tap": 3,
+      "title": "Cảnh Giới Người",
+      "recipient": "Lời khuyên vợ chồng người em — Em Đường – Thạnh",
+      "preview": "Hiểu về cảnh giới giúp cho ta có cái nhìn tổng quát về vũ trụ nhân sinh, khỏi mập mờ chạy theo những chốn hiểm nạn, thấy được rõ ràng đường đi cho tương lai.",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        54
+      ]
+    },
+    {
+      "num": 52,
+      "tap": 3,
+      "title": "Lý - Sự - Cơ",
+      "recipient": "Lời khuyên người em trai — Đường em",
+      "preview": "Học Phật cần phải biết nhẫn nại, từ từ mà hiểu thì mới có thể thâm nhập vào Phật pháp. Một câu hỏi của em về lục đạo luân hồi đã liên quan đến những cảnh giới rộng lớn, anh muốn tóm gọn một cách tổng quát, nhưng đã…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        55
+      ]
+    },
+    {
+      "num": 53,
+      "tap": 3,
+      "title": "Mơ Về Tiên Cảnh",
+      "recipient": "Lời khuyên người em trai — Em Đường",
+      "preview": "Phật pháp lý đạo cao siêu, thậm thâm vô ngần, quảng đại vô biên! Muốn tìm hiểu về Phật pháp không phải chỉ dựa vào kiến thức thế gian mà liễu ngộ được!",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        56
+      ]
+    },
+    {
+      "num": 54,
+      "tap": 3,
+      "title": "Một Đường Tiến Thẳng",
+      "recipient": "Lời khuyên người bạn ở Paris — Kính gởi đạo hữu Huệ Sanh",
+      "preview": "Con người sinh ra lặn hụp trong biển khổ sanh tử luân hồi khổ không nói hết. Có người cố gắng trồi lên mặt nước, hớp một hơi không khí, rồi chìm xuống lại dưới đáy đại dương. Có người cố gắng bơi, nhưng bơi lòng…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        57
+      ]
+    },
+    {
+      "num": 55,
+      "tap": 3,
+      "title": "Phải Giữ Hạnh “Khiêm-Cung”",
+      "recipient": "Lời khuyên người em gái — Em Ngọc",
+      "preview": "Trong mấy câu hỏi của em, có một vấn đề khá quan trọng, anh vội vã trả lời thư liền! Tu hành nhất định phải cẩn thận, đời mạt pháp không thể bừa bãi được đâu em ạ. Luôn luôn dựa theo thiện tri thức, dựa theo đúng…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        58
+      ]
+    },
+    {
+      "num": 56,
+      "tap": 3,
+      "title": "Tập Trung Năng Lực Về Một Hướng",
+      "recipient": "Lời khuyên cha mẹ — Cha má kính thương",
+      "preview": "Tết sắp đến rồi con viết thư về thăm cha má. Có lẽ sau tết con sẽ về, cha má và anh chị em cố gắng sắp xếp thì giờ niệm Phật với con. Đời này nóng lạnh vài mươi năm, sanh-lão-bệnh-tử, lăn lóc trong trần đời khổ hải…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        59
+      ]
+    },
+    {
+      "num": 57,
+      "tap": 3,
+      "title": "Đạo Lý Duy Tâm (Tiếp Theo Thư 44 Về Cảnh Giới Trung-Ấm)",
+      "recipient": "Lời khuyên người cháu trai — Cháu Truyền",
+      "preview": "(Tiếp theo lời thư 44 nói về “Cảnh giới Trung ấm”, Khuyên người niệm Phật, tập 2).",
+      "has_audio": false,
+      "audio_count": 0,
+      "has_video": false,
+      "has_preface": false,
+      "track_ids": []
+    },
+    {
+      "num": 58,
+      "tap": 3,
+      "title": "Ban Hộ Niệm",
+      "recipient": "Lời khuyên một số bạn đạo — Quý đồng tu ở Paris, An Thái cùng gia đình ở VN",
+      "preview": "Cùng một số quí đạo hữu ở các nơi khác đã nêu ý kiến muốn bàn thêm về sự hộ niệm. Thư này Diệu Âm xin viết chung. Trước đây chúng ta cũng đã có một số thư bàn đến tổng quát về sự hộ niệm, sự hộ niệm liên hệ tới con…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        60
+      ]
+    },
+    {
+      "num": 59,
+      "tap": 3,
+      "title": "Đừng Tự Đoạn Mất Con Đường Giải Thoát",
+      "recipient": "Lời khuyên một đạo hữu ở Pháp — Đạo hữu Diệu Nhàn",
+      "preview": "Nhận được thư Diệu Nhàn, không có thời giờ viết thư trả lời, Diệu Âm đành phải gởi mấy băng giảng kinh của HT Tịnh-Không cho đạo hữu coi trước, kèm theo đó có cuộn “Tự tại vãng sanh”, quay lại cụ Ngụy Quốc Hưng vãng…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        61
+      ]
+    },
+    {
+      "num": 60,
+      "tap": 3,
+      "title": "Phát Tâm Bồ-Đề",
+      "recipient": "Lời khuyên người bạn ở Paris — Đạo hữu Huệ Sanh mến",
+      "preview": "Ở đây có một ông bác khi đọc xong tập “Khuyên người niệm Phật” chợt thấy được đường tu hành, hằng ngày bác tự lập ba thời khóa niệm Phật rất tốt. Ban ngày thì con cháu ồn ào, bác chỉ thầm niệm Phật, đêm đến 12 giờ…",
+      "has_audio": true,
+      "audio_count": 2,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        62,
+        63
+      ]
+    },
+    {
+      "num": 61,
+      "tap": 3,
+      "title": "Làm Thiện Tích Phước Để Hỗ Trợ Vãng Sanh",
+      "recipient": "Lời khuyên song thân — Cha má kính thương",
+      "preview": "Một chúng sanh đầy nghiệp chướng như chúng ta, muốn thoát ly tam giới, thoát ly sanh tử luân hồi, so sánh ra còn khó hơn chuyện mò kim dưới đáy biển! Tu hành đã khó! Trong số người tu hành, tìm được một người thành…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        64
+      ]
+    },
+    {
+      "num": 62,
+      "tap": 3,
+      "title": "Địa-Ngục Và Vấn Đề Nhân-Quả",
+      "recipient": "Lời khuyên song thân — Kính cha má",
+      "preview": "Trong cuối tháng tư vừa qua, ở Tịnh Tông Học Viện có tổ chức lễ kỷ niệm bảy năm ngày bà quảng tràng họ Hàn vãng sanh. Trong giờ ăn trưa, vào phòng trai đường con thấy trên vách có dán những tấm “Địa ngục đồ”. Những…",
+      "has_audio": true,
+      "audio_count": 2,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        65,
+        66
+      ]
+    },
+    {
+      "num": 63,
+      "tap": 3,
+      "title": "Nói Chung Về Cách Tu Hành",
+      "recipient": "Lời khuyên chung — Kính gởi chung quý đạo hữu đồng tu",
+      "preview": "Có một vài câu hỏi về cách tu niệm Phật. Nhiều vị nghe nói nhiều về pháp môn niệm Phật nhưng không biết cụ thể phải niệm như thế nào? Hành lễ làm sao? Nhất là quí vị ở các vùng quê xa tự viện, xa chùa chiền, không có…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        67
+      ]
+    },
+    {
+      "num": 64,
+      "tap": 3,
+      "title": "Những Khai Thị Quan Trọng Về “Hộ Niệm” (Phụ Lục Cần Thiết)",
+      "recipient": "Tài liệu quy tắc & pháp ngữ khai thị trợ niệm lâm chung",
+      "preview": "(Ghi chú: Những tài liệu này phát xuất từ chính bản bằng chữ Hán, hầu hết đều được đạo hữu Diệu Hà phiên dịch và gởi tặng. Thành tâm cảm niệm công đức)",
+      "has_audio": false,
+      "audio_count": 0,
+      "has_video": false,
+      "has_preface": false,
+      "track_ids": []
+    },
+    {
+      "num": 65,
+      "tap": 4,
+      "title": "Mấy Dòng Tỏ Bày (Lời Mở Đầu Tập 4)",
+      "recipient": "Kệ Phát Nguyện Vãng Sanh, Văn Hồi Hướng & Tâm Bạch Mở Đầu Tập 4",
+      "preview": "Nguyện sanh Tây-phương Tịnh-độ trung, Cửu phẩm liên hoa vi phụ mẫu, Hoa khai kiến Phật ngộ Vô-Sanh, Bất-thối Bồ-tát vi bạn lữ.",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        68
+      ]
+    },
+    {
+      "num": 66,
+      "tap": 4,
+      "title": "Nhất Môn Thâm Nhập, Trường Kỳ Huân Tu",
+      "recipient": "Kính gởi cô Lệ Tân",
+      "preview": "Pháp môn niệm Phật là pháp rất khó tin, như trong kinh Phật nói là nan tín chi pháp! Chính vì thế, nói ra mà người ta không tin tưởng là chuyện thường tình, không có gì xa lạ. Nhưng một người nào đó vừa mới nghe nhắc…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        68
+      ]
+    },
+    {
+      "num": 67,
+      "tap": 4,
+      "title": "Ý Thức Về Sự Chướng Ngại",
+      "recipient": "Kính gởi cô Lệ Tân cùng cô bác của đạo tràng",
+      "preview": "Thời này tu hành có nhiều chướng ngại lắm. Chướng ngại có ba loại, một là phiền não chướng, hai là nghiệp chướng, ba là báo chướng. Phiền não chướng là tham-sân-si; Cô bác muốn tu hành cho thành tựu thì nên tìm cách…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        69
+      ]
+    },
+    {
+      "num": 68,
+      "tap": 4,
+      "title": "Khóc Lóc: Mối Nguy Hại Cho Người Lúc Lâm Chung",
+      "recipient": "Cô Lệ Tân cùng quý đạo hữu",
+      "preview": "Đời người thật ngắn ngủi, sống chết là chuyện thường tình. Có người coi cái chết nhẹ tợ lông hồng, nhưng có người coi cái chết nặng hơn dãy núi Trường sơn. Người hiểu Phật đạo không sợ chết, họ an nhiên tự tại vãng…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        70
+      ]
+    },
+    {
+      "num": 69,
+      "tap": 4,
+      "title": "Hộ Niệm Khó Hay Dễ? — Vấn Đề Đạo Lý Và Tâm Lý",
+      "recipient": "Kính gởi cô Lệ Tân và quý đồng tu",
+      "preview": "Chúng ta tiếp tục bàn chuyện còn đang dở dang:",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        71
+      ]
+    },
+    {
+      "num": 70,
+      "tap": 4,
+      "title": "Hộ Niệm Khó Hay Dễ? — Niềm Tin Con Người Và Hoàn Cảnh",
+      "recipient": "Kính gởi các cô bác đồng tu",
+      "preview": "Xin tiếp tục vấn đề hộ niệm khó hay dễ. Có người cho rằng hộ niệm khó quá, mới mẻ quá, nhưng ở mấy dòng cuối của thư trước tôi có kể qua cho cô bác nghe là chúng tôi vừa mới hộ niệm cho một người khác nữa vãng sanh.…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        72
+      ]
+    },
+    {
+      "num": 71,
+      "tap": 4,
+      "title": "Cần Biết Rõ Đường Vãng Sanh",
+      "recipient": "Kính gởi đạo huynh Thiện Khánh",
+      "preview": "Diệu Âm có chút duyên sự phải đi Pháp, Âu châu hơn một tháng, vừa về thì nhận được thư của anh và một số thư khác. Diệu Âm xin hồi thư anh. Việc may mắn đầu tiên là khi vừa về tới Úc thì tôi đã sớm có dịp được bái…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        73
+      ]
+    },
+    {
+      "num": 72,
+      "tap": 4,
+      "title": "Niệm Phật Xuất Tam Giới Bất Khả Tư Nghì",
+      "recipient": "Lời khuyên chị Nhung",
+      "preview": "Niệm Phật bất khả tư nghì! Trước đây chị chỉ nghe nói sự vi diệu của pháp niệm Phật, chứ chắc chưa từng thấy qua. Nay chính người mẹ đã vãng sanh, chị đã thấy được tận mắt những hiện tượng bất khả tư nghì. Phải chăng…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        74
+      ]
+    },
+    {
+      "num": 73,
+      "tap": 4,
+      "title": "Buông Xả Mới Được Vãng Sanh",
+      "recipient": "Lời khuyên em Lộc",
+      "preview": "Tu hành nhằm để “Ly khổ đắc lạc”, nghĩa là thoát khổ được vui. Trên đời này thiên hạ sợ nhất là chết, người niệm Phật coi sự chết sống là chuyện tự nhiên, bình thường như những chuyện bình thường khác. Quyết lòng làm…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        75
+      ]
+    },
+    {
+      "num": 74,
+      "tap": 4,
+      "title": "Vấn Đề Cảm Ứng (Thư Cuối Trọn Bộ)",
+      "recipient": "Thư gởi đạo hữu Tâm Minh, cùng quý liên hữu Tịnh Thư Quán",
+      "preview": "Thành thật cảm ơn rất nhiều về một số disc DVD, MP3, VCD pháp của đạo hữu Tâm Minh gởi tặng. Diệu Âm cũng có chung một tâm nguyện với quí liên hữu, cố gắng ấn hành những băng đĩa khuyến tu niệm Phật. Thời mạt pháp…",
+      "has_audio": true,
+      "audio_count": 1,
+      "has_video": true,
+      "has_preface": false,
+      "track_ids": [
+        76
+      ]
+    }
+  ]
+}

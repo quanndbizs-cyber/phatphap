@@ -41,8 +41,8 @@ class mediaplayer extends Plugin
     public function onTwigLoaded()
     {
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261109b');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261109b');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261110a');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261110a');
         }
     }
 
@@ -170,6 +170,14 @@ class mediaplayer extends Plugin
                 'reader_url' => 'text',
                 'mode'       => 'text',
             ];
+            $shortcodeArray['data']['knnpreader'] = [
+                'letter'  => 'text',
+                'toc_url' => 'text',
+            ];
+            $shortcodeArray['data']['knnptoc'] = [
+                'reader_url' => 'text',
+                'mode'       => 'text',
+            ];
             $shortcode->setData($shortcodeArray);
             return;
         }
@@ -193,6 +201,28 @@ class mediaplayer extends Plugin
             $readerUrl = trim($params['reader_url'] ?? '/phat-giao/kinh-phap-cu/doc-kinh-phap-cu');
             $mode      = trim($params['mode'] ?? 'full');
             $shortcode->setData($this->renderKpcToc($readerUrl, $mode));
+            return;
+        }
+
+        # 1d. [:knnpreader letter="1" toc_url="/phat-giao/khuyen-nguoi-niem-phat/muc-luc-khuyen-nguoi-niem-phat" :]
+        if ($name === 'knnpreader') {
+            $shortcode->stopPropagation();
+            $this->playerRendered = true;
+            $letter = (int)($params['letter'] ?? ($params['thu'] ?? 1));
+            if ($letter < 1 || $letter > 74) {
+                $letter = 1;
+            }
+            $tocUrl = trim($params['toc_url'] ?? '/phat-giao/khuyen-nguoi-niem-phat/muc-luc-khuyen-nguoi-niem-phat');
+            $shortcode->setData($this->renderKnnpReader($letter, $tocUrl));
+            return;
+        }
+
+        # 1e. [:knnptoc reader_url="/phat-giao/khuyen-nguoi-niem-phat/doc-khuyen-nguoi-niem-phat" mode="full" :]
+        if ($name === 'knnptoc') {
+            $shortcode->stopPropagation();
+            $readerUrl = trim($params['reader_url'] ?? '/phat-giao/khuyen-nguoi-niem-phat/doc-khuyen-nguoi-niem-phat');
+            $mode      = trim($params['mode'] ?? 'full');
+            $shortcode->setData($this->renderKnnpToc($readerUrl, $mode));
             return;
         }
 
@@ -677,8 +707,11 @@ class mediaplayer extends Plugin
                 $html .= '<a class="tm-track-action" href="' . $safeUrl . '" target="_blank" rel="noopener noreferrer">▶ Audio.com</a>';
             }
             if (!empty($track['read_url'])) {
-                $safeRead = htmlspecialchars($this->qualifyUrl($track['read_url']), ENT_QUOTES, 'UTF-8');
-                $html .= '<a class="tm-track-btn tm-track-btn-read" href="' . $safeRead . '" target="_blank" rel="noopener noreferrer">📖 Đọc sách</a>';
+                $rawRead  = trim($track['read_url']);
+                $isExt    = (bool)preg_match('#^https?://#i', $rawRead);
+                $safeRead = htmlspecialchars($this->qualifyUrl($rawRead), ENT_QUOTES, 'UTF-8');
+                $targetAttr = $isExt ? ' target="_blank" rel="noopener noreferrer"' : '';
+                $html .= '<a class="tm-track-btn tm-track-btn-read" href="' . $safeRead . '"' . $targetAttr . '>📖 Đọc sách</a>';
             }
             if (!empty($track['video_url'])) {
                 $safeVideo = htmlspecialchars($this->qualifyUrl($track['video_url']), ENT_QUOTES, 'UTF-8');
@@ -736,9 +769,12 @@ class mediaplayer extends Plugin
 
             $itemReadUrl = !empty($st['read_url']) ? $st['read_url'] : ($this->currentMeta['mediaplayer']['read_url'] ?? '');
             if (!empty($itemReadUrl)) {
-                $safeRead  = htmlspecialchars($this->qualifyUrl($itemReadUrl), ENT_QUOTES, 'UTF-8');
-                $readLabel = htmlspecialchars($st['read_label'] ?? '📖 Sách đọc', ENT_QUOTES, 'UTF-8');
-                $html .= '<a class="tm-track-btn tm-track-btn-read" href="' . $safeRead . '" target="_blank" rel="noopener noreferrer">' . $readLabel . '</a>';
+                $rawRead    = trim($itemReadUrl);
+                $isExt      = (bool)preg_match('#^https?://#i', $rawRead);
+                $safeRead   = htmlspecialchars($this->qualifyUrl($rawRead), ENT_QUOTES, 'UTF-8');
+                $readLabel  = htmlspecialchars($st['read_label'] ?? '📖 Sách đọc', ENT_QUOTES, 'UTF-8');
+                $targetAttr = $isExt ? ' target="_blank" rel="noopener noreferrer"' : '';
+                $html .= '<a class="tm-track-btn tm-track-btn-read" href="' . $safeRead . '"' . $targetAttr . '>' . $readLabel . '</a>';
             }
 
             $itemPdfUrl = !empty($st['pdf_url']) ? $st['pdf_url'] : ($this->currentMeta['mediaplayer']['pdf_url'] ?? '');
@@ -1022,6 +1058,216 @@ class mediaplayer extends Plugin
                        . '  </div>'
                        . '  <div class="tm-kpc-toc-vtext">' . $preview . '</div>'
                        . ($storyName ? '<div class="tm-kpc-toc-story">📖 Tích truyện: <strong>' . $storyName . '</strong></div>' : '')
+                       . '</a>';
+            }
+
+            $html .= '  </div>'
+                   . '</section>';
+        }
+
+        $html .= '  </div>'
+               . '</div>';
+
+        return $html;
+    }
+
+    protected function getKnnpIndex(): array
+    {
+        $path = __DIR__ . '/data/knnp_index.json';
+        if (file_exists($path)) {
+            $decoded = json_decode(file_get_contents($path), true);
+            if (is_array($decoded)) {
+                return $decoded;
+            }
+        }
+        return ['meta' => [], 'taps' => [], 'track_to_letter' => [], 'toc' => []];
+    }
+
+    protected function renderKnnpReader(int $initialLetter, string $tocUrl): string
+    {
+        $idxData = $this->getKnnpIndex();
+        $taps    = $idxData['taps'] ?? [];
+        $toc     = $idxData['toc'] ?? [];
+
+        $masterJsonUrl = htmlspecialchars($this->qualifyUrl('/media/files/khuyen-nguoi-niem-phat/knnp_master.json'), ENT_QUOTES, 'UTF-8');
+        $safeTocUrl    = htmlspecialchars($this->qualifyUrl($tocUrl), ENT_QUOTES, 'UTF-8');
+        $introUrl      = htmlspecialchars($this->qualifyUrl('/phat-giao/khuyen-nguoi-niem-phat'), ENT_QUOTES, 'UTF-8');
+
+        $tapOptions = '';
+        foreach ($taps as $t) {
+            $tid    = (int)($t['id'] ?? 1);
+            $tname  = htmlspecialchars($t['name'] ?? '', ENT_QUOTES, 'UTF-8');
+            $lstart = (int)($t['letter_start'] ?? 1);
+            $lend   = (int)($t['letter_end'] ?? 25);
+            $tapOptions .= '<option value="' . $lstart . '" data-tap-id="' . $tid . '" data-start="' . $lstart . '" data-end="' . $lend . '">'
+                         . sprintf('%s (Thư %02d–%02d)', $tname, $lstart, $lend)
+                         . '</option>';
+        }
+
+        $letterOptions = '';
+        foreach ($toc as $item) {
+            $lnum  = (int)($item['num'] ?? 1);
+            $tap   = (int)($item['tap'] ?? 1);
+            $title = htmlspecialchars(mb_strimwidth($item['title'] ?? '', 0, 52, '…', 'UTF-8'), ENT_QUOTES, 'UTF-8');
+            $sel   = ($lnum === $initialLetter) ? ' selected' : '';
+            $letterOptions .= '<option value="' . $lnum . '"' . $sel . '>'
+                            . sprintf('Lá thư %02d (Tập %d) — %s', $lnum, $tap, $title)
+                            . '</option>';
+        }
+
+        $html = '<div class="tm-kpc-reader-app tm-knnp-reader-app" id="tm-knnp-reader" data-json-url="' . $masterJsonUrl . '" data-toc-url="' . $safeTocUrl . '" data-intro-url="' . $introUrl . '" data-init-letter="' . $initialLetter . '">'
+              . '  <div class="tm-kpc-top-strip">'
+              . '    <div class="tm-kpc-top-left">'
+              . '      <a href="' . $introUrl . '" class="tm-kpc-pill-link" title="Về trang Tổng quan Khuyên Người Niệm Phật">☸ Tổng quan 4 Tập</a>'
+              . '      <a href="' . $safeTocUrl . '" class="tm-kpc-pill-link tm-kpc-pill-toc" title="Mở trang Mục Lục riêng (4 Tập &amp; 74 Lá Thư)">📑 Mục lục (74 lá thư)</a>'
+              . '      <button type="button" class="tm-kpc-pill-link tm-kpc-pill-share" onclick="window.tmKnnpOpenShareModal()" title="Chia sẻ lá thư đang đọc">🔗 Chia sẻ</button>'
+              . '    </div>'
+              . '    <div class="tm-kpc-top-right">'
+              . '      <label for="tm-knnp-tap-select" class="tm-kpc-sr-only">Chọn Tập</label>'
+              . '      <select id="tm-knnp-tap-select" class="tm-kpc-select tm-kpc-pham-select" onchange="window.tmKnnpGoTo(this.value)" title="Chuyển nhanh theo 4 Tập">'
+              .          $tapOptions
+              . '      </select>'
+              . '    </div>'
+              . '  </div>'
+              . '  <div class="tm-kpc-stage" id="tm-knnp-stage">'
+              . '    <div class="tm-kpc-loading">🪷 Đang tải nội dung Lá thư Khuyên Người Niệm Phật...</div>'
+              . '  </div>'
+              . '  <nav class="tm-kpc-sticky-bar" id="tm-knnp-sticky-bar" aria-label="Điều hướng lá thư Khuyên Người Niệm Phật">'
+              . '    <div class="tm-kpc-sticky-inner">'
+              . '      <button type="button" class="tm-kpc-nav-btn tm-kpc-prev-btn" id="tm-knnp-prev-btn" onclick="window.tmKnnpStep(-1)" title="Lá thư trước (Phím mũi tên trái ←)">'
+              . '        <span class="tm-kpc-nav-arrow">⏮</span> <span class="tm-kpc-nav-txt">Thư trước</span>'
+              . '      </button>'
+              . '      <div class="tm-kpc-jump-group">'
+              . '        <a href="' . $safeTocUrl . '" class="tm-kpc-toc-btn" title="Vào trang Mục Lục 74 lá thư">'
+              . '          <span>📑</span> <span class="tm-kpc-toc-txt">Mục lục</span>'
+              . '        </a>'
+              . '        <select id="tm-knnp-letter-select" class="tm-kpc-verse-select" onchange="window.tmKnnpGoTo(this.value)" aria-label="Chọn nhanh lá thư từ 1 đến 74">'
+              .            $letterOptions
+              . '        </select>'
+              . '        <div class="tm-kpc-num-jump">'
+              . '          <input type="number" id="tm-knnp-jump-input" class="tm-kpc-jump-input" min="1" max="74" placeholder="1-74" aria-label="Nhập số lá thư (1-74)" onkeydown="if(event.key===\'Enter\'){event.preventDefault();window.tmKnnpJumpInput();}" />'
+              . '          <button type="button" class="tm-kpc-jump-go" onclick="window.tmKnnpJumpInput()" title="Chuyển tới lá thư này">Đến</button>'
+              . '        </div>'
+              . '        <button type="button" class="tm-kpc-toc-btn tm-kpc-sticky-share-btn" onclick="window.tmKnnpOpenShareModal()" title="Chia sẻ lá thư Khuyên Người Niệm Phật này">'
+              . '          <span>🔗</span> <span class="tm-kpc-toc-txt">Chia sẻ</span>'
+              . '        </button>'
+              . '      </div>'
+              . '      <button type="button" class="tm-kpc-nav-btn tm-kpc-next-btn" id="tm-knnp-next-btn" onclick="window.tmKnnpStep(1)" title="Lá thư tiếp theo (Phím mũi tên phải →)">'
+              . '        <span class="tm-kpc-nav-txt">Thư sau</span> <span class="tm-kpc-nav-arrow">⏭</span>'
+              . '      </button>'
+              . '    </div>'
+              . '  </nav>'
+              . '</div>';
+
+        return $html;
+    }
+
+    protected function renderKnnpToc(string $readerUrl, string $mode = 'full'): string
+    {
+        $idxData       = $this->getKnnpIndex();
+        $taps          = $idxData['taps'] ?? [];
+        $toc           = $idxData['toc'] ?? [];
+        $safeReaderUrl = htmlspecialchars($this->qualifyUrl($readerUrl), ENT_QUOTES, 'UTF-8');
+
+        if ($mode === 'overview') {
+            $html = '<div class="tm-kpc-pham-grid">';
+            foreach ($taps as $t) {
+                $tid    = (int)($t['id'] ?? 1);
+                $tname  = htmlspecialchars($t['name'] ?? '', ENT_QUOTES, 'UTF-8');
+                $tsub   = htmlspecialchars($t['subtitle'] ?? '', ENT_QUOTES, 'UTF-8');
+                $lstart = (int)($t['letter_start'] ?? 1);
+                $lend   = (int)($t['letter_end'] ?? 25);
+                $lcount = (int)($t['letter_count'] ?? ($lend - $lstart + 1));
+
+                $html .= '<a href="' . $safeReaderUrl . '?thu=' . $lstart . '" class="tm-kpc-pham-card">'
+                       . '  <div class="tm-kpc-pham-card-top">'
+                       . '    <span class="tm-kpc-pham-num">Tập ' . $tid . '</span>'
+                       . '    <span class="tm-kpc-pham-range">Lá thư ' . sprintf('%02d–%02d', $lstart, $lend) . ' (' . $lcount . ' thư)</span>'
+                       . '  </div>'
+                       . '  <div class="tm-kpc-pham-title">' . $tname . '</div>'
+                       . '  <div class="tm-kpc-pham-pali">' . $tsub . '</div>'
+                       . '</a>';
+            }
+            $html .= '</div>';
+            return $html;
+        }
+
+        $byTap = [];
+        foreach ($toc as $item) {
+            $tid = (int)($item['tap'] ?? 1);
+            $byTap[$tid][] = $item;
+        }
+
+        $tapFilterPills = '<button type="button" class="tm-kpc-filter-pill active" data-tap="all" onclick="window.tmKnnpFilterTap(\'all\', this)">Tất cả 4 Tập (74 lá thư)</button>';
+        foreach ($taps as $t) {
+            $tid    = (int)($t['id'] ?? 1);
+            $tname  = htmlspecialchars($t['name'] ?? '', ENT_QUOTES, 'UTF-8');
+            $lstart = (int)($t['letter_start'] ?? 1);
+            $lend   = (int)($t['letter_end'] ?? 25);
+            $tapFilterPills .= '<button type="button" class="tm-kpc-filter-pill" data-tap="' . $tid . '" onclick="window.tmKnnpFilterTap(\'' . $tid . '\', this)">'
+                             . sprintf('%s (Thư %02d–%02d)', $tname, $lstart, $lend)
+                             . '</button>';
+        }
+
+        $html = '<div class="tm-kpc-toc-app tm-knnp-toc-app" id="tm-knnp-toc-app" data-reader-url="' . $safeReaderUrl . '">'
+              . '  <div class="tm-kpc-toc-controls">'
+              . '    <div class="tm-kpc-toc-search-row">'
+              . '      <input type="search" id="tm-knnp-toc-search" class="tm-kpc-toc-search" placeholder="🔍 Tìm theo số lá thư (1–74), tiêu đề, người nhận hoặc nội dung (vd: hộ niệm, địa ngục, Lệ Tân, cha má)..." oninput="window.tmKnnpFilterToc(this.value)" />'
+              . '      <div class="tm-kpc-toc-quickjump">'
+              . '        <input type="number" id="tm-knnp-toc-num" class="tm-kpc-jump-input" min="1" max="74" placeholder="Số thư (1-74)" onkeydown="if(event.key===\'Enter\'){event.preventDefault();window.tmKnnpTocGoNum();}" />'
+              . '        <button type="button" class="tm-kpc-jump-go" onclick="window.tmKnnpTocGoNum()">Đọc ngay →</button>'
+              . '      </div>'
+              . '    </div>'
+              . '    <div class="tm-kpc-filter-pills" id="tm-knnp-filter-pills">'
+              .        $tapFilterPills
+              . '    </div>'
+              . '  </div>'
+              . '  <div class="tm-kpc-toc-sections" id="tm-knnp-toc-sections">';
+
+        foreach ($taps as $t) {
+            $tid    = (int)($t['id'] ?? 1);
+            $tname  = htmlspecialchars($t['name'] ?? '', ENT_QUOTES, 'UTF-8');
+            $tsub   = htmlspecialchars($t['subtitle'] ?? '', ENT_QUOTES, 'UTF-8');
+            $lstart = (int)($t['letter_start'] ?? 1);
+            $lend   = (int)($t['letter_end'] ?? 25);
+            $llist  = $byTap[$tid] ?? [];
+            $tapUrl = htmlspecialchars($this->qualifyUrl($t['tap_url'] ?? ''), ENT_QUOTES, 'UTF-8');
+            $pdfUrl = htmlspecialchars($this->qualifyUrl($t['pdf_url'] ?? ''), ENT_QUOTES, 'UTF-8');
+
+            $html .= '<section class="tm-kpc-toc-section" data-tap-section="' . $tid . '" id="tap-' . $tid . '">'
+                   . '  <div class="tm-kpc-toc-sec-header">'
+                   . '    <div>'
+                   . '      <span class="tm-kpc-sec-badge">Khuyên Người Niệm Phật • ' . $tsub . '</span>'
+                   . '      <h3 class="tm-kpc-sec-title">' . $tname . '</h3>'
+                   . '    </div>'
+                   . '    <div style="display:flex;gap:0.5rem;flex-wrap:wrap;align-items:center;">'
+                   .        ($tapUrl ? '<a href="' . $tapUrl . '" class="tm-kpc-sec-readbtn">🎧 Playlist Tập ' . $tid . '</a>' : '')
+                   .        ($pdfUrl ? '<a href="' . $pdfUrl . '" target="_blank" rel="noopener noreferrer" class="tm-kpc-sec-readbtn">📄 PDF Tập ' . $tid . '</a>' : '')
+                   . '      <a href="' . $safeReaderUrl . '?thu=' . $lstart . '" class="tm-kpc-sec-readbtn">📖 Đọc từ thư ' . sprintf('%02d', $lstart) . ' →</a>'
+                   . '    </div>'
+                   . '  </div>'
+                   . '  <div class="tm-kpc-toc-grid">';
+
+            foreach ($llist as $item) {
+                $lnum      = (int)($item['num'] ?? 1);
+                $title     = htmlspecialchars($item['title'] ?? '', ENT_QUOTES, 'UTF-8');
+                $recipient = htmlspecialchars($item['recipient'] ?? '', ENT_QUOTES, 'UTF-8');
+                $preview   = htmlspecialchars($item['preview'] ?? '', ENT_QUOTES, 'UTF-8');
+                $hasAudio  = !empty($item['has_audio']);
+                $hasVideo  = !empty($item['has_video']);
+                $hasPref   = !empty($item['has_preface']);
+                $searchStr = htmlspecialchars(mb_strtolower($lnum . ' ' . ($item['title'] ?? '') . ' ' . ($item['recipient'] ?? '') . ' ' . ($item['preview'] ?? '') . ' ' . $tname, 'UTF-8'), ENT_QUOTES, 'UTF-8');
+
+                $icons = '📖' . ($hasAudio ? ' 🎧' : '') . ($hasVideo ? ' 🎬' : '');
+
+                $html .= '<a href="' . $safeReaderUrl . '?thu=' . $lnum . '" class="tm-kpc-toc-item" data-letter="' . $lnum . '" data-search="' . $searchStr . '">'
+                       . '  <div class="tm-kpc-toc-item-top">'
+                       . '    <span class="tm-kpc-toc-vnum">Lá thư số ' . sprintf('%02d', $lnum) . ($hasPref ? ' (+Lời tựa)' : '') . '</span>'
+                       . '    <span class="tm-kpc-toc-icons">' . $icons . '</span>'
+                       . '  </div>'
+                       . '  <div class="tm-kpc-toc-vtext">' . $title . '</div>'
+                       . ($recipient ? '<div class="tm-kpc-toc-story">✉️ <strong>' . $recipient . '</strong></div>' : '')
+                       . ($preview ? '<div class="tm-knnp-toc-preview">' . $preview . '</div>' : '')
                        . '</a>';
             }
 

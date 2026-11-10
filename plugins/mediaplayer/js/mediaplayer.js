@@ -498,6 +498,7 @@
         });
 
         initKpcReader();
+        initKnnpReader();
     });
 
     /* =========================================================================
@@ -1362,6 +1363,566 @@
                 window.tmKpcStep(-1);
             } else if (e.key === "ArrowRight") {
                 window.tmKpcStep(1);
+            }
+        });
+    }
+
+    /* =========================================================================
+       7. KHUYÊN NGƯỜI NIỆM PHẬT LETTER READER & TOC ([:knnpreader:] & [:knnptoc:])
+       ========================================================================= */
+    var knnpMasterData = null;
+    var knnpCurrentLetter = 1;
+    var knnpCurrentAudioIdx = 0;
+    var KNNP_STORAGE_KEY = "tm_knnp_last_letter";
+
+    function formatDurationSec(sec) {
+        sec = parseInt(sec || 0, 10);
+        if (!sec || sec <= 0) return "";
+        var m = Math.floor(sec / 60);
+        var s = sec % 60;
+        return (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s);
+    }
+
+    function getRequestedKnnpLetter(defaultLetter) {
+        try {
+            var params = new URLSearchParams(window.location.search);
+            var qThu = parseInt(params.get("thu") || params.get("bai") || params.get("letter") || "", 10);
+            if (!isNaN(qThu) && qThu >= 1 && qThu <= 74) {
+                return qThu;
+            }
+            var qTrack = parseInt(params.get("track") || "", 10);
+            if (!isNaN(qTrack) && knnpMasterData && knnpMasterData.track_to_letter && knnpMasterData.track_to_letter[String(qTrack)]) {
+                return parseInt(knnpMasterData.track_to_letter[String(qTrack)], 10);
+            }
+            var hash = window.location.hash || "";
+            var hm = hash.match(/#(?:thu-|bai-|letter-)?(\d{1,2})$/i);
+            if (hm) {
+                var hThu = parseInt(hm[1], 10);
+                if (hThu >= 1 && hThu <= 74) {
+                    return hThu;
+                }
+            }
+            var saved = parseInt(localStorage.getItem(KNNP_STORAGE_KEY) || "", 10);
+            if (!isNaN(saved) && saved >= 1 && saved <= 74) {
+                return saved;
+            }
+        } catch (e) {}
+        return defaultLetter || 1;
+    }
+
+    function renderKnnpParas(paras) {
+        if (!paras || !paras.length) return "";
+        var html = "";
+        for (var i = 0; i < paras.length; i++) {
+            var p = paras[i];
+            if (!p) continue;
+            // Check if paragraph is a greeting/salutation or subheading
+            var isSalutation = (i === 0 && p.length < 95 && (/[,!]$/.test(p) || /^(Kính |Cha má|Em |Chị |Cháu |Đạo hữu|Gởi |Thư )/i.test(p)));
+            var isSubhead = (p.length < 90 && /^(\(\s*[IVX]+\s*\)|\d+\s*\)|\d+\s*-\s*|Lời |Thay lời|Phát Nguyện|Văn Hồi Hướng|Mấy Dòng|Cảnh thứ )/i.test(p));
+            if (isSalutation) {
+                html += '<p class="tm-knnp-salutation">' + escapeHtml(p) + '</p>';
+            } else if (isSubhead) {
+                html += '<h3 class="tm-knnp-subhead">' + escapeHtml(p) + '</h3>';
+            } else if (p.indexOf("\n") !== -1) {
+                var lines = p.split("\n");
+                html += '<blockquote class="tm-kpc-story-poem">';
+                for (var l = 0; l < lines.length; l++) {
+                    html += '<div class="tm-kpc-poem-line">' + escapeHtml(lines[l]) + '</div>';
+                }
+                html += '</blockquote>';
+            } else {
+                html += '<p class="tm-kpc-story-para tm-knnp-para">' + escapeHtml(p) + '</p>';
+            }
+        }
+        return html;
+    }
+
+    function renderKnnpLetterView(lnum, updateHistory) {
+        var app = document.getElementById("tm-knnp-reader");
+        var stage = document.getElementById("tm-knnp-stage");
+        if (!app || !stage || !knnpMasterData) return;
+
+        lnum = parseInt(lnum, 10);
+        if (isNaN(lnum) || lnum < 1) lnum = 1;
+        if (lnum > 74) lnum = 74;
+        knnpCurrentLetter = lnum;
+        knnpCurrentAudioIdx = 0;
+
+        try {
+            localStorage.setItem(KNNP_STORAGE_KEY, String(lnum));
+        } catch (e) {}
+
+        if (updateHistory !== false && window.history && window.history.replaceState) {
+            try {
+                var u = new URL(window.location.href);
+                u.searchParams.set("thu", String(lnum));
+                u.searchParams.delete("bai");
+                window.history.replaceState({ thu: lnum }, "", u.toString());
+            } catch (e) {}
+        }
+
+        var letterSel = document.getElementById("tm-knnp-letter-select");
+        if (letterSel) letterSel.value = String(lnum);
+
+        var jumpInp = document.getElementById("tm-knnp-jump-input");
+        if (jumpInp) jumpInp.value = String(lnum);
+
+        var prevBtn = document.getElementById("tm-knnp-prev-btn");
+        var nextBtn = document.getElementById("tm-knnp-next-btn");
+        if (prevBtn) prevBtn.disabled = (lnum <= 1);
+        if (nextBtn) nextBtn.disabled = (lnum >= 74);
+
+        var lt = knnpMasterData.letters[String(lnum)];
+        if (!lt) {
+            stage.innerHTML = '<div class="tm-media-alert">Không tìm thấy nội dung Lá thư số ' + lnum + '.</div>';
+            return;
+        }
+
+        var tapSel = document.getElementById("tm-knnp-tap-select");
+        if (tapSel) {
+            var opts = tapSel.querySelectorAll("option");
+            opts.forEach(function (opt) {
+                var tid = parseInt(opt.getAttribute("data-tap-id") || "0", 10);
+                if (tid === lt.tap) {
+                    tapSel.value = opt.value;
+                }
+            });
+        }
+
+        var tapObj = null;
+        if (knnpMasterData.taps) {
+            for (var t = 0; t < knnpMasterData.taps.length; t++) {
+                if (knnpMasterData.taps[t].id === lt.tap) {
+                    tapObj = knnpMasterData.taps[t];
+                    break;
+                }
+            }
+        }
+        var tapName = tapObj ? tapObj.name : ("Tập " + lt.tap);
+        var tapUrl = tapObj ? tapObj.tap_url : "/phat-giao/khuyen-nguoi-niem-phat";
+        var pdfUrl = tapObj ? tapObj.pdf_url : "";
+        var lnumPad = lnum < 10 ? ("0" + lnum) : String(lnum);
+
+        // Build Audio & Video Media Box
+        var audios = lt.audios || [];
+        var videos = lt.videos || [];
+        var mediaHtml = "";
+        if (audios.length > 0 || videos.length > 0) {
+            mediaHtml += '<div class="tm-knnp-media-bar">';
+            if (audios.length > 0) {
+                var firstAud = audios[0];
+                var durTxt = formatDurationSec(firstAud.duration);
+                var partPills = "";
+                if (audios.length > 1) {
+                    partPills = '<div class="tm-knnp-audio-parts">';
+                    for (var a = 0; a < audios.length; a++) {
+                        var actCls = (a === 0) ? " active" : "";
+                        var pDur = formatDurationSec(audios[a].duration);
+                        partPills +=
+                            '<button type="button" class="tm-knnp-part-btn' + actCls + '" data-part-idx="' + a + '" onclick="window.tmKnnpSelectAudioPart(' + a + ')">' +
+                            '🎧 Phần ' + (a + 1) + ': ' + escapeHtml(audios[a].title) + (pDur ? (' (' + pDur + ')') : '') +
+                            '</button>';
+                    }
+                    partPills += '</div>';
+                }
+                mediaHtml +=
+                    '<div class="tm-knnp-audio-card">' +
+                    '  <div class="tm-knnp-audio-top">' +
+                    '    <div class="tm-knnp-audio-label">' +
+                    '      <span class="tm-knnp-audio-icon">🎧</span>' +
+                    '      <div>' +
+                    '        <div class="tm-knnp-audio-title" id="tm-knnp-audio-title">Pháp Âm MP3: ' + escapeHtml(firstAud.title) + (durTxt ? (' (' + durTxt + ')') : '') + '</div>' +
+                    '        <div class="tm-knnp-audio-sub">Giọng đọc Pháp Âm • Khuyên Người Niệm Phật Tập ' + lt.tap + '</div>' +
+                    '      </div>' +
+                    '    </div>' +
+                    '    <div class="tm-knnp-audio-actions">' +
+                    '      <label class="tm-knnp-speed-lbl">Tốc độ:' +
+                    '        <select class="tm-knnp-speed-sel" onchange="window.tmKnnpSetAudioSpeed(this.value)">' +
+                    '          <option value="0.85">0.85x</option>' +
+                    '          <option value="1" selected>1.0x</option>' +
+                    '          <option value="1.15">1.15x</option>' +
+                    '          <option value="1.25">1.25x</option>' +
+                    '          <option value="1.5">1.5x</option>' +
+                    '        </select>' +
+                    '      </label>' +
+                    '      <a id="tm-knnp-audio-dl" href="' + escapeHtml(firstAud.audio_src) + '" download target="_blank" rel="noopener noreferrer" class="tm-knnp-dl-btn" title="Tải file MP3 về máy">💾 Tải MP3</a>' +
+                    (videos.length > 0
+                        ? '<button type="button" class="tm-knnp-vid-toggle-btn" onclick="window.tmKnnpToggleVideo()">🎬 Xem Video YouTube</button>'
+                        : '') +
+                    '    </div>' +
+                    '  </div>' +
+                    partPills +
+                    '  <audio id="tm-knnp-audio-el" class="tm-knnp-audio-el" controls preload="metadata" src="' + escapeHtml(firstAud.audio_src) + '"></audio>' +
+                    '</div>';
+            }
+            if (videos.length > 0) {
+                var v0 = videos[0];
+                var vEmbed = v0.video_id ? ("https://www.youtube.com/embed/" + encodeURIComponent(v0.video_id) + "?rel=0") : "";
+                mediaHtml +=
+                    '<div class="tm-knnp-video-drawer" id="tm-knnp-video-drawer" style="display:none;" data-embed-url="' + escapeHtml(vEmbed) + '">' +
+                    '  <div class="tm-kpc-media-head">' +
+                    '    <span>🎬 Video YouTube — Lá thư số ' + lnumPad + ': ' + escapeHtml(lt.title) + '</span>' +
+                    '    <a href="' + escapeHtml(v0.video_url) + '" target="_blank" rel="noopener noreferrer" class="tm-kpc-yt-ext">↗ Mở YouTube</a>' +
+                    '  </div>' +
+                    '  <div class="tm-knnp-video-frame-box" id="tm-knnp-video-frame-box"></div>' +
+                    '</div>';
+            }
+            mediaHtml += '</div>';
+        }
+
+        // Preface blocks (for Letter 1, 26, 49)
+        var prefaceHtml = "";
+        if (lt.preface_blocks && lt.preface_blocks.length > 0) {
+            for (var pb = 0; pb < lt.preface_blocks.length; pb++) {
+                var blk = lt.preface_blocks[pb];
+                prefaceHtml +=
+                    '<details class="tm-knnp-preface-box" open>' +
+                    '  <summary class="tm-knnp-preface-summary">' +
+                    '    <span>📜 ' + escapeHtml(blk.title) + '</span>' +
+                    '    <span class="tm-knnp-preface-hint">Bấm để thu gọn / mở rộng ▾</span>' +
+                    '  </summary>' +
+                    '  <div class="tm-knnp-preface-body">' +
+                    renderKnnpParas(blk.paras) +
+                    '  </div>' +
+                    '</details>';
+            }
+        }
+
+        // Closing & Dharma Quote Box
+        var closingHtml = "";
+        if (lt.closing) {
+            closingHtml = '<div class="tm-knnp-closing">✒️ ' + escapeHtml(lt.closing) + '</div>';
+        }
+
+        var quoteHtml = "";
+        if (lt.quote) {
+            quoteHtml =
+                '<aside class="tm-knnp-quote-box" aria-label="Lời khai thị / Pháp ngữ cuối thư">' +
+                '  <div class="tm-knnp-quote-label">🪷 PHÁP NGỮ &amp; LỜI KHAI THỊ CUỐI THƯ</div>' +
+                '  <div class="tm-knnp-quote-text">' + escapeHtml(lt.quote).replace(/\n/g, "<br/>") + '</div>' +
+                '</aside>';
+        }
+
+        stage.innerHTML =
+            prefaceHtml +
+            '<article class="tm-kpc-verse-card tm-knnp-letter-card">' +
+            '  <header class="tm-kpc-verse-header">' +
+            '    <div class="tm-kpc-pham-badge">' + escapeHtml(tapName) + '</div>' +
+            '    <div class="tm-kpc-verse-header-right">' +
+            '      <div class="tm-kpc-verse-num-badge">Lá thư số <strong>' + lnumPad + '</strong> / 74</div>' +
+            (pdfUrl ? '<a href="' + escapeHtml(pdfUrl) + '" target="_blank" rel="noopener noreferrer" class="tm-kpc-share-btn" title="Tải sách PDF Tập ' + lt.tap + '">📄 Sách PDF Tập ' + lt.tap + '</a>' : '') +
+            '      <button type="button" class="tm-kpc-share-btn" onclick="window.tmKnnpOpenShareModal()" title="Chia sẻ Lá thư số ' + lnumPad + '">🔗 Chia sẻ lá thư</button>' +
+            '    </div>' +
+            '  </header>' +
+            '  <h2 class="tm-kpc-verse-heading tm-knnp-letter-heading">Lá Thư Số ' + lnumPad + ': ' + escapeHtml(lt.title) + '</h2>' +
+            (lt.recipient ? '<div class="tm-knnp-recipient-badge">✉️ ' + escapeHtml(lt.recipient) + ' • <em>Tác giả: Cư sĩ Diệu Âm</em></div>' : '') +
+            mediaHtml +
+            '  <div class="tm-knnp-letter-body">' +
+            renderKnnpParas(lt.paras) +
+            closingHtml +
+            quoteHtml +
+            '  </div>' +
+            '  <div class="tm-kpc-story-footer-nav">' +
+            '    <button type="button" class="tm-kpc-foot-btn" onclick="window.tmKnnpStep(-1)" ' + (lnum <= 1 ? 'disabled' : '') + '>⏮ Lá thư trước (' + (lnum > 1 ? (lnum - 1) : 1) + ')</button>' +
+            '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-top" onclick="var r=document.getElementById(\'tm-knnp-reader\');if(r)r.scrollIntoView({behavior:\'smooth\'});">↑ Lên đầu lá thư ' + lnumPad + '</button>' +
+            '    <a href="' + escapeHtml(tapUrl) + '" class="tm-kpc-foot-btn" style="text-decoration:none;">🎧 Playlist Tập ' + lt.tap + '</a>' +
+            '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-share" onclick="window.tmKnnpOpenShareModal()">🔗 Chia sẻ thư ' + lnumPad + '</button>' +
+            '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-next" onclick="window.tmKnnpStep(1)" ' + (lnum >= 74 ? 'disabled' : '') + '>Lá thư tiếp (' + (lnum < 74 ? (lnum + 1) : 74) + ') ⏭</button>' +
+            '  </div>' +
+            '</article>';
+
+        // Attach auto-advance to part 2 if letter has 2 audio parts
+        var audioEl = document.getElementById("tm-knnp-audio-el");
+        if (audioEl && audios.length > 1) {
+            audioEl.addEventListener("ended", function () {
+                if (knnpCurrentAudioIdx + 1 < audios.length) {
+                    window.tmKnnpSelectAudioPart(knnpCurrentAudioIdx + 1, true);
+                }
+            });
+        }
+    }
+
+    window.tmKnnpSelectAudioPart = function (partIdx, autoPlay) {
+        if (!knnpMasterData) return;
+        var lt = knnpMasterData.letters[String(knnpCurrentLetter)];
+        if (!lt || !lt.audios || !lt.audios[partIdx]) return;
+        knnpCurrentAudioIdx = partIdx;
+        var aud = lt.audios[partIdx];
+        var durTxt = formatDurationSec(aud.duration);
+
+        var audioEl = document.getElementById("tm-knnp-audio-el");
+        var titleEl = document.getElementById("tm-knnp-audio-title");
+        var dlEl = document.getElementById("tm-knnp-audio-dl");
+
+        if (titleEl) {
+            titleEl.textContent = "Pháp Âm MP3: " + aud.title + (durTxt ? (" (" + durTxt + ")") : "");
+        }
+        if (dlEl) {
+            dlEl.href = aud.audio_src;
+        }
+        var btns = document.querySelectorAll(".tm-knnp-part-btn");
+        btns.forEach(function (b) {
+            var bidx = parseInt(b.getAttribute("data-part-idx") || "0", 10);
+            b.classList.toggle("active", bidx === partIdx);
+        });
+        if (audioEl) {
+            audioEl.src = aud.audio_src;
+            if (autoPlay !== false) {
+                audioEl.play().catch(function () {});
+            }
+        }
+    };
+
+    window.tmKnnpSetAudioSpeed = function (rate) {
+        var audioEl = document.getElementById("tm-knnp-audio-el");
+        var r = parseFloat(rate || "1");
+        if (audioEl && !isNaN(r)) {
+            audioEl.playbackRate = r;
+        }
+    };
+
+    window.tmKnnpToggleVideo = function () {
+        var drawer = document.getElementById("tm-knnp-video-drawer");
+        var frameBox = document.getElementById("tm-knnp-video-frame-box");
+        if (!drawer || !frameBox) return;
+        if (drawer.style.display === "none") {
+            var embedUrl = drawer.getAttribute("data-embed-url") || "";
+            if (embedUrl && !frameBox.innerHTML) {
+                frameBox.innerHTML =
+                    '<iframe src="' + escapeHtml(embedUrl) + '" style="width:100%;aspect-ratio:16/9;border:none;border-radius:0 0 10px 10px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" loading="lazy"></iframe>';
+            }
+            drawer.style.display = "block";
+        } else {
+            drawer.style.display = "none";
+            frameBox.innerHTML = "";
+        }
+    };
+
+    window.tmKnnpGoTo = function (lnum, scrollReader) {
+        renderKnnpLetterView(lnum, true);
+        if (scrollReader !== false) {
+            var app = document.getElementById("tm-knnp-reader");
+            if (app) {
+                app.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    };
+
+    window.tmKnnpStep = function (delta) {
+        var target = knnpCurrentLetter + delta;
+        if (target < 1 || target > 74) return;
+        window.tmKnnpGoTo(target, true);
+    };
+
+    window.tmKnnpJumpInput = function () {
+        var inp = document.getElementById("tm-knnp-jump-input");
+        if (!inp) return;
+        var val = parseInt(inp.value, 10);
+        if (!isNaN(val) && val >= 1 && val <= 74) {
+            window.tmKnnpGoTo(val, true);
+        }
+    };
+
+    window.tmKnnpFilterTap = function (tapId, btnEl) {
+        var pills = document.querySelectorAll("#tm-knnp-filter-pills .tm-kpc-filter-pill");
+        pills.forEach(function (p) {
+            p.classList.toggle("active", p === btnEl);
+        });
+        var secs = document.querySelectorAll("#tm-knnp-toc-sections .tm-kpc-toc-section");
+        secs.forEach(function (sec) {
+            var stid = sec.getAttribute("data-tap-section");
+            sec.style.display = (tapId === "all" || stid === String(tapId)) ? "block" : "none";
+        });
+    };
+
+    window.tmKnnpFilterToc = function (query) {
+        var q = (query || "").trim().toLowerCase();
+        var secs = document.querySelectorAll("#tm-knnp-toc-sections .tm-kpc-toc-section");
+        secs.forEach(function (sec) {
+            var items = sec.querySelectorAll(".tm-kpc-toc-item");
+            var visibleCount = 0;
+            items.forEach(function (it) {
+                var txt = it.getAttribute("data-search") || "";
+                var lnum = it.getAttribute("data-letter") || "";
+                var match = !q || txt.indexOf(q) !== -1 || lnum === q;
+                it.style.display = match ? "flex" : "none";
+                if (match) visibleCount++;
+            });
+            sec.style.display = visibleCount > 0 ? "block" : "none";
+        });
+    };
+
+    window.tmKnnpTocGoNum = function () {
+        var app = document.getElementById("tm-knnp-toc-app");
+        var inp = document.getElementById("tm-knnp-toc-num");
+        if (!app || !inp) return;
+        var v = parseInt(inp.value, 10);
+        if (!isNaN(v) && v >= 1 && v <= 74) {
+            var readerUrl = app.getAttribute("data-reader-url") || "/phat-giao/khuyen-nguoi-niem-phat/doc-khuyen-nguoi-niem-phat";
+            window.location.href = readerUrl + "?thu=" + v;
+        }
+    };
+
+    function getKnnpSharePayload() {
+        var lnum = knnpCurrentLetter || 1;
+        var lt = (knnpMasterData && knnpMasterData.letters) ? knnpMasterData.letters[String(lnum)] : null;
+        var lnumPad = lnum < 10 ? ("0" + lnum) : String(lnum);
+
+        var u;
+        try {
+            u = new URL(window.location.href);
+            u.searchParams.set("thu", String(lnum));
+            u.searchParams.delete("bai");
+            u.hash = "";
+        } catch (e) {
+            u = { toString: function () { return window.location.href; } };
+        }
+        var shareUrl = u.toString();
+
+        var tapTitle = lt ? ("Khuyên Người Niệm Phật — Tập " + lt.tap) : "Khuyên Người Niệm Phật";
+        var letterTitle = lt ? lt.title : ("Lá thư số " + lnumPad);
+        var recipient = (lt && lt.recipient) ? lt.recipient : "Tác giả: Cư sĩ Diệu Âm";
+        var previewText = (lt && lt.quote) ? lt.quote : ((lt && lt.preview) ? lt.preview : "");
+
+        var title = "Khuyên Người Niệm Phật - Lá thư số " + lnumPad + ": " + letterTitle;
+        var fullText =
+            "🪷 KHUYÊN NGƯỜI NIỆM PHẬT — LÁ THƯ SỐ " + lnumPad + " (Tập " + (lt ? lt.tap : 1) + ")\n" +
+            "📖 " + letterTitle + " (" + recipient + ")\n\n" +
+            (previewText ? (previewText + "\n\n") : "") +
+            "🔗 Đọc toàn văn & nghe MP3 tại: " + shareUrl;
+
+        return {
+            vnum: lnum,
+            title: title,
+            phamTitle: tapTitle,
+            storyTitle: recipient,
+            vnText: letterTitle + (previewText ? ("\n\n" + previewText) : ""),
+            url: shareUrl,
+            fullText: fullText
+        };
+    }
+
+    window.tmKnnpOpenShareModal = function () {
+        var modal = ensureKpcShareModal();
+        var p = getKnnpSharePayload();
+        var lnumPad = p.vnum < 10 ? ("0" + p.vnum) : String(p.vnum);
+
+        var titleEl = document.getElementById("tm-kpc-share-title");
+        if (titleEl) {
+            titleEl.textContent = "🔗 Chia sẻ Lá Thư Số " + lnumPad + " — Khuyên Người Niệm Phật";
+        }
+
+        var prevEl = document.getElementById("tm-kpc-share-preview");
+        if (prevEl) {
+            prevEl.innerHTML =
+                '<div class="tm-kpc-sp-badge">' + escapeHtml(p.phamTitle) + ' • Lá thư số ' + lnumPad + '</div>' +
+                '<div class="tm-kpc-sp-verse">' + escapeHtml(p.vnText).replace(/\n/g, "<br/>") + '</div>' +
+                (p.storyTitle ? ('<div class="tm-kpc-sp-story">✉️ <strong>' + escapeHtml(p.storyTitle) + '</strong></div>') : '');
+        }
+
+        var urlInp = document.getElementById("tm-kpc-share-url-input");
+        if (urlInp) {
+            urlInp.value = p.url;
+        }
+
+        var toast = document.getElementById("tm-kpc-share-toast");
+        if (toast) {
+            toast.style.display = "none";
+        }
+
+        var fbBtn = document.getElementById("tm-kpc-share-fb");
+        if (fbBtn) {
+            fbBtn.href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(p.url) + "&quote=" + encodeURIComponent(p.fullText);
+        }
+        var tgBtn = document.getElementById("tm-kpc-share-tg");
+        if (tgBtn) {
+            tgBtn.href = "https://t.me/share/url?url=" + encodeURIComponent(p.url) + "&text=" + encodeURIComponent(p.fullText);
+        }
+        var mailBtn = document.getElementById("tm-kpc-share-mail");
+        if (mailBtn) {
+            mailBtn.href = "mailto:?subject=" + encodeURIComponent(p.title) + "&body=" + encodeURIComponent(p.fullText);
+        }
+
+        // Override copy buttons inside modal when KNNP reader is active
+        var copyLinkBtn = modal.querySelector(".tm-kpc-share-copy-url");
+        if (copyLinkBtn) {
+            copyLinkBtn.onclick = function () {
+                copyTextToClipboard(p.url, function (ok) {
+                    showKpcShareToast(ok ? ("✓ Đã sao chép đường dẫn Lá thư số " + lnumPad + "!") : "⚠️ Hãy bôi đen ô liên kết để chép.");
+                });
+            };
+        }
+        var copyFullBtn = modal.querySelector(".tm-kpc-share-opt-primary");
+        if (copyFullBtn) {
+            copyFullBtn.onclick = function () {
+                copyTextToClipboard(p.fullText, function (ok) {
+                    showKpcShareToast(ok ? ("✓ Đã sao chép trích đoạn Lá thư số " + lnumPad + " & liên kết!") : "⚠️ Hãy bôi đen ô liên kết để chép.");
+                });
+            };
+        }
+        var nativeBtn = document.getElementById("tm-kpc-share-native-btn");
+        if (nativeBtn) {
+            nativeBtn.onclick = function () {
+                if (navigator.share) {
+                    navigator.share({ title: p.title, text: p.fullText, url: p.url }).catch(function () {});
+                } else {
+                    copyTextToClipboard(p.fullText, function () {
+                        showKpcShareToast("✓ Đã sao chép trích đoạn Lá thư số " + lnumPad + " & liên kết!");
+                    });
+                }
+            };
+        }
+
+        modal.style.display = "flex";
+        document.body.classList.add("tm-kpc-modal-open");
+    };
+
+    function initKnnpReader() {
+        var app = document.getElementById("tm-knnp-reader");
+        if (!app) return;
+
+        var jsonUrl = app.getAttribute("data-json-url");
+        var initLetter = parseInt(app.getAttribute("data-init-letter") || "1", 10);
+
+        fetch(jsonUrl)
+            .then(function (r) { return r.json(); })
+            .then(function (data) {
+                knnpMasterData = data;
+                var targetLetter = getRequestedKnnpLetter(initLetter);
+                renderKnnpLetterView(targetLetter, false);
+            })
+            .catch(function (err) {
+                var stage = document.getElementById("tm-knnp-stage");
+                if (stage) {
+                    stage.innerHTML = '<div class="tm-media-alert">Không thể tải dữ liệu Khuyên Người Niệm Phật: ' + escapeHtml(String(err)) + '</div>';
+                }
+            });
+
+        window.addEventListener("popstate", function () {
+            if (knnpMasterData) {
+                var lnum = getRequestedKnnpLetter(1);
+                renderKnnpLetterView(lnum, false);
+            }
+        });
+
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "Escape") {
+                window.tmKpcCloseShareModal();
+                return;
+            }
+            if (!knnpMasterData) return;
+            var tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : "";
+            if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || (e.target && e.target.isContentEditable)) {
+                return;
+            }
+            var sm = document.getElementById("tm-kpc-share-modal");
+            if (sm && sm.style.display !== "none") {
+                return;
+            }
+            if (e.key === "ArrowLeft") {
+                window.tmKnnpStep(-1);
+            } else if (e.key === "ArrowRight") {
+                window.tmKnnpStep(1);
             }
         });
     }
