@@ -1621,6 +1621,9 @@ li.folder.is-expanded > .nav-folder-row .nav-folder-arrow,
 		right: 0;
 		padding: 3px 5px 3px 4px;
 	}
+	body:has(.tm-kpc-reader-app) .tm-floating-font-bar {
+		bottom: 106px;
+	}
 	.tm-float-font-btn {
 		padding: 3px 8px;
 		font-size: 0.84rem;

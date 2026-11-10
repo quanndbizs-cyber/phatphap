@@ -1093,9 +1093,228 @@
         }
     };
 
+    /* =========================================================================
+       7. DRAGGABLE FLOATING PREV/NEXT BAR & FONT BAR COLLISION SHIFT
+       ========================================================================= */
+    var KPC_FLOAT_POS_KEY = "tm_kpc_float_nav_pos";
+
+    function syncKpcFontBarOffset() {
+        var floatFontBar = document.getElementById("tm-floating-font-bar");
+        var floatNav = document.getElementById("tm-kpc-float-nav");
+        if (!floatFontBar || !floatNav) return;
+
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+        var baseFontBottom = (w <= 800) ? 78 : 84;
+        var fontH = floatFontBar.offsetHeight || 40;
+        var isFontExpanded = floatFontBar.classList.contains("tm-dock-expanded");
+        var fontCheckW = isFontExpanded ? Math.max(floatFontBar.offsetWidth || 210, 210) : Math.max(floatFontBar.offsetWidth || 72, 160);
+
+        var naturalFontBottomY = h - baseFontBottom;
+        var naturalFontTopY = naturalFontBottomY - fontH;
+        var fontLeftX = w - fontCheckW - 10;
+        var fontRightX = w;
+
+        var navRect = floatNav.getBoundingClientRect();
+        var horizOverlap = (navRect.right >= fontLeftX) && (navRect.left <= fontRightX);
+        var vertOverlap = (navRect.bottom >= naturalFontTopY - 10) && (navRect.top <= naturalFontBottomY + 10);
+
+        if (horizOverlap && vertOverlap) {
+            var shiftedBottom = Math.max(baseFontBottom, Math.round(h - navRect.top + 10));
+            var maxAllowedBottom = Math.max(baseFontBottom, h - fontH - 54);
+            shiftedBottom = Math.min(maxAllowedBottom, shiftedBottom);
+            floatFontBar.style.bottom = shiftedBottom + "px";
+            floatFontBar.classList.add("tm-font-bar-shifted");
+        } else {
+            floatFontBar.style.bottom = "";
+            floatFontBar.classList.remove("tm-font-bar-shifted");
+        }
+    }
+
+    function initKpcFloatNav() {
+        var floatNav = document.getElementById("tm-kpc-float-nav");
+        var stickyBar = document.getElementById("tm-kpc-sticky-bar");
+        if (!floatNav) return;
+
+        var savedPos = null;
+        try {
+            savedPos = JSON.parse(localStorage.getItem(KPC_FLOAT_POS_KEY) || "null");
+        } catch (e) {
+            savedPos = null;
+        }
+
+        function getStickyHeight() {
+            return (stickyBar && stickyBar.offsetHeight) ? stickyBar.offsetHeight : ((window.innerWidth <= 768) ? 50 : 54);
+        }
+
+        function applyFloatNavPosition() {
+            var w = window.innerWidth;
+            var h = window.innerHeight;
+            var navW = floatNav.offsetWidth || 156;
+            var navH = floatNav.offsetHeight || 38;
+            var stickyH = getStickyHeight();
+            var minX = 6;
+            var maxX = Math.max(minX, w - navW - 6);
+            var minY = 48;
+            var maxY = Math.max(minY, h - stickyH - navH - 6);
+
+            if (savedPos && typeof savedPos.rightOffset === "number" && typeof savedPos.bottomOffset === "number") {
+                var targetX = w - navW - savedPos.rightOffset;
+                var targetY = h - navH - savedPos.bottomOffset;
+                var clampedX = Math.max(minX, Math.min(maxX, targetX));
+                var clampedY = Math.max(minY, Math.min(maxY, targetY));
+                floatNav.style.left = clampedX + "px";
+                floatNav.style.top = clampedY + "px";
+                floatNav.style.right = "auto";
+                floatNav.style.bottom = "auto";
+            } else {
+                var defaultRight = (w <= 768) ? 8 : 14;
+                var defaultBottom = stickyH + 8;
+                floatNav.style.left = "auto";
+                floatNav.style.top = "auto";
+                floatNav.style.right = defaultRight + "px";
+                floatNav.style.bottom = defaultBottom + "px";
+            }
+            syncKpcFontBarOffset();
+        }
+
+        applyFloatNavPosition();
+        setTimeout(applyFloatNavPosition, 120);
+
+        var isDragging = false;
+        var hasMoved = false;
+        var startX = 0;
+        var startY = 0;
+        var initLeft = 0;
+        var initTop = 0;
+
+        function onDragStart(e) {
+            if (e.type === "mousedown" && e.button !== 0) return;
+            var pt = (e.type === "touchstart") ? e.touches[0] : e;
+            startX = pt.clientX;
+            startY = pt.clientY;
+            var rect = floatNav.getBoundingClientRect();
+            initLeft = rect.left;
+            initTop = rect.top;
+            hasMoved = false;
+            isDragging = false;
+
+            document.addEventListener("mousemove", onDragMove, { passive: false });
+            document.addEventListener("mouseup", onDragEnd);
+            document.addEventListener("touchmove", onDragMove, { passive: false });
+            document.addEventListener("touchend", onDragEnd);
+            document.addEventListener("touchcancel", onDragEnd);
+        }
+
+        function onDragMove(e) {
+            var pt = (e.type === "touchmove") ? e.touches[0] : e;
+            var dx = pt.clientX - startX;
+            var dy = pt.clientY - startY;
+
+            if (!hasMoved && (Math.abs(dx) > 5 || Math.abs(dy) > 5)) {
+                hasMoved = true;
+                isDragging = true;
+                kpcNavJustDragged = true;
+                floatNav.classList.add("tm-dragging");
+            }
+
+            if (isDragging) {
+                if (e.cancelable) e.preventDefault();
+                var w = window.innerWidth;
+                var h = window.innerHeight;
+                var navW = floatNav.offsetWidth || 156;
+                var navH = floatNav.offsetHeight || 38;
+                var stickyH = getStickyHeight();
+
+                var minX = 6;
+                var maxX = Math.max(minX, w - navW - 6);
+                var minY = 48;
+                var maxY = Math.max(minY, h - stickyH - navH - 6);
+
+                var newX = Math.max(minX, Math.min(maxX, initLeft + dx));
+                var newY = Math.max(minY, Math.min(maxY, initTop + dy));
+
+                floatNav.style.left = Math.round(newX) + "px";
+                floatNav.style.top = Math.round(newY) + "px";
+                floatNav.style.right = "auto";
+                floatNav.style.bottom = "auto";
+
+                syncKpcFontBarOffset();
+            }
+        }
+
+        function onDragEnd() {
+            document.removeEventListener("mousemove", onDragMove);
+            document.removeEventListener("mouseup", onDragEnd);
+            document.removeEventListener("touchmove", onDragMove);
+            document.removeEventListener("touchend", onDragEnd);
+            document.removeEventListener("touchcancel", onDragEnd);
+
+            if (isDragging) {
+                floatNav.classList.remove("tm-dragging");
+                var rect = floatNav.getBoundingClientRect();
+                var w = window.innerWidth;
+                var h = window.innerHeight;
+                savedPos = {
+                    rightOffset: Math.max(6, Math.round(w - rect.right)),
+                    bottomOffset: Math.max(6, Math.round(h - rect.bottom))
+                };
+                try {
+                    localStorage.setItem(KPC_FLOAT_POS_KEY, JSON.stringify(savedPos));
+                } catch (err) {}
+                syncKpcFontBarOffset();
+                setTimeout(function () {
+                    isDragging = false;
+                    kpcNavJustDragged = false;
+                }, 140);
+            } else {
+                kpcNavJustDragged = false;
+            }
+        }
+
+        floatNav.addEventListener("mousedown", onDragStart);
+        floatNav.addEventListener("touchstart", onDragStart, { passive: true });
+
+        floatNav.addEventListener("click", function (e) {
+            if (hasMoved || kpcNavJustDragged) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        }, true);
+
+        // Double-click grip to reset to default right-bottom position above sticky bar
+        var grip = document.getElementById("tm-kpc-float-grip");
+        if (grip) {
+            grip.addEventListener("dblclick", function (e) {
+                e.preventDefault();
+                savedPos = null;
+                try {
+                    localStorage.removeItem(KPC_FLOAT_POS_KEY);
+                } catch (err) {}
+                applyFloatNavPosition();
+            });
+        }
+
+        window.addEventListener("resize", applyFloatNavPosition, { passive: true });
+
+        var floatFontBar = document.getElementById("tm-floating-font-bar");
+        if (floatFontBar) {
+            floatFontBar.addEventListener("click", function () {
+                setTimeout(syncKpcFontBarOffset, 60);
+                setTimeout(syncKpcFontBarOffset, 300);
+            });
+            floatFontBar.addEventListener("mouseenter", syncKpcFontBarOffset);
+            floatFontBar.addEventListener("mouseleave", function () {
+                setTimeout(syncKpcFontBarOffset, 300);
+            });
+        }
+    }
+
     function initKpcReader() {
         var app = document.getElementById("tm-kpc-reader");
         if (!app) return;
+
+        initKpcFloatNav();
 
         var jsonUrl = app.getAttribute("data-json-url");
         var initVerse = parseInt(app.getAttribute("data-init-verse") || "1", 10);
@@ -1106,6 +1325,7 @@
             .then(function (data) {
                 kpcMasterData = data;
                 renderKpcVerseView(targetVerse, false);
+                syncKpcFontBarOffset();
             })
             .catch(function (err) {
                 var stage = document.getElementById("tm-kpc-stage");

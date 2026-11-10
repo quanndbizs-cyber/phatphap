@@ -1609,6 +1609,70 @@ body.tm-night-mode .tm-buhdview-tab.active {
     cursor: pointer;
 }
 
+/* Floating Compact Draggable Prev/Next Bar (Nằm ngay trên thanh mục lục đáy, bên phải, kéo thả được) */
+.tm-kpc-float-nav {
+    position: fixed;
+    right: 14px;
+    bottom: 62px;
+    z-index: 9988;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(135deg, rgba(42, 18, 11, 0.96) 0%, rgba(28, 12, 8, 0.97) 100%);
+    border: 1.5px solid #d4af37;
+    border-radius: 999px;
+    padding: 4px 7px 4px 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.48), 0 0 0 1px rgba(255, 242, 198, 0.14);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: none;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.tm-kpc-float-nav:hover {
+    border-color: #f7d56e;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.56), 0 0 12px rgba(212, 175, 55, 0.35);
+}
+
+.tm-kpc-float-nav.tm-dragging {
+    cursor: grabbing !important;
+    transform: scale(1.04);
+    border-color: #ffe285;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.65), 0 0 16px rgba(212, 175, 55, 0.55);
+}
+
+.tm-kpc-float-grip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #e2be68;
+    opacity: 0.85;
+    padding: 0 3px 0 1px;
+    cursor: grab;
+    line-height: 1;
+}
+
+.tm-kpc-float-counter {
+    font-family: 'Noto Serif', Georgia, serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #fceec7;
+    background: rgba(255, 248, 225, 0.1);
+    border: 1px solid rgba(212, 175, 55, 0.38);
+    border-radius: 999px;
+    padding: 2px 7px;
+    min-width: 44px;
+    text-align: center;
+    line-height: 1.25;
+    white-space: nowrap;
+}
+
 /* Sticky Bottom Navigation Bar (Neo cố định ở đáy trang đọc Kinh Pháp Cú) */
 .tm-kpc-sticky-bar {
     position: fixed;
@@ -1619,32 +1683,34 @@ body.tm-night-mode .tm-buhdview-tab.active {
     background: linear-gradient(90deg, rgba(32, 15, 10, 0.97) 0%, rgba(56, 23, 14, 0.98) 50%, rgba(32, 15, 10, 0.97) 100%);
     border-top: 2px solid #d4af37;
     box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.5);
-    padding: 0.5rem 0.9rem;
+    padding: 0.45rem 0.75rem;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
 
 .tm-kpc-sticky-inner {
-    max-width: 74rem;
+    max-width: 62rem;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 0.55rem;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
 .tm-kpc-nav-btn {
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    gap: 0.35rem;
+    gap: 0.28rem;
     background: linear-gradient(135deg, #7c311b 0%, #521d0f 100%) !important;
     color: #fff8e7 !important;
-    border: 1.5px solid #d4af37 !important;
+    border: 1.25px solid #d4af37 !important;
     border-radius: 999px !important;
-    padding: 0.42rem 0.95rem !important;
-    font-size: 0.88rem !important;
+    padding: 0.32rem 0.72rem !important;
+    min-height: 30px !important;
+    font-size: 0.82rem !important;
     font-weight: 700 !important;
+    line-height: 1.15 !important;
     cursor: pointer;
     white-space: nowrap;
     transition: all 0.15s ease;
@@ -1667,13 +1733,14 @@ body.tm-night-mode .tm-buhdview-tab.active {
     justify-content: center;
     flex-wrap: nowrap;
     gap: 0.45rem;
-    flex: 1;
+    width: 100%;
     min-width: 0;
 }
 
 .tm-kpc-toc-btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.3rem;
     background: rgba(212, 175, 55, 0.18);
     border: 1px solid #d4af37;
@@ -1700,9 +1767,10 @@ body.tm-night-mode .tm-buhdview-tab.active {
     padding: 0.4rem 0.6rem;
     font-size: 0.85rem;
     font-weight: 600;
-    max-width: 310px;
-    width: 100%;
-    min-width: 110px;
+    flex: 1 1 auto;
+    max-width: 340px;
+    width: auto;
+    min-width: 90px;
 }
 
 .tm-kpc-num-jump {
@@ -1713,8 +1781,8 @@ body.tm-night-mode .tm-buhdview-tab.active {
 }
 
 .tm-kpc-jump-input {
-    width: 68px;
-    padding: 0.38rem 0.45rem;
+    width: 62px;
+    padding: 0.38rem 0.4rem;
     border-radius: 7px;
     border: 1px solid #c9972c;
     background: #1b0d08;
@@ -1726,6 +1794,7 @@ body.tm-night-mode .tm-buhdview-tab.active {
 
 .tm-kpc-jump-go {
     padding: 0.38rem 0.65rem !important;
+    min-height: 32px !important;
     border-radius: 7px !important;
     font-size: 0.82rem !important;
     font-weight: 700 !important;
@@ -2005,8 +2074,25 @@ body.tm-night-mode .tm-kpc-story-vtable {
         height: 460px;
     }
 
+    .tm-kpc-float-nav {
+        right: 8px;
+        bottom: 58px;
+        padding: 3px 5px 3px 6px;
+        gap: 4px;
+    }
+
+    .tm-kpc-float-counter {
+        font-size: 0.74rem;
+        padding: 2px 5px;
+        min-width: 38px;
+    }
+
     .tm-kpc-sticky-bar {
-        padding: 0.42rem 0.5rem;
+        padding: 0.38rem 0.45rem;
+    }
+
+    .tm-kpc-jump-group {
+        gap: 0.32rem;
     }
 
     .tm-kpc-nav-txt,
@@ -2015,18 +2101,47 @@ body.tm-night-mode .tm-kpc-story-vtable {
     }
 
     .tm-kpc-nav-btn {
-        padding: 0.4rem 0.7rem !important;
+        padding: 0.3rem 0.58rem !important;
+        min-height: 28px !important;
+        font-size: 0.8rem !important;
+    }
+
+    .tm-kpc-toc-btn {
+        padding: 0.36rem 0.58rem !important;
+        min-height: 32px !important;
     }
 
     .tm-kpc-verse-select {
-        max-width: 130px;
+        max-width: none;
+        min-width: 80px;
         font-size: 0.8rem;
+        padding: 0.36rem 0.45rem;
     }
 
     .tm-kpc-jump-input {
-        width: 50px;
+        width: 46px;
         font-size: 0.8rem;
+        padding: 0.34rem 0.3rem;
     }
+
+    .tm-kpc-jump-go {
+        padding: 0.34rem 0.52rem !important;
+        min-height: 30px !important;
+        font-size: 0.78rem !important;
+    }
+}
+
+/* Keep floating Prev/Next and bottom sticky bar compact even in Elderly Mode */
+body.tm-elderly-mode .tm-kpc-float-nav .tm-kpc-nav-btn,
+body.tm-elderly-mode .tm-kpc-sticky-bar button {
+    min-height: 34px !important;
+    padding: 0.36rem 0.68rem !important;
+    font-size: 0.86rem !important;
+    border-radius: 999px !important;
+}
+body.tm-elderly-mode .tm-kpc-sticky-bar .tm-kpc-jump-go,
+body.tm-elderly-mode .tm-kpc-sticky-bar .tm-kpc-toc-btn {
+    border-radius: 8px !important;
 }
 
 /* =========================================================================
