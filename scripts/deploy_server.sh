@@ -213,19 +213,38 @@ echo -e "\n-> 4. Kiểm tra mã nguồn PHP & cấu hình Web Server trước kh
 
 # 4.1 Kiểm tra cú pháp PHP (php -l) cho system và plugins
 if command -v php >/dev/null 2>&1; then
-    echo "   + Đang kiểm tra cú pháp PHP (php -l)..."
-    PHP_ERRORS=0
-    while IFS= read -r -d '' php_file; do
-        if ! php -l "$php_file" >/dev/null 2>&1; then
-            echo "   [ERROR] Cú pháp PHP không hợp lệ: $php_file"
-            PHP_ERRORS=$((PHP_ERRORS + 1))
-        fi
-    done < <(find "$BASE_DIR/system" "$BASE_DIR/plugins" -type f -name "*.php" -print0 2>/dev/null)
-
-    if [[ "$PHP_ERRORS" -gt 0 ]]; then
-        rollback_deployment "Phát hiện $PHP_ERRORS file PHP có lỗi cú pháp syntax!"
+    NPROC=$(nproc 2>/dev/null || echo 2)
+    # Xác định các file PHP cần kiểm tra: ưu tiên file thay đổi nếu có commit mới
+    PHP_FILES_TO_CHECK=()
+    CURRENT_HEAD="$(git -C "$BASE_DIR" rev-parse HEAD 2>/dev/null || echo "")"
+    if [[ -n "$OLD_MAIN_HEAD" && -n "$CURRENT_HEAD" && "$OLD_MAIN_HEAD" != "$CURRENT_HEAD" ]]; then
+        while IFS= read -r f; do
+            [[ -f "$BASE_DIR/$f" ]] && PHP_FILES_TO_CHECK+=("$BASE_DIR/$f")
+        done < <(git -C "$BASE_DIR" diff --name-only "$OLD_MAIN_HEAD" "$CURRENT_HEAD" 2>/dev/null | grep '\.php$' || true)
     fi
-    echo "   [✓] Cú pháp tất cả file PHP trong system/ và plugins/ đều hợp lệ."
+
+    if [[ ${#PHP_FILES_TO_CHECK[@]} -gt 0 ]]; then
+        echo "   + Đang kiểm tra cú pháp PHP (${#PHP_FILES_TO_CHECK[@]} file thay đổi)..."
+        PHP_CHECK_FAILED=false
+        for pf in "${PHP_FILES_TO_CHECK[@]}"; do
+            if ! php -l "$pf" >/dev/null 2>&1; then
+                echo "   [ERROR] Cú pháp PHP không hợp lệ: $pf"
+                PHP_CHECK_FAILED=true
+            fi
+        done
+        if [[ "$PHP_CHECK_FAILED" == "true" ]]; then
+            rollback_deployment "Phát hiện file PHP có lỗi cú pháp syntax!"
+        fi
+    else
+        # Quét kiểm tra song song tất cả file PHP của dự án (loại trừ thư viện vendor bên thứ 3)
+        TOTAL_PHP_FILES=$(find "$BASE_DIR/system" "$BASE_DIR/plugins" -not -path "*/vendor/*" -type f -name "*.php" 2>/dev/null | wc -l)
+        echo "   + Đang kiểm tra cú pháp PHP song song ($TOTAL_PHP_FILES file mã nguồn, bỏ qua vendor)..."
+        if ! find "$BASE_DIR/system" "$BASE_DIR/plugins" -not -path "*/vendor/*" -type f -name "*.php" -print0 2>/dev/null | \
+             xargs -r -0 -P "$NPROC" -n 1 php -l >/dev/null 2>&1; then
+            rollback_deployment "Phát hiện file PHP có lỗi cú pháp syntax!"
+        fi
+    fi
+    echo "   [✓] Cú pháp các file PHP đều hợp lệ."
 fi
 
 # 4.2 Kiểm tra cấu hình Nginx
