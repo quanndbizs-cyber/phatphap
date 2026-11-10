@@ -1609,71 +1609,7 @@ body.tm-night-mode .tm-buhdview-tab.active {
     cursor: pointer;
 }
 
-/* Floating Compact Draggable Prev/Next Bar (Nằm ngay trên thanh mục lục đáy, bên phải, kéo thả được) */
-.tm-kpc-float-nav {
-    position: fixed;
-    right: 14px;
-    bottom: 62px;
-    z-index: 9988;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    background: linear-gradient(135deg, rgba(42, 18, 11, 0.96) 0%, rgba(28, 12, 8, 0.97) 100%);
-    border: 1.5px solid #d4af37;
-    border-radius: 999px;
-    padding: 4px 7px 4px 8px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.48), 0 0 0 1px rgba(255, 242, 198, 0.14);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    cursor: grab;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: none;
-    transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
-}
-
-.tm-kpc-float-nav:hover {
-    border-color: #f7d56e;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.56), 0 0 12px rgba(212, 175, 55, 0.35);
-}
-
-.tm-kpc-float-nav.tm-dragging {
-    cursor: grabbing !important;
-    transform: scale(1.04);
-    border-color: #ffe285;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.65), 0 0 16px rgba(212, 175, 55, 0.55);
-}
-
-.tm-kpc-float-grip {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.85rem;
-    font-weight: 800;
-    letter-spacing: -1px;
-    color: #e2be68;
-    opacity: 0.85;
-    padding: 0 3px 0 1px;
-    cursor: grab;
-    line-height: 1;
-}
-
-.tm-kpc-float-counter {
-    font-family: 'Noto Serif', Georgia, serif;
-    font-size: 0.78rem;
-    font-weight: 700;
-    color: #fceec7;
-    background: rgba(255, 248, 225, 0.1);
-    border: 1px solid rgba(212, 175, 55, 0.38);
-    border-radius: 999px;
-    padding: 2px 7px;
-    min-width: 44px;
-    text-align: center;
-    line-height: 1.25;
-    white-space: nowrap;
-}
-
-/* Sticky Bottom Navigation Bar (Neo cố định ở đáy trang đọc Kinh Pháp Cú) */
+/* Sticky Bottom Navigation Bar (Neo cố định ở đáy trang đọc Kinh Pháp Cú & Khuyên Người Niệm Phật) */
 .tm-kpc-sticky-bar {
     position: fixed;
     bottom: 0;
@@ -1693,8 +1629,8 @@ body.tm-night-mode .tm-buhdview-tab.active {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+    justify-content: space-between;
+    gap: 0.45rem;
 }
 
 .tm-kpc-nav-btn {
@@ -1706,13 +1642,14 @@ body.tm-night-mode .tm-buhdview-tab.active {
     color: #fff8e7 !important;
     border: 1.25px solid #d4af37 !important;
     border-radius: 999px !important;
-    padding: 0.32rem 0.72rem !important;
-    min-height: 30px !important;
+    padding: 0.34rem 0.75rem !important;
+    min-height: 32px !important;
     font-size: 0.82rem !important;
     font-weight: 700 !important;
     line-height: 1.15 !important;
     cursor: pointer;
     white-space: nowrap;
+    flex-shrink: 0;
     transition: all 0.15s ease;
 }
 
@@ -1732,9 +1669,10 @@ body.tm-night-mode .tm-buhdview-tab.active {
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    gap: 0.45rem;
-    width: 100%;
+    gap: 0.4rem;
+    flex: 1 1 auto;
     min-width: 0;
+    overflow: hidden;
 }
 
 .tm-kpc-toc-btn {
@@ -1746,7 +1684,7 @@ body.tm-night-mode .tm-buhdview-tab.active {
     border: 1px solid #d4af37;
     color: #fceec7 !important;
     text-decoration: none !important;
-    padding: 0.4rem 0.75rem;
+    padding: 0.4rem 0.7rem;
     border-radius: 8px;
     font-size: 0.84rem;
     font-weight: 700;
@@ -1767,10 +1705,12 @@ body.tm-night-mode .tm-buhdview-tab.active {
     padding: 0.4rem 0.6rem;
     font-size: 0.85rem;
     font-weight: 600;
-    flex: 1 1 auto;
+    flex: 1 1 0%;
     max-width: 340px;
     width: auto;
-    min-width: 90px;
+    min-width: 65px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .tm-kpc-num-jump {
@@ -2074,25 +2014,16 @@ body.tm-night-mode .tm-kpc-story-vtable {
         height: 460px;
     }
 
-    .tm-kpc-float-nav {
-        right: 8px;
-        bottom: 58px;
-        padding: 3px 5px 3px 6px;
-        gap: 4px;
-    }
-
-    .tm-kpc-float-counter {
-        font-size: 0.74rem;
-        padding: 2px 5px;
-        min-width: 38px;
-    }
-
     .tm-kpc-sticky-bar {
-        padding: 0.38rem 0.45rem;
+        padding: 0.38rem 0.42rem;
+    }
+
+    .tm-kpc-sticky-inner {
+        gap: 0.28rem;
     }
 
     .tm-kpc-jump-group {
-        gap: 0.32rem;
+        gap: 0.28rem;
     }
 
     .tm-kpc-nav-txt,
@@ -2101,42 +2032,41 @@ body.tm-night-mode .tm-kpc-story-vtable {
     }
 
     .tm-kpc-nav-btn {
-        padding: 0.3rem 0.58rem !important;
-        min-height: 28px !important;
+        padding: 0.32rem 0.54rem !important;
+        min-height: 30px !important;
         font-size: 0.8rem !important;
     }
 
     .tm-kpc-toc-btn {
-        padding: 0.36rem 0.58rem !important;
-        min-height: 32px !important;
+        padding: 0.34rem 0.5rem !important;
+        min-height: 30px !important;
     }
 
     .tm-kpc-verse-select {
         max-width: none;
-        min-width: 80px;
-        font-size: 0.8rem;
-        padding: 0.36rem 0.45rem;
+        min-width: 56px;
+        font-size: 0.78rem;
+        padding: 0.34rem 0.38rem;
     }
 
     .tm-kpc-jump-input {
-        width: 46px;
-        font-size: 0.8rem;
-        padding: 0.34rem 0.3rem;
+        width: 42px;
+        font-size: 0.78rem;
+        padding: 0.32rem 0.24rem;
     }
 
     .tm-kpc-jump-go {
-        padding: 0.34rem 0.52rem !important;
+        padding: 0.32rem 0.46rem !important;
         min-height: 30px !important;
-        font-size: 0.78rem !important;
+        font-size: 0.76rem !important;
     }
 }
 
-/* Keep floating Prev/Next and bottom sticky bar compact even in Elderly Mode */
-body.tm-elderly-mode .tm-kpc-float-nav .tm-kpc-nav-btn,
+/* Keep bottom sticky bar compact even in Elderly Mode */
 body.tm-elderly-mode .tm-kpc-sticky-bar button {
     min-height: 34px !important;
-    padding: 0.36rem 0.68rem !important;
-    font-size: 0.86rem !important;
+    padding: 0.36rem 0.62rem !important;
+    font-size: 0.84rem !important;
     border-radius: 999px !important;
 }
 body.tm-elderly-mode .tm-kpc-sticky-bar .tm-kpc-jump-go,
@@ -2240,6 +2170,8 @@ body.tm-kpc-modal-open {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0.75rem;
+    box-sizing: border-box;
 }
 
 .tm-kpc-lb-backdrop {
@@ -2360,12 +2292,15 @@ body.tm-kpc-modal-open {
     font-size: 0.82rem;
 }
 
-/* Share Modal Dialog */
+/* Share Modal Dialog (Giới hạn chiều cao trong khung hình & cuộn nội dung xem trước) */
 .tm-kpc-share-dialog {
     position: relative;
     z-index: 2;
-    width: 92vw;
+    width: min(94vw, 540px);
     max-width: 540px;
+    max-height: min(88vh, 88dvh);
+    display: flex;
+    flex-direction: column;
     background: #fffdf9;
     border: 2px solid #c9972c;
     border-radius: 14px;
@@ -2378,35 +2313,53 @@ body.tm-kpc-modal-open {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.9rem 1.2rem;
+    gap: 0.65rem;
+    padding: 0.78rem 1.1rem;
     background: linear-gradient(90deg, #4f1c11 0%, #6e2b19 100%);
     color: #fff8e7;
     border-bottom: 2px solid #d4af37;
+    flex-shrink: 0;
 }
 
 .tm-kpc-share-title {
-    font-size: 1rem;
+    font-size: 0.96rem;
     font-weight: 700;
+    line-height: 1.3;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .tm-kpc-share-close {
-    background: rgba(255, 255, 255, 0.14) !important;
+    background: linear-gradient(135deg, #8c2d19 0%, #5c190c 100%) !important;
     color: #fff8e7 !important;
-    border: 1px solid #d4af37 !important;
-    border-radius: 50% !important;
-    width: 32px;
-    height: 32px;
-    font-size: 0.95rem !important;
+    border: 1.5px solid #f5d061 !important;
+    border-radius: 999px !important;
+    padding: 0.3rem 0.78rem !important;
+    min-height: 32px !important;
+    font-size: 0.84rem !important;
     font-weight: 700 !important;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0 !important;
+    gap: 0.25rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: all 0.15s ease;
+}
+
+.tm-kpc-share-close:hover {
+    background: #d4af37 !important;
+    color: #1f110a !important;
 }
 
 .tm-kpc-share-body {
-    padding: 1.15rem 1.2rem;
+    padding: 0.95rem 1.1rem;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
 }
 
 .tm-kpc-share-preview {
@@ -2414,8 +2367,54 @@ body.tm-kpc-modal-open {
     border: 1px solid #dfc596;
     border-left: 4px solid #c9972c;
     border-radius: 9px;
-    padding: 0.8rem 1rem;
-    margin-bottom: 0.95rem;
+    padding: 0.7rem 0.95rem;
+    margin-bottom: 0.8rem;
+    max-height: clamp(110px, 24vh, 185px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #c9972c #f5ead4;
+}
+
+.tm-kpc-share-preview::-webkit-scrollbar {
+    width: 6px;
+}
+
+.tm-kpc-share-preview::-webkit-scrollbar-track {
+    background: #f5ead4;
+    border-radius: 6px;
+}
+
+.tm-kpc-share-preview::-webkit-scrollbar-thumb {
+    background: #c9972c;
+    border-radius: 6px;
+}
+
+.tm-kpc-share-footer {
+    margin-top: 0.75rem;
+    padding-top: 0.65rem;
+    border-top: 1px dashed #e2cfa9;
+    display: flex;
+    justify-content: center;
+}
+
+.tm-kpc-share-close-bottom {
+    width: 100%;
+    background: #f6ead2 !important;
+    color: #5c190c !important;
+    border: 1.5px solid #c9972c !important;
+    border-radius: 8px !important;
+    padding: 0.48rem 1rem !important;
+    font-size: 0.86rem !important;
+    font-weight: 700 !important;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.tm-kpc-share-close-bottom:hover {
+    background: #6e2b19 !important;
+    color: #fff8e7 !important;
 }
 
 .tm-kpc-sp-badge {
