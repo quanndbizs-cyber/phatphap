@@ -3,7 +3,7 @@
 
     function formatDur(sec) {
         sec = parseInt(sec || 0, 10);
-        if (!sec || sec <= 0) return "";
+        if (isNaN(sec) || sec <= 0) return "00:00";
         var h = Math.floor(sec / 3600);
         var m = Math.floor((sec % 3600) / 60);
         var s = sec % 60;
@@ -19,6 +19,155 @@
             .replace(/>/g, "&gt;")
             .replace(/"/g, "&quot;");
     }
+
+    function updateSliderFill(slider) {
+        if (!slider) return;
+        var max = parseFloat(slider.max) || 100;
+        var val = parseFloat(slider.value) || 0;
+        var pct = max > 0 ? Math.min(100, Math.max(0, (val / max) * 100)) : 0;
+        slider.style.background =
+            "linear-gradient(to right, #f59e0b 0%, #f59e0b " + pct + "%, #4a3828 " + pct + "%, #4a3828 100%)";
+    }
+
+    window.tmBindAudioScrubber = function (container, audioEl, knownDuration) {
+        if (!container && !audioEl) return;
+        if (!container && audioEl) {
+            container = audioEl.closest(".tm-absplayer, .tm-hub-player-deck, .tm-knnp-audio-card, .tm-floating-audio-bar, .tm-audio-box") || audioEl.parentElement;
+        }
+        if (!audioEl && container) {
+            audioEl = container.querySelector("audio");
+        }
+        if (!audioEl) return;
+
+        var slider = container ? container.querySelector(".tm-audio-scrubber") : null;
+        var curEl = container ? container.querySelector(".tm-time-cur") : null;
+        var durEl = container ? container.querySelector(".tm-time-dur") : null;
+        if (!slider) return;
+
+        slider._audioEl = audioEl;
+        audioEl._scrubberSlider = slider;
+        audioEl._curTimeEl = curEl;
+        audioEl._durTimeEl = durEl;
+
+        var d = knownDuration || audioEl.duration;
+        if (d && !isNaN(d) && isFinite(d) && d > 0) {
+            slider.max = d;
+            if (durEl) durEl.textContent = formatDur(d);
+        } else {
+            if (durEl && (!durEl.textContent || durEl.textContent === "--:--")) durEl.textContent = "00:00";
+        }
+        updateSliderFill(slider);
+
+        if (audioEl._hasScrubberEvents) return;
+        audioEl._hasScrubberEvents = true;
+
+        audioEl.addEventListener("loadedmetadata", function () {
+            var dur = audioEl.duration;
+            if (dur && !isNaN(dur) && isFinite(dur) && dur > 0) {
+                slider.max = dur;
+                if (durEl) durEl.textContent = formatDur(dur);
+                updateSliderFill(slider);
+            }
+        });
+
+        audioEl.addEventListener("durationchange", function () {
+            var dur = audioEl.duration;
+            if (dur && !isNaN(dur) && isFinite(dur) && dur > 0) {
+                slider.max = dur;
+                if (durEl) durEl.textContent = formatDur(dur);
+                updateSliderFill(slider);
+            }
+        });
+
+        audioEl.addEventListener("timeupdate", function () {
+            if (!slider._isDragging) {
+                var cur = audioEl.currentTime || 0;
+                slider.value = cur;
+                if (curEl) curEl.textContent = formatDur(cur);
+                var dur = audioEl.duration;
+                if (dur && !isNaN(dur) && isFinite(dur) && dur > 0) {
+                    if (parseFloat(slider.max) !== dur) slider.max = dur;
+                    if (durEl) durEl.textContent = formatDur(dur);
+                }
+                updateSliderFill(slider);
+            }
+        });
+
+        audioEl.addEventListener("seeking", function () {
+            if (curEl) curEl.textContent = formatDur(audioEl.currentTime);
+        });
+
+        audioEl.addEventListener("seeked", function () {
+            if (curEl) curEl.textContent = formatDur(audioEl.currentTime);
+            if (!slider._isDragging) {
+                slider.value = audioEl.currentTime || 0;
+                updateSliderFill(slider);
+            }
+        });
+    };
+
+    window.tmAudioSeekInput = function (slider) {
+        if (!slider) return;
+        slider._isDragging = true;
+        var targetSec = parseFloat(slider.value) || 0;
+        var container = slider.closest(".tm-absplayer, .tm-hub-player-deck, .tm-knnp-audio-card, .tm-floating-audio-bar, .tm-audio-box, .tm-audio-scrubber-row") || slider.parentElement;
+        var curEl = container ? container.querySelector(".tm-time-cur") : null;
+        if (curEl) {
+            curEl.textContent = formatDur(targetSec);
+        }
+        updateSliderFill(slider);
+    };
+
+    window.tmAudioSeekChange = function (slider) {
+        if (!slider) return;
+        slider._isDragging = false;
+        var targetSec = parseFloat(slider.value) || 0;
+        var audio = slider._audioEl;
+        if (!audio) {
+            var container = slider.closest(".tm-absplayer, .tm-hub-player-deck, .tm-knnp-audio-card, .tm-floating-audio-bar, .tm-audio-box") || document;
+            audio = container.querySelector("audio");
+        }
+        if (audio) {
+            try {
+                if (typeof audio.fastSeek === "function") {
+                    audio.fastSeek(targetSec);
+                } else {
+                    audio.currentTime = targetSec;
+                }
+            } catch (e) {
+                audio.currentTime = targetSec;
+            }
+        }
+        var container = slider.closest(".tm-absplayer, .tm-hub-player-deck, .tm-knnp-audio-card, .tm-floating-audio-bar, .tm-audio-box, .tm-audio-scrubber-row") || slider.parentElement;
+        var curEl = container ? container.querySelector(".tm-time-cur") : null;
+        if (curEl) {
+            curEl.textContent = formatDur(targetSec);
+        }
+        updateSliderFill(slider);
+    };
+
+    window.tmAudioSeekBy = function (btn, deltaSeconds) {
+        var container = btn.closest(".tm-absplayer, .tm-hub-player-deck, .tm-knnp-audio-card, .tm-floating-audio-bar, .tm-audio-box") || (btn.parentElement ? btn.parentElement.closest(".tm-absplayer, .tm-hub-player-deck, .tm-knnp-audio-card, .tm-floating-audio-bar, .tm-audio-box") : null);
+        var audio = container ? container.querySelector("audio") : (btn.tagName === "AUDIO" ? btn : document.querySelector("audio"));
+        if (!audio) return;
+
+        var cur = audio.currentTime || 0;
+        var dur = (!isNaN(audio.duration) && isFinite(audio.duration) && audio.duration > 0) ? audio.duration : 999999;
+        var target = Math.max(0, Math.min(dur, cur + deltaSeconds));
+        try {
+            audio.currentTime = target;
+        } catch (e) {}
+
+        var slider = audio._scrubberSlider || (container ? container.querySelector(".tm-audio-scrubber") : null);
+        if (slider) {
+            slider.value = target;
+            updateSliderFill(slider);
+        }
+        var curEl = audio._curTimeEl || (container ? container.querySelector(".tm-time-cur") : null);
+        if (curEl) {
+            curEl.textContent = formatDur(target);
+        }
+    };
 
     /* =========================================================================
        1. STANDALONE NATIVE ABS HTML5 PLAYLIST PLAYER ([:absplayer:] / [:embed:])
@@ -113,6 +262,7 @@
             if (autoPlay !== false) {
                 audio.play().catch(function () {});
             }
+            window.tmBindAudioScrubber(box, audio, track.duration);
         }
     };
 
@@ -247,6 +397,8 @@
                     '</div>';
             });
 
+            var firstDur = firstTrack.duration || 0;
+            var durTxt = formatDur(firstDur);
             cardWrap.innerHTML =
                 '<div class="tm-hub-player-deck">' +
                 '  <div class="tm-hub-deck-top">' +
@@ -256,9 +408,18 @@
                 '    </div>' +
                 '    <div class="tm-hub-format-bar">' + headerLinks + '</div>' +
                 '  </div>' +
+                '  <div class="tm-audio-scrubber-row">' +
+                '    <span class="tm-audio-time tm-time-cur">00:00</span>' +
+                '    <input type="range" class="tm-audio-scrubber" min="0" max="' + Math.max(100, firstDur) + '" value="0" step="0.5" aria-label="Tua đến vị trí mong muốn" title="Kéo hoặc nhấn để tua đến thời điểm mong muốn" oninput="window.tmAudioSeekInput(this)" onchange="window.tmAudioSeekChange(this)" />' +
+                '    <span class="tm-audio-time tm-time-dur">' + (durTxt || "00:00") + '</span>' +
+                '  </div>' +
                 '  <div class="tm-hub-audio-row">' +
                 '    <button type="button" class="tm-abs-btn" onclick="window.tmHubPrev(\'' + hubId + '\')">⏮ Trước</button>' +
+                '    <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>' +
+                '    <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>' +
                 '    <audio class="tm-hub-audio" controls preload="metadata" src="' + escapeHtml(firstTrack.src) + '"></audio>' +
+                '    <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>' +
+                '    <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>' +
                 '    <button type="button" class="tm-abs-btn" onclick="window.tmHubNext(\'' + hubId + '\')">Tiếp ⏭</button>' +
                 '  </div>' +
                 '  <div class="tm-hub-search-row">' +
@@ -272,6 +433,7 @@
                 audioEl.addEventListener("ended", function () {
                     window.tmHubNext(hubId);
                 });
+                window.tmBindAudioScrubber(cardWrap, audioEl, firstDur);
             }
         } else if (selected.type === "audiocom_collection" || selected.mode === "external") {
             if (iframeWrap) iframeWrap.style.display = "none";
@@ -332,6 +494,7 @@
                 audio.src = track.src;
             }
             audio.play().catch(function () {});
+            window.tmBindAudioScrubber(hub, audio, track.duration);
         }
     };
 
@@ -426,7 +589,18 @@
             existing.innerHTML =
                 '<div class="tm-fab-inner">' +
                 '  <div class="tm-fab-title">🎧 <span id="tm-fab-name"></span></div>' +
-                '  <audio id="tm-fab-player" controls autoplay style="flex:1; max-width:520px; height:38px;"></audio>' +
+                '  <div class="tm-fab-controls">' +
+                '    <button type="button" class="tm-fab-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>' +
+                '    <button type="button" class="tm-fab-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>' +
+                '    <div class="tm-audio-scrubber-row tm-fab-scrubber">' +
+                '      <span class="tm-audio-time tm-time-cur">00:00</span>' +
+                '      <input type="range" class="tm-audio-scrubber" min="0" max="100" value="0" step="0.5" aria-label="Tua đến vị trí mong muốn" title="Kéo hoặc nhấn để tua đến thời điểm mong muốn" oninput="window.tmAudioSeekInput(this)" onchange="window.tmAudioSeekChange(this)" />' +
+                '      <span class="tm-audio-time tm-time-dur">00:00</span>' +
+                '    </div>' +
+                '    <button type="button" class="tm-fab-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>' +
+                '    <button type="button" class="tm-fab-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>' +
+                '  </div>' +
+                '  <audio id="tm-fab-player" controls autoplay style="flex:1; max-width:280px; height:38px;"></audio>' +
                 '  <button type="button" class="tm-fab-close" onclick="var b=document.getElementById(\'tm-floating-audio-bar\'); var p=document.getElementById(\'tm-fab-player\'); if(p)p.pause(); if(b)b.style.display=\'none\';">✕</button>' +
                 '</div>';
             document.body.appendChild(existing);
@@ -438,6 +612,7 @@
         if (player) {
             player.src = src;
             player.play().catch(function () {});
+            window.tmBindAudioScrubber(existing, player);
         }
     };
 
@@ -470,6 +645,17 @@
                 audio.addEventListener("ended", function () {
                     window.tmAbsNext(box.id);
                 });
+                var groups = getAbsGroups(box.id);
+                var firstDur = (groups[0] && groups[0].tracks && groups[0].tracks[0]) ? groups[0].tracks[0].duration : 0;
+                window.tmBindAudioScrubber(box, audio, firstDur);
+            }
+        });
+
+        // Auto bind any standalone audio boxes
+        document.querySelectorAll(".tm-audio-box").forEach(function (box) {
+            var audio = box.querySelector("audio");
+            if (audio) {
+                window.tmBindAudioScrubber(box, audio);
             }
         });
 
@@ -1349,6 +1535,17 @@
                     '    </div>' +
                     '  </div>' +
                     partPills +
+                    '  <div class="tm-audio-scrubber-row tm-knnp-scrubber-row">' +
+                    '    <span class="tm-audio-time tm-time-cur">00:00</span>' +
+                    '    <input type="range" class="tm-audio-scrubber" min="0" max="' + Math.max(100, firstAud.duration || 0) + '" value="0" step="0.5" aria-label="Tua đến vị trí mong muốn" title="Kéo hoặc nhấn để tua đến thời điểm mong muốn" oninput="window.tmAudioSeekInput(this)" onchange="window.tmAudioSeekChange(this)" />' +
+                    '    <span class="tm-audio-time tm-time-dur">' + (durTxt || '00:00') + '</span>' +
+                    '  </div>' +
+                    '  <div class="tm-knnp-seek-toolbar">' +
+                    '    <button type="button" class="tm-knnp-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>' +
+                    '    <button type="button" class="tm-knnp-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>' +
+                    '    <button type="button" class="tm-knnp-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>' +
+                    '    <button type="button" class="tm-knnp-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>' +
+                    '  </div>' +
                     '  <audio id="tm-knnp-audio-el" class="tm-knnp-audio-el" controls preload="metadata" src="' + escapeHtml(firstAud.audio_src) + '"></audio>' +
                     '</div>';
             }
@@ -1428,14 +1625,19 @@
             '  </div>' +
             '</article>';
 
-        // Attach auto-advance to part 2 if letter has 2 audio parts
+        // Attach auto-advance to part 2 if letter has 2 audio parts & bind scrubber
         var audioEl = document.getElementById("tm-knnp-audio-el");
-        if (audioEl && audios.length > 1) {
-            audioEl.addEventListener("ended", function () {
-                if (knnpCurrentAudioIdx + 1 < audios.length) {
-                    window.tmKnnpSelectAudioPart(knnpCurrentAudioIdx + 1, true);
-                }
-            });
+        if (audioEl) {
+            var card = audioEl.closest(".tm-knnp-audio-card");
+            var d0 = (audios[0] && audios[0].duration) ? audios[0].duration : 0;
+            window.tmBindAudioScrubber(card, audioEl, d0);
+            if (audios.length > 1) {
+                audioEl.addEventListener("ended", function () {
+                    if (knnpCurrentAudioIdx + 1 < audios.length) {
+                        window.tmKnnpSelectAudioPart(knnpCurrentAudioIdx + 1, true);
+                    }
+                });
+            }
         }
     }
 
@@ -1467,6 +1669,8 @@
             if (autoPlay !== false) {
                 audioEl.play().catch(function () {});
             }
+            var card = audioEl.closest(".tm-knnp-audio-card");
+            window.tmBindAudioScrubber(card, audioEl, aud.duration);
         }
     };
 
@@ -1716,6 +1920,21 @@
             var sm = document.getElementById("tm-kpc-share-modal");
             if (sm && sm.style.display !== "none") {
                 return;
+            }
+            if (e.shiftKey && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
+                var aud = document.querySelector("audio");
+                var allAud = document.querySelectorAll("audio");
+                for (var ai = 0; ai < allAud.length; ai++) {
+                    if (!allAud[ai].paused) {
+                        aud = allAud[ai];
+                        break;
+                    }
+                }
+                if (aud) {
+                    e.preventDefault();
+                    window.tmAudioSeekBy(aud, (e.key === "ArrowLeft") ? -10 : 10);
+                    return;
+                }
             }
             if (e.key === "ArrowLeft") {
                 window.tmKnnpStep(-1);

@@ -428,13 +428,25 @@ class mediaplayer extends Plugin
             $extLabel = str_contains($extUrl, 'audio.com') ? '↗ Mở trên Audio.com' : '↗ Mở trang gốc';
             $html .= '   <a class="tm-abs-extlink" href="' . $safeExt . '" target="_blank" rel="noopener noreferrer">' . $extLabel . '</a>';
         }
+        $firstDurSec = (int)($firstTrack['duration'] ?? 0);
+        $firstDurStr = $this->formatDuration($firstDurSec);
+
         $html .= '      </div>'
               . '      <div class="tm-abs-main-title">' . $title . '</div>'
               . '      <div class="tm-abs-nowplaying">Đang chọn: <strong class="tm-abs-np-title">' . $firstTitle . '</strong></div>'
               . '    </div>'
+              . '    <div class="tm-audio-scrubber-row">'
+              . '      <span class="tm-audio-time tm-time-cur">00:00</span>'
+              . '      <input type="range" class="tm-audio-scrubber" min="0" max="' . max(100, $firstDurSec) . '" value="0" step="0.5" aria-label="Tua đến vị trí mong muốn" title="Kéo hoặc nhấn để tua đến thời điểm mong muốn" oninput="window.tmAudioSeekInput(this)" onchange="window.tmAudioSeekChange(this)" />'
+              . '      <span class="tm-audio-time tm-time-dur">' . ($firstDurStr ?: '00:00') . '</span>'
+              . '    </div>'
               . '    <div class="tm-abs-controls-bar">'
               . '      <button type="button" class="tm-abs-btn" onclick="window.tmAbsPrev(\'' . $uid . '\')" title="Bài trước">⏮ Trước</button>'
+              . '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>'
+              . '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>'
               . '      <audio class="tm-abs-audio" controls preload="metadata" src="' . $firstSrc . '"></audio>'
+              . '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>'
+              . '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>'
               . '      <button type="button" class="tm-abs-btn" onclick="window.tmAbsNext(\'' . $uid . '\')" title="Bài tiếp theo">Tiếp ⏭</button>'
               . '      <select class="tm-abs-speed" onchange="window.tmAbsSpeed(\'' . $uid . '\', this.value)" title="Tốc độ phát">'
               . '        <option value="0.85">0.85x</option>'
@@ -559,6 +571,17 @@ class mediaplayer extends Plugin
         if ($normalized['type'] === 'audio') {
             return '<div class="tm-audio-box">'
                  . '<div class="tm-audio-title">🎧 ' . $title . '</div>'
+                 . '<div class="tm-audio-scrubber-row">'
+                 . '  <span class="tm-audio-time tm-time-cur">00:00</span>'
+                 . '  <input type="range" class="tm-audio-scrubber" min="0" max="100" value="0" step="0.5" aria-label="Tua đến vị trí mong muốn" title="Kéo hoặc nhấn để tua đến thời điểm mong muốn" oninput="window.tmAudioSeekInput(this)" onchange="window.tmAudioSeekChange(this)" />'
+                 . '  <span class="tm-audio-time tm-time-dur">00:00</span>'
+                 . '</div>'
+                 . '<div class="tm-abs-controls-bar" style="margin-bottom:8px;">'
+                 . '  <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>'
+                 . '  <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>'
+                 . '  <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>'
+                 . '  <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>'
+                 . '</div>'
                  . '<audio controls preload="metadata" style="width:100%"><source src="' . $safeUrl . '"></audio>'
                  . '</div>';
         }
