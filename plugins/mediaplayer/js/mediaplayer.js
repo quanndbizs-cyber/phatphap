@@ -29,6 +29,34 @@
             "linear-gradient(to right, #f59e0b 0%, #f59e0b " + pct + "%, #4a3828 " + pct + "%, #4a3828 100%)";
     }
 
+    function updatePlayBtnUI(container, isPlaying) {
+        if (!container) return;
+        var playBtns = container.querySelectorAll(".tm-play-btn");
+        playBtns.forEach(function (btn) {
+            var icon = btn.querySelector(".tm-play-icon");
+            var txt = btn.querySelector(".tm-play-txt");
+            if (icon) {
+                icon.textContent = isPlaying ? "⏸" : "▶";
+            }
+            if (txt) {
+                txt.textContent = isPlaying ? "Dừng" : "Phát";
+            }
+            btn.classList.toggle("is-playing", isPlaying);
+            btn.setAttribute("title", isPlaying ? "Tạm dừng phát" : "Phát âm thanh");
+        });
+    }
+
+    window.tmAudioTogglePlay = function (btn) {
+        var container = btn.closest(".tm-absplayer, .tm-hub-player-deck, .tm-knnp-audio-card, .tm-floating-audio-bar, .tm-audio-box") || btn.parentElement;
+        var audio = container ? container.querySelector("audio") : null;
+        if (!audio) return;
+        if (audio.paused) {
+            audio.play().catch(function () {});
+        } else {
+            audio.pause();
+        }
+    };
+
     window.tmBindAudioScrubber = function (container, audioEl, knownDuration) {
         if (!container && !audioEl) return;
         if (!container && audioEl) {
@@ -57,9 +85,22 @@
             if (durEl && (!durEl.textContent || durEl.textContent === "--:--")) durEl.textContent = "00:00";
         }
         updateSliderFill(slider);
+        updatePlayBtnUI(container, !audioEl.paused);
 
         if (audioEl._hasScrubberEvents) return;
         audioEl._hasScrubberEvents = true;
+
+        audioEl.addEventListener("play", function () {
+            updatePlayBtnUI(container, true);
+        });
+
+        audioEl.addEventListener("pause", function () {
+            updatePlayBtnUI(container, false);
+        });
+
+        audioEl.addEventListener("ended", function () {
+            updatePlayBtnUI(container, false);
+        });
 
         audioEl.addEventListener("loadedmetadata", function () {
             var dur = audioEl.duration;
@@ -414,13 +455,14 @@
                 '    <span class="tm-audio-time tm-time-dur">' + (durTxt || "00:00") + '</span>' +
                 '  </div>' +
                 '  <div class="tm-hub-audio-row">' +
-                '    <button type="button" class="tm-abs-btn" onclick="window.tmHubPrev(\'' + hubId + '\')">⏮ Trước</button>' +
+                '    <button type="button" class="tm-abs-btn" onclick="window.tmHubPrev(\'' + hubId + '\')">⏮ <span class="tm-btn-txt">Trước</span></button>' +
                 '    <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>' +
                 '    <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>' +
-                '    <audio class="tm-hub-audio" controls preload="metadata" src="' + escapeHtml(firstTrack.src) + '"></audio>' +
+                '    <button type="button" class="tm-abs-btn tm-play-btn" onclick="window.tmAudioTogglePlay(this)" title="Phát hoặc tạm dừng"><span class="tm-play-icon">▶</span> <span class="tm-play-txt">Phát</span></button>' +
                 '    <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>' +
                 '    <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>' +
-                '    <button type="button" class="tm-abs-btn" onclick="window.tmHubNext(\'' + hubId + '\')">Tiếp ⏭</button>' +
+                '    <button type="button" class="tm-abs-btn" onclick="window.tmHubNext(\'' + hubId + '\')"><span class="tm-btn-txt">Tiếp</span> ⏭</button>' +
+                '    <audio class="tm-hub-audio" preload="metadata" src="' + escapeHtml(firstTrack.src) + '" style="display:none;"></audio>' +
                 '  </div>' +
                 '  <div class="tm-hub-search-row">' +
                 '    <input type="search" class="tm-hub-search" placeholder="🔍 Tìm nhanh bài nghe trong mục này (' + tracks.length + ' bài)..." oninput="window.tmHubFilterTracks(\'' + hubId + '\', this.value)" />' +
@@ -589,18 +631,19 @@
             existing.innerHTML =
                 '<div class="tm-fab-inner">' +
                 '  <div class="tm-fab-title">🎧 <span id="tm-fab-name"></span></div>' +
+                '  <div class="tm-audio-scrubber-row tm-fab-scrubber">' +
+                '    <span class="tm-audio-time tm-time-cur">00:00</span>' +
+                '    <input type="range" class="tm-audio-scrubber" min="0" max="100" value="0" step="0.5" aria-label="Tua đến vị trí mong muốn" title="Kéo hoặc nhấn để tua đến thời điểm mong muốn" oninput="window.tmAudioSeekInput(this)" onchange="window.tmAudioSeekChange(this)" />' +
+                '    <span class="tm-audio-time tm-time-dur">00:00</span>' +
+                '  </div>' +
                 '  <div class="tm-fab-controls">' +
                 '    <button type="button" class="tm-fab-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>' +
                 '    <button type="button" class="tm-fab-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>' +
-                '    <div class="tm-audio-scrubber-row tm-fab-scrubber">' +
-                '      <span class="tm-audio-time tm-time-cur">00:00</span>' +
-                '      <input type="range" class="tm-audio-scrubber" min="0" max="100" value="0" step="0.5" aria-label="Tua đến vị trí mong muốn" title="Kéo hoặc nhấn để tua đến thời điểm mong muốn" oninput="window.tmAudioSeekInput(this)" onchange="window.tmAudioSeekChange(this)" />' +
-                '      <span class="tm-audio-time tm-time-dur">00:00</span>' +
-                '    </div>' +
+                '    <button type="button" class="tm-fab-btn tm-play-btn" onclick="window.tmAudioTogglePlay(this)" title="Phát hoặc tạm dừng"><span class="tm-play-icon">▶</span> <span class="tm-play-txt">Phát</span></button>' +
                 '    <button type="button" class="tm-fab-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>' +
                 '    <button type="button" class="tm-fab-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>' +
                 '  </div>' +
-                '  <audio id="tm-fab-player" controls autoplay style="flex:1; max-width:280px; height:38px;"></audio>' +
+                '  <audio id="tm-fab-player" autoplay style="display:none;"></audio>' +
                 '  <button type="button" class="tm-fab-close" onclick="var b=document.getElementById(\'tm-floating-audio-bar\'); var p=document.getElementById(\'tm-fab-player\'); if(p)p.pause(); if(b)b.style.display=\'none\';">✕</button>' +
                 '</div>';
             document.body.appendChild(existing);
@@ -1543,10 +1586,11 @@
                     '  <div class="tm-knnp-seek-toolbar">' +
                     '    <button type="button" class="tm-knnp-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>' +
                     '    <button type="button" class="tm-knnp-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>' +
+                    '    <button type="button" class="tm-knnp-seek-btn tm-play-btn" onclick="window.tmAudioTogglePlay(this)" title="Phát hoặc tạm dừng"><span class="tm-play-icon">▶</span> <span class="tm-play-txt">Phát</span></button>' +
                     '    <button type="button" class="tm-knnp-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>' +
                     '    <button type="button" class="tm-knnp-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>' +
                     '  </div>' +
-                    '  <audio id="tm-knnp-audio-el" class="tm-knnp-audio-el" controls preload="metadata" src="' + escapeHtml(firstAud.audio_src) + '"></audio>' +
+                    '  <audio id="tm-knnp-audio-el" class="tm-knnp-audio-el" preload="metadata" src="' + escapeHtml(firstAud.audio_src) + '" style="display:none;"></audio>' +
                     '</div>';
             }
             if (videos.length > 0) {

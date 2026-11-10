@@ -41,8 +41,8 @@ class mediaplayer extends Plugin
     public function onTwigLoaded()
     {
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261110b');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261110b');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261110c');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261110c');
         }
     }
 
@@ -441,13 +441,13 @@ class mediaplayer extends Plugin
               . '      <span class="tm-audio-time tm-time-dur">' . ($firstDurStr ?: '00:00') . '</span>'
               . '    </div>'
               . '    <div class="tm-abs-controls-bar">'
-              . '      <button type="button" class="tm-abs-btn" onclick="window.tmAbsPrev(\'' . $uid . '\')" title="Bài trước">⏮ Trước</button>'
+              . '      <button type="button" class="tm-abs-btn" onclick="window.tmAbsPrev(\'' . $uid . '\')" title="Bài trước">⏮ <span class="tm-btn-txt">Trước</span></button>'
               . '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>'
               . '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>'
-              . '      <audio class="tm-abs-audio" controls preload="metadata" src="' . $firstSrc . '"></audio>'
+              . '      <button type="button" class="tm-abs-btn tm-play-btn" onclick="window.tmAudioTogglePlay(this)" title="Phát hoặc tạm dừng"><span class="tm-play-icon">▶</span> <span class="tm-play-txt">Phát</span></button>'
               . '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>'
               . '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>'
-              . '      <button type="button" class="tm-abs-btn" onclick="window.tmAbsNext(\'' . $uid . '\')" title="Bài tiếp theo">Tiếp ⏭</button>'
+              . '      <button type="button" class="tm-abs-btn" onclick="window.tmAbsNext(\'' . $uid . '\')" title="Bài tiếp theo"><span class="tm-btn-txt">Tiếp</span> ⏭</button>'
               . '      <select class="tm-abs-speed" onchange="window.tmAbsSpeed(\'' . $uid . '\', this.value)" title="Tốc độ phát">'
               . '        <option value="0.85">0.85x</option>'
               . '        <option value="1" selected>1.0x</option>'
@@ -455,6 +455,7 @@ class mediaplayer extends Plugin
               . '        <option value="1.25">1.25x</option>'
               . '        <option value="1.5">1.5x</option>'
               . '      </select>'
+              . '      <audio class="tm-abs-audio" preload="metadata" src="' . $firstSrc . '" style="display:none;"></audio>'
               . '    </div>'
               . '  </div>';
 
@@ -576,13 +577,14 @@ class mediaplayer extends Plugin
                  . '  <input type="range" class="tm-audio-scrubber" min="0" max="100" value="0" step="0.5" aria-label="Tua đến vị trí mong muốn" title="Kéo hoặc nhấn để tua đến thời điểm mong muốn" oninput="window.tmAudioSeekInput(this)" onchange="window.tmAudioSeekChange(this)" />'
                  . '  <span class="tm-audio-time tm-time-dur">00:00</span>'
                  . '</div>'
-                 . '<div class="tm-abs-controls-bar" style="margin-bottom:8px;">'
+                 . '<div class="tm-abs-controls-bar">'
                  . '  <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>'
                  . '  <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>'
+                 . '  <button type="button" class="tm-abs-btn tm-play-btn" onclick="window.tmAudioTogglePlay(this)" title="Phát hoặc tạm dừng"><span class="tm-play-icon">▶</span> <span class="tm-play-txt">Phát</span></button>'
                  . '  <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>'
                  . '  <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>'
+                 . '  <audio preload="metadata" style="display:none;"><source src="' . $safeUrl . '"></audio>'
                  . '</div>'
-                 . '<audio controls preload="metadata" style="width:100%"><source src="' . $safeUrl . '"></audio>'
                  . '</div>';
         }
 

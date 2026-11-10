@@ -103,7 +103,7 @@
 .tm-abs-nowplaying {
     font-size: 0.92rem;
     color: #d6c7b2;
-    margin-bottom: 14px;
+    margin-bottom: 6px;
 }
 
 .tm-abs-nowplaying strong {
@@ -112,9 +112,14 @@
 
 .tm-abs-controls-bar {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 4px;
+    margin: 0;
+    padding: 2px 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .tm-abs-audio,
@@ -129,13 +134,18 @@
     background: #2f241a;
     color: #fef3c7;
     border: 1px solid #4a3828;
-    padding: 8px 14px;
-    border-radius: 8px;
+    padding: 6px 10px;
+    border-radius: 6px;
     font-weight: 600;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     cursor: pointer;
     transition: background 0.15s ease, border-color 0.15s ease;
     white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex-shrink: 0;
 }
 
 .tm-abs-btn:hover {
@@ -144,15 +154,42 @@
     color: #ffffff;
 }
 
+.tm-play-btn {
+    background: #b45309;
+    border-color: #f59e0b;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 6px 12px;
+    box-shadow: 0 2px 6px rgba(180, 83, 9, 0.35);
+}
+
+.tm-play-btn:hover {
+    background: #d97706;
+    border-color: #fbbf24;
+    color: #ffffff;
+}
+
+.tm-play-btn.is-playing {
+    background: #78350f;
+    border-color: #d97706;
+}
+
+.tm-play-icon {
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
 .tm-abs-speed {
     background: #2f241a;
     color: #fef3c7;
     border: 1px solid #4a3828;
-    padding: 8px 10px;
-    border-radius: 8px;
+    padding: 6px 8px;
+    border-radius: 6px;
     font-weight: 600;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     cursor: pointer;
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 /* =========================================================================
@@ -161,14 +198,15 @@
 .tm-audio-scrubber-row {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     width: 100%;
-    margin: 8px 0 12px 0;
-    padding: 6px 14px;
+    margin: 2px 0 4px 0;
+    padding: 3px 10px;
     background: rgba(0, 0, 0, 0.28);
     border: 1px solid rgba(251, 191, 36, 0.22);
     border-radius: 999px;
     box-sizing: border-box;
+    height: 26px;
 }
 
 .tm-audio-time {
@@ -237,13 +275,18 @@
     background: #2f241a;
     color: #fef3c7;
     border: 1px solid #4a3828;
-    padding: 6px 11px;
+    padding: 5px 8px;
     border-radius: 6px;
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     font-weight: 700;
     cursor: pointer;
     white-space: nowrap;
     transition: all 0.15s ease;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
 }
 
 .tm-seek-btn:hover,
@@ -259,13 +302,46 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    margin: 6px 0 10px 0;
-    flex-wrap: wrap;
+    gap: 4px;
+    margin: 2px 0 4px 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .tm-knnp-scrubber-row {
-    margin: 10px 0 6px 0 !important;
+    margin: 2px 0 4px 0 !important;
+}
+
+@media (max-width: 480px) {
+    .tm-abs-controls-bar,
+    .tm-knnp-seek-toolbar,
+    .tm-hub-audio-row {
+        gap: 3px;
+        padding: 2px 0;
+    }
+    .tm-abs-btn,
+    .tm-seek-btn,
+    .tm-knnp-seek-btn,
+    .tm-abs-speed {
+        padding: 5px 6px;
+        font-size: 0.75rem;
+    }
+    .tm-play-btn {
+        padding: 5px 8px;
+        font-size: 0.78rem;
+    }
+    .tm-btn-txt {
+        display: none;
+    }
+    .tm-audio-scrubber-row {
+        gap: 6px;
+        padding: 3px 8px;
+    }
+    .tm-audio-time {
+        font-size: 0.72rem;
+        min-width: 36px;
+    }
 }
 
 .tm-fab-controls {
@@ -675,8 +751,12 @@ body.tm-night-mode .tm-audio-scrubber-row {
 .tm-hub-audio-row {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 4px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .tm-hub-tracklist {
