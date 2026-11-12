@@ -41,8 +41,8 @@ class mediaplayer extends Plugin
     public function onTwigLoaded()
     {
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261110c');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261110c');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261112d');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261112d');
         }
     }
 
@@ -75,6 +75,34 @@ class mediaplayer extends Plugin
 
     public function onHtmlLoaded($html)
     {
+        $contentHtml = $html->getData();
+        $changed = false;
+
+        # 1. Unescape any tm-story-summary blocks that Parsedown safeMode escaped into entities
+        if (is_string($contentHtml) && str_contains($contentHtml, 'tm-story-summary')) {
+            $contentHtml = preg_replace_callback(
+                '#(?:<p>\s*)?&lt;div class=(&quot;|")tm-story-summary(?:(?!&lt;div class=(&quot;|")tm-story-summary).)*?&lt;/div&gt;\s*&lt;/div&gt;(?:\s*</p>)?#s',
+                function ($m) {
+                    $decoded = htmlspecialchars_decode($m[0], ENT_QUOTES);
+                    $decoded = preg_replace('#^<p>\s*#', '', $decoded);
+                    $decoded = preg_replace('#\s*</p>$#', '', $decoded);
+                    return $decoded;
+                },
+                $contentHtml
+            );
+            $changed = true;
+        }
+
+        # 2. Clean up any escaped script tags that leaked into the content
+        if (is_string($contentHtml) && str_contains($contentHtml, '&lt;script&gt;')) {
+            $contentHtml = preg_replace('#(?:<p>\s*)?&lt;script&gt;.*?&lt;/script&gt;(?:\s*</p>)?#s', '', $contentHtml);
+            $changed = true;
+        }
+
+        if ($changed) {
+            $html->setData($contentHtml);
+        }
+
         $mode = $this->currentMeta['mediaplayer']['player_mode'] ?? 'none';
         if ($mode === 'none' || empty($mode) || $this->playerRendered) {
             return;
@@ -177,6 +205,10 @@ class mediaplayer extends Plugin
             $shortcodeArray['data']['knnptoc'] = [
                 'reader_url' => 'text',
                 'mode'       => 'text',
+            ];
+            $shortcodeArray['data']['buhdsummary'] = [
+                'id'  => 'text',
+                'vol' => 'text',
             ];
             $shortcode->setData($shortcodeArray);
             return;
@@ -300,6 +332,15 @@ class mediaplayer extends Plugin
             $extUrl  = trim($params['exturl'] ?? ($this->currentMeta['mediaplayer']['exturl'] ?? ''));
 
             $shortcode->setData($this->renderBuhdView($key, $stories, $title, $extUrl));
+            return;
+        }
+
+        # 5d. [:buhdsummary id="1" vol="1" :]
+        if ($name === 'buhdsummary') {
+            $shortcode->stopPropagation();
+            $storyId = (int)($params['id'] ?? 1);
+            $volNum  = (int)($params['vol'] ?? 0);
+            $shortcode->setData($this->renderBuhdSummary($storyId, $volNum));
             return;
         }
 
@@ -895,6 +936,98 @@ class mediaplayer extends Plugin
               . '</div>';
 
         return $html;
+    }
+
+    protected function renderBuhdSummary(int $storyId, int $volNum = 0): string
+    {
+        if ($volNum <= 0) {
+            $url = $this->currentItem['urlRel'] ?? '';
+            if (preg_match('#bao-ung-hien-doi-tap-(\d+)#i', $url, $m)) {
+                $volNum = (int)$m[1];
+            } else {
+                $title = $this->currentMeta['meta']['title'] ?? '';
+                if (preg_match('#Tập\s*(\d+)#i', $title, $m)) {
+                    $volNum = (int)$m[1];
+                }
+            }
+        }
+        if ($volNum < 1 || $volNum > 7) {
+            $volNum = 1;
+        }
+
+        $stories = $this->getBuhdStoriesForVol($volNum);
+        $story = null;
+        foreach ($stories as $st) {
+            if (isset($st['id']) && (int)$st['id'] === $storyId) {
+                $story = $st;
+                break;
+            }
+        }
+        if (!$story && isset($stories[$storyId - 1])) {
+            $story = $stories[$storyId - 1];
+        }
+        if (!$story) {
+            return '';
+        }
+
+        $title = htmlspecialchars($story['title'] ?? ('Truyện ' . $storyId), ENT_QUOTES, 'UTF-8');
+        $rawSummary = trim(strip_tags($story['summary'] ?? ''));
+        if (empty($rawSummary)) {
+            return '';
+        }
+
+        $volTitle = 'Báo Ứng Hiện Đời — Tập ' . $volNum;
+        $readUrl  = $story['read_url'] ?? ('/nhan-qua/doc-sach/bao-ung-hien-doi-tap-' . $volNum . '#truyen-' . $storyId);
+
+        $lines = explode("\n", $story['summary']);
+        $formattedLines = [];
+        foreach ($lines as $line) {
+            $line = trim($line);
+            if ($line === '') continue;
+            $lineFormatted = preg_replace(
+                '/^(Nhân vật\s*&\s*Hoàn cảnh|Hành vi tạo nghiệp|Quả báo hiện tiền|Bài học\s*&\s*Chuyển hóa):\s*/iu',
+                '• <strong>$1:</strong> ',
+                $line
+            );
+            $formattedLines[] = $lineFormatted;
+        }
+        $formattedHtml = implode("<br/>\n", $formattedLines);
+
+        $html = '<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">'
+              . '  <div class="tm-summary-text">'
+              . '    <strong>Tóm tắt nhân quả:</strong><br/>'
+              .      $formattedHtml
+              . '  </div>'
+              . '  <div class="tm-summary-toggle-row">'
+              . '    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="' . $title . '" data-url="' . htmlspecialchars($readUrl, ENT_QUOTES, 'UTF-8') . '" data-vol="' . htmlspecialchars($volTitle, ENT_QUOTES, 'UTF-8') . '" data-summary="' . htmlspecialchars($rawSummary, ENT_QUOTES, 'UTF-8') . '">🔗 Chia sẻ</button>'
+              . '    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>'
+              . '  </div>'
+              . '</div>';
+
+        return $html;
+    }
+
+    protected function getBuhdStoriesForVol(int $volNum): array
+    {
+        static $cache = [];
+        if (isset($cache[$volNum])) {
+            return $cache[$volNum];
+        }
+
+        $baseDir = dirname(__DIR__, 2);
+        $yamlFile = $baseDir . '/content/02-nhan-qua/01-bao-ung-hien-doi-tuyen-tap/0' . $volNum . '-bao-ung-hien-doi-tap-' . $volNum . '.yaml';
+        if (file_exists($yamlFile)) {
+            try {
+                $parsed = \Symfony\Component\Yaml\Yaml::parseFile($yamlFile);
+                $items = $parsed['mediaplayer']['stories']['items'] ?? [];
+                if (is_array($items)) {
+                    $cache[$volNum] = $items;
+                    return $items;
+                }
+            } catch (\Throwable $e) {}
+        }
+        $cache[$volNum] = [];
+        return [];
     }
 
     protected function getKpcIndex(): array

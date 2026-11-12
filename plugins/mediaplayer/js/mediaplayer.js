@@ -1186,14 +1186,14 @@
             '    <div class="tm-kpc-share-preview" id="tm-kpc-share-preview"></div>' +
             '    <div class="tm-kpc-share-url-row">' +
             '      <input type="text" id="tm-kpc-share-url-input" class="tm-kpc-share-url-input" readonly onclick="this.select();" />' +
-            '      <button type="button" class="tm-kpc-share-copy-url" onclick="window.tmKpcCopyShare(\'link\')">🔗 Chép Link</button>' +
+            '      <button type="button" class="tm-kpc-share-copy-url" onclick="window.tmShareModalCopy(\'link\')">🔗 Chép Link</button>' +
             '    </div>' +
             '    <div class="tm-kpc-share-toast" id="tm-kpc-share-toast" style="display:none;"></div>' +
             '    <div class="tm-kpc-share-grid">' +
-            '      <button type="button" class="tm-kpc-share-opt tm-kpc-share-opt-primary" onclick="window.tmKpcCopyShare(\'full\')">' +
+            '      <button type="button" class="tm-kpc-share-opt tm-kpc-share-opt-primary" onclick="window.tmShareModalCopy(\'full\')">' +
             '        <span>📋</span> <div><strong>Sao chép Nội dung + Liên kết</strong><small>Dán ngay vào Zalo, Messenger, Ghi chú...</small></div>' +
             '      </button>' +
-            '      <button type="button" class="tm-kpc-share-opt tm-kpc-share-opt-native" id="tm-kpc-share-native-btn" onclick="window.tmKpcNativeShare()">' +
+            '      <button type="button" class="tm-kpc-share-opt tm-kpc-share-opt-native" id="tm-kpc-share-native-btn" onclick="window.tmShareModalNative()">' +
             '        <span>📱</span> <div><strong>Chia sẻ nhanh qua ứng dụng...</strong><small>Mở menu chia sẻ của điện thoại / trình duyệt</small></div>' +
             '      </button>' +
             '    </div>' +
@@ -1211,9 +1211,18 @@
         return modal;
     }
 
+    var activeSharePayload = null;
+
     window.tmKpcOpenShareModal = function () {
         var modal = ensureKpcShareModal();
         var p = getKpcSharePayload();
+
+        activeSharePayload = {
+            url: p.url,
+            fullText: p.fullText,
+            title: p.title,
+            label: "Bài kệ " + p.vnum
+        };
 
         var titleEl = document.getElementById("tm-kpc-share-title");
         if (titleEl) {
@@ -1254,15 +1263,15 @@
 
         var copyLinkBtn = modal.querySelector(".tm-kpc-share-copy-url");
         if (copyLinkBtn) {
-            copyLinkBtn.onclick = function () { window.tmKpcCopyShare("link"); };
+            copyLinkBtn.onclick = function () { window.tmShareModalCopy("link"); };
         }
         var copyFullBtn = modal.querySelector(".tm-kpc-share-opt-primary");
         if (copyFullBtn) {
-            copyFullBtn.onclick = function () { window.tmKpcCopyShare("full"); };
+            copyFullBtn.onclick = function () { window.tmShareModalCopy("full"); };
         }
         var nativeBtn = document.getElementById("tm-kpc-share-native-btn");
         if (nativeBtn) {
-            nativeBtn.onclick = function () { window.tmKpcNativeShare(); };
+            nativeBtn.onclick = function () { window.tmShareModalNative(); };
         }
 
         modal.style.display = "flex";
@@ -1285,60 +1294,96 @@
     }
 
     function copyTextToClipboard(text, onDone) {
-        if (navigator.clipboard && navigator.clipboard.writeText) {
+        if (navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext) {
             navigator.clipboard.writeText(text).then(function () {
                 if (onDone) onDone(true);
             }).catch(function () {
                 fallbackCopyText(text, onDone);
             });
-        } else {
-            fallbackCopyText(text, onDone);
+            return;
         }
+        fallbackCopyText(text, onDone);
     }
 
     function fallbackCopyText(text, onDone) {
         try {
+            var urlInp = document.getElementById("tm-kpc-share-url-input");
+            if (urlInp && urlInp.value === text && document.body.contains(urlInp)) {
+                urlInp.focus();
+                urlInp.select();
+                urlInp.setSelectionRange(0, 99999);
+                var success = document.execCommand("copy");
+                if (success) {
+                    if (onDone) onDone(true);
+                    return;
+                }
+            }
+
             var ta = document.createElement("textarea");
             ta.value = text;
+            ta.setAttribute("readonly", "");
             ta.style.position = "fixed";
-            ta.style.left = "-9999px";
+            ta.style.top = "0";
+            ta.style.left = "0";
+            ta.style.width = "2em";
+            ta.style.height = "2em";
+            ta.style.padding = "0";
+            ta.style.border = "none";
+            ta.style.outline = "none";
+            ta.style.boxShadow = "none";
+            ta.style.background = "transparent";
+            ta.style.opacity = "0.01";
+            ta.style.zIndex = "99999";
             document.body.appendChild(ta);
             ta.focus();
             ta.select();
-            document.execCommand("copy");
+            ta.setSelectionRange(0, 99999);
+            var ok = document.execCommand("copy");
             document.body.removeChild(ta);
-            if (onDone) onDone(true);
+            if (onDone) onDone(ok);
         } catch (e) {
             if (onDone) onDone(false);
         }
     }
 
-    window.tmKpcCopyShare = function (mode) {
-        var p = getKpcSharePayload();
-        var textToCopy = (mode === "link") ? p.url : p.fullText;
+    window.tmShareModalCopy = function (mode) {
+        var p = activeSharePayload || (typeof getKpcSharePayload === "function" ? getKpcSharePayload() : null);
+        if (!p) return;
+        var textToCopy = (mode === "link") ? (p.url || window.location.href) : (p.fullText || p.url || window.location.href);
+        var label = p.label || "nội dung";
+
         copyTextToClipboard(textToCopy, function (ok) {
             if (ok) {
-                showKpcShareToast(mode === "link"
-                    ? ("✓ Đã sao chép đường dẫn Bài kệ " + p.vnum + " vào bộ nhớ tạm!")
-                    : ("✓ Đã sao chép trọn vẹn Lời kệ " + p.vnum + " & liên kết! Bạn có thể dán (Paste) ngay."));
+                var msg = mode === "link"
+                    ? ("✓ Đã sao chép liên kết " + label + " vào bộ nhớ tạm!")
+                    : ("✓ Đã sao chép trọn vẹn " + label + " & liên kết! Bạn có thể dán (Paste) ngay.");
+                showKpcShareToast(msg);
             } else {
-                showKpcShareToast("⚠️ Trình duyệt chặn tự động chép. Hãy bôi đen ô liên kết phía trên để chép.");
+                showKpcShareToast("⚠️ Trình duyệt chặn tự động chép. Hãy chọn và sao chép ô liên kết phía trên.");
             }
         });
     };
 
-    window.tmKpcNativeShare = function () {
-        var p = getKpcSharePayload();
+    window.tmShareModalNative = function () {
+        var p = activeSharePayload || (typeof getKpcSharePayload === "function" ? getKpcSharePayload() : null);
+        if (!p) return;
+        var title = p.title || document.title;
+        var text  = p.fullText || "";
+        var url   = p.url || window.location.href;
+
         if (navigator.share) {
             navigator.share({
-                title: p.title,
-                text: p.fullText,
-                url: p.url
+                title: title,
+                text: text,
+                url: url
             }).catch(function () {});
         } else {
-            window.tmKpcCopyShare("full");
+            window.tmShareModalCopy("full");
         }
     };
+
+    window.tmKpcCopyShare   = window.tmShareModalCopy;
+    window.tmKpcNativeShare = window.tmShareModalNative;
 
     function initKpcReader() {
         var app = document.getElementById("tm-kpc-reader");
@@ -1852,6 +1897,13 @@
         var p = getKnnpSharePayload();
         var lnumPad = p.vnum < 10 ? ("0" + p.vnum) : String(p.vnum);
 
+        activeSharePayload = {
+            url: p.url,
+            fullText: p.fullText,
+            title: p.title,
+            label: "Lá thư số " + lnumPad
+        };
+
         var titleEl = document.getElementById("tm-kpc-share-title");
         if (titleEl) {
             titleEl.textContent = "🔗 Chia sẻ Lá Thư Số " + lnumPad + " — Khuyên Người Niệm Phật";
@@ -1892,31 +1944,15 @@
         // Override copy buttons inside modal when KNNP reader is active
         var copyLinkBtn = modal.querySelector(".tm-kpc-share-copy-url");
         if (copyLinkBtn) {
-            copyLinkBtn.onclick = function () {
-                copyTextToClipboard(p.url, function (ok) {
-                    showKpcShareToast(ok ? ("✓ Đã sao chép đường dẫn Lá thư số " + lnumPad + "!") : "⚠️ Hãy bôi đen ô liên kết để chép.");
-                });
-            };
+            copyLinkBtn.onclick = function () { window.tmShareModalCopy("link"); };
         }
         var copyFullBtn = modal.querySelector(".tm-kpc-share-opt-primary");
         if (copyFullBtn) {
-            copyFullBtn.onclick = function () {
-                copyTextToClipboard(p.fullText, function (ok) {
-                    showKpcShareToast(ok ? ("✓ Đã sao chép trích đoạn Lá thư số " + lnumPad + " & liên kết!") : "⚠️ Hãy bôi đen ô liên kết để chép.");
-                });
-            };
+            copyFullBtn.onclick = function () { window.tmShareModalCopy("full"); };
         }
         var nativeBtn = document.getElementById("tm-kpc-share-native-btn");
         if (nativeBtn) {
-            nativeBtn.onclick = function () {
-                if (navigator.share) {
-                    navigator.share({ title: p.title, text: p.fullText, url: p.url }).catch(function () {});
-                } else {
-                    copyTextToClipboard(p.fullText, function () {
-                        showKpcShareToast("✓ Đã sao chép trích đoạn Lá thư số " + lnumPad + " & liên kết!");
-                    });
-                }
-            };
+            nativeBtn.onclick = function () { window.tmShareModalNative(); };
         }
 
         modal.style.display = "flex";
@@ -1937,6 +1973,13 @@
                        "🔹 Câu chuyện: " + storyTitle + "\n\n" +
                        (cleanSummary ? (cleanSummary + "\n\n") : "") +
                        "🔗 Đọc toàn văn & nghe audio tại: " + absUrl;
+
+        activeSharePayload = {
+            url: absUrl,
+            fullText: fullText,
+            title: storyTitle + " — " + volTitle,
+            label: "câu chuyện: " + storyTitle
+        };
 
         var titleEl = document.getElementById("tm-kpc-share-title");
         if (titleEl) {
@@ -1977,33 +2020,15 @@
 
         var copyLinkBtn = modal.querySelector(".tm-kpc-share-copy-url");
         if (copyLinkBtn) {
-            copyLinkBtn.onclick = function () {
-                copyTextToClipboard(absUrl, function (ok) {
-                    showKpcShareToast(ok ? ("✓ Đã sao chép liên kết câu chuyện!") : "⚠️ Hãy bôi đen ô liên kết để chép.");
-                });
-            };
+            copyLinkBtn.onclick = function () { window.tmShareModalCopy("link"); };
         }
-
         var copyFullBtn = modal.querySelector(".tm-kpc-share-opt-primary");
         if (copyFullBtn) {
-            copyFullBtn.onclick = function () {
-                copyTextToClipboard(fullText, function (ok) {
-                    showKpcShareToast(ok ? ("✓ Đã sao chép tóm tắt & liên kết câu chuyện!") : "⚠️ Hãy bôi đen ô liên kết để chép.");
-                });
-            };
+            copyFullBtn.onclick = function () { window.tmShareModalCopy("full"); };
         }
-
         var nativeBtn = document.getElementById("tm-kpc-share-native-btn");
         if (nativeBtn) {
-            nativeBtn.onclick = function () {
-                if (navigator.share) {
-                    navigator.share({ title: storyTitle + " — " + volTitle, text: fullText, url: absUrl }).catch(function () {});
-                } else {
-                    copyTextToClipboard(fullText, function () {
-                        showKpcShareToast("✓ Đã sao chép tóm tắt & liên kết câu chuyện!");
-                    });
-                }
-            };
+            nativeBtn.onclick = function () { window.tmShareModalNative(); };
         }
 
         modal.style.display = "flex";
