@@ -38,6 +38,20 @@
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Chàng sinh viên trẻ nghiện game và hưởng thụ trụy lạc, sau biến cố sinh tử đã thức tỉnh nhờ lời Phật dạy, trở thành người sống có ích và hướng thiện.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="ANH BẠN SINH VIÊN" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-1" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Chàng sinh viên trẻ nghiện game và hưởng thụ trụy lạc, sau biến cố sinh tử đã thức tỉnh nhờ lời Phật dạy, trở thành người sống có ích và hướng thiện. Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại m...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 TÚ là bạn học chung trường với tôi. Anh cao vừa tầm, dung mạo bình thường, gia cảnh nghèo, tính nhút nhát hay mắc cỡ, anh giống tôi ở chỗ ưa lướt net vui chơi, học tập nhàn nhã. Chúng tôi đồng học Văn khoa, cùng chưa xong năm tư.
 
 Thời buổi này, sinh viên đứa nào cũng mơ ước sau khi tốt nghiệp tìm được công tác ngon, thu nhập mãn ý, vì vậy ai cũng lo phấn đấu, mong gặp may, vớ được cơ hội tốt.
@@ -97,9 +111,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 2. CÂU CHUYỆN CỦA TÔI {#truyen-2}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Lời tự thuật chân thành của tác giả về hành trình tìm về chánh pháp, vượt qua sóng gió cuộc đời nhờ công phu niệm Phật và phóng sinh.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="CÂU CHUYỆN CỦA TÔI" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-2" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Lời tự thuật chân thành của tác giả về hành trình tìm về chánh pháp, vượt qua sóng gió cuộc đời nhờ công phu niệm Phật và phóng sinh. Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vậ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Năm nay tôi 27 tuổi. Hồi học lớp ba tiểu học, thông qua người khác, tôi biết đến phim ảnh sex và kể từ đó tôi giã biệt tính ngây thơ của tuổi đồng niên, lún sâu vào vực thẳm tà dâm.
 
@@ -166,9 +196,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 3. CHUYỆN CỦA FRANK {#truyen-3}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một người phương Tây tiếp cận đạo Phật qua luật nhân quả, thực hành ăn chay thiền định và tìm lại được sự an tĩnh nội tâm kỳ diệu.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="CHUYỆN CỦA FRANK" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-3" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Một người phương Tây tiếp cận đạo Phật qua luật nhân quả, thực hành ăn chay thiền định và tìm lại được sự an tĩnh nội tâm kỳ diệu. Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Ngày 28 tháng Tư năm 1982, tôi gọi thợ tới sửa vật dụng trong nhà mình, anh tên Frank, nhân phẩm rất tốt. Nghe Frank nói tiếng Anh pha giọng Đức, tôi bèn đổi sang dùng tiếng Đức đàm thoại với anh. Nhờ hai mươi năm trước tôi từng lãnh giải thưởng văn học ở Vienna nước Áo, nên đối với người sống ở thủ đô Vienna cũng rất có cảm tình, tôi và anh nói chuyện rất tương đắc.
 
@@ -217,9 +263,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 4. ĐẠI LỄ MÔNG SƠN CỨU ĐỘ VONG LINH {#truyen-4}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Pháp hội cúng thí thực Mông Sơn từ bi cứu vớt muôn loài cô hồn ngạ quỷ thoát khỏi cảnh giới đói khát, siêu sinh cõi lành.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="ĐẠI LỄ MÔNG SƠN CỨU ĐỘ VONG LINH" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-4" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Pháp hội cúng thí thực Mông Sơn từ bi cứu vớt muôn loài cô hồn ngạ quỷ thoát khỏi cảnh giới đói khát, siêu sinh cõi lành. Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Trước đây, ở Vancouver người tin Phật không nhiều, nên số lượng đến nghe Phật pháp có thể đếm trên đầu ngón tay. Nhưng bây giờ đã tiến triển khả quan.
 
@@ -348,9 +410,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 5. BÌNH RƯỢU THUỐC {#truyen-5}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Ngâm rắn rết, bò cạp, tay gấu vào rượu để bồi bổ thân thể; người uống rốt cuộc bị nọc độc và oán khí cắn xé nội tạng, chịu quả báo đau đớn.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="BÌNH RƯỢU THUỐC" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-5" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Ngâm rắn rết, bò cạp, tay gấu vào rượu để bồi bổ thân thể; người uống rốt cuộc bị nọc độc và oán khí cắn xé nội tạng, chịu quả báo đau đớn. Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống đ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Một người bạn đồng tu của tôi kể thân mẫu cô bị chứng tiểu đường thời kỳ cuối đang nhập viện, nhờ tôi giúp quán sát nhân quả cho bà dùm, cô cầm ảnh bà tới cho tôi xem, tôi vừa nhìn vào thì phát hiện có một con vật đang “đóng đô” nơi bàng quang của bà, nhìn giống như rắn mà không phải rắn, vì thân mập to phình, màu sắc giống như con lươn khủng bị nuôi bằng thuốc thúc tăng trưởng, nhưng tướng mạo hình dáng coi bộ lại giống rắn hơn lươn, tôi suy đoán mãi, mà vẫn không nhìn ra nó là con gì, bèn hỏi nó:
 
@@ -407,9 +485,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 6. NƠI MẸ TÔI ĐẾN {#truyen-6}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Cảm ứng màu nhiệm lúc người mẹ vãng sinh Tây Phương Cực Lạc nhờ con cháu chí thành hộ niệm suốt ngày đêm theo đúng nghi thức Tịnh Độ.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="NƠI MẸ TÔI ĐẾN" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-6" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Cảm ứng màu nhiệm lúc người mẹ vãng sinh Tây Phương Cực Lạc nhờ con cháu chí thành hộ niệm suốt ngày đêm theo đúng nghi thức Tịnh Độ. Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vậ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Mẹ tôi chết ở Đại Lục, tôi đem công đức xuất gia hồi hướng cho bà và đích thân chứng kiến mẹ thăng thiên, đây là việc ngàn chân muôn thật, (địa điểm xảy ra tại Tháp Thất Bảo Điện Địa Tạng, thuộc chùa Đại Giác ở Cơ Long, Đài Loan).
 
@@ -492,9 +586,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 7. BUỔI CẦU SIÊU KỲ LẠ {#truyen-7}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Những hiện tượng lạ kỳ trong buổi lễ cầu siêu chứng minh oán kết giữa người sống và người chết chỉ có thể hóa giải bằng tâm từ bi chân thật.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="BUỔI CẦU SIÊU KỲ LẠ" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-7" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Những hiện tượng lạ kỳ trong buổi lễ cầu siêu chứng minh oán kết giữa người sống và người chết chỉ có thể hóa giải bằng tâm từ bi chân thật. Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Hôm qua tôi được mời đi làm lễ siêu độ cho một thanh niên trẻ, thuộc con nhà giàu có. Ông nội và phụ thân y đều là phú thương. Trong lúc tổ chức lễ sám, cúng phẩm chưng bày rất phong nhiêu. Tôi lên pháp tòa, mới ngồi chưa bao lâu, thì thấy quan Táo thần trong nhà, cầm một tám vải trắng, trên viết hai từ: “DÂM BÁO”, đưa cho tôi xem.
 
@@ -645,9 +755,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 8. CÔ BẠN TIẾN SĨ {#truyen-8}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Vị nữ tiến sĩ tài giỏi ngộ ra tri thức thế gian không cứu được nỗi đau sinh lão bệnh tử, quyết tâm dốc lòng tu học Phật pháp giải thoát.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="CÔ BẠN TIẾN SĨ" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-8" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Vị nữ tiến sĩ tài giỏi ngộ ra tri thức thế gian không cứu được nỗi đau sinh lão bệnh tử, quyết tâm dốc lòng tu học Phật pháp giải thoát. Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Cô Y bạn tôi là Tiến sĩ Kinh tế kiêm Giảng sư cao học, cô không hiểu Phật giáo, không học Phật, nhưng lại ngộ ra chuyện sinh tử của kiếp người là một vòng tuần hoàn liên tục chẳng đáng sợ.
 
@@ -690,9 +816,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 9. NGỌN GIÁO NƠI TƯỢNG QUAN CÔNG {#truyen-9}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Đa số chúng tôi đều rất tin nhân quả báo ứng, vì đã chứng kiến nhiều vụ án ly kỳ mà khoa học không thề giải thích được. Phần đông các bạn đồng nghiệp của tôi, trên xe đều thờ tượng Phật hoặc đeo chú hộ thân… Trước khi xuất phát chúng tôi th...<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="NGỌN GIÁO NƠI TƯỢNG QUAN CÔNG" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-9" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Đa số chúng tôi đều rất tin nhân quả báo ứng, vì đã chứng kiến nhiều vụ án ly kỳ mà khoa học không thề giải thích được. Phần đông các bạn đồng nghiệp của tôi, trên xe đều thờ tượng Phật hoặc đeo ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Đa số chúng tôi đều rất tin nhân quả báo ứng, vì đã chứng kiến nhiều vụ án ly kỳ mà khoa học không thề giải thích được. Phần đông các bạn đồng nghiệp của tôi, trên xe đều thờ tượng Phật hoặc đeo chú hộ thân… Trước khi xuất phát chúng tôi thường chắp tay niệm Phật, im lặng cầu nguyện, điều này đã thành quy luật bất thành văn. Thành phố Bắc Kinh là nơi tôi công tác, đã phát sinh nhiều vụ án rất quái, phải nói là khó mà tưởng tượng ra.
 
@@ -747,9 +889,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 10. HAI BẢN KINH ĐẦU TIÊN {#truyen-10}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Đây là câu chuyện có thực do tôi đích thân trải qua, tuyệt không nói dối. Nhà chúng tôi vốn không khá giả, trước đây sống rất gian khổ, xem như khó thể mua nhà....<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Nghiệp lực chiêu cảm chướng duyên bủa vây, công danh sự nghiệp trắc trở, tâm thần luôn bất an sợ hãi không phút giây thanh thản.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="HAI BẢN KINH ĐẦU TIÊN" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-10" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Đây là câu chuyện có thực do tôi đích thân trải qua, tuyệt không nói dối. Nhà chúng tôi vốn không khá giả, trước đây sống rất gian khổ, xem như khó thể mua nhà.... Hành vi tạo nghiệp: Nghiệp sát ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Đây là câu chuyện có thực do tôi đích thân trải qua, tuyệt không nói dối.
 
@@ -794,9 +952,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 11. ĐẠI SƯ THĂM BỊNH {#truyen-11}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Câu chuyện có thực này xảy ra vào đầu năm 1990.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="ĐẠI SƯ THĂM BỊNH" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-11" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Câu chuyện có thực này xảy ra vào đầu năm 1990. Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Câu chuyện có thực này xảy ra vào đầu năm 1990.
 
@@ -913,9 +1087,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 12. QUỶ THẦN {#truyen-12}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Đầu tiên phải biết, quỷ thần sống trong chiều không gian bất đồng cùng chúng ta. Họ thực có tồn tại và cũng có hình dáng sinh mệnh, về điểm này, hiện nay các khoa học gia đều có thể chứng minh sự tồn tại của họ....<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="QUỶ THẦN" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-12" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Đầu tiên phải biết, quỷ thần sống trong chiều không gian bất đồng cùng chúng ta. Họ thực có tồn tại và cũng có hình dáng sinh mệnh, về điểm này, hiện nay các khoa học gia đều có thể chứng minh sự...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Đầu tiên phải biết, quỷ thần sống trong chiều không gian bất đồng cùng chúng ta. Họ thực có tồn tại và cũng có hình dáng sinh mệnh, về điểm này, hiện nay các khoa học gia đều có thể chứng minh sự tồn tại của họ. Thế nên, chúng ta đối với quỷ thần nhất định phải cảnh giác. S ở dĩ, Tăng Tử từng cảnh cáo: Quân tử luôn thận trọng khi ở một mình (dù ta ở một mình nhưng vẫn nằm trong hoàn cảnh: “Thập mục sở thị, thập thủ sở chỉ” (Mười mắt nhìn, mười tay chỉ). Phải biết, nhất cử nhất động của ta chư quỷ thần đều nhìn thấy! Những người hiểu rõ việc này, làm sao mà không răn dè run sợ? Làm sao mà lúc ở một mình, lại dám có hành vi khinh suất được?
 
@@ -944,9 +1134,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 13. GIÀ LAM CÓ THÊM MỘT VỊ HỘ PHÁP {#truyen-13}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Đại Tướng quân Lý Mật triều đường, sau khi chết sinh làm Thần, đã hồi tâm quy y theo Phật môn và khuyên hóa nhiều chúng quỷ theo Phật. Nơi các đạo tràng Phật giáo Trung quốc, trong khóa tụng thường nhật vào mỗi sáng tối, đệ tử Phật đa số đề...<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="GIÀ LAM CÓ THÊM MỘT VỊ HỘ PHÁP" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-13" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Đại Tướng quân Lý Mật triều đường, sau khi chết sinh làm Thần, đã hồi tâm quy y theo Phật môn và khuyên hóa nhiều chúng quỷ theo Phật. Nơi các đạo tràng Phật giáo Trung quốc, trong khóa tụng thườ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Đại Tướng quân Lý Mật triều đường, sau khi chết sinh làm Thần, đã hồi tâm quy y theo Phật môn và khuyên hóa nhiều chúng quỷ theo Phật.
 
@@ -1083,9 +1289,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 14. NGƯỜI XƯA NAY Ở ĐÂY {#truyen-14}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một pháp hữu trong nhóm bạn đồng tu của tôi xin tạm gọi là cô X. Cô dung mạo xinh đẹp, có năng khiếu âm nhạc bẩm sinh, tuổi còn thơ đã vào học viện âm nhạc, trong mắt thầy bạn, cô là ngôi sao nhỏ, đã sớm lên sân khấu biểu diễn, được kết nạp...<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="NGƯỜI XƯA NAY Ở ĐÂY" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-14" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Một pháp hữu trong nhóm bạn đồng tu của tôi xin tạm gọi là cô X. Cô dung mạo xinh đẹp, có năng khiếu âm nhạc bẩm sinh, tuổi còn thơ đã vào học viện âm nhạc, trong mắt thầy bạn, cô là ngôi sao nhỏ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Một pháp hữu trong nhóm bạn đồng tu của tôi xin tạm gọi là cô X. Cô dung mạo xinh đẹp, có năng khiếu âm nhạc bẩm sinh, tuổi còn thơ đã vào học viện âm nhạc, trong mắt thầy bạn, cô là ngôi sao nhỏ, đã sớm lên sân khấu biểu diễn, được kết nạp vào đoàn âm nhạc chuyên nghiệp và vinh dự ký hợp đồng với công ty ca vũ nổi tiếng.
 
@@ -1188,9 +1410,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 15. TIỀN KIẾP CỦA CỤ RÙA {#truyen-15}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Ngày 25 tháng 6 năm 2011 tôi và một số Phật tử đến tham dự pháp hội siêu độ nơi chùa Thúy Phong (núi Cửu Hoa) để cầu siêu cho tất cả chúng sinh tử nạn vì chiến tranh, thiên tai, họa ương. Lúc mọi người rời Sư Tử Hống Đường, thì bỗng nghe mộ...<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="TIỀN KIẾP CỦA CỤ RÙA" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-15" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Ngày 25 tháng 6 năm 2011 tôi và một số Phật tử đến tham dự pháp hội siêu độ nơi chùa Thúy Phong (núi Cửu Hoa) để cầu siêu cho tất cả chúng sinh tử nạn vì chiến tranh, thiên tai, họa ương. Lúc mọi...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Ngày 25 tháng 6 năm 2011 tôi và một số Phật tử đến tham dự pháp hội siêu độ nơi chùa Thúy Phong (núi Cửu Hoa) để cầu siêu cho tất cả chúng sinh tử nạn vì chiến tranh, thiên tai, họa ương.
 
@@ -1245,9 +1483,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 16. ÔNG TRÙM XÃ HỘI ĐEN {#truyen-16}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Lần đầu gặp, tôi thấy Mã huynh đang phóng sinh chim trong Niệm Phật Đường cùng với một pháp hữu khác. Mã huynh hiện nay hơn 40 tuổi, là một đại hán Sơn Đông điển hình, tướng mạo giống như nhân vật Võ Tòng đánh hổ trong truyện Thủy Hử....<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="ÔNG TRÙM XÃ HỘI ĐEN" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-16" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Lần đầu gặp, tôi thấy Mã huynh đang phóng sinh chim trong Niệm Phật Đường cùng với một pháp hữu khác. Mã huynh hiện nay hơn 40 tuổi, là một đại hán Sơn Đông điển hình, tướng mạo giống như nhân vậ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Lần đầu gặp, tôi thấy Mã huynh đang phóng sinh chim trong Niệm Phật Đường cùng với một pháp hữu khác.
 
@@ -1524,9 +1778,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 17. HẬU THÂN LÝ BẠCH {#truyen-17}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Ngày 28 tháng 9, nữ sĩ Hàng Minh, nhà thôi miên trứ danh từ New York đến Los Angeles để thuyết giảng, có mời tôi tham dự, tôi nghĩ đây là hoạt động ý nghĩa, liền nhận lời đến phụ diễn thuyết. Chuyện thôi miên, tiền kiếp hậu kiếp… có lẽ bạn ...<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="HẬU THÂN LÝ BẠCH" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-17" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Ngày 28 tháng 9, nữ sĩ Hàng Minh, nhà thôi miên trứ danh từ New York đến Los Angeles để thuyết giảng, có mời tôi tham dự, tôi nghĩ đây là hoạt động ý nghĩa, liền nhận lời đến phụ diễn thuyết. Chu...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Ngày 28 tháng 9, nữ sĩ Hàng Minh, nhà thôi miên trứ danh từ New York đến Los Angeles để thuyết giảng, có mời tôi tham dự, tôi nghĩ đây là hoạt động ý nghĩa, liền nhận lời đến phụ diễn thuyết.
 
@@ -1697,9 +1967,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 18. NHẤT KIẾN CHUNG TÌNH {#truyen-18}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Bất kỳ chuyện gì cũng có nhân quả, thỉ như khi ta khởi niệm yêu thương, xét ra giữa phu thê và huynh đệ, đều không giống nhau. Chẳng hạn như người vừa mới gặp, trong tiền kiếp họ vốn là phu thê hay người yêu từng đã có tình sâu, đời trước t...<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="NHẤT KIẾN CHUNG TÌNH" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-18" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Bất kỳ chuyện gì cũng có nhân quả, thỉ như khi ta khởi niệm yêu thương, xét ra giữa phu thê và huynh đệ, đều không giống nhau. Chẳng hạn như người vừa mới gặp, trong tiền kiếp họ vốn là phu thê h...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Bất kỳ chuyện gì cũng có nhân quả, thỉ như khi ta khởi niệm yêu thương, xét ra giữa phu thê và huynh đệ, đều không giống nhau. Chẳng hạn như người vừa mới gặp, trong tiền kiếp họ vốn là phu thê hay người yêu từng đã có tình sâu, đời trước từng hẹn thề phát nguyện: cầu được mãi mãi bên nhau… thì đời này có thể sẽ cùng tiếp nối tiền duyên. Còn nếu đời trước hai bên chỉ là huynh đệ tỷ muội, khi gặp lại cũng có cảm giác vừa nhìn đã thương, nhưng vì không có duyên phu thê nên sẽ không đi đến hôn nhân.
 
@@ -1760,9 +2046,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 19. SIÊU ĐỘ ÔNG NGOẠI {#truyen-19}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Năm 2011 là thời điểm cuộc sống của tôi cực kỳ xuống dốc, sức khỏe cũng không tốt. Vì vậy tôi bèn lên mạng tra tìm phương pháp thay đổi mệnh vận, thì tình cờ gặp trang web “Chuyên tu kinh Địa Tạng”… Trưởng đoàn biết tôi là kẻ sơ cơ mới nghi...<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="SIÊU ĐỘ ÔNG NGOẠI" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-19" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Năm 2011 là thời điểm cuộc sống của tôi cực kỳ xuống dốc, sức khỏe cũng không tốt. Vì vậy tôi bèn lên mạng tra tìm phương pháp thay đổi mệnh vận, thì tình cờ gặp trang web “Chuyên tu kinh Địa Tạn...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Năm 2011 là thời điểm cuộc sống của tôi cực kỳ xuống dốc, sức khỏe cũng không tốt. Vì vậy tôi bèn lên mạng tra tìm phương pháp thay đổi mệnh vận, thì tình cờ gặp trang web “Chuyên tu kinh Địa Tạng”… Trưởng đoàn biết tôi là kẻ sơ cơ mới nghiên cứu giáo lý Phật, chưa có kinh sách gì, bèn gởi tặng tôi: Kinh Địa Tạng, kinh Kim Cang, kinh Dược Sư và một số sách nhân quả, thiện thư…
 
@@ -1835,9 +2137,25 @@ Biên dịch: Hạnh Đoan
 
 ---
 
+---
+
 ## 20. NHỮNG LẦN TRIỀU SƠN CÙNG NGÀI HƯ VÂN {#truyen-20}
 
 > [🎧 Nghe Audio Tập 7](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-7#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Cuộc đời ngài có rất nhiều điều thần bí, khi Ngài viếng núi Kê Túc thì chuông mõ tự ngân, lên chùa Cao Đảnh thì lan tiên tỏa hương thơm ngào ngạt, lúc giảng kinh thì cây khô sống lại, mai trổ sen, rau cải trong vườn trổ sen, thậm chí tất cả...<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="NHỮNG LẦN TRIỀU SƠN CÙNG NGÀI HƯ VÂN" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-20" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Cuộc đời ngài có rất nhiều điều thần bí, khi Ngài viếng núi Kê Túc thì chuông mõ tự ngân, lên chùa Cao Đảnh thì lan tiên tỏa hương thơm ngào ngạt, lúc giảng kinh thì cây khô sống lại, mai trổ sen...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Lời người dịch:
 
@@ -1927,3 +2245,34 @@ Biên dịch: Hạnh Đoan
 
 
 ---
+
+
+<script>
+if (typeof window.tmShareStory !== 'function') {
+  window.tmShareStory = function(btn) {
+    var title = btn.getAttribute('data-title') || document.title;
+    var url = window.location.origin + (btn.getAttribute('data-url') || window.location.pathname);
+    var summary = btn.getAttribute('data-summary') || '';
+    var vol = btn.getAttribute('data-vol') || 'Báo Ứng Hiện Đời';
+    var text = '📖 ' + vol + '\n🔹 ' + title + '\n\n' + summary + '\n\n🔗 ' + url;
+    if (navigator.share) {
+      navigator.share({ title: title, text: text, url: url }).catch(function(){});
+    } else {
+      navigator.clipboard.writeText(text).then(function() {
+        alert('✓ Đã sao chép liên kết & tóm tắt câu chuyện: ' + title);
+      }).catch(function() {
+        prompt('Sao chép liên kết câu chuyện:', url);
+      });
+    }
+  };
+}
+if (typeof window.tmToggleSummary !== 'function') {
+  window.tmToggleSummary = function(el) {
+    if (!el) return;
+    el.classList.toggle('is-expanded');
+    var b = el.querySelector('.tm-summary-toggle-btn');
+    if (b) b.textContent = el.classList.contains('is-expanded') ? 'Thu gọn ▴' : 'Xem thêm ▾';
+  };
+}
+</script>
+

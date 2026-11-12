@@ -14,292 +14,651 @@ mediaplayer:
     items:
     - id: 1
       title: Lời Người Dịch
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Lời Người Dịch; làm sáng tỏ quy
-        luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn chay
-        sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Lời người dịch mở đầu tác phẩm Báo Ứng Hiện
+        Đời tập 7 do Sư Cô Hạnh Đoan chuyển ngữ, đúc kết tinh hoa nhân quả thực tế.
+
+        Hành vi tạo nghiệp: Chúng sinh trôi lăn trong sinh tử vì vô minh tạo nghiệp;
+        cuốn sách như hồi chuông cảnh tỉnh giúp người đời tỉnh giấc mê lầm nơi trần
+        thế.
+
+        Quả báo hiện tiền: Vô vàn khổ đau bệnh tật và nghịch cảnh bủa vây; chỉ khi
+        thấu hiểu luật nhân quả con người mới biết sợ nhân mà cẩn trọng giữ mình.
+
+        Bài học & Chuyển hóa: Nguyện đem công đức biên dịch cuốn sách này gieo duyên
+        bồ đề cho khắp muôn người, cùng nhau xây dựng cuộc sống an lạc, từ bi và trí
+        tuệ giải thoát.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660584?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-1
       read_label: 📖 Đọc sách
     - id: 2
       title: Anh Bạn Sinh Viên
-      summary: Chàng sinh viên trẻ nghiện game và hưởng thụ trụy lạc, sau biến cố
-        sinh tử đã thức tỉnh nhờ lời Phật dạy, trở thành người sống có ích và hướng
-        thiện.
+      summary: 'Nhân vật & Hoàn cảnh: Chàng sinh viên trẻ nghiện game và hưởng thụ
+        trụy lạc, sau biến cố sinh tử đã thức tỉnh nhờ lời Phật dạy, trở thành người
+        sống có ích và hướng thiện.
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660585?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-1
       read_label: 📖 Đọc sách
     - id: 3
       title: Câu Chuyện Của Tôi
-      summary: Lời tự thuật chân thành của tác giả về hành trình tìm về chánh pháp,
-        vượt qua sóng gió cuộc đời nhờ công phu niệm Phật và phóng sinh.
+      summary: 'Nhân vật & Hoàn cảnh: Lời tự thuật chân thành của tác giả về hành
+        trình tìm về chánh pháp, vượt qua sóng gió cuộc đời nhờ công phu niệm Phật
+        và phóng sinh.
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660586?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-2
       read_label: 📖 Đọc sách
     - id: 4
       title: Chuyện Của Frank
-      summary: Một người phương Tây tiếp cận đạo Phật qua luật nhân quả, thực hành
-        ăn chay thiền định và tìm lại được sự an tĩnh nội tâm kỳ diệu.
+      summary: 'Nhân vật & Hoàn cảnh: Một người phương Tây tiếp cận đạo Phật qua luật
+        nhân quả, thực hành ăn chay thiền định và tìm lại được sự an tĩnh nội tâm
+        kỳ diệu.
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660587?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-3
       read_label: 📖 Đọc sách
     - id: 5
       title: Đại Lễ Mông Sơn Cứu Độ Vong Linh
-      summary: Pháp hội cúng thí thực Mông Sơn từ bi cứu vớt muôn loài cô hồn ngạ
-        quỷ thoát khỏi cảnh giới đói khát, siêu sinh cõi lành.
+      summary: 'Nhân vật & Hoàn cảnh: Pháp hội cúng thí thực Mông Sơn từ bi cứu vớt
+        muôn loài cô hồn ngạ quỷ thoát khỏi cảnh giới đói khát, siêu sinh cõi lành.
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660588?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-4
       read_label: 📖 Đọc sách
     - id: 6
       title: Bình Rượu Thuốc
-      summary: Ngâm rắn rết, bò cạp, tay gấu vào rượu để bồi bổ thân thể; người uống
-        rốt cuộc bị nọc độc và oán khí cắn xé nội tạng, chịu quả báo đau đớn.
+      summary: 'Nhân vật & Hoàn cảnh: Ngâm rắn rết, bò cạp, tay gấu vào rượu để bồi
+        bổ thân thể; người uống rốt cuộc bị nọc độc và oán khí cắn xé nội tạng, chịu
+        quả báo đau đớn.
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660589?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-5
       read_label: 📖 Đọc sách
     - id: 7
       title: Nơi Mẹ Tôi Đến
-      summary: Cảm ứng màu nhiệm lúc người mẹ vãng sinh Tây Phương Cực Lạc nhờ con
-        cháu chí thành hộ niệm suốt ngày đêm theo đúng nghi thức Tịnh Độ.
+      summary: 'Nhân vật & Hoàn cảnh: Cảm ứng màu nhiệm lúc người mẹ vãng sinh Tây
+        Phương Cực Lạc nhờ con cháu chí thành hộ niệm suốt ngày đêm theo đúng nghi
+        thức Tịnh Độ.
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660591?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-6
       read_label: 📖 Đọc sách
     - id: 8
       title: Buổi Cầu Siêu Kỳ Lạ
-      summary: Những hiện tượng lạ kỳ trong buổi lễ cầu siêu chứng minh oán kết giữa
-        người sống và người chết chỉ có thể hóa giải bằng tâm từ bi chân thật.
+      summary: 'Nhân vật & Hoàn cảnh: Những hiện tượng lạ kỳ trong buổi lễ cầu siêu
+        chứng minh oán kết giữa người sống và người chết chỉ có thể hóa giải bằng
+        tâm từ bi chân thật.
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660590?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-7
       read_label: 📖 Đọc sách
     - id: 9
       title: Cô Bạn Tiến Sĩ
-      summary: Vị nữ tiến sĩ tài giỏi ngộ ra tri thức thế gian không cứu được nỗi
-        đau sinh lão bệnh tử, quyết tâm dốc lòng tu học Phật pháp giải thoát.
+      summary: 'Nhân vật & Hoàn cảnh: Vị nữ tiến sĩ tài giỏi ngộ ra tri thức thế gian
+        không cứu được nỗi đau sinh lão bệnh tử, quyết tâm dốc lòng tu học Phật pháp
+        giải thoát.
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660592?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-8
       read_label: 📖 Đọc sách
     - id: 10
       title: Ngọn Giáo Nơi Tượng Quan Công
-      summary: Đa số chúng tôi đều rất tin nhân quả báo ứng, vì đã chứng kiến nhiều
-        vụ án ly kỳ mà khoa học không thề giải thích được. Phần đông các bạn đồng
-        nghiệp của tôi, trên xe đều thờ tượng Phật hoặc đeo chú hộ thân… Trước khi
-        xuất phát chúng tôi th...
+      summary: 'Nhân vật & Hoàn cảnh: Đa số chúng tôi đều rất tin nhân quả báo ứng,
+        vì đã chứng kiến nhiều vụ án ly kỳ mà khoa học không thề giải thích được.
+        Phần đông các bạn đồng nghiệp của tôi, trên xe đều thờ tượng Phật hoặc đeo
+        chú hộ thân… Trước khi xuất phát chúng tôi th...
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660593?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-9
       read_label: 📖 Đọc sách
     - id: 11
       title: Hai Bản Kinh Đầu Tiên
-      summary: Đây là câu chuyện có thực do tôi đích thân trải qua, tuyệt không nói
-        dối. Nhà chúng tôi vốn không khá giả, trước đây sống rất gian khổ, xem như
-        khó thể mua nhà....
+      summary: 'Nhân vật & Hoàn cảnh: Đây là câu chuyện có thực do tôi đích thân trải
+        qua, tuyệt không nói dối. Nhà chúng tôi vốn không khá giả, trước đây sống
+        rất gian khổ, xem như khó thể mua nhà....
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Nghiệp lực chiêu cảm chướng duyên bủa vây, công danh sự
+        nghiệp trắc trở, tâm thần luôn bất an sợ hãi không phút giây thanh thản.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660594?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-10
       read_label: 📖 Đọc sách
     - id: 12
       title: Đại Sư Thăm Bệnh
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Đại Sư Thăm Bệnh; làm sáng tỏ
-        quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn
-        chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Hòa thượng Diệu Pháp đích thân đến bệnh viện
+        thăm hỏi và khai thị giải trừ nghiệp chướng cho một bệnh nhân ung thư giai
+        đoạn cuối.
+
+        Hành vi tạo nghiệp: Bệnh nhân thuở sinh tiền làm nghề buôn bán gia súc gia
+        cầm, giết hại vô số sinh linh để kiếm sống bồi bổ gia đình.
+
+        Quả báo hiện tiền: Thân thể đau đớn rên rỉ, khối u di căn khắp nơi; oan hồn
+        các loài vật bám chặt đòi mạng khiến bác sĩ không thể chích thuốc giảm đau.
+
+        Bài học & Chuyển hóa: Nhờ Hòa thượng từ bi chỉ điểm món nợ máu xương, bệnh
+        nhân rơi lệ chí thành sám hối trước Phật; tâm an định buông xả, cơn đau thuyên
+        giảm kỳ diệu trước giờ phút ra đi an lành.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660595?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-12
       read_label: 📖 Đọc sách
     - id: 13
       title: Quỷ Thần
-      summary: Đầu tiên phải biết, quỷ thần sống trong chiều không gian bất đồng cùng
-        chúng ta. Họ thực có tồn tại và cũng có hình dáng sinh mệnh, về điểm này,
-        hiện nay các khoa học gia đều có thể chứng minh sự tồn tại của họ....
+      summary: 'Nhân vật & Hoàn cảnh: Đầu tiên phải biết, quỷ thần sống trong chiều
+        không gian bất đồng cùng chúng ta. Họ thực có tồn tại và cũng có hình dáng
+        sinh mệnh, về điểm này, hiện nay các khoa học gia đều có thể chứng minh sự
+        tồn tại của họ....
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660596?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-12
       read_label: 📖 Đọc sách
     - id: 14
       title: Già Lam Có Thêm Một Vị Hộ Pháp
-      summary: Đại Tướng quân Lý Mật triều đường, sau khi chết sinh làm Thần, đã hồi
-        tâm quy y theo Phật môn và khuyên hóa nhiều chúng quỷ theo Phật. Nơi các đạo
-        tràng Phật giáo Trung quốc, trong khóa tụng thường nhật vào mỗi sáng tối,
-        đệ tử Phật đa số đề...
+      summary: 'Nhân vật & Hoàn cảnh: Đại Tướng quân Lý Mật triều đường, sau khi chết
+        sinh làm Thần, đã hồi tâm quy y theo Phật môn và khuyên hóa nhiều chúng quỷ
+        theo Phật. Nơi các đạo tràng Phật giáo Trung quốc, trong khóa tụng thường
+        nhật vào mỗi sáng tối, đệ tử Phật đa số đề...
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660597?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-13
       read_label: 📖 Đọc sách
     - id: 15
       title: Người Xưa Nay Ở Đây
-      summary: Một pháp hữu trong nhóm bạn đồng tu của tôi xin tạm gọi là cô X. Cô
-        dung mạo xinh đẹp, có năng khiếu âm nhạc bẩm sinh, tuổi còn thơ đã vào học
-        viện âm nhạc, trong mắt thầy bạn, cô là ngôi sao nhỏ, đã sớm lên sân khấu
-        biểu diễn, được kết nạp...
+      summary: 'Nhân vật & Hoàn cảnh: Một pháp hữu trong nhóm bạn đồng tu của tôi
+        xin tạm gọi là cô X. Cô dung mạo xinh đẹp, có năng khiếu âm nhạc bẩm sinh,
+        tuổi còn thơ đã vào học viện âm nhạc, trong mắt thầy bạn, cô là ngôi sao nhỏ,
+        đã sớm lên sân khấu biểu diễn, được kết nạp...
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660598?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-14
       read_label: 📖 Đọc sách
     - id: 16
       title: Tiền Kiếp Của Cụ Rùa
-      summary: Ngày 25 tháng 6 năm 2011 tôi và một số Phật tử đến tham dự pháp hội
-        siêu độ nơi chùa Thúy Phong (núi Cửu Hoa) để cầu siêu cho tất cả chúng sinh
-        tử nạn vì chiến tranh, thiên tai, họa ương. Lúc mọi người rời Sư Tử Hống Đường,
-        thì bỗng nghe mộ...
+      summary: 'Nhân vật & Hoàn cảnh: Ngày 25 tháng 6 năm 2011 tôi và một số Phật
+        tử đến tham dự pháp hội siêu độ nơi chùa Thúy Phong (núi Cửu Hoa) để cầu siêu
+        cho tất cả chúng sinh tử nạn vì chiến tranh, thiên tai, họa ương. Lúc mọi
+        người rời Sư Tử Hống Đường, thì bỗng nghe mộ...
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660599?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-15
       read_label: 📖 Đọc sách
     - id: 17
       title: Ông Trùm Xã Hội Đen
-      summary: Lần đầu gặp, tôi thấy Mã huynh đang phóng sinh chim trong Niệm Phật
-        Đường cùng với một pháp hữu khác. Mã huynh hiện nay hơn 40 tuổi, là một đại
-        hán Sơn Đông điển hình, tướng mạo giống như nhân vật Võ Tòng đánh hổ trong
-        truyện Thủy Hử....
+      summary: 'Nhân vật & Hoàn cảnh: Lần đầu gặp, tôi thấy Mã huynh đang phóng sinh
+        chim trong Niệm Phật Đường cùng với một pháp hữu khác. Mã huynh hiện nay hơn
+        40 tuổi, là một đại hán Sơn Đông điển hình, tướng mạo giống như nhân vật Võ
+        Tòng đánh hổ trong truyện Thủy Hử....
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660600?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-16
       read_label: 📖 Đọc sách
     - id: 18
       title: Hậu Thân Lý Bạch
-      summary: Ngày 28 tháng 9, nữ sĩ Hàng Minh, nhà thôi miên trứ danh từ New York
-        đến Los Angeles để thuyết giảng, có mời tôi tham dự, tôi nghĩ đây là hoạt
-        động ý nghĩa, liền nhận lời đến phụ diễn thuyết. Chuyện thôi miên, tiền kiếp
-        hậu kiếp… có lẽ bạn ...
+      summary: 'Nhân vật & Hoàn cảnh: Ngày 28 tháng 9, nữ sĩ Hàng Minh, nhà thôi miên
+        trứ danh từ New York đến Los Angeles để thuyết giảng, có mời tôi tham dự,
+        tôi nghĩ đây là hoạt động ý nghĩa, liền nhận lời đến phụ diễn thuyết. Chuyện
+        thôi miên, tiền kiếp hậu kiếp… có lẽ bạn ...
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660601?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-17
       read_label: 📖 Đọc sách
     - id: 19
       title: Nhất Kiến Chung Tình
-      summary: Bất kỳ chuyện gì cũng có nhân quả, thỉ như khi ta khởi niệm yêu thương,
-        xét ra giữa phu thê và huynh đệ, đều không giống nhau. Chẳng hạn như người
-        vừa mới gặp, trong tiền kiếp họ vốn là phu thê hay người yêu từng đã có tình
-        sâu, đời trước t...
+      summary: 'Nhân vật & Hoàn cảnh: Bất kỳ chuyện gì cũng có nhân quả, thỉ như khi
+        ta khởi niệm yêu thương, xét ra giữa phu thê và huynh đệ, đều không giống
+        nhau. Chẳng hạn như người vừa mới gặp, trong tiền kiếp họ vốn là phu thê hay
+        người yêu từng đã có tình sâu, đời trước t...
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660602?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-18
       read_label: 📖 Đọc sách
     - id: 20
       title: Siêu Độ Ông Ngoại
-      summary: Năm 2011 là thời điểm cuộc sống của tôi cực kỳ xuống dốc, sức khỏe
-        cũng không tốt. Vì vậy tôi bèn lên mạng tra tìm phương pháp thay đổi mệnh
-        vận, thì tình cờ gặp trang web “Chuyên tu kinh Địa Tạng”… Trưởng đoàn biết
-        tôi là kẻ sơ cơ mới nghi...
+      summary: 'Nhân vật & Hoàn cảnh: Năm 2011 là thời điểm cuộc sống của tôi cực
+        kỳ xuống dốc, sức khỏe cũng không tốt. Vì vậy tôi bèn lên mạng tra tìm phương
+        pháp thay đổi mệnh vận, thì tình cờ gặp trang web “Chuyên tu kinh Địa Tạng”…
+        Trưởng đoàn biết tôi là kẻ sơ cơ mới nghi...
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660603?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-19
       read_label: 📖 Đọc sách
     - id: 21
       title: Những Lần Triều Sơn Cùng Ngài Hư Vân
-      summary: Cuộc đời ngài có rất nhiều điều thần bí, khi Ngài viếng núi Kê Túc
-        thì chuông mõ tự ngân, lên chùa Cao Đảnh thì lan tiên tỏa hương thơm ngào
-        ngạt, lúc giảng kinh thì cây khô sống lại, mai trổ sen, rau cải trong vườn
-        trổ sen, thậm chí tất cả...
+      summary: 'Nhân vật & Hoàn cảnh: Cuộc đời ngài có rất nhiều điều thần bí, khi
+        Ngài viếng núi Kê Túc thì chuông mõ tự ngân, lên chùa Cao Đảnh thì lan tiên
+        tỏa hương thơm ngào ngạt, lúc giảng kinh thì cây khô sống lại, mai trổ sen,
+        rau cải trong vườn trổ sen, thậm chí tất cả...
+
+        Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu
+        dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học
+        hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.
+
+        Bài học & Chuyển hóa: Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại
+        Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt
+        ác tu thiện và niệm Phật tiêu nghiệp chướng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660604?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-20
       read_label: 📖 Đọc sách
     - id: 22
       title: Chuyện Bồ Tát Cảm Ứng Mẹ Tròn Con Vuông
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Chuyện Bồ Tát Cảm Ứng Mẹ Tròn
-        Con Vuông; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả',
-        khuyến hóa người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Chuyện cảm ứng màu nhiệm của một sản phụ gặp
+        ca sinh khó nguy kịch tính mạng cả mẹ lẫn con tại bệnh viện phụ sản lớn.
+
+        Hành vi tạo nghiệp: Nghiệp chướng tiền kiếp và sự sợ hãi lo âu làm tắc nghẽn
+        huyết mạch; thai nhi nằm ngược ngôi, bác sĩ chuẩn bị mổ cấp cứu nguy hiểm.
+
+        Quả báo hiện tiền: Đối mặt với ranh giới sinh tử mong manh của hai mẹ con,
+        gia đình rơi vào cảnh hoảng loạn tột cùng.
+
+        Bài học & Chuyển hóa: Người mẹ nhất tâm niệm danh hiệu Bồ Tát Quán Thế Âm
+        cầu cứu; kỳ diệu thay thai nhi tự xoay đầu thuận lợi, sinh nở mẹ tròn con
+        vuông trong sự ngỡ ngàng của y bác sĩ.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660605?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-22
       read_label: 📖 Đọc sách
     - id: 23
       title: Lời Nguyện Của Người Mẹ
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Lời Nguyện Của Người Mẹ; làm
-        sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người
-        đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Lời nguyện tha thiết của một người mẹ hiền thục
+        có đứa con trai duy nhất mắc bệnh hiểm nghèo teo cơ bẩm sinh y học bó tay.
+
+        Hành vi tạo nghiệp: Oan trái nghiệp duyên nhiều đời hội tụ; người mẹ không
+        oán trời trách đất mà nhìn nhận đây là nghiệp chung của gia đình cần chuyển
+        hóa.
+
+        Quả báo hiện tiền: Chăm sóc con thơ bại liệt trong muôn vàn nhọc nhằn gian
+        khổ, nước mắt chảy ngược vào trong suốt nhiều năm ròng rã.
+
+        Bài học & Chuyển hóa: Người mẹ phát đại nguyện ăn chay trường suốt đời, lạy
+        vạn lạy sám hối và cúng dường Tam Bảo; nhờ đạo lực nhiệm mầu đứa con dần cử
+        động và hồi phục kỳ diệu.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660606?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-23
       read_label: 📖 Đọc sách
     - id: 24
       title: Vì Sao Hay Bị Tình Làm Tổn Thương
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Vì Sao Hay Bị Tình Làm Tổn Thương;
-        làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa
-        người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Lời giải đáp sâu sắc về câu hỏi muôn thuở của
+        giới trẻ: Vì sao trong tình yêu con người lại hay bị tổn thương, phụ bạc đau
+        đớn?
+
+        Hành vi tạo nghiệp: Tơ duyên ái dục tiền kiếp đan xen nợ nần; kẻ đi lừa gạt
+        tình cảm người khác kiếp trước thì kiếp này ắt phải chịu cảnh bị người phụ
+        tình trả lại.
+
+        Quả báo hiện tiền: Nỗi đau đớn xé lòng khi bị người mình tin yêu nhất phản
+        bội, sống trong oán hận dằn vặt làm hủy hoại tương lai và sức khỏe.
+
+        Bài học & Chuyển hóa: Hiểu rõ duyên tụ duyên tan là do nghiệp lực chi phối;
+        hãy buông bỏ hận thù, dùng tình thương bao dung và ánh sáng Phật pháp chữa
+        lành vết thương lòng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660607?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-24
       read_label: 📖 Đọc sách
     - id: 25
       title: Ân nào cao hơn
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Ân nào cao hơn; làm sáng tỏ quy
-        luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn chay
-        sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Bài pháp luận sâu sắc so sánh giữa hai ân đức
+        lớn nhất của đời người: Ơn sinh thành dưỡng dục của cha mẹ và Ơn cứu độ giới
+        thân huệ mạng của Tam Bảo.
+
+        Hành vi tạo nghiệp: Con người thường nặng bên tình nhẹ bên hiếu, hoặc quên
+        lãng công ơn trời biển của các bậc ân nhân đã dìu dắt mình qua cơn hoạn nạn.
+
+        Quả báo hiện tiền: Bất hiếu bội ân chiêu cảm ác báo thân bại danh liệt, con
+        cái ngỗ nghịch đối xử tệ bạc y hệt khi về già.
+
+        Bài học & Chuyển hóa: Làm người phải lấy hiếu đạo làm đầu; vừa tận hiếu phụng
+        dưỡng cha mẹ chu đáo, vừa hướng cha mẹ quy y Tam Bảo niệm Phật để trọn vẹn
+        cả thế gian lẫn xuất thế gian ân.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660608?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-25
       read_label: 📖 Đọc sách
     - id: 26
       title: Chuyện tình Lan và Dũng
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Chuyện tình Lan và Dũng; làm
-        sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người
-        đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Chuyện tình đầy nước mắt và trắc trở giữa đôi
+        bạn trẻ Lan và Dũng, yêu nhau tha thiết nhưng luôn gặp nghịch cảnh ngăn trở
+        không thành duyên nợ.
+
+        Hành vi tạo nghiệp: Món nợ ân oán tình ái sâu nặng từ tiền kiếp: một bên đến
+        đòi nợ tình, một bên đến trả nợ duyên nhưng chưa dứt hết nghiệp chướng.
+
+        Quả báo hiện tiền: Yêu nhau trong dằn vặt khổ đau, chịu sự phản đối gay gắt
+        của hai gia đình và sự trớ trêu của số phận định đoạt.
+
+        Bài học & Chuyển hóa: Nhờ quy y Tam Bảo hiểu rõ luật nhân duyên, cả hai chuyển
+        hóa tình ái chấp trước thành tình thương đạo vị bè bạn đồng tu, cùng nhau
+        hướng thiện an vui.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660609?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-26
       read_label: 📖 Đọc sách
     - id: 27
       title: Người chồng mê nhậu
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Người chồng mê nhậu; làm sáng
-        tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời
-        ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Tấn bi kịch của một người chồng nghiện rượu
+        chè be bét, suốt ngày say xỉn chửi bới đánh đập vợ con làm tan nát gia phong.
+
+        Hành vi tạo nghiệp: Đắm chìm trong ma men rượu độc, để lòng sân hận và vô
+        minh sai khiến biến bản thân thành quỷ dữ hủy hoại hạnh phúc gia đình.
+
+        Quả báo hiện tiền: Vợ con khiếp sợ bỏ đi, bản thân mắc bệnh xơ gan cổ trướng
+        giai đoạn cuối, cơ thể phù nề đau đớn sống cô độc một mình không ai chăm sóc.
+
+        Bài học & Chuyển hóa: Rượu là cội nguồn của mọi tội lỗi; người tu Phật phải
+        nghiêm trì giới không uống rượu để bảo vệ trí tuệ và giữ gìn tổ ấm gia đình
+        an vui.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660610?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-27
       read_label: 📖 Đọc sách
     - id: 28
       title: Chuyện vụ án chấn động
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Chuyện vụ án chấn động; làm sáng
-        tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời
-        ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Phân tích nguyên nhân tâm linh và nghiệp báo
+        sâu xa đằng sau các vụ thảm án giết người chấn động xã hội thời gian gần đây.
+
+        Hành vi tạo nghiệp: Lòng tham lam, sân hận mù quáng và tâm tà dâm đen tối
+        thúc đẩy con người ra tay sát hại đồng loại tàn bạo không gớm tay.
+
+        Quả báo hiện tiền: Kẻ thủ ác phải đền mạng trước pháp luật và chịu sự đọa
+        đày muôn kiếp nơi địa ngục A Tỳ chịu muôn ngàn hình phạt lửa thiêu dao cắt.
+
+        Bài học & Chuyển hóa: Cảnh báo đanh thép cho nhân gian: hãy kiềm chế cơn giận,
+        quán chiếu nhân quả trong từng ý nghĩ hành vi trước khi quá muộn màng.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660611?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-28
       read_label: 📖 Đọc sách
     - id: 29
       title: Cảnh báo về khẩu nghiệp
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Cảnh báo về khẩu nghiệp; làm
-        sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người
-        đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Lời cảnh tỉnh nghiêm khắc về khẩu nghiệp: nói
+        lời đâm thọc hai đầu, thêu dệt ly gián, chửi rủa và nói lời dối trá hại người.
+
+        Hành vi tạo nghiệp: Dùng miệng lưỡi làm vũ khí sát thương danh dự và sinh
+        mạng của người khác, gieo rắc mối bất hòa chia rẽ khắp nơi để trục lợi cá
+        nhân.
+
+        Quả báo hiện tiền: Bị người đời khinh bỉ xa lánh, mắc các bệnh nan y vùng
+        miệng họng; đời sau sinh ra câm ngọng hoặc miệng hôi thối như xác chết.
+
+        Bài học & Chuyển hóa: Tu thân trước hết phải tu cái miệng; luôn nói lời chân
+        thật, hòa nhã, ái ngữ và tán thán điều thiện để tích lũy vô lượng phước đức.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660612?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-29
       read_label: 📖 Đọc sách
     - id: 30
       title: Những nguy hại cần biết
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Những nguy hại cần biết; làm
-        sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người
-        đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Những nguy hại khôn lường của lối sống buông
+        thả, chạy theo trào lưu hưởng thụ trụy lạc và thực phẩm bẩn độc hại thời hiện
+        đại.
+
+        Hành vi tạo nghiệp: Tự hủy hoại thân tâm bằng ma túy, cờ bạc mạng, phim ảnh
+        đồi trụy và thói quen ăn uống sát sinh tàn độc không kiêng kỵ.
+
+        Quả báo hiện tiền: Thân thể suy kiệt, mắc các chứng bệnh tâm thần hoang tưởng,
+        tuổi trẻ tàn phai và tương lai sự nghiệp tiêu tán hoàn toàn.
+
+        Bài học & Chuyển hóa: Hãy tỉnh táo nhận diện cạm bẫy trần gian; quay về với
+        lối sống giản dị thanh tịnh, ăn chay giữ giới để bảo vệ thân tâm an lạc lành
+        mạnh.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660613?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-30
       read_label: 📖 Đọc sách
     - id: 31
       title: Vì sao phải giới dâm
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Vì sao phải giới dâm; làm sáng
-        tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời
-        ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Lời khai thị chỉ rõ vì sao Đức Phật chế giới
+        cấm tà dâm là một trong những giới trọng hàng đầu của hàng Phật tử tại gia.
+
+        Hành vi tạo nghiệp: Hành vi tà dâm, ngoại tình phá hoại gia đình người khác
+        làm tổn hao nguyên khí tinh thần và chiêu cảm nghiệp chướng nặng nề.
+
+        Quả báo hiện tiền: Mắc các bệnh hiểm nghèo vùng sinh dục, công danh sự nghiệp
+        sụp đổ, con cái hư hỏng và hậu vận cô độc bần hàn cùng cực.
+
+        Bài học & Chuyển hóa: Giữ giới không tà dâm giúp bảo tồn tinh khí thần, tăng
+        trưởng trí tuệ và phúc thọ, bảo vệ hạnh phúc gia đình bền vững dài lâu.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660614?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-31
       read_label: 📖 Đọc sách
     - id: 32
       title: Sự mê muội đáng sợ khi nhập thai cách ấm
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Sự mê muội đáng sợ khi nhập thai
-        cách ấm; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến
-        hóa người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Chân tướng về sự mê muội đáng sợ khi thần thức
+        con người nhập thai (Cách ấm chi mê) trải qua cửa sinh tử luân hồi.
+
+        Hành vi tạo nghiệp: Trong lúc đầu thai bị dục vọng và tham ái chi phối, vừa
+        chui vào bụng mẹ liền quên sạch tiền kiếp và những công phu tu tập thuở xưa.
+
+        Quả báo hiện tiền: Tái sinh làm người lại tiếp tục đắm chìm trong danh lợi
+        thế gian, mê mờ tạo thêm ác nghiệp mới nối tiếp vòng luân hồi đau khổ không
+        dứt.
+
+        Bài học & Chuyển hóa: Hiểu rõ sự hiểm nguy của luân hồi; người trí phải dốc
+        lòng niệm Phật cầu sinh Tây Phương Tịnh Độ ngay trong kiếp này để vĩnh viễn
+        không còn mê muội nhập thai.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660615?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-32
       read_label: 📖 Đọc sách
     - id: 33
       title: Niệm danh bồ tát Địa Tạng thoát khỏi vận mệnh xấu
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Niệm danh bồ tát Địa Tạng thoát
-        khỏi vận mệnh xấu; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ
-        quả', khuyến hóa người đời ăn chay sám hối, lánh ác làm lành và niệm Phật
-        tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Câu chuyện có thật về một người nghèo khổ bệnh
+        tật nhờ chí thành niệm danh hiệu Bồ Tát Địa Tạng mà thoát khỏi vận mệnh đen
+        tối.
+
+        Hành vi tạo nghiệp: Nghiệp chướng nhiều đời khiến thân thể ốm yếu, gia cảnh
+        bần hàn làm ăn thất bát, đi đến đâu cũng gặp tai ương xui xẻo bủa vây.
+
+        Quả báo hiện tiền: Sống trong cảnh bế tắc tuyệt vọng, cùng đường không nơi
+        nương tựa giữa chốn nhân gian lạnh lùng.
+
+        Bài học & Chuyển hóa: Nghe lời khuyên chí thành lạy Phật niệm danh hiệu Địa
+        Tạng Vương Bồ Tát mỗi ngày; cảm ứng nhiệm mầu bệnh tật tiêu trừ, gặp quý nhân
+        giúp đỡ chuyển nghèo thành giàu phúc lộc tràn đầy.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660616?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-33
       read_label: 📖 Đọc sách
     - id: 34
       title: Không in sách tà được thiện báo
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Không in sách tà được thiện báo;
-        làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa
-        người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Người chủ một xưởng in ấn từ chối hợp đồng béo
+        bở in ấn các loại sách báo đồi trụy và tranh ảnh kích dục độc hại.
+
+        Hành vi tạo nghiệp: Thà chịu thiệt thòi kinh tế trước mắt chứ kiên quyết không
+        tiếp tay truyền bá văn hóa phẩm độc hại làm hư hỏng tâm trí thanh thiếu niên.
+
+        Quả báo hiện tiền: Nhờ giữ gìn chánh mạng và đạo đức nghề nghiệp, công việc
+        làm ăn sau đó phát đạt vượt bậc, ký được nhiều hợp đồng lớn lương thiện.
+
+        Bài học & Chuyển hóa: Không in sách tà được thiện báo vô lượng; con cháu đỗ
+        đạt thành tài, gia đình nhiều đời hiển vinh nhờ tích lũy đại âm đức che chở
+        hậu thế.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660617?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-34
       read_label: 📖 Đọc sách
     - id: 35
       title: Lời sám hối của một nữ nhân
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Lời sám hối của một nữ nhân;
-        làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa
-        người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Lời sám hối đẫm nước mắt của một phụ nữ thời
+        trẻ từng lầm lỡ ngoại tình và phá thai nhiều lần vì nông nổi dại khờ.
+
+        Hành vi tạo nghiệp: Tước đoạt mạng sống của những giọt máu ruột thịt chưa
+        kịp chào đời, phản bội lòng tin của người bạn đời để chạy theo dục vọng si
+        mê.
+
+        Quả báo hiện tiền: Thân thể mắc bệnh phụ khoa ung thư hoành hành, đêm đêm
+        bị ác mộng và vong thai đòi mẹ cắn xé tâm can sống trong dằn vặt khôn nguôi.
+
+        Bài học & Chuyển hóa: Dưới chân đài sen chư Phật, bà quỳ sụp khóc lóc ăn năn
+        chuộc tội; phát nguyện ăn chay trường trọn đời, lập đàn cầu siêu và in ấn
+        kinh sách cứu độ vong thai giải tỏa oán kết.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660618?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-35
       read_label: 📖 Đọc sách
     - id: 36
       title: Sám hối đổi tâm chuyển tướng
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Sám hối đổi tâm chuyển tướng;
-        làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa
-        người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      summary: 'Nhân vật & Hoàn cảnh: Quy luật mầu nhiệm ''Tâm sinh tướng, tướng tùy
+        tâm diệt'': Một người phụ nữ có tướng mạo hung dữ xấu xí sau khi chân thành
+        sám hối đã chuyển thành dung mạo đoan trang phúc hậu.
+
+        Hành vi tạo nghiệp: Tâm chứa đầy đố kỵ, tham lam và giận dữ khiến khuôn mặt
+        hằn sâu những nét cau có u ám, đi đến đâu cũng bị mọi người xa lánh ghét bỏ.
+
+        Quả báo hiện tiền: Tướng mạo khắc khổ chiêu cảm cuộc đời lận đận trắc trở,
+        gia đạo bất hòa không một ngày vui vẻ.
+
+        Bài học & Chuyển hóa: Sau khi quy y Tam Bảo, ngày ngày lạy Phật sám hối, mở
+        rộng lòng từ bi thương yêu muôn loài; chỉ sau ba năm tướng mạo biến đổi kỳ
+        diệu trở nên hiền từ sáng sủa, phúc tướng rạng ngời.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/a026d5dc-222b-43ce-8483-4859a623b92a/file/660619?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-36
       read_label: 📖 Đọc sách

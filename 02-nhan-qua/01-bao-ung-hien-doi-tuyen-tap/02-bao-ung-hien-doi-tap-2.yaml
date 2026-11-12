@@ -13,213 +13,533 @@ mediaplayer:
   stories:
     items:
     - id: 1
-      title: Báo ứng hiện đời
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Báo ứng hiện đời; làm sáng tỏ
-        quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn
-        chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660415?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-1
-      read_label: 📖 Đọc sách
-    - id: 2
-      title: Ba mỹ nhân
-      summary: Ba người đẹp ỷ vào sắc nước hương trời làm bao người điêu đứng, mê
-        đắm danh lợi sắc dục; cuối đời gánh chịu quả báo tàn phai, cô độc, bệnh tật
-        cùng quẫn.
+      title: Ba Mỹ Nhân
+      summary: 'Nhân vật & Hoàn cảnh: Vợ chồng giáo sư Quan thuộc tầng lớp thượng
+        lưu trí thức giàu sang, sinh được ba cô con gái tuổi 25, 23, 20 đẹp kiều diễm
+        như tiên nữ nhưng cả ba đều bị câm bẩm sinh, không chàng trai nào dám cầu
+        hôn.
+
+        Hành vi tạo nghiệp: Hai mươi lăm năm trước khi đi du lịch chùa ở Thái Lan,
+        xe hơi sang trọng bị trầy xước, ông tức giận xông tới đánh đập tàn bạo một
+        đứa trẻ ăn xin câm vô tội, đạp mạnh vào ngực khiến nó hộc máu tươi và tàn
+        phế suốt đời.
+
+        Quả báo hiện tiền: Vợ ông lần lượt sinh ra ba đứa con gái đều bị câm như hình
+        ảnh đứa bé câm hộc máu năm xưa; gia đình sống trong đau khổ dằn vặt vô phương
+        cứu chữa.
+
+        Bài học & Chuyển hóa: Nghe vị cao tăng thuyết giảng lý nhân quả, giáo sư Quan
+        kinh hoàng nhớ lại cú đá ác nghiệt năm xưa, hiểu rõ lưới trời lồng lộng; hai
+        vợ chồng chí thành quỳ trước Phật sám hối, dốc lòng làm lành tích đức.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660416?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-1
       read_label: 📖 Đọc sách
-    - id: 3
-      title: Nước lèo trứ danh
-      summary: Chủ quán nước lèo nổi tiếng chuyên hầm xác xương động vật, lươn ốc
-        sống; sau mắc chứng bệnh lở loét hôi thối khắp mình mẩy, nếm trải quả báo
-        thống khổ từ nghề sát.
+    - id: 2
+      title: Nước Lèo Trứ Danh
+      summary: 'Nhân vật & Hoàn cảnh: Quán hủ tiếu nức tiếng ở miền bắc Thái Lan mỗi
+        ngày bán hàng trăm tô, thu lợi nhuận kết xù nhờ bí quyết nồi nước lèo thơm
+        ngon ngọt nước gia truyền.
+
+        Hành vi tạo nghiệp: Bí quyết nấu nước lèo là ninh hầm xương thịt và các loại
+        động vật tươi sống với số lượng khổng lồ qua nhiều năm tháng, tước đoạt sinh
+        mạng của muôn vàn sinh linh.
+
+        Quả báo hiện tiền: Người chủ quán mắc phải chứng bệnh lạ vô phương cứu chữa:
+        khắp thân thể lở loét rỉ nước vàng hôi thối như xác chết phân hủy, đau đớn
+        bỏng rát ngày đêm gào thét như đang bị dìm trong nồi nước sôi.
+
+        Bài học & Chuyển hóa: Của cải làm giàu từ nghề sát sinh nhuốm đầy máu tanh
+        chẳng thể đem lại an lạc; người chủ chết trong đau đớn tột cùng là lời cảnh
+        tỉnh đanh thép cho những ai mưu sinh bằng việc tàn hại sinh vật.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660417?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-2
       read_label: 📖 Đọc sách
-    - id: 4
-      title: Nguyên nhân đáng sợ
-      summary: Bác sĩ trẻ Trương Vĩ Lục tự sát vì biến đổi thể chất bất lực; điều
-        tra hé lộ ông nội và cha từng làm nghề thiến heo, thiến gà suốt đời, chiêu
-        cảm nghiệp tuyệt tự đời cháu.
+    - id: 3
+      title: Nguyên Nhân Đáng Sợ
+      summary: 'Nhân vật & Hoàn cảnh: Bác sĩ trẻ Trương Vĩ Lục tiền đồ xán lạn, sau
+        khi kết hôn bỗng nhiên phát hiện cơ thể biến đổi dị tật, mất hoàn toàn khả
+        năng sinh dục và biến thành người bán nam bán nữ, đau đớn nhảy lầu tự sát.
+
+        Hành vi tạo nghiệp: Điều tra cội nguồn nhân quả hé lộ: ông nội và cha của
+        anh suốt mấy mươi năm chuyên làm nghề thiến heo, thiến gà sống để kiếm tiền,
+        hủy hoại bộ phận sinh dục của muôn vạn con vật.
+
+        Quả báo hiện tiền: Ác nghiệp thiến hoạn động vật tích tụ qua nhiều đời đã
+        trút xuống người con cháu đích tôn độc nhất, khiến gia đình họ Trương tuyệt
+        tự tuyệt tôn trong bi kịch thảm thương.
+
+        Bài học & Chuyển hóa: Nghề nghiệp sát hại hoặc làm thương tổn thân thể chúng
+        sinh đều chiêu cảm quả báo tương ứng không sai chạy mảy may, di họa khôn lường
+        đến con cháu đời sau.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660418?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-3
       read_label: 📖 Đọc sách
-    - id: 5
-      title: Đám tang chó
-      summary: Người chủ làm tang lễ tươm tất cho chú chó trung nghĩa; câu chuyện
-        thức tỉnh tình thương loài vật và cảnh báo nghiệp phụ ân phản bạn của con
-        người.
+    - id: 4
+      title: Đám Tang Chó
+      summary: 'Nhân vật & Hoàn cảnh: Một gia đình tổ chức tang lễ hết sức trang nghiêm,
+        chu đáo cho một chú chó cưng trung nghĩa đã trung thành gắn bó suốt nhiều
+        năm.
+
+        Hành vi tạo nghiệp: Đối chiếu giữa lòng trung thành xả thân bảo vệ chủ của
+        loài chó với thói vong ân bội nghĩa, phản trắc của nhiều con người trong xã
+        hội kim tiền.
+
+        Quả báo hiện tiền: Kẻ phản bạn lừa thầy, sống phụ bạc ân tình đều chiêu cảm
+        ác báo thân bại danh liệt, bị người khinh bỉ và đọa lạc vào ác đạo.
+
+        Bài học & Chuyển hóa: Câu chuyện thức tỉnh tình thương loài vật và Phật tính
+        nơi muôn loài chúng sinh; làm người phải biết giữ gìn chữ tín và lòng tri
+        ân sâu sắc, chớ sống thua loài súc vật có nghĩa.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660419?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-4
       read_label: 📖 Đọc sách
-    - id: 6
-      title: Người ưa câu cá
-      summary: Người say mê thú câu cá, xem việc cá bị móc họng giãy giụa làm niềm
-        vui; về sau chịu quả báo ung thư vòm họng và mắc lưỡi câu rách miệng đau đớn.
+    - id: 5
+      title: Người Ưa Câu Cá
+      summary: 'Nhân vật & Hoàn cảnh: Một người đàn ông có thú vui đam mê câu cá suốt
+        mấy mươi năm, tự hào với kỹ thuật giật cần và găm lưỡi câu sắc bén vào miệng
+        cá.
+
+        Hành vi tạo nghiệp: Dùng lưỡi câu sắt nhọn móc rách môi, thủng họng hàng ngàn
+        con cá sống, biến nỗi đau đớn xé thịt của loài vật thành niềm vui tiêu khiển
+        mỗi ngày.
+
+        Quả báo hiện tiền: Cuối đời mắc bệnh ung thư vòm họng và ung thư môi, toàn
+        bộ môi và hàm dưới bị lở loét hoại tử đục thủng từng lỗ to y như bị lưỡi câu
+        xé toạc, không thể ăn uống chỉ có thể rên rỉ đau đớn.
+
+        Bài học & Chuyển hóa: Cảnh tượng đau đớn trên giường bệnh tái hiện chân thực
+        nỗi đau xé họng loài cá năm xưa; gieo nhân nào gặt quả nấy, tuyệt đối không
+        nên lấy sát sinh làm thú vui tiêu khiển.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660420?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-5
       read_label: 📖 Đọc sách
-    - id: 7
-      title: Thức ngon đặc chế
-      summary: Chế biến các món ăn tàn bạo từ động vật sống để làm thức ngon đặc chế;
-        người chủ phải trả giá bằng căn bệnh viêm loét nội tạng không thuốc nào chữa
-        khỏi.
+    - id: 6
+      title: Thức Ngon Đặc Chế
+      summary: 'Nhân vật & Hoàn cảnh: Chủ quán ăn đặc sản nghĩ ra những món ăn man
+        rợ để chiều chuộng thú ẩm thực tàn ác của thực khách nhà giàu nhằm thu lợi
+        nhuận cao.
+
+        Hành vi tạo nghiệp: Khóa chặt đầu khỉ sống rồi dùng dao phạt ngang hộp sọ
+        ăn óc khỉ tại bàn; nướng rùa sống trên chảo gang đỏ lửa để rùa uống cạn gia
+        vị cay nồng rồi quằn quại chết từ từ.
+
+        Quả báo hiện tiền: Quán ăn bốc cháy dữ dội trong đêm, người chủ kẹt trong
+        phòng kín bị lửa thiêu cháy đen thui hệt như cảnh rùa trên chảo lửa, đầu bị
+        thanh xà gồ rớt trúng vỡ toác như cách ông từng phạt đầu khỉ.
+
+        Bài học & Chuyển hóa: Quả báo hiện đời rùng rợn giáng xuống kẻ thủ ác; miếng
+        ăn tàn nhẫn lấy đi sinh mạng của chúng sinh trong đau đớn ắt phải đền mạng
+        bằng chính mạng sống của mình.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660421?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-6
       read_label: 📖 Đọc sách
-    - id: 8
-      title: Người chân voi
-      summary: Thái tiên sinh bắt ngỗng sống đứng nhảy múa trên bàn sắt nung đỏ để
-        ăn chân ngỗng nướng; chiêu cảm quả báo hai chân sưng phồng đau buốt như chân
-        voi suốt 6 năm ròng.
+    - id: 7
+      title: Người Chân Voi
+      summary: 'Nhân vật & Hoàn cảnh: Một phụ nữ giàu có mắc phải chứng bệnh phù chân
+        voi kỳ quái: hai chân sưng phồng thô ráp, nứt nẻ chảy nước vàng tanh tưởi,
+        nặng nề không thể bước đi.
+
+        Hành vi tạo nghiệp: Thuở nhỏ và thời trẻ có thói quen dẫm đạp tàn nhẫn lên
+        ốc sên, cóc nhái trong vườn cho nát bét để làm trò vui, lại thường sai gia
+        nhân rắc vôi bột đốt chân các loài thú nhỏ.
+
+        Quả báo hiện tiền: Đôi chân bà biến dạng to lớn sần sùi hệt như chân voi,
+        đau đớn buốt nhức từng ngày không thuốc men nào chữa lành, phải chịu sự cô
+        độc hành hạ thể xác.
+
+        Bài học & Chuyển hóa: Thân thể con người là tấm gương phản chiếu nghiệp lực;
+        làm tổn thương bàn chân và sinh mạng của muôn loài ắt phải nhận lấy sự hủy
+        hoại trên chính đôi chân mình.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660422?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-7
       read_label: 📖 Đọc sách
-    - id: 9
-      title: Bắt rắn mối
-      summary: Quả báo khủng khiếp của người chuyên săn bắt, mua bán và giết hại rắn
-        mối còn sống, toàn thân phát bệnh vảy ngứa, lở loét và chịu nỗi đau da thịt
-        khôn xiết.
+    - id: 8
+      title: Bán Rắn Mối
+      summary: 'Nhân vật & Hoàn cảnh: Kẻ chuyên săn bắt, thu mua và buôn bán rắn mối
+        sống số lượng lớn cho các nhà hàng quán nhậu ngâm rượu thuốc bổ.
+
+        Hành vi tạo nghiệp: Để rắn mối không thể chạy thoát, anh ta dùng kìm bẻ gãy
+        từng khớp chân và dùng dây thép sắc nhọn xâu xuyên qua mắt và miệng chúng,
+        phơi nắng hành hạ dã man.
+
+        Quả báo hiện tiền: Anh ta gặp tai nạn giao thông kinh hoàng, cẳng chân bị
+        bánh xe nghiền nát gãy vụn, mắt bị mảnh kính đâm mù lòa, nằm liệt giường rên
+        xiết suốt nhiều năm trong cảnh túng quẫn bần hàn.
+
+        Bài học & Chuyển hóa: Hành hạ thân xác chúng sinh ra sao thì quả báo giáng
+        xuống bản thân y hệt như vậy; hãy mau chóng từ bỏ nghề nghiệp tàn ác để giữ
+        lấy phúc mạng cho mình.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660423?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-8
+      read_label: 📖 Đọc sách
+    - id: 9
+      title: Cá “Câu” Người
+      summary: 'Nhân vật & Hoàn cảnh: Gia đình làm nghề chài lưới và câu cá chuyên
+        nghiệp nhiều đời ven sông lớn, nổi tiếng sát cá và có thù đoạn đánh bắt tàn
+        nhẫn.
+
+        Hành vi tạo nghiệp: Dùng xiên sắt và lưỡi câu chùm đâm thủng yết hầu cá sống,
+        để cá giẫy giụa đau đớn cho đến chết rồi mới mang ra chợ bán kiếm lời.
+
+        Quả báo hiện tiền: Trong một lần lặn sông gỡ lưỡi câu mắc kẹt, dây câu bị
+        một con cá lớn giãy mạnh quấn chặt nhiều vòng quanh cổ, lưỡi câu sắc nhọn
+        đâm xuyên qua cổ họng kéo người cha chết chìm dưới đáy nước.
+
+        Bài học & Chuyển hóa: ''Người móc cá, cá móc người'' – quy luật nhân quả tuần
+        hoàn báo ứng đích đáng và công bằng, không ai có thể thoát khỏi nghiệp sát
+        của chính mình.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660424?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-9
       read_label: 📖 Đọc sách
     - id: 10
-      title: Cá câu người
-      summary: Kẻ thích buông câu giết cá rốt cuộc bị rơi xuống nước chết chìm; cảnh
-        tỉnh thú vui sát sinh tàn nhẫn lấy sinh mạng chúng sinh làm trò tiêu khiển.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660424?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      title: Bệnh Của Văn Lai
+      summary: 'Nhân vật & Hoàn cảnh: Anh Văn Lai 43 tuổi làm nghề nông, vì tin theo
+        lời đồn ăn ba ba bổ dương trừ phong thấp nên suốt 20 năm liên tục giết thịt
+        ăn ba ba sống.
+
+        Hành vi tạo nghiệp: Mua được con ba ba khổng lồ nặng hơn mười ký, anh nghĩ
+        ra cách tàn ác: mỗi ngày dùng dao xẻo một miếng thịt trên mình ba ba còn sống
+        để xào ớt ăn dần, rồi quẹt vôi cầm máu cho nó sống tiếp nửa tháng.
+
+        Quả báo hiện tiền: Anh bị ba ba cắn vào ngón tay và ngón chân, độc tố ăn sâu
+        vào tủy xương khiến bác sĩ phải phẫu thuật cưa bỏ từng đốt ngón, rồi cưa dần
+        bàn tay và bàn chân qua 5 lần mổ xẻ kinh hoàng.
+
+        Bài học & Chuyển hóa: Nỗi đau bị cắt xẻo từng phần thân thể khi còn sống nay
+        chính bản thân phải nếm trải dưới lưỡi dao phẫu thuật; sát sinh tàn độc ắt
+        rước lấy quả báo tàn phế hiện tiền.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660425?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-10
       read_label: 📖 Đọc sách
     - id: 11
-      title: Bệnh của Văn Lai
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Bệnh của Văn Lai; làm sáng tỏ
-        quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn
-        chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660425?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      title: Tiểu Thư Khỉ
+      summary: 'Nhân vật & Hoàn cảnh: Cô gái có biệt danh ''Tiểu Thư Khỉ'', tuy gương
+        mặt xinh đẹp nhưng tính khí và cử chỉ lại mang đầy tập tính của loài vượn
+        khỉ.
+
+        Hành vi tạo nghiệp: Mẹ cô thời trẻ từng giúp cha mổ bụng một con khỉ mẹ đang
+        mang thai để lấy con nấu cao bồi bổ, nhẫn tâm nhìn khỉ mẹ quằn quại ôm con
+        chết trong đau đớn.
+
+        Quả báo hiện tiền: Người con gái sinh ra toàn thân mọc lông xám dày đặc, các
+        ngón tay cong quắp và luôn có thói quen nhảy nhót, cào cấu phát ra tiếng kêu
+        như loài khỉ, khiến cha mẹ xấu hổ đau lòng.
+
+        Bài học & Chuyển hóa: Oan hồn loài khỉ mẹ nương vào thai nhi để đòi nợ nghiệp
+        chướng; cảnh báo sâu sắc về việc sát hại động vật mang thai đem lại quả báo
+        dị tật cho con cháu đời sau.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660426?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-11
       read_label: 📖 Đọc sách
     - id: 12
-      title: Tiểu thư khỉ
-      summary: Cô gái sinh ra có hình dạng và hành vi kỳ lạ giống loài khỉ do kiếp
-        trước khinh mạn, chế giễu hình tướng người khác và nghiệp sát loài linh trưởng.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660426?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      title: Trộm Công Giảm Liệu
+      summary: 'Nhân vật & Hoàn cảnh: Nhà thầu xây dựng vì lòng tham lợi nhuận đã
+        gian lận, rút bớt sắt thép và pha trộn xi măng kém chất lượng khi thi công
+        các công trình trường học và bệnh viện.
+
+        Hành vi tạo nghiệp: Bỏ túi hàng triệu đồng tiền bẩn bất chính trên sự an nguy
+        tính mạng của hàng ngàn người dân và trẻ nhỏ vô tội.
+
+        Quả báo hiện tiền: Căn biệt thự sang trọng của chính ông ta bất ngờ bị sụp
+        đổ trong một trận giông lốc; gạch đá đổ sập đè gãy hai chân ông và làm chết
+        người con trai duy nhất mà ông yêu quý nhất trên đời.
+
+        Bài học & Chuyển hóa: Của phi nghĩa làm từ sự gian dối rút ruột công trình
+        không những chẳng giữ được mà còn rước lấy thảm họa nhà tan cửa nát, mất đi
+        người thân ruột thịt.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660427?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-12
       read_label: 📖 Đọc sách
     - id: 13
-      title: Trộm công giảm liệu
-      summary: Nhà thầu bớt xén vật tư công trình mưu lợi bất chính, chiêu cảm quả
-        báo công trình sụp đổ, bản thân phá sản lâm vào cảnh tù tội khốn cùng.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660427?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-11
-      read_label: 📖 Đọc sách
-    - id: 14
-      title: Người chồng tài hoa
-      summary: Người chồng tài hoa trác việt nhưng phóng túng tà dâm, bội bạc vợ hiền;
-        chuốc lấy quả báo tiêu tan danh vọng, thân bại danh liệt trong cay đắng.
+      title: Người Chồng Tài Hoa
+      summary: 'Nhân vật & Hoàn cảnh: Một nghệ sĩ tài hoa, phong nhã và có tài ăn
+        nói nhưng tâm tánh phóng túng tà dâm, xem thường đạo đức luân thường lừa gạt
+        nhiều phụ nữ.
+
+        Hành vi tạo nghiệp: Lợi dụng tài hoa và lời đường mật lừa gạt tình cảm của
+        nhiều cô gái trong trắng, làm tan vỡ gia đình người khác rồi rũ bỏ trách nhiệm
+        khi họ mang thai.
+
+        Quả báo hiện tiền: Cuối đời mắc bệnh ung thư hạ bộ thối rữa đau đớn, bị mọi
+        người xa lánh ghê tởm, sống cô độc trong viện dưỡng lão không một người thân
+        chăm sóc, chết trong tủi nhục bần hàn.
+
+        Bài học & Chuyển hóa: Tà dâm phá hoại gia can người khác là tội nặng bậc nhất;
+        tài hoa bạc phận cũng bởi không có đức hạnh giữ gìn, gieo cay đắng ắt gặt
+        lấy bi kịch cô độc.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660428?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-12
-      read_label: 📖 Đọc sách
-    - id: 15
-      title: Pháp quan kỳ án
-      summary: Vị thẩm phán xử oan sai hại người lương thiện; âm luật phân minh, nghiệp
-        báo gõ cửa khiến bản thân mắc bạo bệnh và chịu cảnh ác báo rùng rợn.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660429?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-13
       read_label: 📖 Đọc sách
-    - id: 16
-      title: Những kẻ buôn người
-      summary: Tội ác bắt cóc, buôn bán phụ nữ và trẻ em gây cảnh tan nát gia đình;
-        kẻ chủ mưu gánh chịu quả báo con cái tàn tật, thân thể thối rữa chết thảm.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660430?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+    - id: 14
+      title: Pháp Quan Kỳ Án
+      summary: 'Nhân vật & Hoàn cảnh: Một vị thẩm phán nắm giữ quyền cân đo công lý
+        nhưng tham lam nhận tiền hối lộ, bẻ cong pháp luật xử ép người vô tội chịu
+        án oan sai.
+
+        Hành vi tạo nghiệp: Vì túi tiền bất chính mà đẩy người lương thiện vào cảnh
+        tù đày chết oan trong ngục tối, để mặc kẻ thủ ác thực sự nhởn nhơ ngoài vòng
+        pháp luật.
+
+        Quả báo hiện tiền: Sau khi về hưu thường xuyên thấy oan hồn hiện về đòi mạng
+        trong đêm, tâm thần hoảng loạn phát điên, tự tay rạch ngực thú tội trước công
+        chúng rồi đập đầu tự sát.
+
+        Bài học & Chuyển hóa: Cán cân công lý của luật trời không bao giờ thiên vị;
+        làm nghề xét xử mà bẻ cong sự thật vì tiền bạc ắt phải chịu sự trừng phạt
+        thảm khốc của tòa án lương tâm và âm luật.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660429?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-14
       read_label: 📖 Đọc sách
-    - id: 17
-      title: Quán ngon cao cấp
-      summary: Nhà hàng chuyên phục vụ thịt thú rừng tươi sống chiêu cảm tai họa hỏa
-        hoạn, chủ quán mắc bệnh nan y hiểm nghèo do oán khí sinh linh tích tụ.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660431?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+    - id: 15
+      title: Những Kẻ Buôn Người
+      summary: 'Nhân vật & Hoàn cảnh: Đường dây buôn người tàn nhẫn bắt cóc phụ nữ
+        và trẻ em đem bán qua biên giới vào các động mại dâm và hầm mỏ bóc lột, phá
+        nát vô số gia đình êm ấm.
+
+        Hành vi tạo nghiệp: Xem thân xác và mạng sống con người như món hàng trao
+        đổi kiếm tiền, gây ra cảnh chia lìa cốt nhục đẫm nước mắt cho biết bao người
+        mẹ mất con, chồng mất vợ.
+
+        Quả báo hiện tiền: Kẻ cầm đầu sinh con ra đều bị dị tật ngớ ngẩn, bản thân
+        bị đồng bọn phản trắc cướp sạch tài sản, bị bắt giam lĩnh án tử hình; cả dòng
+        họ lưu lạc ăn mày tủi nhục.
+
+        Bài học & Chuyển hóa: Tội ác buôn bán đồng loại là ác nghiệp tày trời; tiền
+        tài kiếm được từ xương máu tha nhân sẽ biến thành ngọn lửa thiêu rụi toàn
+        bộ phúc lộc ba đời.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660430?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-15
       read_label: 📖 Đọc sách
-    - id: 18
-      title: Đi câu bị cảm động
-      summary: Người đi câu chứng kiến tình mẫu tử thiêng liêng của loài cá sẵn sàng
-        chết vì con, thức tỉnh lương tri bẻ gãy cần câu, trọn đời phát tâm ăn chay
-        phóng sinh.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660432?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+    - id: 16
+      title: Quán Ngon Cao Cấp
+      summary: 'Nhân vật & Hoàn cảnh: Nhà hàng ẩm thực cao cấp chuyên phục vụ các
+        món thú rừng quý hiếm tươi sống, quảng cáo giết mổ động vật tại chỗ để chứng
+        minh độ tươi ngon.
+
+        Hành vi tạo nghiệp: Nhẫn tâm dùng búa đập đầu hươu nai sống, mổ bụng chim
+        muông khi chúng còn giẫy giụa thở dốc trước mắt thực khách để phô trương đẳng
+        cấp ẩm thực.
+
+        Quả báo hiện tiền: Một vụ nổ bình gas kinh hoàng tại gian bếp đã thiêu rụi
+        toàn bộ nhà hàng trong biển lửa; chủ quán và đầu bếp bị bỏng nặng toàn thân
+        biến dạng, tán gia bại sản.
+
+        Bài học & Chuyển hóa: Của cải xây dựng trên sự tàn sát sinh linh chẳng bao
+        giờ bền vững; ngọn lửa sân hận của muôn loài bị giết thịt sẽ trở thành ngọn
+        lửa thiêu rụi sự nghiệp kẻ gieo nhân.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660431?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-16
       read_label: 📖 Đọc sách
-    - id: 19
-      title: Chuyện nơi lâm trường
-      summary: Những người phá rừng sát hại muôn thú nơi rừng sâu chịu quả báo tai
-        nạn cây đè, rắn cắn và đời sống lụi tàn; dạy bài học tôn trọng sinh thái và
-        tự nhiên.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660433?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+    - id: 17
+      title: Đi Câu Bị Cảm Động
+      summary: 'Nhân vật & Hoàn cảnh: Một người đàn ông có thói quen câu cá giải trí,
+        trong một chuyến đi câu bên hồ lớn đã móc trúng một con cá chép bụng to sắp
+        đẻ.
+
+        Hành vi tạo nghiệp: Thường xuyên dùng mồi câu lừa cá cắn câu, thỏa mãn thú
+        vui săn bắt nhưng chưa từng nghĩ đến nỗi đau đớn và tình mẫu tử của loài thủy
+        tộc.
+
+        Quả báo hiện tiền: Kéo con cá lên bờ, ông bàng hoàng thấy hai mắt cá ứa lệ,
+        miệng cử động van lơn như khẩn cầu tha mạng cho bầy con thơ đang chờ chào
+        đời trong bụng.
+
+        Bài học & Chuyển hóa: Trực giác từ bi bừng tỉnh, ông vội vã tháo lưỡi câu
+        thả cá về hồ, bẻ gãy cần câu và phát nguyện từ bỏ vĩnh viễn việc sát sinh,
+        chuyển sang bảo vệ sinh thái và phóng sinh cứu vật.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660432?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-17
       read_label: 📖 Đọc sách
-    - id: 20
-      title: Khi máy mổ hoàn tất
-      summary: Sáng chế máy mổ thịt động vật hàng loạt tự động, tưởng lập công nhưng
-        thực chất tạo nghiệp sát vô biên, người chế tạo rốt cuộc chết thảm trong chính
-        cỗ máy.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660435?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+    - id: 18
+      title: Chuyện Nơi Lâm Trường
+      summary: 'Nhân vật & Hoàn cảnh: Nhóm công nhân khai thác gỗ tại vùng rừng sâu
+        lâm trường hẻo lánh, thường xuyên đặt bẫy săn bắn thú rừng hoang dã làm mồi
+        nhậu bồi dưỡng.
+
+        Hành vi tạo nghiệp: Dùng bẫy chông sắt và súng săn tàn sát gấu ngựa, lợn rừng,
+        khỉ vượn vô tội, chặt phá cây đại thụ cổ thụ ngàn năm không chút kiêng dè.
+
+        Quả báo hiện tiền: Trong đêm mưa bão kinh hoàng, một cây cổ thụ ngàn năm bất
+        ngờ gãy đổ đè trúng lều trại khiến hai người tử nạn tại chỗ, những người còn
+        lại bị thương tật tàn phế suốt đời.
+
+        Bài học & Chuyển hóa: Rừng thiêng nước độc đều có linh khí và thần linh bảo
+        hộ; tàn phá thiên nhiên và sát hại sinh linh nơi rừng thẳm ắt chiêu cảm tai
+        ương hủy diệt bất ngờ.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660433?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-18
       read_label: 📖 Đọc sách
-    - id: 21
-      title: Cận tử nghiệp đáng sợ
-      summary: Giây phút lâm chung hiện rõ cảnh giới đòi nợ của oan gia trái chủ;
-        nếu bình sinh không niệm Phật trì giới thì khó tránh sa đọa ba đường ác.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660434?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+    - id: 19
+      title: Khi Máy Mổ Hoàn Tất
+      summary: 'Nhân vật & Hoàn cảnh: Một kỹ sư cơ khí tài ba dày công thiết kế và
+        chế tạo dây chuyền máy móc giết mổ gia súc tự động hóa quy mô lớn, công suất
+        hàng ngàn con mỗi ngày.
+
+        Hành vi tạo nghiệp: Đem trí tuệ và tài năng kỹ thuật phục vụ cho việc tàn
+        sát sinh mạng hàng loạt, biến cái chết của muôn loài thành guồng máy công
+        nghiệp lạnh lùng vô cảm.
+
+        Quả báo hiện tiền: Đúng ngày chạy thử nghiệm cỗ máy, do sơ suất vạt áo bị
+        cuốn vào bánh răng lưỡi cưa tự động, chính ông bị cỗ máy do mình sáng chế
+        cưa đứt thân thể chết thảm tại chỗ.
+
+        Bài học & Chuyển hóa: Cỗ máy giết chóc đã lấy mạng chính người tạo ra nó;
+        bài học xương máu cảnh tỉnh con người chớ dùng trí tuệ phát minh công cụ phục
+        vụ cho sự hủy diệt sinh mạng.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660435?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-19
       read_label: 📖 Đọc sách
-    - id: 22
-      title: Thịt rùa ngon
-      summary: Ham ăn thịt rùa trường thọ, chặt đầu nấu sống loài rùa; người ăn phát
-        bệnh cổ rụt, toàn thân co quắp đau đớn như rùa bị bỏ vào nồi nước sôi.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660436?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+    - id: 20
+      title: Cận Tử Nghiệp Đáng Sợ
+      summary: 'Nhân vật & Hoàn cảnh: Một đồ tể chuyên nghề mổ heo mổ bò suốt cả cuộc
+        đời, đến tuổi già lâm bệnh nặng nằm liệt trên giường chờ phút lâm chung.
+
+        Hành vi tạo nghiệp: Hàng vạn sinh mạng heo bò đã ngã gục dưới lưỡi dao thọc
+        huyết sắc lạnh của ông suốt mấy mươi năm mưu sinh kiếm sống.
+
+        Quả báo hiện tiền: Giây phút cận tử nghiệp hiện về, ông hai mắt trợn trừng,
+        miệng rống lên từng hồi eng éc y hệt tiếng heo bị chọc tiết, tay chân co giật
+        quào cấu kinh hoàng trước mắt con cháu.
+
+        Bài học & Chuyển hóa: Nghiệp lực huân tập cả đời sẽ trổ hiện chân thực lúc
+        lâm chung; sát sinh tạo nghiệp bao nhiêu thì giây phút ra đi đau đớn bấy nhiêu,
+        không ai có thể gánh thay.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660434?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-20
       read_label: 📖 Đọc sách
-    - id: 23
-      title: Hứa tiên sinh
-      summary: Gương cư sĩ Hứa tiên sinh một đời thiện lương, phóng sinh cứu vật,
-        lúc lâm chung an nhiên tự tại, cảm ứng điềm lành vãng sinh cõi tịnh.
+    - id: 21
+      title: Thịt Rùa Ngon
+      summary: 'Nhân vật & Hoàn cảnh: Một nhóm thực khách sành ăn rủ nhau đến quán
+        đặc sản thưởng thức món lẩu rùa sống bổ dưỡng trứ danh để tẩm bổ sinh lực.
+
+        Hành vi tạo nghiệp: Thả từng con rùa còn sống nguyên vào nồi nước lẩu đang
+        sôi sùng sục đậy kín vung, khoái trá nhìn rùa quằn quại cào xước nắp nồi trong
+        đau đớn tột cùng rồi mới ăn.
+
+        Quả báo hiện tiền: Vài ngày sau cả nhóm đi chung xe hơi thì xe bất ngờ bốc
+        cháy dữ dội trên đường cao tốc; các cửa xe bị kẹt cứng khiến tất cả bị thiêu
+        cháy quằn quại trong xe y hệt cảnh rùa trong nồi nước sôi.
+
+        Bài học & Chuyển hóa: Miếng ăn khoái khẩu trong chốc lát đổi lấy cái chết
+        thảm khốc trong biển lửa; sự tàn nhẫn đối với loài vật sẽ quay trở lại trừng
+        phạt chính con người với cấp độ gấp trăm lần.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660436?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-21
+      read_label: 📖 Đọc sách
+    - id: 22
+      title: Tình Thương Con Của Khỉ Lông Vàng
+      summary: 'Nhân vật & Hoàn cảnh: Một người thợ săn thiện xạ đi săn trong rừng
+        sâu, phát hiện một con khỉ mẹ lông vàng đang ôm khỉ con trên cành cây cao.
+
+        Hành vi tạo nghiệp: Lạnh lùng giương cung bắn mũi tên độc xuyên qua tim khỉ
+        mẹ để cướp khỉ con mang về bán lấy tiền.
+
+        Quả báo hiện tiền: Khỉ mẹ trúng tên độc nhưng gắng gượng chút tàn lực cuối
+        cùng ôm chặt con thơ cho bú nốt giọt sữa rồi mới rơi xuống đất; khi mổ bụng
+        phát hiện ruột non của nó đã đứt ra từng đoạn vì đau đớn xót con.
+
+        Bài học & Chuyển hóa: Tình mẫu tử thiêng liêng chấn động trời đất của loài
+        vật khiến người thợ săn bật khóc kinh hãi, bẻ gãy cung tên sám hối và phát
+        nguyện quy y cửa Phật suốt đời chuộc tội.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660437?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-22
       read_label: 📖 Đọc sách
-    - id: 24
-      title: Tình thương con của khỉ lông vàng
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Tình thương con của khỉ lông
-        vàng; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến
-        hóa người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+    - id: 23
+      title: Hứa Tiên Sinh
+      summary: 'Nhân vật & Hoàn cảnh: Hứa tiên sinh là một thương gia buôn bán ngũ
+        cốc giàu có nức tiếng nhưng tâm địa gian xảo, tham lam keo kiệt không ai bằng.
+
+        Hành vi tạo nghiệp: Lợi dụng lúc thiên tai mất mùa gom hàng đầu cơ tích trữ
+        rồi tăng giá cắt cổ, lại còn trộn thêm cát sạn và thóc lép vào gạo bán cho
+        dân nghèo đói khổ kiếm lời bất chính.
+
+        Quả báo hiện tiền: Về già con cháu hư hỏng cờ bạc phá sạch cơ nghiệp; bản
+        thân ông mắc bệnh ung thư thực quản nghẹn nghẹt không nuốt nổi một giọt nước
+        cháo, chết đói bên đống vàng bạc mục rỗng.
+
+        Bài học & Chuyển hóa: Bóc lột người nghèo trong lúc hoạn nạn là tội ác tổn
+        phước nặng nề nhất; của cải phi nghĩa đổi lấy cái chết nghẹn ngào đói khát
+        là quy luật đào thải tất yếu của đạo trời.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660438?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-23
+      read_label: 📖 Đọc sách
+    - id: 24
+      title: Ngọc Lan
+      summary: 'Nhân vật & Hoàn cảnh: Cô gái trẻ xinh đẹp tên Ngọc Lan vì khao khát
+        cuộc sống xa hoa giàu sang và giữ gìn vóc dáng làm người mẫu nên đã phá thai
+        nhiều lần không chút thương tiếc.
+
+        Hành vi tạo nghiệp: Tước đoạt quyền sống của những giọt máu ruột thịt của
+        chính mình, coi rẻ sinh mạng hài nhi vô tội để chạy theo dục vọng và danh
+        lợi phù phiếm.
+
+        Quả báo hiện tiền: Nhan sắc tàn phai nhanh chóng, người tình phụ bạc ruồng
+        bỏ; tử cung bị nhiễm trùng hoại tử phải phẫu thuật cắt bỏ toàn bộ, vĩnh viễn
+        mất đi thiên chức làm mẹ thiêng liêng.
+
+        Bài học & Chuyển hóa: Đêm đêm sống trong ám ảnh bởi tiếng khóc đòi mẹ của
+        những vong thai; cô đau đớn thức tỉnh tìm về cửa Phật ăn năn sám hối, làm
+        lễ cầu siêu chuộc lại lỗi lầm đẫm máu.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660439?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-24
       read_label: 📖 Đọc sách
     - id: 25
-      title: Ngọc Lan
-      summary: Cô gái tên Ngọc Lan trải qua nghiệp duyên trắc trở trong hôn nhân;
-        nhờ biết nương tựa Phật pháp, sám hối nghiệp ái tiền khiên mà tìm lại được
-        an lạc.
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660439?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-23
+      title: Con Lừa
+      summary: 'Nhân vật & Hoàn cảnh: Người đánh xe ngựa lừa tính tình hung tợn, thường
+        xuyên dùng roi sắt và gậy gộc đánh đập con lừa già kéo xe đến tóe máu rách
+        da.
+
+        Hành vi tạo nghiệp: Ép con lừa già chở hàng quá tải giữa trưa nắng gắt mà
+        không cho ăn uống nghỉ ngơi, đến khi con vật kiệt sức gục ngã chết thảm bên
+        vệ đường vẫn thẳng tay quất roi.
+
+        Quả báo hiện tiền: Nhiều năm sau người chủ sinh được một đứa con trai có thân
+        hình gù vẹo, da dẻ chai sần thô ráp và tính tình ương bướng, suốt đời cha
+        mẹ phải nai lưng làm lụng nuôi nấng trả nợ.
+
+        Bài học & Chuyển hóa: Đối xử tàn bạo bạc đãi với súc vật có công phục vụ mình
+        ắt sẽ chiêu cảm oan gia đầu thai làm con để đòi nợ nhọc nhằn; nhân quả đền
+        trả công bằng không sai chạy.'
+      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660440?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-25
       read_label: 📖 Đọc sách
     - id: 26
-      title: Con lừa
-      summary: 'Mối quan hệ nhân quả truyền kiếp giữa chủ và vật nuôi: lừa trả nợ
-        kiếp trước nhưng chủ bạc đãi quá mức ắt phải chịu quả báo tương ứng đời sau.'
-      audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660440?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-24
-      read_label: 📖 Đọc sách
-    - id: 27
-      title: Chu Tú Hoa
-      summary: 'Vụ án mượn xác hoàn hồn có thật 100% tại Đài Loan chấn động thế giới:
-        linh hồn cô gái Chu Tú Hoa nhập vào thân xác bà Ngô Lâm Võng, chứng minh linh
-        hồn và luân hồi bất diệt.'
+      title: Công Chúa Thăng Hoa
+      summary: 'Nhân vật & Hoàn cảnh: Câu chuyện nhân duyên luân hồi của một vị công
+        chúa lá ngọc cành vàng thời xưa, sinh ra trong nhung lụa quyền quý tối cao
+        nhưng tâm tánh kiêu kỳ ngạo mạn.
+
+        Hành vi tạo nghiệp: Ỷ vào quyền thế coi thường kẻ hầu người hạ, tạo khẩu nghiệp
+        nặng nề và đắm chìm trong thú vui xa hoa hưởng lạc lãng phí biết bao phước
+        báo trời ban.
+
+        Quả báo hiện tiền: Hết phước đọa lạc qua nhiều kiếp trầm luân khổ ải trong
+        cõi trần, nếm trải nỗi đau tan nát sinh ly tử biệt và sự vô thường mong manh
+        của danh lợi thế gian.
+
+        Bài học & Chuyển hóa: Thấu tỏ biển khổ luân hồi không lối thoát, nàng phát
+        đại nguyện quy y Tam Bảo, tinh tấn niệm Phật trì giới đoạn trừ tham ái, cầu
+        sinh Tây Phương Tịnh Độ vĩnh viễn thăng hoa giải thoát.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660442?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-26
       read_label: 📖 Đọc sách
-    - id: 28
-      title: Công chúa Thăng Hoa
-      summary: Quá trình chuyển hóa tâm thức nhiệm màu từ tâm kiêu ngạo thế tục sang
-        con đường tỉnh thức tu hành, gặt hái an lạc giải thoát tối thượng.
+    - id: 27
+      title: Chu Tú Hoa
+      summary: 'Nhân vật & Hoàn cảnh: Vụ án ''Mượn xác hoàn hồn'' có thật chấn động
+        toàn thế giới tại Đài Loan năm 1959, được các cơ quan y tế, truyền thông và
+        chính quyền kiểm chứng xác thực 100%.
+
+        Hành vi tạo nghiệp: Cô gái Chu Tú Hoa bị sóng đánh dạt vào bờ biển nhưng bị
+        kẻ xấu cướp vàng và đẩy thuyền ra biển sâu dìm chết oan uổng; nhờ tâm niệm
+        trong sáng và luôn niệm Phật nên linh hồn không tan.
+
+        Quả báo hiện tiền: Bọn cướp biển sau đó đều phát điên chết thảm hoặc chịu
+        án tử hình; linh hồn cô nương nhờ thiện nghiệp được thần linh che chở, sau
+        mượn thân xác bà Ngô Lâm Cẩm Đôn đã chết để sống lại.
+
+        Bài học & Chuyển hóa: Sau khi hoàn hồn bà sống đời ăn chay niệm Phật, làm
+        việc thiện cứu người; sự kiện là bằng chứng hùng hồn chứng minh sự tồn tại
+        bất diệt của thần thức và luật nhân quả luân hồi.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/49d883ec-3e0f-44c8-b1af-56a626f40eab/file/660441?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-25
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-27
       read_label: 📖 Đọc sách
