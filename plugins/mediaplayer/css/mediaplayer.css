@@ -929,6 +929,15 @@ body.tm-night-mode .tm-audio-scrubber-row {
     color: #ffffff !important;
 }
 
+.tm-track-btn-share {
+    background: #7c2d12;
+    color: #ffffff !important;
+}
+
+.tm-track-btn-share:hover {
+    background: #991b1b;
+}
+
 /* Multi-Format Story Cards (.tm-storylist-box) */
 .tm-storylist-box {
     margin: 1.5rem 0;
@@ -1041,7 +1050,13 @@ body.tm-night-mode .tm-audio-scrubber-row {
 .tm-summary-toggle-row {
     margin-top: 6px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.tm-summary-toggle-row > :only-child {
+    margin-left: auto;
 }
 
 .tm-summary-toggle-btn {

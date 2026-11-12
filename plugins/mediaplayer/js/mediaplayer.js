@@ -1923,6 +1923,112 @@
         document.body.classList.add("tm-kpc-modal-open");
     };
 
+    window.tmBuhdOpenShareModal = function (storyTitle, storyUrl, summaryText, volTitle) {
+        var modal = ensureKpcShareModal();
+        volTitle = volTitle || "Báo Ứng Hiện Đời";
+        storyTitle = storyTitle || "Câu chuyện nhân quả";
+        var absUrl = storyUrl || window.location.href;
+        if (absUrl && !absUrl.match(/^https?:\/\//i)) {
+            absUrl = window.location.origin + (absUrl.charAt(0) === '/' ? '' : '/') + absUrl;
+        }
+
+        var cleanSummary = (summaryText || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+        var fullText = "📖 " + volTitle + "\n" +
+                       "🔹 Câu chuyện: " + storyTitle + "\n\n" +
+                       (cleanSummary ? (cleanSummary + "\n\n") : "") +
+                       "🔗 Đọc toàn văn & nghe audio tại: " + absUrl;
+
+        var titleEl = document.getElementById("tm-kpc-share-title");
+        if (titleEl) {
+            titleEl.textContent = "🔗 Chia sẻ: " + storyTitle + " — " + volTitle;
+        }
+
+        var prevEl = document.getElementById("tm-kpc-share-preview");
+        if (prevEl) {
+            prevEl.innerHTML =
+                '<div class="tm-kpc-sp-badge">' + escapeHtml(volTitle) + '</div>' +
+                '<div class="tm-kpc-sp-verse" style="font-weight:700; color:#8c2d19; font-size:1.05rem; margin-bottom:6px;">' + escapeHtml(storyTitle) + '</div>' +
+                (cleanSummary ? ('<div class="tm-kpc-sp-story" style="font-size:0.92rem; line-height:1.6; max-height:160px; overflow-y:auto;">' + escapeHtml(cleanSummary) + '</div>') : '');
+            prevEl.scrollTop = 0;
+        }
+
+        var urlInp = document.getElementById("tm-kpc-share-url-input");
+        if (urlInp) {
+            urlInp.value = absUrl;
+        }
+
+        var toast = document.getElementById("tm-kpc-share-toast");
+        if (toast) {
+            toast.style.display = "none";
+        }
+
+        var fbBtn = document.getElementById("tm-kpc-share-fb");
+        if (fbBtn) {
+            fbBtn.href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(absUrl) + "&quote=" + encodeURIComponent(fullText);
+        }
+        var tgBtn = document.getElementById("tm-kpc-share-tg");
+        if (tgBtn) {
+            tgBtn.href = "https://t.me/share/url?url=" + encodeURIComponent(absUrl) + "&text=" + encodeURIComponent(fullText);
+        }
+        var mailBtn = document.getElementById("tm-kpc-share-mail");
+        if (mailBtn) {
+            mailBtn.href = "mailto:?subject=" + encodeURIComponent(storyTitle + " — " + volTitle) + "&body=" + encodeURIComponent(fullText);
+        }
+
+        var copyLinkBtn = modal.querySelector(".tm-kpc-share-copy-url");
+        if (copyLinkBtn) {
+            copyLinkBtn.onclick = function () {
+                copyTextToClipboard(absUrl, function (ok) {
+                    showKpcShareToast(ok ? ("✓ Đã sao chép liên kết câu chuyện!") : "⚠️ Hãy bôi đen ô liên kết để chép.");
+                });
+            };
+        }
+
+        var copyFullBtn = modal.querySelector(".tm-kpc-share-opt-primary");
+        if (copyFullBtn) {
+            copyFullBtn.onclick = function () {
+                copyTextToClipboard(fullText, function (ok) {
+                    showKpcShareToast(ok ? ("✓ Đã sao chép tóm tắt & liên kết câu chuyện!") : "⚠️ Hãy bôi đen ô liên kết để chép.");
+                });
+            };
+        }
+
+        var nativeBtn = document.getElementById("tm-kpc-share-native-btn");
+        if (nativeBtn) {
+            nativeBtn.onclick = function () {
+                if (navigator.share) {
+                    navigator.share({ title: storyTitle + " — " + volTitle, text: fullText, url: absUrl }).catch(function () {});
+                } else {
+                    copyTextToClipboard(fullText, function () {
+                        showKpcShareToast("✓ Đã sao chép tóm tắt & liên kết câu chuyện!");
+                    });
+                }
+            };
+        }
+
+        modal.style.display = "flex";
+        document.body.classList.add("tm-kpc-modal-open");
+    };
+
+    window.tmShareStory = function (btn) {
+        if (!btn) return;
+        var title = btn.getAttribute("data-title") || "";
+        var url = btn.getAttribute("data-url") || window.location.href;
+        var summary = btn.getAttribute("data-summary") || "";
+        var vol = btn.getAttribute("data-vol") || "Báo Ứng Hiện Đời";
+
+        if (!summary) {
+            var card = btn.closest ? btn.closest(".tm-story-card, .tm-story-summary") : null;
+            if (card) {
+                var textEl = card.querySelector(".tm-summary-text");
+                if (textEl) {
+                    summary = textEl.textContent || textEl.innerText || "";
+                }
+            }
+        }
+        window.tmBuhdOpenShareModal(title, url, summary, vol);
+    };
+
     function initKnnpReader() {
         var app = document.getElementById("tm-knnp-reader");
         if (!app) return;
