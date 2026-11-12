@@ -816,6 +816,11 @@ class mediaplayer extends Plugin
                 $html .= '<a class="tm-track-action" href="' . $safeVid . '" target="_blank" rel="noopener noreferrer" title="Mở YouTube trong tab mới">↗ YouTube</a>';
             }
 
+            $safeShareUrl  = !empty($safeRead) ? $safeRead : '#' . $num;
+            $rawSummClean  = htmlspecialchars(strip_tags($st['summary'] ?? ''), ENT_QUOTES, 'UTF-8');
+            $volTitleClean = htmlspecialchars($this->currentMeta['meta']['title'] ?? 'Báo Ứng Hiện Đời', ENT_QUOTES, 'UTF-8');
+            $html .= '<button type="button" class="tm-track-btn tm-track-btn-share" onclick="window.tmShareStory(this)" data-title="' . $title . '" data-url="' . $safeShareUrl . '" data-vol="' . $volTitleClean . '" data-summary="' . $rawSummClean . '">🔗 Chia sẻ</button>';
+
             $html .= '    </div>'
                    . '  </div>';
 
