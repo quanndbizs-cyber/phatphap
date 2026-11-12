@@ -11,38 +11,53 @@
 
 ## 📑 Mục Lục Các Câu Chuyện (Tập 2) {#muc-luc}
 
-* [1. BA MỸ NHÂN](#truyen-1)
-* [2.  NƯỚC LÈO TRỨ DANH](#truyen-2)
-* [3. NGUYÊN NHÂN ĐÁNG SỢ](#truyen-3)
-* [4. ĐÁM TANG CHÓ](#truyen-4)
-* [5. NGƯỜI ƯA CÂU CÁ](#truyen-5)
-* [6. THỨC NGON ĐẶC CHẾ](#truyen-6)
-* [7. NGƯỜI CHÂN VOI](#truyen-7)
-* [8. BÁN RẮN MỐI](#truyen-8)
-* [9. CÁ “CÂU” NGƯỜI](#truyen-9)
-* [10. TIẾU THƯ KHỈ](#truyen-10)
-* [11. TRỘM CÔNG GIẢM LIỆU](#truyen-11)
-* [12. NGƯỜI CHỒNG TÀI HOA](#truyen-12)
-* [13. PHÁP QUAN KỲ ÁN](#truyen-13)
-* [14. NHỮNG KẺ BUÔN NGƯỜI](#truyen-14)
-* [15. QUÁN NGON CAO CẤP](#truyen-15)
-* [16. ĐI CÂU BỊ CẢM ĐỘNG](#truyen-16)
-* [17. CHUYỆN NƠI LÂM TRƯỜNG](#truyen-17)
-* [18. KHI MÁY MỔ HOÀN TẤT](#truyen-18)
-* [19. CẬN TỬ NGHIỆP ĐÁNG SỢ](#truyen-19)
-* [20. THỊT RÙA NGON](#truyen-20)
-* [21. TÌNH THƯƠNG CỦA KHỈ LÔNG VÀNG](#truyen-21)
-* [22. HỨA TIÊN SINH](#truyen-22)
-* [23. NGỌC LAN](#truyen-23)
-* [24. CON LỪA](#truyen-24)
-* [25. CÔNG CHÚA THĂNG HOA](#truyen-25)
-* [26. CHU TÚ HOA](#truyen-26)
+* [01. Ba Mỹ Nhân](#truyen-1)
+* [02. Nước Lèo Trứ Danh](#truyen-2)
+* [03. Nguyên Nhân Đáng Sợ](#truyen-3)
+* [04. Đám Tang Chó](#truyen-4)
+* [05. Người Ưa Câu Cá](#truyen-5)
+* [06. Thức Ngon Đặc Chế](#truyen-6)
+* [07. Người Chân Voi](#truyen-7)
+* [08. Bán Rắn Mối](#truyen-8)
+* [09. Cá “Câu” Người](#truyen-9)
+* [10. Bệnh Của Văn Lai](#truyen-10)
+* [11. Tiểu Thư Khỉ](#truyen-11)
+* [12. Trộm Công Giảm Liệu](#truyen-12)
+* [13. Người Chồng Tài Hoa](#truyen-13)
+* [14. Pháp Quan Kỳ Án](#truyen-14)
+* [15. Những Kẻ Buôn Người](#truyen-15)
+* [16. Quán Ngon Cao Cấp](#truyen-16)
+* [17. Đi Câu Bị Cảm Động](#truyen-17)
+* [18. Chuyện Nơi Lâm Trường](#truyen-18)
+* [19. Khi Máy Mổ Hoàn Tất](#truyen-19)
+* [20. Cận Tử Nghiệp Đáng Sợ](#truyen-20)
+* [21. Thịt Rùa Ngon](#truyen-21)
+* [22. Tình Thương Con Của Khỉ Lông Vàng](#truyen-22)
+* [23. Hứa Tiên Sinh](#truyen-23)
+* [24. Ngọc Lan](#truyen-24)
+* [25. Con Lừa](#truyen-25)
+* [26. Công Chúa Thăng Hoa](#truyen-26)
+* [27. Chu Tú Hoa](#truyen-27)
 
 ---
 
 ## 1. BA MỸ NHÂN {#truyen-1}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Vợ chồng giáo sư Quan thuộc tầng lớp thượng lưu trí thức giàu sang, sinh được ba cô con gái tuổi 25, 23, 20 đẹp kiều diễm như tiên nữ nhưng cả ba đều bị câm bẩm sinh, không chàng trai nào dám cầu hôn.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Hai mươi lăm năm trước khi đi du lịch chùa ở Thái Lan, xe hơi sang trọng bị trầy xước, ông tức giận xông tới đánh đập tàn bạo một đứa trẻ ăn xin câm vô tội, đạp mạnh vào ngực khiến nó hộc máu tươi và tàn phế suốt đời.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Vợ ông lần lượt sinh ra ba đứa con gái đều bị câm như hình ảnh đứa bé câm hộc máu năm xưa; gia đình sống trong đau khổ dằn vặt vô phương cứu chữa.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Nghe vị cao tăng thuyết giảng lý nhân quả, giáo sư Quan kinh hoàng nhớ lại cú đá ác nghiệt năm xưa, hiểu rõ lưới trời lồng lộng; hai vợ chồng chí thành quỳ trước Phật sám hối, dốc lòng làm lành tích đức.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Ba Mỹ Nhân" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-1" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Vợ chồng giáo sư Quan thuộc tầng lớp thượng lưu trí thức giàu sang, sinh được ba cô con gái tuổi 25, 23, 20 đẹp kiều diễm như tiên nữ nhưng cả ba đều bị câm bẩm sinh, không chàng trai nào dám cầu...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Vợ chồng Quan giáo sư hiện.nay 55 tuổi, sinh được ba cô con gái dung mạo mỹ lệ, tuổi tác khá cách nhau: 25, 23, 20. Mặc dù là những tiểu tư lá ngọc cành vàng kiều diễm, nhưng các tiên nương này vẫn chưa có đổi tượng cầu hôn Vợ chồng giáo sư hết sức khỗ sầu. Trong khi đó nhiều thanh niên vừa thoáng nhìn qua các cô thì đã nghiêng ngửa hồn phách, ra công theo đuổi… Nhưng một khi đã phát hiện các tuyệt đại mỹ nhân này không thề nói năng gì, thì họ lập tức thối lui, bỏ đi.
 
@@ -96,6 +111,20 @@ Hạnh Đoan lược dịch
 ## 2. NƯỚC LÈO TRỨ DANH {#truyen-2}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Quán hủ tiếu nức tiếng ở miền bắc Thái Lan mỗi ngày bán hàng trăm tô, thu lợi nhuận kết xù nhờ bí quyết nồi nước lèo thơm ngon ngọt nước gia truyền.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Bí quyết nấu nước lèo là ninh hầm xương thịt và các loại động vật tươi sống với số lượng khổng lồ qua nhiều năm tháng, tước đoạt sinh mạng của muôn vàn sinh linh.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Người chủ quán mắc phải chứng bệnh lạ vô phương cứu chữa: khắp thân thể lở loét rỉ nước vàng hôi thối như xác chết phân hủy, đau đớn bỏng rát ngày đêm gào thét như đang bị dìm trong nồi nước sôi.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Của cải làm giàu từ nghề sát sinh nhuốm đầy máu tanh chẳng thể đem lại an lạc; người chủ chết trong đau đớn tột cùng là lời cảnh tỉnh đanh thép cho những ai mưu sinh bằng việc tàn hại sinh vật.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Nước Lèo Trứ Danh" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-2" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Quán hủ tiếu nức tiếng ở miền bắc Thái Lan mỗi ngày bán hàng trăm tô, thu lợi nhuận kết xù nhờ bí quyết nồi nước lèo thơm ngon ngọt nước gia truyền. Hành vi tạo nghiệp: Bí quyết nấu nước lèo là n...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Nơi thành phố thuộc miền bắc Thái Lan có quán hủ tiếu nọ, nổi danh nấu nước lèo rất ngon. Danh thơm vang khắp xa gần, ai cũng tìm đến ăn. Nhân sĩ đương thời đều tấm tắc ca ngợi. Nên dù quán chỉ làm việc có buổi sang thôi, mà sáng nào cũng bán đến mấy trăm tô. Trước 12 giờ trưa là hết sạch. Mỗi tô giá khoảng 15-20 đồng tiền Thái. Mỗi ngày thu vào được khoảng 6 ngàn, lời được ba ngàn.
 
@@ -158,6 +187,20 @@ Hạnh Đoan lược dịch
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Bác sĩ trẻ Trương Vĩ Lục tiền đồ xán lạn, sau khi kết hôn bỗng nhiên phát hiện cơ thể biến đổi dị tật, mất hoàn toàn khả năng sinh dục và biến thành người bán nam bán nữ, đau đớn nhảy lầu tự sát.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Điều tra cội nguồn nhân quả hé lộ: ông nội và cha của anh suốt mấy mươi năm chuyên làm nghề thiến heo, thiến gà sống để kiếm tiền, hủy hoại bộ phận sinh dục của muôn vạn con vật.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Ác nghiệp thiến hoạn động vật tích tụ qua nhiều đời đã trút xuống người con cháu đích tôn độc nhất, khiến gia đình họ Trương tuyệt tự tuyệt tôn trong bi kịch thảm thương.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Nghề nghiệp sát hại hoặc làm thương tổn thân thể chúng sinh đều chiêu cảm quả báo tương ứng không sai chạy mảy may, di họa khôn lường đến con cháu đời sau.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Nguyên Nhân Đáng Sợ" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-3" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Bác sĩ trẻ Trương Vĩ Lục tiền đồ xán lạn, sau khi kết hôn bỗng nhiên phát hiện cơ thể biến đổi dị tật, mất hoàn toàn khả năng sinh dục và biến thành người bán nam bán nữ, đau đớn nhảy lầu tự sát....">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Tất cả báo chí hôm đó đều đăng hàng tít náy: “Bác sĩ trẻ Trương Vĩ Lục tự sát vong thân”… khiến người xem khó mà tin được.
 
 Bác sĩ Trương năm nay 29 tuổi, năm ngoái sau khi tốt nghiệp, chàng phục vụ tại bịnh viện chính phủ.
@@ -200,6 +243,20 @@ Hạnh Đoan lược dịch
 ## 4. ĐÁM TANG CHÓ {#truyen-4}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một gia đình tổ chức tang lễ hết sức trang nghiêm, chu đáo cho một chú chó cưng trung nghĩa đã trung thành gắn bó suốt nhiều năm.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Đối chiếu giữa lòng trung thành xả thân bảo vệ chủ của loài chó với thói vong ân bội nghĩa, phản trắc của nhiều con người trong xã hội kim tiền.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Kẻ phản bạn lừa thầy, sống phụ bạc ân tình đều chiêu cảm ác báo thân bại danh liệt, bị người khinh bỉ và đọa lạc vào ác đạo.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Câu chuyện thức tỉnh tình thương loài vật và Phật tính nơi muôn loài chúng sinh; làm người phải biết giữ gìn chữ tín và lòng tri ân sâu sắc, chớ sống thua loài súc vật có nghĩa.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Đám Tang Chó" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-4" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Một gia đình tổ chức tang lễ hết sức trang nghiêm, chu đáo cho một chú chó cưng trung nghĩa đã trung thành gắn bó suốt nhiều năm. Hành vi tạo nghiệp: Đối chiếu giữa lòng trung thành xả thân bảo v...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Nơi đại binh nguyên hình tam giác của dòng sông Mê-kông vương quốc Thái Lan, đất đai phì nhiêu, nước mưa tràn đầy, là nơi sản xuất gạo trù phú của quốc gia. Cho nên xưởng chà lúa ở đây rất vĩ đại quy mô, thuộc dạng đại công nghiệp
 
@@ -266,6 +323,20 @@ Hạnh Đoan lược dịch
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một người đàn ông có thú vui đam mê câu cá suốt mấy mươi năm, tự hào với kỹ thuật giật cần và găm lưỡi câu sắc bén vào miệng cá.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Dùng lưỡi câu sắt nhọn móc rách môi, thủng họng hàng ngàn con cá sống, biến nỗi đau đớn xé thịt của loài vật thành niềm vui tiêu khiển mỗi ngày.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Cuối đời mắc bệnh ung thư vòm họng và ung thư môi, toàn bộ môi và hàm dưới bị lở loét hoại tử đục thủng từng lỗ to y như bị lưỡi câu xé toạc, không thể ăn uống chỉ có thể rên rỉ đau đớn.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Cảnh tượng đau đớn trên giường bệnh tái hiện chân thực nỗi đau xé họng loài cá năm xưa; gieo nhân nào gặt quả nấy, tuyệt đối không nên lấy sát sinh làm thú vui tiêu khiển.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Người Ưa Câu Cá" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-5" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Một người đàn ông có thú vui đam mê câu cá suốt mấy mươi năm, tự hào với kỹ thuật giật cần và găm lưỡi câu sắc bén vào miệng cá. Hành vi tạo nghiệp: Dùng lưỡi câu sắt nhọn móc rách môi, thủng họn...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Câu cá là hoạt động cực kỳ tàn nhẫn, thử nghĩ xem, nếu như đem móc câu sắc bén đó, đâm vào môi, vào lưỡi của mình, thì sẽ thấy đau đớn đến tận tim phổi. Nghĩa là, dù thế nào người ta cũng vô phương chịu nổi.
 
 Nhưng nhiều người lại lấy việc câu cá làm thú vui, câu không biết mệt. Thậm chí còn thành lập Câu Lạc Bộ câu cá nữa. Cái lý luận “câu cả có thể đào luyện tính tình” là hoang đường, đây là lời của kẻ chằng có chút lòng trắc ẩn.
@@ -316,6 +387,20 @@ Hạnh Đoan lược dịch
 ## 6. THỨC NGON ĐẶC CHẾ {#truyen-6}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Chủ quán ăn đặc sản nghĩ ra những món ăn man rợ để chiều chuộng thú ẩm thực tàn ác của thực khách nhà giàu nhằm thu lợi nhuận cao.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Khóa chặt đầu khỉ sống rồi dùng dao phạt ngang hộp sọ ăn óc khỉ tại bàn; nướng rùa sống trên chảo gang đỏ lửa để rùa uống cạn gia vị cay nồng rồi quằn quại chết từ từ.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Quán ăn bốc cháy dữ dội trong đêm, người chủ kẹt trong phòng kín bị lửa thiêu cháy đen thui hệt như cảnh rùa trên chảo lửa, đầu bị thanh xà gồ rớt trúng vỡ toác như cách ông từng phạt đầu khỉ.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Quả báo hiện đời rùng rợn giáng xuống kẻ thủ ác; miếng ăn tàn nhẫn lấy đi sinh mạng của chúng sinh trong đau đớn ắt phải đền mạng bằng chính mạng sống của mình.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Thức Ngon Đặc Chế" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-6" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Chủ quán ăn đặc sản nghĩ ra những món ăn man rợ để chiều chuộng thú ẩm thực tàn ác của thực khách nhà giàu nhằm thu lợi nhuận cao. Hành vi tạo nghiệp: Khóa chặt đầu khỉ sống rồi dùng dao phạt nga...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Trong một vùng nông thôn thuộc miền đông bộ Thái Lan, có một nông phu tên A Bang, bà vợ sinh được ba con gồm hai nam, một nữ.Thằng đầu tên ô 9 tuổi, thằng kế tên Hồng 7 tuồi và út gái tên Bạch 5 tuổi.
 
@@ -396,6 +481,20 @@ Hạnh Đoan lược dịch
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một phụ nữ giàu có mắc phải chứng bệnh phù chân voi kỳ quái: hai chân sưng phồng thô ráp, nứt nẻ chảy nước vàng tanh tưởi, nặng nề không thể bước đi.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thuở nhỏ và thời trẻ có thói quen dẫm đạp tàn nhẫn lên ốc sên, cóc nhái trong vườn cho nát bét để làm trò vui, lại thường sai gia nhân rắc vôi bột đốt chân các loài thú nhỏ.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Đôi chân bà biến dạng to lớn sần sùi hệt như chân voi, đau đớn buốt nhức từng ngày không thuốc men nào chữa lành, phải chịu sự cô độc hành hạ thể xác.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Thân thể con người là tấm gương phản chiếu nghiệp lực; làm tổn thương bàn chân và sinh mạng của muôn loài ắt phải nhận lấy sự hủy hoại trên chính đôi chân mình.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Người Chân Voi" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-7" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Một phụ nữ giàu có mắc phải chứng bệnh phù chân voi kỳ quái: hai chân sưng phồng thô ráp, nứt nẻ chảy nước vàng tanh tưởi, nặng nề không thể bước đi. Hành vi tạo nghiệp: Thuở nhỏ và thời trẻ có t...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Thái tiên sinh năm nay 67 tuổi, người Triều Châu, năm 1941 Nhật Bản xâm lược Trung Quốc, quê nhà bị vây hàm, sinh hoạt bị ép ngặt, thời thanh niên ông ly hương qua nước Thái Lan mưu sinh. Hiện đang cư ngụ tại miền trung Thái Lan. Sống bằng nghề buôn bán. Hai chân ông bịnh giống như chân voi, đã 9 năm rồi.
 
 Thái tiên sinh rất ưa ăn thịt ngỗng và uống rượu, hằng ngày mỗi tối ông dùng một mâm thịt ngỗng và nửa vò rượu. Ngày nào cũng thế.
@@ -432,6 +531,20 @@ Hạnh Đoan lược dịch
 ## 8. BÁN RẮN MỐI {#truyen-8}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Kẻ chuyên săn bắt, thu mua và buôn bán rắn mối sống số lượng lớn cho các nhà hàng quán nhậu ngâm rượu thuốc bổ.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Để rắn mối không thể chạy thoát, anh ta dùng kìm bẻ gãy từng khớp chân và dùng dây thép sắc nhọn xâu xuyên qua mắt và miệng chúng, phơi nắng hành hạ dã man.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Anh ta gặp tai nạn giao thông kinh hoàng, cẳng chân bị bánh xe nghiền nát gãy vụn, mắt bị mảnh kính đâm mù lòa, nằm liệt giường rên xiết suốt nhiều năm trong cảnh túng quẫn bần hàn.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Hành hạ thân xác chúng sinh ra sao thì quả báo giáng xuống bản thân y hệt như vậy; hãy mau chóng từ bỏ nghề nghiệp tàn ác để giữ lấy phúc mạng cho mình.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Bán Rắn Mối" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-8" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Kẻ chuyên săn bắt, thu mua và buôn bán rắn mối sống số lượng lớn cho các nhà hàng quán nhậu ngâm rượu thuốc bổ. Hành vi tạo nghiệp: Để rắn mối không thể chạy thoát, anh ta dùng kìm bẻ gãy từng kh...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Ngô tiên sinh là Hoa kiều ở Thái Lan, là thương nhân thu mua thổ sản, do nguồn vốn ít, nên chỉ có thể mua liền bán ngay, vì vậy lợi nhuận không nhiều.
 
@@ -481,6 +594,20 @@ Hạnh Đoan lược dịch
 ## 9. CÁ “CÂU” NGƯỜI {#truyen-9}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Gia đình làm nghề chài lưới và câu cá chuyên nghiệp nhiều đời ven sông lớn, nổi tiếng sát cá và có thù đoạn đánh bắt tàn nhẫn.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Dùng xiên sắt và lưỡi câu chùm đâm thủng yết hầu cá sống, để cá giẫy giụa đau đớn cho đến chết rồi mới mang ra chợ bán kiếm lời.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Trong một lần lặn sông gỡ lưỡi câu mắc kẹt, dây câu bị một con cá lớn giãy mạnh quấn chặt nhiều vòng quanh cổ, lưỡi câu sắc nhọn đâm xuyên qua cổ họng kéo người cha chết chìm dưới đáy nước.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> 'Người móc cá, cá móc người' – quy luật nhân quả tuần hoàn báo ứng đích đáng và công bằng, không ai có thể thoát khỏi nghiệp sát của chính mình.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Cá “Câu” Người" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-9" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Gia đình làm nghề chài lưới và câu cá chuyên nghiệp nhiều đời ven sông lớn, nổi tiếng sát cá và có thù đoạn đánh bắt tàn nhẫn. Hành vi tạo nghiệp: Dùng xiên sắt và lưỡi câu chùm đâm thủng yết hầu...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Có một y viện huyện thuộc vùng cao nguyên Thái Lan, do giao thông bất tiện, nên bịnh nhân phải đi từ sáng sớm tới bịnh viện để khám và kịp quay về nhà trước khi trời tối.
 
@@ -535,6 +662,26 @@ Dân làng thấy ông Thông dùng tre nhọn đâm yết hầu con cá sống 
 Ngàn vạn lần cũng không thể tưởng được là cha con họ lại bị cá sống hại chết giống y nhau theo kiểu này.
 
 Nếu ngay đây mà đối chiếu cảnh: “Người móc cá, cá móc người”, thì đây chính là diễn tiến lạ lùng của báo ứng. Đúng như nhà Phật từng nói: “Nhân quả báo ứng không hề xử oan người”, có thể nói “Nhân quả xoay chuyển rất công bằng”. Xin mọi người cảnh giác, ngàn vạn lần chớ nên gieo nhân ác.
+
+---
+
+## 10. BỆNH CỦA VĂN LAI {#truyen-10}
+
+> [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Anh Văn Lai 43 tuổi làm nghề nông, vì tin theo lời đồn ăn ba ba bổ dương trừ phong thấp nên suốt 20 năm liên tục giết thịt ăn ba ba sống.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Mua được con ba ba khổng lồ nặng hơn mười ký, anh nghĩ ra cách tàn ác: mỗi ngày dùng dao xẻo một miếng thịt trên mình ba ba còn sống để xào ớt ăn dần, rồi quẹt vôi cầm máu cho nó sống tiếp nửa tháng.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Anh bị ba ba cắn vào ngón tay và ngón chân, độc tố ăn sâu vào tủy xương khiến bác sĩ phải phẫu thuật cưa bỏ từng đốt ngón, rồi cưa dần bàn tay và bàn chân qua 5 lần mổ xẻ kinh hoàng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Nỗi đau bị cắt xẻo từng phần thân thể khi còn sống nay chính bản thân phải nếm trải dưới lưỡi dao phẫu thuật; sát sinh tàn độc ắt rước lấy quả báo tàn phế hiện tiền.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Bệnh Của Văn Lai" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-10" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Anh Văn Lai 43 tuổi làm nghề nông, vì tin theo lời đồn ăn ba ba bổ dương trừ phong thấp nên suốt 20 năm liên tục giết thịt ăn ba ba sống. Hành vi tạo nghiệp: Mua được con ba ba khổng lồ nặng hơn ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Tại môt bịnh viện huyện nọ ở Thái Lan, bác sĩ Viện trường kiêm Thường vụ chuyên khoa, kiêm cầm dao mổ. Lần nọ Viện trưởng kể lại câu chuyện lạ lùng về một ca mổ, khiến người tỉnh giác phát tâm hướng thiện.
 
@@ -595,9 +742,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 10. TIẾU THƯ KHỈ {#truyen-10}
+## 11. TIẾU THƯ KHỈ {#truyen-11}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Cô gái có biệt danh 'Tiểu Thư Khỉ', tuy gương mặt xinh đẹp nhưng tính khí và cử chỉ lại mang đầy tập tính của loài vượn khỉ.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Mẹ cô thời trẻ từng giúp cha mổ bụng một con khỉ mẹ đang mang thai để lấy con nấu cao bồi bổ, nhẫn tâm nhìn khỉ mẹ quằn quại ôm con chết trong đau đớn.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Người con gái sinh ra toàn thân mọc lông xám dày đặc, các ngón tay cong quắp và luôn có thói quen nhảy nhót, cào cấu phát ra tiếng kêu như loài khỉ, khiến cha mẹ xấu hổ đau lòng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Oan hồn loài khỉ mẹ nương vào thai nhi để đòi nợ nghiệp chướng; cảnh báo sâu sắc về việc sát hại động vật mang thai đem lại quả báo dị tật cho con cháu đời sau.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Tiểu Thư Khỉ" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-11" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Cô gái có biệt danh 'Tiểu Thư Khỉ', tuy gương mặt xinh đẹp nhưng tính khí và cử chỉ lại mang đầy tập tính của loài vượn khỉ. Hành vi tạo nghiệp: Mẹ cô thời trẻ từng giúp cha mổ bụng một con khỉ m...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Tại một thôn làng nọ thuộc miền nam Tháilan, có chàng thanh niên họ Lưu cử hành hôn lễ tân nương là một cô gái có biệt danh “TiểuThư Khỉ”.
 
@@ -654,9 +815,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 11. TRỘM CÔNG GIẢM LIỆU {#truyen-11}
+## 12. TRỘM CÔNG GIẢM LIỆU {#truyen-12}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Nhà thầu xây dựng vì lòng tham lợi nhuận đã gian lận, rút bớt sắt thép và pha trộn xi măng kém chất lượng khi thi công các công trình trường học và bệnh viện.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Bỏ túi hàng triệu đồng tiền bẩn bất chính trên sự an nguy tính mạng của hàng ngàn người dân và trẻ nhỏ vô tội.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Căn biệt thự sang trọng của chính ông ta bất ngờ bị sụp đổ trong một trận giông lốc; gạch đá đổ sập đè gãy hai chân ông và làm chết người con trai duy nhất mà ông yêu quý nhất trên đời.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Của phi nghĩa làm từ sự gian dối rút ruột công trình không những chẳng giữ được mà còn rước lấy thảm họa nhà tan cửa nát, mất đi người thân ruột thịt.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Trộm Công Giảm Liệu" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-12" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Nhà thầu xây dựng vì lòng tham lợi nhuận đã gian lận, rút bớt sắt thép và pha trộn xi măng kém chất lượng khi thi công các công trình trường học và bệnh viện. Hành vi tạo nghiệp: Bỏ túi hàng triệ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Hiện tại trong giới kiến trúc có ba câu danh ngôn:
 
@@ -723,9 +898,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 12. NGƯỜI CHỒNG TÀI HOA {#truyen-12}
+## 13. NGƯỜI CHỒNG TÀI HOA {#truyen-13}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một nghệ sĩ tài hoa, phong nhã và có tài ăn nói nhưng tâm tánh phóng túng tà dâm, xem thường đạo đức luân thường lừa gạt nhiều phụ nữ.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Lợi dụng tài hoa và lời đường mật lừa gạt tình cảm của nhiều cô gái trong trắng, làm tan vỡ gia đình người khác rồi rũ bỏ trách nhiệm khi họ mang thai.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Cuối đời mắc bệnh ung thư hạ bộ thối rữa đau đớn, bị mọi người xa lánh ghê tởm, sống cô độc trong viện dưỡng lão không một người thân chăm sóc, chết trong tủi nhục bần hàn.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Tà dâm phá hoại gia can người khác là tội nặng bậc nhất; tài hoa bạc phận cũng bởi không có đức hạnh giữ gìn, gieo cay đắng ắt gặt lấy bi kịch cô độc.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Người Chồng Tài Hoa" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-13" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Một nghệ sĩ tài hoa, phong nhã và có tài ăn nói nhưng tâm tánh phóng túng tà dâm, xem thường đạo đức luân thường lừa gạt nhiều phụ nữ. Hành vi tạo nghiệp: Lợi dụng tài hoa và lời đường mật lừa gạ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Chiêm Nguyệt Quyên là người Đài Loan quê ờ Gia Nghĩa, tháng 7 năm 1979 nàng dẫn con gái Tiểu Man 3 tuổi qua thành phố Hoành tân (Yokohama) Nhật Bản, rồi uống thuốc độc tự sát trong khách sạn.
 
@@ -804,9 +993,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 13. PHÁP QUAN KỲ ÁN {#truyen-13}
+## 14. PHÁP QUAN KỲ ÁN {#truyen-14}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một vị thẩm phán nắm giữ quyền cân đo công lý nhưng tham lam nhận tiền hối lộ, bẻ cong pháp luật xử ép người vô tội chịu án oan sai.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Vì túi tiền bất chính mà đẩy người lương thiện vào cảnh tù đày chết oan trong ngục tối, để mặc kẻ thủ ác thực sự nhởn nhơ ngoài vòng pháp luật.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Sau khi về hưu thường xuyên thấy oan hồn hiện về đòi mạng trong đêm, tâm thần hoảng loạn phát điên, tự tay rạch ngực thú tội trước công chúng rồi đập đầu tự sát.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Cán cân công lý của luật trời không bao giờ thiên vị; làm nghề xét xử mà bẻ cong sự thật vì tiền bạc ắt phải chịu sự trừng phạt thảm khốc của tòa án lương tâm và âm luật.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Pháp Quan Kỳ Án" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-14" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Một vị thẩm phán nắm giữ quyền cân đo công lý nhưng tham lam nhận tiền hối lộ, bẻ cong pháp luật xử ép người vô tội chịu án oan sai. Hành vi tạo nghiệp: Vì túi tiền bất chính mà đẩy người lương t...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Một buổi sáng tháng 7 năm 1978, tại một cao nguyên huyện Đài Bắc, hai vợ chồng Thái A Vượng và người bạn thân Lâm Thuận Xa, cùng quảy gánh lên núi hái trái vải. Khi đi ngang qua một hang động bỏ hoang lâu năm, thì bỗng thấy từ trong chạy ra ba con chó, mồm chúng ngậm nội tạng người đang nhỏ máu long tong. Anh Xa hiếu kỳ rón rén bước vào động xem sự thể thể nào, nhưng cảnh tượng đáng sợ trước mắt khiến anh kinh hoàng đứng chết sững: một tiên sinh hơn sáu mươi tuổi đang nằm trên vũng máu; ngực, bụng bị xé rách, nội tạng bị ba con chó hồi nãy ngoạm chạy ra ngoài. Càng khùng hơn nữa là ngồi bên cạnh xác chết là một cô gái điên đầu tóc bù xù, đang cầm khúc ruột của nạn nhân quấn quanh cổ chơi đùa.
 
@@ -859,9 +1062,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 14. NHỮNG KẺ BUÔN NGƯỜI {#truyen-14}
+## 15. NHỮNG KẺ BUÔN NGƯỜI {#truyen-15}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Đường dây buôn người tàn nhẫn bắt cóc phụ nữ và trẻ em đem bán qua biên giới vào các động mại dâm và hầm mỏ bóc lột, phá nát vô số gia đình êm ấm.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Xem thân xác và mạng sống con người như món hàng trao đổi kiếm tiền, gây ra cảnh chia lìa cốt nhục đẫm nước mắt cho biết bao người mẹ mất con, chồng mất vợ.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Kẻ cầm đầu sinh con ra đều bị dị tật ngớ ngẩn, bản thân bị đồng bọn phản trắc cướp sạch tài sản, bị bắt giam lĩnh án tử hình; cả dòng họ lưu lạc ăn mày tủi nhục.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Tội ác buôn bán đồng loại là ác nghiệp tày trời; tiền tài kiếm được từ xương máu tha nhân sẽ biến thành ngọn lửa thiêu rụi toàn bộ phúc lộc ba đời.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Những Kẻ Buôn Người" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-15" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Đường dây buôn người tàn nhẫn bắt cóc phụ nữ và trẻ em đem bán qua biên giới vào các động mại dâm và hầm mỏ bóc lột, phá nát vô số gia đình êm ấm. Hành vi tạo nghiệp: Xem thân xác và mạng sống co...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Năm 1981 Sau khi Trung Quốc giải phóng, trăm nghề hưng thịnh, thôn Tả Hậu tỉnh Liêu Ninh hẻo lánh chuyền sống bằng nghề trồng bán dược liệu. Cho nên có người gọi vùng này là làng thuốc, nổi danh toàn quốc.
 
@@ -926,9 +1143,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 15. QUÁN NGON CAO CẤP {#truyen-15}
+## 16. QUÁN NGON CAO CẤP {#truyen-16}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Nhà hàng ẩm thực cao cấp chuyên phục vụ các món thú rừng quý hiếm tươi sống, quảng cáo giết mổ động vật tại chỗ để chứng minh độ tươi ngon.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nhẫn tâm dùng búa đập đầu hươu nai sống, mổ bụng chim muông khi chúng còn giẫy giụa thở dốc trước mắt thực khách để phô trương đẳng cấp ẩm thực.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Một vụ nổ bình gas kinh hoàng tại gian bếp đã thiêu rụi toàn bộ nhà hàng trong biển lửa; chủ quán và đầu bếp bị bỏng nặng toàn thân biến dạng, tán gia bại sản.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Của cải xây dựng trên sự tàn sát sinh linh chẳng bao giờ bền vững; ngọn lửa sân hận của muôn loài bị giết thịt sẽ trở thành ngọn lửa thiêu rụi sự nghiệp kẻ gieo nhân.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Quán Ngon Cao Cấp" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-16" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Nhà hàng ẩm thực cao cấp chuyên phục vụ các món thú rừng quý hiếm tươi sống, quảng cáo giết mổ động vật tại chỗ để chứng minh độ tươi ngon. Hành vi tạo nghiệp: Nhẫn tâm dùng búa đập đầu hươu nai ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Tại đại lộ Tung Sơn của thành phố Đài Bắc phồn hoa. Có một tiệm vịt quay nổi danh khắp xa gần tên là “Quán ngon cao cấp”, làm ăn rất phát đạt, khách ra vào tấp nập, cửa tiệm rộng lớn, thiết kế sang trọng, nhân viên nam nữ phục vụ trong quán đều trẻ trung, mặc toàn tây âu trăng. Bếp trưởng dội nón trắng tinh, tay luôn đeo găng, chứng tỏ mình cực kỳ vệ sinh sạch sẽ.
 
@@ -957,9 +1188,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 16. ĐI CÂU BỊ CẢM ĐỘNG {#truyen-16}
+## 17. ĐI CÂU BỊ CẢM ĐỘNG {#truyen-17}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một người đàn ông có thói quen câu cá giải trí, trong một chuyến đi câu bên hồ lớn đã móc trúng một con cá chép bụng to sắp đẻ.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thường xuyên dùng mồi câu lừa cá cắn câu, thỏa mãn thú vui săn bắt nhưng chưa từng nghĩ đến nỗi đau đớn và tình mẫu tử của loài thủy tộc.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Kéo con cá lên bờ, ông bàng hoàng thấy hai mắt cá ứa lệ, miệng cử động van lơn như khẩn cầu tha mạng cho bầy con thơ đang chờ chào đời trong bụng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Trực giác từ bi bừng tỉnh, ông vội vã tháo lưỡi câu thả cá về hồ, bẻ gãy cần câu và phát nguyện từ bỏ vĩnh viễn việc sát sinh, chuyển sang bảo vệ sinh thái và phóng sinh cứu vật.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Đi Câu Bị Cảm Động" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-17" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Một người đàn ông có thói quen câu cá giải trí, trong một chuyến đi câu bên hồ lớn đã móc trúng một con cá chép bụng to sắp đẻ. Hành vi tạo nghiệp: Thường xuyên dùng mồi câu lừa cá cắn câu, thỏa ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Tại huyện Liêu Trung tỉnh Liêu Ninh đông bắc Trung Quốc, một buổi sáng đầu thu năm 1997, gió hây hây thổi, dòng Liêu hà yên tĩnh, nước trong biêng biếc, bên bờ cây cỏ tốt tươi, cành lá đong đưa khi làn gió nhẹ thổi qua. Cảnh vật ấm áp hiền hòa dưới ánh nắng ban mai tỏa chiếu.
 
@@ -990,9 +1235,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 17. CHUYỆN NƠI LÂM TRƯỜNG {#truyen-17}
+## 18. CHUYỆN NƠI LÂM TRƯỜNG {#truyen-18}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Nhóm công nhân khai thác gỗ tại vùng rừng sâu lâm trường hẻo lánh, thường xuyên đặt bẫy săn bắn thú rừng hoang dã làm mồi nhậu bồi dưỡng.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Dùng bẫy chông sắt và súng săn tàn sát gấu ngựa, lợn rừng, khỉ vượn vô tội, chặt phá cây đại thụ cổ thụ ngàn năm không chút kiêng dè.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Trong đêm mưa bão kinh hoàng, một cây cổ thụ ngàn năm bất ngờ gãy đổ đè trúng lều trại khiến hai người tử nạn tại chỗ, những người còn lại bị thương tật tàn phế suốt đời.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Rừng thiêng nước độc đều có linh khí và thần linh bảo hộ; tàn phá thiên nhiên và sát hại sinh linh nơi rừng thẳm ắt chiêu cảm tai ương hủy diệt bất ngờ.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Chuyện Nơi Lâm Trường" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-18" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Nhóm công nhân khai thác gỗ tại vùng rừng sâu lâm trường hẻo lánh, thường xuyên đặt bẫy săn bắn thú rừng hoang dã làm mồi nhậu bồi dưỡng. Hành vi tạo nghiệp: Dùng bẫy chông sắt và súng săn tàn sá...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Tại lâm trường Hồng Nhật huyện Lô Hoắc tình Tứ Xuyên, có một công nhân họ Vương, bình thường ưa câu cá, lúc rảnh thỉ ra sông câu.
 
@@ -1009,9 +1268,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 18. KHI MÁY MỔ HOÀN TẤT {#truyen-18}
+## 19. KHI MÁY MỔ HOÀN TẤT {#truyen-19}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một kỹ sư cơ khí tài ba dày công thiết kế và chế tạo dây chuyền máy móc giết mổ gia súc tự động hóa quy mô lớn, công suất hàng ngàn con mỗi ngày.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Đem trí tuệ và tài năng kỹ thuật phục vụ cho việc tàn sát sinh mạng hàng loạt, biến cái chết của muôn loài thành guồng máy công nghiệp lạnh lùng vô cảm.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Đúng ngày chạy thử nghiệm cỗ máy, do sơ suất vạt áo bị cuốn vào bánh răng lưỡi cưa tự động, chính ông bị cỗ máy do mình sáng chế cưa đứt thân thể chết thảm tại chỗ.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Cỗ máy giết chóc đã lấy mạng chính người tạo ra nó; bài học xương máu cảnh tỉnh con người chớ dùng trí tuệ phát minh công cụ phục vụ cho sự hủy diệt sinh mạng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Khi Máy Mổ Hoàn Tất" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-19" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Một kỹ sư cơ khí tài ba dày công thiết kế và chế tạo dây chuyền máy móc giết mổ gia súc tự động hóa quy mô lớn, công suất hàng ngàn con mỗi ngày. Hành vi tạo nghiệp: Đem trí tuệ và tài năng kỹ th...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Năm 1997, có một vị kỹ sư tài ba ưu tú, đã thiết kế và chế ra một máy mổ heo độc đáo khác người. Nếu đem heo sống bỏ vào miệng máy thi chỉ mấy phút sau, da, lông thịt, xương, huyết, đầu V.V.. từng phần đều được cắt chia thành phẩm và xuất ra hoàn hảo.
 
@@ -1034,9 +1307,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 19. CẬN TỬ NGHIỆP ĐÁNG SỢ {#truyen-19}
+## 20. CẬN TỬ NGHIỆP ĐÁNG SỢ {#truyen-20}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một đồ tể chuyên nghề mổ heo mổ bò suốt cả cuộc đời, đến tuổi già lâm bệnh nặng nằm liệt trên giường chờ phút lâm chung.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Hàng vạn sinh mạng heo bò đã ngã gục dưới lưỡi dao thọc huyết sắc lạnh của ông suốt mấy mươi năm mưu sinh kiếm sống.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Giây phút cận tử nghiệp hiện về, ông hai mắt trợn trừng, miệng rống lên từng hồi eng éc y hệt tiếng heo bị chọc tiết, tay chân co giật quào cấu kinh hoàng trước mắt con cháu.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Nghiệp lực huân tập cả đời sẽ trổ hiện chân thực lúc lâm chung; sát sinh tạo nghiệp bao nhiêu thì giây phút ra đi đau đớn bấy nhiêu, không ai có thể gánh thay.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Cận Tử Nghiệp Đáng Sợ" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-20" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Một đồ tể chuyên nghề mổ heo mổ bò suốt cả cuộc đời, đến tuổi già lâm bệnh nặng nằm liệt trên giường chờ phút lâm chung. Hành vi tạo nghiệp: Hàng vạn sinh mạng heo bò đã ngã gục dưới lưỡi dao thọ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Có một nữ cư sĩ thọ Bồ-tát giới là bà X, trì trai hơn 30 năm. Nửa đời sau của bả toàn lả ăn chay, lễ Phật. Sau khi bà qua đời, người nhà đến chùa mời sư Nhân Ba Thiết tụng kinh hồi hướng công đức cho bả. Đương nhiên ngài rất vui vẻ nhận lời.
 
@@ -1115,9 +1402,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 20. THỊT RÙA NGON {#truyen-20}
+## 21. THỊT RÙA NGON {#truyen-21}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một nhóm thực khách sành ăn rủ nhau đến quán đặc sản thưởng thức món lẩu rùa sống bổ dưỡng trứ danh để tẩm bổ sinh lực.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thả từng con rùa còn sống nguyên vào nồi nước lẩu đang sôi sùng sục đậy kín vung, khoái trá nhìn rùa quằn quại cào xước nắp nồi trong đau đớn tột cùng rồi mới ăn.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Vài ngày sau cả nhóm đi chung xe hơi thì xe bất ngờ bốc cháy dữ dội trên đường cao tốc; các cửa xe bị kẹt cứng khiến tất cả bị thiêu cháy quằn quại trong xe y hệt cảnh rùa trong nồi nước sôi.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Miếng ăn khoái khẩu trong chốc lát đổi lấy cái chết thảm khốc trong biển lửa; sự tàn nhẫn đối với loài vật sẽ quay trở lại trừng phạt chính con người với cấp độ gấp trăm lần.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Thịt Rùa Ngon" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-21" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Một nhóm thực khách sành ăn rủ nhau đến quán đặc sản thưởng thức món lẩu rùa sống bổ dưỡng trứ danh để tẩm bổ sinh lực. Hành vi tạo nghiệp: Thả từng con rùa còn sống nguyên vào nồi nước lẩu đang ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Người Thượng Hải có câu đầu môi như thế này: “ Hiện thế báo” nghĩa là việc làm trong hiện tại, trả báo đến ngay hiện đời, chẳng đợi sang kiếp sau mới báo. ở Thượng hải có Vương tiên sinh, bình thường rất ưa ăn thịt rùa, nhưng cách chế biến thức ăn của ông rất khác người, ông chế nước ngập nồi, dùng nắp đậy kín nồi (trung tâm nắp có khoét một lổ hồng to cở đầu rùa), ông bỏ rùa sống vào, sau đó mới đun lửa. Khi nước trong nồi dần nóng lên, con rùa bị độ sôi nung nấu đau không chịu nổi, nó bèn thò đầu lên lỗ hổng đó hả miệng thở, lúc này ông đem nước sốt gia vị đã thắng sẵn, đang sôi, rót vào miệng rùa; ép nỏ rụt đầu vào chảo lại. Mục đích của ông là để cho nước gia vị thẩm thấu vào toàn thân rùa như vậy thịt rùa sẽ rất ngon. Nhưng ông chẳng mảy may nghĩ đến nỗi thống khổ của rùa, bên trong thì nước sôi làm bỏng tâm can, bên ngoài thì bị nung đốt. Con rùa đang sống mà ông hành hạ nội công ngoại kích thật dã man. Chưa hết, rùa đang oằn oại, đau đớn giẫy giụa trong nước nóng, rồi chịu không nổi độ nước sôi hành hạ giày vò, muốn trốn cũng không có cửa, cầu sống không có đường, thế là nó đành nhô đầu ra khỏi cái lỗ hổng trên nắp để giải nhiệt tiếp. Lúc này Vương tiên sinh tàn nhẫn lại tiếp tục rưới nước gia vị đun nóng (có đủ muối, dầu, giấm ớt, tiêu) rùa bỏng rát cả lòng VỘI rút đầu xuống, cảnh thò thò rụt rụt cứ thế tái diễn nhiều lần và cuối cùng thì rùa chết đi trong tột cùng thống khổ. Vì tham ăn sướng miệng, mà Vương tiên sinh đành tâm giết hại quá tàn nhẫn.
 
@@ -1138,9 +1439,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 21. TÌNH THƯƠNG CỦA KHỈ LÔNG VÀNG {#truyen-21}
+## 22. TÌNH THƯƠNG CỦA KHỈ LÔNG VÀNG {#truyen-22}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một người thợ săn thiện xạ đi săn trong rừng sâu, phát hiện một con khỉ mẹ lông vàng đang ôm khỉ con trên cành cây cao.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Lạnh lùng giương cung bắn mũi tên độc xuyên qua tim khỉ mẹ để cướp khỉ con mang về bán lấy tiền.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Khỉ mẹ trúng tên độc nhưng gắng gượng chút tàn lực cuối cùng ôm chặt con thơ cho bú nốt giọt sữa rồi mới rơi xuống đất; khi mổ bụng phát hiện ruột non của nó đã đứt ra từng đoạn vì đau đớn xót con.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Tình mẫu tử thiêng liêng chấn động trời đất của loài vật khiến người thợ săn bật khóc kinh hãi, bẻ gãy cung tên sám hối và phát nguyện quy y cửa Phật suốt đời chuộc tội.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Tình Thương Con Của Khỉ Lông Vàng" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-22" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Một người thợ săn thiện xạ đi săn trong rừng sâu, phát hiện một con khỉ mẹ lông vàng đang ôm khỉ con trên cành cây cao. Hành vi tạo nghiệp: Lạnh lùng giương cung bắn mũi tên độc xuyên qua tim khỉ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Có một hòa thượng 65 tuổi, kể về hồi trẻ lúc chưa xuất gia rất ưa săn bắn. ông kể chuyện của mình như sau:
 
@@ -1171,9 +1486,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 22. HỨA TIÊN SINH {#truyen-22}
+## 23. HỨA TIÊN SINH {#truyen-23}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Hứa tiên sinh là một thương gia buôn bán ngũ cốc giàu có nức tiếng nhưng tâm địa gian xảo, tham lam keo kiệt không ai bằng.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Lợi dụng lúc thiên tai mất mùa gom hàng đầu cơ tích trữ rồi tăng giá cắt cổ, lại còn trộn thêm cát sạn và thóc lép vào gạo bán cho dân nghèo đói khổ kiếm lời bất chính.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Về già con cháu hư hỏng cờ bạc phá sạch cơ nghiệp; bản thân ông mắc bệnh ung thư thực quản nghẹn nghẹt không nuốt nổi một giọt nước cháo, chết đói bên đống vàng bạc mục rỗng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Bóc lột người nghèo trong lúc hoạn nạn là tội ác tổn phước nặng nề nhất; của cải phi nghĩa đổi lấy cái chết nghẹn ngào đói khát là quy luật đào thải tất yếu của đạo trời.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Hứa Tiên Sinh" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-23" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Hứa tiên sinh là một thương gia buôn bán ngũ cốc giàu có nức tiếng nhưng tâm địa gian xảo, tham lam keo kiệt không ai bằng. Hành vi tạo nghiệp: Lợi dụng lúc thiên tai mất mùa gom hàng đầu cơ tích...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Vợ chồng Hứa tiên sinh là thương gia, ngụ ở Mã Lai. Họ có đứa con trai tên là Vu Hùng. Hùng không chăm chỉ học hành, lại ưa giao du bạn xấu, ngày ngày ở ngoài chơi hoang lêu lổng.
 
@@ -1198,9 +1527,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 23. NGỌC LAN {#truyen-23}
+## 24. NGỌC LAN {#truyen-24}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Cô gái trẻ xinh đẹp tên Ngọc Lan vì khao khát cuộc sống xa hoa giàu sang và giữ gìn vóc dáng làm người mẫu nên đã phá thai nhiều lần không chút thương tiếc.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Tước đoạt quyền sống của những giọt máu ruột thịt của chính mình, coi rẻ sinh mạng hài nhi vô tội để chạy theo dục vọng và danh lợi phù phiếm.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Nhan sắc tàn phai nhanh chóng, người tình phụ bạc ruồng bỏ; tử cung bị nhiễm trùng hoại tử phải phẫu thuật cắt bỏ toàn bộ, vĩnh viễn mất đi thiên chức làm mẹ thiêng liêng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Đêm đêm sống trong ám ảnh bởi tiếng khóc đòi mẹ của những vong thai; cô đau đớn thức tỉnh tìm về cửa Phật ăn năn sám hối, làm lễ cầu siêu chuộc lại lỗi lầm đẫm máu.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Ngọc Lan" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-24" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Cô gái trẻ xinh đẹp tên Ngọc Lan vì khao khát cuộc sống xa hoa giàu sang và giữ gìn vóc dáng làm người mẫu nên đã phá thai nhiều lần không chút thương tiếc. Hành vi tạo nghiệp: Tước đoạt quyền số...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Một phụ nữ Hoa kiều (tạm gọi là Lan) sang Brazil (Ba-tây) lập nghiệp và đến bịnh viện làm nghĩa công. Sau ba tháng thọ huấn, Lan được cử đến nhà xác, lãnh công tác mà đa số đều sự và không dám nhận.
 
@@ -1225,9 +1568,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 24. CON LỪA {#truyen-24}
+## 25. CON LỪA {#truyen-25}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Người đánh xe ngựa lừa tính tình hung tợn, thường xuyên dùng roi sắt và gậy gộc đánh đập con lừa già kéo xe đến tóe máu rách da.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Ép con lừa già chở hàng quá tải giữa trưa nắng gắt mà không cho ăn uống nghỉ ngơi, đến khi con vật kiệt sức gục ngã chết thảm bên vệ đường vẫn thẳng tay quất roi.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Nhiều năm sau người chủ sinh được một đứa con trai có thân hình gù vẹo, da dẻ chai sần thô ráp và tính tình ương bướng, suốt đời cha mẹ phải nai lưng làm lụng nuôi nấng trả nợ.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Đối xử tàn bạo bạc đãi với súc vật có công phục vụ mình ắt sẽ chiêu cảm oan gia đầu thai làm con để đòi nợ nhọc nhằn; nhân quả đền trả công bằng không sai chạy.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Con Lừa" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-25" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Người đánh xe ngựa lừa tính tình hung tợn, thường xuyên dùng roi sắt và gậy gộc đánh đập con lừa già kéo xe đến tóe máu rách da. Hành vi tạo nghiệp: Ép con lừa già chở hàng quá tải giữa trưa nắng...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Mùa thu năm Mậu Ngọ, Đời vua Khang Hi triều Thanh, gia đình Trương Nguyên ngụ ở Bắc Kinh có mua về một con lừa, tính nó rất hung hăng, không những ưa đá, mà còn cắn người nữa. Chỉ có ba cha con Trương Nguyên lả cưỡi được nó thôi. Mỗi khi họ cưỡi, nó tỏ vẻ rất ngoan hiền, thuần phục.
 
@@ -1258,9 +1615,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 25. CÔNG CHÚA THĂNG HOA {#truyen-25}
+## 26. CÔNG CHÚA THĂNG HOA {#truyen-26}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Câu chuyện nhân duyên luân hồi của một vị công chúa lá ngọc cành vàng thời xưa, sinh ra trong nhung lụa quyền quý tối cao nhưng tâm tánh kiêu kỳ ngạo mạn.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Ỷ vào quyền thế coi thường kẻ hầu người hạ, tạo khẩu nghiệp nặng nề và đắm chìm trong thú vui xa hoa hưởng lạc lãng phí biết bao phước báo trời ban.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Hết phước đọa lạc qua nhiều kiếp trầm luân khổ ải trong cõi trần, nếm trải nỗi đau tan nát sinh ly tử biệt và sự vô thường mong manh của danh lợi thế gian.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Thấu tỏ biển khổ luân hồi không lối thoát, nàng phát đại nguyện quy y Tam Bảo, tinh tấn niệm Phật trì giới đoạn trừ tham ái, cầu sinh Tây Phương Tịnh Độ vĩnh viễn thăng hoa giải thoát.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Công Chúa Thăng Hoa" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-26" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Câu chuyện nhân duyên luân hồi của một vị công chúa lá ngọc cành vàng thời xưa, sinh ra trong nhung lụa quyền quý tối cao nhưng tâm tánh kiêu kỳ ngạo mạn. Hành vi tạo nghiệp: Ỷ vào quyền thế coi ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Nguyên Tác Hán văn: Trần Thu Ngọc
 
@@ -1609,9 +1980,23 @@ Hạnh Đoan lược dịch
 
 ---
 
-## 26. CHU TÚ HOA {#truyen-26}
+## 27. CHU TÚ HOA {#truyen-27}
 
 > [🎧 Nghe Audio Tập 2](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-2#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Vụ án 'Mượn xác hoàn hồn' có thật chấn động toàn thế giới tại Đài Loan năm 1959, được các cơ quan y tế, truyền thông và chính quyền kiểm chứng xác thực 100%.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Cô gái Chu Tú Hoa bị sóng đánh dạt vào bờ biển nhưng bị kẻ xấu cướp vàng và đẩy thuyền ra biển sâu dìm chết oan uổng; nhờ tâm niệm trong sáng và luôn niệm Phật nên linh hồn không tan.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Bọn cướp biển sau đó đều phát điên chết thảm hoặc chịu án tử hình; linh hồn cô nương nhờ thiện nghiệp được thần linh che chở, sau mượn thân xác bà Ngô Lâm Cẩm Đôn đã chết để sống lại.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Sau khi hoàn hồn bà sống đời ăn chay niệm Phật, làm việc thiện cứu người; sự kiện là bằng chứng hùng hồn chứng minh sự tồn tại bất diệt của thần thức và luật nhân quả luân hồi.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Chu Tú Hoa" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-2#truyen-27" data-vol="Báo Ứng Hiện Đời — Tập 2" data-summary="Nhân vật & Hoàn cảnh: Vụ án 'Mượn xác hoàn hồn' có thật chấn động toàn thế giới tại Đài Loan năm 1959, được các cơ quan y tế, truyền thông và chính quyền kiểm chứng xác thực 100%. Hành vi tạo nghiệp: Cô gái Chu Tú Hoa...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 (Trích dịch từ tạp chi “Kim Nhật Phật Giáo ” Đài Loan) Nguyên tác Bạch thoại: Nữ Ký giả Lý Ngọc
 
@@ -1909,3 +2294,33 @@ Hạnh Đoan lược dịch
 
 
 ---
+
+<script>
+if (typeof window.tmShareStory !== 'function') {
+  window.tmShareStory = function(btn) {
+    var title = btn.getAttribute('data-title') || document.title;
+    var url = window.location.origin + (btn.getAttribute('data-url') || window.location.pathname);
+    var summary = btn.getAttribute('data-summary') || '';
+    var vol = btn.getAttribute('data-vol') || 'Báo Ứng Hiện Đời';
+    var text = '📖 ' + vol + '\n🔹 ' + title + '\n\n' + summary + '\n\n🔗 ' + url;
+    if (navigator.share) {
+      navigator.share({ title: title, text: text, url: url }).catch(function(){});
+    } else {
+      navigator.clipboard.writeText(text).then(function() {
+        alert('✓ Đã sao chép liên kết & tóm tắt câu chuyện: ' + title);
+      }).catch(function() {
+        prompt('Sao chép liên kết câu chuyện:', url);
+      });
+    }
+  };
+}
+if (typeof window.tmToggleSummary !== 'function') {
+  window.tmToggleSummary = function(el) {
+    if (!el) return;
+    el.classList.toggle('is-expanded');
+    var b = el.querySelector('.tm-summary-toggle-btn');
+    if (b) b.textContent = el.classList.contains('is-expanded') ? 'Thu gọn ▴' : 'Xem thêm ▾';
+  };
+}
+</script>
+

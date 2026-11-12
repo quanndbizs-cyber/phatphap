@@ -14,202 +14,486 @@ mediaplayer:
     items:
     - id: 1
       title: Thiếu niên bất lương
-      summary: Thanh niên mắc chứng đau ngực quái lạ, trên ngực hiện bốn chữ 'ngỗ
-        nghịch bất hiếu' do quá khứ cướp bóc, đánh đập bạn bè và làm cha mẹ đau khổ
-        uất ức qua đời. Sau khi chí thành sám hối, ăn chay tụng kinh Địa Tạng thì
-        bệnh khỏi.
+      summary: 'Nhân vật & Hoàn cảnh: Một thanh niên hơn 30 tuổi người Đài Loan mắc
+        chứng bệnh đau ngực dữ dội và đau nhức toàn thân suốt 3 năm, tứ chi rã rời
+        không còn sức lực, các bệnh viện lớn đều bó tay chỉ chẩn đoán là rối loạn
+        thần kinh thực vật.
+
+        Hành vi tạo nghiệp: Thuở thiếu niên bất lương, kết bè đảng du côn cướp giật,
+        ngỗ nghịch, thường xuyên đập phá đồ đạc, chửi rủa và đánh đập cha mẹ tàn nhẫn
+        khiến mẹ uất ức thổ huyết qua đời, sau đó cha cũng đau buồn chết theo.
+
+        Quả báo hiện tiền: Thân thể toát ra tà khí hắc ám, ngực đau nhói như bị xé
+        rách; khi vạch áo trước Hòa thượng Diệu Pháp thì lộ rõ 4 chữ ''ngỗ nghịch
+        bất hiếu'' tím bầm hằn sâu trên da thịt.
+
+        Bài học & Chuyển hóa: Hòa thượng nghiêm khắc quở trách, anh sụp lạy khóc lóc
+        sám hối, phát nguyện ăn chay trường và tụng 49 bộ Kinh Địa Tạng hồi hướng
+        cho cha mẹ; sau đó 4 chữ biến mất và bệnh lành hoàn toàn.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660398?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-3
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=rXbPRWdLpOI
     - id: 2
       title: Giật mình tỉnh ngộ
-      summary: Trương Nghĩa bị viêm cột sống dính khớp hành hạ đau đớn do nghiện ăn
-        thịt ếch và lươn sống. Nhờ quy y sám hối và ăn chay mà thuyên giảm; hễ khởi
-        tâm thèm thịt ăn lại thì bệnh lập tức tái phát.
+      summary: 'Nhân vật & Hoàn cảnh: Trương Nghĩa bị viêm cột sống dính khớp hành
+        hạ đau đớn dữ dội đến mức còng lưng, gập người không thể đi lại hay nằm thẳng,
+        y học hiện đại không có thuốc chữa.
+
+        Hành vi tạo nghiệp: Từ thuở nhỏ có sở thích tàn nhẫn bắt ếch, lươn và bẻ sống
+        xương sống của chúng để nấu ăn, lại thích ăn ốc sống, nuốt mật sống của các
+        loài thủy tộc.
+
+        Quả báo hiện tiền: Toàn bộ cột sống bị dính cứng, biến dạng cong gập y hệt
+        hình dạng con ếch, con lươn bị bẻ gãy lưng quằn quại trước khi chết, chịu
+        đau đớn thấu tận tâm can.
+
+        Bài học & Chuyển hóa: Nhờ quy y sám hối và ăn chay trường mà lưng dần thẳng
+        lại, đi đứng bình thường; tuy nhiên khi khởi tâm thèm thịt ăn lại thì bệnh
+        lập tức tái phát dữ dội, khiến anh rùng mình tỉnh ngộ kiên trì giữ giới ăn
+        chay suốt đời.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660396?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-4
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=fd54QngrHCA
     - id: 3
       title: Gà trống lông vàng
-      summary: Một nông dân mắc bệnh ung thư phổi nặng do nhiều năm làm nghề giết
-        mổ hàng ngàn con gà, đặc biệt từng trộm giết một con gà trống lông vàng. Sau
-        khi phát nguyện bỏ nghề sát sinh và tụng 49 bộ Kinh Địa Tạng, bệnh ung thư
-        biến mất kỳ diệu.
+      summary: 'Nhân vật & Hoàn cảnh: Một người nông dân mắc bệnh ung thư phổi thời
+        kỳ cuối, ho ra máu, khó thở và ngực đau như bị dao đâm, bệnh viện trả về chờ
+        chết.
+
+        Hành vi tạo nghiệp: Nhiều năm làm nghề giết mổ hàng ngàn con gà, đặc biệt
+        từng trộm bắt và cắt cổ một con gà trống lông vàng to lớn của hàng xóm để
+        làm thịt nhậu.
+
+        Quả báo hiện tiền: Khối u ác tính trong phổi hình thành và tản mác, các đốm
+        u khi chụp X-quang tụ lại hệt như đàn gà đang mổ xé phổi; oan hồn con gà trống
+        lông vàng cùng ngàn vạn con gà khác tụ lại nơi buồng phổi đòi mạng.
+
+        Bài học & Chuyển hóa: Nhờ chí thành sám hối, phát nguyện bỏ hẳn nghề sát sinh
+        và tụng 49 bộ Kinh Địa Tạng siêu độ, các khối u tiêu tan kỳ diệu, bệnh viện
+        chụp phim lại kinh ngạc xác nhận phổi hoàn toàn bình phục.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660397?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-5
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=P_nCIZAGmaA
     - id: 4
-      title: Bệnh “Trời cho”
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Bệnh “Trời cho”; làm sáng tỏ
-        quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời ăn
-        chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      title: Bệnh trời cho
+      summary: 'Nhân vật & Hoàn cảnh: Một người phụ nữ đưa con trai bị chứng động
+        kinh co giật liên miên, sùi bọt mép đến cầu cứu Hòa thượng Diệu Pháp và than
+        khóc rằng đây là ''bệnh trời cho'' vô cớ.
+
+        Hành vi tạo nghiệp: Hòa thượng chỉ rõ trong thời gian mang thai, người mẹ
+        rất thích ăn cua sống ngâm rượu, thường xuyên dùng dao chặt đôi những con
+        cua còn sống ngoe nguẩy đang giẫy giụa, miệng sùi bọt mép.
+
+        Quả báo hiện tiền: Đứa trẻ khi phát bệnh co giật hai tay co quắp, miệng trào
+        bọt mép, mắt trợn trừng y hệt hình ảnh loài cua bị chặt sống trong hũ rượu
+        năm xưa.
+
+        Bài học & Chuyển hóa: Người mẹ bàng hoàng thức tỉnh nhận ra sự tàn độc của
+        khẩu nghiệp ăn uống, quỳ sụp trước bàn thờ Phật chí thành sám hối, phát nguyện
+        ăn chay trường và tụng kinh hồi hướng cho loài cua giải trừ oán thù.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660399?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-4
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-6
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=Le2-ta7r-ns
     - id: 5
       title: Trong xưởng có cái gì, nhà tôi có cái đó
-      summary: Gia đình công nhân thói quen trộm vặt tài sản công của nhà máy mang
-        về dùng, chiêu cảm quả báo con cái ốm đau liên miên, tài sản hao hụt vào tiền
-        thuốc men; thấu rõ nghiệp trộm cắp 'tổn phước chiêu họa'.
+      summary: 'Nhân vật & Hoàn cảnh: Một gia đình công nhân nhà máy có thói quen
+        hễ xưởng sản xuất hay có vật tư gì là lén lút lấy trộm mang về nhà dùng, từ
+        ốc vít, bóng đèn đến sắt thép, tự hào khoe khoang ''trong xưởng có gì nhà
+        tôi có nấy''.
+
+        Hành vi tạo nghiệp: Xem thường tài sản công cộng, coi trộm cắp là bổng lộc
+        đương nhiên, tích tụ đồ phi nghĩa qua nhiều năm tháng làm tổn hại nghiêm trọng
+        phước đức gia đình.
+
+        Quả báo hiện tiền: Con cái trong nhà đau ốm quặt quẹo liên miên, tiền bạc
+        làm ra bao nhiêu đều phải dồn hết vào thuốc men viện phí, tai họa liên tiếp
+        xảy đến khiến gia cảnh kiệt quệ.
+
+        Bài học & Chuyển hóa: Hòa thượng chỉ rõ của phi nghĩa vào cửa trước sẽ ra
+        cửa sau kéo theo cả gia tài; gia đình hối hận sâu sắc, gom trả lại tài sản
+        cho nhà máy và tích cực tu thiện phóng sinh tích đức.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660400?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-7
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=ciO-SiQl7wc
     - id: 6
       title: Dùi lỗ lấy nhọt
-      summary: Bệnh nhân bị mụn nhọt độc lở loét ở mông vô cùng đau đớn, phải dùng
-        dùi chọc mủ; căn nguyên do lúc nhỏ ham vui dùng cây sắt nung chọc vào tổ côn
-        trùng và nướng chết sinh linh.
+      summary: 'Nhân vật & Hoàn cảnh: Người đàn ông bị mọc một cái nhọt độc kỳ lạ
+        ở vùng mông, sưng tấy đau đớn khôn xiết, mưng mủ thối rữa và phải đến bệnh
+        viện dùng dùi sắt chọc sâu vào thấu xương để nặn mủ.
+
+        Hành vi tạo nghiệp: Thuở thiếu niên chăn trâu nghịch ngợm, ông từng lấy que
+        sắt nung đỏ chọc thẳng vào các tổ kiến, tổ dế và hang bọ cạp dưới đất rồi
+        thổi lửa hun khói nướng chết hàng vạn sinh linh vô tội.
+
+        Quả báo hiện tiền: Nỗi đau đớn khi bác sĩ dùng dao dùi khoét sâu vào vết nhọt
+        thấu tận xương tủy chính là sự tái hiện quả báo tương ứng từ hành vi chọc
+        que sắt đốt tổ côn trùng năm xưa.
+
+        Bài học & Chuyển hóa: Thấu suốt luật nhân quả báo ứng công bằng đến từng chi
+        tiết nhỏ, ông thành tâm quỳ trước Phật sám hối nghiệp sát thuở nhỏ, dốc lòng
+        làm lành lánh dữ cứu vớt chúng sinh.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660401?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-8
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=-pzgJcA7jt4
     - id: 7
-      title: Nhai xương mút tủy
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Nhai xương mút tủy; làm sáng
-        tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời
-        ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      title: Nhai xương mút tuỷ
+      summary: 'Nhân vật & Hoàn cảnh: Một cán bộ trung niên bị bệnh đau nhức xương
+        tủy cùng cực, các khớp xương như bị nghiền nát, thuốc giảm đau hoàn toàn vô
+        hiệu, ngày đêm rên rỉ quằn quại.
+
+        Hành vi tạo nghiệp: Có sở thích ẩm thực tàn ác, mỗi lần ăn nhậu đều đòi ăn
+        các món hầm xương thú, đặc biệt có thói quen cầm ống hút mút sạch tủy xương
+        và đập vỡ xương sống của các loài vật sống để thưởng thức.
+
+        Quả báo hiện tiền: Thần thức các con vật bị đập xương hút tủy oán hận bám
+        chặt vào xương tủy ông báo thù, khiến xương cốt ông nhức nhối như có hàng
+        ngàn mũi kim châm vào tủy sống.
+
+        Bài học & Chuyển hóa: Được Hòa thượng Diệu Pháp khai thị, ông kinh hãi trước
+        món nợ máu thịt của khẩu nghiệp, phát tâm ăn chay trường, tụng kinh niệm Phật
+        hồi hướng cho các chúng sinh bị mình hại.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660402?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-7
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-9
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=zYnX_fg49Hw
     - id: 8
       title: Cư sĩ cũng phải có đủ đức hạnh
-      summary: Nhắc nhở người quy y Tam Bảo cần giữ gìn ngũ giới thanh tịnh, tránh
-        tâm cống cao ngã mạn, buôn bán gian lận làm tổn hại uy danh người tu Phật.
+      summary: 'Nhân vật & Hoàn cảnh: Một cư sĩ đã quy y Tam Bảo nhiều năm nhưng gia
+        đạo bất an, công việc trắc trở, thân thể mắc nhiều bệnh tật mãn tính không
+        khỏi.
+
+        Hành vi tạo nghiệp: Tính tình kiêu căng ngạo mạn, ỷ vào việc mình đọc nhiều
+        kinh sách và thân cận quý thầy mà coi thường bạn đồng tu; trong việc buôn
+        bán làm ăn thì cân gian đo thiếu, lừa dối khách hàng kiếm lợi bất chính.
+
+        Quả báo hiện tiền: Mang danh người tu Phật nhưng hành vi trái đạo khiến tổn
+        hao phước báu, chiêu cảm sự khinh miệt của thế gian và sự quở trách của hộ
+        pháp thiện thần.
+
+        Bài học & Chuyển hóa: Hòa thượng nhắc nhở người tu Phật phải lấy giới luật
+        làm thầy, tâm hạnh phải chân thật thanh tịnh; nếu mượn danh cư sĩ làm điều
+        bất nghĩa thì tội nghiệp càng nặng hơn người thường.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660403?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-10
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=AeQHZQ6gRHY
     - id: 9
       title: Tổ kiến và nhà ở
-      summary: Người phá tổ kiến, dùng lửa thiêu đốt muôn vàn sinh linh khiến gia
-        đạo bất an, nhà cửa thường xuyên gặp hỏa hoạn và tranh chấp; dạy hạnh từ bi
-        bảo vệ loài vật nhỏ bé.
+      summary: 'Nhân vật & Hoàn cảnh: Hai vợ chồng dắt con trai định cư nước ngoài
+        suốt ba năm nhưng không thể nào mua được một căn nhà an cư lạc nghiệp, mỗi
+        lần định mua là gia đình lại cãi vã dữ dội hoặc gặp trục trặc hợp đồng bị
+        hủy bỏ.
+
+        Hành vi tạo nghiệp: Trước khi xuất ngoại, khi dọn dẹp vườn nhà cũ, hai vợ
+        chồng đã dùng xăng và nước sôi đốt trụi, tiêu diệt cả một đàn kiến khổng lồ
+        khiến muôn vàn sinh mạng mất tổ ấm và chết cháy thê thảm.
+
+        Quả báo hiện tiền: Oan nghiệp phá nhà cướp mạng của loài kiến khiến gia đình
+        họ đi đến đâu cũng không tìm được chốn dung thân an ổn, nhà cửa lận đận trắc
+        trở.
+
+        Bài học & Chuyển hóa: Nghe Hòa thượng chỉ điểm, hai vợ chồng ăn năn sám hối
+        tội ác diệt kiến, phát tâm cúng dường Tam Bảo và phóng sinh tu phước; sau
+        đó mới thuận lợi mua được căn nhà như ý.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660404?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-11
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=5Vopg_BwIZ0
     - id: 10
-      title: Thai phụ tụng Kinh Địa Tạng
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Thai phụ tụng Kinh Địa Tạng;
-        làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa
-        người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      title: Thai phụ tụng Kinh Địa Tạng
+      summary: 'Nhân vật & Hoàn cảnh: Nữ sinh viên tốt nghiệp tên Hải Ba mang thai
+        được 7 tháng thì thai nhi trong bụng quậy phá dữ dội, đạp liên tục làm cô
+        đau đớn không ngủ được, sức khỏe suy kiệt lo âu.
+
+        Hành vi tạo nghiệp: Do oan gia trái chủ đời trước đầu thai vào làm con để
+        đòi nợ oán thù, khiến mẹ con xung khắc ngay từ trong bụng mẹ.
+
+        Quả báo hiện tiền: Cơn đau thắt bụng kéo dài, nguy cơ sảy thai cao, mẹ con
+        xung đột nghiệp lực khiến cả gia đình sống trong lo âu hoảng sợ tột cùng.
+
+        Bài học & Chuyển hóa: Được cư sĩ Quả Khanh khuyên bảo, người mẹ mỗi ngày chí
+        thành tụng một bộ Kinh Địa Tạng hồi hướng cho thai nhi liên tục 7 ngày; thai
+        nhi lập tức nằm yên an ổn, sinh nở mẹ tròn con vuông, đứa trẻ sinh ra đoan
+        trang thông minh dễ nuôi.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660405?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-10
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-12
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=_fuAwWmjc2Y
     - id: 11
       title: Ăn thịt chướng ngại thiện chung
-      summary: Cảnh báo thói quen ăn thịt sát sinh là chướng ngại lớn nhất lúc lâm
-        chung, khiến thần thức hôn mê, oan hồn đòi nợ vây quanh khó vãng sinh an lành.
+      summary: 'Nhân vật & Hoàn cảnh: Một phụ nữ hơn 50 tuổi đã quy y niệm Phật nhiều
+        năm nhưng vẫn không dứt được thói quen ăn thịt cá bồi bổ, lại mắc bệnh tiểu
+        đường nặng chạy chữa khắp nơi không khỏi.
+
+        Hành vi tạo nghiệp: Tuy miệng tụng kinh niệm Phật nhưng tâm vẫn luyến ái vị
+        ngon của thịt cá, thường xuyên ăn hải sản tươi sống và chim muông bồi bổ sức
+        khỏe.
+
+        Quả báo hiện tiền: Thân thể nặng trĩu bệnh tật, tâm trí tán loạn; Hòa thượng
+        Diệu Pháp cảnh giác rằng sát sinh ăn thịt là chướng ngại lớn nhất lúc lâm
+        chung, oan gia sẽ hiện đến đòi nợ khiến mất chánh niệm khó vãng sinh.
+
+        Bài học & Chuyển hóa: Người phụ nữ giật mình kinh sợ trước bờ vực sinh tử,
+        lập tức phát nguyện đoạn tuyệt thịt cá, chuyển sang ăn chay trường thanh tịnh
+        và dốc lòng niệm Phật cầu sanh Cực Lạc.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660406?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-13
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=6s-siJxddEI
     - id: 12
-      title: Đọc nhiều Kinh Phật tăng trí tuệ
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Đọc nhiều Kinh Phật tăng trí
-        tuệ; làm sáng tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến
-        hóa người đời ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      title: Đọc nhiều kinh Phật tăng trí tuệ
+      summary: 'Nhân vật & Hoàn cảnh: Một nữ cư sĩ mắc bệnh tim nhiều năm chữa không
+        khỏi, tâm trí hẹp hòi hay lo âu sợ hãi, đến xin Hòa thượng Diệu Pháp chỉ dạy
+        phương pháp chữa trị.
+
+        Hành vi tạo nghiệp: Tu hành nhiều năm nhưng chỉ tụng đọc vài câu ngắn ngủi,
+        không chịu thâm nhập kinh tạng, tâm trí cố chấp phiền não, thường xuyên nghi
+        kỵ và chấp ngã nặng nề.
+
+        Quả báo hiện tiền: Tâm khí uất kết làm nghẽn tắc mạch máu tim, sinh ra chứng
+        tim đập loạn nhịp, đau ngực khó thở, tinh thần suy sụp.
+
+        Bài học & Chuyển hóa: Hòa thượng khuyên bà mở rộng đọc tụng các bộ kinh Đại
+        Thừa như Kim Cang, Lăng Nghiêm, Pháp Hoa, Địa Tạng để khai mở trí tuệ Bát
+        Nhã; nhờ hiểu lý vô ngã tâm bà buông xả an vui, huyết mạch lưu thông và bệnh
+        tim lành hẳn.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660407?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-12
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-14
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=UQOCHHWL30g
     - id: 13
       title: Thân phụ cầu siêu độ
-      summary: Người con hiếu thảo chí thành tu phước, tụng kinh cúng dường cứu thoát
-        hương linh người cha quá cố đang chịu khổ nơi chốn u minh được siêu sinh cõi
-        lành.
+      summary: 'Nhân vật & Hoàn cảnh: Một bác sĩ họ Hoàng mắc chứng bệnh kỳ quái,
+        cứ trời vừa sụp tối là hai mắt đứng tròng, người cứng đờ không nói năng cử
+        động được, 6 bác sĩ chuyên khoa đầu ngành đều bó tay.
+
+        Hành vi tạo nghiệp: Người cha quá cố của ông thuở sinh tiền tạo nhiều ác nghiệp
+        sát sinh và bất kính Tam Bảo nên sau khi chết bị đọa vào cảnh giới u minh
+        tối tăm lạnh lẽo, chịu muôn vàn thống khổ.
+
+        Quả báo hiện tiền: Hương linh người cha nương gá vào thân xác con trai trong
+        cơn tuyệt vọng để phát tín hiệu cầu cứu siêu độ nơi chốn dương gian.
+
+        Bài học & Chuyển hóa: Hòa thượng chỉ rõ duyên do; bác sĩ Hoàng cùng gia đình
+        thành tâm phát nguyện lập đàn tụng kinh Địa Tạng, làm nhiều việc thiện hồi
+        hướng cho cha; người cha được siêu thoát và ông lập tức bình phục hoàn toàn.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660407?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-15
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=zU7TM5p_95c
     - id: 14
-      title: Thai nhi nghe kinh, giải oán hờn
-      summary: Thai nhi vốn là oan gia đòi nợ, nhờ cha mẹ chí thành tụng kinh niệm
-        Phật hồi hướng từ trong thai mà hóa giải oán hờn, chuyển hóa nghịch duyên
-        thành thuận duyên.
+      title: Bịnh tùng khẩu nhập
+      summary: 'Nhân vật & Hoàn cảnh: Lời khai thị vàng ngọc của Hòa thượng Diệu Pháp
+        về quy luật bệnh tật của chúng sinh: ''Bệnh từ miệng vào, họa từ miệng ra'',
+        làm sáng tỏ nguồn gốc của mọi chứng bệnh nan y trên cõi đời.
+
+        Hành vi tạo nghiệp: Con người vì ham sướng ba tấc lưỡi trong chốc lát mà nhẫn
+        tâm nuốt vào bụng biết bao sinh mạng cá, tôm, chim, thú đang quằn quại trong
+        oán hận; độc tố sân hận ngấm sâu vào từng tế bào.
+
+        Quả báo hiện tiền: Khối u ác tính, đột quỵ, tai biến, suy tạng và đủ thứ bệnh
+        tật hiểm nghèo bộc phát, tiền mất tật mang chịu đau đớn cùng cực trên giường
+        bệnh.
+
+        Bài học & Chuyển hóa: Muốn thân thể an khang, gia đạo bình yên thì căn bản
+        phải ăn chay niệm Phật, giữ tâm thanh tịnh, đoạn dứt nghiệp sát sinh và phát
+        khởi lòng từ bi thương yêu muôn loài.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660408?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-17
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-16
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=TuczQUDN1_c
     - id: 15
-      title: Bệnh tùng khẩu nhập
-      summary: Câu chuyện nhân quả sâu sắc về đề tài Bệnh tùng khẩu nhập; làm sáng
-        tỏ quy luật nghiệp báo 'nhân duyên hội đủ ắt trổ quả', khuyến hóa người đời
-        ăn chay sám hối, lánh ác làm lành và niệm Phật tiêu nghiệp.
+      title: Thai nhi nghe Kinh, giải oán hờn
+      summary: 'Nhân vật & Hoàn cảnh: Đôi vợ chồng trẻ Mạnh Vĩ và Chung Hồng mang
+        thai đứa con đầu lòng, nhưng người mẹ thường xuyên bị những cơn đau thắt bụng
+        dữ dội và những giấc mộng đe dọa đòi mạng.
+
+        Hành vi tạo nghiệp: Thai nhi vốn là oan gia kiếp trước tìm đến đầu thai để
+        đòi nợ oán thù xưa, mang theo tâm niệm hận thù sâu sắc vào thai mẹ.
+
+        Quả báo hiện tiền: Bụng đau quằn quại, nguy cơ sảy thai cao, mẹ con xung đột
+        nghiệp lực khiến cả gia đình sống trong lo âu hoảng sợ tột cùng.
+
+        Bài học & Chuyển hóa: Hai vợ chồng cùng nhau quỳ trước bàn thờ Phật chí thành
+        tụng Kinh Địa Tạng mỗi ngày, tha thiết sám hối lỗi xưa và hồi hướng công đức
+        cho linh hồn đứa bé; nhờ Phật pháp nhiệm mầu oán thù tiêu tan, thai nhi chuyển
+        thành thuận duyên hiếu thảo, sinh nở bình an tốt lành.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660402?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
-      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-15
+      read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-17
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=aCVtCdHs1zc
     - id: 16
       title: Báo ứng không ngờ
-      summary: Những hành vi lừa gạt, bức hại người khác tưởng chừng giấu kín nhưng
-        lưới trời lồng lộng, quả báo hiện tiền giáng xuống khiến kẻ ác gánh chịu tai
-        ương bất ngờ.
+      summary: 'Nhân vật & Hoàn cảnh: Ông Hạ có đứa con trai tên Cún năm 12 tuổi bỗng
+        mắc bệnh tâm thần phân liệt, tính tình hung bạo hay đập phá đồ đạc và cầm
+        dao rượt đuổi cha mẹ, gia đình tan nát.
+
+        Hành vi tạo nghiệp: Tiền kiếp ông Hạ là một tên quan tham mưu mô hiểm ác,
+        từng vu oan giá họa để cướp đoạt toàn bộ gia sản của một thương gia nghèo
+        khiến người đó uất ức tự vẫn trong ngục tối.
+
+        Quả báo hiện tiền: Vị thương gia nọ đầu thai làm con trai ông để đòi nợ, phá
+        tán toàn bộ gia tài tích cóp và hành hạ tinh thần ông suốt ngày đêm không
+        cho giây phút bình yên.
+
+        Bài học & Chuyển hóa: Hòa thượng vạch trần món nợ tiền kiếp; ông Hạ bàng hoàng
+        sụp lạy trước bàn thờ Phật sám hối tội lỗi gian ác xưa kia, phát tâm tu hành
+        cúng dường cầu xin giải nghiệp.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660409?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-18
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=-s2wASrdEgs
     - id: 17
       title: Chứng bệnh sợ bóng tối
-      summary: Chứng sợ bóng tối kỳ lạ bắt nguồn từ tiền kiếp từng nhốt giam, hãm
-        hại sinh linh nơi hầm tối; phát tâm sám hối và thắp đèn cúng Phật giúp tâm
-        thần bình an.
+      summary: 'Nhân vật & Hoàn cảnh: Một phụ nữ hơn 40 tuổi mắc chứng sợ bóng tối
+        kỳ lạ từ thuở ấu thơ; cứ hễ trời sụp tối là cả người run rẩy hoảng loạn, phải
+        bật sáng trưng tất cả bóng đèn trong nhà mới dám thở.
+
+        Hành vi tạo nghiệp: Kiếp trước bà từng là một người đàn ông keo kiệt tàn nhẫn,
+        đã nhốt nhịn đói một con mèo mẹ cùng đàn mèo con trong hầm tối tăm kín mít
+        nhiều ngày cho đến chết ngạt chỉ vì nó lỡ ăn vụng một miếng thịt.
+
+        Quả báo hiện tiền: Nỗi kinh hoàng, tuyệt vọng trong bóng tối của đàn mèo con
+        chết ngạt đã chuyển thành chứng bệnh ám ảnh sợ bóng tối kiếp này của bà, thuốc
+        men hoàn toàn bất lực.
+
+        Bài học & Chuyển hóa: Bà phát tâm chí thành sám hối nghiệp ác với đàn mèo
+        con, thường xuyên cúng dường đèn dầu nơi Tam Bảo để xua tan bóng tối u minh,
+        nhờ đó tâm thần dần trở lại an định bình an.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660411?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-19
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=MfV_PgrEWZE
     - id: 18
       title: Mỹ nữ và thổ phỉ
-      summary: Câu chuyện nhân duyên oan trái giữa người đẹp và tướng cướp, tỏ rõ
-        nghiệp duyên ái dục và oán thù truyền kiếp nhiều đời khó tránh.
+      summary: 'Nhân vật & Hoàn cảnh: Nữ luật sư tiếp nhận vụ ly hôn kỳ lạ: một thiếu
+        phụ xinh đẹp, học thức giàu sang lại nằng nặc đòi ly dị người chồng hết mực
+        yêu thương chu đáo để chạy theo một gã đàn ông cờ bạc, nghiện ngập và vũ phu
+        thô bạo.
+
+        Hành vi tạo nghiệp: Tiền kiếp thiếu phụ là một tiểu thư khuê các bị thổ phỉ
+        bắt cóc, tên đầu sỏ thổ phỉ đã cứu mạng và che chở cho nàng; món nợ ân tình
+        mù quáng kiếp xưa chiêu cảm duyên nghiệp kiếp này khiến nàng mê muội theo
+        gã du côn.
+
+        Quả báo hiện tiền: Bị dục vọng và ảo tưởng chi phối làm tan nát gia đình hạnh
+        phúc, suýt rơi vào cảnh tù đày tủi nhục nơi chốn giang hồ đen tối.
+
+        Bài học & Chuyển hóa: Hòa thượng Diệu Pháp soi sáng nhân duyên tiền kiếp,
+        giúp thiếu phụ tỉnh ngộ buông bỏ mê tình ái dục nhiều đời, quay trở về tạ
+        lỗi với chồng và giữ gìn gia đạo bình an.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660410?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-20
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=S0QkSzNk6Ao
     - id: 19
       title: Tiên sinh dạy học
-      summary: Thầy giáo tận tụy dạy học trò lễ nghĩa, nhân quả phước thiện, tạo công
-        đức lành lớn lao cho con cháu đời sau thành đạt.
+      summary: 'Nhân vật & Hoàn cảnh: Một cặp vợ chồng trẻ có đứa con trai 3 tuổi
+        vẫn câm điếc, không biết đi và ngơ ngác như người vô hồn, chạy chữa khắp nơi
+        vô hiệu.
+
+        Hành vi tạo nghiệp: Tiền kiếp đứa trẻ từng là một vị tú tài dạy học kiêu ngạo,
+        thông minh nhưng ỷ tài khinh người, thường dùng lời lẽ châm chọc miệt thị
+        những người nghèo dốt và phỉ báng kinh sách thánh hiền, bảo kinh sách là mê
+        tín dị đoan.
+
+        Quả báo hiện tiền: Do khẩu nghiệp khinh chê giáo pháp và chê bai người khác,
+        kiếp này tái sinh làm kẻ câm điếc ngu ngơ, mất hết năng lực giao tiếp ngôn
+        ngữ.
+
+        Bài học & Chuyển hóa: Hòa thượng khuyên cha mẹ ăn chay sám hối, thay con đọc
+        tụng kinh Phật hồi hướng để mở mang trí tuệ, tiêu trừ ác nghiệp phỉ báng thánh
+        hiền.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660411?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-21
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=j48GHb-UKOw
     - id: 20
       title: Ăn chay trì giới mới được lợi ích
-      summary: Ăn chay thanh tịnh, giữ tròn giới luật là gốc rễ bảo vệ sinh mạng,
-        tiêu trừ nghiệp chướng và tích lũy công đức giải thoát vô lượng.
+      summary: 'Nhân vật & Hoàn cảnh: Đổng phu nhân bị chứng tiêu chảy mãn tính hành
+        hạ suốt mười mấy năm, ăn gì vào cũng đau bụng tháo dạ, thân thể gầy mòn xanh
+        xao chữa khắp đông tây y không bớt.
+
+        Hành vi tạo nghiệp: Được khuyên ăn chay niệm Phật nhưng ban đầu bà chỉ ăn
+        chay giả tạo, vẫn nêm nước mắm và nước hầm xương động vật vì tiếc rẻ khẩu
+        vị, tâm chưa dứt trừ sát nghiệp.
+
+        Quả báo hiện tiền: Đường ruột tiếp tục viêm nhiễm lở loét, chứng tiêu chảy
+        không hề thuyên giảm do tiếp tục dung nạp độc tố oán hận của động vật vào
+        cơ thể.
+
+        Bài học & Chuyển hóa: Sau khi được chỉ rõ cội rễ, bà mới quyết tâm ăn chay
+        thanh tịnh hoàn toàn, giữ gìn ngũ giới nghiêm mật; chỉ trong vòng một tuần
+        lễ căn bệnh tiêu chảy kéo dài hơn một thập kỷ tự nhiên dứt hẳn, da dẻ hồng
+        hào khỏe mạnh.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660411?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-22
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=H7HdGhYes1Y
     - id: 21
       title: Nhân nào quả nấy
-      summary: 'Quy luật nhân quả tuyệt đối công bằng: gieo gió gặt bão, gieo hạt
-        lành hưởng quả ngọt, không một ai có thể trốn tránh nghiệp lực của chính mình.'
+      summary: 'Nhân vật & Hoàn cảnh: Bác Trương là người luyện khí công lâu năm và
+        thường dùng khí công chữa bệnh cho người khác, nhưng bản thân lại mắc chứng
+        đau đầu kinh niên dữ dội, đầu óc lúc nào cũng quay cuồng say xẩm như uống
+        phải rượu độc.
+
+        Hành vi tạo nghiệp: Thường xuyên sát sinh ăn nhậu các loại rượu ngâm rắn độc,
+        bọ cạp, rết sống và ngâm nuốt sinh linh còn cử động để bồi bổ nội công và
+        tăng cường sinh lực.
+
+        Quả báo hiện tiền: Độc tố và oan hồn loài bò sát tụ lại trên đỉnh đầu ông
+        hành hạ cắn xé, khiến các huyệt đạo bế tắc, đầu óc đau nhức như muốn nổ tung.
+
+        Bài học & Chuyển hóa: Hòa thượng chỉ rõ muốn hết bệnh phải chấm dứt ngay việc
+        uống rượu ngâm thú độc, chí thành sám hối nghiệp sát và phóng sinh loài bò
+        sát để chuộc lại lỗi lầm.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660412?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-23
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=RdKsWFM3aTM
     - id: 22
-      title: Hộ trì Phật pháp bằng đức hạnh
-      summary: Hộ trì Tam Bảo bằng tâm thanh tịnh, thân khẩu ý chân thật mới cảm ứng
-        chư Phật gia hộ; nếu mượn danh Phật pháp mưu lợi thì tội báo khó lường.
+      title: Hộ trì Phật Pháp bằng đức hạnh
+      summary: 'Nhân vật & Hoàn cảnh: Một nữ cư sĩ rất hăng hái đi chùa làm công quả,
+        cúng dường tiền của nhưng gia đình vẫn gặp nghịch cảnh triền miên và bản thân
+        mắc bệnh hiểm nghèo nan y.
+
+        Hành vi tạo nghiệp: Đi chùa hộ trì Tam Bảo nhưng tâm còn nhiều tham sân si,
+        thích tranh quyền đoạt vị, buôn bán trục lợi nơi cửa Phật, hay gièm pha đố
+        kỵ với các bạn đồng tu khác.
+
+        Quả báo hiện tiền: Phước đức hữu lậu không bù nổi ác nghiệp thân khẩu ý, khiến
+        gia đạo bất an, bản thân chịu quả báo bệnh tật hao tài tốn của.
+
+        Bài học & Chuyển hóa: Hòa thượng khai thị hộ trì Phật pháp phải lấy đức hạnh
+        thanh tịnh làm gốc; người tu phải tu tâm dưỡng tánh trước tiên, lấy khiêm
+        hạ từ bi đối đãi mọi người mới mong tích tụ công đức chân thật.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660413?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-24
       read_label: 📖 Đọc sách
       video_url: https://www.youtube.com/watch?v=U1nNBC3irKM
     - id: 23
       title: Quả báo của việc mua bán thịt động vật sống (Rắn mối)
-      summary: Quả báo khủng khiếp của người chuyên săn bắt, mua bán và giết hại rắn
-        mối còn sống, toàn thân phát bệnh vảy ngứa, lở loét và chịu nỗi đau da thịt
-        khôn xiết.
+      summary: 'Nhân vật & Hoàn cảnh: Ngô tiên sinh là thương gia chuyên thu mua rắn
+        mối và tắc kè sống số lượng lớn để cung cấp cho các nhà hàng đặc sản và lò
+        ngâm rượu thuốc bổ, kiếm lợi nhuận kết xù.
+
+        Hành vi tạo nghiệp: Trực tiếp bẫy bắt, nhốt chật chội và bán hàng vạn con
+        rắn mối sống để người ta lột da, mổ bụng, ngâm rượu sống trong đau đớn tột
+        cùng.
+
+        Quả báo hiện tiền: Toàn thân phát bệnh vảy ngứa lở loét kinh hoàng, các ngón
+        tay co quắp như móng vuốt bò sát, da dẻ bong tróc tanh tưởi, ngứa ngáy thấu
+        tận xương tủy dù bôi thuốc gì cũng rát buốt không ngủ được.
+
+        Bài học & Chuyển hóa: Nhận ra quả báo hiện tiền khủng khiếp từ muôn ngàn sinh
+        linh rắn mối bị sát hại, ông kinh hãi bỏ nghề buôn bán thú sống, phát tâm
+        phóng sinh và ăn chay chuộc tội.'
       audio_src: https://qts-home.duckdns.org/audiobookshelf/api/items/2560ff8a-dda1-4428-9afc-b1ebc431a6e5/file/660414?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8
       read_url: /nhan-qua/doc-sach/bao-ung-hien-doi-tap-1#truyen-25
       read_label: 📖 Đọc sách

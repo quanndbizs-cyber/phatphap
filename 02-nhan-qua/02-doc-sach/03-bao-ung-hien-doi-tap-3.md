@@ -59,6 +59,20 @@
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Cư sĩ Quả Khanh cùng các đạo hữu ghi chép lại những câu chuyện nhân quả người thật việc thật được chứng kiến qua các buổi thuyết pháp khai thị của Hòa thượng Diệu Pháp.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Chúng sinh đời mạt pháp mê mờ không tin nhân quả, phóng túng sát sinh, trộm cắp, tà dâm, vọng ngữ và tạo muôn vàn ác nghiệp khiến tai ương tật bệnh bủa vây.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Bệnh nan y, gia đình tan nát, con cái bất hiếu, làm ăn thất bát và tâm thần bất an ngày đêm gặm nhấm nỗi đau khổ triền miên trong cõi hồng trần.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời người dịch và tác giả tha thiết khuyên răn người đời lấy giới luật làm thầy, ăn chay sám hối, dứt ác tu thiện và niệm Phật cầu sinh Tịnh Độ để vĩnh viễn thoát ly sinh tử luân hồi.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Lời Tác Giả" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-1" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Cư sĩ Quả Khanh cùng các đạo hữu ghi chép lại những câu chuyện nhân quả người thật việc thật được chứng kiến qua các buổi thuyết pháp khai thị của Hòa thượng Diệu Pháp. Hành vi tạo nghiệp: Chúng ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Tôi tuyệt chẳng ngờ được khi “Báo ứng Hiện Đời” xuất bản xong, lập tức được các bạn đạo khắp nơi nhiệt tình hưởng ứng, và sách liên tục được in ấn, tái bản nhiều như vậy.
 
 Cho dù trong lời nói đầu “Báo ứng Hiện Đời tập một” tôi đã giải thích rõ, do có nhiều bất tiện nên tôi bắt buộc phải thay đổi tên họ thật và chỗ ở các nhân vật trong sách. Nhưng vẫn có rất nhiều người không chú ý tới lời nhắc này, cứ nôn nóng lên Ngũ Đài Sơn hoặc đi Thiên Tân tìm Hòa thượng Diệu Pháp và tôi, vừa tốn tiền vừa uổng công. Đây chẳng phải là chủ ý của tôi.
@@ -95,6 +109,20 @@ Hạnh Đoan biên dịch
 ## 2. TÂM SỰ TRÙM DU ĐÃNG {#truyen-2}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một trùm giang hồ khét tiếng xưng bá một vùng, quy tụ hàng chục đàn em đao búa hung hãn, coi thường luật pháp và luân thường đạo lý.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Đâm thuê chém mướn, bảo kê sòng bạc, đập phá cướp bóc và nhẫn tâm đánh đập làm tàn phế nhiều người vô tội để tranh giành địa bàn làm ăn phi pháp.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Bị đồng bọn phản trắc truy sát trong đêm mưa, người thân liên tiếp gặp nạn chết bất đắc kỳ hồ, bản thân mắc chứng bệnh đau nhức gân cốt toàn thân như bị dao chém róc thịt.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Giữa ranh giới sinh tử được diện kiến Phật pháp, anh rơi lệ kinh hãi nhận ra tội đồ ngập trời, phát tâm quy y Tam Bảo, giải tán băng đảng, ăn chay trường sám hối chuộc lại lỗi xưa.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Tâm Sự Trùm Du Đãng" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-2" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Một trùm giang hồ khét tiếng xưng bá một vùng, quy tụ hàng chục đàn em đao búa hung hãn, coi thường luật pháp và luân thường đạo lý. Hành vi tạo nghiệp: Đâm thuê chém mướn, bảo kê sòng bạc, đập p...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Thưa chư vị cư sĩ:
 
@@ -161,6 +189,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Nữ cư sĩ Mã Kim Lộ (vợ của Lữ Sơn Kiệt), một phụ nữ giàu sang quyền quý sống trong nhung lụa nhưng gia đình luôn trên bờ vực tan vỡ, vợ chồng xung khắc bất hòa.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Do nhiều đời kết ác duyên và tích tụ tâm sân hận, ngạo mạn ỷ vào tiền tài nhan sắc mà coi khinh người khác, ghen tuông mù quáng làm tổn thương tình nghĩa vợ chồng.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Chồng sinh tật bồ bịch cờ bạc, con cái xa lánh, tổ ấm biến thành địa ngục trần gian; tâm trạng u uất trầm cảm đến mức muốn tìm đến cái chết giải thoát.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Nhờ hữu duyên bái kiến Hòa thượng Diệu Pháp chỉ rõ nhân duyên oán kết tiền kiếp, bà rơi lệ ăn năn, buông bỏ chấp trước, chuyên tâm lạy Phật tụng kinh; gia đình chuyển hóa nhiệm mầu, vợ chồng con cái đoàn viên hạnh phúc.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Tâm Sự “Quý Phu Nhân”" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-3" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Nữ cư sĩ Mã Kim Lộ (vợ của Lữ Sơn Kiệt), một phụ nữ giàu sang quyền quý sống trong nhung lụa nhưng gia đình luôn trên bờ vực tan vỡ, vợ chồng xung khắc bất hòa. Hành vi tạo nghiệp: Do nhiều đời k...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Tan nát lại đoàn viên
 
 Tôi tên Mã Kim Lộ, vợ của Lữ Sơn Kiệt Tôi đã quy y Phật giáo, cũng là đệ tử Hòa thượng Diệu Pháp. Mọi người gọi tôi là Mã Cư Sĩ, tôi vui lắm.
@@ -224,6 +266,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Nhóm công nhân và chủ thầu thi công khu đô thị mới, tự tiện đốn hạ và thiêu đốt các gốc cây cổ thụ ngàn năm trong khu rừng tự nhiên.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Coi thường sinh mạng cây cối, không biết rằng các cây đại thụ cổ xưa đều có thần linh và chư hương linh quỷ thần nương ngụ trú xứ, thẳng tay cưa đứt phá nát nơi cư ngụ của họ.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Người ra lệnh đốn cây bất ngờ mắc chứng đau đầu kinh niên thuốc men vô hiệu; máy ủi thi công liên tục lật nhào gây tai nạn thương vong cho công nhân.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Vạn vật đều có linh tính nương tựa; trước khi chặt cây sửa đất phải thắp hương khấn nguyện báo trước ba ngày và tụng kinh hồi hướng, chớ nên mặc tình tàn phá cây cỏ thiên nhiên.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Không Nên Mặc Tình Làm Hại Cây Cỏ" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-4" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Nhóm công nhân và chủ thầu thi công khu đô thị mới, tự tiện đốn hạ và thiêu đốt các gốc cây cổ thụ ngàn năm trong khu rừng tự nhiên. Hành vi tạo nghiệp: Coi thường sinh mạng cây cối, không biết r...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Một ngày vào năm 1993, một nông dân tên Thi khoảng 33 tuổi, đến ngôi chùa lớn ở làng quê xin gặp Hòa thượng Diệu Pháp.
 
 Hai năm trước, nơi vách thực quản ông Thi mọc một ung bướu lành tính. Khi phẫu thuật, bác sĩ đã cắt bỏ một đoạn thực quản và cho may lại nối với bên trên rồi. Nhưng chẳng bao lâu chỗ cắt tuy đã lành, song bên trong thực đạo (nơi tiếp giáp với vòm miệng) chẳng biết vì sao lại mọc ra một mầm thịt tròn ngăn cản thức ăn, khiến ông nuốt gì cũng bị nghẹn, khó khăn. Mặc dù không đau, nhưng bịnh nhân phải ăn từng chút, từng chút một mới được.
@@ -266,6 +322,20 @@ Hạnh Đoan biên dịch
 ## 5. NƯỚC TRÀN KIM SƠN TỰ {#truyen-5}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Phân tích nhân quả sâu xa đằng sau câu chuyện truyền thuyết Bạch Xà dâng nước nhấn chìm Kim Sơn Tự để giành lại người tình Hứa Tiên.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Vì lòng si mê ái dục và cơn giận ngút trời mà không tiếc dùng pháp thuật dâng sóng thần nhấn chìm tự viện, dìm chết hàng ngàn sinh mạng dân lành vô tội ven sông.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Dù tu luyện ngàn năm vẫn phải chịu quả báo bị đè dưới tháp Lôi Phong chịu khổ, đọa lạc nhiều đời không thể giải thoát do nợ máu của ngàn vạn oan hồn.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Ái dục và sân hận là cội nguồn của mọi khổ đau đọa lạc; người tu hành phải lấy trí tuệ bát nhã quán chiếu vô thường, chặt đứt sợi dây tình chấp mê muội.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Nước Tràn Kim Sơn Tự" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-5" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Phân tích nhân quả sâu xa đằng sau câu chuyện truyền thuyết Bạch Xà dâng nước nhấn chìm Kim Sơn Tự để giành lại người tình Hứa Tiên. Hành vi tạo nghiệp: Vì lòng si mê ái dục và cơn giận ngút trời...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Tháng 7 năm 1997, Chu nữ sĩ là giáo sư đại học cùng chồng lên Ngũ Đài Sơn bái Phật. Trong dịp tình cờ, nghe đồn Hòa thượng tu hành uyên thâm liền đến thỉnh giáo.
 
@@ -366,6 +436,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Người mắc nhiều chứng bệnh nan y lở loét, ung thư dạ dày và đau nhức lục phủ ngũ tạng tìm đến Hòa thượng Diệu Pháp thỉnh giáo căn nguyên.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thói quen ăn tươi nuốt sống, ưa chuộng các món ăn mổ bụng moi gan động vật còn giẫy giụa, nuốt mật sống, ăn tủy sống và coi nhà bếp như chốn đồ tể hành hình chúng sinh.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Độc tố oán hận của các sinh mạng bị giết thịt tích tụ trong lục phủ ngũ tạng, chuyển thành khối u ác tính và ung nhọt đau đớn như bị xé thịt cắn xé ngày đêm.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Bệnh từ miệng vào, họa từ miệng ra; muốn thân thể bình an mạnh khỏe thì căn bản phải ăn chay niệm Phật, phát khởi lòng từ bi thương xót muôn loài chúng sinh.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Bịnh Tùng Khẩu Nhập" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-6" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Người mắc nhiều chứng bệnh nan y lở loét, ung thư dạ dày và đau nhức lục phủ ngũ tạng tìm đến Hòa thượng Diệu Pháp thỉnh giáo căn nguyên. Hành vi tạo nghiệp: Thói quen ăn tươi nuốt sống, ưa chuộn...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Vì thèm ăn mà kho thịt rán cá, nào biết động vật bị giết trong lòng chẳng cam. Nhà bếp biến thành lò đồ tể: moi ruột mổ bụng, vung đao hành hình. Bạn chiên, xào, nấu, hầm… thịt loài vật, thậm chí ăn sống nuốt tươi: cho đó là mỹ vị cao lương, ngon bổ. Đâu biết vật chết thảm lòng đầy oán hờn, thần thức chúng sẽ gá vào thân bạn, sớm muộn gì cũng bắt bạn đền mạng.
 
 Thiện ác rốt cuộc đều báo ứng
@@ -413,6 +497,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một gia đình buôn bán khá giả nhưng có thói quen ăn uống xa xỉ, thường xuyên nấu nướng thừa thãi rồi vứt bỏ thức ăn, cơm thừa canh cặn vào sọt rác không thương tiếc.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Phí phạm hạt ngọc của trời ban, xem thường công sức người nông dân một nắng hai sương; tích tụ nghiệp tiêu xài hoang phí qua nhiều năm tháng.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Làm ăn sa sút thất bát bất ngờ, tài sản đội nón ra đi; đời sau sinh ra con cái ốm yếu gầy mòn, luôn mắc chứng biếng ăn, thiếu thốn đói khát bần hàn.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Một hạt cơm, một giọt nước đều chứa đựng phước báo trời ban; người biết tiết kiệm tri túc mới giữ gìn được phúc đức dài lâu cho gia đình và dòng họ.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Phí Phạm Của Trời Tội Rất Lớn" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-7" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Một gia đình buôn bán khá giả nhưng có thói quen ăn uống xa xỉ, thường xuyên nấu nướng thừa thãi rồi vứt bỏ thức ăn, cơm thừa canh cặn vào sọt rác không thương tiếc. Hành vi tạo nghiệp: Phí phạm ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Một nữ ký giả tờ báo X nhiều lần nghe sư phụ giảng pháp, chỉ rõ nguyên nhân bịnh cho những người đến cầu khai thị.
 
 Một hôm, cô hỏi sư phụ: Con bệnh bao tử nhiều năm, đã chữa trị mà không thấy kết quả, có phải do đời trước con làm điều gì xấu không?
@@ -444,6 +542,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Lời dạy quý báu của Hòa thượng Diệu Pháp cho các Phật tử về việc quý trọng và tận dụng triệt để mọi vật dụng sinh hoạt hàng ngày trong tự viện và gia đình.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thói quen chê bai đồ cũ, vứt bỏ những vật phẩm còn dùng được, xài xể lãng phí đồ đạc của công và tài vật của Tam Bảo cúng dường.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Tổn hao phước báu vô hình; đến khi gặp hoạn nạn thì lâm vào cảnh cùng quẫn ngặt nghèo không ai giúp đỡ, phước mỏng nghiệp dày.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Học hạnh cần kiệm của chư Phật và chư Tổ; một mẩu giấy, một giọt nước thừa cũng dùng cho hết, vun bồi phước điền thanh tịnh cho đời sau.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Dùng Cho Hết" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-8" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Lời dạy quý báu của Hòa thượng Diệu Pháp cho các Phật tử về việc quý trọng và tận dụng triệt để mọi vật dụng sinh hoạt hàng ngày trong tự viện và gia đình. Hành vi tạo nghiệp: Thói quen chê bai đ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 A Di Đà Phật! Thưa Sư phụ! Chúng con là Phật giáo đồ Hoa Nghiêm Quang từ xa đến. Cô bên cạnh con là cô A, nói tiếng Hoa không rành nên con thay cô ấy hỏi giùm. Cô A nói mình bịnh bao tử, đã uống thuốc chữa trị nhiều mà không thấy hiệu quả, nhưng cô không hề lãng phí thực phẩm gì. Xin Sư phụ từ bi chỉ giáo cho ạ!
 
 Hòa thượng nhìn cô Phật tử ở xa mới đến, rồi nói:
@@ -462,6 +574,20 @@ Hạnh Đoan biên dịch
 ## 9. ĐỪNG LẤY VẬT KHỐNG PHẢI CỦA MÌNH {#truyen-9}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một nhân viên văn phòng có thói quen tiện tay lấy đồ dùng của cơ quan và tài sản của bạn bè mang về nhà sử dụng riêng mà không xin phép.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Phạm vào giới trộm cắp dù vật phẩm giá trị nhỏ, tâm tham vi tế tích tụ lâu ngày làm tổn hại nghiêm trọng đạo đức và tư cách người cư sĩ.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Trong nhà đồ đạc liên tục hư hỏng, tiền lương vừa lĩnh ra đã bị trộm cắp hoặc rơi mất một khoản tiền lớn gấp nhiều lần những thứ đã lén lấy của người khác.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Vật không cho thì không được lấy; của phi nghĩa dù chỉ là một cây kim sợi chỉ cũng kết thành sợi dây nợ nần nghiệp báo phải đền trả công bằng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Đừng Lấy Vật Không Phải Của Mình" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-9" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Một nhân viên văn phòng có thói quen tiện tay lấy đồ dùng của cơ quan và tài sản của bạn bè mang về nhà sử dụng riêng mà không xin phép. Hành vi tạo nghiệp: Phạm vào giới trộm cắp dù vật phẩm giá...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Ông X thưa:
 
@@ -511,6 +637,20 @@ Hạnh Đoan biên dịch
 ## 10. THÂN KHUYỂN MÃ {#truyen-10}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một đại gia đình giàu có sang Mỹ định cư, sinh được người con trai nhưng hành vi cử chỉ và thói quen sinh hoạt lại dị kỳ hệt như loài chó ngựa.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Tiền kiếp người con từng là con ngựa chiến và con chó trung thành phục vụ gia đình người chủ; do món nợ ân nghĩa và nghiệp súc sinh chưa dứt nên tái sinh làm con trong nhà.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân người nhưng tập khí súc vật nặng nề, thích ăn thức ăn thừa dưới đất, hay sủa và gầm gừ làm cha mẹ đau lòng xấu hổ khôn xiết.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Hòa thượng khai thị cho gia đình chí thành tụng kinh Địa Tạng và niệm Phật hồi hướng cho nghiệp thức súc sinh của người con được siêu thoát thăng hoa trí tuệ.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Thân Khuyển Mã" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-10" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Một đại gia đình giàu có sang Mỹ định cư, sinh được người con trai nhưng hành vi cử chỉ và thói quen sinh hoạt lại dị kỳ hệt như loài chó ngựa. Hành vi tạo nghiệp: Tiền kiếp người con từng là con...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Mấy năm trước, tôi qua Mỹ thăm bạn, được dẫn đến một khu vườn chơi nổi danh để tham quan. Tiến vào cổng lớn không xa thì thấy có một chiếc xe thổ mộ rất sang trọng vừa đỗ lại trước mặt chúng tôi. Tôi bị màu lông trắng tuyết của con tuấn mã thu hút. Nó rất đẹp, đầu ngẩng cao, lông trắng mướt như nhung và cái bờm tuyệt mỹ.
 
@@ -573,6 +713,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một nữ cư sĩ hơn 60 tuổi mắc bệnh đau đớn kỳ quái khắp mình mẩy suốt mấy mươi năm, các khớp xương nhức nhối như bị kim châm lửa đốt không thuốc nào giảm đau.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thuở nhỏ thời thơ ấu, bà thường bắt các loài dế mèn, cào cào, bọ cạp rồi dùng kim nhọn xuyên qua thân chúng đem nướng trên que than hồng làm thú vui.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Hàng ngàn mũi kim châm trong tủy xương hiện nay chính là dư báo chân thực từ những mũi kim xuyên qua thân thể côn trùng nhỏ bé năm xưa.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Bàng hoàng nhận ra cội nguồn đau đớn, bà quỳ trước bàn thờ Phật khóc lóc sám hối lỗi lầm thuở ấu thơ, phát nguyện ăn chay trường và phóng sinh muôn loài chuộc tội.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Nguyên Nhân Không Ngờ" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-11" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Một nữ cư sĩ hơn 60 tuổi mắc bệnh đau đớn kỳ quái khắp mình mẩy suốt mấy mươi năm, các khớp xương nhức nhối như bị kim châm lửa đốt không thuốc nào giảm đau. Hành vi tạo nghiệp: Thuở nhỏ thời thơ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Có một nữ cư sĩ hơn 60 tuổi đến bái kiến Hòa thượng, kể là bản thân mình mấy mươi năm nay luôn cảm thấy khó thở nơi ngực, nhưng đi bịnh viện khám vẫn không ra bịnh. Bà uống thuốc đồng tây y đủ hết nhưng không hiệu quả, khẳng định là trị không hết. Nghe sư phụ giảng Phật pháp, bà rất tin. Xin sư phụ quán sát giùm xem bản thân bà đã tạo nghiệp chi mà bị bịnh này?
 
 Hòa thượng Diệu Pháp hỏi:
@@ -626,6 +780,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Cung tiên sinh hơn 40 tuổi có má bên phải bị một vết bỏng đỏ lở loét kinh niên, bôi bao nhiêu thuốc kháng sinh đắt tiền cũng không thể lành miệng.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thuở thiếu niên nghịch ngợm, ông từng nấu nồi nước sôi sùng sục rồi đổ thẳng vào hang chuột mẹ đang nuôi đàn chuột con sơ sinh để bắt thịt nướng nhậu.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Đàn chuột con bị luộc chín đỏ loét trong hang tối; vết bỏng rát trên má phải của ông chính là hình ảnh tái hiện của đàn chuột con chết cháy vì nước sôi.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Cẩn thận trong từng hành vi gieo nhân dù là nhỏ nhặt; ông thành tâm bái sám trước Phật và làm việc thiện hồi hướng cho loài chuột giải trừ oán thù truyền kiếp.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Cẩn Thận Khi Gieo Nhân" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-12" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Cung tiên sinh hơn 40 tuổi có má bên phải bị một vết bỏng đỏ lở loét kinh niên, bôi bao nhiêu thuốc kháng sinh đắt tiền cũng không thể lành miệng. Hành vi tạo nghiệp: Thuở thiếu niên nghịch ngợm,...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Năm ngoái, Cung tiên sinh cùng vợ đồng đến bái kiến Hòa thượng Diệu Pháp. Vừa gặp đã thấy má bên phải của ông bị bỏng đỏ. Tiên sinh khoảng hơn 40 tuổi, mày rậm mắt to, môi dày, tính cách ông khiến người đối diện có cảm giác ông rất chân chất trung thực. Thế nhưng tinh thần ông ngó bộ không được tốt lắm.
 
 Vợ ông kể một buổi tối cách đây nửa năm, ông đang trên đường về nhà thì bị một người tạt acid vào mặt. Lúc đó đèn đường tối om nên không nhìn rõ mặt hung thủ. Bởi vì chồng bà là nhân viên chấp pháp, biện sự nghiêm túc, có khả năng ông đã đắc tội với ai đó nên bị báo thù. Chính phủ thành phố rất xem trọng vụ án này, nhưng đến nay vẫn chưa điều tra ra hung thủ. Chồng bà trong lòng rất phiền bực, uất ức, luôn có ý muốn báo thù. Đêm ngủ không yên, dù có chợp mắt cũng chỉ nghỉ được một chút. Bà sợ tinh thần chồng có vấn đề, nên đến thỉnh giáo Hòa thượng.
@@ -662,6 +830,20 @@ Hạnh Đoan biên dịch
 ## 13. MANG THAI KHÔNG NÊN NỐI GIẬN {#truyen-13}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Người mẹ sinh con ra thì đứa trẻ mắc chứng bệnh kỳ lạ: tính tình hung hãn, hay la hét co giật, mặt mũi đỏ bừng nổi mẩn ngứa và còi cọc khó nuôi.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Trong suốt thời kỳ thai nghén 9 tháng 10 ngày, người mẹ thường xuyên nổi giận lôi đình, cãi vã đập phá đồ đạc và ôm lòng uất hận thù hằn với gia đình chồng.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Độc khí sân hận theo máu huyết truyền thẳng vào thai nhi, làm biến đổi thể chất và tâm lý của đứa trẻ, gieo rắc mầm bệnh tật và bất an ngay từ trong bụng mẹ.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Thai giáo bằng tâm từ bi hỷ xả là điều tối quan trọng; người mẹ mang thai phải luôn giữ tâm thanh tịnh, nghe kinh niệm Phật để con sinh ra được đoan trang hiền thiện.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Mang Thai Không Nên Nổi Giận" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-13" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Người mẹ sinh con ra thì đứa trẻ mắc chứng bệnh kỳ lạ: tính tình hung hãn, hay la hét co giật, mặt mũi đỏ bừng nổi mẩn ngứa và còi cọc khó nuôi. Hành vi tạo nghiệp: Trong suốt thời kỳ thai nghén ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Tại một ngôi chùa ở Tây An, có một phụ nữ khoảng 50 tuổi đang hướng Hòa thượng Diệu Pháp kể lể những uẩn khúc của bà.
 
@@ -706,6 +888,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Đôi vợ chồng cư sĩ lớn tuổi mới quy y Tam Bảo, đến chùa làm công quả nhưng lén lút lấy trộm một đĩa dưa cải muối trị giá hai đồng mang về nhà ăn.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Xem thường của cải nhà chùa dù chỉ là hai đồng dưa cải muối, vi phạm giới luật lấy của Tam Bảo không cho mà lấy.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Ngay ngày hôm sau người chồng đi xe đạp bị té gãy xương bánh chè, tiền thuốc men viện phí tổn thất gấp hàng trăm lần giá trị của đĩa dưa cải.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Lời cảnh tỉnh răn đe cho người đi chùa: một hạt gạo, một ngọn cỏ của Tam Bảo cũng không được tùy tiện chiếm đoạt; gieo nhân tham nhỏ gặt quả đắng to.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Hai Đồng Dưa Cải" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-14" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Đôi vợ chồng cư sĩ lớn tuổi mới quy y Tam Bảo, đến chùa làm công quả nhưng lén lút lấy trộm một đĩa dưa cải muối trị giá hai đồng mang về nhà ăn. Hành vi tạo nghiệp: Xem thường của cải nhà chùa d...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Có một nữ cư sĩ khoảng hơn 60, mới nhập Phật môn, bà và chồng hướng Hòa thượng thỉnh giáo. Con trai bà hiện nay 41 tuổi, mấy năm trước đầu nó bịnh nấm da trâu, bây giờ đã lên đến não, khắp hai tay, ngón, móng gì cũng bị ráo. Bịnh chuyển lây lan dày mịt, đã chữa chạy khắp nơi mà vẫn vô hiệu, xin Hòa thượng từ bi khai thị.
 
 Hòa thượng hỏi: Trước khi sinh thằng bé nửa tháng, bà có vì tiền bạc mà nổi giận không?
@@ -748,6 +944,20 @@ Hạnh Đoan biên dịch
 ## 15. NÊN SỐNG CHÁNH NGHIỆP {#truyen-15}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Lời khai thị sâu sắc về duyên nghiệp vợ chồng và con cái: 'Trai cưới vợ, gái lấy chồng là do duyên thiện hoặc ác; sinh con trai hay gái là đòi nợ hay trả nợ'.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Con người trong đời sống mưu sinh thường bất chấp luân thường đạo lý, chọn những nghề nghiệp tà mạng như sát sinh, sản xuất vũ khí, buôn bán độc dược và rượu chè.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Con cái hư hỏng phá gia chi tử, gia đình lục đục bất hòa, tai họa liên tiếp bủa vây khiến hậu vận rơi vào cảnh cô độc khốn cùng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Phải biết chọn nghề chánh mạng để mưu sinh; giữ tâm thiện lương tích đức cho con cháu đời sau, chuyển hóa nghịch duyên thành thuận duyên giải thoát.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Nên Sống Chánh Nghiệp" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-15" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Lời khai thị sâu sắc về duyên nghiệp vợ chồng và con cái: 'Trai cưới vợ, gái lấy chồng là do duyên thiện hoặc ác; sinh con trai hay gái là đòi nợ hay trả nợ'. Hành vi tạo nghiệp: Con người trong ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Trai cưới vợ, gái lấy chồng
 
@@ -814,6 +1024,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Ký Văn Đông hơn 40 tuổi quỳ khóc thảm thiết trước ngôi mộ mới đắp của người con trai độc nhất vừa tử nạn bất đắc kỳ hồ.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Năm xưa trong lúc hoạn nạn được người bạn thân cưu mang giúp đỡ vốn liếng làm ăn; sau khi giàu có lại trở mặt bội tín, chiếm đoạt toàn bộ tài sản và bỏ mặc ân nhân chết trong nghèo khó.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Con trai cưng chết thảm, gia sản tiêu tán trong các vụ kiện tụng tranh chấp, bản thân mang trọng bệnh không người chăm sóc; quả báo vong ân bội nghĩa hiện tiền rõ rệt.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Sống trên đời phải lấy chữ tín và lòng biết ơn làm đầu; phụ ân phản bạn là tội ác trời đất không tha, gieo nhân ác ắt phải gánh chịu kết cục bi thảm.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Quả Báo Bội Tín Vong Nghĩa" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-16" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Ký Văn Đông hơn 40 tuổi quỳ khóc thảm thiết trước ngôi mộ mới đắp của người con trai độc nhất vừa tử nạn bất đắc kỳ hồ. Hành vi tạo nghiệp: Năm xưa trong lúc hoạn nạn được người bạn thân cưu mang...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Ký Văn Đông, hơn 40 tuổi, thân mặc hiếu tang, mắt đầm đìa lệ, quỳ trước ngôi mộ mới đắp của thím Trương láng giềng, lâu thật lâu vẫn chưa chịu rời xa.
 
 Người đàn ông này vóc dáng cao lớn, tướng mạo đường đường, nhưng lại có thời thơ ấu rất thảm. Nếu như không nhờ thím Trương quan tâm giúp đỡ, thì có lẽ anh đã không còn trên trần thế. Tuy không phải thân nhân nhưng thím Trương đối tốt còn hơn thân nhân.
@@ -878,6 +1102,20 @@ Hạnh Đoan biên dịch
 ## 17. BÀ HÀNG TRỨNG RÁN {#truyen-17}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một phụ nữ làm nghề bán bánh rán chiên trứng nhiều năm nơi góc phố sầm uất, mắc chứng bệnh da liễu kinh hoàng khắp toàn thân.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Vì tham lợi nhuận cao đã thu mua các loại trứng ung thối, trứng dập và dầu chiên tái chế độc hại để chiên bánh lừa bán cho học sinh và người đi đường.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Toàn thân nổi mụn nhọt mưng mủ tanh tưởi, ngứa ngáy lở loét như mùi trứng ung thối rữa; tiền kiếm được bao nhiêu đều đổ hết vào viện phí chạy chữa không khỏi.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Buôn bán gian lận độc hại đầu độc sức khỏe người khác là tự chuốc lấy quả báo hủy hoại thân xác; hãy kinh doanh lương thiện bằng cái tâm trong sạch.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Bà Hàng Trứng Rán" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-17" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Một phụ nữ làm nghề bán bánh rán chiên trứng nhiều năm nơi góc phố sầm uất, mắc chứng bệnh da liễu kinh hoàng khắp toàn thân. Hành vi tạo nghiệp: Vì tham lợi nhuận cao đã thu mua các loại trứng u...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Một buổi chiều năm 1993, có người nhấn chuông cổng, tôi ra mở cửa thì gặp một phụ nữ độ ngoài 50, phía sau bà còn có hai cô gái khoảng hai mươi mấy tuổi (đang khiêng một bao gạo to).
 
@@ -1000,6 +1238,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Cô gái trẻ 28 tuổi mắc chứng bệnh thính giác kỳ quái: tai lúc nghe được lúc không, chữa trị khắp các bệnh viện chuyên khoa tai mũi họng đều vô hiệu.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Buôn bán hàng điện tử và mỹ phẩm giả mạo, dùng lời dối trá lừa gạt khách hàng ham rẻ để kiếm lời từng đồng bạc bất chính.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Bị đối tác lừa gạt lại một vố lớn mất sạch toàn bộ vốn liếng tích cóp, đôi tai điếc nghễnh ngãng không nghe rõ lời người khác, tâm thần luôn hoang mang lo sợ.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Tham chút lợi nhỏ trước mắt để rồi chịu thiệt hại to lớn về sau; người tu Phật phải giữ gìn giới không nói dối, buôn bán chân thật mới có phước đức bền lâu.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Ham Chút Lợi Nhỏ Bị Thiệt To" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-18" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Cô gái trẻ 28 tuổi mắc chứng bệnh thính giác kỳ quái: tai lúc nghe được lúc không, chữa trị khắp các bệnh viện chuyên khoa tai mũi họng đều vô hiệu. Hành vi tạo nghiệp: Buôn bán hàng điện tử và m...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Một cô gái khoảng 27-28 tuổi, tai nghe lúc được lúc không. Đi bệnh viện kiểm tra, bác sĩ nói là không có bệnh, nhưng thính giác cô vẫn nghe không rõ, chẳng biết tại sao?
 
 Sư phụ hỏi:
@@ -1095,6 +1347,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Câu chuyện có thật về cây Tượng Ba cổ thụ trong sân vườn của tác giả vào tiết trung thu tỏa bóng mát và hương thơm thanh khiết.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Đối chiếu giữa tấm lòng che chở bao dung của cỏ cây muôn loài với sự tàn nhẫn chặt phá, hủy hoại môi trường sống của con người vô ơn.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Cây xanh che chở cho gia chủ tránh khỏi tai ương rủi ro trong một trận giông bão lớn, chứng minh cỏ cây hoa lá đều có linh tri giao cảm cùng người có tâm từ bi.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Mở rộng lòng từ thương yêu vạn vật thiên nhiên; bảo vệ môi trường, trồng cây gây rừng và trân quý từng mầm sống cỏ cây trên mặt đất.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Lòng Tốt Của Cây Tượng Ba" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-19" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Câu chuyện có thật về cây Tượng Ba cổ thụ trong sân vườn của tác giả vào tiết trung thu tỏa bóng mát và hương thơm thanh khiết. Hành vi tạo nghiệp: Đối chiếu giữa tấm lòng che chở bao dung của cỏ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Năm 1994, tôi vẫn trụ tại căn nhà trệt một cổng, một sân. Đến tiết trung thu, thảo mộc kỳ hoa trong sân vẫn xum xuê muôn thuở.
 
 Bước vào cổng, bên trái là phòng khách kiêm thư phòng của tôi. Cây Tượng Ba đặt cạnh cửa sổ. Trong sân có một giàn hoa, bên phải cửa sổ là bàn viết có đặt một chậu Văn Trúc thanh tú xinh đẹp.
@@ -1164,6 +1430,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp dành cho những đệ tử thường hay chấp nhặt, nhìn thấy lỗi lầm khuyết điểm của bạn đồng tu mà sinh tâm chê bai bài xích.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thói quen xoi mói tật xấu của tha nhân, coi mình là thanh tịnh còn người khác là ô uế, nuôi dưỡng bản ngã cống cao ngã mạn làm tổn hại hòa khí đạo tràng.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Tâm hồn luôn bất an phiền não, đi đến đâu cũng sinh chuyện thị phi tranh chấp, mất hết công đức tu tập bấy lâu nay.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Người tu chân chính phải luôn phản quan tự kỷ, thấy ưu điểm đức hạnh của người để học hỏi và nhận rõ khuyết điểm của mình để sửa chữa, lấy khiêm nhường làm hạnh đầu đà.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Phải Thấy Ưu Điểm Của Người" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-20" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Lời khai thị từ bi của Hòa thượng Diệu Pháp dành cho những đệ tử thường hay chấp nhặt, nhìn thấy lỗi lầm khuyết điểm của bạn đồng tu mà sinh tâm chê bai bài xích. Hành vi tạo nghiệp: Thói quen xo...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Một chiều mùa thu năm ngoái, mười mấy vị cư sĩ Thạch gia trang đến Ngũ Đài Sơn. Trong đó có một bà hơn năm mươi tuổi, đang ở tại nhà khách hướng Hòa thượng Diệu Pháp kể lẻ nỗi khổ tâm của mình:
 
 – “Bạch sư phụ! Con quy y Phật 4 năm rồi, cứ rằm, mồng một là ăn chay, nhưng thân thể không được khỏe lắm.
@@ -1219,6 +1499,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Bài pháp luận sâu sắc cảnh báo về cạm bẫy 'Mê hồn thang' của cõi trần gian: rượu chè, cờ bạc, thuốc lá và sắc dục đen tối.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Đắm chìm trong thú vui trụy lạc tạm bợ, coi tứ đổ tường là phong lưu sành điệu, bất chấp gia đình khuyên can mà lún sâu vào vũng bùn tội lỗi.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân tàn ma dại, trí tuệ lu mờ, tiêu tán gia sản và đẩy vợ con vào cảnh bần cùng khốn khó, chết đi đọa lạc vào ba đường ác địa ngục ngạ quỷ súc sinh.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Dũng cảm chặt đứt ma chướng tứ đổ tường; lấy ngũ giới làm hàng rào hộ trì thân tâm, quay về nương tựa ánh sáng chánh pháp để tìm lại hạnh phúc chân thật.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Mê Hồn Thang" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-21" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Bài pháp luận sâu sắc cảnh báo về cạm bẫy 'Mê hồn thang' của cõi trần gian: rượu chè, cờ bạc, thuốc lá và sắc dục đen tối. Hành vi tạo nghiệp: Đắm chìm trong thú vui trụy lạc tạm bợ, coi tứ đổ tư...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Mê hồn thang như… tứ đổ tường… Nhiều người mê đảm khó thể buông hút thuốc, bạc bài mờ tâm trí đắm ghiền tửu, sắc… tự trói thân. Nếu ai thoát khỏi bon tật này chính là Như Lai – tự tại vương.
 
 Một chàng sinh viên khoảng hơn hai mươi, hướng Hòa thượng Diệu Pháp nêu thắc mắc: -Việc kiếp trước đời sau hồi nhỏ con có nghe bà nội kể qua, nói rằng hễ Diêm vương cho người nào đầu thai thì trước tiên bắt họ uống một chén “mê hồn thang” của Mạnh bà, uống xong thì quên hết chuyện đời trước. Xin hỏi sư phụ, thật có chuyện uống canh mê hồn này không ạ?
@@ -1245,6 +1539,20 @@ Hạnh Đoan biên dịch
 ## 22. CÔNG TỬ ÁO XANH {#truyen-22}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Gia đình ở thành phố Lạc Dương tỉnh Hà Nam sinh được người con gái 17 tuổi xinh đẹp khả ái nhưng tính tình bướng bỉnh, thường xuyên bị bóng đen chàng công tử áo xanh quấy rối.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Tiền kiếp là món nợ ân oán tình ái sâu nặng giữa hai linh hồn; chàng công tử áo xanh vì si tình uất ức mà chết theo mối tơ vương chưa dứt.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Hồn ma công tử áo xanh bám theo đòi nợ tình ái, khiến cô gái đau ốm triền miên, tâm thần hoảng loạn và gia đình lục đục không một ngày yên ả.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Hòa thượng Diệu Pháp khai thị hóa giải oán kết nhiều đời; gia đình lập đàn tụng kinh Địa Tạng siêu độ cho hương linh công tử áo xanh được siêu sinh tịnh độ.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Công Tử Áo Xanh" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-22" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Gia đình ở thành phố Lạc Dương tỉnh Hà Nam sinh được người con gái 17 tuổi xinh đẹp khả ái nhưng tính tình bướng bỉnh, thường xuyên bị bóng đen chàng công tử áo xanh quấy rối. Hành vi tạo nghiệp:...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Phố Lạc Dương tình Hà Nam có một gia đình ba nhân khẩu, ông chồng thì thành thật, bà vợ siêng năng đảm đang. Con gái họ 17 tuổi, mỹ lệ khả ái. Nhìn sơ qua thì thấy đây là một gia đình hạnh phúc ấm êm, nhưng quả thực đúng như câu châm ngôn “Nhà nào cũng có điều khổ tâm khó nói”.
 
@@ -1335,6 +1643,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một người vợ hiền thục siêng năng đảm đang một đời vì chồng vì con, nhưng người chồng lại sa đà bồ bịch ngoại tình và phụ bạc nghĩa tào khang.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Mối nghịch duyên oan trái từ tiền kiếp: kiếp trước bà từng đối xử phụ bạc lạnh nhạt với người chồng, kiếp này hoán đổi vai vế để đền trả nợ cũ.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Nỗi đau đớn xé ruột khi bị người đầu ấp tay gối phản bội, sống trong trầm cảm dằn vặt muốn hủy hoại thân thể để chấm dứt đau khổ.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Hiểu rõ lý duyên nợ nhân quả nhiều đời, bà buông bỏ oán hận, nương tựa cửa Phật tu hành bái sám; nhờ tâm thanh tịnh chuyển hóa mà chồng bà hồi tâm chuyển ý quay về.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Người Vợ Đau Khổ" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-23" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Một người vợ hiền thục siêng năng đảm đang một đời vì chồng vì con, nhưng người chồng lại sa đà bồ bịch ngoại tình và phụ bạc nghĩa tào khang. Hành vi tạo nghiệp: Mối nghịch duyên oan trái từ tiề...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Cát cư sĩ tuổi gần 60, tin Phật đã nhiều năm, lúc bà gặp Hòa thượng Diệu Pháp, thì mắt lệ tuôn trào, do quá bi ai cho bản thân.
 
 Hai mươi tuổi bà lấy chồng, nhưng tới giờ vẫn chưa biết hạnh phúc phu thê nồng ấm là chi. Vợ chồng tuy sống chung nhưng chỉ đem lại cho bà toàn khủng hoảng. Điều khiến bà thống khổ và vô phương kham nhẫn nổi chính là, tuy hiện thời đã ở vị bà nội, song lắm lúc vẫn bị chồng đánh, mắng… mấy mươi năm nay hôn nhân của bà toàn là nếm mùi đánh đập, mắng chửi… bị khổ đau mài luyện. Nhưng ngược ngạo thay, cái ông chồng vô tình vũ phu này, ở bên ngoài ai cũng tấm tắc khen ổng là người tốt.
@@ -1369,6 +1691,20 @@ Hạnh Đoan biên dịch
 ## 24. KIM GIÁM ĐỐC {#truyen-24}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Anh Kim là giám đốc một nhà in lớn, vốn là người vô thần không tin tôn giáo nhưng tình nguyện lái xe đưa tác giả và đoàn Phật tử đi công việc.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Từng có suy nghĩ coi Phật giáo là mê tín dị đoan, ỷ vào sức mình và tiền tài danh vọng mà không tin có thế giới vô hình và luật nhân quả.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Trên đường đi chứng kiến những hiện tượng cảm ứng nhiệm mầu và tài tiên tri phá án nhân quả kỳ tài của Hòa thượng Diệu Pháp khiến anh rùng mình kinh phục.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Bừng tỉnh tín tâm chánh tín, giám đốc Kim phát tâm quy y Tam Bảo, tình nguyện dùng hệ thống nhà in ấn tống kinh sách Phật giáo cứu độ muôn người.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Kim Giám Đốc" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-24" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Anh Kim là giám đốc một nhà in lớn, vốn là người vô thần không tin tôn giáo nhưng tình nguyện lái xe đưa tác giả và đoàn Phật tử đi công việc. Hành vi tạo nghiệp: Từng có suy nghĩ coi Phật giáo l...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Lần nọ, mười mấy người cư sĩ chúng tôi muốn đi Ngũ Đài Sơn bái kiến Hòa thượng Diệu Pháp. Anh Kim là giám đốc nhà in, tình nguyện lái xe đưa chúng tôi đi. Mặc dù anh không tin Phật, nhưng thuộc típ người hết lòng vì bạn. Anh tự lái chiếc xe hơi đời mới, sang trọng, đưa chúng tôi vượt đường xa. Hơn nữa, có 3 lý do khiến anh sốt sắng: một là vì muốn giúp bạn hữu, hai là từng nghe đồn những việc thần kỳ về Hòa thượng Diệu Pháp nên anh cũng tò mò, ba là thưở giờ chưa biết thắng cảnh Ngũ Đài Sơn, nên cũng muốn đến cho rõ.
 
@@ -1505,6 +1841,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Tần phu nhân là một phụ nữ tài sắc vẹn toàn, có năng khiếu hội họa mỹ thuật từ nhỏ nhưng cuộc đời chịu nhiều nghịch cảnh truân chuyên trong hôn nhân.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Tiền kiếp từng là một họa sĩ tài ba nhưng kiêu căng ngạo mạn, từng vẽ tranh kích động lòng tham dục và khinh miệt người kém tài hơn mình.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Hôn nhân đổ vỡ, bị người tình lừa gạt tiền bạc và tình cảm, sống trong nỗi cô đơn cùng cực giữa chốn phồn hoa đô hội.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Nhờ quy y Tam Bảo, dùng tài năng hội họa vẽ tranh Phật và Bồ Tát cúng dường; tâm tánh nhu hòa bái sám tiêu trừ nghiệp chướng, tìm lại sự thanh thản an vui tột cùng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Tần Phu Nhân" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-25" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Tần phu nhân là một phụ nữ tài sắc vẹn toàn, có năng khiếu hội họa mỹ thuật từ nhỏ nhưng cuộc đời chịu nhiều nghịch cảnh truân chuyên trong hôn nhân. Hành vi tạo nghiệp: Tiền kiếp từng là một họa...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Tần cư sĩ là một phụ nữ rất xinh đẹp, từ nhỏ đã có khiếu mỹ thuật, tuổi còn trẻ đã là thầy dạy cắt uốn tóc nổi danh khắp thành phố. Bà là người lanh lẹ vén khéo, đảm đang.
 
 Sau khi cách mạng giải phóng, bà tự mở một tiệm làm tóc tại nhà, đến nay phát triển thành một thẩm mỹ viện bề thế, quy mô.
@@ -1622,6 +1972,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Đứa cháu đích tôn độc nhất trong một gia đình hào môn được ông bà cha mẹ nuông chiều như vàng như ngọc từ tấm bé.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Đứa cháu lớn lên ngỗ nghịch phá phách, sa đà vào cờ bạc ma túy, thường xuyên đập phá đồ đạc và đe dọa tống tiền chính cha mẹ ruột của mình.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Tiền tài tiêu tán, gia phong sụp đổ; Hòa thượng chỉ rõ đứa cháu quý chính là chủ nợ tiền kiếp đầu thai vào làm con cháu để đòi món nợ khổng lồ năm xưa.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Nuông chiều con cháu mù quáng là hại con hại mình; phải giáo dục con cái bằng đạo đức nhân quả, lấy Phật pháp rèn giũa tâm tánh từ thuở ấu thơ.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Thằng Cháu Quý" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-26" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Đứa cháu đích tôn độc nhất trong một gia đình hào môn được ông bà cha mẹ nuông chiều như vàng như ngọc từ tấm bé. Hành vi tạo nghiệp: Đứa cháu lớn lên ngỗ nghịch phá phách, sa đà vào cờ bạc ma tú...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Tưởng cư sĩ năm nay hơn 70 tuổi, thường tham gia Phật thất, nhưng bà có chứng bịnh tim, khiến bà niệm Phật không được chuyên nhất. Nguyên do chính là tại thằng cháu nội tên Lư (17 tuổi) thường theo ông xã bà (tuổi gần 80) kêu to hét lớn, ép bà làm những việc nó cần, từ việc thay y phục hằng ngày cho tới cung ứng cơm nước phải “hầu nó” ngày ba bữa, thậm chí còn sai bà tới nhà bạn học lấy những thứ nó cần.
 
 Con trai bà điều kiện kinh tế rất khá, có ngôi biệt thự xây kiểu hiện đại, tối tân; sở hữu điền sản, nhà, xe phong nhiêu… rất muốn thằng con về ở chung, nhưng thằng Lư từ nhỏ chỉ thích ở với ông bà nội. Song ngày ngày nó luôn quấy phá hành hạ, làm phiền hai ông bà đủ điều.
@@ -1660,6 +2024,20 @@ Hạnh Đoan biên dịch
 ## 27. TU KHÔNG NÊN ĐỘC TÀI {#truyen-27}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Một vị trưởng đạo tràng tu học nhiều năm nhưng tính tình gia trưởng, độc tài chuyên quyền, luôn bắt mọi người phải phục tùng ý kiến riêng của mình.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Mượn danh nghĩa hộ trì chánh pháp để thỏa mãn bản ngã độc đoán, áp đặt ép uổng các bạn đồng tu khiến đạo tràng chia rẽ, nhiều người thối thất tâm bồ đề.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Bản thân mắc chứng đau ngực nghẹt thở, các bạn đồng tu xa lánh, đạo tràng tan rã; công đức tu hành bao năm tiêu tan như mây khói.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Hòa thượng Diệu Pháp nghiêm khắc nhắc nhở: tu hành phải lấy khiêm cung, nhẫn nhục và lục hòa kính làm đầu; buông bỏ tâm độc tài mới thực sự bước vào cửa đạo giác ngộ.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Tu Không Nên Độc Tài" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-27" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Một vị trưởng đạo tràng tu học nhiều năm nhưng tính tình gia trưởng, độc tài chuyên quyền, luôn bắt mọi người phải phục tùng ý kiến riêng của mình. Hành vi tạo nghiệp: Mượn danh nghĩa hộ trì chán...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Một buổi chiều nọ Hòa thượng Diệu Pháp mới vừa an tọa, thì một vị tóc điểm muối tiêu tiến tới quỳ xuống, chưa khai khẩu đã tuôn lệ như mưa, khóc chẳng thành tiếng, mọi người an ủi, ông mới dần bỉnh tĩnh được chút và bắt đầu hướng về Hòa thượng kể chuyện của mình, cầu xin chỉ dạy.
 
@@ -1810,6 +2188,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Đôi nam nữ Phật tử cùng nhau phát tâm xuất gia tu học nhưng trong lòng vẫn âm ỉ sợi dây tình cảm luyến ái chấp trước không thể dứt trừ.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Dây tơ hồng tình chấp nhiều kiếp huân tập sâu đậm trong tàng thức; dù khoác áo cà sa nhưng tâm vẫn vướng bận ái dục thế gian làm chướng ngại đường tu.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Tinh thần bấn loạn, công phu tu tập bế tắc không thể định tâm, thường xuyên bị mộng mị phiền não quấy nhiễu thân tâm.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Nhờ Hòa thượng Diệu Pháp dùng gươm trí tuệ chặt đứt tơ vương ái chấp, chỉ rõ biển khổ sinh tử luân hồi; cả hai tỉnh ngộ buông xả hoàn toàn, dốc lòng tiến tu giải thoát.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Tình Chấp Nhiều Đời" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-28" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Đôi nam nữ Phật tử cùng nhau phát tâm xuất gia tu học nhưng trong lòng vẫn âm ỉ sợi dây tình cảm luyến ái chấp trước không thể dứt trừ. Hành vi tạo nghiệp: Dây tơ hồng tình chấp nhiều kiếp huân t...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Khi Hòa thượng Diệu Pháp dẫn tôi đến một đại đạo tràng nọ, thì Sư bà trụ trì Ni tự này kể cho Hòa thượng nghe nơi đây có hai Sa-di ni, khoảng hơn hai mươi tuổi, tướng mạo trang nghiêm, trước khi xuất gia họ đều đã tốt nghiệp đại học, có bằng thạc sĩ. Sau khi họ phát tâm xuất gia rồi, thì tụng niệm bái sám, kinh điển thuộc mau, các oai nghi, mỗi mỗi đều ổn. Lẽ ra hai cô này có thể nổi bật xuất sắc trong chúng, nhưng ngặt nôi họ mắc phải chứng bịnh… “đồng tính luyến ái” mà trụ trì khuyên mãi không được.
 
 Xin gọi họ là ni X và ni Y. Mới đầu hai cô này chẳng ai lìa ai, ngủ thì nằm sát đơn nhau, đứng đâu cũng đứng cùng, lên điện tụng kinh sớm tối thì một trước một sau, vào Thiền đường thì cũng ngồi kề bên nhau.
@@ -1851,6 +2243,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Bài pháp thoại sâu sắc về con đường làm giàu chân chính và bí quyết gặt hái tài lộc theo đúng quy luật nhân quả của nhà Phật.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Người đời vì tham giàu nhanh mà bất chấp thủ đoạn lừa lọc, trốn thuế gian lận, buôn bán hàng giả và sát sinh kiếm tiền bẩn.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Của cải bất chính như bọt nước phù du, vào cửa trước ra cửa sau kéo theo tai ương bệnh tật và tù tội tán gia bại sản.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Muốn giàu sang phú quý bền lâu phải biết gieo nhân bố thí, cúng dường Tam Bảo, cứu giúp người nghèo khổ; tâm rộng bao nhiêu thì phước lộc lớn bấy nhiêu.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Con Đường Làm Giàu" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-29" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Bài pháp thoại sâu sắc về con đường làm giàu chân chính và bí quyết gặt hái tài lộc theo đúng quy luật nhân quả của nhà Phật. Hành vi tạo nghiệp: Người đời vì tham giàu nhanh mà bất chấp thủ đoạn...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Người ta ai cũng ưa phát tài, có người biết nắm lấy cơ hội nên “tâm muốn, sự thành”. Có người tùy khả năng mà vươn lên theo thời, nỗ lực phấn đấu, dốc hết cả đời, cuối cùng cũng thành tựu. Có người dù tích lũy lắm tiền của, tuy được tài phú nhưng không bền lâu, vì “sai lầm một chút mà ôm hận thiên thu”.
 
 Hơn mười năm nay tồi theo hấu Hòa thượng Diệu Pháp, chứng kiến nhiều người đến thỉnh giáo ngài vắn đề này, vì vậy tôi tuyển chọn hai câu chuyện có thực tiêu biểu, chia sẻ cho độc giả nghe.
@@ -1875,6 +2281,20 @@ Hạnh Đoan biên dịch
 ## 30. NỬA CÁI BÁNH {#truyen-30}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Gia đình ông Trình tu học giữ giới rất nghiêm mật nhưng có tính keo kiệt, đem nửa cái bánh thiu hỏng không ăn được cho một người ăn xin qua đường.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Bố thí với tâm khinh thường, tiếc của rẻ, đem đồ ăn hỏng độc hại cho người đói khổ làm tổn hại hạnh bố thí thanh tịnh.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Trong nhà đồ ăn liên tục bị ôi thiu hỏng mốc; công việc làm ăn bất ngờ gặp trục trặc bị khách hàng trả lại hàng hóa thiệt hại nặng nề.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Của cho không bằng cách cho; bố thí phải xuất phát từ tâm từ bi cung kính chân thật mới gặt hái phước báu vô lượng vô biên.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Nửa Cái Bánh" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-30" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Gia đình ông Trình tu học giữ giới rất nghiêm mật nhưng có tính keo kiệt, đem nửa cái bánh thiu hỏng không ăn được cho một người ăn xin qua đường. Hành vi tạo nghiệp: Bố thí với tâm khinh thường,...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Gia đình ông Trình có ba người, sau khi qui y Phật rồi thì giữ giới rất nghiêm. Nhà ông giàu có ngàn vạn, lại một bề trì giới chu toàn, khiến mọi người rất kính phục. (Xem ra phú quý học đạo cũng không khó? Mấu chốt nằm ở chỗ bạn có huệ căn và cùng Phật có duyên hay chăng thôi).
 
@@ -1960,6 +2380,20 @@ Hạnh Đoan biên dịch
 ## 31. NGHIÊM CƯ SĨ {#truyen-31}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Nghiêm Đại cư sĩ là nhân vật hộ pháp nổi danh khắp các ngôi chùa lớn trong nước, cúng dường tiền của và công sức không biết mệt mỏi.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Ỷ vào công đức hộ trì to lớn mà sinh tâm ngã mạn vi tế, thích được tâng bốc ca ngợi, coi thường các vị sư trẻ và những người đóng góp ít hơn mình.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh mãn tính không dứt, trong lòng luôn canh cánh phiền não so đo hơn thua với người đời.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Được Hòa thượng Diệu Pháp trực tiếp chỉ điểm phá trừ tâm ngã mạn, ông sụp lạy ăn năn hiểu rõ lý ba la mật 'tam luân không tịch', tu hành đạt cảnh giới buông xả an nhiên.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Nghiêm Cư Sĩ" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-31" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Nghiêm Đại cư sĩ là nhân vật hộ pháp nổi danh khắp các ngôi chùa lớn trong nước, cúng dường tiền của và công sức không biết mệt mỏi. Hành vi tạo nghiệp: Ỷ vào công đức hộ trì to lớn mà sinh tâm n...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Nghiêm Đại cư sĩ là nhân vật khá nổi tiếng đối với các tự viện trong nước. Sở dĩ người ta gọi ông là “Đại cư sĩ”, là do ba điều: Thứ nhất: ông rất giàu, sở hữu nhiều hãng tiệm khắp các thành phố lớn trong nước. Thứ hai: hùng tâm in kinh tạo tượng cúng dường bố thí cực kỳ mạnh. Thứ ba: tính khí nóng nảy cũng bự tương đương…
 
@@ -2132,6 +2566,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Hồi ức tự thuật xúc động sâu sắc của tác sĩ Quả Khanh về hành trình từ một cán bộ vô thần chuyển hóa trở thành người con Phật thuần thành.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thời trẻ sống trong vô minh, từng hoài nghi giáo lý tôn giáo, sát sinh ăn thịt và tạo bao điều lầm lỡ theo thói quen thế tục.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Bệnh tật hoạn nạn xảy đến khiến bế tắc tinh thần; may mắn hội ngộ Hòa thượng Diệu Pháp trên đỉnh Ngũ Đài Sơn linh thiêng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Ánh sáng từ bi và trí tuệ vô biên của Phật pháp đã cứu vớt cuộc đời tác giả; nguyện đem trọn phần đời còn lại viết sách truyền bá nhân quả cứu độ quần sinh.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Khi Tôi Biết Đến Pháp Phật" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-32" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Hồi ức tự thuật xúc động sâu sắc của tác sĩ Quả Khanh về hành trình từ một cán bộ vô thần chuyển hóa trở thành người con Phật thuần thành. Hành vi tạo nghiệp: Thời trẻ sống trong vô minh, từng ho...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Tôi tên Trương Lập Hoa, năm nay 65 tuổi, là công nhân đã nghỉ hưu. Tôi sinh trong xã hội cũ, lớn lên trong chế độ mới. Từ lúc bắt đầu đi học đến nay, tôi toàn hấp thụ nền giáo dục vô thần, nên suốt nửa thế kỷ nhồi huân… có thể khẳng định đầu óc tôi… rặt toàn thuyết vồ thần mà thôi.
 
 Thời thanh niên, ngoài giờ học tập công tác tôi đọc khá nhiều tiểu thuyết nội dung phù phiếm, có một số sách nhắc đến nhân quả, nhưng các điều trong sách nói toàn là những chuyện xa xưa, cũ rích… từ mấy trăm năm, thậm chí cả ngàn năm trước, tuy có đạo lý nhưng không chỗ khảo chứng, nên chẳng khơi gợi được sự chú trọng của tôi về nhân quả.
@@ -2172,6 +2620,20 @@ Hạnh Đoan biên dịch
 ## 33. TRONG MẠT PHÁP CÓ CHÁNH PHÁP {#truyen-33}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Lời khai thị phá tan tâm lý hoang mang bi quan của hàng Phật tử trước viễn cảnh thời kỳ Mạt pháp tà sư thuyết pháp như cát sông Hằng.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Người tu thời mạt pháp chạy theo danh vọng hình thức, buông lỏng giới luật, mượn đạo tạo đời khiến Chánh pháp bị lu mờ mai một.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Chánh tín suy vi, tà đạo lộng hành làm lầm lạc biết bao thiện nam tín nữ trên bước đường tìm cầu chân lý giải thoát.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Hễ nơi nào có người chân thật nghiêm trì giới luật, ăn chay niệm Phật, tu sửa thân tâm thì nơi đó Chánh pháp hiện tiền; tự thân mỗi người hãy là một ngọn đuốc sáng.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Trong Mạt Pháp Có Chánh Pháp" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-33" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Lời khai thị phá tan tâm lý hoang mang bi quan của hàng Phật tử trước viễn cảnh thời kỳ Mạt pháp tà sư thuyết pháp như cát sông Hằng. Hành vi tạo nghiệp: Người tu thời mạt pháp chạy theo danh vọn...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Hỏi: -Trong thời kỳ mạt pháp, người giảng tà pháp quá nhiều, kẻ không tuân thủ giới luật càng nhiều hơn. Có phải là Phật pháp kể từ đây sẽ ngày càng suy vi, phát không nỗi chăng?
 
@@ -2281,6 +2743,20 @@ Hạnh Đoan biên dịch
 ## 34. NI DIỆU DUNG {#truyen-34}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Hành trình xuất gia tu hành phi thường và đầy xúc động của Ni sư Diệu Dung, vượt qua muôn vàn chướng ngại nghịch cảnh thế gian.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Từng trải qua đau khổ thăng trầm nơi cõi trần, nếm trải vị đắng cay của tình đời vô thường và sự trói buộc của gia đình thế tục.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Bị thân nhân phản đối kịch liệt, đối mặt với bạo bệnh hiểm nghèo và thử thách sinh tử trong những ngày đầu xuất gia tầm đạo.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Bằng ý chí sắt đá và niềm tin kiên định vào Tam Bảo, Sư cô tinh tấn bái sám niệm Phật, chuyển hóa mọi chướng duyên thành bồ đề quyến thuộc, trở thành bậc thạch trụ chốn tùng lâm.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Ni Diệu Dung" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-34" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Hành trình xuất gia tu hành phi thường và đầy xúc động của Ni sư Diệu Dung, vượt qua muôn vàn chướng ngại nghịch cảnh thế gian. Hành vi tạo nghiệp: Từng trải qua đau khổ thăng trầm nơi cõi trần, ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Năm 2002 đi Trung Nguyên, tôi đã may mắn gặp một ni cô dùng máu chép mấy bộ kinh. Đây là hành động hi hữu, trong sử Phật giáo Trung Quốc không có nhiều.
 
@@ -2577,6 +3053,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Phân tích cơ chế tâm linh kỳ diệu đằng sau các giấc mộng điềm báo trước về tai nạn, thiên tai địa chấn và sự biến đổi vận mệnh của con người.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Tâm thức chúng sinh luôn có sự giao cảm vi tế cùng từ trường trời đất và thần linh; người tạo ác nghiệp hay bị mộng mị kinh hoàng quấy nhiễu.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Những giấc mộng cảnh báo về tai nạn giao thông, hỏa hoạn và động đất đều ứng nghiệm chuẩn xác, thức tỉnh con người về thế giới vô hình.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Giấc mộng là tiếng chuông cảnh tỉnh của lương tâm và nghiệp thức; hãy mau chóng sám hối, phóng sinh làm lành để chuyển nguy thành an trước khi quả báo ập đến.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Những Điềm Mộng Được Báo Trước" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-35" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Phân tích cơ chế tâm linh kỳ diệu đằng sau các giấc mộng điềm báo trước về tai nạn, thiên tai địa chấn và sự biến đổi vận mệnh của con người. Hành vi tạo nghiệp: Tâm thức chúng sinh luôn có sự gi...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Lời tác giả:
 
 Xin giải thích đây là chuyện kể về những giấc mộng (báo trước nạn tai xảy ra trên thế gian) do một pháp hữu của tôi nằm thấy, rất có giá trị và đáng để chúng ta tham khảo vì có ý nghĩa rất lớn đối với việc khuyến hóa thế gian.
@@ -2800,6 +3290,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Nhóm Phật tử trẻ tuổi tại Thâm Quyến chí thành thực hành công hạnh phóng sinh cứu mạng muôn loài chim cá thường xuyên mỗi tuần.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Cứu vớt hàng vạn sinh linh cá tôm chuẩn bị bị đưa vào lò mổ và chảo dầu sôi của các nhà hàng quán nhậu đẫm máu.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Cảm ứng đất trời mầu nhiệm: đàn cá nhảy múa trên mặt nước vẫy đuôi tạ ơn, mây ngũ sắc hiện trên bầu trời; bệnh tật của các thành viên tiêu trừ, công việc hanh thông tốt đẹp.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Phóng sinh là phương pháp tích phước tiêu nghiệp nhanh nhất; đem lại sự sống cho chúng sinh chính là đem lại thọ mạng dài lâu và an lạc cho chính mình.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Kinh Nghiệm Phóng Sinh" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-36" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Nhóm Phật tử trẻ tuổi tại Thâm Quyến chí thành thực hành công hạnh phóng sinh cứu mạng muôn loài chim cá thường xuyên mỗi tuần. Hành vi tạo nghiệp: Cứu vớt hàng vạn sinh linh cá tôm chuẩn bị bị đ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Tại Thẳm Quyến, có một nhóm cư sĩ trẻ học Phật, họ nghiêm trì giới luật, chuyên tu Chú Lăng Nghiêm, thường tổ chức phong sinh, chủ yếu là thả rắn và các loài động vật hoang dã. Phóng sinh thường có nhiều cám ứng hay, xin kể vài câu chuyên có thật như sau:
 
 Rắn mắt kính
@@ -2874,6 +3378,20 @@ Hạnh Đoan biên dịch
 ## 37. QUẢ BÁO BẤT HIẾU {#truyen-37}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Câu chuyện đau lòng về một người con trai bất hiếu đối xử tàn tệ, hắt hủi và bỏ mặc cha mẹ già yếu trong cảnh đói rét bần hàn.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Quên ơn mang nặng đẻ đau bú mớm nuôi nấng của cha mẹ già; vì nghe lời vợ mà xua đuổi cha mẹ ra chái bếp lụp xụp không cho ăn uống đủ bữa.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Đứa con trai lớn lên bị chính con ruột của mình đối xử bạc bẽo y hệt, sau đó mắc bệnh ung thư gan đau đớn cùng cực chết trong cô độc không ai ngó ngàng.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Bất hiếu là tội nặng đứng đầu muôn tội ác; trời đất quỷ thần đều căm ghét trừng phạt nghiêm khắc; phụng dưỡng cha mẹ chính là cúng dường Phật hiện tiền.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Quả Báo Bất Hiếu" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-37" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Câu chuyện đau lòng về một người con trai bất hiếu đối xử tàn tệ, hắt hủi và bỏ mặc cha mẹ già yếu trong cảnh đói rét bần hàn. Hành vi tạo nghiệp: Quên ơn mang nặng đẻ đau bú mớm nuôi nấng của ch...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Con bất hiếu, cháu vô tình,
 
@@ -2953,6 +3471,20 @@ Hạnh Đoan biên dịch
 ## 38. TUẦN THẤT ĐẦU TIÊN {#truyen-38}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Nghi thức cúng thất và tụng kinh khai thị cho các hương linh vừa mới qua đời trong tuần thất đầu tiên của giai đoạn thân trung ấm 49 ngày.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thần thức người chết trong 49 ngày vô cùng hoang mang sợ hãi, chịu sự chi phối mãnh liệt của nghiệp lực thiện ác đã tạo lúc sinh tiền.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Nếu người nhà sát sinh mổ thịt đãi đằng thì chỉ làm tăng thêm tội nghiệp nặng nề cho vong linh, khiến họ bị đọa đày nơi tam đồ ác đạo.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Trong 49 ngày thân nhân phải làm chay thanh tịnh, chí thành tụng Kinh Địa Tạng và niệm Phật A Di Đà hồi hướng để cứu vớt hương linh siêu thăng cõi lành.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Tuần Thất Đầu Tiên" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-38" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Nghi thức cúng thất và tụng kinh khai thị cho các hương linh vừa mới qua đời trong tuần thất đầu tiên của giai đoạn thân trung ấm 49 ngày. Hành vi tạo nghiệp: Thần thức người chết trong 49 ngày v...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Mùa đông năm 2009, cư sĩ Dung (tên thật đã được đổi) gọi điện cho tôi hỏi thăm chuyện in ấn kinh và sách thiện…Khi cô nghe nói nhà chúng tôi còn những sách hay khác nữa, bèn đến để xem.
 
@@ -3060,6 +3592,20 @@ Hạnh Đoan biên dịch
 ## 39. VÌ SAO CÔ ĐI TU? {#truyen-39}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Lời tâm sự chân thành và sâu sắc của một nữ tri thức xinh đẹp buông bỏ công danh sự nghiệp rực rỡ để xuất gia làm ni cô nơi chốn thiền môn.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Nhìn thấu bản chất vô thường mong manh của cuộc đời thế tục, nhận ra danh lợi và ái ân chỉ như làn khói mây bay thoáng chốc không bền.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thoát khỏi vòng xoáy cơm áo gạo tiền và tranh đoạt thị phi, tìm lại sự tự tại thanh thản tuyệt đối trong tâm hồn dưới bóng từ bi Tam Bảo.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Xuất gia là việc làm của bậc đại trượng phu, không phải vì bi quan trốn đời mà là để tìm cầu chân lý tối thượng và cứu độ muôn loài thoát khỏi biển khổ sinh tử.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Vì Sao Cô Đi Tu?" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-39" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Lời tâm sự chân thành và sâu sắc của một nữ tri thức xinh đẹp buông bỏ công danh sự nghiệp rực rỡ để xuất gia làm ni cô nơi chốn thiền môn. Hành vi tạo nghiệp: Nhìn thấu bản chất vô thường mong m...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Mùa thu năm 2003, một ngày trời trong đẹp, gió thổi hiu hiu, tôi và bạn già đi đến chùa Bàn Long nổi danh ở huyện Nguyên Thị tỉnh Hà Bắc. Thắp hương lễ Phật xong, chúng tôi đi dạo nhìn ngắm cảnh trong chùa, lúc nãy có một sư nữ mặt tươi tắn, mỉm cười đón tiếp chúng tôi, trông cô rất hòa nhã thân thiện. Bạn già tôi bước lên trước chào hỏi:
 
@@ -3188,6 +3734,20 @@ Hạnh Đoan biên dịch
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
 
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Lời giải đáp minh triết của Hòa thượng Diệu Pháp cho thắc mắc lớn của nhiều Phật tử: vì sao nhiều bậc chân tu cao tăng đại đức lại mang trọng bệnh trước khi viên tịch?<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Người tu hành chân chính phát đại bồ đề tâm nguyện gánh vác nghiệp chướng cho chúng sinh, chuyển đổi ác nghiệp nhiều đời thành quả báo nhẹ ở hiện đời.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Bệnh tật thân xác là cơ hội thanh lọc tàn dư nghiệp lực, trả xong món nợ sinh tử cuối cùng để thong dong vãng sinh cõi Phật không còn vướng bận.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Chớ nên nhìn hiện tượng bên ngoài mà sinh tâm nghi ngờ chánh pháp; hãy thấu hiểu hạnh nguyện xả thân vì đạo và đạo lực vô lượng của các bậc chân tu.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Vì Sao Các Tu Sĩ Hay Bịnh Nặng?" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-40" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Lời giải đáp minh triết của Hòa thượng Diệu Pháp cho thắc mắc lớn của nhiều Phật tử: vì sao nhiều bậc chân tu cao tăng đại đức lại mang trọng bệnh trước khi viên tịch? Hành vi tạo nghiệp: Người t...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
+
 Vì sao các tu sĩ có những thành tựu cao tột lại bị nhiều hoạn nạn hoặc bịnh nặng trước khi ra đi?
 
 Xem trong sử ta thấy chư vị cao tăng đều gặp nhiều tai nạn, bịnh nặng. Lục Tổ Huệ Năng khi còn tại thế đã có người muốn sát hại ngài; sau khi ngài viên tịch, còn có người muốn chặt đầu ngài để mang về nhà thờ cúng. Còn Tổ Bồ Đề Đạt Ma khi đến Trung Hoa, ngài bị đầu độc và ám hại sáu lần. Tổ Ấn Độ (thứ hai mươi bốn) là Tôn Giả Sư Tử thì bị chém đầu.
@@ -3226,6 +3786,20 @@ Hạnh Đoan biên dịch
 ## 41. HỒI KÝ CỦA SƯ HẰNG NGHIÊM {#truyen-41}
 
 > [🎧 Nghe Audio Tập 3](/nhan-qua/bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-3#stories)  |  [↑ Về Mục Lục](#muc-luc)
+
+<div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
+  <div class="tm-summary-text">
+    <strong>Tóm tắt nhân quả:</strong><br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Cuộc đời khổ tu đầy gian nan thử thách nhưng kiên cường bất khuất của Sư Hằng Nghiêm trải qua giai đoạn chiến tranh loạn lạc khốc liệt.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Giữa bom đạn tàn phá và hiểm nguy rình rập, Ngài vẫn một lòng kiên trinh giữ gìn giới luật, không màng sống chết bảo vệ kinh điển và tự viện.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Cảm ứng chư thiên hộ pháp che chở thoát chết gang tấc trong làn mưa bom bão đạn, đạo tâm kiên cố như bàn thạch ngàn năm.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Tấm gương sáng ngời về ý chí tu hành và niềm tin son sắt vào Phật đạo; là nguồn cổ vũ lớn lao cho hàng hậu học vững bước trên con đường giải thoát.<br/>
+  </div>
+  <div class="tm-summary-toggle-row">
+    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="Hồi Ký Của Sư Hằng Nghiêm" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-3#truyen-41" data-vol="Báo Ứng Hiện Đời — Tập 3" data-summary="Nhân vật & Hoàn cảnh: Cuộc đời khổ tu đầy gian nan thử thách nhưng kiên cường bất khuất của Sư Hằng Nghiêm trải qua giai đoạn chiến tranh loạn lạc khốc liệt. Hành vi tạo nghiệp: Giữa bom đạn tàn phá và hiểm nguy rình ...">🔗 Chia sẻ</button>
+    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  </div>
+</div>
 
 Vào thời Nhật xâm chiếm Trung Quốc, phi cơ Nhật oanh tạc cả tỉnh Hồ Bắc làng quê tôi. Năm đó tôi 22 tuổi, cha mẹ dẫn hết cả nhà đến ga Hạ Thắng Kiều để lên xe lửa đi Trùng Khánh. Nhưng mẹ tôi không kham nổi nhọc mệt đã chết trên đường. Phụ thân cũng ly trần, tôi và vợ chồng người anh ấn trốn tại thôn Kim Ngưu. Hàng ngày nhớ mẹ, mỗi tối tôi nhìn trăng nhắm hư không lễ bái, thầm cầu được biết phụ mẫu giờ đang ở đâu?
 
@@ -3357,3 +3931,33 @@ Hạnh Đoan biên dịch
 
 
 ---
+
+<script>
+if (typeof window.tmShareStory !== 'function') {
+  window.tmShareStory = function(btn) {
+    var title = btn.getAttribute('data-title') || document.title;
+    var url = window.location.origin + (btn.getAttribute('data-url') || window.location.pathname);
+    var summary = btn.getAttribute('data-summary') || '';
+    var vol = btn.getAttribute('data-vol') || 'Báo Ứng Hiện Đời';
+    var text = '📖 ' + vol + '\n🔹 ' + title + '\n\n' + summary + '\n\n🔗 ' + url;
+    if (navigator.share) {
+      navigator.share({ title: title, text: text, url: url }).catch(function(){});
+    } else {
+      navigator.clipboard.writeText(text).then(function() {
+        alert('✓ Đã sao chép liên kết & tóm tắt câu chuyện: ' + title);
+      }).catch(function() {
+        prompt('Sao chép liên kết câu chuyện:', url);
+      });
+    }
+  };
+}
+if (typeof window.tmToggleSummary !== 'function') {
+  window.tmToggleSummary = function(el) {
+    if (!el) return;
+    el.classList.toggle('is-expanded');
+    var b = el.querySelector('.tm-summary-toggle-btn');
+    if (b) b.textContent = el.classList.contains('is-expanded') ? 'Thu gọn ▴' : 'Xem thêm ▾';
+  };
+}
+</script>
+
