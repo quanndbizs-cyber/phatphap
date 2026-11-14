@@ -23,8 +23,8 @@ class bookreader extends Plugin
                 return;
             }
 
-            $this->addCSS('/bookreader/css/bookreader.css');
-            $this->addJS('/bookreader/js/bookreader.js');
+            $this->addCSS('/bookreader/css/bookreader.css?20261112a');
+            $this->addJS('/bookreader/js/bookreader.js?20261112a');
 
             $config = [
                 'defaultSide' => $settings['defaultSide'] ?? 'right',

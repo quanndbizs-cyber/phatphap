@@ -234,10 +234,11 @@
           (storyCount > 0 ? '<span class="tm-drawer-count">' + storyCount + ' bài</span>' : '') +
         '</div>' +
         '<div class="tm-drawer-controls">' +
-          '<button class="tm-drawer-btn tm-dock-switch" title="Chuyển vị trí hiển thị (Trái / Phải)">⇄</button>' +
-          '<button class="tm-drawer-btn tm-drawer-close" title="Đóng mục lục (Esc)">✕</button>' +
+          '<button type="button" class="tm-drawer-btn tm-drawer-fontsize-btn" id="tm-btn-fs-toggle" title="Cỡ chữ mục lục: Chuẩn (1.5x) • Bấm để phóng to">aA</button>' +
+          '<button type="button" class="tm-drawer-btn tm-drawer-close" title="Đóng mục lục (Esc)">✕</button>' +
         '</div>' +
       '</div>' +
+      '<div class="tm-drawer-toast" id="tm-drawer-toast" style="display:none;"></div>' +
       '<div class="tm-drawer-progress-strip">' +
         '<div class="tm-progress-bar-bg">' +
           '<div class="tm-progress-bar-fill" id="tm-drawer-prog-fill"></div>' +
@@ -332,23 +333,70 @@
       }
     });
 
-    // Dock switcher button
-    drawer.querySelector('.tm-dock-switch').addEventListener('click', function () {
-      if (drawer.classList.contains('dock-right')) {
-        drawer.classList.remove('dock-right');
-        drawer.classList.add('dock-left');
-        currentSide = 'left';
-      } else {
-        drawer.classList.remove('dock-left');
-        drawer.classList.add('dock-right');
-        currentSide = 'right';
+    // Font size toggle & reset logic
+    var fsBtn = drawer.querySelector('#tm-btn-fs-toggle');
+    var drawerToast = drawer.querySelector('#tm-drawer-toast');
+    var toastTimer = null;
+
+    function showDrawerToast(msg) {
+      if (!drawerToast) return;
+      drawerToast.textContent = msg;
+      drawerToast.style.display = 'block';
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(function () {
+        drawerToast.style.display = 'none';
+      }, 1400);
+    }
+
+    var currentFsLevel = 0;
+    try {
+      currentFsLevel = parseInt(localStorage.getItem('tm_toc_fontsize_level') || '0', 10);
+      if (isNaN(currentFsLevel) || currentFsLevel < 0 || currentFsLevel > 2) {
+        currentFsLevel = 0;
       }
+    } catch (e) {
+      currentFsLevel = 0;
+    }
+
+    function applyFsLevel(level, notify) {
+      currentFsLevel = level;
+      drawer.classList.remove('tm-fs-level-1', 'tm-fs-level-2');
+      if (level === 1) {
+        drawer.classList.add('tm-fs-level-1');
+        if (fsBtn) {
+          fsBtn.innerHTML = 'A⁺';
+          fsBtn.title = 'Cỡ chữ mục lục: Lớn (+15%) • Bấm để phóng to hơn';
+        }
+        if (notify) showDrawerToast('Cỡ chữ mục lục: Lớn (+15%)');
+      } else if (level === 2) {
+        drawer.classList.add('tm-fs-level-2');
+        if (fsBtn) {
+          fsBtn.innerHTML = '↺';
+          fsBtn.title = 'Cỡ chữ mục lục: Cực lớn (+30%) • Bấm để đặt lại ban đầu';
+        }
+        if (notify) showDrawerToast('Cỡ chữ mục lục: Cực lớn (+30%)');
+      } else {
+        if (fsBtn) {
+          fsBtn.innerHTML = 'aA';
+          fsBtn.title = 'Cỡ chữ mục lục: Chuẩn (1.5x) • Bấm để phóng to';
+        }
+        if (notify) showDrawerToast('✓ Đã đặt lại cỡ chữ ban đầu');
+      }
+
       try {
-        savedPos = savedPos || {};
-        savedPos.side = currentSide;
-        localStorage.setItem('tm_reader_pos', JSON.stringify(savedPos));
+        localStorage.setItem('tm_toc_fontsize_level', String(currentFsLevel));
       } catch (e) {}
-    });
+    }
+
+    // Apply saved level initially without toast notification
+    applyFsLevel(currentFsLevel, false);
+
+    if (fsBtn) {
+      fsBtn.addEventListener('click', function () {
+        var nextLevel = (currentFsLevel + 1) % 3;
+        applyFsLevel(nextLevel, true);
+      });
+    }
 
     // Search filter logic
     var searchInput = drawer.querySelector('.tm-drawer-search-input');

@@ -253,21 +253,59 @@ article h2.tm-reader-target-glow {
   background: transparent;
   border: 1px solid rgba(255, 246, 220, 0.25);
   color: #fff6dc;
-  width: 28px;
-  height: 28px;
-  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 700;
   transition: all 0.15s ease;
+  user-select: none;
 }
 
 .tm-drawer-btn:hover {
   background: #c9972c;
   color: #231710;
   border-color: #c9972c;
+}
+
+.tm-drawer-btn.tm-drawer-fontsize-btn {
+  background: rgba(43, 29, 18, 0.6);
+  border-color: #c9972c;
+  color: #ffe6a0;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  min-width: 34px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tm-drawer-btn.tm-drawer-fontsize-btn:hover {
+  background: #c9972c;
+  color: #231710;
+  border-color: #f1c964;
+}
+
+/* Toast popup in Drawer */
+.tm-drawer-toast {
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(43, 29, 18, 0.95);
+  color: #fff6dc;
+  border: 1.5px solid #c9972c;
+  border-radius: 20px;
+  padding: 5px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  pointer-events: none;
+  white-space: nowrap;
 }
 
 /* Progress Bar Strip */
@@ -378,11 +416,11 @@ article h2.tm-reader-target-glow {
 .tm-drawer-link {
   display: flex;
   align-items: center;
-  padding: 9px 12px;
+  padding: 10px 14px;
   text-decoration: none;
   color: #3b2a1a;
-  font-size: 13.5px;
-  line-height: 1.35;
+  font-size: 20px; /* Tăng gấp 1.5 so với 13.5px ban đầu */
+  line-height: 1.45;
   border-radius: 6px;
   transition: all 0.15s ease;
   border-left: 3px solid transparent;
@@ -405,14 +443,14 @@ article h2.tm-reader-target-glow {
 
 .tm-drawer-num {
   display: inline-block;
-  min-width: 24px;
-  font-size: 11px;
+  min-width: 28px;
+  font-size: 16px; /* Tăng gấp 1.5 so với 11px ban đầu */
   font-weight: 700;
   color: #8c3b19;
-  background: rgba(140, 59, 25, 0.1);
-  padding: 1px 5px;
+  background: rgba(140, 59, 25, 0.12);
+  padding: 2px 7px;
   border-radius: 4px;
-  margin-right: 8px;
+  margin-right: 10px;
   text-align: center;
   flex-shrink: 0;
 }
@@ -423,13 +461,32 @@ article h2.tm-reader-target-glow {
 }
 
 .tm-drawer-active-dot {
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   background: #8c3b19;
   margin-left: 8px;
   display: none;
   flex-shrink: 0;
+}
+
+/* Các cấp độ cỡ chữ khi bấm nút đổi cỡ chữ */
+#tm-reader-drawer.tm-fs-level-1 .tm-drawer-link {
+  font-size: 23px;
+  padding: 11px 16px;
+}
+#tm-reader-drawer.tm-fs-level-1 .tm-drawer-num {
+  font-size: 18px;
+  min-width: 32px;
+}
+
+#tm-reader-drawer.tm-fs-level-2 .tm-drawer-link {
+  font-size: 26px;
+  padding: 12px 18px;
+}
+#tm-reader-drawer.tm-fs-level-2 .tm-drawer-num {
+  font-size: 20px;
+  min-width: 36px;
 }
 
 .tm-drawer-item.active .tm-drawer-active-dot {
@@ -514,12 +571,44 @@ article h2.tm-reader-target-glow {
     font-size: 16px !important;
     border-radius: 6px !important;
   }
+  .tm-drawer-btn.tm-drawer-fontsize-btn {
+    width: auto !important;
+    min-width: 40px !important;
+    padding: 0 6px !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    border-color: #c9972c !important;
+    background: #3b2014 !important;
+  }
   .tm-drawer-btn.tm-drawer-close {
     background: #8c3b19 !important;
     border-color: #f1c964 !important;
     color: #ffffff !important;
     font-weight: bold;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  }
+  .tm-drawer-search-input {
+    font-size: 16px !important;
+    padding: 9px 32px 9px 12px !important;
+  }
+  .tm-drawer-link {
+    font-size: 19px !important;
+    padding: 10px 12px !important;
+  }
+  .tm-drawer-num {
+    font-size: 15px !important;
+  }
+  #tm-reader-drawer.tm-fs-level-1 .tm-drawer-link {
+    font-size: 22px !important;
+  }
+  #tm-reader-drawer.tm-fs-level-1 .tm-drawer-num {
+    font-size: 17px !important;
+  }
+  #tm-reader-drawer.tm-fs-level-2 .tm-drawer-link {
+    font-size: 25px !important;
+  }
+  #tm-reader-drawer.tm-fs-level-2 .tm-drawer-num {
+    font-size: 19px !important;
   }
   .tm-drawer-footer {
     padding: 10px 10px !important;
