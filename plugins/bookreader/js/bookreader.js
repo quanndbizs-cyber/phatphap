@@ -234,7 +234,7 @@
           (storyCount > 0 ? '<span class="tm-drawer-count">' + storyCount + ' bài</span>' : '') +
         '</div>' +
         '<div class="tm-drawer-controls">' +
-          '<button type="button" class="tm-drawer-btn tm-drawer-fontsize-btn" id="tm-btn-fs-toggle" title="Cỡ chữ mục lục: Chuẩn (1.5x) • Bấm để phóng to">aA</button>' +
+          '<button type="button" class="tm-drawer-btn tm-drawer-fontsize-btn" id="tm-btn-fs-toggle" title="Cỡ chữ mục lục: Chuẩn (15px) • Bấm để phóng to">aA</button>' +
           '<button type="button" class="tm-drawer-btn tm-drawer-close" title="Đóng mục lục (Esc)">✕</button>' +
         '</div>' +
       '</div>' +
@@ -365,22 +365,22 @@
         drawer.classList.add('tm-fs-level-1');
         if (fsBtn) {
           fsBtn.innerHTML = 'A⁺';
-          fsBtn.title = 'Cỡ chữ mục lục: Lớn (+15%) • Bấm để phóng to hơn';
+          fsBtn.title = 'Cỡ chữ mục lục: Cấp 1 (19px) • Bấm để phóng to hơn';
         }
-        if (notify) showDrawerToast('Cỡ chữ mục lục: Lớn (+15%)');
+        if (notify) showDrawerToast('Cỡ chữ mục lục: Cấp 1 (19px)');
       } else if (level === 2) {
         drawer.classList.add('tm-fs-level-2');
         if (fsBtn) {
           fsBtn.innerHTML = '↺';
-          fsBtn.title = 'Cỡ chữ mục lục: Cực lớn (+30%) • Bấm để đặt lại ban đầu';
+          fsBtn.title = 'Cỡ chữ mục lục: Cấp 2 (23px) • Bấm để đặt lại ban đầu';
         }
-        if (notify) showDrawerToast('Cỡ chữ mục lục: Cực lớn (+30%)');
+        if (notify) showDrawerToast('Cỡ chữ mục lục: Cấp 2 (23px)');
       } else {
         if (fsBtn) {
           fsBtn.innerHTML = 'aA';
-          fsBtn.title = 'Cỡ chữ mục lục: Chuẩn (1.5x) • Bấm để phóng to';
+          fsBtn.title = 'Cỡ chữ mục lục: Chuẩn (15px) • Bấm để phóng to';
         }
-        if (notify) showDrawerToast('✓ Đã đặt lại cỡ chữ ban đầu');
+        if (notify) showDrawerToast('✓ Cỡ chữ mục lục: Chuẩn (15px)');
       }
 
       try {

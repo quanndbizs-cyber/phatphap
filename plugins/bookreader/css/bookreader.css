@@ -416,11 +416,11 @@ article h2.tm-reader-target-glow {
 .tm-drawer-link {
   display: flex;
   align-items: center;
-  padding: 10px 14px;
+  padding: 8px 12px;
   text-decoration: none;
   color: #3b2a1a;
-  font-size: 20px; /* Tăng gấp 1.5 so với 13.5px ban đầu */
-  line-height: 1.45;
+  font-size: 15px; /* Mặc định 15px */
+  line-height: 1.2;
   border-radius: 6px;
   transition: all 0.15s ease;
   border-left: 3px solid transparent;
@@ -443,14 +443,14 @@ article h2.tm-reader-target-glow {
 
 .tm-drawer-num {
   display: inline-block;
-  min-width: 28px;
-  font-size: 16px; /* Tăng gấp 1.5 so với 11px ban đầu */
+  min-width: 24px;
+  font-size: 12px;
   font-weight: 700;
   color: #8c3b19;
   background: rgba(140, 59, 25, 0.12);
-  padding: 2px 7px;
+  padding: 2px 6px;
   border-radius: 4px;
-  margin-right: 10px;
+  margin-right: 8px;
   text-align: center;
   flex-shrink: 0;
 }
@@ -472,21 +472,23 @@ article h2.tm-reader-target-glow {
 
 /* Các cấp độ cỡ chữ khi bấm nút đổi cỡ chữ */
 #tm-reader-drawer.tm-fs-level-1 .tm-drawer-link {
-  font-size: 23px;
-  padding: 11px 16px;
+  font-size: 19px;
+  line-height: 1.2;
+  padding: 9px 14px;
 }
 #tm-reader-drawer.tm-fs-level-1 .tm-drawer-num {
-  font-size: 18px;
-  min-width: 32px;
+  font-size: 15px;
+  min-width: 28px;
 }
 
 #tm-reader-drawer.tm-fs-level-2 .tm-drawer-link {
-  font-size: 26px;
-  padding: 12px 18px;
+  font-size: 23px;
+  line-height: 1.2;
+  padding: 10px 16px;
 }
 #tm-reader-drawer.tm-fs-level-2 .tm-drawer-num {
-  font-size: 20px;
-  min-width: 36px;
+  font-size: 17px;
+  min-width: 32px;
 }
 
 .tm-drawer-item.active .tm-drawer-active-dot {
@@ -592,23 +594,30 @@ article h2.tm-reader-target-glow {
     padding: 9px 32px 9px 12px !important;
   }
   .tm-drawer-link {
-    font-size: 19px !important;
-    padding: 10px 12px !important;
+    font-size: 15px !important;
+    line-height: 1.2 !important;
+    padding: 8px 10px !important;
   }
   .tm-drawer-num {
-    font-size: 15px !important;
+    font-size: 12px !important;
+    min-width: 24px !important;
+    padding: 2px 5px !important;
   }
   #tm-reader-drawer.tm-fs-level-1 .tm-drawer-link {
-    font-size: 22px !important;
+    font-size: 19px !important;
+    line-height: 1.2 !important;
   }
   #tm-reader-drawer.tm-fs-level-1 .tm-drawer-num {
-    font-size: 17px !important;
+    font-size: 15px !important;
+    min-width: 28px !important;
   }
   #tm-reader-drawer.tm-fs-level-2 .tm-drawer-link {
-    font-size: 25px !important;
+    font-size: 23px !important;
+    line-height: 1.2 !important;
   }
   #tm-reader-drawer.tm-fs-level-2 .tm-drawer-num {
-    font-size: 19px !important;
+    font-size: 17px !important;
+    min-width: 32px !important;
   }
   .tm-drawer-footer {
     padding: 10px 10px !important;
