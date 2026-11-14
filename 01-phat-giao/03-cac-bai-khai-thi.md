@@ -2,15 +2,13 @@
 
 > **Pháp môn:** Tịnh Độ Chuyên Tu • **Chủ biên:** Ban Hộ Niệm • **Hệ thống phát:** Audiobookshelf
 >
-> Trang tổng hợp đầy đủ tài liệu Hộ Niệm: **Trình phát âm thanh 9 tuyển tập**, **Công cụ tra cứu mục lục Thẻ nhớ hộ niệm (424 bài)** và **Toàn văn 20 bài đọc khai thị mẫu ghép đồng bộ với bài nghe Audio**.
+> Trang tổng hợp đầy đủ tài liệu Hộ Niệm: **Trình phát âm thanh 9 tuyển tập**, **Mục lục Thẻ nhớ hộ niệm (424 bài)** và **Toàn văn 20 bài đọc khai thị mẫu ghép đồng bộ với bài nghe Audio**.
 
-* **[🎧 Nghe Tuyển Tập Audiobookshelf (9 Album)](#trinh-phat-audiobookshelf)**
-* **[📑 Tra Cứu Mục Lục Thẻ Nhớ Hộ Niệm (424 Bài)](#tra-cuu-the-nho)**
-* **[📖 Toàn Văn 20 Bài Đọc Khai Thị Mẫu (Kèm Audio)](#bai-doc-khai-thi)**
+* **[🎧 Nghe Tuyển Tập Audiobookshelf (9 Mục Phát)](#trinh-phat-tuyen-tap-audiobookshelf-9-muc-phat)**
+* **[📑 Tra Cứu Mục Lục Thẻ Nhớ Hộ Niệm (424 Bài)](#tra-cuu-muc-luc-the-nho-hoc-tap-khai-thi-ho-niem-424-bai)**
+* **[📖 Toàn Văn 20 Bài Đọc Khai Thị Mẫu (Kèm Audio)](#toan-van-20-bai-doc-khai-thi-mau-kem-audio-tuong-ung)**
 
 ---
-
-<div id="trinh-phat-audiobookshelf"></div>
 
 ## Trình Phát Tuyển Tập Audiobookshelf (9 Mục Phát)
 
@@ -20,178 +18,76 @@ Tuyển tập 9 danh sách phát âm thanh trên hệ thống **Audiobookshelf**
 
 ---
 
-<div id="tra-cuu-the-nho"></div>
-
 ## Tra Cứu Mục Lục Thẻ Nhớ Học Tập Khai Thị Hộ Niệm (424 Bài)
 
-Trích từ tài liệu chuẩn **`Mục Lục Thẻ Nhớ Hộ Niệm A5 Full`** phục vụ việc bấm số nghe trên đài niệm Phật và tra cứu bài giảng nhanh chóng.
+> **Tài liệu nguồn:** Trích từ tài liệu chuẩn *`Mục Lục Thẻ Nhớ Hộ Niệm A5 Full`* (Bộ 424 bài MP3 • Đạo tràng & Ban Hộ Niệm Tùy Duyên toàn quốc). Phục vụ việc bấm số nghe trên đài niệm Phật và tra cứu bài giảng, ca trợ niệm nhanh chóng.
+>
+> *(*) Chú thích: Hầu hết các ca đều có các thời Niệm Phật đại chúng (15 phút - 46 phút) đan xen.*
 
-<div class="tm-the-nho-lookup" style="background:#fcf9f2; border:1px solid #decab0; border-radius:10px; padding:18px 20px; margin:20px 0 35px 0;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:16px;">
-    <div>
-      <h4 style="margin:0 0 4px 0; color:#5c2415; font-size:17px;">🔍 Tìm Nhanh Trong Thẻ Nhớ (424 Mục)</h4>
-      <div style="font-size:13px; color:#7d6350;">Nhập số thứ tự (ví dụ: 001, 020) hoặc tên người bệnh, địa danh, chủ đề khai thị:</div>
-    </div>
-    <span id="tm-lookup-counter" style="background:#eedec4; color:#6e2b19; font-weight:700; font-size:13px; padding:4px 12px; border-radius:20px;">Hiển thị 35 mục</span>
-  </div>
-  <input type="search" id="tm-the-nho-search" placeholder="🔍 Nhập số thẻ hoặc từ khóa (ví dụ: 001, Bảo Thi, Phúc Trí, Vũ Thị Thanh, Nam Định, Sám hối...)" style="width:100%; box-sizing:border-box; padding:10px 14px; font-size:15px; border:1.5px solid #c9972c; border-radius:8px; outline:none; background:#ffffff; color:#3b2a1a; margin-bottom:18px;" oninput="window.tmFilterTheNho(this.value)" />
-  <div id="tm-the-nho-list" style="display:flex; flex-direction:column; gap:8px;">
-    <div class="tm-tn-header" data-section="1" style="background:#eddac0; color:#5c2415; font-weight:bold; font-size:14px; padding:8px 12px; border-radius:6px; margin-top:10px; border-left:4px solid #8c3b19;">📌 PHẦN 1: CĂN BẢN & NIỆM PHẬT THỜI GIAN DÀI (Bấm số trên đài)</div>
-    <div class="tm-tn-row" data-search="001 nghi thức 2: khai thị hành trì hằng ngày của người bệnh (1 giờ 30 phút) phần 1: căn bản & niệm phật thời gian dài (bấm số trên đài)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">001</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Nghi thức 2: Khai thị hành trì hằng ngày của người bệnh (1 giờ 30 phút)</span>
-    </div>
-    <div class="tm-tn-row" data-search="002 niệm phật 4 chữ phát nguyện vãng sanh - cư sĩ bảo thi (7 giờ 49 phút) phần 1: căn bản & niệm phật thời gian dài (bấm số trên đài)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">002</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Niệm Phật 4 chữ phát nguyện vãng sanh - Cư sĩ Bảo Thi (7 giờ 49 phút)</span>
-    </div>
-    <div class="tm-tn-row" data-search="003 - 004 niệm phật 4 chữ chậm & rất chậm (3 giờ/bài, phát nguyện 10 phút/lần) phần 1: căn bản & niệm phật thời gian dài (bấm số trên đài)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">003 - 004</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Niệm Phật 4 chữ Chậm & Rất chậm (3 giờ/bài, phát nguyện 10 phút/lần)</span>
-    </div>
-    <div class="tm-tn-header" data-section="2" style="background:#eddac0; color:#5c2415; font-weight:bold; font-size:14px; padding:8px 12px; border-radius:6px; margin-top:10px; border-left:4px solid #8c3b19;">📌 PHẦN 2: CHIA SẺ NỘI QUY BAN HỘ NIỆM (Trích sách Sự Khởi Quyết Trạch Niệm Định Nghi - Cư sĩ Phúc Trí)</div>
-    <div class="tm-tn-row" data-search="005 - 019 cư sĩ phúc trí chia sẻ điều 1 đến điều 15 về nội quy thành viên ban hộ niệm phần 2: chia sẻ nội quy ban hộ niệm (trích sách sự khởi quyết trạch niệm định nghi - cư sĩ phúc trí)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">005 - 019</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Cư sĩ Phúc Trí chia sẻ Điều 1 đến Điều 15 về Nội quy thành viên Ban Hộ Niệm</span>
-    </div>
-    <div class="tm-tn-header" data-section="3" style="background:#eddac0; color:#5c2415; font-weight:bold; font-size:14px; padding:8px 12px; border-radius:6px; margin-top:10px; border-left:4px solid #8c3b19;">📌 PHẦN 3: BÀI MẪU KHAI THỊ NGƯỜI BỆNH & LÂM CHUNG 12 TIẾNG</div>
-    <div class="tm-tn-row" data-search="020 - 022 phương pháp hộ niệm cần biết; khai thị người bệnh & oan gia trái chủ phần 3: bài mẫu khai thị người bệnh & lâm chung 12 tiếng" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">020 - 022</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phương pháp hộ niệm cần biết; Khai thị người bệnh & Oan gia trái chủ</span>
-    </div>
-    <div class="tm-tn-row" data-search="023 - 027 suy nghiệm thăm thân xác; khai thị oan gia trong thân và ngoài thân; khuyên cửu huyền; sám hối; sám hối thai nhi phần 3: bài mẫu khai thị người bệnh & lâm chung 12 tiếng" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">023 - 027</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Suy nghiệm thăm thân xác; Khai thị oan gia trong thân và ngoài thân; Khuyên Cửu huyền; Sám hối; Sám hối thai nhi</span>
-    </div>
-    <div class="tm-tn-row" data-search="028 - 051 khai thị lúc hấp hối & khai thị từ giờ thứ 1 đến giờ thứ 12 sau khi mất (đan xen niệm phật 10 phút) phần 3: bài mẫu khai thị người bệnh & lâm chung 12 tiếng" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">028 - 051</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Khai thị lúc hấp hối & Khai thị từ giờ thứ 1 đến giờ thứ 12 sau khi mất (đan xen Niệm Phật 10 phút)</span>
-    </div>
-    <div class="tm-tn-header" data-section="4" style="background:#eddac0; color:#5c2415; font-weight:bold; font-size:14px; padding:8px 12px; border-radius:6px; margin-top:10px; border-left:4px solid #8c3b19;">📌 PHẦN 4: CÁC CA HỘ NIỆM ĐIỂN HÌNH THEO PHẬT TỬ</div>
-    <div class="tm-tn-row" data-search="052 - 105 phật tử vũ thị thanh (pháp danh diệu bạch - đạo tràng thái bình): nhận ca, trợ duyên phần 1 đến phần 22 & kết quả hộ niệm phần 4: các ca hộ niệm điển hình theo phật tử" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">052 - 105</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Vũ Thị Thanh (Pháp danh Diệu Bạch - Đạo tràng Thái Bình): Nhận ca, Trợ duyên phần 1 đến phần 22 & Kết quả hộ niệm</span>
-    </div>
-    <div class="tm-tn-row" data-search="106 - 131 phật tử hoàng ngọc khắc (kiến xương, thái bình): nhận ca, trợ duyên thời 1 đến thời 10 & kết quả hộ niệm phần 4: các ca hộ niệm điển hình theo phật tử" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">106 - 131</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Hoàng Ngọc Khắc (Kiến Xương, Thái Bình): Nhận ca, Trợ duyên thời 1 đến thời 10 & Kết quả hộ niệm</span>
-    </div>
-    <div class="tm-tn-row" data-search="132 - 157 phật tử trần thị nguyệt (pháp danh liên nguyệt): trợ duyên hộ niệm thời 1 đến thời 9 phần 4: các ca hộ niệm điển hình theo phật tử" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">132 - 157</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Trần Thị Nguyệt (Pháp danh Liên Nguyệt): Trợ duyên hộ niệm thời 1 đến thời 9</span>
-    </div>
-    <div class="tm-tn-row" data-search="158 - 183 phật tử trần minh quang: nhận ca & trợ duyên khai thị từ lần 1 đến lần 11 phần 4: các ca hộ niệm điển hình theo phật tử" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">158 - 183</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Trần Minh Quang: Nhận ca & Trợ duyên khai thị từ lần 1 đến lần 11</span>
-    </div>
-    <div class="tm-tn-row" data-search="184 - 189 cụ vũ đình quân (hưng hà, thái bình): nhận ca & trợ duyên thời 1 đến thời 2 phần 4: các ca hộ niệm điển hình theo phật tử" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">184 - 189</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Cụ Vũ Đình Quân (Hưng Hà, Thái Bình): Nhận ca & Trợ duyên thời 1 đến thời 2</span>
-    </div>
-    <div class="tm-tn-row" data-search="190 - 235 phật tử nguyễn thị hợi: trọn vẹn các buổi trợ duyên từ buổi 1 đến buổi 13 phần 4: các ca hộ niệm điển hình theo phật tử" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">190 - 235</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Nguyễn Thị Hợi: Trọn vẹn các buổi trợ duyên từ Buổi 1 đến Buổi 13</span>
-    </div>
-    <div class="tm-tn-header" data-section="5" style="background:#eddac0; color:#5c2415; font-weight:bold; font-size:14px; padding:8px 12px; border-radius:6px; margin-top:10px; border-left:4px solid #8c3b19;">📌 PHẦN 5: NHẬN CA & TRỢ DUYÊN CÁC TỈNH (NAM ĐỊNH, THÁI BÌNH...)</div>
-    <div class="tm-tn-row" data-search="236 - 265 phật tử ngô thị huệ (nam định - buổi 1: bài 236-239 & buổi 2: bài 262-265) phần 5: nhận ca & trợ duyên các tỉnh (nam định, thái bình...)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">236 - 265</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Ngô Thị Huệ (Nam Định - Buổi 1: bài 236-239 & Buổi 2: bài 262-265)</span>
-    </div>
-    <div class="tm-tn-row" data-search="240 - 247 cụ phạm thị chính (nghĩa hưng, nam định - nhận ca & thời 1 đến thời 2) phần 5: nhận ca & trợ duyên các tỉnh (nam định, thái bình...)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">240 - 247</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Cụ Phạm Thị Chính (Nghĩa Hưng, Nam Định - Nhận ca & thời 1 đến thời 2)</span>
-    </div>
-    <div class="tm-tn-row" data-search="248 - 251 cụ vũ thị lượt (nhận ca phần 1 & phần 2) phần 5: nhận ca & trợ duyên các tỉnh (nam định, thái bình...)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">248 - 251</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Cụ Vũ Thị Lượt (Nhận ca phần 1 & phần 2)</span>
-    </div>
-    <div class="tm-tn-row" data-search="252 - 257 phật tử vũ đức khang (nhận ca & trợ duyên thời 1) phần 5: nhận ca & trợ duyên các tỉnh (nam định, thái bình...)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">252 - 257</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Vũ Đức Khang (Nhận ca & Trợ duyên thời 1)</span>
-    </div>
-    <div class="tm-tn-row" data-search="258 - 261 cụ hoàng thanh thủy (nhận ca phần 1 & phần 2) phần 5: nhận ca & trợ duyên các tỉnh (nam định, thái bình...)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">258 - 261</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Cụ Hoàng Thanh Thủy (Nhận ca phần 1 & phần 2)</span>
-    </div>
-    <div class="tm-tn-row" data-search="266 - 269 cư sĩ bảo thi nhận ca tại nam cao (kiến xương, thái bình) phần 5: nhận ca & trợ duyên các tỉnh (nam định, thái bình...)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">266 - 269</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Cư sĩ Bảo Thi nhận ca tại Nam Cao (Kiến Xương, Thái Bình)</span>
-    </div>
-    <div class="tm-tn-header" data-section="6" style="background:#eddac0; color:#5c2415; font-weight:bold; font-size:14px; padding:8px 12px; border-radius:6px; margin-top:10px; border-left:4px solid #8c3b19;">📌 PHẦN 6: TRỢ DUYÊN TẠI HÀ NỘI & ĐẠO TRÀNG ĐỊA PHƯƠNG</div>
-    <div class="tm-tn-row" data-search="270 - 280 phật tử diệu hậu (270-272); cụ tẹo & cụ năm (273-275); phật tử đặng văn miên (276-277); phật tử phạm ngọc bích (278-280) phần 6: trợ duyên tại hà nội & đạo tràng địa phương" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">270 - 280</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Diệu Hậu (270-272); Cụ Tẹo & Cụ Năm (273-275); Phật tử Đặng Văn Miên (276-277); Phật tử Phạm Ngọc Bích (278-280)</span>
-    </div>
-    <div class="tm-tn-row" data-search="281 - 292 phật tử cường & cụ năm (281-283); phật tử trần văn tạo (284-286); phật tử duy đức (287-289); phật tử đỗ chí kiệm – hải dương (290-292) phần 6: trợ duyên tại hà nội & đạo tràng địa phương" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">281 - 292</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Cường & Cụ Năm (281-283); Phật tử Trần Văn Tạo (284-286); Phật tử Duy Đức (287-289); Phật tử Đỗ Chí Kiệm – Hải Dương (290-292)</span>
-    </div>
-    <div class="tm-tn-row" data-search="293 - 307 phật tử lê vũ hiển (293-295); phật tử nguyễn văn thụy (296-298); phật tử vũ thị tuất (299-301); phật tử đỗ thị tích (302-304); phật tử nguyễn thị thủ (305-307) phần 6: trợ duyên tại hà nội & đạo tràng địa phương" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">293 - 307</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Lê Vũ Hiển (293-295); Phật tử Nguyễn Văn Thụy (296-298); Phật tử Vũ Thị Tuất (299-301); Phật tử Đỗ Thị Tích (302-304); Phật tử Nguyễn Thị Thủ (305-307)</span>
-    </div>
-    <div class="tm-tn-row" data-search="308 - 325 phật tử đào đức nhuận (308-310); phật tử nguyễn thị tu (311-313); phật tử ngô đông á (314-316); phật tử nguyễn ngọc tăng (317-319); phật tử vũ thị tâm (320-322); phật tử trần thị liên (323-325) phần 6: trợ duyên tại hà nội & đạo tràng địa phương" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">308 - 325</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Đào Đức Nhuận (308-310); Phật tử Nguyễn Thị Tu (311-313); Phật tử Ngô Đông Á (314-316); Phật tử Nguyễn Ngọc Tăng (317-319); Phật tử Vũ Thị Tâm (320-322); Phật tử Trần Thị Liên (323-325)</span>
-    </div>
-    <div class="tm-tn-row" data-search="326 - 349 phật tử phan thị ơ (326-328); phật tử nguyễn thị ngọc (329-331); phật tử bùi thị thuyên (332-334); 4 phật tử bắc giang (335-337); phật tử đào đức nhuận buổi 4 (338-340); phật tử nguyễn thị hoa (341-343); phật tử nguyễn văn khải (344-346); phật tử đỗ thị hiền (347-349) phần 6: trợ duyên tại hà nội & đạo tràng địa phương" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">326 - 349</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Phan Thị Ơ (326-328); Phật tử Nguyễn Thị Ngọc (329-331); Phật tử Bùi Thị Thuyên (332-334); 4 Phật tử Bắc Giang (335-337); Phật tử Đào Đức Nhuận buổi 4 (338-340); Phật tử Nguyễn Thị Hoa (341-343); Phật tử Nguyễn Văn Khải (344-346); Phật tử Đỗ Thị Hiền (347-349)</span>
-    </div>
-    <div class="tm-tn-header" data-section="7" style="background:#eddac0; color:#5c2415; font-weight:bold; font-size:14px; padding:8px 12px; border-radius:6px; margin-top:10px; border-left:4px solid #8c3b19;">📌 PHẦN 7: CÁC CA TRỢ DUYÊN TIẾP THEO ĐẾN HẾT THẺ (350 - 424)</div>
-    <div class="tm-tn-row" data-search="350 - 361 phật tử đào văn thanh thời 1 đến thời 3 (350-358); phật tử lê thị hồng - bắc ninh (359-361) phần 7: các ca trợ duyên tiếp theo đến hết thẻ (350 - 424)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">350 - 361</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Đào Văn Thanh thời 1 đến thời 3 (350-358); Phật tử Lê Thị Hồng - Bắc Ninh (359-361)</span>
-    </div>
-    <div class="tm-tn-row" data-search="362 - 383 cụ nguyễn thị chuông - thái bình thời 1 đến thời 4 (362-373); phật tử phạm thị phai thời 1 đến thời 3 (374-382); niệm phật đại chúng (383) phần 7: các ca trợ duyên tiếp theo đến hết thẻ (350 - 424)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">362 - 383</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Cụ Nguyễn Thị Chuông - Thái Bình thời 1 đến thời 4 (362-373); Phật tử Phạm Thị Phai thời 1 đến thời 3 (374-382); Niệm Phật đại chúng (383)</span>
-    </div>
-    <div class="tm-tn-row" data-search="384 - 404 phật tử cao xuân thanh (384-386); phật tử đinh thị thu hòa (387-389); phật tử võ phi hiệp – quảng bình (390-392); phật tử nguyễn thị loan (393-395); phật tử trần đình giới (396-398); phật tử lê vũ hiền & lê thị huệ (399-401); phật tử phạm bích ngọc buổi 3 (402-404) phần 7: các ca trợ duyên tiếp theo đến hết thẻ (350 - 424)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">384 - 404</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Cao Xuân Thanh (384-386); Phật tử Đinh Thị Thu Hòa (387-389); Phật tử Võ Phi Hiệp – Quảng Bình (390-392); Phật tử Nguyễn Thị Loan (393-395); Phật tử Trần Đình Giới (396-398); Phật tử Lê Vũ Hiền & Lê Thị Huệ (399-401); Phật tử Phạm Bích Ngọc buổi 3 (402-404)</span>
-    </div>
-    <div class="tm-tn-row" data-search="405 - 424 phật tử phạm văn điển & trần thị hoa (405-407); phật tử nguyễn thị thế - hưng yên (408-410); phật tử lê thanh chiến & trần thị ly (411-413); phật tử nguyễn thị thiệu (414-418); cụ đỗ thị liên 101 tuổi (419-424) phần 7: các ca trợ duyên tiếp theo đến hết thẻ (350 - 424)" style="display:flex; align-items:flex-start; gap:12px; padding:8px 12px; background:#ffffff; border:1px solid #ebd9c2; border-radius:6px;">
-      <span style="display:inline-block; min-width:85px; font-weight:700; color:#8c3b19; background:#faede1; padding:3px 8px; border-radius:4px; font-size:13px; text-align:center; flex-shrink:0;">405 - 424</span>
-      <span style="flex-grow:1; font-size:14.5px; color:#3b2a1a; line-height:1.45;">Phật tử Phạm Văn Điển & Trần Thị Hoa (405-407); Phật tử Nguyễn Thị Thế - Hưng Yên (408-410); Phật tử Lê Thanh Chiến & Trần Thị Ly (411-413); Phật tử Nguyễn Thị Thiệu (414-418); Cụ Đỗ Thị Liên 101 tuổi (419-424)</span>
-    </div>
-  </div>
-</div>
-<script>
-window.tmFilterTheNho = function(val) {
-  val = (val || "").trim().toLowerCase();
-  var container = document.getElementById("tm-the-nho-list");
-  if (!container) return;
-  var rows = container.querySelectorAll(".tm-tn-row");
-  var headers = container.querySelectorAll(".tm-tn-header");
-  var matchedCount = 0;
-  rows.forEach(function(r) {
-    var txt = r.getAttribute("data-search") || "";
-    var match = !val || txt.indexOf(val) !== -1;
-    r.style.display = match ? "flex" : "none";
-    if (match) matchedCount++;
-  });
-  headers.forEach(function(h) {
-    if (!val) { h.style.display = "block"; return; }
-    var secId = h.getAttribute("data-section");
-    var hasVisible = false;
-    var next = h.nextElementSibling;
-    while (next && !next.classList.contains("tm-tn-header")) {
-      if (next.style.display !== "none") { hasVisible = true; break; }
-      next = next.nextElementSibling;
-    }
-    h.style.display = hasVisible ? "block" : "none";
-  });
-  var counter = document.getElementById("tm-lookup-counter");
-  if (counter) {
-    counter.textContent = val ? ("Tìm thấy " + matchedCount + " mục") : ("Hiển thị " + rows.length + " mục");
-  }
-};
-</script>
+### PHẦN 1: CĂN BẢN & NIỆM PHẬT THỜI GIAN DÀI (Bấm số trên đài)
+
+| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
+| :---: | :--- |
+| **001** | Nghi thức 2: Khai thị hành trì hằng ngày của người bệnh (1 giờ 30 phút) |
+| **002** | Niệm Phật 4 chữ phát nguyện vãng sanh - Cư sĩ Bảo Thi (7 giờ 49 phút) |
+| **003 - 004** | Niệm Phật 4 chữ Chậm & Rất chậm (3 giờ/bài, phát nguyện 10 phút/lần) |
+
+### PHẦN 2: CHIA SẺ NỘI QUY BAN HỘ NIỆM (Trích sách Sự Khởi Quyết Trạch Niệm Định Nghi - Cư sĩ Phúc Trí)
+
+| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
+| :---: | :--- |
+| **005 - 019** | Cư sĩ Phúc Trí chia sẻ Điều 1 đến Điều 15 về Nội quy thành viên Ban Hộ Niệm |
+
+### PHẦN 3: BÀI MẪU KHAI THỊ NGƯỜI BỆNH & LÂM CHUNG 12 TIẾNG
+
+| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
+| :---: | :--- |
+| **020 - 022** | Phương pháp hộ niệm cần biết; Khai thị người bệnh & Oan gia trái chủ |
+| **023 - 027** | Suy nghiệm thăm thân xác; Khai thị oan gia trong thân và ngoài thân; Khuyên Cửu huyền; Sám hối; Sám hối thai nhi |
+| **028 - 051** | Khai thị lúc hấp hối & Khai thị từ giờ thứ 1 đến giờ thứ 12 sau khi mất (đan xen Niệm Phật 10 phút) |
+
+### PHẦN 4: CÁC CA HỘ NIỆM ĐIỂN HÌNH THEO PHẬT TỬ
+
+| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
+| :---: | :--- |
+| **052 - 105** | Phật tử Vũ Thị Thanh (Pháp danh Diệu Bạch - Đạo tràng Thái Bình): Nhận ca, Trợ duyên phần 1 đến phần 22 & Kết quả hộ niệm |
+| **106 - 131** | Phật tử Hoàng Ngọc Khắc (Kiến Xương, Thái Bình): Nhận ca, Trợ duyên thời 1 đến thời 10 & Kết quả hộ niệm |
+| **132 - 157** | Phật tử Trần Thị Nguyệt (Pháp danh Liên Nguyệt): Trợ duyên hộ niệm thời 1 đến thời 9 |
+| **158 - 183** | Phật tử Trần Minh Quang: Nhận ca & Trợ duyên khai thị từ lần 1 đến lần 11 |
+| **184 - 189** | Cụ Vũ Đình Quân (Hưng Hà, Thái Bình): Nhận ca & Trợ duyên thời 1 đến thời 2 |
+| **190 - 235** | Phật tử Nguyễn Thị Hợi: Trọn vẹn các buổi trợ duyên từ Buổi 1 đến Buổi 13 |
+
+### PHẦN 5: NHẬN CA & TRỢ DUYÊN CÁC TỈNH (NAM ĐỊNH, THÁI BÌNH...)
+
+| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
+| :---: | :--- |
+| **236 - 265** | Phật tử Ngô Thị Huệ (Nam Định - Buổi 1: bài 236-239 & Buổi 2: bài 262-265) |
+| **240 - 247** | Cụ Phạm Thị Chính (Nghĩa Hưng, Nam Định - Nhận ca & thời 1 đến thời 2) |
+| **248 - 251** | Cụ Vũ Thị Lượt (Nhận ca phần 1 & phần 2) |
+| **252 - 257** | Phật tử Vũ Đức Khang (Nhận ca & Trợ duyên thời 1) |
+| **258 - 261** | Cụ Hoàng Thanh Thủy (Nhận ca phần 1 & phần 2) |
+| **266 - 269** | Cư sĩ Bảo Thi nhận ca tại Nam Cao (Kiến Xương, Thái Bình) |
+
+### PHẦN 6: TRỢ DUYÊN TẠI HÀ NỘI & ĐẠO TRÀNG ĐỊA PHƯƠNG
+
+| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
+| :---: | :--- |
+| **270 - 280** | Phật tử Diệu Hậu (270-272); Cụ Tẹo & Cụ Năm (273-275); Phật tử Đặng Văn Miên (276-277); Phật tử Phạm Ngọc Bích (278-280) |
+| **281 - 292** | Phật tử Cường & Cụ Năm (281-283); Phật tử Trần Văn Tạo (284-286); Phật tử Duy Đức (287-289); Phật tử Đỗ Chí Kiệm – Hải Dương (290-292) |
+| **293 - 307** | Phật tử Lê Vũ Hiển (293-295); Phật tử Nguyễn Văn Thụy (296-298); Phật tử Vũ Thị Tuất (299-301); Phật tử Đỗ Thị Tích (302-304); Phật tử Nguyễn Thị Thủ (305-307) |
+| **308 - 325** | Phật tử Đào Đức Nhuận (308-310); Phật tử Nguyễn Thị Tu (311-313); Phật tử Ngô Đông Á (314-316); Phật tử Nguyễn Ngọc Tăng (317-319); Phật tử Vũ Thị Tâm (320-322); Phật tử Trần Thị Liên (323-325) |
+| **326 - 349** | Phật tử Phan Thị Ơ (326-328); Phật tử Nguyễn Thị Ngọc (329-331); Phật tử Bùi Thị Thuyên (332-334); 4 Phật tử Bắc Giang (335-337); Phật tử Đào Đức Nhuận buổi 4 (338-340); Phật tử Nguyễn Thị Hoa (341-343); Phật tử Nguyễn Văn Khải (344-346); Phật tử Đỗ Thị Hiền (347-349) |
+
+### PHẦN 7: CÁC CA TRỢ DUYÊN TIẾP THEO ĐẾN HẾT THẺ (350 - 424)
+
+| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
+| :---: | :--- |
+| **350 - 361** | Phật tử Đào Văn Thanh thời 1 đến thời 3 (350-358); Phật tử Lê Thị Hồng - Bắc Ninh (359-361) |
+| **362 - 383** | Cụ Nguyễn Thị Chuông - Thái Bình thời 1 đến thời 4 (362-373); Phật tử Phạm Thị Phai thời 1 đến thời 3 (374-382); Niệm Phật đại chúng (383) |
+| **384 - 404** | Phật tử Cao Xuân Thanh (384-386); Phật tử Đinh Thị Thu Hòa (387-389); Phật tử Võ Phi Hiệp – Quảng Bình (390-392); Phật tử Nguyễn Thị Loan (393-395); Phật tử Trần Đình Giới (396-398); Phật tử Lê Vũ Hiền & Lê Thị Huệ (399-401); Phật tử Phạm Bích Ngọc buổi 3 (402-404) |
+| **405 - 424** | Phật tử Phạm Văn Điển & Trần Thị Hoa (405-407); Phật tử Nguyễn Thị Thế - Hưng Yên (408-410); Phật tử Lê Thanh Chiến & Trần Thị Ly (411-413); Phật tử Nguyễn Thị Thiệu (414-418); Cụ Đỗ Thị Liên 101 tuổi (419-424) |
 
 ---
-
-<div id="bai-doc-khai-thi"></div>
 
 ## Toàn Văn 20 Bài Đọc Khai Thị Mẫu (Kèm Audio Tương Ứng)
 
@@ -199,17 +95,8 @@ Dưới đây là nội dung toàn văn 20 bài khai thị mẫu được trích
 
 ## Bài 01: Phương pháp hộ niệm mọi người cần biết
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 01 — Phương pháp hộ niệm mọi người cần biết</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 12:21</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658579?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658579?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658579?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 12:21  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658579?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 Nhà nhà cần có, người người cần biết. A-Di-Đà Phật!
 
@@ -261,17 +148,8 @@ Nam Mô Tây Phương Cực Lạc Thế Giới Đại Từ Đại Bi A-Di-Đà P
 
 ## Bài 02: Khai thị cho người bệnh
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 02 — Khai thị cho người bệnh</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 17:47</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658595?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658595?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658595?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 17:47  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658595?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -328,17 +206,8 @@ Rồi bây giờ bác hãy niệm Phật cùng với chúng con nha bác: A-Di-�
 
 ## Bài 03: Khai thị cho oan gia trái chủ của người bệnh
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 03 — Khai thị cho oan gia trái chủ của người bệnh</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 25:28</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658597?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658597?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658597?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 25:28  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658597?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam-mô A-Di-Đà Phật!**
 
@@ -404,17 +273,8 @@ Nếu chư vị cứ tiếp tục mà đòi thù trả oán, làm cho Phật t�
 
 ## Bài 04: Khai thị cho người bệnh lúc hấp hối
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 04 — Khai thị cho người bệnh lúc hấp hối</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 05:15</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658598?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658598?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658598?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 05:15  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658598?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **A-Di-Đà Phật!**
 
@@ -438,17 +298,8 @@ Ngưỡng mong các chư vị trong vô lượng pháp giới đang hiện hữu
 
 ## Bài 05: Khai thị cho hương linh sau khi mất 1 tiếng
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 05 — Khai thị cho hương linh sau khi mất 1 tiếng</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 10:50</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658584?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658584?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658584?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 10:50  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658584?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -478,17 +329,8 @@ Nam Mô Tây Phương Cực Lạc Thế Giới Đại Từ Đại Bi Tiếp Dẫ
 
 ## Bài 06: Khai thị cho hương linh sau khi mất 2 tiếng
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 06 — Khai thị cho hương linh sau khi mất 2 tiếng</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 08:56</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658585?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658585?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658585?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 08:56  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658585?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật! Xin cứu chúng sanh khỏi đọa tam đồ, tiếp dẫn chúng sanh về nơi Tịnh Độ vĩnh an. Nam Mô A-Di-Đà Phật!**
 
@@ -512,17 +354,8 @@ Chúng con nguyện rằng các chư vị sớm nghe được những lời này
 
 ## Bài 07: Khai thị cho hương linh sau khi mất 3 tiếng
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 07 — Khai thị cho hương linh sau khi mất 3 tiếng</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 04:24</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658586?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658586?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658586?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 04:24  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658586?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -538,17 +371,8 @@ Giờ phút này xin Hương Linh hãy buông xả tất cả vạn duyên, mộ
 
 ## Bài 08: Khai thị cho hương linh sau khi mất 5 tiếng (Kèm Bài 08 mẫu hành trì)
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 08 — Khai thị cho hương linh sau khi mất 5 tiếng (Kèm Bài 08 mẫu hành trì)</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 05:16</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658587?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658587?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658587?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 05:16  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658587?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -582,17 +406,8 @@ Và giờ đây xin các chư vị đang hiện hữu tại nơi đây cùng v�
 
 ## Bài 09: Khai thị cho hương linh sau khi mất 6 tiếng
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 09 — Khai thị cho hương linh sau khi mất 6 tiếng</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 04:25</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658588?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658588?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658588?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 04:25  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658588?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -610,17 +425,8 @@ Và giờ đây chúng con kính mời các chư vị cùng Hương Linh, chúng
 
 ## Bài 10: Khai thị cho hương linh sau khi mất 7 tiếng
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 10 — Khai thị cho hương linh sau khi mất 7 tiếng</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 05:41</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658589?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658589?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658589?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 05:41  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658589?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -640,17 +446,8 @@ Kính thưa các chư vị: ai ăn nấy no, ai tu nấy chứng, ai niệm Ph�
 
 ## Bài 11: Khai thị cho hương linh sau khi mất 8 tiếng
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 11 — Khai thị cho hương linh sau khi mất 8 tiếng</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 05:17</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658590?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658590?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658590?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 05:17  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658590?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -670,17 +467,8 @@ Và giờ đây thì chúng con kính mời các chư vị Vong Linh Hương Lin
 
 ## Bài 12: Khai thị cho hương linh sau khi mất 9 tiếng
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 12 — Khai thị cho hương linh sau khi mất 9 tiếng</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 07:35</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658591?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658591?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658591?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 07:35  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658591?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -704,17 +492,8 @@ Vậy thì vào giờ phút này xin các chư vị vong linh Hương Linh đang
 
 ## Bài 13: Khai thị cho hương linh sau khi mất 10 tiếng
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 13 — Khai thị cho hương linh sau khi mất 10 tiếng</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 07:20</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658611?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658611?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658611?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 07:20  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658611?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam-mô A-Di-Đà Phật!**
 
@@ -736,17 +515,8 @@ Hỡi tất cả chúng sanh khổ nạn, đây tôn ảnh của Đức Phật A
 
 ## Bài 14: Khai thị cho hương linh sau khi mất 11 tiếng
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 14 — Khai thị cho hương linh sau khi mất 11 tiếng</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 03:16</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658612?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658612?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658612?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 03:16  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658612?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -766,17 +536,8 @@ Nam Mô Tây Phương Cực Lạc thế giới Đại Từ Đại Bi Tiếp dẫ
 
 ## Bài 15: Khai thị cho hương linh sau khi mất 12 tiếng (Phần cuối trong 12 tiếng)
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 15 — Khai thị cho hương linh sau khi mất 12 tiếng (Phần cuối trong 12 tiếng)</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 08:36</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658596?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658596?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658596?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 08:36  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658596?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -804,17 +565,8 @@ Nguyện đem công đức này • Trang nghiêm Phật Tịnh Độ • Hướ
 
 ## Bài 16: Suy nghiệm về sự thăm thân xác hương linh
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 16 — Suy nghiệm về sự thăm thân xác hương linh</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 06:33</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658613?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658613?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658613?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 06:33  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658613?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 ### 1. Nguyên tắc và trình tự thăm thân xác
 
@@ -854,17 +606,8 @@ Nam Mô Tây Phương Cực Lạc Thế Giới Đại Từ Đại Bi Tiếp Dẫ
 
 ## Bài 17: Khai thị cho oan gia trong thân và ngoài thân
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 17 — Khai thị cho oan gia trong thân và ngoài thân</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 04:22</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658599?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658599?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658599?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 04:22  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658599?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -882,17 +625,8 @@ Vậy thì con xin thành khẩn hy vọng các chư vị hãy cùng con học P
 
 ## Bài 18: Khai thị khuyên Cửu huyền niệm Phật
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 18 — Khai thị khuyên Cửu huyền niệm Phật</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 14:33</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658608?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658608?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658608?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 14:33  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658608?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam-mô A-Di-Đà Phật!**
 
@@ -938,17 +672,8 @@ Nam-mô Bổn Sư Thích Ca Mâu Ni Phật.
 
 ## Bài 19: Khai thị cho hương linh niệm Phật sám hối
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 19 — Khai thị cho hương linh niệm Phật sám hối</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 17:20</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658609?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658609?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658609?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 17:20  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658609?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 > **Nam-mô Bổn Sư Thích Ca Mâu Ni Phật! Nam-mô A-Di-Đà Phật!**
 
@@ -1114,17 +839,8 @@ Nam mô Cầu Sám Hối Bồ Tát. (3 lần)
 
 ## Bài 20: Sám hối thai nhi
 
-<div class="tm-audio-box" style="margin:12px 0 20px 0; background:#fffdf8; border:1px solid #decab0; border-left:4px solid #8c3b19; border-radius:8px; padding:12px 16px;">
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-    <span style="font-weight:700; color:#6e2b19;">🎧 Nghe Audio: Bài 20 — Sám hối thai nhi</span>
-    <span style="font-size:12.5px; color:#8c725c; background:#f4ebd9; padding:2px 8px; border-radius:4px; font-weight:600;">⏱ Thời lượng: 03:48</span>
-  </div>
-  <audio controls preload="none" style="width:100%; height:40px; border-radius:6px; outline:none;" src="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658610?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4"></audio>
-  <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:6px; font-size:12px; color:#8c725c;">
-    <span>📻 Audiobookshelf Share: <a href="https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO" target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">ly_YSmkgPO</a></span>
-    <a href="https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658610?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4" download target="_blank" rel="noopener noreferrer" style="color:#8c3b19; font-weight:600;">💾 Tải File MP3 Bài Này</a>
-  </div>
-</div>
+> 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658610?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 03:48  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658610?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
 
 Nam mô Cầu Sám Hối Bồ Tát! Nam mô Pháp giới tạng thân A-Di-Đà Phật!
 
