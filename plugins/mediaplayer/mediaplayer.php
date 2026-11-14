@@ -382,6 +382,7 @@ class mediaplayer extends Plugin
             'A3E3w3dOtH' => 'buhd1',
             '8CCEm8aEHY' => 'buhd2',
             'oqg9fYzPEd' => 'kt_1',
+            'ly_YSmkgPO' => 'kt_20',
             'oIcHXafnfh' => 'kt_20',
             'Kqn5_XSXcn' => 'kt_21',
             '1UybdTQ9Rw' => 'kt_22',
