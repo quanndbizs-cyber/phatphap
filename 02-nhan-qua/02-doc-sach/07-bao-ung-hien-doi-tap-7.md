@@ -991,14 +991,17 @@ Biên dịch: Hạnh Đoan
 <div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
   <div class="tm-summary-text">
     <strong>Tóm tắt nhân quả:</strong><br/>
-    • <strong>Nhân vật & Hoàn cảnh:</strong> Câu chuyện có thực này xảy ra vào đầu năm 1990.<br/>
-    • <strong>Hành vi tạo nghiệp:</strong> Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.<br/>
-    • <strong>Quả báo hiện tiền:</strong> Thân thể mắc bệnh nan y hiểm nghèo hành hạ đau đớn, y học hiện đại bất lực; tinh thần bấn loạn chịu khổ báo hiện tiền thích đáng.<br/>
-    • <strong>Bài học & Chuyển hóa:</strong> Lời khai thị từ bi của Hòa thượng Diệu Pháp và chư Đại Đức nhắc nhở người đời mau chóng thức tỉnh, phát tâm ăn chay sám hối, dứt ác tu thiện và niệm Phật tiêu nghiệp chướng.<br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Trương cục trưởng ngay từ đầu năm bỗng vướng bệnh lạ phát lạnh run cầm cập, giữa mùa hè tháng 6 mà phải mặc áo bông dày cộp.<br/>
+    • <strong>Hành vi tạo nghiệp:</strong> Thuở trước từng câu cá, bắt ếch nhái bỏ vào ngăn đá tủ lạnh đóng băng để ăn tươi bồi bổ, tạo nghiệp đóng băng sinh mạng.<br/>
+    • <strong>Quả báo hiện tiền:</strong> Thân thể buốt lạnh thấu xương tủy, mặt tái nhợt ẩm ướt kiệt sức nằm liệt giường, đông tây y đều lắc đầu bất lực.<br/>
+    • <strong>Bài học & Chuyển hóa:</strong> Hòa thượng Diệu Pháp đến thăm bệnh chỉ rõ nghiệp sát đóng băng loài vật; ông thành tâm sám hối và phóng sinh, thân nhiệt lập tức ấm lại khỏi bệnh.
   </div>
-  <div class="tm-summary-toggle-row">
-    <button type="button" class="tm-track-btn tm-track-btn-share" onclick="event.stopPropagation(); window.tmShareStory(this);" data-title="ĐẠI SƯ THĂM BỊNH" data-url="/nhan-qua/doc-sach/bao-ung-hien-doi-tap-7#truyen-11" data-vol="Báo Ứng Hiện Đời — Tập 7" data-summary="Nhân vật & Hoàn cảnh: Câu chuyện có thực này xảy ra vào đầu năm 1990. Hành vi tạo nghiệp: Nghiệp sát sinh tàn hại mạng sống động vật, ham muốn khẩu dục tươi sống hoặc bức hại muôn loài chúng sinh không chút thương xót.">🔗 Chia sẻ</button>
-    <span class="tm-summary-toggle-btn">Xem thêm ▾</span>
+  <div class="tm-summary-actions">
+    <button type="button" class="tm-summary-share-btn" onclick="event.stopPropagation(); window.tmShareStory(this);" title="Sao chép liên kết chia sẻ câu chuyện này">
+      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+      <span>Chia sẻ</span>
+    </button>
+    <span class="tm-summary-toggle-btn">Xem thêm &#9662;</span>
   </div>
 </div>
 
