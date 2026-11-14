@@ -24,6 +24,6 @@ Con đường thực hành để chuyển hóa khổ đau thành an lạc chính
 
 | Nhóm Tu Tập | Chi Phần Bát Chánh Đạo | Ứng Dụng Trong Đời Sống |
 | :--- | :--- | :--- |
-| **Tuệ (Prajna)** | 1. Chánh Kiến<br>2. Chánh Tư Duy | Hiểu rõ luật Nhân Quả, vô thường; suy nghĩ hướng thiện, buông bỏ sân hận. |
-| **Giới (Sila)** | 3. Chánh Ngữ<br>4. Chánh Nghiệp<br>5. Chánh Mạng | Lời nói chân thật, hòa ái; hành động không sát sinh, trộm cắp; nghề nghiệp lương thiện. |
-| **Định (Samadhi)** | 6. Chánh Tinh Tấn<br>7. Chánh Niệm<br>8. Chánh Định | Siêng năng ngăn ác làm lành; giữ tâm tỉnh giác trong hiện tại (Niệm Phật / Thiền định). |
+| **Tuệ (Prajna)** | 1. Chánh Kiến, 2. Chánh Tư Duy | Hiểu rõ luật Nhân Quả, vô thường; suy nghĩ hướng thiện, buông bỏ sân hận. |
+| **Giới (Sila)** | 3. Chánh Ngữ, 4. Chánh Nghiệp, 5. Chánh Mạng | Lời nói chân thật, hòa ái; hành động không sát sinh, trộm cắp; nghề nghiệp lương thiện. |
+| **Định (Samadhi)** | 6. Chánh Tinh Tấn, 7. Chánh Niệm, 8. Chánh Định | Siêng năng ngăn ác làm lành; giữ tâm tỉnh giác trong hiện tại (Niệm Phật / Thiền định). |
