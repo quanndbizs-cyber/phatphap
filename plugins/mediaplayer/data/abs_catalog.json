@@ -2295,44 +2295,128 @@
       ]
     },
     "kt_20": {
-      "id": "24ba035d-3930-42b0-bb20-fdc4920608f0",
-      "title": "20 các bài khai thị mẫu (6 bai)",
+      "id": "e225717f-bf0e-4cf9-b056-6375a7c3ca13",
+      "title": "20 các bài khai thị mẫu (20 bài)",
       "tracks": [
         {
           "index": 1,
-          "ino": "659199",
-          "filename": "01 Bai noi chuyen cua Bui Huu Duoc.mp3",
-          "duration": 3892
-        },
-        {
-          "index": 2,
-          "ino": "659200",
-          "filename": "01.1 Niem phat dai chung 15ph co phat nguyen 46ph (tieng nho).mp3",
-          "duration": 2792
-        },
-        {
-          "index": 3,
-          "ino": "659201",
-          "filename": "02 Phuong phap ho niem.mp3",
+          "ino": "658579",
+          "filename": "01. Phương pháp hộ niệm mọi người cần biết.mp3",
           "duration": 741
         },
         {
+          "index": 2,
+          "ino": "658595",
+          "filename": "02. Khai thị cho người bệnh.mp3",
+          "duration": 1067
+        },
+        {
+          "index": 3,
+          "ino": "658597",
+          "filename": "03. Khai thị cho oan gia trái chủ của người bệnh.mp3",
+          "duration": 1528
+        },
+        {
           "index": 4,
-          "ino": "659202",
-          "filename": "03 Bai khai thi cho nguoi benh.mp3",
-          "duration": 1046
+          "ino": "658598",
+          "filename": "04. khai thị cho người bệnh lúc hấp hối.mp3",
+          "duration": 315
         },
         {
           "index": 5,
-          "ino": "659203",
-          "filename": "04 Bai sam hoi voi chu vi Oan Than Trai chu.mp3",
-          "duration": 259
+          "ino": "658584",
+          "filename": "05. Khai thị cho hương linh sau khi mất 1 tiếng.mp3",
+          "duration": 650
         },
         {
           "index": 6,
-          "ino": "659204",
-          "filename": "04.1 Niem phat dai chung 15ph co phat nguyen 46ph (tieng nho) - Copy.mp3",
-          "duration": 2792
+          "ino": "658585",
+          "filename": "06. Khai thị cho hương linh sau khi mất 2 tiếng.mp3",
+          "duration": 536
+        },
+        {
+          "index": 7,
+          "ino": "658586",
+          "filename": "07. Khai thị cho hương linh sau khi mất 3 tiếng.mp3",
+          "duration": 264
+        },
+        {
+          "index": 8,
+          "ino": "658587",
+          "filename": "09. Khai thị cho hương linh sau khi mất 5 tiếng.mp3",
+          "duration": 316
+        },
+        {
+          "index": 9,
+          "ino": "658588",
+          "filename": "10. Khai thị cho hương linh sau khi mất 6 tiếng.mp3",
+          "duration": 265
+        },
+        {
+          "index": 10,
+          "ino": "658589",
+          "filename": "11. Khai thị cho hương linh sau khi mất 7 tiếng.mp3",
+          "duration": 341
+        },
+        {
+          "index": 11,
+          "ino": "658590",
+          "filename": "12. Khai thị cho hương linh sau khi mất 8 tiếng.mp3",
+          "duration": 317
+        },
+        {
+          "index": 12,
+          "ino": "658591",
+          "filename": "13. Khai thị cho hương linh sau khi mất 9 tiếng.mp3",
+          "duration": 455
+        },
+        {
+          "index": 13,
+          "ino": "658611",
+          "filename": "14. Khai thị cho hương linh sau khi mất 10 tiếng.mp3",
+          "duration": 440
+        },
+        {
+          "index": 14,
+          "ino": "658612",
+          "filename": "15. Khai thị cho hương linh sau khi mất 11 tiếng.mp3",
+          "duration": 196
+        },
+        {
+          "index": 15,
+          "ino": "658596",
+          "filename": "16. Khai thị cho hương linh sau khi mất 12 tiếng ( Phần cuối trong 12 tiếng hộ niệm).mp3",
+          "duration": 516
+        },
+        {
+          "index": 16,
+          "ino": "658613",
+          "filename": "17. Suy nghiệm về sự thăm thân xác hương linh.mp3",
+          "duration": 393
+        },
+        {
+          "index": 17,
+          "ino": "658599",
+          "filename": "18. Khai thị cho oan gia trong thân và ngoài thân.mp3",
+          "duration": 262
+        },
+        {
+          "index": 18,
+          "ino": "658608",
+          "filename": "19. Khai Thị khuyen Cuu huyen niem phat.mp3",
+          "duration": 873
+        },
+        {
+          "index": 19,
+          "ino": "658609",
+          "filename": "20. Khai thị cho hương linh niệm phật sám hối.mp3",
+          "duration": 1040
+        },
+        {
+          "index": 20,
+          "ino": "658610",
+          "filename": "21. Sám hối thai nhi.mp3",
+          "duration": 228
         }
       ]
     },
@@ -10171,6 +10255,132 @@
           "ino": "658970",
           "filename": "56.6 Niem phat dai chung 15ph co phat nguyen 46p - Copy (2).mp3",
           "duration": 2792
+        }
+      ]
+    },
+    "e225717f-bf0e-4cf9-b056-6375a7c3ca13": {
+      "id": "e225717f-bf0e-4cf9-b056-6375a7c3ca13",
+      "title": "20 các bài khai thị mẫu (20 bài)",
+      "tracks": [
+        {
+          "index": 1,
+          "ino": "658579",
+          "filename": "01. Phương pháp hộ niệm mọi người cần biết.mp3",
+          "duration": 741
+        },
+        {
+          "index": 2,
+          "ino": "658595",
+          "filename": "02. Khai thị cho người bệnh.mp3",
+          "duration": 1067
+        },
+        {
+          "index": 3,
+          "ino": "658597",
+          "filename": "03. Khai thị cho oan gia trái chủ của người bệnh.mp3",
+          "duration": 1528
+        },
+        {
+          "index": 4,
+          "ino": "658598",
+          "filename": "04. khai thị cho người bệnh lúc hấp hối.mp3",
+          "duration": 315
+        },
+        {
+          "index": 5,
+          "ino": "658584",
+          "filename": "05. Khai thị cho hương linh sau khi mất 1 tiếng.mp3",
+          "duration": 650
+        },
+        {
+          "index": 6,
+          "ino": "658585",
+          "filename": "06. Khai thị cho hương linh sau khi mất 2 tiếng.mp3",
+          "duration": 536
+        },
+        {
+          "index": 7,
+          "ino": "658586",
+          "filename": "07. Khai thị cho hương linh sau khi mất 3 tiếng.mp3",
+          "duration": 264
+        },
+        {
+          "index": 8,
+          "ino": "658587",
+          "filename": "09. Khai thị cho hương linh sau khi mất 5 tiếng.mp3",
+          "duration": 316
+        },
+        {
+          "index": 9,
+          "ino": "658588",
+          "filename": "10. Khai thị cho hương linh sau khi mất 6 tiếng.mp3",
+          "duration": 265
+        },
+        {
+          "index": 10,
+          "ino": "658589",
+          "filename": "11. Khai thị cho hương linh sau khi mất 7 tiếng.mp3",
+          "duration": 341
+        },
+        {
+          "index": 11,
+          "ino": "658590",
+          "filename": "12. Khai thị cho hương linh sau khi mất 8 tiếng.mp3",
+          "duration": 317
+        },
+        {
+          "index": 12,
+          "ino": "658591",
+          "filename": "13. Khai thị cho hương linh sau khi mất 9 tiếng.mp3",
+          "duration": 455
+        },
+        {
+          "index": 13,
+          "ino": "658611",
+          "filename": "14. Khai thị cho hương linh sau khi mất 10 tiếng.mp3",
+          "duration": 440
+        },
+        {
+          "index": 14,
+          "ino": "658612",
+          "filename": "15. Khai thị cho hương linh sau khi mất 11 tiếng.mp3",
+          "duration": 196
+        },
+        {
+          "index": 15,
+          "ino": "658596",
+          "filename": "16. Khai thị cho hương linh sau khi mất 12 tiếng ( Phần cuối trong 12 tiếng hộ niệm).mp3",
+          "duration": 516
+        },
+        {
+          "index": 16,
+          "ino": "658613",
+          "filename": "17. Suy nghiệm về sự thăm thân xác hương linh.mp3",
+          "duration": 393
+        },
+        {
+          "index": 17,
+          "ino": "658599",
+          "filename": "18. Khai thị cho oan gia trong thân và ngoài thân.mp3",
+          "duration": 262
+        },
+        {
+          "index": 18,
+          "ino": "658608",
+          "filename": "19. Khai Thị khuyen Cuu huyen niem phat.mp3",
+          "duration": 873
+        },
+        {
+          "index": 19,
+          "ino": "658609",
+          "filename": "20. Khai thị cho hương linh niệm phật sám hối.mp3",
+          "duration": 1040
+        },
+        {
+          "index": 20,
+          "ino": "658610",
+          "filename": "21. Sám hối thai nhi.mp3",
+          "duration": 228
         }
       ]
     }
