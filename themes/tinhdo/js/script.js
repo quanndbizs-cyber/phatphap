@@ -143,6 +143,17 @@
       cycleBtns[c].classList.toggle('active', scale > 1.00);
     }
 
+    // Cập nhật trực tiếp font-size inline cho khối tóm tắt nhân quả đảm bảo scale tức thì trên mobile
+    var summaryBoxes = document.querySelectorAll('.tm-story-summary, .tm-story-summary .tm-summary-text');
+    for (var sb = 0; sb < summaryBoxes.length; sb++) {
+      summaryBoxes[sb].style.fontSize = (0.95 * scale) + 'rem';
+      summaryBoxes[sb].style.lineHeight = (1.68 * (1 + (scale - 1) * 0.22));
+    }
+    var summaryBtns = document.querySelectorAll('.tm-summary-share-btn, .tm-summary-toggle-btn');
+    for (var sbt = 0; sbt < summaryBtns.length; sbt++) {
+      summaryBtns[sbt].style.fontSize = (0.82 * (1 + (scale - 1) * 0.25)) + 'rem';
+    }
+
     if (showToast) {
       if (scale === 1.00) {
         showReaderToast('<span class="tm-toast-lotus">🪷</span> Cỡ chữ: <strong>Đã đặt lại Chuẩn (100%)</strong>');
@@ -447,25 +458,45 @@
   // 5. DROPCAP & PARENTHESIZED NOTES ADJUSTMENT (TRÁNH VIẾT HOA CHÚ THÍCH ())
   // =========================================================================
   function initDropcapNotes() {
-    var article = document.querySelector('article.td-dropcap-enabled');
+    var article = document.querySelector('article');
     if (!article) return;
 
     // 1. Tự động gắn story-dropcap cho đoạn văn đầu tiên sau khối tóm tắt nhân quả (.tm-story-summary)
     var summaries = article.querySelectorAll('.tm-story-summary');
     for (var s = 0; s < summaries.length; s++) {
       var nextP = summaries[s].nextElementSibling;
-      while (nextP && nextP.tagName !== 'P') {
-        nextP = nextP.nextElementSibling;
-      }
-      if (nextP && nextP.tagName === 'P') {
-        var pTxt = nextP.textContent.trim();
-        if (!/^[\s*_\-—]*\(/.test(pTxt)) {
-          nextP.classList.add('story-dropcap');
+      while (nextP) {
+        if (nextP.tagName === 'P') {
+          var pTxt = nextP.textContent.trim();
+          if (pTxt.length > 0 && !/^[\s*_\-—]*\(/.test(pTxt)) {
+            nextP.classList.add('story-dropcap');
+            break;
+          }
         }
+        nextP = nextP.nextElementSibling;
       }
     }
 
-    // 2. Bỏ qua các đoạn chú thích mở đầu bằng dấu ngoặc đơn (...)
+    // 2. Tự động gắn story-dropcap cho đoạn văn đầu tiên của mỗi truyện sau tiêu đề h2, h3
+    var headings = article.querySelectorAll('h2, h3');
+    for (var h = 0; h < headings.length; h++) {
+      var head = headings[h];
+      var nextEl = head.nextElementSibling;
+      while (nextEl && !/^H[1-6]$/.test(nextEl.tagName)) {
+        if (nextEl.tagName === 'P') {
+          var hTxt = nextEl.textContent.trim();
+          if (hTxt.length > 0 && !/^[\s*_\-—]*\(/.test(hTxt)) {
+            if (!nextEl.classList.contains('no-dropcap')) {
+              nextEl.classList.add('story-dropcap');
+            }
+            break;
+          }
+        }
+        nextEl = nextEl.nextElementSibling;
+      }
+    }
+
+    // 3. Bỏ qua các đoạn chú thích mở đầu bằng dấu ngoặc đơn (...)
     var paras = article.querySelectorAll('p');
     for (var i = 0; i < paras.length; i++) {
       var p = paras[i];

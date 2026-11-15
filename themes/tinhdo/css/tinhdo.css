@@ -766,8 +766,6 @@ article .sutra-meta::first-letter,
 article .sutra-info *,
 article .sutra-info p::first-letter,
 article .sutra-info::first-letter,
-article.td-dropcap-enabled .tm-story-summary,
-article.td-dropcap-enabled .tm-story-summary *,
 article.td-dropcap-enabled .tm-story-summary::first-letter,
 article.td-dropcap-enabled .tm-story-summary *::first-letter,
 article.td-dropcap-enabled p.no-dropcap,
@@ -815,7 +813,8 @@ article.td-dropcap-enabled h3 + p:has(> em:only-child) + p::first-letter,
 article.td-dropcap-enabled h2 + blockquote + p:has(> em:only-child) + p::first-letter,
 article.td-dropcap-enabled h3 + blockquote + p:has(> em:only-child) + p::first-letter,
 article.td-dropcap-enabled .story-dropcap::first-letter,
-article .story-dropcap::first-letter {
+article .story-dropcap::first-letter,
+.story-dropcap::first-letter {
 	float: left;
 	font-family: 'Noto Serif', Georgia, serif;
 	font-size: 3.25rem;
@@ -826,6 +825,22 @@ article .story-dropcap::first-letter {
 	color: #c9972c;
 	font-weight: 700;
 	text-shadow: 1px 1px 2px rgba(90, 34, 22, 0.2);
+}
+
+/* Đảm bảo khối tóm tắt nhân quả scale cỡ chữ mượt mà theo --tm-font-scale */
+.tm-story-summary,
+.tm-story-summary .tm-summary-text,
+article .tm-story-summary,
+article .tm-story-summary .tm-summary-text {
+	font-size: calc(0.95rem * var(--tm-font-scale, 1)) !important;
+	line-height: calc(1.68 * (1 + (var(--tm-font-scale, 1) - 1) * 0.22)) !important;
+}
+
+.tm-summary-share-btn,
+.tm-summary-toggle-btn,
+article .tm-summary-share-btn,
+article .tm-summary-toggle-btn {
+	font-size: calc(0.82rem * (1 + (var(--tm-font-scale, 1) - 1) * 0.25)) !important;
 }
 
 /* Đoạn chú thích nghi thức / chỉ dẫn hành trì trong ngoặc đơn */

@@ -33,7 +33,7 @@
 		<div class="grid-main ph3 ph4-l pv3 lh-copy f4 fw3">
 
 			{% if theme.blogintro %}
-				{% set dropcapConfigCategories = (theme.dropcap_categories|default('nhan-qua,phat-giao'))|split(',') %}
+				{% set dropcapConfigCategories = (theme.dropcap_categories|default('nhan-qua,phat-giao,doc-sach,bao-ung-hien-doi'))|split(',') %}
 				{% set isDropcapCategory = false %}
 				{% for cat in dropcapConfigCategories %}
 					{% set trimmedCat = cat|trim %}

@@ -7,7 +7,7 @@ license: MIT
 
 settings:
   elderlyModeSupport: true
-  dropcap_categories: 'nhan-qua,phat-giao'
+  dropcap_categories: 'nhan-qua,phat-giao,doc-sach,bao-ung-hien-doi'
   blogimage: true
   landingpage: true
   introPosition: '1'

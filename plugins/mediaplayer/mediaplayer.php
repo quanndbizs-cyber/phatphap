@@ -41,8 +41,8 @@ class mediaplayer extends Plugin
     public function onTwigLoaded()
     {
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261112d');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261112d');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261115e');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261115e');
         }
     }
 
