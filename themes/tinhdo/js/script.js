@@ -450,6 +450,22 @@
     var article = document.querySelector('article.td-dropcap-enabled');
     if (!article) return;
 
+    // 1. Tự động gắn story-dropcap cho đoạn văn đầu tiên sau khối tóm tắt nhân quả (.tm-story-summary)
+    var summaries = article.querySelectorAll('.tm-story-summary');
+    for (var s = 0; s < summaries.length; s++) {
+      var nextP = summaries[s].nextElementSibling;
+      while (nextP && nextP.tagName !== 'P') {
+        nextP = nextP.nextElementSibling;
+      }
+      if (nextP && nextP.tagName === 'P') {
+        var pTxt = nextP.textContent.trim();
+        if (!/^[\s*_\-—]*\(/.test(pTxt)) {
+          nextP.classList.add('story-dropcap');
+        }
+      }
+    }
+
+    // 2. Bỏ qua các đoạn chú thích mở đầu bằng dấu ngoặc đơn (...)
     var paras = article.querySelectorAll('p');
     for (var i = 0; i < paras.length; i++) {
       var p = paras[i];
@@ -458,14 +474,15 @@
       if (/^[\s*_\-—]*\(/.test(text)) {
         p.classList.add('no-dropcap');
         p.classList.add('tm-sutra-note');
+        p.classList.remove('story-dropcap');
 
-        // Nếu đoạn chú thích này nằm ngay sau tiêu đề h2, h3 hoặc blockquote,
+        // Nếu đoạn chú thích này nằm ngay sau tiêu đề h2, h3, blockquote hoặc summary,
         // thì chuyển drop-cap sang đoạn văn kế tiếp (nội dung chính của bài)
         var prev = p.previousElementSibling;
         while (prev && prev.tagName === 'P' && prev.classList.contains('no-dropcap')) {
           prev = prev.previousElementSibling;
         }
-        if (prev && (/^H[1-6]$/.test(prev.tagName) || prev.tagName === 'BLOCKQUOTE')) {
+        if (prev && (/^H[1-6]$/.test(prev.tagName) || prev.tagName === 'BLOCKQUOTE' || (prev.classList && prev.classList.contains('tm-story-summary')))) {
           var next = p.nextElementSibling;
           while (next && next.tagName === 'P') {
             var nextText = next.textContent.trim();
