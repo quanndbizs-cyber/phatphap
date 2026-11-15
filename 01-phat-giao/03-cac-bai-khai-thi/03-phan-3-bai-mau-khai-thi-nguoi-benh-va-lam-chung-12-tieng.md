@@ -1,102 +1,49 @@
-# Các Bài Khai Thị Mẫu & Nghi Thức Hành Trì (Audiobookshelf)
+# Phần 3: Bài Mẫu Khai Thị Người Bệnh & Lâm Chung 12 Tiếng (Bài 020 - 051)
 
-> **Pháp môn:** Tịnh Độ Chuyên Tu • **Chủ biên:** Ban Hộ Niệm • **Hệ thống phát:** Audiobookshelf
+> **Pháp môn:** Tịnh Độ Chuyên Tu • **Chủ biên:** Ban Hộ Niệm • **Bấm số trên đài niệm Phật:** 020 - 051  
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị mẫu (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [↑ Về Mục Lục Toàn Bộ 424 Bài](/phat-giao/cac-bai-khai-thi)
 >
-> Trang tổng hợp đầy đủ tài liệu Hộ Niệm: **Trình phát âm thanh 9 tuyển tập**, **Mục lục Thẻ nhớ hộ niệm (424 bài)** và **Toàn văn 20 bài đọc khai thị mẫu ghép đồng bộ với bài nghe Audio**.
-
-* **[🎧 Nghe Tuyển Tập Audiobookshelf (9 Mục Phát)](#trinh-phat-tuyen-tap-audiobookshelf-9-muc-phat)**
-* **[📑 Tra Cứu Mục Lục Thẻ Nhớ Hộ Niệm (424 Bài)](#tra-cuu-muc-luc-the-nho-hoc-tap-khai-thi-ho-niem-424-bai)**
-* **[📖 Toàn Văn 20 Bài Đọc Khai Thị Mẫu (Kèm Audio)](#toan-van-20-bai-doc-khai-thi-mau-kem-audio-tuong-ung)**
+> Tuyển tập 20 bài khai thị chuẩn mực được trích từ hai tập tài liệu: *`Tập Bài Đọc Khai Thị Hộ Niệm In Ấn`* và *`Tập Bài Đọc Khai Thị Sau Khi Mất 12 Tiếng Đầy Đủ`*. Mỗi bài đều được ghép đồng bộ giữa file âm thanh MP3 chất lượng cao và toàn văn bài đọc để vừa nghe vừa theo dõi văn bản trang nghiêm.
 
 ---
 
-## Trình Phát Tuyển Tập Audiobookshelf (9 Mục Phát)
+## 🎧 Trình Phát Tuyển Tập Audiobookshelf (20 Bài)
 
-Tuyển tập 9 danh sách phát âm thanh trên hệ thống **Audiobookshelf** gồm Nghi thức hành trì và niệm Phật, các bài khai thị mẫu (đã cập nhật 20 bài) và các ca hộ niệm thực tế. Chọn danh mục ở cột bên trái để nghe trực tiếp.
-
-[:mediahub id="khaithi" height="680px" :]
+[:absplayer key="kt_20" title="20 Bài Khai Thị Mẫu (Audiobookshelf)" :]
 
 ---
 
-## Tra Cứu Mục Lục Thẻ Nhớ Học Tập Khai Thị Hộ Niệm (424 Bài)
+## 📑 Danh Mục 20 Bài Khai Thị Mẫu
 
-> **Tài liệu nguồn:** Trích từ tài liệu chuẩn *`Mục Lục Thẻ Nhớ Hộ Niệm A5 Full`* (Bộ 424 bài MP3 • Đạo tràng & Ban Hộ Niệm Tùy Duyên toàn quốc). Phục vụ việc bấm số nghe trên đài niệm Phật và tra cứu bài giảng, ca trợ niệm nhanh chóng.
->
-> *(*) Chú thích: Hầu hết các ca đều có các thời Niệm Phật đại chúng (15 phút - 46 phút) đan xen.*
-
-### PHẦN 1: CĂN BẢN & NIỆM PHẬT THỜI GIAN DÀI (Bấm số trên đài)
-
-| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
-| :---: | :--- |
-| **001** | Nghi thức 2: Khai thị hành trì hằng ngày của người bệnh (1 giờ 30 phút) |
-| **002** | Niệm Phật 4 chữ phát nguyện vãng sanh - Cư sĩ Bảo Thi (7 giờ 49 phút) |
-| **003 - 004** | Niệm Phật 4 chữ Chậm & Rất chậm (3 giờ/bài, phát nguyện 10 phút/lần) |
-
-### PHẦN 2: CHIA SẺ NỘI QUY BAN HỘ NIỆM (Trích sách Sự Khởi Quyết Trạch Niệm Định Nghi - Cư sĩ Phúc Trí)
-
-| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
-| :---: | :--- |
-| **005 - 019** | Cư sĩ Phúc Trí chia sẻ Điều 1 đến Điều 15 về Nội quy thành viên Ban Hộ Niệm |
-
-### PHẦN 3: BÀI MẪU KHAI THỊ NGƯỜI BỆNH & LÂM CHUNG 12 TIẾNG
-
-| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
-| :---: | :--- |
-| **020 - 022** | Phương pháp hộ niệm cần biết; Khai thị người bệnh & Oan gia trái chủ |
-| **023 - 027** | Suy nghiệm thăm thân xác; Khai thị oan gia trong thân và ngoài thân; Khuyên Cửu huyền; Sám hối; Sám hối thai nhi |
-| **028 - 051** | Khai thị lúc hấp hối & Khai thị từ giờ thứ 1 đến giờ thứ 12 sau khi mất (đan xen Niệm Phật 10 phút) |
-
-### PHẦN 4: CÁC CA HỘ NIỆM ĐIỂN HÌNH THEO PHẬT TỬ
-
-| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
-| :---: | :--- |
-| **052 - 105** | Phật tử Vũ Thị Thanh (Pháp danh Diệu Bạch - Đạo tràng Thái Bình): Nhận ca, Trợ duyên phần 1 đến phần 22 & Kết quả hộ niệm |
-| **106 - 131** | Phật tử Hoàng Ngọc Khắc (Kiến Xương, Thái Bình): Nhận ca, Trợ duyên thời 1 đến thời 10 & Kết quả hộ niệm |
-| **132 - 157** | Phật tử Trần Thị Nguyệt (Pháp danh Liên Nguyệt): Trợ duyên hộ niệm thời 1 đến thời 9 |
-| **158 - 183** | Phật tử Trần Minh Quang: Nhận ca & Trợ duyên khai thị từ lần 1 đến lần 11 |
-| **184 - 189** | Cụ Vũ Đình Quân (Hưng Hà, Thái Bình): Nhận ca & Trợ duyên thời 1 đến thời 2 |
-| **190 - 235** | Phật tử Nguyễn Thị Hợi: Trọn vẹn các buổi trợ duyên từ Buổi 1 đến Buổi 13 |
-
-### PHẦN 5: NHẬN CA & TRỢ DUYÊN CÁC TỈNH (NAM ĐỊNH, THÁI BÌNH...)
-
-| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
-| :---: | :--- |
-| **236 - 265** | Phật tử Ngô Thị Huệ (Nam Định - Buổi 1: bài 236-239 & Buổi 2: bài 262-265) |
-| **240 - 247** | Cụ Phạm Thị Chính (Nghĩa Hưng, Nam Định - Nhận ca & thời 1 đến thời 2) |
-| **248 - 251** | Cụ Vũ Thị Lượt (Nhận ca phần 1 & phần 2) |
-| **252 - 257** | Phật tử Vũ Đức Khang (Nhận ca & Trợ duyên thời 1) |
-| **258 - 261** | Cụ Hoàng Thanh Thủy (Nhận ca phần 1 & phần 2) |
-| **266 - 269** | Cư sĩ Bảo Thi nhận ca tại Nam Cao (Kiến Xương, Thái Bình) |
-
-### PHẦN 6: TRỢ DUYÊN TẠI HÀ NỘI & ĐẠO TRÀNG ĐỊA PHƯƠNG
-
-| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
-| :---: | :--- |
-| **270 - 280** | Phật tử Diệu Hậu (270-272); Cụ Tẹo & Cụ Năm (273-275); Phật tử Đặng Văn Miên (276-277); Phật tử Phạm Ngọc Bích (278-280) |
-| **281 - 292** | Phật tử Cường & Cụ Năm (281-283); Phật tử Trần Văn Tạo (284-286); Phật tử Duy Đức (287-289); Phật tử Đỗ Chí Kiệm – Hải Dương (290-292) |
-| **293 - 307** | Phật tử Lê Vũ Hiển (293-295); Phật tử Nguyễn Văn Thụy (296-298); Phật tử Vũ Thị Tuất (299-301); Phật tử Đỗ Thị Tích (302-304); Phật tử Nguyễn Thị Thủ (305-307) |
-| **308 - 325** | Phật tử Đào Đức Nhuận (308-310); Phật tử Nguyễn Thị Tu (311-313); Phật tử Ngô Đông Á (314-316); Phật tử Nguyễn Ngọc Tăng (317-319); Phật tử Vũ Thị Tâm (320-322); Phật tử Trần Thị Liên (323-325) |
-| **326 - 349** | Phật tử Phan Thị Ơ (326-328); Phật tử Nguyễn Thị Ngọc (329-331); Phật tử Bùi Thị Thuyên (332-334); 4 Phật tử Bắc Giang (335-337); Phật tử Đào Đức Nhuận buổi 4 (338-340); Phật tử Nguyễn Thị Hoa (341-343); Phật tử Nguyễn Văn Khải (344-346); Phật tử Đỗ Thị Hiền (347-349) |
-
-### PHẦN 7: CÁC CA TRỢ DUYÊN TIẾP THEO ĐẾN HẾT THẺ (350 - 424)
-
-| Số trên đài | Nội dung bài giảng / Khai thị / Niệm Phật |
-| :---: | :--- |
-| **350 - 361** | Phật tử Đào Văn Thanh thời 1 đến thời 3 (350-358); Phật tử Lê Thị Hồng - Bắc Ninh (359-361) |
-| **362 - 383** | Cụ Nguyễn Thị Chuông - Thái Bình thời 1 đến thời 4 (362-373); Phật tử Phạm Thị Phai thời 1 đến thời 3 (374-382); Niệm Phật đại chúng (383) |
-| **384 - 404** | Phật tử Cao Xuân Thanh (384-386); Phật tử Đinh Thị Thu Hòa (387-389); Phật tử Võ Phi Hiệp – Quảng Bình (390-392); Phật tử Nguyễn Thị Loan (393-395); Phật tử Trần Đình Giới (396-398); Phật tử Lê Vũ Hiền & Lê Thị Huệ (399-401); Phật tử Phạm Bích Ngọc buổi 3 (402-404) |
-| **405 - 424** | Phật tử Phạm Văn Điển & Trần Thị Hoa (405-407); Phật tử Nguyễn Thị Thế - Hưng Yên (408-410); Phật tử Lê Thanh Chiến & Trần Thị Ly (411-413); Phật tử Nguyễn Thị Thiệu (414-418); Cụ Đỗ Thị Liên 101 tuổi (419-424) |
+| Số bài | Tên bài khai thị mẫu & Thời lượng | Nghe Audio MP3 | Đọc Toàn Văn |
+| :---: | :--- | :---: | :---: |
+| **01** | Phương pháp hộ niệm mọi người cần biết () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658579?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-01-phuong-phap-ho-niem-moi-nguoi-can-biet) |
+| **02** | Khai thị cho người bệnh () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658595?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-02-khai-thi-cho-nguoi-benh) |
+| **03** | Khai thị cho oan gia trái chủ của người bệnh () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658597?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-03-khai-thi-cho-oan-gia-trai-chu-cua-nguoi-benh) |
+| **04** | Khai thị cho người bệnh lúc hấp hối () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658598?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-04-khai-thi-cho-nguoi-benh-luc-hap-hoi) |
+| **05** | Khai thị cho hương linh sau khi mất 1 tiếng () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658584?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-05-khai-thi-cho-huong-linh-sau-khi-mat-1-tieng) |
+| **06** | Khai thị cho hương linh sau khi mất 2 tiếng () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658585?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-06-khai-thi-cho-huong-linh-sau-khi-mat-2-tieng) |
+| **07** | Khai thị cho hương linh sau khi mất 3 tiếng () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658586?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-07-khai-thi-cho-huong-linh-sau-khi-mat-3-tieng) |
+| **08** | Khai thị cho hương linh sau khi mất 5 tiếng (Kèm Bài 08 mẫu hành trì) () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658587?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-08-khai-thi-cho-huong-linh-sau-khi-mat-5-tieng-kem-bai-08-mau-hanh-tri) |
+| **09** | Khai thị cho hương linh sau khi mất 6 tiếng () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658588?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-09-khai-thi-cho-huong-linh-sau-khi-mat-6-tieng) |
+| **10** | Khai thị cho hương linh sau khi mất 7 tiếng () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658589?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-10-khai-thi-cho-huong-linh-sau-khi-mat-7-tieng) |
+| **11** | Khai thị cho hương linh sau khi mất 8 tiếng () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658590?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-11-khai-thi-cho-huong-linh-sau-khi-mat-8-tieng) |
+| **12** | Khai thị cho hương linh sau khi mất 9 tiếng () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658591?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-12-khai-thi-cho-huong-linh-sau-khi-mat-9-tieng) |
+| **13** | Khai thị cho hương linh sau khi mất 10 tiếng () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658611?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-13-khai-thi-cho-huong-linh-sau-khi-mat-10-tieng) |
+| **14** | Khai thị cho hương linh sau khi mất 11 tiếng () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658612?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-14-khai-thi-cho-huong-linh-sau-khi-mat-11-tieng) |
+| **15** | Khai thị cho hương linh sau khi mất 12 tiếng (Phần cuối trong 12 tiếng) () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658596?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-15-khai-thi-cho-huong-linh-sau-khi-mat-12-tieng-phan-cuoi-trong-12-tieng) |
+| **16** | Suy nghiệm về sự thăm thân xác hương linh () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658613?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-16-suy-nghiem-ve-su-tham-than-xac-huong-linh) |
+| **17** | Khai thị cho oan gia trong thân và ngoài thân () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658599?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-17-khai-thi-cho-oan-gia-trong-than-va-ngoai-than) |
+| **18** | Khai thị khuyên Cửu huyền niệm Phật () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658608?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-18-khai-thi-khuyen-cuu-huyen-niem-phat) |
+| **19** | Khai thị cho hương linh niệm Phật sám hối () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658609?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-19-khai-thi-cho-huong-linh-niem-phat-sam-hoi) |
+| **20** | Sám hối thai nhi () | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658610?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) | [📖 Đọc bài](#bai-20-sam-hoi-thai-nhi) |
 
 ---
-
-## Toàn Văn 20 Bài Đọc Khai Thị Mẫu (Kèm Audio Tương Ứng)
-
-Dưới đây là nội dung toàn văn 20 bài khai thị mẫu được trích từ hai tập tài liệu: *`Tập Bài Đọc Khai Thị Hộ Niệm In Ấn`* và *`Tập Bài Đọc Khai Thị Sau Khi Mất 12 Tiếng Đầy Đủ`*. Mỗi bài được ghép tương ứng với file âm thanh MP3 chất lượng cao để vừa đọc vừa lắng nghe trực tiếp.
 
 ## Bài 01: Phương pháp hộ niệm mọi người cần biết
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658579?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 12:21  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658579?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658579?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 Nhà nhà cần có, người người cần biết. A-Di-Đà Phật!
 
@@ -146,10 +93,13 @@ Nam Mô Tây Phương Cực Lạc Thế Giới Đại Từ Đại Bi A-Di-Đà P
 
 ---
 
+
+---
+
 ## Bài 02: Khai thị cho người bệnh
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658595?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 17:47  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658595?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658595?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -204,10 +154,13 @@ Rồi bây giờ bác hãy niệm Phật cùng với chúng con nha bác: A-Di-�
 
 ---
 
+
+---
+
 ## Bài 03: Khai thị cho oan gia trái chủ của người bệnh
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658597?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 25:28  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658597?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658597?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam-mô A-Di-Đà Phật!**
 
@@ -271,10 +224,13 @@ Nếu chư vị cứ tiếp tục mà đòi thù trả oán, làm cho Phật t�
 
 ---
 
+
+---
+
 ## Bài 04: Khai thị cho người bệnh lúc hấp hối
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658598?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 05:15  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658598?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658598?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **A-Di-Đà Phật!**
 
@@ -296,10 +252,13 @@ Ngưỡng mong các chư vị trong vô lượng pháp giới đang hiện hữu
 
 ---
 
+
+---
+
 ## Bài 05: Khai thị cho hương linh sau khi mất 1 tiếng
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658584?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 10:50  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658584?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658584?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -327,10 +286,13 @@ Nam Mô Tây Phương Cực Lạc Thế Giới Đại Từ Đại Bi Tiếp Dẫ
 
 ---
 
+
+---
+
 ## Bài 06: Khai thị cho hương linh sau khi mất 2 tiếng
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658585?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 08:56  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658585?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658585?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật! Xin cứu chúng sanh khỏi đọa tam đồ, tiếp dẫn chúng sanh về nơi Tịnh Độ vĩnh an. Nam Mô A-Di-Đà Phật!**
 
@@ -352,10 +314,13 @@ Chúng con nguyện rằng các chư vị sớm nghe được những lời này
 
 ---
 
+
+---
+
 ## Bài 07: Khai thị cho hương linh sau khi mất 3 tiếng
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658586?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 04:24  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658586?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658586?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -369,10 +334,13 @@ Giờ phút này xin Hương Linh hãy buông xả tất cả vạn duyên, mộ
 
 ---
 
+
+---
+
 ## Bài 08: Khai thị cho hương linh sau khi mất 5 tiếng (Kèm Bài 08 mẫu hành trì)
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658587?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 05:16  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658587?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658587?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -404,10 +372,13 @@ Và giờ đây xin các chư vị đang hiện hữu tại nơi đây cùng v�
 
 ---
 
+
+---
+
 ## Bài 09: Khai thị cho hương linh sau khi mất 6 tiếng
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658588?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 04:25  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658588?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658588?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -423,10 +394,13 @@ Và giờ đây chúng con kính mời các chư vị cùng Hương Linh, chúng
 
 ---
 
+
+---
+
 ## Bài 10: Khai thị cho hương linh sau khi mất 7 tiếng
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658589?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 05:41  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658589?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658589?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -444,10 +418,13 @@ Kính thưa các chư vị: ai ăn nấy no, ai tu nấy chứng, ai niệm Ph�
 
 ---
 
+
+---
+
 ## Bài 11: Khai thị cho hương linh sau khi mất 8 tiếng
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658590?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 05:17  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658590?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658590?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -465,10 +442,13 @@ Và giờ đây thì chúng con kính mời các chư vị Vong Linh Hương Lin
 
 ---
 
+
+---
+
 ## Bài 12: Khai thị cho hương linh sau khi mất 9 tiếng
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658591?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 07:35  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658591?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658591?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -490,10 +470,13 @@ Vậy thì vào giờ phút này xin các chư vị vong linh Hương Linh đang
 
 ---
 
+
+---
+
 ## Bài 13: Khai thị cho hương linh sau khi mất 10 tiếng
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658611?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 07:20  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658611?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658611?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam-mô A-Di-Đà Phật!**
 
@@ -513,10 +496,13 @@ Hỡi tất cả chúng sanh khổ nạn, đây tôn ảnh của Đức Phật A
 
 ---
 
+
+---
+
 ## Bài 14: Khai thị cho hương linh sau khi mất 11 tiếng
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658612?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 03:16  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658612?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658612?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -534,10 +520,13 @@ Nam Mô Tây Phương Cực Lạc thế giới Đại Từ Đại Bi Tiếp dẫ
 
 ---
 
+
+---
+
 ## Bài 15: Khai thị cho hương linh sau khi mất 12 tiếng (Phần cuối trong 12 tiếng)
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658596?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 08:36  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658596?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658596?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -563,10 +552,13 @@ Nguyện đem công đức này • Trang nghiêm Phật Tịnh Độ • Hướ
 
 ---
 
+
+---
+
 ## Bài 16: Suy nghiệm về sự thăm thân xác hương linh
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658613?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 06:33  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658613?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658613?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 ### 1. Nguyên tắc và trình tự thăm thân xác
 
@@ -604,10 +596,13 @@ Nam Mô Tây Phương Cực Lạc Thế Giới Đại Từ Đại Bi Tiếp Dẫ
 
 ---
 
+
+---
+
 ## Bài 17: Khai thị cho oan gia trong thân và ngoài thân
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658599?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 04:22  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658599?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658599?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam Mô A-Di-Đà Phật!**
 
@@ -623,10 +618,13 @@ Vậy thì con xin thành khẩn hy vọng các chư vị hãy cùng con học P
 
 ---
 
+
+---
+
 ## Bài 18: Khai thị khuyên Cửu huyền niệm Phật
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658608?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 14:33  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658608?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658608?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam-mô A-Di-Đà Phật!**
 
@@ -670,10 +668,13 @@ Nam-mô Bổn Sư Thích Ca Mâu Ni Phật.
 
 ---
 
+
+---
+
 ## Bài 19: Khai thị cho hương linh niệm Phật sám hối
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658609?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 17:20  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658609?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658609?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 > **Nam-mô Bổn Sư Thích Ca Mâu Ni Phật! Nam-mô A-Di-Đà Phật!**
 
@@ -705,35 +706,49 @@ Chỉ cần chí tâm thành kính niệm Phật 10 lần thì sẽ được vã
 Nay hương linh nên dứt bỏ duyên trần, hướng về Đức Phật tâm thành niệm hồng danh:  
 Nam-mô A-Di-Đà Phật!  
 Hương linh hỡi hãy lắng nghe rõ:  
-Cuộc trần thế là trò dâu bể, hợp rồi tan như thể gió mây,  
-Bất thường biến chuyển vần xoay, hôm qua còn đó mà nay đâu rồi.  
-Bởi mạng sống tấc hơi yếu ớt, kiếp nhân sinh thoáng một giấc mơ,  
-Trăm năm thay đổi ván cờ, sấm vang chớp giật tựa hồ chiêm bao.  
-Hương linh hỡi trần lao nghiệp chướng, lò oan khiên thiêu nướng con người,  
-Luân hồi sanh tử không thôi, xuống lên ba cõi say mê sáu đường.  
-Thêm nỗi bệnh tai ương hoạn nạn, thuở thai nhi đến mãn cuộc đời,  
-Mấy người sống vẹn yên vui, giữa vòng trần thế chơi vơi biển sầu.  
-Dù là kẻ sang giàu quyền tước, hay nghèo hèn mạt nhược như nhau,  
-Đều cùng chung một nỗi đau, vì duyên, vì nợ xiết bao buộc ràng.  
-Đời đã vậy, thở than chẳng được, bởi gieo nhân nhiễm trước vọng tình,  
-Trót mê tài sắc lợi danh, lu mờ tâm trí đua tranh hận thù,  
-Nên ngàn kiếp quẩn quanh không dứt. Bả vinh hoa nô nức bước vào,  
-Mặc cơn sóng dậy ba đào, ôm mùi phú quý lộn nhào tử sanh.  
-Hương linh hỡi cái thân còn mất, thế có gì bền chắc mà ham,  
-Rõ ràng muôn việc cõi trần, chết rồi tay trắng có mang được gì.  
-Vậy giờ đây hãy suy nghĩ lại, quyết vượt qua cửa ải trầm luân,  
-Một lòng theo Phật tu thân, rèn tâm sửa tánh lần lần thoát ra.  
-Cõi Ta-bà chỉ là quán trọ, chúng sanh là lữ khách bộ hành,  
-Theo dòng sanh tử lộn quanh, bỏ quên xứ sở an thân Niết-bàn.  
-Hương linh hỡi nay nhân duyên mãn, thì xin đừng ngao ngán đường về,  
-Dù trải qua bao cảnh khiếp ghê, dù bao đe dọa bốn bề hang sâu.  
-Xả tâm tưởng gom thâu từ trước, diệt tham sân si bước lỡ lòng,  
-Chuyên lòng niệm Phật định tâm, quê hương Cực Lạc vững chân đường về.  
-Hương linh hỡi xa rời luyến tiếc, cái giả thân tài vật gia đình,  
-Đừng gây thêm khổ cho mình, vì âm dương đã chia hình cách xa.  
-Hãy gấp niệm Di-đà Phật hiệu, định tâm thần quán chiếu đừng quên,  
-Bồ đề quả Phật quyết lên, an vui vĩnh kiếp giác tâm tròn đầy.  
-Nam mô Siêu Lạc Độ Bồ Tát Ma ha tát. (3 lần)
+> *Cuộc trần thế là trò dâu bể, hợp rồi tan như thể gió mây,*  
+> *Bất thường biến chuyển vần xoay, hôm qua còn đó mà nay đâu rồi.*  
+>
+> *Bởi mạng sống tấc hơi yếu ớt, kiếp nhân sinh thoáng một giấc mơ,*  
+> *Trăm năm thay đổi ván cờ, sấm vang chớp giật tựa hồ chiêm bao.*  
+>
+> *Hương linh hỡi trần lao nghiệp chướng, lò oan khiên thiêu nướng con người,*  
+> *Luân hồi sanh tử không thôi, xuống lên ba cõi say mê sáu đường.*  
+>
+> *Thêm nỗi bệnh tai ương hoạn nạn, thuở thai nhi đến mãn cuộc đời,*  
+> *Mấy người sống vẹn yên vui, giữa vòng trần thế chơi vơi biển sầu.*  
+>
+> *Dù là kẻ sang giàu quyền tước, hay nghèo hèn mạt nhược như nhau,*  
+> *Đều cùng chung một nỗi đau, vì duyên, vì nợ xiết bao buộc ràng.*  
+>
+> *Đời đã vậy, thở than chẳng được, bởi gieo nhân nhiễm trước vọng tình,*  
+> *Trót mê tài sắc lợi danh, lu mờ tâm trí đua tranh hận thù,*  
+>
+> *Nên ngàn kiếp quẩn quanh không dứt. Bả vinh hoa nô nức bước vào,*  
+> *Mặc cơn sóng dậy ba đào, ôm mùi phú quý lộn nhào tử sanh.*  
+>
+> *Hương linh hỡi cái thân còn mất, thế có gì bền chắc mà ham,*  
+> *Rõ ràng muôn việc cõi trần, chết rồi tay trắng có mang được gì.*  
+>
+> *Vậy giờ đây hãy suy nghĩ lại, quyết vượt qua cửa ải trầm luân,*  
+> *Một lòng theo Phật tu thân, rèn tâm sửa tánh lần lần thoát ra.*  
+>
+> *Cõi Ta-bà chỉ là quán trọ, chúng sanh là lữ khách bộ hành,*  
+> *Theo dòng sanh tử lộn quanh, bỏ quên xứ sở an thân Niết-bàn.*  
+>
+> *Hương linh hỡi nay nhân duyên mãn, thì xin đừng ngao ngán đường về,*  
+> *Dù trải qua bao cảnh khiếp ghê, dù bao đe dọa bốn bề hang sâu.*  
+>
+> *Xả tâm tưởng gom thâu từ trước, diệt tham sân si bước lỡ lòng,*  
+> *Chuyên lòng niệm Phật định tâm, quê hương Cực Lạc vững chân đường về.*  
+>
+> *Hương linh hỡi xa rời luyến tiếc, cái giả thân tài vật gia đình,*  
+> *Đừng gây thêm khổ cho mình, vì âm dương đã chia hình cách xa.*  
+>
+> *Hãy gấp niệm Di-đà Phật hiệu, định tâm thần quán chiếu đừng quên,*  
+> *Bồ đề quả Phật quyết lên, an vui vĩnh kiếp giác tâm tròn đầy.*  
+>
+> **Nam mô Siêu Lạc Độ Bồ Tát Ma ha tát. (3 lần)**
 
 ### Phần 2: Sám hối ba nghiệp
 
@@ -837,68 +852,85 @@ Nam mô Cầu Sám Hối Bồ Tát. (3 lần)
 
 ---
 
+
+---
+
 ## Bài 20: Sám hối thai nhi
 
 > 🎧 **Audio Bài Đọc:** [▶ Bấm để nghe trực tiếp file MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658610?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • ⏱ **Thời lượng:** 03:48  
-> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658610?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4)
+> 📻 **Kho Audiobookshelf:** [Mở Album 20 bài khai thị (ly_YSmkgPO)](https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO) • [💾 Tải file MP3 về máy](https://qts-home.duckdns.org/audiobookshelf/api/items/e225717f-bf0e-4cf9-b056-6375a7c3ca13/file/658610?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjODJjOTFmZS1jYWRmLTQ3NjQtOWY3Yi1lZjY0Y2I1ZjlmMDIiLCJ1c2VybmFtZSI6InF1YW5uZCIsImlzUm9vdCI6dHJ1ZSwiaWF0IjoxNzYyMTU0ODk1fQ.9y1qXo9wXqEszk3q0hM9Z153k_z82K0m1v1X9r529b4) • [↑ Về danh mục 20 bài](#danh-muc-20-bai-khai-thi-mau)
 
 Nam mô Cầu Sám Hối Bồ Tát! Nam mô Pháp giới tạng thân A-Di-Đà Phật!
 
-> Vì thuở ban đầu chưa hiểu,  
-Con vô tình giết chết thai nhi,  
-Nay thành tâm sám hối Bồ Tát.  
-Nam mô Cầu Sám Hối Bồ Tát. (7 lần)  
-Nguyện từ nay mãi mãi không còn,  
-Không tái phạm thêm lần nào nữa.  
-Với thai nhi mẹ xin sám hối,  
-Tội lỗi này biết gửi vào đâu,  
-Giờ mẹ đây chỉ biết dập đầu,  
-Xin con trẻ đừng oán hờn thêm nữa.  
-Cuộc sống xưa kia nhiều chật vật,  
-Nên mờ ái dục lại có con,  
-Nếu sinh con thì mẹ con càng khổ,  
-Nên phải đành cam bứt ruột ra.  
-Mẹ cứ ngỡ phôi thai vài tuần tuổi,  
-Thì không hình không tướng chẳng linh hồn,  
-Nên đem phá bỏ không ngần ngại,  
-Và chẳng bao giờ nghĩ đến con.  
-Đâu hay hồn phách con vất vưởng,  
-Không áo không cơm chẳng phụng thờ,  
-Bơ vơ lầm lũi ngoài sương gió,  
-Trong cảnh cô hồn thật tối tăm.  
-Nhìn thấy chị em mình sung sướng,  
-Được mẹ cưng chiều được ấm no,  
-Được cha ôm ấp trong thương mến,  
-Nhìn lại riêng mình lắm khổ đau.  
-Mẹ ơi sao nỡ đành như thế,  
-Con cũng là con của mẹ mà,  
-Đứa thương đứa bỏ ngoài mưa gió,  
-Oán hận dâng trào mẹ biết không!  
-Bởi thế nên con quyết trả thù,  
-Gia đình ly tán hận ngàn thu,  
-Làm cho anh chị đều hư hỏng,  
-Tài sản bay theo gió mịt mù.  
-Hỡi các con mẹ vô cùng ân hận,  
-Mẹ dập đầu sám hối cùng con,  
-Hãy thứ tha khi mẹ sống còn,  
-Và cùng mẹ về đây tu tập.  
-Đây giọt sữa đầu đời con hãy uống,  
-Như uống tình mẹ nuốt vào tâm,  
-Các con ơi xin hãy nép vào lòng,  
-Cho mẹ được ôm con lần cuối.  
-Mẹ tha thiết mong con thứ tội,  
-Ân hận này biết thuở nào nguôi,  
-Các con ơi hỡi các con ơi,  
-Xin tha thứ ngàn lần xin tha thứ.  
-Lần đầu tiên mẹ đặt tên đặt họ,  
-Hãy mau về niệm Phật cùng mẹ,  
-Cùng thành tâm xin phát nguyện về,  
-Nơi thế giới Tây Phương Cực Lạc.  
-Con quỳ lạy Đức A-Di-Đà Phật,  
-Xin từ bi tiếp độ vong linh,  
-Những thai nhi đều được vãng sanh,  
-Về thế giới an lành nơi Cực Lạc.  
-Nam mô Tây Phương Cực Lạc Thế Giới Đại Từ Đại Bi Tiếp Dẫn Đạo Sư A-Di-Đà Phật.
+> *Vì thuở ban đầu chưa hiểu,*  
+> *Con vô tình giết chết thai nhi,*  
+> *Nay thành tâm sám hối Bồ Tát.*  
+> *Nam mô Cầu Sám Hối Bồ Tát. (7 lần)*  
+>
+> *Nguyện từ nay mãi mãi không còn,*  
+> *Không tái phạm thêm lần nào nữa.*  
+> *Với thai nhi mẹ xin sám hối,*  
+> *Tội lỗi này biết gửi vào đâu,*  
+>
+> *Giờ mẹ đây chỉ biết dập đầu,*  
+> *Xin con trẻ đừng oán hờn thêm nữa.*  
+> *Cuộc sống xưa kia nhiều chật vật,*  
+> *Nên mờ ái dục lại có con,*  
+>
+> *Nếu sinh con thì mẹ con càng khổ,*  
+> *Nên phải đành cam bứt ruột ra.*  
+> *Mẹ cứ ngỡ phôi thai vài tuần tuổi,*  
+> *Thì không hình không tướng chẳng linh hồn,*  
+>
+> *Nên đem phá bỏ không ngần ngại,*  
+> *Và chẳng bao giờ nghĩ đến con.*  
+> *Đâu hay hồn phách con vất vưởng,*  
+> *Không áo không cơm chẳng phụng thờ,*  
+>
+> *Bơ vơ lầm lũi ngoài sương gió,*  
+> *Trong cảnh cô hồn thật tối tăm.*  
+> *Nhìn thấy chị em mình sung sướng,*  
+> *Được mẹ cưng chiều được ấm no,*  
+>
+> *Được cha ôm ấp trong thương mến,*  
+> *Nhìn lại riêng mình lắm khổ đau.*  
+> *Mẹ ơi sao nỡ đành như thế,*  
+> *Con cũng là con của mẹ mà,*  
+>
+> *Đứa thương đứa bỏ ngoài mưa gió,*  
+> *Oán hận dâng trào mẹ biết không!*  
+> *Bởi thế nên con quyết trả thù,*  
+> *Gia đình ly tán hận ngàn thu,*  
+>
+> *Làm cho anh chị đều hư hỏng,*  
+> *Tài sản bay theo gió mịt mù.*  
+> *Hỡi các con mẹ vô cùng ân hận,*  
+> *Mẹ dập đầu sám hối cùng con,*  
+>
+> *Hãy thứ tha khi mẹ sống còn,*  
+> *Và cùng mẹ về đây tu tập.*  
+> *Đây giọt sữa đầu đời con hãy uống,*  
+> *Như uống tình mẹ nuốt vào tâm,*  
+>
+> *Các con ơi xin hãy nép vào lòng,*  
+> *Cho mẹ được ôm con lần cuối.*  
+> *Mẹ tha thiết mong con thứ tội,*  
+> *Ân hận này biết thuở nào nguôi,*  
+>
+> *Các con ơi hỡi các con ơi,*  
+> *Xin tha thứ ngàn lần xin tha thứ.*  
+> *Lần đầu tiên mẹ đặt tên đặt họ,*  
+> *Hãy mau về niệm Phật cùng mẹ,*  
+>
+> *Cùng thành tâm xin phát nguyện về,*  
+> *Nơi thế giới Tây Phương Cực Lạc.*  
+> *Con quỳ lạy Đức A-Di-Đà Phật,*  
+> *Xin từ bi tiếp độ vong linh,*  
+>
+> *Những thai nhi đều được vãng sanh,*  
+> *Về thế giới an lành nơi Cực Lạc.*  
+>
+> **Nam mô Tây Phương Cực Lạc Thế Giới Đại Từ Đại Bi Tiếp Dẫn Đạo Sư A-Di-Đà Phật.**
 
 > Nguyện đem công đức này • Trang nghiêm Phật Tịnh Độ •  
 Trên đền bốn ơn nặng • Dưới cứu khổ ba đường •  
@@ -911,3 +943,10 @@ Nam Mô A Di Đà Phật
 
 
 **NAM MÔ TÂY PHƯƠNG CỰC LẠC THẾ GIỚI ĐẠI TỪ ĐẠI BI A-DI-ĐÀ PHẬT**
+
+
+---
+
+> ⬅️ **Trước đó:** [Xem Phần 2: Chia sẻ nội quy ban hộ niệm (Bài 005 - 019)](/phat-giao/cac-bai-khai-thi/phan-2-chia-se-noi-quy-ban-ho-niem)  
+> ➡️ **Tiếp theo:** [Xem Phần 4: Các ca hộ niệm điển hình theo Phật tử (Bài 052 - 235)](/phat-giao/cac-bai-khai-thi/phan-4-cac-ca-ho-niem-dien-hinh-theo-phat-tu)  
+> 🏠 [↑ Về trang tổng quan](/phat-giao/cac-bai-khai-thi)

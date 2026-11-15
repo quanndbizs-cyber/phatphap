@@ -1,0 +1,52 @@
+meta:
+  title: Các Bài Khai Thị Mẫu & Nghi Thức Hành Trì (Audiobookshelf)
+  description: 'Hệ thống tài liệu Hộ Niệm: Mục lục tra cứu 424 bài thẻ nhớ chia làm
+    7 phần, tích hợp Audio MP3 và 20 bài đọc khai thị mẫu.'
+  owner: quannd
+  author: Ban Hộ Niệm
+  created: '2026-10-04'
+  modified: '2026-11-14'
+  time: 21-00-00
+  navtitle: Các Bài Khai Thị (Audio)
+  pageid: 3a90ff63239953f4
+mediaplayer:
+  khaithi:
+    title: Các Mục Danh Sách Phát
+    subtitle: Audiobookshelf • Thẻ nhận ca
+    items:
+    - title: 'Phần 1: Căn bản & niệm Phật (Bài 001 - 004)'
+      subtitle: The nhan ca • 15 hr 36 min
+      badge: ABS
+      url: https://qts-home.duckdns.org/audiobookshelf/share/oqg9fYzPEd
+    - title: 'Phần 3: Bài mẫu khai thị người bệnh & lâm chung 12 tiếng (20 bài)'
+      subtitle: The nhan ca • 2 hr 59 min
+      badge: ABS
+      url: https://qts-home.duckdns.org/audiobookshelf/share/ly_YSmkgPO
+    - title: 'Phần 4.1: Ca hộ niệm PT Vũ Thị Thanh (54 bài)'
+      subtitle: The nhan ca • 38 hr 11 min
+      badge: ABS
+      url: https://qts-home.duckdns.org/audiobookshelf/share/Kqn5_XSXcn
+    - title: 'Phần 4.2: Ca hộ niệm PT Hoàng Ngọc Khắc (26 bài)'
+      subtitle: The nhan ca • 17 hr 24 min
+      badge: ABS
+      url: https://qts-home.duckdns.org/audiobookshelf/share/1UybdTQ9Rw
+    - title: 'Phần 4.3: Ca hộ niệm PT Trần Thị Nguyệt (26 bài)'
+      subtitle: The nhan ca • 16 hr 58 min
+      badge: ABS
+      url: https://qts-home.duckdns.org/audiobookshelf/share/FutMZ_tVlQ
+    - title: 'Phần 4.4: Ca hộ niệm PT Trần Minh Quang & Cụ Vũ Đình Quân (32 bài)'
+      subtitle: The nhan ca • 25 hr 54 min
+      badge: ABS
+      url: https://qts-home.duckdns.org/audiobookshelf/share/RPaSo20NhW
+    - title: 'Phần 4.5: Ca hộ niệm PT Nguyễn Thị Hợi (46 bài)'
+      subtitle: The nhan ca • 27 hr 42 min
+      badge: ABS
+      url: https://qts-home.duckdns.org/audiobookshelf/share/JOF9aBUxEh
+    - title: 'Phần 5: Nhận ca & trợ duyên các tỉnh (34 bài)'
+      subtitle: The nhan ca • 35 hr 30 min
+      badge: ABS
+      url: https://qts-home.duckdns.org/audiobookshelf/share/b3ktD4wW9F
+    - title: 'Phần 6 & 7: Trợ duyên tại Hà Nội & các ca tiếp theo (155 bài)'
+      subtitle: The nhan ca • 80 hr 19 min
+      badge: ABS
+      url: https://qts-home.duckdns.org/audiobookshelf/share/Kg0uYNyvg4
