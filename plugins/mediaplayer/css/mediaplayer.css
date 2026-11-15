@@ -1009,8 +1009,8 @@ body.tm-night-mode .tm-audio-scrubber-row {
 }
 
 .tm-story-summary {
-    font-size: 0.94rem;
-    line-height: 1.65;
+    font-size: calc(0.95rem * var(--tm-font-scale, 1)) !important;
+    line-height: calc(1.68 * (1 + (var(--tm-font-scale, 1) - 1) * 0.22)) !important;
     color: #44382c;
     padding-top: 6px;
     border-top: 1px dashed #ece3d5;
@@ -1029,6 +1029,12 @@ body.tm-night-mode .tm-audio-scrubber-row {
 .tm-story-summary.tm-summary-collapsible:hover {
     background: rgba(246, 238, 226, 0.85);
     border-color: #c9ad8b;
+}
+
+.tm-story-summary .tm-summary-text {
+    font-size: calc(0.95rem * var(--tm-font-scale, 1)) !important;
+    line-height: calc(1.68 * (1 + (var(--tm-font-scale, 1) - 1) * 0.22)) !important;
+    color: #44382c;
 }
 
 .tm-story-summary.tm-summary-collapsible .tm-summary-text {
@@ -1060,7 +1066,7 @@ body.tm-night-mode .tm-audio-scrubber-row {
 }
 
 .tm-summary-toggle-btn {
-    font-size: 0.8rem;
+    font-size: calc(0.82rem * (1 + (var(--tm-font-scale, 1) - 1) * 0.25)) !important;
     font-weight: 600;
     color: #8c531b;
     background: #f2e9dc;
@@ -1074,6 +1080,10 @@ body.tm-night-mode .tm-audio-scrubber-row {
     background: #8c531b;
     color: #ffffff;
     border-color: #8c531b;
+}
+
+.tm-story-summary .tm-track-btn-share {
+    font-size: calc(0.82rem * (1 + (var(--tm-font-scale, 1) - 1) * 0.25)) !important;
 }
 
 .tm-story-video-drawer {
