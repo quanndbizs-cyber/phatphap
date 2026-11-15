@@ -9,13 +9,13 @@ Tổng hợp các ca hộ niệm thực tế tiêu biểu ghi lại trọn vẹn
 
 ## 📑 Bảng Tra Cứu Các Ca Hộ Niệm Điển Hình
 
-| Số trên đài | Người bệnh / Phật tử | Đạo tràng / Địa phương | Số lượng bài | Trình phát Audio |
-| :---: | :--- | :--- | :---: | :---: |
-| **052 - 105** | Phật tử Vũ Thị Thanh (PD Diệu Bạch) | Đạo tràng Thái Bình | 54 bài | [Album `Kqn5_XSXcn`](https://qts-home.duckdns.org/audiobookshelf/share/Kqn5_XSXcn) |
-| **106 - 131** | Phật tử Hoàng Ngọc Khắc | Kiến Xương, Thái Bình | 26 bài | [Album `1UybdTQ9Rw`](https://qts-home.duckdns.org/audiobookshelf/share/1UybdTQ9Rw) |
-| **132 - 157** | Phật tử Trần Thị Nguyệt (PD Liên Nguyệt) | Trợ duyên thời 1 - 9 | 26 bài | [Album `FutMZ_tVlQ`](https://qts-home.duckdns.org/audiobookshelf/share/FutMZ_tVlQ) |
-| **158 - 189** | PT Trần Minh Quang & Cụ Vũ Đình Quân | Hưng Hà, Thái Bình | 32 bài | [Album `RPaSo20NhW`](https://qts-home.duckdns.org/audiobookshelf/share/RPaSo20NhW) |
-| **190 - 235** | Phật tử Nguyễn Thị Hợi | Trợ duyên Buổi 1 - 13 | 46 bài | [Album `JOF9aBUxEh`](https://qts-home.duckdns.org/audiobookshelf/share/JOF9aBUxEh) |
+| Số trên đài | Người bệnh / Phật tử | Đạo tràng / Địa phương | Số lượng bài | Nghe Audio MP3 | Album Kho |
+| :---: | :--- | :--- | :---: | :---: | :---: |
+| **052 - 105** | Phật tử Vũ Thị Thanh (PD Diệu Bạch) | Đạo tràng Thái Bình | 54 bài | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/d4562c1f-a2f7-4ecb-8f9c-80d49384436a/file/659143?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8) | [Album `Kqn5_XSXcn`](https://qts-home.duckdns.org/audiobookshelf/share/Kqn5_XSXcn) |
+| **106 - 131** | Phật tử Hoàng Ngọc Khắc | Kiến Xương, Thái Bình | 26 bài | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/91ed77f4-1d37-4fda-b82c-db64c7a6289c/file/659115?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8) | [Album `1UybdTQ9Rw`](https://qts-home.duckdns.org/audiobookshelf/share/1UybdTQ9Rw) |
+| **132 - 157** | Phật tử Trần Thị Nguyệt (PD Liên Nguyệt) | Trợ duyên thời 1 - 9 | 26 bài | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/6cee6177-af67-4e80-8f7d-4f4f12fed36b/file/659088?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8) | [Album `FutMZ_tVlQ`](https://qts-home.duckdns.org/audiobookshelf/share/FutMZ_tVlQ) |
+| **158 - 189** | PT Trần Minh Quang & Cụ Vũ Đình Quân | Hưng Hà, Thái Bình | 32 bài | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/b8f7a7dc-abd1-4722-98da-b95de4420fa2/file/659055?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8) | [Album `RPaSo20NhW`](https://qts-home.duckdns.org/audiobookshelf/share/RPaSo20NhW) |
+| **190 - 235** | Phật tử Nguyễn Thị Hợi | Trợ duyên Buổi 1 - 13 | 46 bài | [▶ Nghe MP3](https://qts-home.duckdns.org/audiobookshelf/api/items/1851b7e1-ad2c-43d0-b8b7-e366476231c1/file/659007?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1MDJiZTBkZS0yMzIzLTQzODgtYjgzMi04ODNhZjVmZDRlMzIiLCJ1c2VybmFtZSI6ImFkaWRhcGhhdCIsImlhdCI6MTc4OTgwNTYwNH0.5Snxo8jtfIl5i1XOFnfVALetYFk3RMXHfKlqACaLai8) | [Album `JOF9aBUxEh`](https://qts-home.duckdns.org/audiobookshelf/share/JOF9aBUxEh) |
 
 ---
 
