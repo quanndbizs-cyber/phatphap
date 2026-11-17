@@ -48,3 +48,13 @@ Trong thực tế hộ niệm, không ít người cả đời ăn chay niệm P
 10. **Luôn hồi hướng công đức về Tây Phương Cực Lạc:** Nguyện cho tất cả chúng sinh đồng thành Phật đạo.
 
 > **☸ Nam Mô Tây Phương Cực Lạc Thế Giới Đại Từ Đại Bi Tiếp Dẫn Đạo Sư A Di Đà Phật.**
+
+---
+
+## Nghe & Xem Nguồn Tham Chiếu Ngay Tại Đây
+
+* **Nguồn tham chiếu:** [Tọa Đàm 48 — Hộ Niệm Chú Ý (Thầy Diệu Âm Tịnh Hải)](https://www.youtube.com/watch?v=XPY3A44a16Q) • [Các Ca Trợ Duyên Thực Tế (Phần 7)](/phat-giao/cac-bai-khai-thi/phan-7-cac-ca-tro-duyen-tiep-theo-den-het-the)
+
+[:embed url="https://www.youtube.com/watch?v=XPY3A44a16Q" title="48 Tọa Đàm Hộ Niệm Chú Ý — Tọa Đàm 48 (Thầy Diệu Âm Tịnh Hải)" height="400px" :]
+
+[:absplayer key="kt_27_p7" title="Nghe Audio: Các Ca Trợ Duyên Thực Tế Rút Kinh Nghiệm (Phần 7)" :]

@@ -30,3 +30,13 @@ Chuyên mục **Pháp Hộ Niệm** được xây dựng làm **kim chỉ nam v�
 * **[Các Bài Khai Thị Mẫu & Ca Hộ Niệm Thực Tế (Audiobookshelf)](/phat-giao/cac-bai-khai-thi)**: Tuyển tập băng khai thị mẫu, nghi thức trợ niệm và các ca hộ niệm thực tế tại Đạo Tràng Tùy Duyên Hà Nội & Nam Định.
 * **[Nghi Thức Hành Trì & Công Phu Tịnh Tu Hằng Ngày](/phat-giao/nghi-thuc-hanh-tri)**: Thời khóa công phu sáng tối, Thập Niệm Ký Số và văn phát nguyện vãng sinh.
 * **[Đệ Tử Quy Giảng Giải (99 Bài)](/phat-giao/de-tu-quy)**: Nền tảng đạo đức Tịnh Nghiệp Tam Phước — gốc rễ của người học Phật và hộ niệm.
+
+---
+
+## Nghe & Xem Nguồn Tham Chiếu Ngay Tại Đây
+
+* **Nguồn YouTube chính thức:** [Đạo Tràng Tùy Duyên Hà Nội (@daotrangtuyduyenhanoi)](https://www.youtube.com/@daotrangtuyduyenhanoi) • [Danh sách phát Hộ Niệm Tùy Duyên](https://www.youtube.com/playlist?list=PLsE68qHjMSbsOSPDIJ-GJ7Bdc3p8c2uAT)
+
+[:absplayer key="kt_1" title="Nghe Trực Tiếp: Nghi Thức Hành Trì & Niệm Phật (Thẻ Nhận Ca)" :]
+
+[:embed url="https://www.youtube.com/watch?v=DNLpLqsvJzE" title="Ban Hộ Niệm Cần Làm Như Thế Nào Để Giữ Gìn & Xiển Dương Pháp Hộ Niệm? — Đạo Tràng Tùy Duyên Hà Nội" height="400px" :]

@@ -36,3 +36,11 @@ Hộ niệm không phải là việc làm theo cảm tính hay tình cảm thế
 ---
 
 > **Lời Nhắc Nhở:** Tuân thủ nghiêm ngặt 15 điều kiện trên không phải để làm khó nhau, mà là để **bảo vệ huệ mạng cho người sắp lâm chung** và **bảo vệ phước đức cho chính người đi hộ niệm**. Ai làm đúng pháp thì cả người đi lẫn người ở lại đều được lợi ích chân thật.
+
+---
+
+## Nghe Pháp Âm Nguồn Ngay Tại Đây
+
+* **Nguồn tham chiếu:** [Podcast 15 Điều Kiện Thành Viên BHN/NCT — Cư Sĩ Phúc Trí (Đạo Tràng Tùy Duyên Hà Nội)](https://www.youtube.com/@daotrangtuyduyenhanoi/podcasts) • [Phần 2: 15 Điều Nội Quy Ban Hộ Niệm](/phat-giao/cac-bai-khai-thi/phan-2-chia-se-noi-quy-ban-ho-niem)
+
+[:absplayer key="kt_2" title="Nghe Trực Tiếp: 15 Điều Nội Quy Ban Hộ Niệm — Cư Sĩ Phúc Trí Chia Sẻ (15 bài)" :]
