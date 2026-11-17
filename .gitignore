@@ -1,3 +1,16 @@
 # Ignore sensitive settings in middle_sync but allow settings.yaml
 middle_sync/settings/*
 !middle_sync/settings/settings.yaml
+
+# Strictly ignore AI agent instructions, rules, and hidden agent directories
+AGENTS.md
+agents.md
+CLAUDE.md
+GEMINI.md
+COPILOT.md
+CURSOR.md
+agents/
+.agent/
+.opencode/
+.claude/
+.cursor/
