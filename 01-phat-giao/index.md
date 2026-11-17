@@ -10,7 +10,8 @@
 
 ## 1. Khu Vực Chuyên Tu Pháp Môn Tịnh Độ & Pháp Âm Hành Trì
 
-1. **[Khuyên Người Niệm Phật (Trọn Bộ 4 Tập) — Cư Sĩ Diệu Âm (Audio • Bài Đọc • Video)](/phat-giao/khuyen-nguoi-niem-phat)**: Tuyển tập 76 bài pháp âm, khai thị hộ niệm và giải đáp thắc mắc tu học Tịnh Độ, tích hợp trình phát Audio MP3, trích đoạn đọc sách và Video minh họa.
+1. **[Pháp Hộ Niệm — Phương Hướng Tu Học & Hành Trì Thành Tựu (6 Tài Liệu Căn Bản)](/phat-giao/phap-ho-niem)**: Chuyên mục lớn hướng dẫn căn bản về Pháp Hộ Niệm theo đường lối Đạo Tràng Tùy Duyên Hà Nội — gồm Tổng quan & lộ trình tu học, 15 điều kiện thành viên Ban Hộ Niệm, Quy trình 3 giai đoạn (8–16 tiếng vàng), Mẫu Bản Di Nguyện lâm chung, Tâm yếu 48 Tọa Đàm và Cách hóa giải chướng ngại.
+2. **[Khuyên Người Niệm Phật (Trọn Bộ 4 Tập) — Cư Sĩ Diệu Âm (Audio • Bài Đọc • Video)](/phat-giao/khuyen-nguoi-niem-phat)**: Tuyển tập 76 bài pháp âm, khai thị hộ niệm và giải đáp thắc mắc tu học Tịnh Độ, tích hợp trình phát Audio MP3, trích đoạn đọc sách và Video minh họa.
 2. **[Đệ Tử Quy (Audio) - Nền Tảng Của Đạo Đức & Tịnh Nghiệp Tam Phước](/phat-giao/de-tu-quy)**: Trình phát trực tiếp 3 bộ bài giảng Đệ Tử Quy (99 bài MP3) của Thầy Thái Lễ Húc & Pháp Sư Ngộ Thông về cái gốc đạo đức làm người.
 3. **[Nghi Thức Hành Trì & Công Phu Tịnh Tu Niệm Phật Thành Tựu](/phat-giao/nghi-thuc-hanh-tri)**: Cẩm nang toàn diện về thời khóa tịnh tu hằng ngày, văn phát nguyện vãng sinh Tây Phương Cực Lạc, phương pháp Thập Niệm Ký Số của Tổ Ấn Quang và bí quyết nhất hướng chuyên niệm.
 4. **[Các Bài Khai Thị Mẫu & Thẻ Nhớ Hộ Niệm 424 Bài (Audiobookshelf)](/phat-giao/cac-bai-khai-thi)**: Trọn bộ 424 bài pháp âm hộ niệm phân chia 7 phần chuyên sâu, mục lục tra cứu theo số đài niệm Phật, tích hợp file nghe Audio MP3 và toàn văn 20 bài đọc khai thị mẫu.
