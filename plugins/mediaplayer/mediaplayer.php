@@ -41,8 +41,8 @@ class mediaplayer extends Plugin
     public function onTwigLoaded()
     {
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261115e');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261115e');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261117a');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261117a');
         }
     }
 
@@ -101,6 +101,27 @@ class mediaplayer extends Plugin
 
         if ($changed) {
             $html->setData($contentHtml);
+        }
+
+        # 3. Inject ABS share playlist metadata if any audiobookshelf/share/ links exist in content
+        if (is_string($contentHtml) && str_contains($contentHtml, 'audiobookshelf/share/')) {
+            if (preg_match_all('#audiobookshelf/share/([A-Za-z0-9_-]+)#', $contentHtml, $shareMatches)) {
+                $shareMap = [];
+                foreach (array_unique($shareMatches[1]) as $shareId) {
+                    $absKey = $this->detectAbsKeyFromUrl($shareId);
+                    if ($absKey !== '') {
+                        $groups = $this->resolveAbsGroups($absKey);
+                        if (!empty($groups)) {
+                            $shareMap[$shareId] = $groups;
+                        }
+                    }
+                }
+                if (!empty($shareMap)) {
+                    $jsonShares = json_encode($shareMap, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+                    $contentHtml .= "\n" . '<script type="application/json" id="tm-abs-shares-json">' . $jsonShares . '</script>';
+                    $html->setData($contentHtml);
+                }
+            }
         }
 
         $mode = $this->currentMeta['mediaplayer']['player_mode'] ?? 'none';
@@ -421,6 +442,7 @@ class mediaplayer extends Plugin
             foreach ($entry['tracks'] as $t) {
                 $ino   = $t['ino'] ?? '';
                 $fname = preg_replace('/\.(mp3|m4a|aac|ogg|wav)$/i', '', $t['filename'] ?? ($t['title'] ?? ('Bài ' . $t['index'])));
+                $fname = $this->shortenTrackTitle($fname);
                 $src   = $t['src'] ?? ($t['url'] ?? ($ino ? ($host . '/api/items/' . $itemId . '/file/' . $ino . '?token=' . $token) : ''));
                 $tracks[] = [
                     'index'    => $t['index'],
@@ -437,6 +459,14 @@ class mediaplayer extends Plugin
             ];
         }
         return $groups;
+    }
+
+    protected function shortenTrackTitle(string $title): string
+    {
+        $title = preg_replace('/\s*-\s*Copy(?:\s*\(\d+\))?$/i', '', $title);
+        $title = preg_replace('/Niem\s+phat\s+dai\s+chung\s+15\s*ph?\s+co\s+phat\s+nguyen\s+46\s*ph?(?:\s*\(tieng\s+nho\))?/i', 'NP Đại chúng (15p/46p)', $title);
+        $title = preg_replace('/\bNiệm\s+Phật\s+đại\s+chúng\b/iu', 'NP Đại chúng', $title);
+        return trim(preg_replace('/\s{2,}/', ' ', $title));
     }
 
     protected function renderAbsPlayer(string $keysCsv, string $title, string $extUrl = ''): string
@@ -517,6 +547,7 @@ class mediaplayer extends Plugin
         $html .= '  <div class="tm-abs-toolbar">'
               . '    <input type="search" class="tm-abs-search" placeholder="🔍 Tìm nhanh tên bài giảng / câu chuyện..." oninput="window.tmAbsFilter(\'' . $uid . '\', this.value)" />'
               . '  </div>'
+              . '  <div class="tm-abs-scroll-hint">↔ Vuốt ngang để xem đầy đủ danh sách</div>'
               . '  <div class="tm-abs-tracklist">';
 
         foreach ($groups[0]['tracks'] as $tIdx => $t) {
