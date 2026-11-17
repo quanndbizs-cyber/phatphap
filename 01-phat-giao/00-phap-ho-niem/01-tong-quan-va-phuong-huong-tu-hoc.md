@@ -66,4 +66,12 @@ Tổ Ngẫu Ích dạy: *"Được vãng sinh hay không là do có Tín – Ngu
 * Khéo léo chia sẻ, gieo duyên để vợ/chồng, con cháu hiểu rõ ý nghĩa hộ niệm, đồng thuận hỗ trợ mình khi vô thường đến.
 * Hằng ngày buông xả dần chấp trước, giữ tâm **Chân thành – Thanh tịnh – Bình đẳng – Chánh giác – Từ bi**, lấy câu Phật hiệu làm nơi nương tựa duy nhất.
 
-> **☸ Tham chiếu thực hành:** Quý liên hữu có thể theo dõi các buổi cộng tu, vấn đáp và các ca hộ niệm thực tế tại kênh YouTube chính thức của **[Đạo Tràng Tùy Duyên Hà Nội](https://www.youtube.com/@daotrangtuyduyenhanoi)** và nghe lại các file khai thị mẫu tại mục **[Các Bài Khai Thị Mẫu & Ca Hộ Niệm](/phat-giao/cac-bai-khai-thi)**.
+> **☸ Tham chiếu thực hành:** Quý liên hữu có thể theo dõi các buổi cộng tu, vấn đáp và các ca hộ niệm thực tế tại kênh YouTube chính thức của **[Đạo Tràng Tùy Duyên Hà Nội](https://www.youtube.com/@daotrangtuyduyenhanoi)** ([Video: Hộ niệm được nói trong kinh nào?](https://www.youtube.com/watch?v=soPjjBrje4I)) và nghe lại các file khai thị mẫu tại mục **[Các Bài Khai Thị Mẫu & Ca Hộ Niệm](/phat-giao/cac-bai-khai-thi)**.
+
+---
+
+## Nghe & Xem Nguồn Tham Chiếu Ngay Tại Đây
+
+[:embed url="https://www.youtube.com/watch?v=soPjjBrje4I" title="Hộ Niệm Được Nói Trong Kinh Nào? Niệm Phật Cầu Sinh Cực Lạc — Đạo Tràng Tùy Duyên Hà Nội" height="400px" :]
+
+[:absplayer key="kt_1" title="Nghe Audio: Nghi Thức Hành Trì & Niệm Phật Căn Bản" :]

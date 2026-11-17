@@ -51,3 +51,13 @@ Quý liên hữu có thể chép tay hoặc in ra, điền đầy đủ thông t
 * **Lấy thân giáo làm đầu:** Người tu Tịnh độ cần sống hiền hòa, nhẫn nhịn, biết quan tâm và làm tròn bổn phận với gia đình (*Đệ Tử Quy*). Khi người thân thấy mình tu hành trở nên điềm đạm, bao dung và hiếu thuận hơn, họ sẽ tự nhiên sinh lòng tin kính Phật pháp.
 * **Gieo duyên từ từ, không ép buộc:** Chia sẻ nhẹ nhàng các câu chuyện nhân quả (**[Báo Ứng Hiện Đời](/nhan-qua/bao-ung-hien-doi-tuyen-tap)**), các video hộ niệm vãng sinh thù thắng của Đạo tràng Tùy Duyên Hà Nội để người thân thấy bằng mắt thật rằng chết không phải là hết và niệm Phật có thật sự vãng sinh.
 * **Trao đổi rõ ràng lúc còn khỏe:** Đừng đợi đến khi nằm viện mới nói chuyện Di Nguyện. Hãy nói chuyện nhẹ nhàng trong những dịp gia đình sum họp ấm cúng để vợ/chồng và các con hiểu đây là niềm hạnh phúc lớn nhất của mình.
+
+---
+
+## Nghe & Xem Nguồn Tham Chiếu Ngay Tại Đây
+
+* **Nguồn tham chiếu:** [Video: Hộ Niệm Cho Hương Linh Có Cần Khai Thị Không? — Đạo Tràng Tùy Duyên Hà Nội](https://www.youtube.com/watch?v=G9Vmx52pWa8) • [Các Ca Hộ Niệm Tại Hà Nội (Phần 6)](/phat-giao/cac-bai-khai-thi/phan-6-tro-duyen-tai-ha-noi-va-dao-trang-dia-phuong)
+
+[:embed url="https://www.youtube.com/watch?v=G9Vmx52pWa8" title="Hộ Niệm & Khai Thị Cho Gia Đình — Đạo Tràng Tùy Duyên Hà Nội" height="400px" :]
+
+[:absplayer key="kt_27_p6" title="Nghe Audio: Các Ca Hộ Niệm Thực Tế Tại Hà Nội (Cư Sĩ Phúc Trí)" :]

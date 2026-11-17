@@ -54,3 +54,13 @@ Lúc lâm chung là thời khắc quyết định toàn bộ vận mệnh tươn
    * Sau khi hoàn tất thời gian hộ niệm và hồi hướng công đức, Ban Hộ Niệm bàn giao lại thân xác cho gia đình.
    * Gia đình tiến hành tắm rửa, thay đồ (nếu khớp còn hơi cứng, có thể dùng khăn ấm đắp nhẹ lên các khớp vài phút cho mềm rồi mới mặc đồ) và làm tang lễ **thuần chay, thanh tịnh, niệm Phật hồi hướng, không sát sinh đãi tiệc, không đốt nhiều vàng mã**.
    * Trong **49 ngày** tiếp theo, gia đình nên duy trì ăn chay, niệm Phật, phóng sinh, làm việc thiện hồi hướng công đức cho hương linh tăng thêm phẩm vị liên hoa.
+
+---
+
+## Nghe & Xem Nguồn Tham Chiếu Ngay Tại Đây
+
+* **Nguồn tham chiếu:** [20 Bài Khai Thị Mẫu](/phat-giao/cac-bai-khai-thi/phan-3-bai-mau-khai-thi-nguoi-benh-va-lam-chung-12-tieng) • [Video Ca Hộ Niệm Thực Tế — Đạo Tràng Tùy Duyên Hà Nội](https://www.youtube.com/watch?v=sdeG0PIoZJU)
+
+[:absplayer key="kt_20" title="Nghe Audio: 20 Bài Khai Thị Mẫu Lâm Chung & Trợ Niệm" :]
+
+[:embed url="https://www.youtube.com/watch?v=sdeG0PIoZJU" title="Ca Hộ Niệm Thực Tế Tại Hà Nội — Đạo Tràng Tùy Duyên Hà Nội" height="400px" :]

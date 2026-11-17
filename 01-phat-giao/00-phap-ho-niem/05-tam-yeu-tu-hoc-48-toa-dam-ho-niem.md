@@ -42,3 +42,13 @@ Bộ sách và pháp âm **48 Tọa Đàm Hộ Niệm Là Một Pháp Tu** (Cư 
 ## 6. Khế Lý – Khế Cơ: Biết Tùy Duyên Nhưng Không Đánh Mất Nguyên Tắc
 * **Khế lý:** Luôn giữ đúng tôn chỉ Tịnh Độ (Tín – Nguyện – Hạnh, cầu vãng sinh một đời thành Phật, tuyệt đối không làm trái lời Phật Tổ).
 * **Khế cơ:** Biết uyển chuyển tùy thuận hoàn cảnh từng gia đình, từng người bệnh (chọn 4 chữ hay 6 chữ, tốc độ nhanh chậm, cách chia sẻ phù hợp trình độ người nghe) để cảm hóa họ thuận theo Pháp Hộ Niệm mà không gây phản cảm hay đối đầu.
+
+---
+
+## Nghe & Xem Nguồn Tham Chiếu Ngay Tại Đây
+
+* **Nguồn tham chiếu:** [Playlist 48 Tọa Đàm Hộ Niệm Chú Ý — Đạo Tràng Tùy Duyên Hà Nội](https://www.youtube.com/@daotrangtuyduyenhanoi/playlists) • [Tọa Đàm 01 (Thầy Diệu Âm Tịnh Hải)](https://www.youtube.com/watch?v=CyCEKRFFC34) • [Tọa Đàm 176 (Cộng Tu Đạo Tràng Tùy Duyên Hà Nội)](https://www.youtube.com/watch?v=YjjCSqSME1Q)
+
+[:embed url="https://www.youtube.com/watch?v=CyCEKRFFC34" title="48 Tọa Đàm Hộ Niệm Chú Ý — Tọa Đàm 01 (Thầy Diệu Âm Tịnh Hải)" height="400px" :]
+
+[:embed url="https://www.youtube.com/watch?v=YjjCSqSME1Q" title="Cộng Tu Niệm Phật Tọa Đàm 176: Để Hiểu Thấu Hành Đúng Pháp Hộ Niệm — Đạo Tràng Tùy Duyên Hà Nội" height="400px" :]
