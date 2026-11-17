@@ -21,9 +21,26 @@ class Folder
 
 		$folderContent 	= array();
 
+		$ignoredItems = array(
+			'middle_sync',
+			'agents.md',
+			'claude.md',
+			'gemini.md',
+			'copilot.md',
+			'cursor.md',
+			'readme.md',
+			'license.md',
+			'licence.md',
+			'changelog.md',
+			'contributing.md',
+			'agents',
+			'node_modules',
+			'vendor',
+		);
+
 		foreach ($folderItems as $key => $item)
 		{
-			if (!in_array($item, array(".","..")) && substr($item, 0, 1) != '.' && substr($item, 0, 1) != '_' && $item != 'middle_sync')
+			if (!in_array($item, array(".","..")) && substr($item, 0, 1) != '.' && substr($item, 0, 1) != '_' && !in_array(strtolower($item), $ignoredItems))
 			{
 				if (is_dir($folderPath . DIRECTORY_SEPARATOR . $item))
 				{
