@@ -622,7 +622,23 @@
         }
     };
 
-    window.tmPlayInlineAudio = function (btn, src, title) {
+    function pauseOtherAudios(exceptEl) {
+        var allAud = document.querySelectorAll("audio");
+        for (var i = 0; i < allAud.length; i++) {
+            if (allAud[i] !== exceptEl && !allAud[i].paused) {
+                allAud[i].pause();
+            }
+        }
+    }
+
+    window.tmFabSpeed = function (rate) {
+        var player = document.getElementById("tm-fab-player");
+        if (player) {
+            player.playbackRate = parseFloat(rate) || 1.0;
+        }
+    };
+
+    window.tmPlayInlineAudio = function (btn, src, title, startTime, rate) {
         var existing = document.getElementById("tm-floating-audio-bar");
         if (!existing) {
             existing = document.createElement("div");
@@ -630,7 +646,20 @@
             existing.className = "tm-floating-audio-bar";
             existing.innerHTML =
                 '<div class="tm-fab-inner">' +
-                '  <div class="tm-fab-title">🎧 <span id="tm-fab-name"></span></div>' +
+                '  <div class="tm-fab-top">' +
+                '    <div class="tm-fab-title">🎧 <span id="tm-fab-name"></span></div>' +
+                '    <div class="tm-fab-top-actions">' +
+                '      <select id="tm-fab-speed" class="tm-fab-speed" onchange="window.tmFabSpeed(this.value)" title="Tốc độ phát">' +
+                '        <option value="0.85">0.85x</option>' +
+                '        <option value="1" selected>1.0x</option>' +
+                '        <option value="1.15">1.15x</option>' +
+                '        <option value="1.25">1.25x</option>' +
+                '        <option value="1.5">1.5x</option>' +
+                '      </select>' +
+                '      <a id="tm-fab-down" class="tm-fab-down" href="#" download target="_blank" rel="noopener noreferrer" title="Tải file MP3">💾</a>' +
+                '      <button type="button" class="tm-fab-close" onclick="var b=document.getElementById(\'tm-floating-audio-bar\'); var p=document.getElementById(\'tm-fab-player\'); if(p)p.pause(); if(b)b.style.display=\'none\';" title="Đóng trình phát">✕</button>' +
+                '    </div>' +
+                '  </div>' +
                 '  <div class="tm-audio-scrubber-row tm-fab-scrubber">' +
                 '    <span class="tm-audio-time tm-time-cur">00:00</span>' +
                 '    <input type="range" class="tm-audio-scrubber" min="0" max="100" value="0" step="0.5" aria-label="Tua đến vị trí mong muốn" title="Kéo hoặc nhấn để tua đến thời điểm mong muốn" oninput="window.tmAudioSeekInput(this)" onchange="window.tmAudioSeekChange(this)" />' +
@@ -644,16 +673,32 @@
                 '    <button type="button" class="tm-fab-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>' +
                 '  </div>' +
                 '  <audio id="tm-fab-player" autoplay style="display:none;"></audio>' +
-                '  <button type="button" class="tm-fab-close" onclick="var b=document.getElementById(\'tm-floating-audio-bar\'); var p=document.getElementById(\'tm-fab-player\'); if(p)p.pause(); if(b)b.style.display=\'none\';">✕</button>' +
                 '</div>';
             document.body.appendChild(existing);
         }
         existing.style.display = "block";
         var nameEl = document.getElementById("tm-fab-name");
         if (nameEl) nameEl.textContent = title || "Đang phát MP3";
+        var downEl = document.getElementById("tm-fab-down");
+        if (downEl) downEl.href = src || "#";
+
         var player = document.getElementById("tm-fab-player");
         if (player) {
+            pauseOtherAudios(player);
             player.src = src;
+            var targetRate = parseFloat(rate) || 1.0;
+            player.playbackRate = targetRate;
+            var speedSel = document.getElementById("tm-fab-speed");
+            if (speedSel) speedSel.value = String(targetRate);
+
+            if (typeof startTime === "number" && startTime > 0) {
+                var seekOnce = function () {
+                    try { player.currentTime = startTime; } catch (err) {}
+                    player.removeEventListener("loadedmetadata", seekOnce);
+                };
+                player.addEventListener("loadedmetadata", seekOnce);
+            }
+
             player.play().catch(function () {});
             window.tmBindAudioScrubber(existing, player);
         }
@@ -728,6 +773,7 @@
 
         initKpcReader();
         initKnnpReader();
+        initAudioLinkInterceptor();
     });
 
     /* =========================================================================
@@ -2115,6 +2161,256 @@
                 window.tmKnnpStep(-1);
             } else if (e.key === "ArrowRight") {
                 window.tmKnnpStep(1);
+            }
+        });
+    }
+
+    /* =========================================================================
+       6. AUDIO & ALBUM LINK INTERCEPTOR (TRÁNH REDIRECT, MỞ BẰNG MEDIAPLAYER)
+       ========================================================================= */
+    window.tmCloseAbsAlbumModal = function () {
+        var modal = document.getElementById("tm-abs-album-modal");
+        if (!modal) return;
+        var aud = modal.querySelector("audio");
+        if (aud && !aud.paused) {
+            aud.pause();
+        }
+        modal.style.display = "none";
+        document.body.style.overflow = "";
+    };
+
+    window.tmMinimizeAbsModalToFloating = function () {
+        var modal = document.getElementById("tm-abs-album-modal");
+        if (!modal) return;
+        var aud = modal.querySelector("audio");
+        var np = modal.querySelector(".tm-abs-np-title");
+        var title = np ? np.textContent : "Đang phát Audio";
+        var src = aud ? (aud.currentSrc || aud.getAttribute("src") || "") : "";
+        var curTime = aud ? (aud.currentTime || 0) : 0;
+        var rate = aud ? (aud.playbackRate || 1.0) : 1.0;
+        window.tmCloseAbsAlbumModal();
+        if (src) {
+            window.tmPlayInlineAudio(null, src, title, curTime, rate);
+        }
+    };
+
+    window.tmOpenAbsAlbumModal = function (shareId, groups, customTitle) {
+        if (!groups || !groups.length) return;
+        var modal = document.getElementById("tm-abs-album-modal");
+        if (!modal) {
+            modal = document.createElement("div");
+            modal.id = "tm-abs-album-modal";
+            modal.className = "tm-abs-modal-backdrop";
+            modal.innerHTML =
+                '<div class="tm-abs-modal-dialog" role="dialog" aria-modal="true" aria-label="Trình phát Album">' +
+                '  <div class="tm-abs-modal-header">' +
+                '    <span class="tm-abs-modal-label">📻 Danh sách Album Audio</span>' +
+                '    <div class="tm-abs-modal-actions">' +
+                '      <button type="button" class="tm-abs-modal-min" onclick="window.tmMinimizeAbsModalToFloating()" title="Thu nhỏ xuống thanh nổi để vừa đọc vừa nghe">⬇ Thanh nổi</button>' +
+                '      <button type="button" class="tm-abs-modal-close" onclick="window.tmCloseAbsAlbumModal()" title="Đóng">✕ Đóng</button>' +
+                '    </div>' +
+                '  </div>' +
+                '  <div id="tm-abs-modal-body" class="tm-abs-modal-body"></div>' +
+                '</div>';
+            modal.addEventListener("click", function (ev) {
+                if (ev.target === modal) {
+                    window.tmCloseAbsAlbumModal();
+                }
+            });
+            document.addEventListener("keydown", function (ev) {
+                if (ev.key === "Escape" && modal.style.display === "flex") {
+                    window.tmCloseAbsAlbumModal();
+                }
+            });
+            document.body.appendChild(modal);
+        }
+
+        var body = document.getElementById("tm-abs-modal-body");
+        if (!body) return;
+
+        var uid = "tmabs_modal_" + String(shareId || "album").replace(/[^a-zA-Z0-9_]/g, "");
+        var firstGroup = groups[0];
+        var firstTrack = (firstGroup.tracks && firstGroup.tracks[0]) ? firstGroup.tracks[0] : null;
+        if (!firstTrack) return;
+
+        var totalCount = 0;
+        for (var g = 0; g < groups.length; g++) {
+            totalCount += (groups[g].tracks || []).length;
+        }
+        var mainTitle = customTitle || firstGroup.title || "Album Pháp Âm";
+        var firstDurSec = firstTrack.duration || 0;
+
+        var html =
+            '<div class="tm-absplayer" id="' + uid + '" data-groups="' + escapeHtml(JSON.stringify(groups)) + '" data-cur-group="0" data-cur-track="0">' +
+            '  <div class="tm-abs-top">' +
+            '    <div class="tm-abs-info">' +
+            '      <div class="tm-abs-badge-row">' +
+            '        <span class="tm-abs-livebadge">● PHÁT TRỰC TIẾP MP3 (AUDIOBOOKSHELF)</span>' +
+            '        <span class="tm-abs-totalbadge">Tổng số: ' + totalCount + ' bài</span>' +
+            '      </div>' +
+            '      <div class="tm-abs-main-title">' + escapeHtml(mainTitle) + '</div>' +
+            '      <div class="tm-abs-nowplaying">Đang chọn: <strong class="tm-abs-np-title">' + escapeHtml(firstTrack.title) + '</strong></div>' +
+            '    </div>' +
+            '    <div class="tm-audio-scrubber-row">' +
+            '      <span class="tm-audio-time tm-time-cur">00:00</span>' +
+            '      <input type="range" class="tm-audio-scrubber" min="0" max="' + Math.max(100, firstDurSec) + '" value="0" step="0.5" aria-label="Tua đến vị trí mong muốn" oninput="window.tmAudioSeekInput(this)" onchange="window.tmAudioSeekChange(this)" />' +
+            '      <span class="tm-audio-time tm-time-dur">' + (formatDur(firstDurSec) || "00:00") + '</span>' +
+            '    </div>' +
+            '    <div class="tm-abs-controls-bar">' +
+            '      <button type="button" class="tm-abs-btn" onclick="window.tmAbsPrev(\'' + uid + '\')" title="Bài trước">⏮ <span class="tm-btn-txt">Trước</span></button>' +
+            '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -30)" title="Tua lùi 30 giây">⏪ 30s</button>' +
+            '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, -10)" title="Tua lùi 10 giây">⏪ 10s</button>' +
+            '      <button type="button" class="tm-abs-btn tm-play-btn" onclick="window.tmAudioTogglePlay(this)" title="Phát hoặc tạm dừng"><span class="tm-play-icon">▶</span> <span class="tm-play-txt">Phát</span></button>' +
+            '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 10)" title="Tua tới 10 giây">10s ⏩</button>' +
+            '      <button type="button" class="tm-abs-btn tm-seek-btn" onclick="window.tmAudioSeekBy(this, 30)" title="Tua tới 30 giây">30s ⏩</button>' +
+            '      <button type="button" class="tm-abs-btn" onclick="window.tmAbsNext(\'' + uid + '\')" title="Bài tiếp theo"><span class="tm-btn-txt">Tiếp</span> ⏭</button>' +
+            '      <select class="tm-abs-speed" onchange="window.tmAbsSpeed(\'' + uid + '\', this.value)" title="Tốc độ phát">' +
+            '        <option value="0.85">0.85x</option>' +
+            '        <option value="1" selected>1.0x</option>' +
+            '        <option value="1.15">1.15x</option>' +
+            '        <option value="1.25">1.25x</option>' +
+            '        <option value="1.5">1.5x</option>' +
+            '      </select>' +
+            '      <audio class="tm-abs-audio" preload="metadata" src="' + escapeHtml(firstTrack.src) + '" style="display:none;"></audio>' +
+            '    </div>' +
+            '  </div>';
+
+        if (groups.length > 1) {
+            html += '<div class="tm-abs-tabs">';
+            for (var gi = 0; gi < groups.length; gi++) {
+                var act = (gi === 0) ? " active" : "";
+                html += '<button type="button" class="tm-abs-tab' + act + '" data-gidx="' + gi + '" onclick="window.tmAbsSwitchGroup(\'' + uid + '\', ' + gi + ')">' +
+                        '📁 ' + escapeHtml(groups[gi].title) + ' <span class="tm-abs-tab-count">(' + (groups[gi].tracks || []).length + ')</span>' +
+                        '</button>';
+            }
+            html += '</div>';
+        }
+
+        html += '<div class="tm-abs-toolbar">' +
+                '  <input type="search" class="tm-abs-search" placeholder="🔍 Tìm nhanh tên bài giảng / câu chuyện..." oninput="window.tmAbsFilter(\'' + uid + '\', this.value)" />' +
+                '</div>' +
+                '<div class="tm-abs-scroll-hint">↔ Vuốt ngang để xem đầy đủ danh sách</div>' +
+                '<div class="tm-abs-tracklist">';
+
+        for (var ti = 0; ti < firstGroup.tracks.length; ti++) {
+            var t = firstGroup.tracks[ti];
+            var tAct = (ti === 0) ? " active" : "";
+            html += '<div class="tm-abs-track' + tAct + '" data-tidx="' + ti + '" data-title="' + escapeHtml((t.title || "").toLowerCase()) + '" onclick="window.tmAbsPlayTrack(\'' + uid + '\', 0, ' + ti + ')">' +
+                    '  <span class="tm-abs-t-num">' + (ti + 1) + '</span>' +
+                    '  <span class="tm-abs-t-name">' + escapeHtml(t.title) + '</span>' +
+                    '  <span class="tm-abs-t-dur">' + formatDur(t.duration) + '</span>' +
+                    '  <span class="tm-abs-t-play">▶ Phát</span>' +
+                    '  <a class="tm-abs-t-down" href="' + escapeHtml(t.src) + '" download target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();" title="Tải file MP3">💾 Tải</a>' +
+                    '</div>';
+        }
+
+        html += '</div></div>';
+        body.innerHTML = html;
+
+        var box = document.getElementById(uid);
+        var audio = box ? box.querySelector(".tm-abs-audio") : null;
+        if (audio) {
+            pauseOtherAudios(audio);
+            audio.addEventListener("ended", function () {
+                window.tmAbsNext(uid);
+            });
+            window.tmBindAudioScrubber(box, audio, firstDurSec);
+        }
+
+        modal.style.display = "flex";
+        document.body.style.overflow = "hidden";
+    };
+
+    function resolveLinkTitle(link) {
+        var row = link.closest ? link.closest("tr") : null;
+        if (row) {
+            var cells = row.querySelectorAll("td");
+            var parts = [];
+            for (var i = 0; i < cells.length; i++) {
+                var cell = cells[i];
+                // Bỏ qua các ô chỉ chứa nút bấm (Nghe MP3, Đọc bài, Album)
+                if (cell.querySelector("a")) {
+                    var onlyLinkText = cell.textContent.trim();
+                    if (/^(▶|🎧|📖|📻|💾|Nghe|Đọc|Album|Tải)/i.test(onlyLinkText)) {
+                        continue;
+                    }
+                }
+                var txt = cell.textContent.replace(/\s+/g, " ").trim();
+                if (txt) parts.push(txt);
+                if (parts.length >= 2) break;
+            }
+            if (parts.length > 0) {
+                return parts.join(" — ");
+            }
+        }
+
+        var bq = link.closest ? link.closest("blockquote") : null;
+        if (bq) {
+            var prev = bq.previousElementSibling;
+            while (prev) {
+                if (/^H[1-4]$/.test(prev.tagName)) {
+                    return prev.textContent.trim();
+                }
+                prev = prev.previousElementSibling;
+            }
+            var h1 = document.querySelector("article h1, h1");
+            if (h1) return h1.textContent.trim();
+        }
+
+        var rawText = (link.textContent || "").replace(/[▶🎧📻💾]/g, "").trim();
+        if (rawText && !/^(Nghe MP3|Bấm để nghe trực tiếp file MP3|Nghe)$/i.test(rawText)) {
+            return rawText;
+        }
+        var pageH1 = document.querySelector("article h1, h1");
+        return pageH1 ? pageH1.textContent.trim() : document.title;
+    }
+
+    function initAudioLinkInterceptor() {
+        var sharesMap = {};
+        var jsonEl = document.getElementById("tm-abs-shares-json");
+        if (jsonEl) {
+            try {
+                sharesMap = JSON.parse(jsonEl.textContent || "{}") || {};
+            } catch (err) {
+                sharesMap = {};
+            }
+        }
+
+        document.addEventListener("click", function (e) {
+            var link = e.target && e.target.closest ? e.target.closest("a") : null;
+            if (!link) return;
+            if (
+                link.hasAttribute("download") ||
+                link.classList.contains("tm-abs-t-down") ||
+                link.classList.contains("tm-track-btn-download") ||
+                link.classList.contains("tm-fab-down") ||
+                link.classList.contains("tm-abs-extlink")
+            ) {
+                return;
+            }
+
+            var href = link.getAttribute("href") || "";
+            if (!href) return;
+
+            // 1. Link Album Audiobookshelf Share -> Mở Modal Player có danh sách đầy đủ
+            var shareMatch = href.match(/audiobookshelf\/share\/([A-Za-z0-9_-]+)/);
+            if (shareMatch && sharesMap[shareMatch[1]]) {
+                e.preventDefault();
+                window.tmOpenAbsAlbumModal(shareMatch[1], sharesMap[shareMatch[1]]);
+                return;
+            }
+
+            // 2. Link nghe MP3 trực tiếp -> Mở Floating Audio Bar ngay trên trang
+            var isAbsFile = /audiobookshelf\/api\/items\/[^/]+\/file\//.test(href);
+            var isMp3Url = /\.mp3(\?.*)?$/i.test(href);
+            if (isAbsFile || isMp3Url) {
+                var txt = (link.textContent || "").trim();
+                if (/tải\s*(file\s*)?mp3|download/i.test(txt)) {
+                    return;
+                }
+                e.preventDefault();
+                var title = resolveLinkTitle(link);
+                window.tmPlayInlineAudio(link, href, title);
             }
         });
     }
