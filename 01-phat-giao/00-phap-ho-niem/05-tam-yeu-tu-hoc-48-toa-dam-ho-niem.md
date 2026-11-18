@@ -47,8 +47,8 @@ Bộ sách và pháp âm **48 Tọa Đàm Hộ Niệm Là Một Pháp Tu** (Cư 
 
 ## Nghe & Xem Nguồn Tham Chiếu Ngay Tại Đây
 
-* **Nguồn tham chiếu:** [Playlist 48 Tọa Đàm Hộ Niệm Chú Ý — Đạo Tràng Tùy Duyên Hà Nội](https://www.youtube.com/@daotrangtuyduyenhanoi/playlists) • [Tọa Đàm 01 (Thầy Diệu Âm Tịnh Hải)](https://www.youtube.com/watch?v=CyCEKRFFC34) • [Tọa Đàm 176 (Cộng Tu Đạo Tràng Tùy Duyên Hà Nội)](https://www.youtube.com/watch?v=YjjCSqSME1Q)
+* **Nguồn tham chiếu:** [Playlist 48 Tọa Đàm Hộ Niệm Chú Ý — Thầy Diệu Âm Tịnh Hải](https://youtube.com/playlist?list=PLsE68qHjMSbtf-E_4AJQ-NQhTklKuBT0M&si=aoCrl-Gwv31-kkJq) • [Tọa Đàm 01 (Thầy Diệu Âm Tịnh Hải)](https://www.youtube.com/watch?v=CyCEKRFFC34) • [Tọa Đàm 176 (Cộng Tu Đạo Tràng Tùy Duyên Hà Nội)](https://www.youtube.com/watch?v=YjjCSqSME1Q)
 
-[:embed url="https://www.youtube.com/watch?v=CyCEKRFFC34" title="48 Tọa Đàm Hộ Niệm Chú Ý — Tọa Đàm 01 (Thầy Diệu Âm Tịnh Hải)" height="400px" :]
+[:embed url="https://youtube.com/playlist?list=PLsE68qHjMSbtf-E_4AJQ-NQhTklKuBT0M&si=aoCrl-Gwv31-kkJq" title="Trọn Bộ 48 Tọa Đàm Hộ Niệm Chú Ý — Thầy Diệu Âm Tịnh Hải" height="420px" :]
 
 [:embed url="https://www.youtube.com/watch?v=YjjCSqSME1Q" title="Cộng Tu Niệm Phật Tọa Đàm 176: Để Hiểu Thấu Hành Đúng Pháp Hộ Niệm — Đạo Tràng Tùy Duyên Hà Nội" height="400px" :]
