@@ -580,11 +580,36 @@ class mediaplayer extends Plugin
 
     protected function normalizeEmbedUrl(string $url): array
     {
-        # YouTube watch URL -> embed URL
+        $playlistId = '';
+        $queryStr = parse_url($url, PHP_URL_QUERY);
+        if (is_string($queryStr) && $queryStr !== '') {
+            parse_str($queryStr, $qParams);
+            if (!empty($qParams['list']) && preg_match('/^[a-zA-Z0-9_-]+$/', $qParams['list'])) {
+                $playlistId = $qParams['list'];
+            }
+        }
+
+        # YouTube watch / short / embed URL (with optional list= playlist)
         if (preg_match('%(?:youtube(?:-nocookie)?\.com/(?:[^/]+/.+/|(?:v|e(?:mbed)?)/|.*[?&]v=)|youtu\.be/)([^"&?/ ]{11})%i', $url, $match)) {
+            $embedUrl = 'https://www.youtube.com/embed/' . $match[1];
+            if ($playlistId !== '') {
+                $embedUrl .= '?list=' . rawurlencode($playlistId) . '&enablejsapi=1';
+            }
             return [
-                'type' => 'iframe',
-                'url'  => 'https://www.youtube.com/embed/' . $match[1],
+                'type'        => 'iframe',
+                'url'         => $embedUrl,
+                'hasPlaylist' => ($playlistId !== ''),
+                'playlistUrl' => $playlistId !== '' ? 'https://www.youtube.com/playlist?list=' . rawurlencode($playlistId) : '',
+            ];
+        }
+
+        # YouTube standalone playlist URL: youtube.com/playlist?list=...
+        if ($playlistId !== '' && stripos($url, 'youtube.com') !== false) {
+            return [
+                'type'        => 'iframe',
+                'url'         => 'https://www.youtube.com/embed/videoseries?list=' . rawurlencode($playlistId) . '&enablejsapi=1',
+                'hasPlaylist' => true,
+                'playlistUrl' => 'https://www.youtube.com/playlist?list=' . rawurlencode($playlistId),
             ];
         }
 
@@ -630,8 +655,19 @@ class mediaplayer extends Plugin
                  . '</div>';
         }
 
+        $playlistBar = '';
+        if (!empty($normalized['hasPlaylist'])) {
+            $safePlaylistUrl = htmlspecialchars($normalized['playlistUrl'], ENT_QUOTES, 'UTF-8');
+            $playlistBar = '<div class="tm-abs-controls-bar" style="margin-top:6px; justify-content:center; gap:6px;">'
+                         . '  <button type="button" class="tm-abs-btn" onclick="var f=this.closest(\'.tm-embed-container\').querySelector(\'iframe\'); if(f&&f.contentWindow){f.contentWindow.postMessage(JSON.stringify({event:\'command\',func:\'previousVideo\',args:[]}),\'*\');}" title="Chuyển video trước trong danh sách phát">⏮ Video trước</button>'
+                         . '  <button type="button" class="tm-abs-btn" onclick="var f=this.closest(\'.tm-embed-container\').querySelector(\'iframe\'); if(f&&f.contentWindow){f.contentWindow.postMessage(JSON.stringify({event:\'command\',func:\'nextVideo\',args:[]}),\'*\');}" title="Chuyển video tiếp theo trong danh sách phát">Video tiếp ⏭</button>'
+                         . '  <a href="' . $safePlaylistUrl . '" target="_blank" rel="noopener" class="tm-abs-btn" style="text-decoration:none;" title="Mở toàn bộ danh sách phát trên YouTube">📋 Mở danh sách phát</a>'
+                         . '</div>';
+        }
+
         return '<div class="tm-embed-container">'
-             . '<iframe src="' . $safeUrl . '" title="' . $title . '" style="width:100%; height:' . $height . '; border:none; border-radius:10px;" allow="autoplay; fullscreen" loading="lazy"></iframe>'
+             . '<iframe src="' . $safeUrl . '" title="' . $title . '" style="width:100%; height:' . $height . '; border:none; border-radius:10px;" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>'
+             . $playlistBar
              . '</div>';
     }
 
