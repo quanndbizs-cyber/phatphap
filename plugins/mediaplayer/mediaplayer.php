@@ -260,7 +260,18 @@ class mediaplayer extends Plugin
                 'id'  => 'text',
                 'vol' => 'text',
             ];
+            $shortcodeArray['data']['gallery'] = [
+                'id' => 'text',
+            ];
             $shortcode->setData($shortcodeArray);
+            return;
+        }
+
+        # 1f. [:gallery :]
+        if ($name === 'gallery') {
+            $shortcode->stopPropagation();
+            $this->playerRendered = true;
+            $shortcode->setData($this->renderGallery());
             return;
         }
 
@@ -1535,5 +1546,112 @@ class mediaplayer extends Plugin
                . '</div>';
 
         return $html;
+    }
+
+    protected function formatBytes(int $bytes): string
+    {
+        if ($bytes <= 0) {
+            return '';
+        }
+        if ($bytes >= 1048576) {
+            return number_format($bytes / 1048576, 1) . ' MB';
+        }
+        return round($bytes / 1024) . ' KB';
+    }
+
+    protected function renderGallery(): string
+    {
+        $items = $this->currentMeta['mediaplayer']['gallery']['items'] ?? ($this->currentMeta['gallery']['items'] ?? []);
+        if (empty($items) || !is_array($items)) {
+            return '<div class="tm-media-alert">Chưa có hình ảnh nào trong mục này.</div>';
+        }
+
+        $uid = 'gal_' . substr(md5((string)mt_rand()), 0, 8);
+        $sourceUrl = trim((string)($this->currentMeta['mediaplayer']['gallery']['source_url'] ?? ($this->currentMeta['gallery']['source_url'] ?? '')));
+        $total = count($items);
+
+        $jsonItems = [];
+        $cardsHtml = '';
+
+        foreach ($items as $idx => $item) {
+            $thumb    = (string)($item['thumb'] ?? '');
+            $preview  = (string)($item['preview'] ?? ($item['medium'] ?? $thumb));
+            $medium   = (string)($item['medium'] ?? $preview);
+            $max      = (string)($item['max'] ?? $medium);
+            $caption  = (string)($item['caption'] ?? '');
+            $maxBytes = (int)($item['max_bytes'] ?? 0);
+            $medBytes = (int)($item['med_bytes'] ?? 0);
+            $isLarge  = !empty($item['is_large']) || ($maxBytes > 4194304);
+
+            $maxLabel = $this->formatBytes($maxBytes);
+            $medLabel = $this->formatBytes($medBytes);
+
+            $jsonItems[] = [
+                'thumb'     => $thumb,
+                'preview'   => $preview,
+                'medium'    => $medium,
+                'max'       => $max,
+                'caption'   => $caption,
+                'max_label' => $maxLabel,
+                'med_label' => $medLabel,
+                'is_large'  => $isLarge,
+            ];
+
+            $safeThumb   = htmlspecialchars($thumb, ENT_QUOTES, 'UTF-8');
+            $safeCaption = htmlspecialchars($caption, ENT_QUOTES, 'UTF-8');
+            $badgeHtml   = $isLarge
+                ? '<span class="tm-gal-badge-large" title="Ảnh gốc dung lượng lớn (>4MB) - Có tùy chọn tải bản Vừa hoặc Full Max">' . ($maxLabel ?: '>4 MB') . '</span>'
+                : ($maxLabel ? '<span class="tm-gal-badge-size">' . $maxLabel . '</span>' : '');
+
+            $cardsHtml .= '<div class="tm-gallery-card" onclick="window.tmGalleryOpen(\'' . $uid . '\', ' . $idx . ')" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();window.tmGalleryOpen(\'' . $uid . '\', ' . $idx . ');}">'
+                        . '  <div class="tm-gallery-thumb-wrap">'
+                        . '    <img src="' . $safeThumb . '" alt="' . ($safeCaption ?: 'Hình ảnh Phật giáo ' . ($idx + 1)) . '" loading="lazy" class="tm-gallery-thumb" />'
+                        .      $badgeHtml
+                        . '    <span class="tm-gal-zoom-hint">🔍 Xem</span>'
+                        . '  </div>'
+                        . ($safeCaption ? '<div class="tm-gallery-caption">' . $safeCaption . '</div>' : '')
+                        . '</div>';
+        }
+
+        $jsonPayload = json_encode($jsonItems, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+
+        $headerHtml = '<div class="tm-gallery-toolbar">'
+                    . '  <span class="tm-gallery-count">🖼️ Tổng cộng <strong>' . $total . '</strong> hình ảnh (nhấn vào ảnh để phóng to &amp; chọn kích thước tải)</span>'
+                    . ($sourceUrl ? '<a href="' . htmlspecialchars($sourceUrl, ENT_QUOTES, 'UTF-8') . '" target="_blank" rel="noopener" class="tm-gallery-src-link">🔗 Nguồn gốc (cusidieuam.com)</a>' : '')
+                    . '</div>';
+
+        return '<div class="tm-gallery-wrap" id="' . $uid . '">'
+             .   $headerHtml
+             . '  <div class="tm-gallery-grid">' . $cardsHtml . '</div>'
+             . '  <script type="application/json" id="tm-gallery-data-' . $uid . '">' . $jsonPayload . '</script>'
+             . '</div>';
+    }
+
+    protected function renderGalleryHub(): string
+    {
+        $albums = $this->currentMeta['mediaplayer']['galleryhub']['items'] ?? ($this->currentMeta['galleryhub']['items'] ?? []);
+        if (empty($albums) || !is_array($albums)) {
+            return '';
+        }
+
+        $cardsHtml = '';
+        foreach ($albums as $alb) {
+            $title = htmlspecialchars((string)($alb['title'] ?? ''), ENT_QUOTES, 'UTF-8');
+            $url   = htmlspecialchars($this->qualifyUrl((string)($alb['url'] ?? '#')), ENT_QUOTES, 'UTF-8');
+            $cover = htmlspecialchars((string)($alb['cover'] ?? ''), ENT_QUOTES, 'UTF-8');
+            $count = (int)($alb['count'] ?? 0);
+            $note  = htmlspecialchars((string)($alb['note'] ?? ''), ENT_QUOTES, 'UTF-8');
+
+            $cardsHtml .= '<a href="' . $url . '" class="tm-gallery-card" style="text-decoration:none;">'
+                        . '  <div class="tm-gallery-thumb-wrap">'
+                        . ($cover ? '<img src="' . $cover . '" alt="' . $title . '" loading="lazy" class="tm-gallery-thumb" />' : '')
+                        . ($count ? '<span class="tm-gal-badge-large">' . $count . ' ảnh</span>' : '')
+                        . '    <span class="tm-gal-zoom-hint">📂 Mở mục</span>'
+                        . '  </div>'
+                        . '  <div class="tm-gallery-caption"><strong>' . $title . '</strong>' . ($note ? '<div style="font-weight:400;opacity:0.85;margin-top:3px;font-size:0.78rem;">' . $note . '</div>' : '') . '</div>'
+                        . '</a>';
+        }
+
+        return '<div class="tm-gallery-grid" style="grid-template-columns:repeat(auto-fill,minmax(230px,1fr));">' . $cardsHtml . '</div>';
     }
 }

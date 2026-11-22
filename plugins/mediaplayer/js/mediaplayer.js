@@ -2516,4 +2516,138 @@
             }
         });
     }
+
+    /* =====================================================================
+       IMAGE GALLERY LIGHTBOX & DOWNLOAD SIZE CHOOSER (Medium vs Full Max)
+       ===================================================================== */
+    var galState = { uid: null, items: [], idx: 0 };
+
+    function ensureGalleryLightbox() {
+        var lb = document.getElementById("tm-gallery-lightbox");
+        if (lb) return lb;
+        lb = document.createElement("div");
+        lb.id = "tm-gallery-lightbox";
+        lb.className = "tm-gallery-lightbox";
+        lb.style.display = "none";
+        lb.innerHTML =
+            '<div class="tm-gal-lb-backdrop" onclick="window.tmGalleryClose()"></div>' +
+            '<div class="tm-gal-lb-dialog" role="dialog" aria-modal="true">' +
+            '  <div class="tm-gal-lb-topbar">' +
+            '    <span class="tm-gal-lb-counter" id="tm-gal-lb-counter">1 / 1</span>' +
+            '    <span class="tm-gal-lb-caption" id="tm-gal-lb-caption"></span>' +
+            '    <button type="button" class="tm-gal-lb-close" onclick="window.tmGalleryClose()" aria-label="Đóng">✕</button>' +
+            '  </div>' +
+            '  <div class="tm-gal-lb-stage">' +
+            '    <button type="button" class="tm-gal-lb-nav tm-gal-lb-prev" onclick="window.tmGalleryStep(-1)" aria-label="Ảnh trước">‹</button>' +
+            '    <img id="tm-gal-lb-img" class="tm-gal-lb-img" src="" alt="" />' +
+            '    <button type="button" class="tm-gal-lb-nav tm-gal-lb-next" onclick="window.tmGalleryStep(1)" aria-label="Ảnh tiếp theo">›</button>' +
+            '  </div>' +
+            '  <div class="tm-gal-lb-footer" id="tm-gal-lb-footer"></div>' +
+            '</div>';
+        document.body.appendChild(lb);
+
+        document.addEventListener("keydown", function (e) {
+            var el = document.getElementById("tm-gallery-lightbox");
+            if (!el || el.style.display === "none") return;
+            if (e.key === "Escape") {
+                window.tmGalleryClose();
+            } else if (e.key === "ArrowLeft") {
+                window.tmGalleryStep(-1);
+            } else if (e.key === "ArrowRight") {
+                window.tmGalleryStep(1);
+            }
+        });
+        return lb;
+    }
+
+    function renderGalleryLightboxItem() {
+        var item = galState.items[galState.idx];
+        if (!item) return;
+        var imgEl = document.getElementById("tm-gal-lb-img");
+        var cntEl = document.getElementById("tm-gal-lb-counter");
+        var capEl = document.getElementById("tm-gal-lb-caption");
+        var ftrEl = document.getElementById("tm-gal-lb-footer");
+
+        if (imgEl) {
+            imgEl.src = item.preview || item.medium || item.thumb;
+            imgEl.alt = item.caption || ("Hình ảnh " + (galState.idx + 1));
+        }
+        if (cntEl) cntEl.textContent = (galState.idx + 1) + " / " + galState.items.length;
+        if (capEl) capEl.textContent = item.caption || "";
+
+        if (ftrEl) {
+            var html = '<div class="tm-gal-dl-group">';
+            if (item.is_large || (item.medium && item.medium !== item.max)) {
+                var medTxt = "⬇ Tải bản Vừa (Medium" + (item.med_label ? " • " + item.med_label : "") + ")";
+                var maxTxt = "⬇ Tải bản Gốc (Full Max" + (item.max_label ? " • " + item.max_label : "") + ")";
+                html += '<button type="button" class="tm-gal-dl-btn tm-gal-dl-med" onclick="window.tmGalleryDownload(\'' + encodeURI(item.medium) + '\')">' + medTxt + '</button>';
+                html += '<button type="button" class="tm-gal-dl-btn tm-gal-dl-max" onclick="window.tmGalleryDownload(\'' + encodeURI(item.max) + '\')">' + maxTxt + '</button>';
+            } else {
+                var fullTxt = "⬇ Tải ảnh Gốc (Full" + (item.max_label ? " • " + item.max_label : "") + ")";
+                html += '<button type="button" class="tm-gal-dl-btn tm-gal-dl-max" onclick="window.tmGalleryDownload(\'' + encodeURI(item.max) + '\')">' + fullTxt + '</button>';
+                if (item.thumb && item.thumb !== item.max) {
+                    html += '<button type="button" class="tm-gal-dl-btn tm-gal-dl-med" onclick="window.tmGalleryDownload(\'' + encodeURI(item.thumb) + '\')">⬇ Tải bản Nhỏ (Thumb)</button>';
+                }
+            }
+            html += '</div>';
+            ftrEl.innerHTML = html;
+        }
+    }
+
+    window.tmGalleryOpen = function (uid, idx) {
+        var dataEl = document.getElementById("tm-gallery-data-" + uid);
+        if (!dataEl) return;
+        try {
+            galState.items = JSON.parse(dataEl.textContent || "[]");
+        } catch (e) {
+            galState.items = [];
+        }
+        if (!galState.items.length) return;
+        galState.uid = uid;
+        galState.idx = Math.max(0, Math.min(idx || 0, galState.items.length - 1));
+        var lb = ensureGalleryLightbox();
+        lb.style.display = "flex";
+        document.body.style.overflow = "hidden";
+        renderGalleryLightboxItem();
+    };
+
+    window.tmGalleryClose = function () {
+        var lb = document.getElementById("tm-gallery-lightbox");
+        if (lb) lb.style.display = "none";
+        document.body.style.overflow = "";
+    };
+
+    window.tmGalleryStep = function (delta) {
+        if (!galState.items.length) return;
+        galState.idx = (galState.idx + delta + galState.items.length) % galState.items.length;
+        renderGalleryLightboxItem();
+    };
+
+    window.tmGalleryDownload = function (encodedUrl) {
+        var url = decodeURI(encodedUrl);
+        var fname = url.split("/").pop().split("?")[0] || "image.jpg";
+        if (window.fetch) {
+            fetch(url, { mode: "cors" })
+                .then(function (r) {
+                    if (!r.ok) throw new Error("fetch failed");
+                    return r.blob();
+                })
+                .then(function (blob) {
+                    var a = document.createElement("a");
+                    a.href = URL.createObjectURL(blob);
+                    a.download = fname;
+                    document.body.appendChild(a);
+                    a.click();
+                    setTimeout(function () {
+                        URL.revokeObjectURL(a.href);
+                        a.remove();
+                    }, 1000);
+                })
+                .catch(function () {
+                    window.open(url, "_blank", "noopener");
+                });
+        } else {
+            window.open(url, "_blank", "noopener");
+        }
+    };
 })();
