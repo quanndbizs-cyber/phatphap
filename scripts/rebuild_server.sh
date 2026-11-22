@@ -47,6 +47,36 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/config.sh"
 cd "$BASE_DIR"
 
+# Đảm bảo quyền thực thi cho toàn bộ scripts trong scripts/
+chmod +x "$BASE_DIR/scripts/"*.sh 2>/dev/null || true
+
+# Hàm retry cho git network operations (fetch, pull, clone) phòng chống lỗi DNS/mạng chập chờn
+git_network_retry() {
+    local max_attempts=4
+    local delay=2
+    local attempt=1
+    local exit_code=0
+
+    while [ "$attempt" -le "$max_attempts" ]; do
+        set +e
+        "$@"
+        exit_code=$?
+        set -e
+
+        if [ "$exit_code" -eq 0 ]; then
+            return 0
+        fi
+
+        echo -e "${YELLOW}[WARN] Lệnh Git mạng thất bại (mã thoát: $exit_code). Thử lại lần $attempt/$max_attempts sau ${delay}s...${NC}" >&2
+        sleep "$delay"
+        attempt=$((attempt + 1))
+        delay=$((delay * 2))
+    done
+
+    echo -e "${RED}[ERROR] Lệnh Git mạng thất bại sau $max_attempts lần thử: $*${NC}" >&2
+    return "$exit_code"
+}
+
 echo -e "${BLUE}==========================================================${NC}"
 echo -e "${CYAN}⚡ [REBUILD] BẮT ĐẦU REBUILD & APPLY THAY ĐỔI SERVER...${NC}"
 echo -e "Thư mục cài đặt: ${YELLOW}$BASE_DIR${NC}"
@@ -59,12 +89,12 @@ if [ "$DO_PULL" = true ]; then
         MAIN_BRANCH="$(git -C "$BASE_DIR" branch --show-current 2>/dev/null || echo "v2.x")"
         [[ -z "$MAIN_BRANCH" ]] && MAIN_BRANCH="v2.x"
         echo "   + Pull nhánh chính ($MAIN_BRANCH) với --rebase --autostash..."
-        git -C "$BASE_DIR" pull --rebase --autostash origin "$MAIN_BRANCH" || echo -e "${YELLOW}[WARN] Git pull repo chính không thành công hoặc không có remote.${NC}"
+        git_network_retry git -C "$BASE_DIR" pull --rebase --autostash origin "$MAIN_BRANCH" || echo -e "${YELLOW}[WARN] Git pull repo chính không thành công hoặc không có remote.${NC}"
     fi
 
     if [[ -d "$BASE_DIR/content/.git" || -f "$BASE_DIR/content/.git" ]]; then
         echo "   + Pull nhánh content với --rebase --autostash..."
-        git -C "$BASE_DIR/content" pull --rebase --autostash origin content || echo -e "${YELLOW}[WARN] Git pull content không thành công.${NC}"
+        git_network_retry git -C "$BASE_DIR/content" pull --rebase --autostash origin content || echo -e "${YELLOW}[WARN] Git pull content không thành công.${NC}"
     fi
 else
     echo -e "${CYAN}-> 1. Bỏ qua git pull (chế độ rebuild tức thời).${NC}"
@@ -116,7 +146,8 @@ fi
 
 chmod -R 775 "$BASE_DIR/cache" "$BASE_DIR/content" "$BASE_DIR/data" \
              "$BASE_DIR/media" "$BASE_DIR/settings"
-echo -e "   ${GREEN}[OK] Quyền thư mục đã sẵn sàng (775).${NC}"
+chmod +x "$BASE_DIR/scripts/"*.sh 2>/dev/null || true
+echo -e "   ${GREEN}[OK] Quyền thư mục đã sẵn sàng (775) và scripts được cấp quyền thực thi (+x).${NC}"
 
 # 5. Reload PHP-FPM và Nginx nếu có dịch vụ
 echo -e "${CYAN}-> 5. Kiểm tra và reload PHP-FPM / Nginx...${NC}"

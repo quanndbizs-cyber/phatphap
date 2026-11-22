@@ -85,8 +85,8 @@ foreach ($rii as $fileInfo) {
     $filePath = $fileInfo->getPathname();
     $relPath  = substr($filePath, strlen($contentDir) + 1);
     
-    // Ignore drafts or hidden folders
-    if (str_contains($relPath, 'drafts') || str_starts_with($fileInfo->getFilename(), '.')) {
+    // Ignore drafts, backup folders (_old), or hidden folders
+    if (str_contains($relPath, 'drafts') || str_contains($relPath, '_old') || str_starts_with($fileInfo->getFilename(), '.')) {
         continue;
     }
 

@@ -30,6 +30,13 @@ fi
 BASE_DIR="$WEB_ROOT"
 export WEB_ROOT BASE_DIR
 
+# Cảnh báo an toàn nếu phát hiện đang chạy trong thư mục backup
+CURRENT_DIR_NAME="$(basename "$BASE_DIR")"
+if [[ "$CURRENT_DIR_NAME" =~ _old$ || "$CURRENT_DIR_NAME" =~ _backup$ || "$CURRENT_DIR_NAME" =~ _bak$ ]]; then
+    echo -e "\033[1;33m[CẢNH BÁO] Bạn đang thực thi script trong thư mục backup (${BASE_DIR}).\033[0m"
+    echo -e "\033[1;33m           Hãy đảm bảo bạn đang thao tác trên đúng môi trường cần thiết!\033[0m"
+fi
+
 # 4. Cấu hình Web Root trên Remote Server
 # Ưu tiên: Biến môi trường REMOTE_WEB_ROOT -> REMOTE_DIR -> File deploy.env -> Mặc định
 export REMOTE_WEB_ROOT="${REMOTE_WEB_ROOT:-${REMOTE_DIR:-/var/www/html/phatphap}}"
