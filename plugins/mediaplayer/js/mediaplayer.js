@@ -2365,6 +2365,82 @@
         return pageH1 ? pageH1.textContent.trim() : document.title;
     }
 
+    function normalizeBuhdTitle(str) {
+        if (!str) return "";
+        var s = str;
+        if (s.normalize) s = s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        s = s.replace(/[đĐ]/g, "d").toLowerCase();
+        s = s.replace(/^\s*\d+\.\s*/, "");
+        s = s.replace(/\s*[-_]\s*(bao ung hien doi|quyen \d+|tap \d+|hanh doan).*$/i, "");
+        s = s.replace(/\bbinh\b/g, "benh");
+        s = s.replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
+        return s;
+    }
+
+    function findBestBuhdTrack(groups, headingText) {
+        if (!groups || !groups.length) return null;
+        var allTracks = [];
+        for (var g = 0; g < groups.length; g++) {
+            var trs = groups[g].tracks || [];
+            for (var i = 0; i < trs.length; i++) {
+                allTracks.push(trs[i]);
+            }
+        }
+        if (!allTracks.length) return null;
+
+        var nh = normalizeBuhdTitle(headingText);
+        if (!nh) return allTracks[0];
+
+        if (/^(loi nguoi dich|loi tac gia|loi mo dau|loi noi dau|tu thuat)/.test(nh)) {
+            for (var k = 0; k < allTracks.length; k++) {
+                var nt0 = normalizeBuhdTitle(allTracks[k].title);
+                if (/(loi nguoi dich|loi tac gia|loi mo dau|loi noi dau)/.test(nt0)) {
+                    return allTracks[k];
+                }
+            }
+        }
+
+        // 1. Exact or substring match
+        for (var a = 0; a < allTracks.length; a++) {
+            var nt = normalizeBuhdTitle(allTracks[a].title);
+            if (nt === nh || (nh.length > 4 && (nt.indexOf(nh) !== -1 || nh.indexOf(nt) !== -1))) {
+                return allTracks[a];
+            }
+        }
+
+        // 2. Word-overlap Dice score
+        var hWords = nh.split(" ");
+        var bestTrack = null;
+        var bestScore = 0;
+        for (var b = 0; b < allTracks.length; b++) {
+            var nt2 = normalizeBuhdTitle(allTracks[b].title);
+            var tWords = nt2.split(" ");
+            var common = 0;
+            for (var wi = 0; wi < hWords.length; wi++) {
+                if (hWords[wi].length > 1 && tWords.indexOf(hWords[wi]) !== -1) {
+                    common++;
+                }
+            }
+            var score = (2 * common) / (hWords.length + tWords.length);
+            if (score > bestScore) {
+                bestScore = score;
+                bestTrack = allTracks[b];
+            }
+        }
+        return (bestScore >= 0.5) ? bestTrack : null;
+    }
+
+    function findNearestStoryHeading(el) {
+        var cur = (el && el.closest) ? (el.closest("blockquote") || el) : el;
+        while (cur) {
+            if (/^H[2-4]$/.test(cur.tagName)) {
+                return cur.textContent.replace(/#\s*$/, "").trim();
+            }
+            cur = cur.previousElementSibling;
+        }
+        return "";
+    }
+
     function initAudioLinkInterceptor() {
         var sharesMap = {};
         var jsonEl = document.getElementById("tm-abs-shares-json");
@@ -2373,6 +2449,16 @@
                 sharesMap = JSON.parse(jsonEl.textContent || "{}") || {};
             } catch (err) {
                 sharesMap = {};
+            }
+        }
+
+        var buhdAudioMap = {};
+        var buhdEl = document.getElementById("tm-buhd-audio-json");
+        if (buhdEl) {
+            try {
+                buhdAudioMap = JSON.parse(buhdEl.textContent || "{}") || {};
+            } catch (err) {
+                buhdAudioMap = {};
             }
         }
 
@@ -2400,7 +2486,23 @@
                 return;
             }
 
-            // 2. Link nghe MP3 trực tiếp -> Mở Floating Audio Bar ngay trên trang
+            // 2. Link "🎧 Nghe Audio Tập X" trong từng câu chuyện BUHD -> Phát ngay ở trang đọc bằng Floating Player
+            var buhdMatch = href.match(/bao-ung-hien-doi-tuyen-tap\/bao-ung-hien-doi-tap-([1-7])\b/);
+            if (buhdMatch && buhdAudioMap[buhdMatch[1]] && /nghe\s*audio/i.test(link.textContent || "")) {
+                e.preventDefault();
+                var vol = buhdMatch[1];
+                var groups = buhdAudioMap[vol];
+                var heading = findNearestStoryHeading(link);
+                var matchedTrack = findBestBuhdTrack(groups, heading);
+                if (matchedTrack && matchedTrack.src) {
+                    window.tmPlayInlineAudio(link, matchedTrack.src, matchedTrack.title || heading);
+                } else {
+                    window.tmOpenAbsAlbumModal("buhd" + vol, groups, "Báo Ứng Hiện Đời — Tập " + vol);
+                }
+                return;
+            }
+
+            // 3. Link nghe MP3 trực tiếp -> Mở Floating Audio Bar ngay trên trang
             var isAbsFile = /audiobookshelf\/api\/items\/[^/]+\/file\//.test(href);
             var isMp3Url = /\.mp3(\?.*)?$/i.test(href);
             if (isAbsFile || isMp3Url) {

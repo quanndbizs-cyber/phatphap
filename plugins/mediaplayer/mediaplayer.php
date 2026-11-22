@@ -41,8 +41,8 @@ class mediaplayer extends Plugin
     public function onTwigLoaded()
     {
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261117a');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261117a');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261122a');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261122a');
         }
     }
 
@@ -117,8 +117,37 @@ class mediaplayer extends Plugin
                     }
                 }
                 if (!empty($shareMap)) {
-                    $jsonShares = json_encode($shareMap, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+                    $jsonShares = json_encode($shareMap, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG);
                     $contentHtml .= "\n" . '<script type="application/json" id="tm-abs-shares-json">' . $jsonShares . '</script>';
+                    $html->setData($contentHtml);
+                }
+            }
+        }
+
+        # 4. Inject BUHD volume tracks if story reading page links to bao-ung-hien-doi-tap-[1-7]
+        if (is_string($contentHtml) && str_contains($contentHtml, 'bao-ung-hien-doi-tap-')) {
+            if (preg_match_all('#bao-ung-hien-doi-tuyen-tap/bao-ung-hien-doi-tap-([1-7])\b#', $contentHtml, $buhdMatches)) {
+                $volKeys = [
+                    '1' => 'buhd1',
+                    '2' => 'buhd2',
+                    '3' => 'buhd3',
+                    '4' => 'buhd4',
+                    '5' => 'buhd5_1,buhd5_2',
+                    '6' => 'buhd6',
+                    '7' => 'buhd7',
+                ];
+                $buhdMap = [];
+                foreach (array_unique($buhdMatches[1]) as $vol) {
+                    if (isset($volKeys[$vol])) {
+                        $groups = $this->resolveAbsGroups($volKeys[$vol]);
+                        if (!empty($groups)) {
+                            $buhdMap[$vol] = $groups;
+                        }
+                    }
+                }
+                if (!empty($buhdMap)) {
+                    $jsonBuhd = json_encode($buhdMap, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG);
+                    $contentHtml .= "\n" . '<script type="application/json" id="tm-buhd-audio-json">' . $jsonBuhd . '</script>';
                     $html->setData($contentHtml);
                 }
             }
