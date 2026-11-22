@@ -1,0 +1,71 @@
+meta:
+  title: Hình Ảnh Phật Giáo & Pháp Hộ Niệm
+  description: 'Thư viện hình ảnh phân nhóm theo trang Cư Sĩ Diệu Âm: Hình Phật A
+    Di Đà (ngang/dọc), Hộ Niệm Chú Ý, Nội quy gia đình, Lão Cư Sĩ Diệu Âm, Thầy Diệu
+    Âm Tịnh Hải và Ảnh Pháp.'
+  heroimage: /media/thumbs/nhanqua.jpg
+  heroimagealt: Thư Viện Hình Ảnh Tịnh Độ
+  owner: quannd
+  author: Cư Sĩ Diệu Âm • Ban Biên Tập Tịnh Độ Liên Hoa
+  created: '2026-11-22'
+  modified: '2026-11-22'
+  time: 14-30-00
+  navtitle: Hình Ảnh
+  pageid: hinhanhmain0001
+  hide: false
+  noindex: false
+mediaplayer:
+  galleryhub:
+    items:
+    - title: Hình Phật Ngang
+      url: /hinh-anh/hinh-phat-ngang
+      cover: https://cusidieuam.com/wp-content/uploads/2025/01/viber_image_2023-01-07_14-43-32-544.jpg
+      count: 13
+      note: Tôn tượng Đức Phật A Di Đà khổ ngang dùng làm hình nền, trình chiếu và
+        trang trí phòng hộ niệm.
+    - title: Hình A Di Đà Phật (Dọc)
+      url: /hinh-anh/hinh-a-di-da-phat-doc
+      cover: https://cusidieuam.com/wp-content/uploads/2024/03/viber_image_2021-08-18_11-23-16-853.jpg
+      count: 44
+      note: Tôn tượng Đức Phật A Di Đà khổ dọc (bao gồm các ảnh Phật từ mục Thầy Diệu
+        Âm Tịnh Hải chuyển sang), thích hợp in treo phòng hộ niệm và hình nền điện
+        thoại.
+    - title: Hộ Niệm Chú Ý
+      url: /hinh-anh/ho-niem-chu-y
+      cover: https://cusidieuam.com/wp-content/uploads/2024/03/3.jpg
+      count: 10
+      note: Bảng ghi chú những điều Ban Hộ Niệm cần đặc biệt lưu ý khi trợ niệm.
+    - title: 8 Điều Gia Đình Cần Chú Ý
+      url: /hinh-anh/8-dieu-gia-dinh-can-chu-y
+      cover: https://cusidieuam.com/wp-content/uploads/2024/03/z5199120559344_9fece7b66ab48c90a7c11bb059436f2f.png
+      count: 4
+      note: 8 điều quan trọng gia đình người bệnh cần ghi nhớ và thực hiện lúc lâm
+        chung.
+    - title: Nội Quy Cho Gia Đình Người Bệnh
+      url: /hinh-anh/noi-quy-cho-gia-dinh-nguoi-benh
+      cover: https://cusidieuam.com/wp-content/uploads/2024/03/z5199120562513_a9ac5d189474e124fb41e875a2aee360.png
+      count: 9
+      note: Nội quy hướng dẫn chi tiết dành cho gia đình người bệnh khi thỉnh Ban
+        Hộ Niệm.
+    - title: Lão Cư Sĩ Diệu Âm
+      url: /hinh-anh/lao-cu-si-dieu-am
+      cover: https://cusidieuam.com/wp-content/uploads/2022/05/avxxt.jpg
+      count: 10
+      note: 10 hình ảnh tiêu biểu (ưu tiên ảnh có chữ pháp ngữ) của Lão Cư Sĩ Diệu
+        Âm Minh Trị.
+    - title: Thầy Diệu Âm Tịnh Hải
+      url: /hinh-anh/thay-dieu-am-tinh-hai
+      cover: https://cusidieuam.com/wp-content/uploads/2024/03/Them-tieu-de-phu-5-scaled.jpg
+      count: 10
+      note: 10 hình ảnh tiêu biểu của Thầy Diệu Âm Tịnh Hải trong các pháp hội cộng
+        tu và giảng pháp (các ảnh Phật đã được chuyển sang mục Hình A Di Đà Phật).
+    - title: Ảnh Pháp
+      url: /hinh-anh/anh-phap
+      cover: https://cusidieuam.com/wp-content/uploads/2021/12/1626629519394.png
+      count: 37
+      note: Tuyển tập Ảnh Pháp và lời dạy Tịnh Độ nhắc nhở công phu hằng ngày.
+    - title: Ảnh Pháp (Ngang)
+      url: /hinh-anh/anh-phap-ngang
+      cover: https://cusidieuam.com/wp-content/uploads/2021/11/NGUOI-NIEM-PHAT-NEN-NHO.-Hien-hau-Niem-Phat-moi-de-vang-sinh.-Giu-hanh-khiem-cung-tu-ai.-Buong-xa-Niem-Phat-moi-de-vang-sinh.-Dung-chap-chuoc-phan-duyen-__-Chuyen-nhat-Niem-Phat-moi-de-vang-sinh.-kopie.jpg
+      count: 2
+      note: Ảnh Pháp khổ ngang dùng cho máy tính và trình chiếu.
