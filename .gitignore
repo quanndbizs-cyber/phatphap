@@ -14,3 +14,9 @@ agents/
 .opencode/
 .claude/
 .cursor/
+
+# Thư mục sao lưu / backup của người dùng
+*_old/
+*_old
+*_backup/
+*_bak/
