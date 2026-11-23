@@ -2580,18 +2580,23 @@
             if (item.is_large || (item.medium && item.medium !== item.max)) {
                 var medTxt = "⬇ Tải bản Vừa (Medium" + (item.med_label ? " • " + item.med_label : "") + ")";
                 var maxTxt = "⬇ Tải bản Gốc (Full Max" + (item.max_label ? " • " + item.max_label : "") + ")";
-                html += '<button type="button" class="tm-gal-dl-btn tm-gal-dl-med" onclick="window.tmGalleryDownload(\'' + encodeURI(item.medium) + '\')">' + medTxt + '</button>';
-                html += '<button type="button" class="tm-gal-dl-btn tm-gal-dl-max" onclick="window.tmGalleryDownload(\'' + encodeURI(item.max) + '\')">' + maxTxt + '</button>';
+                html += '<a class="tm-gal-dl-btn tm-gal-dl-med" style="text-decoration:none;" href="' + buildDownloadHref(item.medium) + '" download> ' + medTxt + '</a>';
+                html += '<a class="tm-gal-dl-btn tm-gal-dl-max" style="text-decoration:none;" href="' + buildDownloadHref(item.max) + '" download> ' + maxTxt + '</a>';
             } else {
                 var fullTxt = "⬇ Tải ảnh Gốc (Full" + (item.max_label ? " • " + item.max_label : "") + ")";
-                html += '<button type="button" class="tm-gal-dl-btn tm-gal-dl-max" onclick="window.tmGalleryDownload(\'' + encodeURI(item.max) + '\')">' + fullTxt + '</button>';
+                html += '<a class="tm-gal-dl-btn tm-gal-dl-max" style="text-decoration:none;" href="' + buildDownloadHref(item.max) + '" download>' + fullTxt + '</a>';
                 if (item.thumb && item.thumb !== item.max) {
-                    html += '<button type="button" class="tm-gal-dl-btn tm-gal-dl-med" onclick="window.tmGalleryDownload(\'' + encodeURI(item.thumb) + '\')">⬇ Tải bản Nhỏ (Thumb)</button>';
+                    html += '<a class="tm-gal-dl-btn tm-gal-dl-med" style="text-decoration:none;" href="' + buildDownloadHref(item.thumb) + '" download>⬇ Tải bản Nhỏ (Thumb)</a>';
                 }
             }
+            html += '<button type="button" class="tm-gal-dl-btn tm-gal-dl-med" id="tm-gal-share-btn" onclick="window.tmGalleryShare()">🔗 Chia sẻ ảnh</button>';
             html += '</div>';
             ftrEl.innerHTML = html;
         }
+    }
+
+    function buildDownloadHref(url) {
+        return window.location.pathname + "?tm_gal_dl=1&url=" + encodeURIComponent(url);
     }
 
     window.tmGalleryOpen = function (uid, idx) {
@@ -2648,31 +2653,51 @@
         renderGalleryLightboxItem();
     };
 
-    window.tmGalleryDownload = function (encodedUrl) {
-        var url = decodeURI(encodedUrl);
-        var fname = url.split("/").pop().split("?")[0] || "image.jpg";
-        if (window.fetch) {
-            fetch(url, { mode: "cors" })
-                .then(function (r) {
-                    if (!r.ok) throw new Error("fetch failed");
-                    return r.blob();
-                })
-                .then(function (blob) {
-                    var a = document.createElement("a");
-                    a.href = URL.createObjectURL(blob);
-                    a.download = fname;
-                    document.body.appendChild(a);
-                    a.click();
-                    setTimeout(function () {
-                        URL.revokeObjectURL(a.href);
-                        a.remove();
-                    }, 1000);
-                })
-                .catch(function () {
-                    window.open(url, "_blank", "noopener");
-                });
+    window.tmGalleryShare = function () {
+        var item = galState.items[galState.idx];
+        if (!item) return;
+        var shareUrl = window.location.origin + window.location.pathname + "?img=" + (galState.idx + 1);
+        var title = (item.caption || document.title || "Hình ảnh Tịnh Độ");
+        var btn = document.getElementById("tm-gal-share-btn");
+
+        if (navigator.share) {
+            navigator.share({
+                title: title,
+                text: title,
+                url: shareUrl
+            }).catch(function () {});
+            return;
+        }
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(shareUrl).then(function () {
+                if (btn) {
+                    var old = btn.textContent;
+                    btn.textContent = "✅ Đã chép link ảnh!";
+                    setTimeout(function () { btn.textContent = old; }, 2000);
+                }
+            }).catch(function () {
+                window.prompt("Sao chép liên kết ảnh:", shareUrl);
+            });
         } else {
-            window.open(url, "_blank", "noopener");
+            window.prompt("Sao chép liên kết ảnh:", shareUrl);
         }
     };
+
+    (function checkGalleryDeepLink() {
+        var m = window.location.search.match(/[?&]img=(\d+)/);
+        if (!m) return;
+        var targetIdx = Math.max(0, parseInt(m[1], 10) - 1);
+        var tryOpen = function () {
+            var wrap = document.querySelector(".tm-gallery-wrap[id]");
+            if (wrap) {
+                window.tmGalleryOpen(wrap.id, targetIdx);
+            }
+        };
+        if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", tryOpen);
+        } else {
+            setTimeout(tryOpen, 80);
+        }
+    })();
 })();

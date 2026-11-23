@@ -40,10 +40,76 @@ class mediaplayer extends Plugin
 
     public function onTwigLoaded()
     {
-        if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261122b');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261122b');
+        if (isset($_GET['tm_gal_dl']) && !empty($_GET['url'])) {
+            $this->handleGalleryDownload((string)$_GET['url']);
         }
+        if (!$this->adminroute || $this->editorroute) {
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261122c');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261122c');
+        }
+    }
+
+    protected function handleGalleryDownload(string $rawUrl): void
+    {
+        $rawUrl = trim($rawUrl);
+        if (!preg_match('#^https://cusidieuam\.com/wp-content/uploads/.+\.(jpg|jpeg|png|webp)$#i', $rawUrl, $extMatch)) {
+            http_response_code(403);
+            exit('Invalid image URL');
+        }
+
+        $parts = parse_url($rawUrl);
+        if (!$parts || empty($parts['path'])) {
+            http_response_code(400);
+            exit('Bad URL');
+        }
+
+        $encodedPath = implode('/', array_map('rawurlencode', explode('/', rawurldecode($parts['path']))));
+        $fetchUrl = 'https://cusidieuam.com' . $encodedPath;
+
+        $data = false;
+        $contentType = 'application/octet-stream';
+
+        if (function_exists('curl_init')) {
+            $ch = curl_init($fetchUrl);
+            curl_setopt_array($ch, [
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_TIMEOUT        => 30,
+                CURLOPT_USERAGENT      => 'Mozilla/5.0',
+            ]);
+            $data = curl_exec($ch);
+            $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            $ct = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
+            curl_close($ch);
+            if ($httpCode >= 400 || $data === false) {
+                $data = false;
+            } elseif (!empty($ct)) {
+                $contentType = explode(';', $ct)[0];
+            }
+        }
+
+        if ($data === false) {
+            $ctx = stream_context_create(['http' => ['timeout' => 30, 'header' => "User-Agent: Mozilla/5.0\r\n"]]);
+            $data = @file_get_contents($fetchUrl, false, $ctx);
+        }
+
+        if ($data === false || $data === '') {
+            header('Location: ' . $fetchUrl, true, 302);
+            exit;
+        }
+
+        $baseName = basename(rawurldecode($parts['path']));
+        $safeName = preg_replace('/[^a-zA-Z0-9._-]/', '_', $baseName) ?: ('image.' . strtolower($extMatch[1]));
+
+        while (ob_get_level() > 0) {
+            ob_end_clean();
+        }
+        header('Content-Type: ' . $contentType);
+        header('Content-Disposition: attachment; filename="' . $safeName . '"');
+        header('Content-Length: ' . strlen($data));
+        header('Cache-Control: public, max-age=86400');
+        echo $data;
+        exit;
     }
 
     public function onMetaLoaded($metadata)
