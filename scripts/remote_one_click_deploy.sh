@@ -163,6 +163,34 @@ run_server_deployment() {
     echo "=================================================================="
 
     cd "$BASE_DIR"
+    chmod +x "$BASE_DIR/scripts/"*.sh 2>/dev/null || true
+
+    # Hàm retry cho git network operations
+    git_network_retry() {
+        local max_attempts=4
+        local delay=2
+        local attempt=1
+        local exit_code=0
+
+        while [ "$attempt" -le "$max_attempts" ]; do
+            set +e
+            "$@"
+            exit_code=$?
+            set -e
+
+            if [ "$exit_code" -eq 0 ]; then
+                return 0
+            fi
+
+            echo -e "     \033[1;33m[WARN] Thao tác Git mạng thất bại (mã thoát: $exit_code). Thử lại lần $attempt/$max_attempts sau ${delay}s...\033[0m" >&2
+            sleep "$delay"
+            attempt=$((attempt + 1))
+            delay=$((delay * 2))
+        done
+
+        echo -e "     \033[1;31m[ERROR] Thao tác Git mạng thất bại sau $max_attempts lần thử: $*\033[0m" >&2
+        return "$exit_code"
+    }
 
     # --------------------------------------------------------------------------
     # 1. GIAI ĐOẠN 1: Web root
@@ -204,13 +232,13 @@ run_server_deployment() {
     fi
 
     echo "  -> 1.5. Cập nhật Web root repository (nhánh $CURRENT_BRANCH)..."
-    git -C "$BASE_DIR" fetch origin "$CURRENT_BRANCH"
+    git_network_retry git -C "$BASE_DIR" fetch origin "$CURRENT_BRANCH"
     if [[ "$FORCE_PULL" == "true" ]]; then
         echo "     [!] Đã kích hoạt --force: Thực hiện reset hard về origin/$CURRENT_BRANCH..."
         git -C "$BASE_DIR" reset --hard "origin/$CURRENT_BRANCH"
     else
         echo "     [i] Kéo cập nhật với --rebase và --autostash..."
-        if ! git -C "$BASE_DIR" pull --rebase --autostash origin "$CURRENT_BRANCH"; then
+        if ! git_network_retry git -C "$BASE_DIR" pull --rebase --autostash origin "$CURRENT_BRANCH"; then
             echo -e "     \033[1;33m[!] Rebase phân kỳ hoặc gặp xung đột. Đang tự động reset hard về origin/$CURRENT_BRANCH để đồng bộ...\033[0m"
             git -C "$BASE_DIR" rebase --abort 2>/dev/null || true
             git -C "$BASE_DIR" reset --hard "origin/$CURRENT_BRANCH"

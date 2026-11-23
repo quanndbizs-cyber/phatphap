@@ -181,3 +181,21 @@ Mọi thao tác phát triển, bảo trì và thực thi các script trong thư 
 ### 4.5. An toàn cấu hình & bảo mật thông tin
 * Cấu hình giao diện chung của website được đồng bộ an toàn qua `content/middle_sync/settings/settings.yaml`.
 * **TUYỆT ĐỐI CẤM** đưa các file nhạy cảm (`settings/secrets.yaml`, `settings/users/`, private keys, certificates) vào `middle_sync/` hay commit lên Git.
+
+### 4.6. Phòng chống lỗi mạng chập chờn & DNS (Git Network Retry)
+* Khi thực hiện các lệnh Git kết nối ra ngoài internet (`fetch`, `pull`, `clone`), môi trường server hoặc mạng gia đình có thể gặp hiện tượng DNS timeout tạm thời (`Could not resolve host: github.com` mã thoát 128) hoặc connection reset.
+* Các script triển khai (`deploy_server.sh`, `rebuild_server.sh`, `remote_one_click_deploy.sh`) **bắt buộc bọc các lệnh Git mạng qua hàm retry `git_network_retry`** (tối thiểu 4 lần thử với độ trễ tăng dần exponential backoff 2s, 4s, 8s).
+* Không để một lỗi mạng chập chờn nhất thời kích hoạt rollback toàn bộ hệ thống ngay lập tức.
+
+### 4.7. Bảo toàn quyền thực thi của kịch bản (`100755` & Tự phục hồi `chmod +x`)
+* Toàn bộ các script thực thi trong `scripts/*.sh` phải được lưu trữ trong Git index với quyền `100755` (`git update-index --chmod=+x scripts/*.sh`). Điều này đảm bảo khi `git clone`, `git pull` hoặc `git reset --hard` diễn ra trên bất kỳ môi trường nào, Git sẽ trực tiếp tạo file với quyền thực thi.
+* Mọi script triển khai và bảo trì (`deploy_server.sh`, `rebuild_server.sh`, `remote_one_click_deploy.sh`) **bắt buộc chạy lệnh tự phục hồi quyền `chmod +x "$BASE_DIR/scripts/"*.sh`** ngay tại đầu script và trong hàm `rollback_deployment()`. Không để xảy ra tình trạng sau khi rollback hệ thống bị mất cờ `+x` khiến người dùng phải chạy `chmod +x` thủ công.
+
+### 4.8. Quy tắc bảo vệ & cô lập các thư mục backup (`*_old`, `*_backup`, `*_bak`)
+* Trên server hoặc môi trường phát triển thường tồn tại các thư mục backup do người dùng hoặc quản trị viên tạo ra (ví dụ: `phatphap_old`, `content_old`, `media_old`...).
+* Toàn bộ hệ thống phải áp dụng các biện pháp bảo vệ:
+  1. Thêm `*_old/`, `*_old`, `*_backup/`, `*_bak/` vào `.gitignore` ở cả Web root (`v2.x`) và Content (`content`).
+  2. Các công cụ tìm kiếm và đánh chỉ mục (như `build_search_index.php`) **bắt buộc loại trừ** các đường dẫn chứa `_old`, `_backup`, `_bak` để không làm ô nhiễm kết quả tìm kiếm của độc giả.
+  3. Các công cụ đóng gói và đồng bộ (`pack_middle_sync.sh`, `rsync`) **bắt buộc dùng `--exclude="*_old*"`** để không đóng gói nhầm dữ liệu backup cũ vào bản phân phối.
+  4. Script phát hiện và cảnh báo nếu người dùng đang vô tình thực thi trong một thư mục backup (kiểm tra trong `config.sh`).
+

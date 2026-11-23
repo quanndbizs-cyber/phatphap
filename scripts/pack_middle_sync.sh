@@ -38,7 +38,7 @@ fi
 # 2. Đồng bộ media (bỏ qua media/tmp)
 echo "-> 2. Đóng gói thư mục media..."
 if [ -d "$BASE_DIR/media" ]; then
-    rsync -rlv --no-perms --no-owner --no-group --no-times --exclude="tmp/*" "$BASE_DIR/media/" "$MIDDLE_SYNC_DIR/media/"
+    rsync -rlv --no-perms --no-owner --no-group --no-times --exclude="tmp/*" --exclude="*_old*" "$BASE_DIR/media/" "$MIDDLE_SYNC_DIR/media/"
 fi
 
 # 3. Loại bỏ thư mục plugins khỏi content/middle_sync/ (plugins đã được commit trực tiếp vào main repo)

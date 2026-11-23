@@ -23,6 +23,9 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/config.sh"
 cd "$BASE_DIR"
 
+# Luôn bảo đảm quyền thực thi cho toàn bộ script ngay từ đầu
+chmod +x "$BASE_DIR/scripts/"*.sh 2>/dev/null || true
+
 FORCE_PULL=false
 SKIP_TEST=false
 NO_ROLLBACK=false
@@ -75,6 +78,7 @@ rollback_deployment() {
 
     if [[ "$NO_ROLLBACK" == "true" ]]; then
         echo "   [!] Đã bật cờ --no-rollback: Giữ nguyên trạng thái hiện tại, không khôi phục."
+        chmod +x "$BASE_DIR/scripts/"*.sh 2>/dev/null || true
         exit 1
     fi
 
@@ -94,7 +98,11 @@ rollback_deployment() {
         git -C "$BASE_DIR/content" reset --hard "$OLD_CONTENT_HEAD" 2>/dev/null || true
     fi
 
-    # 4. Dọn dẹp cache và khởi động lại dịch vụ để đưa web về trạng thái ổn định
+    # 4. Phục hồi quyền thực thi (+x) cho các script sau rollback (tránh lỗi permission denied lần chạy sau)
+    echo "   -> Phục hồi quyền thực thi (+x) cho các script triển khai..."
+    chmod +x "$BASE_DIR/scripts/"*.sh 2>/dev/null || true
+
+    # 5. Dọn dẹp cache và khởi động lại dịch vụ để đưa web về trạng thái ổn định
     echo "   -> Xóa cache và khởi động lại dịch vụ sau rollback..."
     mkdir -p "$BASE_DIR/data/navigation" "$BASE_DIR/cache"
     find "$BASE_DIR/data/navigation" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} + 2>/dev/null || true
@@ -122,6 +130,33 @@ git config --global --add safe.directory "$BASE_DIR" 2>/dev/null || true
 git config --global --add safe.directory "$BASE_DIR/content" 2>/dev/null || true
 
 # ------------------------------------------------------------------------------
+# HÀM RETRY KẾT NỐI GIT QUA MẠNG (PHÒNG CHỐNG LỖI DNS 'Could not resolve host: github.com')
+# ------------------------------------------------------------------------------
+git_network_retry() {
+    local max_attempts=4
+    local delay=2
+    local attempt=1
+    local rc=0
+
+    while true; do
+        if "$@"; then
+            return 0
+        fi
+
+        rc=$?
+        if [[ $attempt -ge $max_attempts ]]; then
+            echo -e "   \033[1;31m[ERROR] Lệnh git mạng thất bại sau ${max_attempts} lần thử (mã thoát: ${rc}).\033[0m"
+            return $rc
+        fi
+
+        echo -e "   \033[1;33m[WARN] Lỗi mạng/DNS khi kết nối tới remote (lần thử ${attempt}/${max_attempts}). Đang thử lại sau ${delay}s...\033[0m"
+        sleep "$delay"
+        delay=$((delay * 2))
+        attempt=$((attempt + 1))
+    done
+}
+
+# ------------------------------------------------------------------------------
 # BƯỚC 1: CẬP NHẬT MÃ NGUỒN CHÍNH (WEB ROOT / MAIN BRANCH v2.x)
 # ------------------------------------------------------------------------------
 echo -e "\n-> 1. Cập nhật nhánh chính Web root ($MAIN_BRANCH) từ Git remote..."
@@ -130,7 +165,7 @@ if [[ -d "$BASE_DIR/.git" || -f "$BASE_DIR/.git" ]]; then
     git -C "$BASE_DIR" checkout -- plugins/mediaplayer/ cache/ media/files/filerestrictions.yaml 2>/dev/null || true
     
     echo "   + Fetching remote origin $MAIN_BRANCH..."
-    git -C "$BASE_DIR" fetch origin "$MAIN_BRANCH"
+    git_network_retry git -C "$BASE_DIR" fetch origin "$MAIN_BRANCH"
 
     if [[ "$FORCE_PULL" == "true" ]]; then
         echo "   [!] Chế độ Force: reset hard về remotes/origin/$MAIN_BRANCH..."
@@ -159,7 +194,7 @@ if [[ -d "$BASE_DIR/content/.git" || -f "$BASE_DIR/content/.git" ]]; then
     git -C "$BASE_DIR/content" checkout content 2>/dev/null || true
     
     echo "   + Fetching remote origin content..."
-    git -C "$BASE_DIR/content" fetch origin content
+    git_network_retry git -C "$BASE_DIR/content" fetch origin content
 
     if [[ "$FORCE_PULL" == "true" ]]; then
         echo "   [!] Chế độ Force: reset hard về remotes/origin/content..."

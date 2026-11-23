@@ -230,3 +230,23 @@ flowchart TD
        ./scripts/remote_one_click_deploy.sh --force
        ```
      - Hệ thống hiện tại đã tích hợp cơ chế tự động fallback: nếu lệnh `pull --ff-only` gặp lỗi phân kỳ, script sẽ tự động chuyển sang `git reset --hard origin/<branch>` để quy trình triển khai không bao giờ bị dừng lại.
+
+5. **Lỗi `Could not resolve host: github.com` (Mã thoát 128 / DNS Timeout)**  
+   - *Nguyên nhân:* Mạng server hoặc mạng nội bộ gặp độ trễ phân giải DNS tạm thời trong tích tắc khi kết nối tới GitHub.  
+   - *Giải pháp & Cơ chế tự động:*
+     - Toàn bộ thao tác Git mạng trong `deploy_server.sh`, `rebuild_server.sh`, `remote_one_click_deploy.sh` đã được tích hợp hàm `git_network_retry`.
+     - Script sẽ tự động thử lại 4 lần với cơ chế exponential backoff (2 giây, 4 giây, 8 giây) trước khi báo lỗi, loại bỏ hoàn toàn các lỗi rollback do rớt mạng thoáng qua.
+
+6. **Hiện tượng mất quyền thực thi (`chmod +x`) sau Rollback**  
+   - *Nguyên nhân:* Khi lệnh rollback kích hoạt `git reset --hard`, nếu file script trên Git index chỉ có quyền `100644`, Git sẽ ghi đè quyền trên đĩa thành không thực thi (`-rw-r--r--`).  
+   - *Giải pháp & Cơ chế bảo vệ:*
+     - Toàn bộ script `scripts/*.sh` đã được thiết lập quyền `100755` trực tiếp trên Git index (`git update-index --chmod=+x scripts/*.sh`).
+     - Cả đầu script và hàm `rollback_deployment()` đều tự động chạy `chmod +x "$BASE_DIR/scripts/"*.sh` để đảm bảo quyền thực thi luôn sẵn sàng trong mọi tình huống.
+
+7. **Quản lý an toàn các thư mục backup (`*_old`, `*_backup`, `*_bak`)**  
+   - Trên server nếu có các thư mục backup dạng `phatphap_old`, `content_old`:
+     - Cả hai nhánh Git (`v2.x` và `content`) đều đã cấu hình `.gitignore` để tự động bỏ qua toàn bộ các thư mục này.
+     - Bộ tạo Search Index `build_search_index.php` tự động bỏ qua các thư mục chứa `_old` để không ảnh hưởng dữ liệu tìm kiếm.
+     - Bộ đóng gói `pack_middle_sync.sh` sử dụng `--exclude="*_old*"` để không bao gồm dữ liệu backup vào gói sync.
+     - Bộ cấu hình `config.sh` tự động phát hiện và cảnh báo nếu người dùng đang đứng nhầm trong thư mục backup để chạy lệnh.
+
