@@ -41,8 +41,8 @@ class mediaplayer extends Plugin
     public function onTwigLoaded()
     {
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261122a');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261122a');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261122b');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261122b');
         }
     }
 
@@ -1603,7 +1603,7 @@ class mediaplayer extends Plugin
                 ? '<span class="tm-gal-badge-large" title="Ảnh gốc dung lượng lớn (>4MB) - Có tùy chọn tải bản Vừa hoặc Full Max">' . ($maxLabel ?: '>4 MB') . '</span>'
                 : ($maxLabel ? '<span class="tm-gal-badge-size">' . $maxLabel . '</span>' : '');
 
-            $cardsHtml .= '<div class="tm-gallery-card" onclick="window.tmGalleryOpen(\'' . $uid . '\', ' . $idx . ')" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();window.tmGalleryOpen(\'' . $uid . '\', ' . $idx . ');}">'
+            $cardsHtml .= '<div class="tm-gallery-card" data-gal-uid="' . $uid . '" data-gal-idx="' . $idx . '" role="button" tabindex="0">'
                         . '  <div class="tm-gallery-thumb-wrap">'
                         . '    <img src="' . $safeThumb . '" alt="' . ($safeCaption ?: 'Hình ảnh Phật giáo ' . ($idx + 1)) . '" loading="lazy" class="tm-gallery-thumb" />'
                         .      $badgeHtml
@@ -1614,13 +1614,14 @@ class mediaplayer extends Plugin
         }
 
         $jsonPayload = json_encode($jsonItems, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        $safeJsonAttr = htmlspecialchars($jsonPayload, ENT_QUOTES, 'UTF-8');
 
         $headerHtml = '<div class="tm-gallery-toolbar">'
                     . '  <span class="tm-gallery-count">🖼️ Tổng cộng <strong>' . $total . '</strong> hình ảnh (nhấn vào ảnh để phóng to &amp; chọn kích thước tải)</span>'
                     . ($sourceUrl ? '<a href="' . htmlspecialchars($sourceUrl, ENT_QUOTES, 'UTF-8') . '" target="_blank" rel="noopener" class="tm-gallery-src-link">🔗 Nguồn gốc (cusidieuam.com)</a>' : '')
                     . '</div>';
 
-        return '<div class="tm-gallery-wrap" id="' . $uid . '">'
+        return '<div class="tm-gallery-wrap" id="' . $uid . '" data-items="' . $safeJsonAttr . '">'
              .   $headerHtml
              . '  <div class="tm-gallery-grid">' . $cardsHtml . '</div>'
              . '  <script type="application/json" id="tm-gallery-data-' . $uid . '">' . $jsonPayload . '</script>'
