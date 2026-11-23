@@ -2595,10 +2595,16 @@
     }
 
     window.tmGalleryOpen = function (uid, idx) {
+        var wrapEl = document.getElementById(uid);
         var dataEl = document.getElementById("tm-gallery-data-" + uid);
-        if (!dataEl) return;
+        var rawJson = "";
+        if (wrapEl && wrapEl.getAttribute("data-items")) {
+            rawJson = wrapEl.getAttribute("data-items");
+        } else if (dataEl) {
+            rawJson = dataEl.textContent || "[]";
+        }
         try {
-            galState.items = JSON.parse(dataEl.textContent || "[]");
+            galState.items = JSON.parse(rawJson || "[]");
         } catch (e) {
             galState.items = [];
         }
@@ -2610,6 +2616,25 @@
         document.body.style.overflow = "hidden";
         renderGalleryLightboxItem();
     };
+
+    document.addEventListener("click", function (e) {
+        var card = e.target && e.target.closest ? e.target.closest(".tm-gallery-card[data-gal-uid]") : null;
+        if (!card) return;
+        e.preventDefault();
+        var uid = card.getAttribute("data-gal-uid");
+        var idx = parseInt(card.getAttribute("data-gal-idx") || "0", 10);
+        window.tmGalleryOpen(uid, idx);
+    });
+
+    document.addEventListener("keydown", function (e) {
+        if (e.key !== "Enter" && e.key !== " ") return;
+        var card = e.target && e.target.closest ? e.target.closest(".tm-gallery-card[data-gal-uid]") : null;
+        if (!card) return;
+        e.preventDefault();
+        var uid = card.getAttribute("data-gal-uid");
+        var idx = parseInt(card.getAttribute("data-gal-idx") || "0", 10);
+        window.tmGalleryOpen(uid, idx);
+    });
 
     window.tmGalleryClose = function () {
         var lb = document.getElementById("tm-gallery-lightbox");
