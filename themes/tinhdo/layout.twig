@@ -79,10 +79,10 @@
 
 		{% block stylesheets %}
     
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tachyons.min.css?20261115e" />
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/style.css?20261115e" />
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tinhdo.css?20261115e" />
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/search.css?20261115e" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tachyons.min.css?20261123a" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/style.css?20261123a" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tinhdo.css?20261123a" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/search.css?20261123a" />
 			
 			<style>
 
@@ -247,7 +247,9 @@
 			
 		{% endblock %}
 	</head>
-	<body class="optimize-text pa2">
+	{% set pageDepth = breadcrumb ? (breadcrumb|length) : 0 %}
+	{% set elemType = item.elementType|default(home ? 'home' : 'page') %}
+	<body class="optimize-text pa2 {{ home ? 'tm-is-home' : 'tm-is-subpage' }} tm-item-{{ elemType }}" data-depth="{{ pageDepth }}" data-slug="{{ item.slug|default('') }}">
 
 		<svg style="position: absolute; width: 0; height: 0; overflow: hidden" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 			<defs>
@@ -337,8 +339,8 @@
 				</script>
 			{% endif %}
 
-			<script src="{{ base_url }}/themes/tinhdo/js/script.js?20261115e"></script>
-			<script src="{{ base_url }}/themes/tinhdo/js/search.js?20261115e"></script>
+			<script src="{{ base_url }}/themes/tinhdo/js/script.js?20261123a"></script>
+			<script src="{{ base_url }}/themes/tinhdo/js/search.js?20261123a"></script>
 			{{ assets.renderJS() }}
 		
 		{% endblock %}

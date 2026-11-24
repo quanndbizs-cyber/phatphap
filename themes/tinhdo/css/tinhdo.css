@@ -2307,3 +2307,264 @@ body.tm-night-mode .tm-table-scroll-hint {
 	}
 }
 
+/* ==========================================================================
+   HIERARCHY-AWARE CONTENT FOCUS, COMPACT BREADCRUMB & COLLAPSIBLE GUIDES
+   ========================================================================== */
+
+/* 1. Desktop Grid alignment when duplicate .grid-header is omitted */
+@media screen and (min-width: 50em) {
+	.grid-container:not(:has(> .grid-header)) {
+		grid-template-rows: auto 1fr;
+		grid-template-areas:
+			"gridSidebar gridMain"
+			". gridMain";
+	}
+}
+
+/* 2. Compact 1-line Breadcrumb on subpages */
+#breadcrumb {
+	margin: 0 0 0.25rem 0;
+	border-bottom: 1px dashed rgba(201, 151, 44, 0.28);
+}
+
+.tm-breadcrumb-bar {
+	font-size: 0.8rem !important;
+	line-height: 1.35 !important;
+	padding-top: 0.2rem !important;
+	padding-bottom: 0.28rem !important;
+	color: var(--td-ink-muted);
+	gap: 0.5rem;
+}
+
+.tm-breadcrumb-trail {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	white-space: nowrap;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	max-width: 100%;
+	gap: 0.3rem;
+}
+
+.tm-breadcrumb-trail::-webkit-scrollbar {
+	display: none;
+}
+
+.tm-breadcrumb-trail a {
+	color: #7c3a19 !important;
+	text-decoration: none !important;
+	font-weight: 500;
+}
+
+.tm-breadcrumb-trail a:hover {
+	text-decoration: underline !important;
+}
+
+.tm-crumb-sep {
+	color: #b48a4e;
+	font-size: 0.85rem;
+	margin: 0 0.1rem;
+	user-select: none;
+}
+
+.tm-crumb-current {
+	color: var(--td-ink-muted);
+	font-weight: 600;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 240px;
+}
+
+@media screen and (min-width: 50em) {
+	.tm-crumb-current {
+		max-width: 420px;
+	}
+}
+
+/* 3. Tight top spacing for Article H1 & Reader Toolbar on detail pages */
+article > header > h1 {
+	margin-top: 0.35rem !important;
+	margin-bottom: 0.6rem !important;
+	padding-bottom: 0.4rem !important;
+}
+
+@media screen and (max-width: 50em) {
+	article > header > h1 {
+		font-size: calc(1.42rem * (1 + (var(--tm-font-scale, 1) - 1) * 0.35)) !important;
+		line-height: 1.3 !important;
+		margin-top: 0.25rem !important;
+		margin-bottom: 0.45rem !important;
+	}
+}
+
+.tinhdo-reader-toolbar {
+	padding: 0.32rem 0.72rem !important;
+	margin: 0.35rem 0 0.65rem 0 !important;
+}
+
+/* 4. Single-Item Reader Pages (KNNP & KPC) & Gallery Pages: hide redundant wrapper H1 / toolbar */
+article:has(#tm-knnp-reader) > header > h1,
+article:has(#tm-kpc-reader) > header > h1,
+article.tm-has-single-reader > header > h1 {
+	display: none !important;
+}
+
+article:has(.tm-gallery-wrap) > header > .tinhdo-reader-toolbar,
+article.tm-has-gallery > header > .tinhdo-reader-toolbar {
+	display: none !important;
+}
+
+/* 5. Collapsible 1-line Instruction & Metadata Bar (.tm-collapsible-guide) */
+details.tm-collapsible-guide {
+	background: linear-gradient(135deg, rgba(252, 245, 232, 0.92) 0%, rgba(255, 253, 248, 0.98) 100%);
+	border: 1px solid #dfcba5;
+	border-left: 3.5px solid #c9972c;
+	border-radius: 8px;
+	margin: 0.35rem 0 0.75rem 0;
+	overflow: hidden;
+	box-shadow: 0 1px 4px rgba(60, 30, 10, 0.04);
+}
+
+details.tm-collapsible-guide > summary.tm-guide-summary {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem;
+	padding: 0.4rem 0.8rem;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: calc(0.84rem * (1 + (var(--tm-font-scale, 1) - 1) * 0.2));
+	font-weight: 600;
+	color: #5a2216;
+	line-height: 1.35;
+	transition: background 0.15s ease;
+}
+
+details.tm-collapsible-guide > summary.tm-guide-summary::-webkit-details-marker {
+	display: none;
+}
+
+details.tm-collapsible-guide > summary.tm-guide-summary::marker {
+	content: "";
+}
+
+details.tm-collapsible-guide > summary.tm-guide-summary:hover {
+	background: rgba(201, 151, 44, 0.12);
+}
+
+.tm-guide-summary-left {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tm-guide-summary-hint {
+	font-size: 0.76rem;
+	font-weight: 600;
+	color: #8c4a1d;
+	background: rgba(201, 151, 44, 0.14);
+	border: 1px solid rgba(201, 151, 44, 0.35);
+	padding: 0.1rem 0.48rem;
+	border-radius: 999px;
+	white-space: nowrap;
+	flex-shrink: 0;
+}
+
+details.tm-collapsible-guide[open] > summary.tm-guide-summary {
+	border-bottom: 1px dashed #dfcba5;
+	background: rgba(201, 151, 44, 0.09);
+}
+
+.tm-guide-body {
+	padding: 0.65rem 0.9rem;
+}
+
+.tm-guide-body blockquote {
+	margin: 0.25rem 0 !important;
+	padding: 0.65rem 0.95rem !important;
+	box-shadow: none !important;
+}
+
+.tm-guide-body p:first-child,
+.tm-guide-body ul:first-child {
+	margin-top: 0.15rem !important;
+}
+
+.tm-guide-body p:last-child,
+.tm-guide-body ul:last-child {
+	margin-bottom: 0.15rem !important;
+}
+
+.tm-guide-body .tinhdo-reader-toolbar {
+	margin: 0 0 0.5rem 0 !important;
+}
+
+/* Ensure drop-cap never applies inside collapsible guide */
+article.td-dropcap-enabled .tm-collapsible-guide p:first-of-type::first-letter {
+	float: none !important;
+	font-size: inherit !important;
+	line-height: inherit !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	color: inherit !important;
+	font-weight: inherit !important;
+}
+
+/* 6. Sticky Header Scroll Offset for Anchor Links & Smart Content Focus */
+#main-article,
+article h1,
+article h2,
+article h3,
+article h4,
+.tm-story-card,
+.tm-kpc-reader-app,
+.tm-absplayer,
+.tm-gallery-wrap,
+[id^="truyen-"],
+#muc-luc {
+	scroll-margin-top: 62px;
+}
+
+/* Night Mode overrides for Breadcrumb & Collapsible Guide */
+body.tm-night-mode #breadcrumb {
+	border-bottom-color: rgba(212, 175, 55, 0.22);
+}
+
+body.tm-night-mode .tm-breadcrumb-trail a {
+	color: #f0c975 !important;
+}
+
+body.tm-night-mode .tm-crumb-current {
+	color: #b8aa96;
+}
+
+body.tm-night-mode details.tm-collapsible-guide {
+	background: #211a15 !important;
+	border-color: #4a3a2a !important;
+	border-left-color: #d4af37 !important;
+}
+
+body.tm-night-mode details.tm-collapsible-guide > summary.tm-guide-summary {
+	color: #f3dfb6 !important;
+}
+
+body.tm-night-mode .tm-guide-summary-hint {
+	color: #f5d061 !important;
+	background: rgba(212, 175, 55, 0.15) !important;
+	border-color: rgba(212, 175, 55, 0.35) !important;
+}
+
+body.tm-night-mode details.tm-collapsible-guide[open] > summary.tm-guide-summary {
+	border-bottom-color: #4a3a2a !important;
+}
+
+
