@@ -3125,34 +3125,50 @@ body.tm-kpc-modal-open {
 .tm-knnp-preface-box {
     background: #fdf8ec;
     border: 1.5px solid #d4af37;
-    border-radius: 12px;
-    margin-bottom: 1.25rem;
+    border-radius: 10px;
+    margin-bottom: 0.65rem;
     overflow: hidden;
+}
+
+.tm-knnp-preface-box[open] {
+    margin-bottom: 1.15rem;
 }
 
 .tm-knnp-preface-summary {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0.5rem;
-    padding: 0.8rem 1.2rem;
+    padding: 0.44rem 0.9rem;
     background: linear-gradient(90deg, #5a2216 0%, #7c311b 100%);
     color: #fff8e7;
     font-weight: 700;
-    font-size: 0.95rem;
+    font-size: 0.86rem;
     cursor: pointer;
     list-style: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.tm-knnp-preface-summary::-webkit-details-marker {
+    display: none;
+}
+
+.tm-knnp-preface-summary::marker {
+    content: "";
 }
 
 .tm-knnp-preface-hint {
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     font-weight: 600;
     color: #f6d57a;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .tm-knnp-preface-body {
-    padding: 1.25rem 1.45rem;
+    padding: 1.1rem 1.35rem;
 }
 
 .tm-knnp-letter-body {

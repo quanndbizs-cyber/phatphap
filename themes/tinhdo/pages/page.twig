@@ -4,37 +4,19 @@
 
 	<div class="w-100 center grid-container">
 
-		<aside class="grid-header ph3 pv3">
-
-			<header>
-
-				<div class="logo">
-					<p class="pa0 ma0">
-						<a class="link f1 fw9" href="{{ home_url }}" title="My Title">						
-							{% if logo %}
-								<img src="{{ base_url }}/{{ logo }}" class="logo-image"/>
-							{% else %}
-								{{ settings.title|e }}
-							{% endif %}
-						</a>
-					</p>
+		{% if widgets %}
+		<aside class="grid-header ph3 pv2">
+			<div class="widgetcontainer">
+			{% for index,widget in widgets %}
+				<div id="{{ index }}" class="mt3-l mt2">
+					{{ widget }}
 				</div>
-					
-			</header>
-
-			{% if widgets %}
-				<div class="widgetcontainer">
-				{% for index,widget in widgets %}
-					<div id="{{ index }}" class="mt4-l mt3">
-						{{ widget }}
-					</div>
-				{% endfor %}
-				</div>
-			{% endif %}
-
+			{% endfor %}
+			</div>
 		</aside>
+		{% endif %}
 
-		<div class="grid-main ph3 ph4-l pv3 lh-copy f4-l f5 fw3">
+		<div class="grid-main ph3 ph4-l pt2 pb3 lh-copy f4-l f5 fw3">
 
 			<nav id="breadcrumb">
 				{% include 'partials/breadcrumb.twig' %}
@@ -56,11 +38,12 @@
 				{% set enableDropcap = true %}
 			{% endif %}
 
-			<article class="{{ enableDropcap ? 'td-dropcap-enabled' : '' }}">
+			<article id="main-article" class="{{ enableDropcap ? 'td-dropcap-enabled' : '' }}">
 				<header>
 				
 					<h1>{{ title }}</h1>
 
+					{% if item.elementType == 'file' %}
 					<div class="tinhdo-reader-toolbar" aria-label="Thanh công cụ đọc sách">
 						<div class="tinhdo-reader-tools">
 							<span class="tinhdo-reader-tools-label"><i class="lotus-dot" aria-hidden="true">❖</i> Tiện ích đọc:</span>
@@ -84,6 +67,7 @@
 							</div>
 						</div>
 					</div>
+					{% endif %}
 
 					{% if ("top" in theme.datePosition or "top" in theme.authorPosition or "top" in theme.gitPosition or "top" in theme.printPosition) %}
 					    <div class="f5 pv1 flex justify-between">

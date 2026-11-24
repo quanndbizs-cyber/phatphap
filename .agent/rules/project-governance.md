@@ -35,17 +35,22 @@ Dự án được thiết kế để trở thành một **Nền tảng Web Đa M
 
 Khi thực hiện bất kỳ thao tác Git nào, Agent **BẮT BUỘC** tuân thủ:
 
-1. **CẤM dùng `git add .` hoặc `git add -A`**:
+1. **BẮT BUỘC LUÔN LẤY GIT MỚI NHẤT TRƯỚC KHI SỬA (`Always Pull Latest Git Before Editing`)**:
+   * Trước khi bắt đầu đọc phân tích sâu hoặc chỉnh sửa bất kỳ file nào trong một phiên làm việc / yêu cầu mới, Agent **BẮT BUỘC** phải chạy lệnh lấy code mới nhất từ upstream (`https://github.com/quanndbizs-cyber/phatphap.git`) và đồng bộ fast-forward/rebase cho **cả 2 nhánh độc lập**:
+     * Nhánh `v2.x` tại thư mục gốc (`git fetch` + `git merge --ff-only` hoặc `git pull --rebase` từ `origin/v2.x`).
+     * Nhánh `content` tại thư mục `content/` (`git fetch` + `git merge --ff-only` hoặc `git pull --rebase` từ `origin/content`).
+   * Tuyệt đối không sửa code trên nền commit cũ chưa cập nhật để phòng tránh hoàn toàn xung đột (Merge Conflict) khi tạo PR hoặc merge.
+2. **CẤM dùng `git add .` hoặc `git add -A`**:
    * Chỉ được phép stage đích danh từng file vừa được thêm mới hoặc chỉnh sửa trong phạm vi task: `git add <path/to/file1> <path/to/file2>`.
    * Tuyệt đối không đưa vào commit:
      * Các file không thuộc phạm vi chỉnh sửa của task hiện tại.
      * Các thư mục tham khảo ngoài luồng (`TypeMills/`, `log/`, `cache/`, `data/`).
      * Các file chứa thông tin nhạy cảm (`settings/secrets.yaml`, `settings/users/`, `settings/settings.yaml`).
      * Các file bị báo `modified` ảo do lệch chuẩn xuống dòng `CRLF` giữa Windows và WSL.
-2. **Commit đúng nhánh**:
+3. **Commit đúng nhánh**:
    * Thay đổi phần mềm (`plugins/`, `themes/`, `scripts/`, `.agent/`, `.gitignore`) -> Commit tại `/var/www/html/phatphap` trên nhánh **`v2.x`** với tiền tố `feat(platform): ...`, `fix(plugin): ...`, `chore(env): ...`.
    * Thay đổi nội dung bài viết (`content/*`) -> Commit tại `/var/www/html/phatphap/content` trên nhánh **`content`** với tiền tố `content(<chuyên-mục>): ...`.
-3. **Báo cáo bắt buộc sau mỗi lần Hoàn thành & Commit**:
+4. **Báo cáo bắt buộc sau mỗi lần Hoàn thành & Commit**:
    Sau mỗi khi hoàn thành task và commit, Agent phải trình bày báo cáo gồm 4 mục rõ ràng:
    * **✅ Đã hoàn thành (Done)**: Liệt kê các tính năng/bài viết đã xử lý và kiểm thử xong.
    * **⏳ Chưa hoàn thành / Kế tiếp (Pending)**: Những hạng mục còn lại hoặc hướng mở rộng tiếp theo.
@@ -149,7 +154,20 @@ meta:
      - Drop-cap phải được tự động bỏ qua đoạn chú thích và chuyển sang đoạn văn bản chính (kệ tụng, bài kinh) kế tiếp.
   5. **Triển khai CSS & JavaScript**:
      - Toàn bộ CSS drop-cap phải được scope dưới class `article.td-dropcap-enabled`.
-     - Phải luôn có luật reset (`float: none !important; font-size: inherit !important;`) đối với các khối trích dẫn (`blockquote`), thẻ thông tin (`sutra-meta`, `notice`), và các đoạn chú thích ngoặc đơn (`p.no-dropcap`, `p.tm-sutra-note`, `p:has(> em:only-child)`), để phần thông tin dịch giả/mục lục đầu bài và chú thích không bao giờ bị dính drop-cap ngoài ý muốn.
+     - Phải luôn có luật reset (`float: none !important; font-size: inherit !important;`) đối với các khối trích dẫn (`blockquote`), thẻ thông tin (`sutra-meta`, `notice`, `tm-collapsible-guide`), và các đoạn chú thích ngoặc đơn (`p.no-dropcap`, `p.tm-sutra-note`, `p:has(> em:only-child)`), để phần thông tin dịch giả/mục lục đầu bài và chú thích không bao giờ bị dính drop-cap ngoài ý muốn.
+
+### 3.5. Quy tắc Phân Cấp Hiển Thị & Ưu Tiên Đi Thẳng Vào Nội Dung Chính (Hierarchy-Aware Content Focus Rule)
+* **Triết lý UX cốt lõi**: Giao diện phải hiểu chủ đích của người đọc theo từng cấp trang, đưa người đọc chạm ngay vào nội dung cần xem mà không bị cản trở bởi các phần đầu trang trùng lặp hoặc hướng dẫn dài dòng:
+  1. **Không lặp lại Tiêu đề Site / Bảng phương châm ở trang con**:
+     - Bảng phương châm `.tinhdo-plaque-strip` ("Tâm Hạnh / Công Phu") **chỉ hiển thị ở Trang chủ (`home`)**.
+     - Tuyệt đối không render lại tên website cỡ lớn (`.grid-header .logo`) ở các trang con (`page.twig`, `blog.twig`, `landingpage.twig`), vì thanh `.tinhdo-top-bar` đã hiển thị thương hiệu cố định.
+     - Breadcrumb (`partials/breadcrumb.twig`) giữ gọn 1 dòng (`🏠 Trang chủ › ...`).
+  2. **Mặc định thu gọn phần Hướng dẫn / Thông tin phụ / Lời nói đầu dài**:
+     - Các khối `blockquote` thông tin & hướng dẫn ở ngay đầu bài viết, hướng dẫn tải ảnh ở trang Gallery, và các khối Lời nói đầu / Lời giới thiệu dài trong trình đọc (`details.tm-knnp-preface-box`) mặc định **thu gọn thành 1 dòng nhỏ** (`details.tm-collapsible-guide` / không gắn thuộc tính `open`), khi cần người đọc mới bấm mở rộng.
+     - Ở các trang trình đọc đơn bài (`[:knnpreader:]`, `[:kpcreader:]`), ẩn tiêu đề vỏ bọc `<h1>` trùng lặp để đi thẳng vào thẻ bài đọc/nghe chính thức.
+  3. **Tự động định vị thông minh (Smart Content Focus)**:
+     - Trang danh mục / mục lục (`tm-item-folder`, `tm-is-toc-page`) giữ ở đầu danh sách.
+     - Trang bài chi tiết cấp lá (`tm-item-file`) và các liên kết chọn bài cụ thể (`?thu=`, `?verse=`, `?story=`, `#truyen-...`) tự động định vị ngay vào khung đọc/nghe chính (có bù trừ chiều cao thanh sticky top bar).
 
 ---
 

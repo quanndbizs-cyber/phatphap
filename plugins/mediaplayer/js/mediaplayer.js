@@ -987,7 +987,7 @@
                 '  ' + tagsHtml +
                 '  <div class="tm-kpc-story-footer-nav">' +
                 '    <button type="button" class="tm-kpc-foot-btn" onclick="window.tmKpcStep(-1)" ' + (vnum <= 1 ? 'disabled' : '') + '>⏮ Bài kệ trước (' + (vnum > 1 ? (vnum - 1) : 1) + ')</button>' +
-                '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-top" onclick="var r=document.getElementById(\'tm-kpc-reader\');if(r)r.scrollIntoView({behavior:\'smooth\'});">↑ Lên đầu bài kệ ' + vnum + '</button>' +
+                '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-top" onclick="var r=document.getElementById(\'tm-kpc-reader\');if(r){if(window.tmScrollToTargetFocus){window.tmScrollToTargetFocus(r,\'smooth\');}else{r.scrollIntoView({behavior:\'smooth\'});}}">↑ Lên đầu bài kệ ' + vnum + '</button>' +
                 '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-share" onclick="window.tmKpcOpenShareModal()">🔗 Chia sẻ bài kệ ' + vnum + '</button>' +
                 '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-next" onclick="window.tmKpcStep(1)" ' + (vnum >= 423 ? 'disabled' : '') + '>Bài kệ tiếp (' + (vnum < 423 ? (vnum + 1) : 423) + ') ⏭</button>' +
                 '  </div>' +
@@ -1020,13 +1020,20 @@
             storyHtml;
     }
 
+    function scrollReaderAppToTop(appEl, behavior) {
+        if (!appEl) return;
+        if (typeof window.tmScrollToTargetFocus === "function") {
+            window.tmScrollToTargetFocus(appEl, behavior || "smooth");
+        } else {
+            appEl.scrollIntoView({ behavior: behavior || "smooth", block: "start" });
+        }
+    }
+
     window.tmKpcGoTo = function (vnum, scrollReader) {
         renderKpcVerseView(vnum, true);
         if (scrollReader !== false) {
             var app = document.getElementById("tm-kpc-reader");
-            if (app) {
-                app.scrollIntoView({ behavior: "smooth", block: "start" });
-            }
+            scrollReaderAppToTop(app, "smooth");
         }
     };
 
@@ -1444,6 +1451,10 @@
             .then(function (data) {
                 kpcMasterData = data;
                 renderKpcVerseView(targetVerse, false);
+                var hasExplicitVerse = /[?&](verse|ke|bai)=/i.test(window.location.search || "") || /^#(?:verse-|ke-)?\d+$/i.test(window.location.hash || "");
+                if (hasExplicitVerse || (window.pageYOffset || document.documentElement.scrollTop || 0) < 90) {
+                    scrollReaderAppToTop(app, "auto");
+                }
             })
             .catch(function (err) {
                 var stage = document.getElementById("tm-kpc-stage");
@@ -1699,16 +1710,16 @@
             mediaHtml += '</div>';
         }
 
-        // Preface blocks (for Letter 1, 26, 49)
+        // Preface blocks (for Letter 1, 26, 49) — collapsed by default so reader sees letter content immediately
         var prefaceHtml = "";
         if (lt.preface_blocks && lt.preface_blocks.length > 0) {
             for (var pb = 0; pb < lt.preface_blocks.length; pb++) {
                 var blk = lt.preface_blocks[pb];
                 prefaceHtml +=
-                    '<details class="tm-knnp-preface-box" open>' +
+                    '<details class="tm-knnp-preface-box">' +
                     '  <summary class="tm-knnp-preface-summary">' +
                     '    <span>📜 ' + escapeHtml(blk.title) + '</span>' +
-                    '    <span class="tm-knnp-preface-hint">Bấm để thu gọn / mở rộng ▾</span>' +
+                    '    <span class="tm-knnp-preface-hint">Bấm để mở đọc ▾</span>' +
                     '  </summary>' +
                     '  <div class="tm-knnp-preface-body">' +
                     renderKnnpParas(blk.paras) +
@@ -1753,12 +1764,23 @@
             '  </div>' +
             '  <div class="tm-kpc-story-footer-nav">' +
             '    <button type="button" class="tm-kpc-foot-btn" onclick="window.tmKnnpStep(-1)" ' + (lnum <= 1 ? 'disabled' : '') + '>⏮ Lá thư trước (' + (lnum > 1 ? (lnum - 1) : 1) + ')</button>' +
-            '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-top" onclick="var r=document.getElementById(\'tm-knnp-reader\');if(r)r.scrollIntoView({behavior:\'smooth\'});">↑ Lên đầu lá thư ' + lnumPad + '</button>' +
+            '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-top" onclick="var r=document.getElementById(\'tm-knnp-reader\');if(r){if(window.tmScrollToTargetFocus){window.tmScrollToTargetFocus(r,\'smooth\');}else{r.scrollIntoView({behavior:\'smooth\'});}}">↑ Lên đầu lá thư ' + lnumPad + '</button>' +
             '    <a href="' + escapeHtml(tapUrl) + '" class="tm-kpc-foot-btn" style="text-decoration:none;">🎧 Playlist Tập ' + lt.tap + '</a>' +
             '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-share" onclick="window.tmKnnpOpenShareModal()">🔗 Chia sẻ thư ' + lnumPad + '</button>' +
             '    <button type="button" class="tm-kpc-foot-btn tm-kpc-foot-next" onclick="window.tmKnnpStep(1)" ' + (lnum >= 74 ? 'disabled' : '') + '>Lá thư tiếp (' + (lnum < 74 ? (lnum + 1) : 74) + ') ⏭</button>' +
             '  </div>' +
             '</article>';
+
+        // Update preface hint dynamically when toggled open/closed
+        var prefBoxes = stage.querySelectorAll("details.tm-knnp-preface-box");
+        prefBoxes.forEach(function (box) {
+            box.addEventListener("toggle", function () {
+                var hintEl = box.querySelector(".tm-knnp-preface-hint");
+                if (hintEl) {
+                    hintEl.textContent = box.open ? "Thu gọn ▴" : "Bấm để mở đọc ▾";
+                }
+            });
+        });
 
         // Attach auto-advance to part 2 if letter has 2 audio parts & bind scrubber
         var audioEl = document.getElementById("tm-knnp-audio-el");
@@ -1838,9 +1860,7 @@
         renderKnnpLetterView(lnum, true);
         if (scrollReader !== false) {
             var app = document.getElementById("tm-knnp-reader");
-            if (app) {
-                app.scrollIntoView({ behavior: "smooth", block: "start" });
-            }
+            scrollReaderAppToTop(app, "smooth");
         }
     };
 
@@ -2113,6 +2133,10 @@
                 knnpMasterData = data;
                 var targetLetter = getRequestedKnnpLetter(initLetter);
                 renderKnnpLetterView(targetLetter, false);
+                var hasExplicitLetter = /[?&](thu|bai|letter|track)=/i.test(window.location.search || "") || /^#(?:thu-|bai-|letter-)?\d+$/i.test(window.location.hash || "");
+                if (hasExplicitLetter || (window.pageYOffset || document.documentElement.scrollTop || 0) < 90) {
+                    scrollReaderAppToTop(app, "auto");
+                }
             })
             .catch(function (err) {
                 var stage = document.getElementById("tm-knnp-stage");

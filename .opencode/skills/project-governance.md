@@ -35,17 +35,22 @@ Dự án được thiết kế để trở thành một **Nền tảng Web Đa M
 
 Khi thực hiện bất kỳ thao tác Git nào, Agent **BẮT BUỘC** tuân thủ:
 
-1. **CẤM dùng `git add .` hoặc `git add -A`**:
+1. **BẮT BUỘC LUÔN LẤY GIT MỚI NHẤT TRƯỚC KHI SỬA (`Always Pull Latest Git Before Editing`)**:
+   * Trước khi bắt đầu đọc phân tích sâu hoặc chỉnh sửa bất kỳ file nào trong một phiên làm việc / yêu cầu mới, Agent **BẮT BUỘC** phải chạy lệnh lấy code mới nhất từ upstream (`https://github.com/quanndbizs-cyber/phatphap.git`) và đồng bộ fast-forward/rebase cho **cả 2 nhánh độc lập**:
+     * Nhánh `v2.x` tại thư mục gốc (`git fetch` + `git merge --ff-only` hoặc `git pull --rebase` từ `origin/v2.x`).
+     * Nhánh `content` tại thư mục `content/` (`git fetch` + `git merge --ff-only` hoặc `git pull --rebase` từ `origin/content`).
+   * Tuyệt đối không sửa code trên nền commit cũ chưa cập nhật để phòng tránh hoàn toàn xung đột (Merge Conflict) khi tạo PR hoặc merge.
+2. **CẤM dùng `git add .` hoặc `git add -A`**:
    * Chỉ được phép stage đích danh từng file vừa được thêm mới hoặc chỉnh sửa trong phạm vi task: `git add <path/to/file1> <path/to/file2>`.
    * Tuyệt đối không đưa vào commit:
      * Các file không thuộc phạm vi chỉnh sửa của task hiện tại.
      * Các thư mục tham khảo ngoài luồng (`TypeMills/`, `log/`, `cache/`, `data/`).
      * Các file chứa thông tin nhạy cảm (`settings/secrets.yaml`, `settings/users/`, `settings/settings.yaml`).
      * Các file bị báo `modified` ảo do lệch chuẩn xuống dòng `CRLF` giữa Windows và WSL.
-2. **Commit đúng nhánh**:
+3. **Commit đúng nhánh**:
    * Thay đổi phần mềm (`plugins/`, `themes/`, `scripts/`, `.agent/`, `.gitignore`) -> Commit tại `/var/www/html/phatphap` trên nhánh **`v2.x`** với tiền tố `feat(platform): ...`, `fix(plugin): ...`, `chore(env): ...`.
    * Thay đổi nội dung bài viết (`content/*`) -> Commit tại `/var/www/html/phatphap/content` trên nhánh **`content`** với tiền tố `content(<chuyên-mục>): ...`.
-3. **Báo cáo bắt buộc sau mỗi lần Hoàn thành & Commit**:
+4. **Báo cáo bắt buộc sau mỗi lần Hoàn thành & Commit**:
    Sau mỗi khi hoàn thành task và commit, Agent phải trình bày báo cáo gồm 4 mục rõ ràng:
    * **✅ Đã hoàn thành (Done)**: Liệt kê các tính năng/bài viết đã xử lý và kiểm thử xong.
    * **⏳ Chưa hoàn thành / Kế tiếp (Pending)**: Những hạng mục còn lại hoặc hướng mở rộng tiếp theo.

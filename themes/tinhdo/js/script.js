@@ -612,13 +612,256 @@
     }
   }
 
+  // =========================================================================
+  // 7. COLLAPSIBLE INSTRUCTIONS / METADATA & HIERARCHY-AWARE SMART FOCUS
+  // =========================================================================
+  function getStickyHeaderOffset() {
+    var topBar = document.querySelector('.tinhdo-top-bar');
+    if (topBar && window.getComputedStyle) {
+      var pos = window.getComputedStyle(topBar).position;
+      if (pos === 'sticky' || pos === 'fixed') {
+        return (topBar.offsetHeight || 48) + 8;
+      }
+    }
+    return 10;
+  }
+
+  window.tmScrollToTargetFocus = function(targetEl, behavior) {
+    if (!targetEl || !targetEl.getBoundingClientRect) return;
+    var offset = getStickyHeaderOffset();
+    var rect = targetEl.getBoundingClientRect();
+    var targetY = rect.top + (window.pageYOffset || document.documentElement.scrollTop || 0) - offset;
+    if (targetY < 0) targetY = 0;
+    try {
+      window.scrollTo({
+        top: targetY,
+        behavior: behavior || 'smooth'
+      });
+    } catch (e) {
+      window.scrollTo(0, targetY);
+    }
+  };
+
+  function createCollapsibleGuide(label, nodesToWrap, parentNode, insertBeforeNode) {
+    if (!nodesToWrap || !nodesToWrap.length || !parentNode) return null;
+
+    var details = document.createElement('details');
+    details.className = 'tm-collapsible-guide';
+
+    var summary = document.createElement('summary');
+    summary.className = 'tm-guide-summary';
+
+    var leftSpan = document.createElement('span');
+    leftSpan.className = 'tm-guide-summary-left';
+    leftSpan.textContent = 'ℹ️ ' + label;
+
+    var hintSpan = document.createElement('span');
+    hintSpan.className = 'tm-guide-summary-hint';
+    hintSpan.textContent = 'Bấm để mở ▾';
+
+    summary.appendChild(leftSpan);
+    summary.appendChild(hintSpan);
+
+    var body = document.createElement('div');
+    body.className = 'tm-guide-body';
+
+    parentNode.insertBefore(details, insertBeforeNode || nodesToWrap[0]);
+    for (var i = 0; i < nodesToWrap.length; i++) {
+      var n = nodesToWrap[i];
+      if (!n) continue;
+      if (n.tagName === 'HR') {
+        if (n.parentNode) n.parentNode.removeChild(n);
+      } else {
+        body.appendChild(n);
+      }
+    }
+
+    if (!body.children.length) {
+      if (details.parentNode) details.parentNode.removeChild(details);
+      return null;
+    }
+
+    details.appendChild(summary);
+    details.appendChild(body);
+
+    details.addEventListener('toggle', function() {
+      hintSpan.textContent = details.open ? 'Thu gọn ▴' : 'Bấm để mở ▾';
+    });
+
+    return details;
+  }
+
+  function initCollapsibleArticleGuides() {
+    if (!document.body || document.body.classList.contains('tm-is-home')) return;
+    var article = document.getElementById('main-article') || document.querySelector('article');
+    if (!article) return;
+
+    var header = article.querySelector(':scope > header');
+    var singleReader = article.querySelector('#tm-knnp-reader, #tm-kpc-reader');
+    var galleryWrap = article.querySelector('.tm-gallery-wrap');
+    var tocApp = article.querySelector('#tm-knnp-toc-app, #tm-kpc-toc-app');
+    var slug = (document.body.getAttribute('data-slug') || '').toLowerCase();
+    var isTocPage = !!tocApp || slug.indexOf('muc-luc') !== -1;
+
+    if (singleReader) {
+      article.classList.add('tm-has-single-reader');
+    }
+    if (galleryWrap) {
+      article.classList.add('tm-has-gallery');
+    }
+    if (isTocPage) {
+      document.body.classList.add('tm-is-toc-page');
+    }
+
+    // 1. Single-item reader pages (KNNP & KPC): collapse toolbar + guide notes into 1 slim row
+    if (singleReader) {
+      var readerNodes = [];
+      var toolbar = header ? header.querySelector('.tinhdo-reader-toolbar') : null;
+      if (toolbar) {
+        readerNodes.push(toolbar);
+      }
+      var cur = header ? header.nextElementSibling : article.firstElementChild;
+      while (cur && cur !== singleReader && !cur.contains(singleReader)) {
+        var next = cur.nextElementSibling;
+        if (cur.tagName !== 'SCRIPT' && cur.tagName !== 'STYLE') {
+          readerNodes.push(cur);
+        }
+        cur = next;
+      }
+      if (readerNodes.length > 0) {
+        var insertRef = singleReader;
+        while (insertRef && insertRef.parentNode !== article) {
+          insertRef = insertRef.parentNode;
+        }
+        createCollapsibleGuide('Hướng dẫn đọc & Tiện ích hiển thị', readerNodes, article, insertRef);
+      }
+      return;
+    }
+
+    // 2. Gallery detail pages: collapse intro description + source/download guide before image grid
+    if (galleryWrap && document.body.classList.contains('tm-item-file')) {
+      var galNodes = [];
+      var hasGuideSignal = false;
+      var gCur = header ? header.nextElementSibling : article.firstElementChild;
+      while (gCur && gCur !== galleryWrap && !gCur.contains(galleryWrap)) {
+        if (gCur.tagName !== 'SCRIPT' && gCur.tagName !== 'STYLE') {
+          galNodes.push(gCur);
+          if (/(Hướng dẫn|Nguồn tham chiếu)/i.test(gCur.textContent || '')) {
+            hasGuideSignal = true;
+          }
+        }
+        gCur = gCur.nextElementSibling;
+      }
+      if (hasGuideSignal && galNodes.length > 0) {
+        var galRef = galleryWrap;
+        while (galRef && galRef.parentNode !== article) {
+          galRef = galRef.parentNode;
+        }
+        createCollapsibleGuide('Hướng dẫn xem/tải ảnh & Nguồn tham chiếu', galNodes, article, galRef);
+      }
+      return;
+    }
+
+    // 3. Metadata / Instruction Blockquote right after <header> on subpages & detail pages
+    if (header) {
+      var firstAfter = header.nextElementSibling;
+      if (firstAfter && firstAfter.tagName === 'BLOCKQUOTE') {
+        var bqText = (firstAfter.textContent || '').trim();
+        var metaGuideRegex = /(Hướng dẫn|Tác giả|Biên dịch|Việt dịch|Nguyên tác|Biên soạn|Xuất xứ|Nhóm tài liệu|Tài liệu nguồn|Bấm số trên đài|Pháp môn:|Chuyên mục:|Tra cứu nhanh|Chọn lọc theo từng)/i;
+        if (metaGuideRegex.test(bqText)) {
+          var wrapList = [firstAfter];
+          if (firstAfter.nextElementSibling && firstAfter.nextElementSibling.tagName === 'HR') {
+            wrapList.push(firstAfter.nextElementSibling);
+          }
+          var label = /Hướng dẫn/i.test(bqText) ? 'Hướng dẫn & Thông tin bài' : 'Thông tin & Hướng dẫn';
+          createCollapsibleGuide(label, wrapList, article, firstAfter);
+        }
+      }
+    }
+  }
+
+  function initSmartContentFocus() {
+    if (!document.body || document.body.classList.contains('tm-is-home')) return;
+
+    var navType = 'navigate';
+    try {
+      var entries = (window.performance && window.performance.getEntriesByType)
+        ? window.performance.getEntriesByType('navigation')
+        : null;
+      if (entries && entries.length > 0 && entries[0].type) {
+        navType = entries[0].type;
+      }
+    } catch (e) {}
+
+    var hash = window.location.hash || '';
+    var search = window.location.search || '';
+    var singleReader = document.querySelector('#tm-knnp-reader, #tm-kpc-reader');
+
+    // 1. Explicit #hash target (excluding #thu-X / #bai-X / #verse-X handled by single-reader)
+    if (hash.length > 1 && !(singleReader && /^#(?:thu-|bai-|letter-|verse-)?\d+$/i.test(hash))) {
+      var rawId = '';
+      try {
+        rawId = decodeURIComponent(hash.slice(1));
+      } catch (e) {
+        rawId = hash.slice(1);
+      }
+      var hashEl = document.getElementById(rawId);
+      if (hashEl) {
+        setTimeout(function() {
+          window.tmScrollToTargetFocus(hashEl, 'auto');
+        }, 40);
+        return;
+      }
+    }
+
+    // 2. Query parameter ?story=N on story pages
+    try {
+      var params = new URLSearchParams(search);
+      var qStory = params.get('story') || params.get('truyen');
+      if (qStory) {
+        var storyEl = document.getElementById('truyen-' + qStory) || document.getElementById(qStory);
+        if (storyEl) {
+          setTimeout(function() {
+            window.tmScrollToTargetFocus(storyEl, 'auto');
+          }, 50);
+          return;
+        }
+      }
+    } catch (e) {}
+
+    // 3. Respect scroll restoration on reload / back-forward when no explicit deep-link is requested
+    var hasReaderQuery = /[?&](thu|bai|letter|track|verse)=/i.test(search);
+    if (!hasReaderQuery && (navType === 'reload' || navType === 'back_forward')) {
+      return;
+    }
+
+    // 4. Category / Folder / TOC pages stay at top of listing
+    if (document.body.classList.contains('tm-item-folder') || document.body.classList.contains('tm-is-toc-page')) {
+      return;
+    }
+
+    // 5. Leaf Detail Pages (tm-item-file): focus directly into the main content / reader frame
+    if (document.body.classList.contains('tm-item-file')) {
+      var focusTarget = singleReader || document.getElementById('main-article');
+      if (focusTarget && (window.pageYOffset || document.documentElement.scrollTop || 0) < 80) {
+        setTimeout(function() {
+          if ((window.pageYOffset || document.documentElement.scrollTop || 0) < 80) {
+            window.tmScrollToTargetFocus(focusTarget, 'auto');
+          }
+        }, 30);
+      }
+    }
+  }
+
   function initAll() {
     initMobileMenu();
     initNavigationAccordion();
+    initCollapsibleArticleGuides();
     initFontSizeController();
     initTopDropdownAndFloatingDock();
     initResponsiveTables();
     initDropcapNotes();
+    initSmartContentFocus();
   }
 
   if (document.readyState === 'loading') {
@@ -627,4 +870,5 @@
     initAll();
   }
 })();
+
 

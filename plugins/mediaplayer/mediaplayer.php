@@ -44,8 +44,8 @@ class mediaplayer extends Plugin
             $this->handleGalleryDownload((string)$_GET['url']);
         }
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261122c');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261122c');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261123a');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261123a');
         }
     }
 
