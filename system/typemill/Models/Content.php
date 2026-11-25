@@ -187,6 +187,21 @@ class Content
 			$contentArray 	= $this->parsedown->text($markdown);
 			$html			= $this->parsedown->markup($contentArray);
 
+			# Unescape any tm-story-summary blocks that Parsedown safeMode escaped into entities
+			if(is_string($html) && str_contains($html, 'tm-story-summary'))
+			{
+				$html = preg_replace_callback(
+					'#(?:<p>\s*)?&lt;div class=(&quot;|")tm-story-summary(?:(?!&lt;div class=(&quot;|")tm-story-summary).)*?&lt;/div&gt;\s*&lt;/div&gt;(?:\s*</p>)?#s',
+					function ($m) {
+						$decoded = htmlspecialchars_decode($m[0], ENT_QUOTES);
+						$decoded = preg_replace('#^<p>\s*#', '', $decoded);
+						$decoded = preg_replace('#\s*</p>$#', '', $decoded);
+						return $decoded;
+					},
+					$html
+				);
+			}
+
 			$content[$key] = [
 				'id' 		=> $key,
 				'markdown'	=> $markdown,

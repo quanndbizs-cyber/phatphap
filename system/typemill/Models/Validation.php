@@ -204,26 +204,19 @@ class Validation
 			$value = preg_replace('/`{2,}[\s\S]+?`{2,}/', '', $value);
 			$value = preg_replace('/`{1,}[\s\S]+?`{1,}/', '', $value);
 
-			# check blockquotes
-			preg_match_all('/^ ?>[\s\S]+?[\n\r]/m', $value, $matches);
-			foreach($matches as $match)
+			# Disallow dangerous script tags, objects, embeds, and applets
+			if (preg_match('/<\s*(script|object|embed|applet)\b/i', $value))
 			{
-				$content = $match[0] ?? false;
-				if($content && (strip_tags($content) !== $content) )
-				{
-					return false;
-				}
+				return false;
 			}
-			
-			# strip out blockquotes
-			$value = preg_replace('/^ ?>[\s\S]+?[\n\r]/m', '', $value);
 
-			if ( $value == strip_tags($value) )
+			# Disallow dangerous URI schemes like javascript: or vbscript:
+			if (preg_match('/(href|src)\s*=\s*[\'"]?\s*(javascript|vbscript):/i', $value))
 			{
-				return true;
+				return false;
 			}
-			return false;			
 
+			return true;
 		}, 'not secure. For code please use markdown `inline-code` or ````fenced code blocks````.');
 
 		Validator::addRule('checkLicense', function($field, $value, array $params, array $fields)
