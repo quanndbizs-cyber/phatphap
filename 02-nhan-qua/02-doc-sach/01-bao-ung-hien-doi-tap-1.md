@@ -65,7 +65,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 2. Lời tác giả {#truyen-2}
@@ -170,7 +169,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 3. Thiếu niên bất lương {#truyen-3}
@@ -254,7 +252,6 @@ Tôi một lần nữa lại được chứng kiến uy lực Phật pháp vô c
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -362,7 +359,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 5. Gà trống lông vàng {#truyen-5}
@@ -454,7 +450,6 @@ Sau đó hai vợ chồng làm y theo lời Hòa thượng dạy. Không bao lâ
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -564,7 +559,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 7. Trong xưởng có cái gì, nhà tôi có cái đó {#truyen-7}
@@ -667,7 +661,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 8. Dùi lỗ lấy nhọt {#truyen-8}
@@ -688,81 +681,7 @@ Hạnh Đoan biên dịch
   </div>
 </div>
 
-Hồng tiên sinh hơn 50 tuổi, là thợ máy làm trong xưởng cơ giới của chính phủ. Một chiều nọ ông đi cùng lão cư sĩ đến bái kiến Sư phụ Diệu Pháp. Vừa vào cửa ông liền cười ha hả chắp tay vái và cung kính khom mình ba lần trước Sư phụ, cũng không đợi mời ngồi, ông tự nhiên ngồi xuống. Thoạt nhìn đã biết tính cách ông rất sảng khoái.
-
-Sư phụ Diệu Pháp hỏi ông ta:
-
-– Chẳng phải vì bị chứng đau lưng nên anh mới đến đây sao?
-
-Ông có chút kinh ngạc nói:
-
-– Sư phụ Ngài thiệt là thần thông, con chưa nói Ngài đã biết cả. Nói xong ông đứng dậy, vén áo chìa lưng ra:
-
-– Sư phụ xem, đai bảo hộ lưng con nè.
-
-Chỉ thấy dây lưng ông mang là một vòng ruột xe chế thành, rộng chừng 15cm. Ông ngồi xuống nói tiếp:
-
-– Con đeo ruột xe bảo vệ lưng đã gần 10 năm rồi, bác sĩ nói là cơ lưng bị hao tổn, uống thuốc, tiêm chích gì cũng vô hiệu, chỉ có thể nương vào thắt lưng tự chế này, nếu không có nó bảo hộ, lưng con khó mà thẳng nổi! Tất cả là do hồi trẻ con lao lực quá độ…
-
-Ngừng một lát ông nói tiếp:
-
-– Nghe bạn con nói, Ngài là một vị Bồ-tát sống, xin Ngài hãy cứu con. Ngài trị lành lưng cho con, rồi hằng ngày con sẽ thắp hương cúng lễ Ngài cho dù phải lễ lạy trăm lễ mỗi ngày, con đều làm – Nói xong, ông lại chắp tay vái Sư phụ.
-
-Hòa thượng Diệu Pháp cười cười nói:
-
-– Thứ nhất, tôi không phải là Bồ-tát. Thứ hai tôi không phải là thầy trị bệnh. Nếu tôi mà là Bồ-tát, thì chúng ta còn có thể ngồi tại đây nói với nhau sao? – Còn như tôi mà có thể trị bệnh, thì tôi phải đến bệnh viện để làm nghề chẩn khám. Thực ra, bệnh ông tốt hay không, quyền quyết định ở nơi bản thân ông. Bởi vì, tháo chuông phải do người buộc tự tháo. Bây giờ, tôi hỏi ông, nếu như bảo ông không hút thuốc, không uống rượu, không trộm cắp, không ăn mặn, ông làm được hay không?
-
-– Chỉ cần bệnh con có thể lành, kêu con giữ giới gì con đều làm tất, nhưng con không phải trộm cắp hay đạo tặc!
-
-– Lưng ông ngoài cảm giác đau ra, có lúc còn cảm thấy bị sức ép rất nặng nề?
-
-– Dạ, đúng, giống như là có mấy chục ký lô đè nặng trên lưng con vậy.
-
-– Ông có lấy trong công xưởng các thứ như: sắt, bản lề, đinh, ốc, vít.., gì không? Có khi xách cả rương đem về nhà?
-
-Ông Hồng nghe thế thì ngồi ngây người ra, lát sau gật đầu nói:
-
-– Quả thật là có việc này! Bởi con là thợ trong công xưởng, “ở hiên lầu trước được thưởng trăng mà”, thời buổi này có ai mà không lấy chút đồ của quốc gia làm của riêng? Như vậy mà gọi là trộm ư? Ngay cả trưởng xưởng của chúng con cũng lấy đồ đem về nhà kia mà? – Ông Hồng phân trần biện bạch.
-
-– Đem tài vật quốc gia về nhà làm của mình, không phải trộm thì là gì? Vậy ông đường đường chính chính lấy đồ mang về nhà ư? Hay là len lén bỏ đồ vào trong cà mèn cơm trống, rồi mắt láo liên… đem ra khỏi xưởng. Có như vậy không? – Hòa thượng nghiêm nghị chất vấn.
-
-Câu hỏi của Sư phụ khiến ông Hồng sững sờ. Ông mở to mắt nhìn sững Hòa thượng, nói không nên lời.
-
-Hòa thượng tiếp lời
-
-– Không những thế, ông còn lấy kềm, tua vít, dây thép, lấy sắt thép trong xưởng về chế thành các vật dụng tư gia như: ống khói, ki hốt rác, bếp lò, đũa, kẹp gắp…
-
-Ông Hồng đột nhiên ngắt lời Hòa thượng:
-
-– Sư phụ, Ngài làm sao mà biết được?
-
-– Thì chính chúng đang đè trên lưng khiến ông thẳng người không nổi đấy!
-
-Đột nhiên tôi cảm thấy thư phòng trở nên giống như phòng thẩm vấn, hào khí bừng bừng lúc tiến vào phòng ban nãy của ông Hồng đã biến thành ủ rũ tang thương, ông gắng gượng một cách đáng thương, nhỏ giọng nói:
-
-– Con lấy đồ về tuyệt không phải cho mình con xài, cũng không cầm đi bán, đa số đều cho thân hữu láng giềng. Do công nhân lương thấp, dù sao cũng lấy đồ công của nhà nước, kể cả thủ kho cũng làm vậy. Đây vốn là việc đồng tình thông cảm, cùng hỗ tương nhau, là chuyện “bất thành văn” trong công xưởng, nhưng con không biết đấy là trộm. Vừa rồi Sư phụ nói, con nghe như sét nổ giữa trời quang, khiến tâm tư chấn động thức tỉnh. Thực là trời cao có mắt! Đồ công con lén lấy về Ngài biết hết trơn. Hơn nữa tất cả thứ đó giờ đều đè trên lưng con. Đây thực là “ác giả ác báo” mà. Bao nhiêu năm nay con bệnh ngày càng nặng, té ra đồ con lén lấy ngày càng nhiều tạo thành. Hôm nay mới rõ: “Muốn người đừng biết chi bằng mình đừng làm”. Câu này thiệt là đúng ghê! Con xin đảm bảo với Sư phụ, bắt đầu từ nay trở đi, con quyết nghiêm trì điều kiện của Ngài, không hút thuốc, không uống rượu, không ăn mặn, không trộm lấy tài vật quốc gia, ngày mai con sẽ đi thỉnh tượng Phật về thờ phụng, con rất hối hận vì mình tin Phật pháp quá trễ như thế này. Nếu không con đã chẳng làm điều xấu. Xin hỏi Ngài, con phải tụng đọc sách Phật nào?
-
-Tôi thật không ngờ ông Hồng có tâm tỉnh giác cao như thế, nghe ông bày tỏ lòng ăn năn sám hối, nội tâm tôi tràn trề pháp hỷ. Ngó bộ Sư phụ cũng vui giống vậy, tôi liền nói:
-
-– Tôi sẽ tặng cho ông vài sách Phật cho ông đọc trước, sau đó ông có thể đi chùa thỉnh kinh sách Phật về xem.
-
-Ông Hồng cảm ơn tôi rồi quay lại hỏi Hòa thuợng:
-
-– Những vật trước đây con lấy trong công xưởng đem về, nay có thể quy ra thành tiền đem trả lại được không?
-
-Hòa thượng nói:
-
-– Nếu ông đi trả như thế, phiền phức cho ông sẽ càng lớn. Hiện giờ trong tâm biết lỗi sám hối, tội nhờ vậy cũng tiêu trừ, nếu muốn hoàn nợ cho công xưởng, thì ông có thể “lấy công chuộc tội”, ráng làm nhiều việc cống hiến cho công xưởng để bù đắp, đồng thời phải giải thích cho thân hữu hiểu để họ tránh việc xấu này, để họ không còn tham chiếm tài sản quốc gia làm của riêng. Ông phải đem thân ông để làm gương, giữ phẩm hạnh thanh cao trong sạch. Đây chính là biết nhận lỗi hối cải, đã biết thì phải thực hành, nhất định có thể đem công đức bù đắp lỗi xưa.
-
-Lúc ra về, ông Hồng trang trọng đón nhận sách Phật, cung kính nói với Hòa thượng:
-
-– Xin Ngài hãy đợi xem, nếu như con không biết hối cải, thì rất có lỗi với Ngài!
-
-Nửa tháng sau, ông Hồng tới chỗ tôi, vừa vào cửa liền khấu đầu trước tượng Phật giữa nhà. Sau khi đứng dậy, ông vén y phục cho tôi xem, khoe dây bảo hộ lưng không còn nữa.
-
-Ông hớn hở nói:
-
-– Từ hôm ấy về nhà, tôi cảm thấy bệnh đã lành hơn phân nửa. Những gì Hòa thượng yêu cầu tôi đều tuân hành hết. Tôi đã lập bàn thờ Phật và tủ đựng kinh sách, đã thỉnh tượng Quán Thế Âm về sớm tốCao tiên sinh tuổi hơn 40. Thể cách tráng kiện, làm nhân viên bảo vệ tại một công ty lớn. Ba năm trước, do hay vì bị nhức đầu, nên đi bệnh viện kiểm tra thì mới phát hiện trong đầu có cục bướu não đè dây thần kinh, dẫn đến chứng nhức đầu. Thế là bác sĩ dùi một lỗ hổng trên đầu để lấy mụn nhọt ấy ra. Hai năm sau lại phát hiện trong đầu có một mụt to, bất đắc dĩ lại phẫu thuật lần nữa. Năm nay bác sĩ kiểm tra nói tại chỗ dùi lần trước lại mọc ra một cái mụt còn lớn hơn. Bác sĩ phán là lần này không thể dùi đầu được nữa, vì làm vậy sẽ nguy hiểm đến tính mạng.
+Cao tiên sinh tuổi hơn 40. Thể cách tráng kiện, làm nhân viên bảo vệ tại một công ty lớn. Ba năm trước, do hay vì bị nhức đầu, nên đi bệnh viện kiểm tra thì mới phát hiện trong đầu có cục bướu não đè dây thần kinh, dẫn đến chứng nhức đầu. Thế là bác sĩ dùi một lỗ hổng trên đầu để lấy mụn nhọt ấy ra. Hai năm sau lại phát hiện trong đầu có một mụt to, bất đắc dĩ lại phẫu thuật lần nữa. Năm nay bác sĩ kiểm tra nói tại chỗ dùi lần trước lại mọc ra một cái mụt còn lớn hơn. Bác sĩ phán là lần này không thể dùi đầu được nữa, vì làm vậy sẽ nguy hiểm đến tính mạng.
 
 Trước tình huống nan giải này, ông liền đến thỉnh cầu Hòa thượng Diệu Pháp khai thị.
 
@@ -792,12 +711,9 @@ Cao tiên sinh ngay hôm đó lập tức bắt đầu lễ Phật, tụng Kinh 
 
 Niệm kinh bái Phật cố nhiên có thể giúp cho tiên sinh không bị thống khổ dày vò tiếp tục, nhưng do nghiệp sát của ông quá nặng, nên bị giảm thọ. Phật lực dù quảng đại, cũng không qua nổi nghiệp lực chúng sinh. Cho nên chỉ có thành tâm sám hối, nguyện đoạn nghiệp sát, không ăn đồ mặn tanh hôi, ngăn tuyệt nhân gieo tội, mới là căn bản cầu phúc, cầu thọ.i thắp hương lễ bái. Mỗi ngày đều xem kinh, kinh Phật giảng thật hay quá. Đến nay thì tôi tâm an, khí hòa, bệnh cũng lành rồi. Những ngày tháng này gia đình chúng tôi mừng vui giống như tết, thật là cảm tạ Hòa thượng biết bao.
 
-Tôi nghe xong, trong tâm cũng vui lây theo ông. Hồng huynh quả là “buông dao đồ tể thành Phật liền” vậy đó!
-
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -858,7 +774,6 @@ Riêng phần bà nhà giàu ở Đài Loan kia, về sau bệnh viêm mũi đã
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -924,7 +839,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 11. Tổ kiến và nhà ở {#truyen-11}
@@ -982,7 +896,6 @@ Hai vợ chồng được Hòa thượng khai thị xong, xúc động ăn năn 
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -1056,7 +969,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 13. Ăn thịt chướng ngại thiện chung {#truyen-13}
@@ -1123,7 +1035,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 14. Đọc nhiều kinh Phật tăng trí tuệ {#truyen-14}
@@ -1187,7 +1098,6 @@ Phải nên xem các bộ: “Bát Nhã Tâm kinh, Kinh Địa tạng, Pháp B�
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -1301,7 +1211,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 16. Bịnh tùng khẩu nhập {#truyen-16}
@@ -1351,7 +1260,6 @@ Sư phụ giải thích:
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -1435,7 +1343,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 18. Báo ứng không ngờ {#truyen-18}
@@ -1516,7 +1423,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 19. Chứng bệnh sợ bóng tối {#truyen-19}
@@ -1552,7 +1458,6 @@ Nhân nào quả nấy. Do vậy mà đời này bà luôn sợ hãi bóng đêm
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -1654,7 +1559,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 21. Tiên sinh dạy học {#truyen-21}
@@ -1712,7 +1616,6 @@ Mong các vị có thể trì chí kiên tâm, phiền não sẽ chuyển thành
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -1789,7 +1692,6 @@ Bây giờ hàng ngày bà ngồi thiền niệm Phật, còn bắt đầu tụn
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -1877,7 +1779,6 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
 
 ## 24. Hộ trì Phật Pháp bằng đức hạnh {#truyen-24}
@@ -1919,7 +1820,6 @@ Khi bác sĩ đề nghị phẫu thuật để cắt bỏ, bà không chịu, qu
 Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
-
 
 ---
 
@@ -1971,5 +1871,5 @@ Tác giả: Quả Khanh
 
 Hạnh Đoan biên dịch
 
-
 ---
+
