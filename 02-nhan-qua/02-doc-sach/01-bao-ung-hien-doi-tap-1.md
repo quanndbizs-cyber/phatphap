@@ -670,7 +670,7 @@ Hạnh Đoan biên dịch
 <div class="tm-story-summary tm-summary-collapsible" onclick="window.tmToggleSummary(this)" title="Bấm để xem đầy đủ hoặc thu gọn tóm tắt">
   <div class="tm-summary-text">
     <strong>Tóm tắt nhân quả:</strong><br/>
-    • <strong>Nhân vật & Hoàn cảnh:</strong> Người đàn ông bị mọc một cái nhọt độc kỳ lạ ở vùng mông, sưng tấy đau đớn khôn xiết, mưng mủ thối rữa và phải đến bệnh viện dùng dùi sắt chọc sâu vào thấu xương để nặn mủ.<br/>
+    • <strong>Nhân vật & Hoàn cảnh:</strong> Người đàn ông bị mọc một cái nhọt độc kỳ lạ ở vùng đầu, sưng tấy đau đớn khôn xiết, mưng mủ thối rữa và phải đến bệnh viện dùng dùi sắt chọc sâu vào thấu xương để nặn mủ.<br/>
     • <strong>Hành vi tạo nghiệp:</strong> Thuở thiếu niên chăn trâu nghịch ngợm, ông từng lấy que sắt nung đỏ chọc thẳng vào các tổ kiến, tổ dế và hang bọ cạp dưới đất rồi thổi lửa hun khói nướng chết hàng vạn sinh linh vô tội.<br/>
     • <strong>Quả báo hiện tiền:</strong> Nỗi đau đớn khi bác sĩ dùng dao dùi khoét sâu vào vết nhọt thấu tận xương tủy chính là sự tái hiện quả báo tương ứng từ hành vi chọc que sắt đốt tổ côn trùng năm xưa.<br/>
     • <strong>Bài học & Chuyển hóa:</strong> Thấu suốt luật nhân quả báo ứng công bằng đến từng chi tiết nhỏ, ông thành tâm quỳ trước Phật sám hối nghiệp sát thuở nhỏ, dốc lòng làm lành lánh dữ cứu vớt chúng sinh.<br/>
