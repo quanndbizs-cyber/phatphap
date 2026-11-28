@@ -665,9 +665,55 @@
         });
     };
 
-    window.tmToggleStoryVideo = function (drawerId, embedUrl) {
+    function normalizeViSearch(str) {
+        if (!str) return "";
+        var s = String(str).toLowerCase();
+        try {
+            s = s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        } catch (e) {}
+        return s.replace(/đ/g, "d").trim();
+    }
+
+    window.tmSelectVideoTopic = function (boxId, topic, pillEl) {
+        var box = document.getElementById(boxId);
+        if (!box) return;
+        box.setAttribute("data-active-topic", topic || "all");
+        var pills = box.querySelectorAll(".tm-vidlist-pill");
+        for (var i = 0; i < pills.length; i++) {
+            pills[i].classList.toggle("active", pills[i] === pillEl);
+        }
+        window.tmFilterVideoList(boxId);
+    };
+
+    window.tmFilterVideoList = function (boxId) {
+        var box = document.getElementById(boxId);
+        if (!box) return;
+        var input = box.querySelector(".tm-vidlist-search");
+        var qRaw = input ? (input.value || "").trim().toLowerCase() : "";
+        var qNorm = normalizeViSearch(qRaw);
+        var activeTopic = box.getAttribute("data-active-topic") || "all";
+        var cards = box.querySelectorAll(".tm-vidstory-card");
+        var visible = 0;
+
+        for (var i = 0; i < cards.length; i++) {
+            var c = cards[i];
+            var cTopic = c.getAttribute("data-topic") || "";
+            var cSearch = c.getAttribute("data-search") || "";
+            var topicOk = (activeTopic === "all" || cTopic === activeTopic);
+            var searchOk = !qNorm || cSearch.indexOf(qRaw) !== -1 || cSearch.indexOf(qNorm) !== -1;
+            var show = topicOk && searchOk;
+            c.style.display = show ? "" : "none";
+            if (show) visible += 1;
+        }
+
+        var visEl = box.querySelector(".tm-vidlist-visible");
+        if (visEl) visEl.textContent = String(visible);
+    };
+
+    window.tmToggleStoryVideo = function (drawerId, embedUrl, autoPlay) {
         var drawer = document.getElementById(drawerId);
         if (!drawer) return;
+        var toggleBtn = document.querySelector('[data-vid-btn="' + drawerId + '"]');
         if (drawer.style.display === "none" || !drawer.innerHTML) {
             var finalUrl = embedUrl || "";
             if (finalUrl.indexOf("youtube.com/embed/") !== -1) {
@@ -677,10 +723,13 @@
                 if (finalUrl.indexOf("playsinline=") === -1) {
                     finalUrl += "&playsinline=1&rel=0";
                 }
+                if (autoPlay && finalUrl.indexOf("autoplay=") === -1) {
+                    finalUrl += "&autoplay=1";
+                }
             }
             var vidId = extractYoutubeIdFromUrl(finalUrl);
             var savedYt = vidId ? getSavedYtProgress(vidId) : null;
-            var card = drawer.closest ? drawer.closest(".tm-story-card") : null;
+            var card = drawer.closest ? drawer.closest(".tm-story-card, .tm-vidstory-card") : null;
             var cardTitleEl = card ? card.querySelector(".tm-story-title") : null;
             var vidTitle = cardTitleEl ? cardTitleEl.textContent.trim() : document.title;
 
@@ -702,11 +751,15 @@
             drawer.innerHTML =
                 resumeHtml +
                 '<div class="tm-story-video-frame">' +
-                '  <iframe src="' + escapeHtml(finalUrl) + '" title="' + escapeHtml(vidTitle) + '" style="width:100%; height:380px; border:none; border-radius:8px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>' +
+                '  <iframe src="' + escapeHtml(finalUrl) + '" title="' + escapeHtml(vidTitle) + '" style="width:100%; height:400px; border:none; border-radius:8px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>' +
                 '  <div class="tm-abs-controls-bar" style="margin-top:6px; justify-content:flex-end;">' +
                 '    <button type="button" class="tm-abs-btn tm-btn-pip-video" onclick="window.tmDockEmbedVideo(this)" title="Thu nhỏ video xuống góc màn hình để vừa xem vừa đọc bài khác">⬇ Xem nền (Thu nhỏ)</button>' +
                 '  </div>' +
                 '</div>';
+
+            if (toggleBtn) {
+                toggleBtn.textContent = "✕ Thu gọn khung phim";
+            }
 
             var ifr = drawer.querySelector("iframe");
             if (ifr && typeof registerYoutubeIframe === "function") {
@@ -715,6 +768,9 @@
         } else {
             drawer.style.display = "none";
             drawer.innerHTML = "";
+            if (toggleBtn) {
+                toggleBtn.textContent = "🎬 Xem Phim Ngay";
+            }
         }
     };
 

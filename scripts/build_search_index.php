@@ -59,18 +59,13 @@ function cleanMarkdownSnippet(string $text, int $maxLen = 220): string
     return $text;
 }
 
-$categoryMap = [
-    '01-phat-giao' => 'Pháp Môn Tịnh Độ',
-    '02-nhan-qua'  => 'Nhân Quả & Nghiệp Báo',
-    '03-giao-duc'  => 'Giáo Dục & Trí Tuệ',
-    '04-thong-bao' => 'Thông Báo',
-];
-
-$categorySlugMap = [
-    '01-phat-giao' => 'phat-giao',
-    '02-nhan-qua'  => 'nhan-qua',
-    '03-giao-duc'  => 'giao-duc',
-    '04-thong-bao' => 'thong-bao',
+$categorySlugNames = [
+    'phat-giao'       => 'Pháp Môn Tịnh Độ',
+    'nhan-qua'        => 'Nhân Quả & Nghiệp Báo',
+    'video-phat-phap' => 'Video Phật Pháp & Hoạt Hình',
+    'giao-duc'        => 'Giáo Dục & Trí Tuệ',
+    'hinh-anh'        => 'Hình Ảnh Phật Giáo',
+    'thong-bao'       => 'Thông Báo',
 ];
 
 $items = [];
@@ -85,14 +80,15 @@ foreach ($rii as $fileInfo) {
     $filePath = $fileInfo->getPathname();
     $relPath  = substr($filePath, strlen($contentDir) + 1);
     
-    // Ignore drafts, backup folders (_old), or hidden folders
-    if (str_contains($relPath, 'drafts') || str_contains($relPath, '_old') || str_starts_with($fileInfo->getFilename(), '.')) {
+    // Ignore drafts, backup folders (_old), middle_sync, or hidden folders
+    if (str_contains($relPath, 'drafts') || str_contains($relPath, '_old') || str_contains($relPath, 'middle_sync') || str_starts_with($fileInfo->getFilename(), '.')) {
         continue;
     }
 
     $parts = explode(DIRECTORY_SEPARATOR, $relPath);
     $folderKey = $parts[0] ?? '';
-    $category = $categoryMap[$folderKey] ?? 'Phật Pháp';
+    $folderSlug = preg_replace('/^\d+-/', '', $folderKey);
+    $category = $categorySlugNames[$folderSlug] ?? 'Phật Pháp';
 
     // Calculate typemill relative URL
     // e.g. 02-nhan-qua/13-cac-kinh-ve-nhan-qua.md -> /nhan-qua/cac-kinh-ve-nhan-qua
@@ -259,6 +255,34 @@ if (file_exists($knnpIndexFile)) {
                 'snippet'  => $lSnippet,
                 'type'     => 'chapter',
                 'norm'     => strtolower(removeVietnameseAccents($lTitle . ' ' . $lSnippet . ' ' . $quote)),
+            ];
+        }
+    }
+}
+
+// 5. Index Video Phật Pháp & Phim Hoạt Hình Phật Giáo (Chú Tiểu Chân Tâm / Chơn Tâm)
+$vidIndexFile = $baseDir . '/plugins/mediaplayer/data/video_stories_index.json';
+if (file_exists($vidIndexFile)) {
+    $vidData = json_decode(file_get_contents($vidIndexFile), true);
+    if (is_array($vidData) && !empty($vidData['items'])) {
+        foreach ($vidData['items'] as $v) {
+            $vTitle   = (string)($v['title'] ?? '');
+            $vUrl     = (string)($v['url'] ?? '/video-phat-phap');
+            $vCat     = (string)($v['category'] ?? 'Video Phật Pháp & Hoạt Hình');
+            $vParent  = (string)($v['parent'] ?? 'Phim Hoạt Hình Phật Giáo');
+            $vTopic   = (string)($v['topic'] ?? '');
+            $vIntro   = cleanMarkdownSnippet((string)($v['intro'] ?? ''), 150);
+            $vLesson  = cleanMarkdownSnippet((string)($v['lesson'] ?? ''), 150);
+            $vSnippet = ($vTopic ? ($vTopic . ' • ') : '') . $vIntro . ($vLesson ? (' • Bài học: ' . $vLesson) : '');
+            $items[]  = [
+                'id'       => (string)($v['id'] ?? ('vid_' . md5($vUrl))),
+                'title'    => '🎬 ' . $vTitle,
+                'url'      => $vUrl,
+                'category' => $vCat,
+                'parent'   => $vParent,
+                'snippet'  => cleanMarkdownSnippet($vSnippet, 250),
+                'type'     => 'chapter',
+                'norm'     => strtolower(removeVietnameseAccents($vTitle . ' ' . $vParent . ' ' . $vTopic . ' ' . $vIntro . ' ' . $vLesson . ' chu tieu chan tam chon tam hoat hinh hai trieu am')),
             ];
         }
     }

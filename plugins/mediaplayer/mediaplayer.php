@@ -44,8 +44,8 @@ class mediaplayer extends Plugin
             $this->handleGalleryDownload((string)$_GET['url']);
         }
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261128a');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261128a');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261128b');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261128b');
         }
     }
 
@@ -329,15 +329,44 @@ class mediaplayer extends Plugin
             $shortcodeArray['data']['gallery'] = [
                 'id' => 'text',
             ];
+            $shortcodeArray['data']['galleryhub'] = [];
+            $shortcodeArray['data']['videohub'] = [
+                'id' => 'text',
+            ];
+            $shortcodeArray['data']['videolist'] = [
+                'id' => 'text',
+            ];
             $shortcode->setData($shortcodeArray);
             return;
         }
 
-        # 1f. [:gallery :]
+        # 1f. [:gallery :] and [:galleryhub :]
         if ($name === 'gallery') {
             $shortcode->stopPropagation();
             $this->playerRendered = true;
             $shortcode->setData($this->renderGallery());
+            return;
+        }
+
+        if ($name === 'galleryhub') {
+            $shortcode->stopPropagation();
+            $shortcode->setData($this->renderGalleryHub());
+            return;
+        }
+
+        # 1g. [:videohub id="videohub" :] and [:videolist id="videos" :]
+        if ($name === 'videohub') {
+            $shortcode->stopPropagation();
+            $hubId = trim($params['id'] ?? 'videohub');
+            $shortcode->setData($this->renderVideoHub($hubId ?: 'videohub'));
+            return;
+        }
+
+        if ($name === 'videolist') {
+            $shortcode->stopPropagation();
+            $this->playerRendered = true;
+            $listId = trim($params['id'] ?? 'videos');
+            $shortcode->setData($this->renderVideoList($listId ?: 'videos'));
             return;
         }
 
@@ -1757,5 +1786,207 @@ class mediaplayer extends Plugin
         }
 
         return '<div class="tm-gallery-grid" style="grid-template-columns:repeat(auto-fill,minmax(230px,1fr));">' . $cardsHtml . '</div>';
+    }
+
+    protected function stripAccentsForSearch(string $str): string
+    {
+        $accents = [
+            'à'=>'a','á'=>'a','ả'=>'a','ã'=>'a','ạ'=>'a','ă'=>'a','ằ'=>'a','ắ'=>'a','ẳ'=>'a','ẵ'=>'a','ặ'=>'a','â'=>'a','ầ'=>'a','ấ'=>'a','ẩ'=>'a','ẫ'=>'a','ậ'=>'a',
+            'è'=>'e','é'=>'e','ẻ'=>'e','ẽ'=>'e','ẹ'=>'e','ê'=>'e','ề'=>'e','ế'=>'e','ể'=>'e','ễ'=>'e','ệ'=>'e',
+            'ì'=>'i','í'=>'i','ỉ'=>'i','ĩ'=>'i','ị'=>'i',
+            'ò'=>'o','ó'=>'o','ỏ'=>'o','õ'=>'o','ọ'=>'o','ô'=>'o','ồ'=>'o','ố'=>'o','ổ'=>'o','ỗ'=>'o','ộ'=>'o','ơ'=>'o','ờ'=>'o','ớ'=>'o','ở'=>'o','ỡ'=>'o','ợ'=>'o',
+            'ù'=>'u','ú'=>'u','ủ'=>'u','ũ'=>'u','ụ'=>'u','ư'=>'u','ừ'=>'u','ứ'=>'u','ử'=>'u','ữ'=>'u','ự'=>'u',
+            'ỳ'=>'y','ý'=>'y','ỷ'=>'y','ỹ'=>'y','ỵ'=>'y','đ'=>'d',
+            'À'=>'A','Á'=>'A','Ả'=>'A','Ã'=>'A','Ạ'=>'A','Ă'=>'A','Ằ'=>'A','Ắ'=>'A','Ẳ'=>'A','Ẵ'=>'A','Ặ'=>'A','Â'=>'A','Ầ'=>'A','Ấ'=>'A','Ẩ'=>'A','Ẫ'=>'A','Ậ'=>'A',
+            'È'=>'E','É'=>'E','Ẻ'=>'E','Ẽ'=>'E','Ẹ'=>'E','Ê'=>'E','Ề'=>'E','Ế'=>'E','Ể'=>'E','Ễ'=>'E','Ệ'=>'E',
+            'Ì'=>'I','Í'=>'I','Ỉ'=>'I','Ĩ'=>'I','Ị'=>'I',
+            'Ò'=>'O','Ó'=>'O','Ỏ'=>'O','Õ'=>'O','Ọ'=>'O','Ô'=>'O','Ồ'=>'O','Ố'=>'O','Ổ'=>'O','Ỗ'=>'O','Ộ'=>'O','Ơ'=>'O','Ờ'=>'O','Ớ'=>'O','Ở'=>'O','Ỡ'=>'O','Ợ'=>'O',
+            'Ù'=>'U','Ú'=>'U','Ủ'=>'U','Ũ'=>'U','Ụ'=>'U','Ư'=>'U','Ừ'=>'U','Ứ'=>'U','Ử'=>'U','Ữ'=>'U','Ự'=>'U',
+            'Ỳ'=>'Y','Ý'=>'Y','Ỷ'=>'Y','Ỹ'=>'Y','Ỵ'=>'Y','Đ'=>'D',
+        ];
+        return mb_strtolower(strtr($str, $accents), 'UTF-8');
+    }
+
+    protected function renderVideoHub(string $hubId = 'videohub'): string
+    {
+        $albums = $this->currentMeta['mediaplayer'][$hubId]['items'] ?? ($this->currentMeta[$hubId]['items'] ?? []);
+        if (empty($albums) || !is_array($albums)) {
+            return '';
+        }
+
+        $cardsHtml = '';
+        foreach ($albums as $alb) {
+            $title  = htmlspecialchars((string)($alb['title'] ?? ''), ENT_QUOTES, 'UTF-8');
+            $rawUrl = trim((string)($alb['url'] ?? '#'));
+            $isExt  = (bool)preg_match('#^https?://#i', $rawUrl);
+            $url    = htmlspecialchars($this->qualifyUrl($rawUrl), ENT_QUOTES, 'UTF-8');
+            $cover  = htmlspecialchars((string)($alb['cover'] ?? ''), ENT_QUOTES, 'UTF-8');
+            $badge  = htmlspecialchars((string)($alb['badge'] ?? ''), ENT_QUOTES, 'UTF-8');
+            $desc   = htmlspecialchars((string)($alb['desc'] ?? ($alb['note'] ?? '')), ENT_QUOTES, 'UTF-8');
+            $cta    = htmlspecialchars((string)($alb['cta'] ?? 'Khám phá bộ phim →'), ENT_QUOTES, 'UTF-8');
+            $target = $isExt ? ' target="_blank" rel="noopener noreferrer"' : '';
+
+            $cardsHtml .= '<a href="' . $url . '" class="tm-videohub-card"' . $target . '>'
+                        . '  <div class="tm-videohub-thumb-wrap">'
+                        . ($cover ? '<img src="' . $cover . '" alt="' . $title . '" loading="lazy" class="tm-videohub-thumb" />' : '')
+                        . ($badge ? '<span class="tm-videohub-badge">' . $badge . '</span>' : '')
+                        . '    <span class="tm-videohub-play-hint" aria-hidden="true">▶ Mở chuyên mục</span>'
+                        . '  </div>'
+                        . '  <div class="tm-videohub-body">'
+                        . '    <h3 class="tm-videohub-title">' . $title . '</h3>'
+                        . ($desc ? '<p class="tm-videohub-desc">' . $desc . '</p>' : '')
+                        . '    <span class="tm-videohub-cta">' . $cta . '</span>'
+                        . '  </div>'
+                        . '</a>';
+        }
+
+        return '<div class="tm-videohub-grid">' . $cardsHtml . '</div>';
+    }
+
+    protected function renderVideoList(string $listId = 'videos'): string
+    {
+        $vidData = $this->currentMeta['mediaplayer'][$listId] ?? ($this->currentMeta[$listId] ?? null);
+        if (!$vidData || empty($vidData['items']) || !is_array($vidData['items'])) {
+            return '<div class="tm-media-alert">Chưa có danh sách video cho mục [' . htmlspecialchars($listId, ENT_QUOTES, 'UTF-8') . '].</div>';
+        }
+
+        $items = array_values($vidData['items']);
+        $total = count($items);
+        $uid   = 'tmvids_' . substr(md5($listId . $total . ($items[0]['title'] ?? '')), 0, 8);
+
+        $topicCounts = [];
+        foreach ($items as $it) {
+            $tp = trim((string)($it['topic'] ?? ''));
+            if ($tp !== '') {
+                $topicCounts[$tp] = ($topicCounts[$tp] ?? 0) + 1;
+            }
+        }
+
+        $pillsHtml = '';
+        if (count($topicCounts) > 1) {
+            $pillsHtml .= '<div class="tm-vidlist-pills" role="tablist" aria-label="Lọc theo chủ đề bài học">'
+                        . '<button type="button" class="tm-vidlist-pill active" data-topic="all" onclick="window.tmSelectVideoTopic(\'' . $uid . '\', \'all\', this)">Tất cả (' . $total . ')</button>';
+            foreach ($topicCounts as $tpName => $tpCount) {
+                $safeTp = htmlspecialchars($tpName, ENT_QUOTES, 'UTF-8');
+                $jsTp   = htmlspecialchars(addslashes($tpName), ENT_QUOTES, 'UTF-8');
+                $pillsHtml .= '<button type="button" class="tm-vidlist-pill" data-topic="' . $safeTp . '" onclick="window.tmSelectVideoTopic(\'' . $uid . '\', \'' . $jsTp . '\', this)">'
+                            . $safeTp . ' (' . $tpCount . ')'
+                            . '</button>';
+            }
+            $pillsHtml .= '</div>';
+        }
+
+        $html = '<div class="tm-vidlist-box" id="' . $uid . '" data-active-topic="all">'
+              . '  <div class="tm-vidlist-controls">'
+              . '    <div class="tm-tracklist-toolbar tm-vidlist-toolbar">'
+              . '      <input type="search" class="tm-tracklist-search tm-vidlist-search" placeholder="🔍 Tìm nhanh theo tên câu chuyện, thắc mắc đời sống hoặc bài học (vd: buông bỏ, so sánh, Cực Lạc, Chân Tâm)..." oninput="window.tmFilterVideoList(\'' . $uid . '\')" />'
+              . '      <span class="tm-tracklist-count">Hiển thị: <strong class="tm-vidlist-visible">' . $total . '</strong> / ' . $total . ' câu chuyện</span>'
+              . '    </div>'
+              .      $pillsHtml
+              . '  </div>'
+              . '  <div class="tm-vidlist-items">';
+
+        $volTitleClean = htmlspecialchars((string)($this->currentMeta['meta']['title'] ?? 'Video Phật Pháp — Chú Tiểu Chân Tâm'), ENT_QUOTES, 'UTF-8');
+
+        foreach ($items as $i => $st) {
+            $num      = $st['id'] ?? ($i + 1);
+            $rawTitle = (string)($st['title'] ?? ('Câu chuyện ' . $num));
+            $title    = htmlspecialchars($rawTitle, ENT_QUOTES, 'UTF-8');
+            $rawTopic = trim((string)($st['topic'] ?? ''));
+            $topic    = htmlspecialchars($rawTopic, ENT_QUOTES, 'UTF-8');
+            $dur      = htmlspecialchars(trim((string)($st['duration'] ?? '')), ENT_QUOTES, 'UTF-8');
+            $rawIntro = trim((string)($st['intro'] ?? ($st['summary'] ?? '')));
+            $rawLess  = trim((string)($st['lesson'] ?? ''));
+            $intro    = nl2br(htmlspecialchars($rawIntro, ENT_QUOTES, 'UTF-8'));
+            $lesson   = nl2br(htmlspecialchars($rawLess, ENT_QUOTES, 'UTF-8'));
+
+            $vidUrl   = trim((string)($st['video_url'] ?? ''));
+            $normVid  = $this->normalizeEmbedUrl($vidUrl);
+            $embedVid = htmlspecialchars($normVid['url'] ?? '', ENT_QUOTES, 'UTF-8');
+            $safeVid  = htmlspecialchars($vidUrl, ENT_QUOTES, 'UTF-8');
+            $vidBoxId = $uid . '_vdraw_' . $i;
+
+            $thumbUrl = trim((string)($st['thumb'] ?? ''));
+            if ($thumbUrl === '') {
+                $coverId = trim((string)($st['cover_id'] ?? ''));
+                if ($coverId === '' && !empty($normVid['videoId']) && !str_starts_with($normVid['videoId'], 'pl_')) {
+                    $coverId = $normVid['videoId'];
+                }
+                if ($coverId !== '') {
+                    $thumbUrl = 'https://i.ytimg.com/vi/' . rawurlencode($coverId) . '/hqdefault.jpg';
+                }
+            }
+            $safeThumb = htmlspecialchars($thumbUrl, ENT_QUOTES, 'UTF-8');
+
+            $combinedPlain = $rawTitle . ' ' . $rawTopic . ' ' . $rawIntro . ' ' . $rawLess . ' chon tam chan tam';
+            $searchIndex   = htmlspecialchars(mb_strtolower($combinedPlain, 'UTF-8') . ' ' . $this->stripAccentsForSearch($combinedPlain), ENT_QUOTES, 'UTF-8');
+
+            $html .= '<article class="tm-vidstory-card" id="tap-' . htmlspecialchars((string)$num, ENT_QUOTES, 'UTF-8') . '" data-topic="' . $topic . '" data-search="' . $searchIndex . '">'
+                   . '  <div class="tm-vidstory-layout">';
+
+            if ($safeThumb !== '' && $embedVid !== '') {
+                $html .= '    <div class="tm-vidstory-media">'
+                       . '      <button type="button" class="tm-vidstory-thumb-btn" onclick="window.tmToggleStoryVideo(\'' . $vidBoxId . '\', \'' . $embedVid . '\', true)" title="Bấm để mở phim ngay tại trang: ' . $title . '" aria-label="Xem phim: ' . $title . '">'
+                       . '        <img src="' . $safeThumb . '" alt="' . $title . '" loading="lazy" class="tm-vidstory-thumb-img" />'
+                       . '        <span class="tm-vidstory-play-circle" aria-hidden="true">▶</span>'
+                       . ($dur !== '' ? '<span class="tm-vidstory-dur-badge">' . $dur . '</span>' : '')
+                       . '      </button>'
+                       . '    </div>';
+            }
+
+            $html .= '    <div class="tm-vidstory-content">'
+                   . '      <div class="tm-vidstory-meta">'
+                   . '        <span class="tm-vidstory-num">Tập #' . htmlspecialchars((string)$num, ENT_QUOTES, 'UTF-8') . '</span>'
+                   . ($topic !== '' ? '<span class="tm-vidstory-topic">' . $topic . '</span>' : '')
+                   . ($dur !== '' ? '<span class="tm-vidstory-dur-inline">⏱ ' . $dur . '</span>' : '')
+                   . '      </div>'
+                   . '      <h3 class="tm-vidstory-title tm-story-title">' . $title . '</h3>';
+
+            if ($intro !== '') {
+                $html .= '      <div class="tm-vidstory-intro">'
+                       . '        <div class="tm-vidstory-label">🌱 Lời mở đầu &amp; Định hướng câu chuyện</div>'
+                       . '        <div class="tm-vidstory-intro-text">' . $intro . '</div>'
+                       . '      </div>';
+            }
+
+            if ($lesson !== '') {
+                $html .= '      <div class="tm-vidstory-lesson">'
+                       . '        <div class="tm-vidstory-lesson-label">💡 Đem lại cho cuộc sống &amp; Bài học thực hành</div>'
+                       . '        <div class="tm-vidstory-lesson-text">' . $lesson . '</div>'
+                       . '      </div>';
+            }
+
+            $html .= '      <div class="tm-vidstory-actions">';
+            if ($embedVid !== '') {
+                $html .= '        <button type="button" class="tm-track-btn tm-track-btn-video tm-vidstory-play-btn" data-vid-btn="' . $vidBoxId . '" onclick="window.tmToggleStoryVideo(\'' . $vidBoxId . '\', \'' . $embedVid . '\', true)">🎬 Xem Phim Ngay</button>';
+            }
+
+            if (!empty($st['read_url'])) {
+                $rawRead    = trim((string)$st['read_url']);
+                $isExtRead  = (bool)preg_match('#^https?://#i', $rawRead);
+                $safeRead   = htmlspecialchars($this->qualifyUrl($rawRead), ENT_QUOTES, 'UTF-8');
+                $readLabel  = htmlspecialchars((string)($st['read_label'] ?? '📖 Bài đọc liên quan'), ENT_QUOTES, 'UTF-8');
+                $targetAttr = $isExtRead ? ' target="_blank" rel="noopener noreferrer"' : '';
+                $html .= '        <a class="tm-track-btn tm-track-btn-read" href="' . $safeRead . '"' . $targetAttr . '>' . $readLabel . '</a>';
+            }
+
+            if ($safeVid !== '') {
+                $html .= '        <a class="tm-track-action" href="' . $safeVid . '" target="_blank" rel="noopener noreferrer" title="Mở video gốc trên YouTube">↗ YouTube</a>';
+            }
+
+            $shareSummary = htmlspecialchars(trim($rawIntro . ($rawLess !== '' ? ("\n\n💡 Bài học: " . $rawLess) : '')), ENT_QUOTES, 'UTF-8');
+            $shareAnchor  = '#tap-' . htmlspecialchars((string)$num, ENT_QUOTES, 'UTF-8');
+            $html .= '        <button type="button" class="tm-track-btn tm-track-btn-share" onclick="window.tmShareStory(this)" data-title="' . $title . '" data-url="' . $shareAnchor . '" data-vol="' . $volTitleClean . '" data-summary="' . $shareSummary . '">🔗 Chia sẻ</button>'
+                   . '      </div>'
+                   . '    </div>'
+                   . '  </div>'
+                   . '  <div class="tm-story-video-drawer" id="' . $vidBoxId . '" style="display:none;"></div>'
+                   . '</article>';
+        }
+
+        $html .= '  </div>'
+               . '</div>';
+
+        return $html;
     }
 }
