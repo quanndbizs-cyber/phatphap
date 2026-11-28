@@ -117,7 +117,7 @@ themes:
             - footer2
             - footer3
         footer1: "### 🪷 Thư Viện Tịnh Độ Liên Hoa\n\nKhông gian lưu trữ và chia sẻ kinh sách, pháp âm Tịnh Độ, truyện nhân quả Báo Ứng Hiện Đời và tri thức tu học thanh tịnh.\n\n**Chân thành • Thanh tịnh • Bình đẳng • Chánh giác • Từ bi**\n\n**Nhìn thấu • Buông xả • Tự tại • Tùy duyên • Niệm Phật**"
-        footer2: "### Chuyên Mục Tu Học\n\n* [Khu Vực Chuyên Tu Tịnh Độ](/#khu-vuc-tinh-do)\n* [Phật Giáo & Chánh Pháp](/phat-giao)\n* [Câu Chuyện Nhân Quả](/nhan-qua)\n* [Khoa Học & Giáo Dục](/giao-duc)\n* [Thông Báo & Tin Mới](/thong-bao)"
+        footer2: "### Chuyên Mục Tu Học\n\n* [Khu Vực Chuyên Tu Tịnh Độ](/#khu-vuc-tinh-do)\n* [Phật Giáo & Chánh Pháp](/phat-giao)\n* [Câu Chuyện Nhân Quả](/nhan-qua)\n* [Video Phật Pháp & Hoạt Hình](/video-phat-phap)\n* [Khoa Học & Giáo Dục](/giao-duc)\n* [Thông Báo & Tin Mới](/thong-bao)"
         footer3: "### Pháp Âm & Kinh Sách Tiêu Biểu\n\n* [Đệ Tử Quy - Thầy Thái Lễ Húc](/phat-giao/de-tu-quy)\n* [Các Bài Khai Thị Hộ Niệm](/phat-giao/cac-bai-khai-thi)\n* [Báo Ứng Hiện Đời (Trọn Bộ 7 Tập)](/nhan-qua/bao-ung-hien-doi-tuyen-tap)\n* [Sân Hận Và Công Đức](/phat-giao/san-han-va-cong-duc)\n* [Tu Tập Và Khoa Học](/phat-giao/tu-tap-va-khoa-hoc)"
     cyanine:
         layoutsize: large

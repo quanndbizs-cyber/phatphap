@@ -1,0 +1,123 @@
+meta:
+  title: 'Phần 1: Đời Thường, An Nhiên & Buông Bỏ Âu Lo — Hoạt Hình Chú Tiểu Chân Tâm (12 Tập)'
+  description: '12 tập phim hoạt hình Phật giáo gần gũi giúp các bạn trẻ hóa giải tâm lý so sánh, đối diện vô thường chia ly, thấu hiểu cảm xúc và sống an nhiên giữa đời thường.'
+  owner: 'quannd'
+  author: 'Hải Triều Âm (@haitrieuamvn) • Biên tập: Tịnh Độ Liên Hoa'
+  created: '2026-11-28'
+  modified: '2026-11-28'
+  time: '08-40-00'
+  navtitle: 'Đời Thường, An Nhiên & Buông Bỏ'
+  pageid: 'hoathinhpg00002'
+mediaplayer:
+  videos:
+    items:
+    - id: 1
+      topic: 'Ca khúc chủ đề & Duyên khởi'
+      title: 'Chơn Tâm ơi, mình đi thôi 🌸 – Bài hát viết riêng cho chú Tiểu Chân Tâm (Official MV)'
+      duration: 'MV Ca khúc'
+      video_url: 'https://www.youtube.com/watch?v=0XvaEC-BuIc'
+      intro: |
+        Mỗi hành trình lớn đều bắt đầu từ một bước chân nhỏ và một trái tim biết lắng nghe. Ca khúc mở đầu đưa chúng ta làm quen với chú Tiểu Chân Tâm (Chơn Tâm) — cậu bé mang theo chiếc tay nải giản dị, nửa chiếc bánh chia sẻ cùng bạn đồng hành và đôi mắt tròn xoe đầy ắp những câu hỏi hồn nhiên giữa cuộc đời rộng lớn.
+        Mục tiêu của bài hát là khơi dậy nơi người nghe sự tĩnh lặng dịu dàng, gác lại nhịp sống vội vã để sẵn sàng bước vào hành trình khám phá chính mình.
+      lesson: 'Giúp tâm hồn lắng dịu sau những giờ học tập, làm việc căng thẳng; nhắc ta rằng trưởng thành không phải là hết thắc mắc, mà là mỗi câu hỏi chân thành đều mở ra thêm một chân trời hiểu và thương giữa đời thường.'
+    - id: 2
+      topic: 'Ca khúc chủ đề & Duyên khởi'
+      title: 'Tôi đã viết nên chú tiểu Chơn Tâm bằng một bàn tay – Duyên khởi vượt qua nghịch cảnh'
+      duration: '7:46'
+      video_url: 'https://www.youtube.com/watch?v=unol6sB-aGU'
+      intro: |
+        Đằng sau nét vẽ hiền lành và nụ cười trong veo của chú Tiểu Chân Tâm là một câu chuyện đời thực đầy xúc động của tác giả kênh Hải Triều Âm: những đêm vừa gõ kịch bản bằng một bàn tay sau biến cố tai nạn, vừa lo lắng cho đứa con nhỏ mới sáu tháng tuổi.
+        Câu chuyện mở ra phương hướng rất thực tế cho các bạn trẻ khi đứng trước biến cố, thất bại hay bế tắc trong sự nghiệp và cuộc sống.
+      lesson: 'Nghịch cảnh không đến để vùi dập ta, mà có thể trở thành mảnh đất nảy mầm cho ý chí và lòng từ bi. Khi còn một bàn tay, một hơi thở và một tâm nguyện thiện lành, ta vẫn có thể tạo ra giá trị tốt đẹp trao tặng cuộc đời.'
+    - id: 3
+      topic: 'Buông bỏ so sánh & Âu lo'
+      title: 'Tứ Diệu Đế đời thường (Tập 1) – Khổ đế: Có phần rồi, sao lòng vẫn thấy thiếu?'
+      duration: '7:23'
+      video_url: 'https://www.youtube.com/watch?v=D_0voe1Fq9A'
+      read_url: '/phat-giao/tu-dieu-de'
+      read_label: '📖 Đọc thêm: Tứ Diệu Đế'
+      intro: |
+        Chỉ từ chuyện chia một chiếc bánh giữa Chân Tâm, Diệu Anh và An Nhiên: phần bánh trên tay mình vốn chẳng hề nhỏ đi, vậy tại sao vừa nhìn thấy bạn có hai phần thì niềm vui trong lòng mình lại lập tức vơi mất?
+        Tập phim soi chiếu trực diện căn bệnh tâm lý phổ biến nhất của người trẻ thời mạng xã hội: nỗi khổ mang tên 'so sánh với người khác' (peer pressure).
+      lesson: 'Nhận diện rõ nguồn gốc của sự bất an không nằm ở việc ta thiếu thốn, mà ở tâm phân biệt so đo hơn thiệt. Biết đủ (tri túc) và vui với niềm vui của người khác (tùy hỷ) là chìa khóa trả lại sự bình yên tức thì cho tâm hồn.'
+    - id: 4
+      topic: 'Đối diện vô thường & Chia ly'
+      title: 'Chơn Tâm (Tập 1) – Ở thiên giới cũng có lúc chia xa'
+      duration: '5:37'
+      video_url: 'https://www.youtube.com/watch?v=0U9odnU_xnE'
+      intro: |
+        Ai trong đời cũng từng ước có một nơi mà người mình thương không bao giờ rời đi. Chú Tiểu Chân Tâm cũng từng ngỡ cõi trời rực rỡ là nơi chẳng có chia ly, cho đến ngày phải tiễn biệt người ông mà bé vô cùng kính thương dù đã tìm đủ mọi cách níu giữ.
+        Câu chuyện định hướng cho người xem cách đối diện lành mạnh với nỗi mất mát, chia tay hay sự thay đổi không thể tránh khỏi trong đời.
+      lesson: 'Thay đổi thế giới quan về sự vô thường: hợp tan là quy luật tự nhiên của vạn vật có tướng. Hiểu vô thường không phải để bi lụy, mà để ta sống trọn vẹn, yêu thương chân thành và không trì hoãn lời tử tế với người bên cạnh ngay hôm nay.'
+    - id: 5
+      topic: 'Đối diện vô thường & Chia ly'
+      title: 'Ma vương Ba Tuần thử chú tiểu bằng điều bé thương nhất'
+      duration: '7:02'
+      video_url: 'https://www.youtube.com/watch?v=dIM6NOrZJlg'
+      intro: |
+        Vàng bạc, bánh ngon hay lời khen ngợi đều không làm chú Tiểu Chân Tâm lay động, nhưng chỉ một câu hỏi chạm đúng nỗi nhớ mẹ sâu thẳm lại khiến bước chân bé khựng lại.
+        Tập phim đặt ra một câu hỏi rất thật cho mỗi chúng ta: ranh giới giữa tình yêu thương cao đẹp và sự dính mắc làm khổ nhau nằm ở đâu?
+      lesson: 'Giúp người xem chuyển hóa nhân sinh quan về tình cảm: thương yêu chân thật là mong người mình thương được an vui và tự mình sống vững chãi, sáng suốt — chứ không biến nỗi nhớ thương thành sợi dây trói buộc khiến cả hai cùng chìm trong u sầu.'
+    - id: 6
+      topic: 'Buông bỏ so sánh & Âu lo'
+      title: 'Vì sao thân người khó được? – Ví dụ con rùa mù giữa biển khơi Đức Phật dạy'
+      duration: '12:53'
+      video_url: 'https://www.youtube.com/watch?v=2kLyppVune0'
+      intro: |
+        Nhìn quanh thấy hàng tỷ người trên trái đất, chú Tiểu thắc mắc: sao Đức Phật lại ví cơ hội làm người hiếm hoi như con rùa mù trăm năm nổi lên mặt biển một lần, gặp đúng lỗ cây gỗ trôi dạt?
+        Câu chuyện giúp các bạn trẻ nhìn lại giá trị thật sự của sinh mệnh và quỹ thời gian quý giá mà mình đang nắm giữ mỗi sáng thức dậy.
+      lesson: 'Đánh thức lòng biết ơn cuộc sống: được làm người có đầy đủ trí tuệ để học điều lành, sửa đổi bản thân là phước báu lớn lao. Nhờ đó, ta tự nhiên buông bỏ những giận hờn vụn vặt để sống một đời thật ý nghĩa và tỉnh thức.'
+    - id: 7
+      topic: 'Nhân sinh quan & Thế giới quan'
+      title: 'Na Tiên vấn đáp (Tập 1) – Không có ''cái ta'' bất biến, vậy ai là người nhận quả báo?'
+      duration: '20:19'
+      video_url: 'https://www.youtube.com/watch?v=00jX6vTG70Y'
+      read_url: '/nhan-qua'
+      read_label: '📖 Chuyên mục Nhân Quả'
+      intro: 'Qua cuộc đối thoại sắc bén nổi tiếng giữa vua Mi-lan-đà và Tỳ-kheo Na Tiên về chiếc xe và ngọn đèn nối lửa, tập phim giải đáp thắc mắc triết học lớn của nhiều bạn trẻ khi tìm hiểu đạo Phật: nếu vạn vật vô ngã và luôn thay đổi, vậy người làm việc hôm nay và người nhận kết quả ngày mai liên hệ với nhau thế nào?'
+      lesson: 'Mở sáng nhân sinh quan vừa tự tại vừa có trách nhiệm: con người không phải một khối bất biến cứng nhắc (nên ai cũng có thể đổi mới, sửa sai và tiến bộ từng ngày), đồng thời dòng chảy nhân quả liên tục không đứt đoạn nhắc ta gieo nhân thiện lành trong từng suy nghĩ, lời nói.'
+    - id: 8
+      topic: 'Nhân sinh quan & Thế giới quan'
+      title: 'Vì sao tái sinh không nhớ kiếp trước? – Góc nhìn Phật giáo về ký ức và nguyện lực'
+      duration: '19:17'
+      video_url: 'https://www.youtube.com/watch?v=G2uwqxk019U'
+      intro: |
+        Nhiều bạn trẻ từng tò mò: nếu luân hồi là có thật, vì sao ta không nhớ gì về quá khứ, và việc 'không nhớ' ấy là thiệt thòi hay chính là cơ hội để bắt đầu một trang đời mới?
+        Chú Tiểu Chân Tâm theo chân Đức Phật tìm hiểu sự khác biệt giữa tâm mê muội bị nghiệp dẫn đi và tâm tỉnh thức do nguyện lực làm chủ.
+      lesson: 'Thay vì tò mò viển vông về quá khứ xa xôi, điều quan trọng nhất trong cuộc sống hiện tại là rèn luyện sự tỉnh biết (chánh niệm) và nuôi dưỡng thiện nguyện — bởi chính phẩm chất tâm hôm nay đang định hình tương lai của chúng ta.'
+    - id: 9
+      topic: 'Nhân sinh quan & Thế giới quan'
+      title: 'Bát Nhã Tâm Kinh (Tập 1) – Vì sao nói ''Sắc tức thị Không''?'
+      duration: '17:06'
+      video_url: 'https://www.youtube.com/watch?v=UyZA8yebJRk'
+      intro: |
+        Nghe chữ 'Không' trong Phật giáo, không ít người hiểu lầm đạo Phật là bi quan hay phủ nhận sạch trơn mọi thứ. Chú Tiểu Chân Tâm ban đầu cũng nghĩ chiếc bát trống rỗng hay chiếc chén vỡ vụn mới là 'Không'.
+        Tập phim dẫn dắt người xem khám phá ý nghĩa chân thật, sống động của tính Không ngay trong chiếc chén, bông hoa và hoàn cảnh đời thường.
+      lesson: 'Thay đổi sâu sắc thế giới quan: ''Không'' nghĩa là không có thực thể cố định đứng riêng một mình, mọi sự đều do muôn vàn nhân duyên hội tụ mà thành. Hiểu tính Không giúp ta sống khiêm cung, biết ơn vạn vật quanh mình và không tuyệt vọng khi hoàn cảnh đổi thay, vì nhân duyên đổi thì cuộc đời luôn có lối mở mới.'
+    - id: 10
+      topic: 'Hiểu mình & Chuyển hóa tâm thức'
+      title: 'Duy Thức Học (Tập 1) – ''Cái tôi'' nằm ở đâu, vì sao mỗi người nhìn thế giới mỗi khác?'
+      duration: '17:09'
+      video_url: 'https://www.youtube.com/watch?v=JonyEA4hZpI'
+      intro: |
+        Trước câu hỏi hóm hỉnh của Bồ Tát Di Lặc: 'Cái con vẫn gọi là TÔI nằm ở đâu?', chú Tiểu thử chỉ vào thân thể, cảm xúc, suy nghĩ rồi ký ức — nhưng thứ nào cũng đổi thay chớp nhoáng từ đóa sen sang... đĩa cá chiên!
+        Tập phim giúp người trẻ khám phá cơ chế vận hành của tâm lý và lý do vì sao cùng một sự việc mà mỗi người lại cảm nhận hoàn toàn khác nhau.
+      lesson: 'Bớt bảo thủ và bớt giận dỗi trong giao tiếp gia đình, công sở, bạn bè: khi hiểu mỗi người đang nhìn đời qua ''lăng kính tâm thức'' riêng của họ, ta học được sự lắng nghe, thấu cảm và không đồng nhất bản thân với một cơn nóng giận nhất thời.'
+    - id: 11
+      topic: 'Hiểu mình & Chuyển hóa tâm thức'
+      title: 'Duy Thức Học (Tập 2) – Từ cái thấy đến tám thức: Chính mắt thấy đã chắc đúng chưa?'
+      duration: '15:00'
+      video_url: 'https://www.youtube.com/watch?v=Mndw4w0DciE'
+      intro: |
+        Một viên ngọc dưới ánh đèn hiện màu vàng, ra ngoài nắng lại hiện màu trắng, đặt dưới nước kích thước lại đổi khác. Trong đời sống hằng ngày, biết bao hiểu lầm và tổn thương nảy sinh chỉ vì câu nói: 'Chính mắt tôi trông thấy rành rành!'
+        Câu chuyện giúp người xem phân biệt rõ giữa 'hình ảnh khách quan' và 'câu chuyện suy diễn' mà ý thức tự thêu dệt thêm.
+      lesson: 'Rèn luyện thái độ điềm tĩnh, chậm lại một nhịp trước những tin đồn hay mâu thuẫn thường ngày; không vội vàng dán nhãn hay kết tội người khác chỉ qua một góc nhìn phiến diện ban đầu.'
+    - id: 12
+      topic: 'Hiểu mình & Chuyển hóa tâm thức'
+      title: 'Duy Thức Học (Tập 5–6) – Một ý nghĩ vừa thoáng qua, nó có biến mất hẳn không?'
+      duration: '14:00'
+      video_url: 'https://www.youtube.com/watch?v=y5Vs9vPjYQI'
+      intro: |
+        Mỗi ngày có hàng ngàn ý nghĩ vui, buồn, thương, ghét thoáng qua trong đầu rồi lắng xuống. Liệu chúng biến mất hoàn toàn như khói tan, hay âm thầm lưu lại thành 'hạt giống' (chủng tử) trong kho chứa tâm thức A-lại-da?
+        Tập phim giải thích cực kỳ trực quan về cách hình thành tính cách, thói quen và số phận của mỗi con người.
+      lesson: 'Đem lại phương pháp làm mới bản thân từ gốc rễ: mỗi lời nói tử tế, mỗi suy nghĩ thiện lành và mỗi phút giây chánh niệm hôm nay đều là một hạt giống lành được tưới tẩm, dần dần chuyển hóa những thói quen tiêu cực, lo âu lâu năm.'
