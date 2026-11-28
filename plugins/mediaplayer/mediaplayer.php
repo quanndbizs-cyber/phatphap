@@ -518,6 +518,8 @@ class mediaplayer extends Plugin
             'JOF9aBUxEh' => 'kt_25',
             'b3ktD4wW9F' => 'kt_26',
             'Kg0uYNyvg4' => 'kt_27',
+            '48+Toa+Dam+Ho+Niem+Chu+Y' => 'td48',
+            '48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y' => 'td48',
         ];
         foreach ($map as $needle => $key) {
             if (str_contains($url, $needle)) {
@@ -564,6 +566,31 @@ class mediaplayer extends Plugin
                 'tracks' => $tracks,
             ];
         }
+
+        if (empty($groups) && !empty($this->currentMeta['mediaplayer']['stories']['items']) && is_array($this->currentMeta['mediaplayer']['stories']['items'])) {
+            $fallbackTracks = [];
+            foreach (array_values($this->currentMeta['mediaplayer']['stories']['items']) as $idx => $st) {
+                if (empty($st['audio_src'])) {
+                    continue;
+                }
+                $tTitle = preg_replace('/\s*\(\d{1,2}:\d{2}(?::\d{2})?\)\s*$/u', '', (string)($st['title'] ?? ('Bài ' . ($idx + 1))));
+                $fallbackTracks[] = [
+                    'index'    => (int)($st['id'] ?? ($idx + 1)),
+                    'title'    => $this->shortenTrackTitle($tTitle),
+                    'duration' => (int)($st['duration'] ?? 0),
+                    'src'      => $this->qualifyUrl((string)$st['audio_src']),
+                ];
+            }
+            if (!empty($fallbackTracks)) {
+                $groups[] = [
+                    'key'    => $keysCsv ?: 'page_audio',
+                    'id'     => $keysCsv ?: 'page_audio',
+                    'title'  => (string)($this->currentMeta['mediaplayer']['title'] ?? ($this->currentMeta['meta']['title'] ?? 'Danh sách Pháp Âm')),
+                    'tracks' => $fallbackTracks,
+                ];
+            }
+        }
+
         return $groups;
     }
 
