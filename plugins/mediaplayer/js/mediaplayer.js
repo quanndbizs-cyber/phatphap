@@ -252,8 +252,10 @@
     function getAbsGroups(uid) {
         var box = document.getElementById(uid);
         if (!box) return [];
+        if (box._parsedGroups) return box._parsedGroups;
         try {
-            return JSON.parse(box.getAttribute("data-groups") || "[]");
+            box._parsedGroups = JSON.parse(box.getAttribute("data-groups") || "[]");
+            return box._parsedGroups;
         } catch (e) {
             return [];
         }
@@ -3100,21 +3102,32 @@
     var bgAudioConfirmed = false;
     var bgVideoConfirmed = false;
     var lastProgressSaveTs = 0;
+    var PROGRESS_CHECKPOINT_MS = 15000;
+    var storageMemCache = {};
     var ytStates = {};
     var ytIframeSeq = 0;
 
     function readJsonStorage(key, fallback) {
+        if (Object.prototype.hasOwnProperty.call(storageMemCache, key)) {
+            return storageMemCache[key];
+        }
         try {
             var raw = localStorage.getItem(key);
-            if (!raw) return fallback;
+            if (!raw) {
+                storageMemCache[key] = fallback;
+                return fallback;
+            }
             var parsed = JSON.parse(raw);
-            return (parsed && typeof parsed === "object") ? parsed : fallback;
+            var val = (parsed && typeof parsed === "object") ? parsed : fallback;
+            storageMemCache[key] = val;
+            return val;
         } catch (e) {
             return fallback;
         }
     }
 
     function writeJsonStorage(key, val) {
+        storageMemCache[key] = val;
         try {
             localStorage.setItem(key, JSON.stringify(val));
         } catch (e) {}
@@ -3200,7 +3213,7 @@
     function recordAudioProgress(audioEl, forceImmediate) {
         if (!audioEl) return;
         var now = Date.now();
-        if (!forceImmediate && (now - lastProgressSaveTs < 2000)) {
+        if (!forceImmediate && (now - lastProgressSaveTs < PROGRESS_CHECKPOINT_MS)) {
             return;
         }
         lastProgressSaveTs = now;
@@ -3479,13 +3492,28 @@
         } catch (e) {}
     }
 
-    // Save progress immediately before tab close / refresh
-    window.addEventListener("pagehide", function () {
+    // Save progress immediately on tab hide / screen lock / app switch / tab close
+    function flushAllMediaProgressImmediate() {
         var allAud = document.querySelectorAll("audio");
         for (var i = 0; i < allAud.length; i++) {
             if (allAud[i].currentTime > 3) {
                 recordAudioProgress(allAud[i], true);
             }
+        }
+        var ytIds = Object.keys(ytStates);
+        for (var j = 0; j < ytIds.length; j++) {
+            var yst = ytStates[ytIds[j]];
+            if (yst && yst.videoId && yst.currentTime > 6) {
+                yst.lastSaveTs = Date.now();
+                saveYtProgress(yst.videoId, yst.currentTime, yst.title);
+            }
+        }
+    }
+
+    window.addEventListener("pagehide", flushAllMediaProgressImmediate);
+    document.addEventListener("visibilitychange", function () {
+        if (document.visibilityState === "hidden") {
+            flushAllMediaProgressImmediate();
         }
     });
 
@@ -4268,6 +4296,7 @@
             if (data.event === "onStateChange" && typeof data.info === "number") {
                 st.state = data.info;
                 if (st.state === 2 && st.currentTime > 6) {
+                    st.lastSaveTs = Date.now();
                     saveYtProgress(st.videoId, st.currentTime, st.title);
                 } else if (st.state === 0 && st.videoId) {
                     var m = readJsonStorage(YT_PROG_KEY, {});
@@ -4280,7 +4309,9 @@
                 }
                 if (typeof data.info.currentTime === "number" && data.info.currentTime > 0) {
                     st.currentTime = data.info.currentTime;
-                    if (Math.floor(st.currentTime) % 5 === 0) {
+                    var nowYt = Date.now();
+                    if (nowYt - (st.lastSaveTs || 0) >= PROGRESS_CHECKPOINT_MS) {
+                        st.lastSaveTs = nowYt;
                         saveYtProgress(st.videoId, st.currentTime, st.title);
                     }
                 }
