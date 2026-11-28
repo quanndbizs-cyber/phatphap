@@ -7,7 +7,7 @@ Chuyên mục **Pháp Hộ Niệm** được xây dựng làm **kim chỉ nam v�
 
 ---
 
-## Hệ Thống 6 Tài Liệu Căn Bản Về Pháp Hộ Niệm
+## Hệ Thống Tài Liệu Căn Bản & Sách Nói Pháp Hộ Niệm
 
 1. **[Bài 1: Tổng Quan Pháp Hộ Niệm & Phương Hướng Tu Học Thành Tựu](/phat-giao/phap-ho-niem/tong-quan-va-phuong-huong-tu-hoc)**
    * Nền tảng kinh điển (Tịnh Độ Ngũ Kinh), vai trò của Tự lực – Tha lực – Trợ duyên, ba món tư lương **Tín – Nguyện – Hạnh** và lộ trình 4 bước tu học từ sơ cơ đến thành tựu.
@@ -18,9 +18,11 @@ Chuyên mục **Pháp Hộ Niệm** được xây dựng làm **kim chỉ nam v�
 4. **[Bài 4: Bản Di Nguyện Lâm Chung & Hướng Dẫn Gia Đình Chuẩn Bị](/phat-giao/phap-ho-niem/ban-di-nguyen-va-huong-dan-gia-dinh)**
    * Tầm quan trọng của việc lập Di Nguyện từ khi còn khỏe mạnh, kèm **Mẫu Bản Di Nguyện Lúc Lâm Chung** chuẩn mực (tham chiếu Ban Trợ Niệm Đạo Tràng Tùy Duyên Hà Nội) để gia đình thuận lòng thực hiện.
 5. **[Bài 5: Tâm Yếu Tu Học Từ 48 Tọa Đàm Hộ Niệm (Hộ Niệm Là Một Pháp Tu)](/phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem)**
-   * Đúc kết những lời khai thị cốt tủy từ *48 Tọa Đàm Hộ Niệm Là Một Pháp Tu* & *48 Tọa Đàm Hộ Niệm Chú Ý*: sửa mình không soi lỗi người, chuyển tâm không chỉ nguyện suông, phước huệ song tu, không chạy theo cảnh giới.
+   * Đúc kết những lời khai thị cốt tủy từ *48 Tọa Đàm Hộ Niệm Là Một Pháp Tu* & *48 Tọa Đàm Hộ Niệm Chú Ý*: sửa mình không soi lỗi người, chuyển tâm không chỉ nguyện suông, phước huệ song tu, không chạy theo cảnh giới — *[🎧 Nghe bộ Sách nói 48 Tọa Đàm Hộ Niệm Chú Ý →](/phat-giao/phap-ho-niem/sach-noi-48-toa-dam-ho-niem-chu-y)*.
 6. **[Bài 6: Những Chướng Ngại Thường Gặp Khi Hộ Niệm & Cách Hóa Giải](/phat-giao/phap-ho-niem/nhung-chuong-ngai-thuong-gap-va-cach-hoa-giai)**
    * Nhận diện 4 nhóm chướng ngại lớn từ phía gia đình, người bệnh, nghiệp lực lâm chung và chính hộ viên — cùng phương pháp hóa giải thiết thực và **10 điều cốt tử** để hành trì thành tựu.
+7. **[Sách Nói: 48 Tọa Đàm Hộ Niệm Chú Ý — Cư Sĩ Diệu Âm (Trọn Bộ 23 Bài MP3)](/phat-giao/phap-ho-niem/sach-noi-48-toa-dam-ho-niem-chu-y)**
+   * Trọn bộ 23 phần pháp âm sách nói (*Tọa đàm 1 → 48*, nguồn [Tịnh Tông Học Hội](https://ph.tinhtong.vn/Home/MP3?p=MP3*-+z+CS+Dieu+Am*48+Toa+Dam+Ho+Niem+Chu+Y)) do **Cư sĩ Diệu Âm Úc Châu** thực hiện tại Niệm Phật Đường A Di Đà Brisbane, tích hợp trình phát MP3 trực tiếp, tóm tắt từng phần và liên kết đối chiếu với **[Bài 5: Tâm Yếu Pháp Hộ Niệm](/phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem)**.
 
 ---
 

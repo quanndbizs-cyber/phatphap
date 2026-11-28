@@ -38,7 +38,7 @@ Trong thực tế hộ niệm, không ít người cả đời ăn chay niệm P
 
 1. **Tin sâu nhân quả – luân hồi:** Biết chắc chết không phải là hết.
 2. **Thấu triệt lý Tín – Nguyện – Hạnh:** Lập chí một đời vãng sinh Tây Phương Cực Lạc.
-3. **Đọc/nghe kỹ bộ *Khuyên Người Niệm Phật* & *48 Tọa Đàm*:** Không tu mù, không hành theo cảm tính.
+3. **Đọc/nghe kỹ bộ *[Khuyên Người Niệm Phật](/phat-giao/khuyen-nguoi-niem-phat)* & *[Sách Nói 48 Tọa Đàm Hộ Niệm Chú Ý](/phat-giao/phap-ho-niem/sach-noi-48-toa-dam-ho-niem-chu-y)* ([Tâm Yếu](/phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem)):** Không tu mù, không hành theo cảm tính.
 4. **Sửa mình từ nền tảng *Đệ Tử Quy* & *Ngũ Giới*:** Sống hiếu thảo, hòa nhã, không sát sinh.
 5. **Nhất hướng chuyên niệm câu *A Di Đà Phật*:** Thời khóa hằng ngày ổn định, không tạp tu rối loạn.
 6. **Buông xả dần tham – sân – si – chấp trước:** Sống nhẹ nhàng, tha thứ, không giữ oán kết.
