@@ -1944,14 +1944,14 @@ class mediaplayer extends Plugin
 
             if ($intro !== '') {
                 $html .= '      <div class="tm-vidstory-intro">'
-                       . '        <div class="tm-vidstory-label">🌱 Lời mở đầu &amp; Định hướng câu chuyện</div>'
+                       . '        <div class="tm-vidstory-label">🌱 Lời mở đầu</div>'
                        . '        <div class="tm-vidstory-intro-text">' . $intro . '</div>'
                        . '      </div>';
             }
 
             if ($lesson !== '') {
                 $html .= '      <div class="tm-vidstory-lesson">'
-                       . '        <div class="tm-vidstory-lesson-label">💡 Đem lại cho cuộc sống &amp; Bài học thực hành</div>'
+                       . '        <div class="tm-vidstory-lesson-label">💡 Bài học cuộc sống</div>'
                        . '        <div class="tm-vidstory-lesson-text">' . $lesson . '</div>'
                        . '      </div>';
             }
