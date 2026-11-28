@@ -3934,4 +3934,442 @@ html.tm-elderly-mode .tm-bg-btn-primary {
     }
 }
 
+/* ==========================================================================
+   Video Phật Pháp & Phim Hoạt Hình Phật Giáo (VideoHub & VideoList)
+   ========================================================================== */
+.tm-videohub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 20px;
+    margin: 22px 0 28px 0;
+}
+
+.tm-videohub-card {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #dfd1b8;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none !important;
+    box-shadow: 0 4px 14px rgba(43, 29, 18, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.tm-videohub-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(43, 29, 18, 0.11);
+    border-color: #c9972c;
+}
+
+.tm-videohub-thumb-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #231710;
+    overflow: hidden;
+}
+
+.tm-videohub-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+}
+
+.tm-videohub-card:hover .tm-videohub-thumb {
+    transform: scale(1.04);
+}
+
+.tm-videohub-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(28, 20, 14, 0.84);
+    color: #fef3c7;
+    font-size: 0.76rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 999px;
+    letter-spacing: 0.01em;
+    backdrop-filter: blur(4px);
+}
+
+.tm-videohub-play-hint {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(110, 43, 25, 0.92);
+    color: #fff8e7;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 4px 11px;
+    border-radius: 999px;
+    transition: background-color 0.2s ease;
+}
+
+.tm-videohub-card:hover .tm-videohub-play-hint {
+    background: #8c3b19;
+}
+
+.tm-videohub-body {
+    padding: 16px 18px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.tm-videohub-title {
+    margin: 0 0 8px 0 !important;
+    font-size: calc(1.08rem * var(--tm-font-scale, 1)) !important;
+    line-height: 1.4 !important;
+    font-weight: 700 !important;
+    color: #2b1d12 !important;
+}
+
+.tm-videohub-desc {
+    margin: 0 0 14px 0 !important;
+    font-size: calc(0.92rem * var(--tm-font-scale, 1)) !important;
+    line-height: 1.62 !important;
+    color: #4f3f31 !important;
+    flex: 1;
+}
+
+.tm-videohub-cta {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #8c3b19;
+    margin-top: auto;
+}
+
+/* VideoList Controls & Story Cards */
+.tm-vidlist-box {
+    margin: 18px 0 28px 0;
+}
+
+.tm-vidlist-controls {
+    background: #faf6ee;
+    border: 1px solid #dfd1b8;
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 18px;
+}
+
+.tm-vidlist-toolbar {
+    margin-bottom: 0 !important;
+    border: none !important;
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+.tm-vidlist-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #e2d5bf;
+}
+
+.tm-vidlist-pill {
+    background: #ffffff !important;
+    color: #4a3728 !important;
+    border: 1px solid #d6c5aa !important;
+    border-radius: 999px;
+    padding: 5px 13px;
+    font-size: 0.83rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.16s ease;
+}
+
+.tm-vidlist-pill:hover {
+    border-color: #8c3b19 !important;
+    color: #6e2b19 !important;
+}
+
+.tm-vidlist-pill.active {
+    background: #6e2b19 !important;
+    color: #fff8e7 !important;
+    border-color: #6e2b19 !important;
+}
+
+.tm-vidlist-items {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.tm-vidstory-card {
+    background: #ffffff;
+    border: 1px solid #dfd1b8;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 3px 12px rgba(43, 29, 18, 0.04);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.tm-vidstory-card:hover {
+    box-shadow: 0 8px 22px rgba(43, 29, 18, 0.08);
+    border-color: #c9ad84;
+}
+
+.tm-vidstory-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.tm-vidstory-media {
+    flex: 0 0 236px;
+    width: 236px;
+}
+
+.tm-vidstory-thumb-btn {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    padding: 0 !important;
+    border: 1px solid #d8c8ae !important;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #1c140e !important;
+    cursor: pointer;
+}
+
+.tm-vidstory-thumb-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.25s ease;
+}
+
+.tm-vidstory-thumb-btn:hover .tm-vidstory-thumb-img {
+    transform: scale(1.04);
+    opacity: 0.9;
+}
+
+.tm-vidstory-play-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(110, 43, 25, 0.9);
+    color: #fff8e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.05rem;
+    padding-left: 3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.tm-vidstory-thumb-btn:hover .tm-vidstory-play-circle {
+    transform: translate(-50%, -50%) scale(1.1);
+    background: #b45309;
+}
+
+.tm-vidstory-dur-badge {
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+    background: rgba(20, 14, 10, 0.86);
+    color: #fff8e7;
+    font-size: 0.74rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-variant-numeric: tabular-nums;
+}
+
+.tm-vidstory-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.tm-vidstory-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.tm-vidstory-num {
+    font-size: 0.78rem;
+    font-weight: 800;
+    color: #6e2b19;
+    background: #f7ebd9;
+    padding: 2px 9px;
+    border-radius: 6px;
+}
+
+.tm-vidstory-topic {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #5b4634;
+    background: #f3ede2;
+    padding: 2px 9px;
+    border-radius: 6px;
+}
+
+.tm-vidstory-dur-inline {
+    font-size: 0.78rem;
+    color: #78624d;
+    font-variant-numeric: tabular-nums;
+}
+
+.tm-vidstory-title {
+    margin: 0 0 12px 0 !important;
+    font-size: calc(1.12rem * var(--tm-font-scale, 1)) !important;
+    line-height: 1.42 !important;
+    font-weight: 700 !important;
+    color: #261a10 !important;
+}
+
+.tm-vidstory-intro {
+    margin-bottom: 10px;
+}
+
+.tm-vidstory-label {
+    font-size: calc(0.82rem * var(--tm-font-scale, 1));
+    font-weight: 700;
+    color: #7c3a1d;
+    margin-bottom: 4px;
+}
+
+.tm-vidstory-intro-text {
+    font-size: calc(0.95rem * var(--tm-font-scale, 1)) !important;
+    line-height: calc(1.68 * (1 + (var(--tm-font-scale, 1) - 1) * 0.2)) !important;
+    color: #3d3024;
+}
+
+.tm-vidstory-lesson {
+    background: #f7f4ec;
+    border: 1px solid #e4d9c5;
+    border-radius: 9px;
+    padding: 10px 13px;
+    margin-bottom: 12px;
+}
+
+.tm-vidstory-lesson-label {
+    font-size: calc(0.82rem * var(--tm-font-scale, 1));
+    font-weight: 700;
+    color: #2f5a3e;
+    margin-bottom: 3px;
+}
+
+.tm-vidstory-lesson-text {
+    font-size: calc(0.93rem * var(--tm-font-scale, 1)) !important;
+    line-height: calc(1.64 * (1 + (var(--tm-font-scale, 1) - 1) * 0.2)) !important;
+    color: #2f3b32;
+}
+
+.tm-vidstory-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Night mode support */
+html.tm-night-mode .tm-videohub-card,
+body.tm-night-mode .tm-videohub-card,
+html.tm-night-mode .tm-vidstory-card,
+body.tm-night-mode .tm-vidstory-card {
+    background: #1f1914;
+    border-color: #3b2f25;
+}
+
+html.tm-night-mode .tm-vidlist-controls,
+body.tm-night-mode .tm-vidlist-controls {
+    background: #1a1511;
+    border-color: #3b2f25;
+}
+
+html.tm-night-mode .tm-vidlist-pill,
+body.tm-night-mode .tm-vidlist-pill {
+    background: #261e18 !important;
+    color: #e6dac8 !important;
+    border-color: #46372b !important;
+}
+
+html.tm-night-mode .tm-vidlist-pill.active,
+body.tm-night-mode .tm-vidlist-pill.active {
+    background: #b45309 !important;
+    color: #fffbeb !important;
+    border-color: #b45309 !important;
+}
+
+html.tm-night-mode .tm-videohub-title,
+body.tm-night-mode .tm-videohub-title,
+html.tm-night-mode .tm-vidstory-title,
+body.tm-night-mode .tm-vidstory-title {
+    color: #f5ebd9 !important;
+}
+
+html.tm-night-mode .tm-videohub-desc,
+body.tm-night-mode .tm-videohub-desc,
+html.tm-night-mode .tm-vidstory-intro-text,
+body.tm-night-mode .tm-vidstory-intro-text {
+    color: #d9cbb8 !important;
+}
+
+html.tm-night-mode .tm-vidstory-lesson,
+body.tm-night-mode .tm-vidstory-lesson {
+    background: #252019;
+    border-color: #3f3429;
+}
+
+html.tm-night-mode .tm-vidstory-lesson-label,
+body.tm-night-mode .tm-vidstory-lesson-label {
+    color: #86efac;
+}
+
+html.tm-night-mode .tm-vidstory-lesson-text,
+body.tm-night-mode .tm-vidstory-lesson-text {
+    color: #dfd5c5;
+}
+
+html.tm-night-mode .tm-vidstory-num,
+body.tm-night-mode .tm-vidstory-num {
+    background: #3a2419;
+    color: #fcd34d;
+}
+
+html.tm-night-mode .tm-vidstory-topic,
+body.tm-night-mode .tm-vidstory-topic {
+    background: #2d241c;
+    color: #d8c8b4;
+}
+
+html.tm-night-mode .tm-vidstory-label,
+body.tm-night-mode .tm-vidstory-label,
+html.tm-night-mode .tm-videohub-cta,
+body.tm-night-mode .tm-videohub-cta {
+    color: #fbbf24;
+}
+
+@media (max-width: 720px) {
+    .tm-vidstory-layout {
+        flex-direction: column;
+        gap: 14px;
+    }
+    .tm-vidstory-media {
+        flex: none;
+        width: 100%;
+    }
+    .tm-vidstory-card {
+        padding: 14px 15px;
+    }
+}
+
+
 
