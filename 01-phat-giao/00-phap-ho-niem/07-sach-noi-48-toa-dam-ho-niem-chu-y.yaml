@@ -1,0 +1,189 @@
+meta:
+  title: 'Sách Nói: 48 Tọa Đàm Hộ Niệm Chú Ý — Cư Sĩ Diệu Âm (Trọn Bộ 23 Bài MP3)'
+  description: 'Trọn bộ sách nói 48 Tọa Đàm Hộ Niệm Chú Ý của Cư sĩ Diệu Âm Úc Châu (23 phần MP3 từ Tịnh Tông Học Hội ph.tinhtong.vn), tích hợp trình phát trực tiếp, tóm tắt từng phần và liên kết đối chiếu với Bài 5: Tâm Yếu Pháp Hộ Niệm.'
+  heroimage: /media/thumbs/nhanqua.jpg
+  heroimagealt: 'Sách Nói 48 Tọa Đàm Hộ Niệm Chú Ý - Cư Sĩ Diệu Âm'
+  owner: quannd
+  author: 'Cư Sĩ Diệu Âm Úc Châu • Người đọc: Huy Hồ, Kim Phụng, Tuấn Anh, Kiều Hạnh, Diệu Tiên'
+  created: '2026-11-28'
+  modified: '2026-11-28'
+  time: 20-45-00
+  navtitle: '7. Sách Nói 48 Tọa Đàm'
+  pageid: phnbai07sachnoi48
+  hide: false
+  noindex: false
+mediaplayer:
+  title: 'Sách Nói: 48 Tọa Đàm Hộ Niệm Chú Ý — Cư Sĩ Diệu Âm (23 bài MP3)'
+  abs_key: td48
+  exturl: 'https://ph.tinhtong.vn/Home/MP3?p=MP3*-+z+CS+Dieu+Am*48+Toa+Dam+Ho+Niem+Chu+Y'
+  read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem
+  stories:
+    items:
+    - id: 1
+      title: 'Tọa đàm 01 – 03: Vì sao người niệm Phật lâu năm vẫn rất cần Pháp Hộ Niệm lúc lâm chung (45:52)'
+      duration: 2752
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/01%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%201%20-%203.mp3
+      read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem#tam-yeu-6
+      read_label: '📖 Đọc Tâm Yếu (Mục 6)'
+      video_url: https://www.youtube.com/watch?v=J7WxGKJ_xLk
+      summary: 'Phân tích thực tế nhiều người niệm Phật hàng chục năm nhưng đến phút hấp hối đau đớn liền quên mất Tín – Nguyện – Hạnh; khẳng định vai trò trợ duyên tỉnh táo của Ban Hộ Niệm giúp người bệnh giữ vững chánh niệm vãng sanh.'
+    - id: 2
+      title: 'Tọa đàm 04 – 05: Nhận rõ Ta-bà là khổ & sự nguy hiểm khi mê man vào giờ phút cuối (32:06)'
+      duration: 1926
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/02%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%204%20-%205.mp3
+      read_url: /phat-giao/phap-ho-niem/quy-trinh-ho-niem-lam-chung-3-giai-doan
+      read_label: '📖 Xem Quy Trình Lâm Chung'
+      video_url: https://www.youtube.com/watch?v=T3lmN7FxtUQ
+      summary: 'Cảnh tỉnh người bệnh và gia đình về những cạm bẫy khiến thần thức hôn mê lúc lâm chung; khuyên quyết lòng buông xả cõi Ta-bà khổ đau để một lòng hướng về Tây Phương Cực Lạc.'
+    - id: 3
+      title: 'Tọa đàm 06 – 07: Giữ vững Tín – Nguyện – Hạnh & tránh những sơ suất ban đầu khi nhận ca (23:00)'
+      duration: 1380
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/03%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%206%20-%207.mp3
+      read_url: /phat-giao/phap-ho-niem/tong-quan-va-phuong-huong-tu-hoc
+      read_label: '📖 Xem Tổng Quan Hộ Niệm'
+      summary: 'Hướng dẫn cách củng cố ba món tư lương Tín – Nguyện – Hạnh cho người bệnh ngay từ khi còn tỉnh táo và những nguyên tắc căn bản khi Ban Hộ Niệm tiếp nhận trợ duyên.'
+    - id: 4
+      title: 'Tọa đàm 08 – 09: Miệng nguyện mà tâm không chuyển thì vãng sanh còn xa (25:13)'
+      duration: 1513
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/04%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%208%20-%209.mp3
+      read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem#tam-yeu-2
+      read_label: '📖 Đọc Tâm Yếu (Mục 2)'
+      video_url: https://www.youtube.com/watch?v=YSyC-B0OMeE
+      summary: 'Lời phát nguyện lúc lâm chung không gặp chướng ngại chỉ có lực khi đi đôi với sự chuyển hóa tâm chí thành chí kính, buông bỏ sân hận, chấp trước và thành tâm sám hối ngay trong hiện tại.'
+    - id: 5
+      title: 'Tọa đàm 10 – 11: Sửa mình đừng soi lỗi người — Thiện hộ khẩu, thân, ý nghiệp (30:31)'
+      duration: 1831
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/05%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2010%20-%2011.mp3
+      read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem#tam-yeu-1
+      read_label: '📖 Đọc Tâm Yếu (Mục 1)'
+      summary: 'Chỉ rõ gốc rễ tranh chấp trong đạo tràng và gia đình đến từ tự cao, chấp trước; nhắc nhở hành giả giữ gìn ba nghiệp thanh tịnh, quay về sửa lỗi chính mình và giữ chặt câu Phật hiệu.'
+    - id: 6
+      title: 'Tọa đàm 12 – 13: Nương tựa đại chúng & tha lực A Di Đà Phật, hóa giải oán thân trái chủ (25:20)'
+      duration: 1520
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/06%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2012%20-%2013.mp3
+      read_url: /phat-giao/phap-ho-niem/nhung-chuong-ngai-thuong-gap-va-cach-hoa-giai
+      read_label: '📖 Xem Hóa Giải Chướng Ngại'
+      video_url: https://www.youtube.com/watch?v=cVP1B7GyvJc
+      summary: 'Khuyên hành giả thời Mạt pháp không nên tự cao tách rời đại chúng; biết khiêm cung nương theo 48 đại nguyện của Đức Phật A Di Đà để an toàn đới nghiệp vãng sanh.'
+    - id: 7
+      title: 'Tọa đàm 14 – 15: Phước và Huệ cùng tu — Sám hối chân thật bằng hành động sửa đổi (25:16)'
+      duration: 1516
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/07%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2014%20-%2015.mp3
+      read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem#tam-yeu-3
+      read_label: '📖 Đọc Tâm Yếu (Mục 3)'
+      summary: 'Giải thích sám hối chân chính là thay đổi hành vi, dứt trừ tập khí xấu; kết hợp niệm Phật tu Huệ với làm lành, phóng sanh, hộ niệm tu Phước mà không phô trương cầu danh.'
+    - id: 8
+      title: 'Tọa đàm 16 – 17: Đừng chạy theo cảnh giới lạ hay mong cầu thần thông cảm ứng (26:28)'
+      duration: 1588
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/08%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2016%20-%2017.mp3
+      read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem#tam-yeu-4
+      read_label: '📖 Đọc Tâm Yếu (Mục 4)'
+      summary: 'Cảnh báo tâm mong cầu thấy ánh sáng, cảnh giới đặc biệt lúc còn sống dễ dẫn đến vọng tưởng và ma chướng; cốt lõi vẫn là Tín – Nguyện – Hạnh chân thật và khiêm hạ niệm Phật.'
+    - id: 9
+      title: 'Tọa đàm 18 – 19: Thái độ khiêm cung, chí thành của người hộ viên trước gia đình người bệnh (24:52)'
+      duration: 1492
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/09%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2018%20-%2019.mp3
+      read_url: /phat-giao/phap-ho-niem/15-dieu-kien-thanh-vien-ban-ho-niem
+      read_label: '📖 Xem 15 Điều Kiện Hộ Viên'
+      summary: 'Chia sẻ tác phong hòa nhã, tôn trọng gia quyến, khéo léo hướng dẫn người nhà đồng lòng niệm Phật trợ duyên thay vì gay gắt hay áp đặt gây chướng ngại.'
+    - id: 10
+      title: 'Tọa đàm 20 – 21: Khai thị đúng pháp, ngắn gọn, trúng bệnh — Tránh nói dài làm loạn tâm (36:46)'
+      duration: 2206
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/10%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2020%20-%2021.mp3
+      read_url: /phat-giao/cac-bai-khai-thi/phan-3-bai-mau-khai-thi-nguoi-benh-va-lam-chung-12-tieng
+      read_label: '📖 Xem 20 Bài Khai Thị Mẫu'
+      summary: 'Phân tích nghệ thuật hướng dẫn khai thị cho người hấp hối: lời lẽ rõ ràng, ấm áp, đi thẳng vào Tín – Nguyện – Niệm Phật, tuyệt đối không gợi lại chuyện gia sự quyến luyến.'
+    - id: 11
+      title: 'Tọa đàm 22 – 23: Phối hợp nhịp nhàng giữa gia đình và Ban Hộ Niệm lúc nguy kịch (28:14)'
+      duration: 1694
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/11%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2022%20-%2023.mp3
+      read_url: /phat-giao/phap-ho-niem/ban-di-nguyen-va-huong-dan-gia-dinh
+      read_label: '📖 Xem Mẫu Bản Di Nguyện'
+      summary: 'Những điều người thân cần chuẩn bị từ sớm (Bản Di Nguyện, không khóc lóc, không đụng chạm thân xác) để bảo hộ chánh niệm cho người ra đi trong thời khắc quyết định.'
+    - id: 12
+      title: 'Tọa đàm 24 – 25: Đóng sáu căn lại, định tâm trong câu A Di Đà Phật (24:07)'
+      duration: 1447
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/12%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2024%20-%2025.mp3
+      read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem#tam-yeu-5
+      read_label: '📖 Đọc Tâm Yếu (Mục 5)'
+      video_url: https://www.youtube.com/watch?v=e37ESlTh4H4
+      summary: 'Khuyên người tu thu nhiếp lục căn, rời xa chuyện thị phi thế sự (tâm viên ý mã), an định thân tâm trong câu Phật hiệu để công phu đắc lực, đi thẳng về Tây Phương.'
+    - id: 13
+      title: 'Tọa đàm 26 – 27: Lục hòa trong Ban Hộ Niệm — Giữ tâm bình đẳng, nhẫn nhục phụng sự (28:34)'
+      duration: 1714
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/13%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2026%20-%2027.mp3
+      read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem#tam-yeu-1
+      read_label: '📖 Đọc Tâm Yếu (Mục 1)'
+      summary: 'Nhấn mạnh tinh thần Lục hòa cộng trụ trong đạo tràng: ai tu nấy đắc, lấy sự hòa hợp thanh tịnh của tập thể làm sức mạnh cảm ứng chư Phật gia trì cho ca hộ niệm.'
+    - id: 14
+      title: 'Tọa đàm 28 – 29: Bảo vệ 8–16 tiếng vàng sau khi tắt thở & những điều tuyệt đối kiêng kỵ (37:17)'
+      duration: 2237
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/14%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2028%20-%2029.mp3
+      read_url: /phat-giao/phap-ho-niem/quy-trinh-ho-niem-lam-chung-3-giai-doan
+      read_label: '📖 Xem Quy Tắc 8–16 Tiếng'
+      summary: 'Giải thích tường tận vì sao thần thức chưa rời xác ngay sau khi ngưng thở và hậu quả nặng nề nếu vội vã đụng chạm, lau rửa, khóc than hoặc tiêm chích vào thân thể.'
+    - id: 15
+      title: 'Tọa đàm 30 – 31: Phân biệt chánh kiến về thoại tướng vãng sanh & không chấp tướng (30:09)'
+      duration: 1809
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/15%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2030%20-%2031.mp3
+      read_url: /phat-giao/phap-ho-niem/quy-trinh-ho-niem-lam-chung-3-giai-doan
+      read_label: '📖 Xem Quy Trình 3 Giai Đoạn'
+      summary: 'Hướng dẫn cách nhìn nhận đúng pháp về các hiện tượng lúc xả báo thân: lấy việc giữ trọn thời gian trợ niệm thanh tịnh làm chánh yếu, không vội vàng thử xác hay kết luận sớm.'
+    - id: 16
+      title: 'Tọa đàm 32 – 33: Hóa giải oán kết, bệnh khổ nặng nề bằng lòng từ bi và chí thành sám hối (27:32)'
+      duration: 1652
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/16%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2032%20-%2033.mp3
+      read_url: /phat-giao/phap-ho-niem/nhung-chuong-ngai-thuong-gap-va-cach-hoa-giai
+      read_label: '📖 Xem Hóa Giải Chướng Ngại'
+      summary: 'Cách hướng dẫn người bệnh phát tâm chân thành nhận lỗi, giải kết với oán thân trái chủ nhiều đời và hồi hướng công đức niệm Phật cùng đồng sanh Cực Lạc.'
+    - id: 17
+      title: 'Tọa đàm 34 – 35: Trân quý cơ duyên hy hữu vạn kiếp khó gặp của Pháp Niệm Phật – Hộ Niệm (23:04)'
+      duration: 1384
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/17%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2034%20-%2035.mp3
+      read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem
+      read_label: '📖 Đọc Tâm Yếu 48 Tọa Đàm'
+      video_url: https://www.youtube.com/watch?v=RpEx6FxvODE
+      summary: 'Nhắc nhở đồng tu không lơ là bỏ lỡ cơ hội đới nghiệp vãng sanh ngay trong một đời khi đã đủ duyên gặp pháp Tịnh Độ và có thiện hữu tri thức hộ niệm trợ duyên.'
+    - id: 18
+      title: 'Tọa đàm 36 – 37: Chuyển hóa tình chấp gia đình thành đại hiếu đưa người thân về cõi Phật (31:07)'
+      duration: 1867
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/18%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2036%20-%2037.mp3
+      read_url: /phat-giao/phap-ho-niem/ban-di-nguyen-va-huong-dan-gia-dinh
+      read_label: '📖 Xem Hướng Dẫn Gia Đình'
+      summary: 'Giúp con cháu hiểu rõ thương cha mẹ chân chính là giữ tâm thanh tịnh niệm Phật tiễn đưa về Tây Phương Cực Lạc, tổ chức tang lễ thuần chay không sát sanh hại vật.'
+    - id: 19
+      title: 'Tọa đàm 38 – 39: Rèn luyện công phu niệm Phật hằng ngày làm nền tảng vững chắc cho lâm chung (25:07)'
+      duration: 1507
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/19%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2038%20-%2039.mp3
+      read_url: /phat-giao/nghi-thuc-hanh-tri
+      read_label: '📖 Xem Nghi Thức Hành Trì'
+      summary: 'Hộ niệm là trợ duyên quý báu, nhưng chính hành giả phải tự mình chuyên cần công phu sớm tối, buông xả dần phiền não ngay khi còn khỏe mạnh.'
+    - id: 20
+      title: 'Tọa đàm 40 – 41: Giữ vững chánh pháp Tịnh Độ — Nhất môn thâm nhập, trường kỳ huân tu (27:25)'
+      duration: 1645
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/20%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2040%20-%2041.mp3
+      read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem#tam-yeu-6
+      read_label: '📖 Đọc Tâm Yếu (Mục 6)'
+      summary: 'Khuyên người niệm Phật không xen tạp, không chạy theo pháp lạ hay lời đồn thất thiệt; một lòng tin sâu Kinh Vô Lượng Thọ, Kinh A Di Đà và lời Phật Tổ chỉ dạy.'
+    - id: 21
+      title: 'Tọa đàm 42 – 43: Những kinh nghiệm thực tiễn rút ra từ các ca hộ niệm thành tựu & chướng ngại (26:29)'
+      duration: 1589
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/21%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2042%20-%2043.mp3
+      read_url: /phat-giao/phap-ho-niem/nhung-chuong-ngai-thuong-gap-va-cach-hoa-giai
+      read_label: '📖 Xem 10 Điều Cốt Tử'
+      summary: 'Đúc kết bài học thực tế nơi hiện trường hộ niệm: cách giữ âm điệu Phật hiệu trầm ổn, đều đặn, nhiếp tâm và xử lý khéo léo các tình huống phát sinh.'
+    - id: 22
+      title: 'Tọa đàm 44 – 45: Hộ người chính là tự hộ mình — Nhân quả thù thắng của hạnh hộ niệm (26:44)'
+      duration: 1604
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/22%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2044%20-%2045.mp3
+      read_url: /phat-giao/phap-ho-niem/tong-quan-va-phuong-huong-tu-hoc
+      read_label: '📖 Xem Lộ Trình Tu Học'
+      summary: 'Phân tích nhân quả chân thật: người phát tâm chí thành đi hộ niệm giúp người vãng sanh chính là đang gieo nhân lành viên mãn để ngày mình lâm chung được Phật và đại chúng trợ duyên.'
+    - id: 23
+      title: 'Tọa đàm 46 – 48 (Kết thúc): Tổng kết tâm yếu Hộ Niệm Chú Ý & đại nguyện đồng sanh Cực Lạc (42:21)'
+      duration: 2541
+      audio_src: https://ph.tinhtong.vn/ftp/MP3/-%20z%20CS%20Dieu%20Am/48%20Toa%20Dam%20Ho%20Niem%20Chu%20Y/23%2048%20T%E1%BB%8Da%20%C4%90%C3%A0m%20H%E1%BB%99%20Ni%E1%BB%87m%20Ch%C3%BA%20%C3%9D%20-%20T%E1%BB%8Da%20%C4%91%C3%A0m%2046%20-%2048.mp3
+      read_url: /phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem
+      read_label: '📖 Đọc Bài Tâm Yếu Đầy Đủ'
+      video_url: https://www.youtube.com/watch?v=XPY3A44a16Q
+      summary: 'Tổng kết trọn bộ 48 Tọa Đàm Hộ Niệm Chú Ý: giữ tâm chân thành, khiêm cung, khế lý khế cơ, kiên định Niệm Phật – Hộ Niệm – Vãng Sanh để một đời viên thành Phật đạo.'
