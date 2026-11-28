@@ -1,0 +1,151 @@
+meta:
+  title: 'Phần 2: Chú Tiểu Du Hành Mười Phương & Tịnh Độ — Hoạt Hình Phật Giáo (14 Tập)'
+  description: '14 tập phim hoạt hình theo chân chú Tiểu Chân Tâm du hành qua các cõi trời và Tây Phương Cực Lạc, học về hiếu đạo hồi hướng, chánh niệm Niệm Phật và lẽ vô thường.'
+  owner: 'quannd'
+  author: 'Hải Triều Âm (@haitrieuamvn) • Biên tập: Tịnh Độ Liên Hoa'
+  created: '2026-11-28'
+  modified: '2026-11-28'
+  time: '08-45-00'
+  navtitle: 'Du Hành Mười Phương & Tịnh Độ'
+  pageid: 'hoathinhpg00003'
+mediaplayer:
+  videos:
+    items:
+    - id: 1
+      topic: 'Pháp môn Niệm Phật & Tịnh Độ'
+      title: 'Đại Thế Chí Bồ Tát khai thị pháp môn Niệm Phật – Miệng niệm Phật, còn tâm đang ở đâu?'
+      duration: '7:08'
+      video_url: 'https://www.youtube.com/watch?v=sl9NsxT9JkI'
+      read_url: '/phat-giao/khuyen-nguoi-niem-phat'
+      read_label: '📖 Khuyên Người Niệm Phật'
+      intro: |
+        Chú Tiểu Chân Tâm hớn hở khoe mình vừa niệm đủ một trăm câu Phật hiệu, nhưng câu hỏi hiền từ của Đại Thế Chí Bồ Tát khiến bé giật mình: 'Miệng con gọi Phật, vậy lúc ấy tâm con đang nhớ ai?'
+        Câu chuyện mở ra phương hướng cốt tủy nhất cho cả người mới tìm hiểu lẫn người hành trì Niệm Phật giữa đời sống bận rộn.
+      lesson: 'Đưa chánh niệm vào từng hơi thở và việc làm: làm việc gì tâm trọn vẹn ở việc đó, niệm Phật như con nhớ mẹ hiền tha thiết chân thành — giúp tâm trí thu nhiếp khỏi sự tán loạn, bất an của đời sống số.'
+    - id: 2
+      topic: 'Từ bi, Hiếu hạnh & Hồi hướng'
+      title: 'Mẹ Quán Âm dạy Nhĩ Căn Viên Thông – Tiếng chuông đã tắt, sao ta vẫn biết là vừa hết tiếng?'
+      duration: '18:06'
+      video_url: 'https://www.youtube.com/watch?v=RVetyM9aqBk'
+      intro: |
+        Giữa phố xá ồn ào hay những lời khen chê xao động mỗi ngày, làm sao để giữ được sự tĩnh lặng bên trong? Bên tiếng chuông ngân rồi lắng tắt, Bồ Tát Quán Thế Âm nhẹ nhàng hướng dẫn chú Tiểu Chân Tâm quay cái nghe trở về nhận diện tánh nghe bất động.
+        Tập phim hướng dẫn nghệ thuật lắng nghe sâu và giữ bình an trước âm thanh khen chê của cuộc đời.
+      lesson: 'Thực hành ''quay về lắng nghe tâm mình'': tiếng ồn ào hay lời nặng nhẹ bên ngoài đến rồi đi như tiếng chuông, nếu tâm ta không chạy đuổi theo để phiền giận thì sự bình yên trong sáng bên trong chưa từng bị tổn hại.'
+    - id: 3
+      topic: 'Pháp môn Niệm Phật & Tịnh Độ'
+      title: 'Đi tìm Tây Phương Cực Lạc (Tập 1) – Cực Lạc thật sự nằm ở đâu?'
+      duration: '3:21'
+      video_url: 'https://www.youtube.com/watch?v=UgV0k0QzZ2o'
+      read_url: '/phat-giao/phap-ho-niem'
+      read_label: '📖 Pháp Hộ Niệm Tịnh Độ'
+      intro: |
+        Nghe kinh dạy Tây Phương Cực Lạc cách đây mười muôn ức cõi Phật về hướng Tây, chú Tiểu ngây thơ cất bước đi mãi về phía mặt trời lặn để tìm.
+        Câu chuyện ngắn gọn, trong trẻo này định hướng cho người xem hiểu đúng mối liên hệ mật thiết giữa cảnh giới Cực Lạc trang nghiêm và tâm thanh tịnh của người tu học.
+      lesson: 'Giúp người trẻ hiểu Tịnh Độ không phải chuyện xa vời tách rời đời sống: mỗi khi tâm hướng thiện, buông bỏ tham giận và chân thành niệm Phật là ta đang rút ngắn khoảng cách để kết nối thẳng với quê hương an lành Cực Lạc.'
+    - id: 4
+      topic: 'Pháp môn Niệm Phật & Tịnh Độ'
+      title: 'Phật dạy ''Tự mình nương tựa chính mình'', vậy vì sao còn cầu vãng sinh Cực Lạc?'
+      duration: '6:05'
+      video_url: 'https://www.youtube.com/watch?v=7mEhYXJW8TI'
+      read_url: '/phat-giao/phap-ho-niem/tam-yeu-tu-hoc-48-toa-dam-ho-niem'
+      read_label: '📖 Tâm Yếu Tu Học Tịnh Độ'
+      intro: |
+        Đây là thắc mắc rất thực tế của nhiều bạn trẻ có tư duy logic: tự lực tu tập và nương nhờ nguyện lực Đức Phật A Di Đà có mâu thuẫn nhau không?
+        Tập phim dùng hình ảnh gần gũi để làm sáng tỏ sự hòa quyện trọn vẹn giữa 'tự lực' (tự mình giữ tâm thiện, tín nguyện chân thật) và 'tha lực' (thuyền từ đại nguyện của Đức Phật).
+      lesson: 'Cởi bỏ tâm lý ỷ lại mê tín lẫn sự tự phụ cô độc trong cuộc sống: không ai bước đi hay sửa tâm thay mình được, nhưng biết khiêm cung nương tựa bậc thiện tri thức và đại nguyện Phật A Di Đà sẽ giúp hành trình chuyển hóa vững vàng gấp bội.'
+    - id: 5
+      topic: 'Pháp môn Niệm Phật & Tịnh Độ'
+      title: 'Về Tây Phương Cực Lạc, có phải ai cũng giống hệt nhau sao?'
+      duration: '11:36'
+      video_url: 'https://www.youtube.com/watch?v=dWRWjh13d2Q'
+      intro: |
+        Được theo chân Đức Phật quan sát các phẩm sen nơi ao thất bảo Cực Lạc, chú Tiểu Chân Tâm ngạc nhiên khi thấy có hoa sen nở bừng rực rỡ ngay lập tức, lại có búp sen cần thời gian ấp ủ mới khai nở.
+        Câu chuyện giúp người xem hiểu rõ luật nhân quả công bằng ngay trong sự tu tập tâm linh.
+      lesson: 'Khích lệ tinh thần nỗ lực tự thân mỗi ngày: mọi công phu tu sửa tâm tính, giữ gìn đạo đức và tích lũy thiện căn giữa đời thường đều không uổng phí, mà kết thành phẩm vị thanh cao tương ứng.'
+    - id: 6
+      topic: 'Pháp môn Niệm Phật & Tịnh Độ'
+      title: 'Cửu phẩm vãng sinh (Tập 5) – Trung phẩm hạ sinh: Sống hiếu thảo, nhân từ có được vãng sinh?'
+      duration: '4:15'
+      video_url: 'https://www.youtube.com/watch?v=mYeobHoFVXg'
+      read_url: '/phat-giao/de-tu-quy'
+      read_label: '📖 Đệ Tử Quy (Hiếu Đễ)'
+      intro: |
+        Chú Tiểu cứ ngỡ bậc tu hành cao siêu phải làm những chuyện thật phi thường, nhưng người mà Đức Phật chỉ cho bé xem lại là một người con hiếu dưỡng cha mẹ, sống nhân hậu, tử tế với xóm giềng.
+        Tập phim soi sáng mối liên kết giữa đạo làm người căn bản (Tịnh Nghiệp Tam Phước) và nguyện lực vãng sinh trong Kinh Quán Vô Lượng Thọ.
+      lesson: 'Đem đạo Phật về ngay dưới mái nhà mình: tu học bắt đầu từ sự hiếu thảo với ông bà cha mẹ, sống lương thiện, chân thật giữa đời thường — và biết đem phước lành ấy phát nguyện hướng về giác ngộ giải thoát.'
+    - id: 7
+      topic: 'Pháp môn Niệm Phật & Tịnh Độ'
+      title: 'Cửu phẩm vãng sinh – Trung phẩm trung sinh: Ý nghĩa của một ngày một đêm giữ giới thanh tịnh'
+      duration: '5:02'
+      video_url: 'https://www.youtube.com/watch?v=MNE4DCOs-8c'
+      intro: |
+        Một ngày một đêm giữ giới thanh tịnh nghe tưởng chừng rất ngắn, nhưng khi chú Tiểu Chân Tâm quan sát kỹ từng oai nghi, từng ý niệm giữ mình không làm tổn hại ai và tâm chí thành hồi hướng, bé mới hiểu sức mạnh lớn lao của sự trọn vẹn.
+        Tập phim định hướng cho người bận rộn cách bắt đầu thực tập sống tỉnh thức từng ngày.
+      lesson: 'Đừng đợi đến khi rảnh rỗi hoàn toàn mới sống thiện lành: chỉ cần trọn vẹn giữ tâm trong sạch, lời nói hòa ái, không làm khổ mình khổ người trong từng ngày hiện tại đã là nền tảng công đức vô cùng quý báu.'
+    - id: 8
+      topic: 'Từ bi, Hiếu hạnh & Hồi hướng'
+      title: 'Người đã mất có nhận được phước hồi hướng? – Chú tiểu gặp Địa Tạng Vương Bồ Tát'
+      duration: '5:29'
+      video_url: 'https://www.youtube.com/watch?v=KL1DmNoimBY'
+      read_url: '/phat-giao/phap-ho-niem/ban-di-nguyen-va-huong-dan-gia-dinh'
+      read_label: '📖 Hướng dẫn Gia đình & Hộ niệm'
+      intro: |
+        Khi người thân qua đời, những việc lành ta làm và hồi hướng có thực sự đến được với họ không, hay ai làm nấy chịu? Qua cuộc gặp gỡ với Địa Tạng Vương Bồ Tát và tích truyện hiếu nữ Quang Mục, chú Tiểu tìm được lời giải đáp trọn vẹn cả lý lẫn tình.
+        Câu chuyện định hướng cách báo hiếu đúng Chánh pháp thay vì chỉ khóc thương hay đốt vàng mã hình thức.
+      lesson: 'Biến nỗi đau mất người thân thành hành động thiện lành thiết thực: tự mình sống hiếu thuận, ăn chay, làm phước, ấn tống kinh sách, niệm Phật chí thành hồi hướng — vừa lợi lạc thiết thực cho người đã khuất, vừa chuyển hóa tâm hồn người đang sống.'
+    - id: 9
+      topic: 'Từ bi, Hiếu hạnh & Hồi hướng'
+      title: 'Mẹ Tara có nghe thấy khi ta cầu cứu? – Hiểu đúng về cầu nguyện trong Phật giáo'
+      duration: '3:30'
+      video_url: 'https://www.youtube.com/watch?v=ahMAoiap7RY'
+      intro: |
+        Nhiều bạn trẻ thắc mắc: nếu chư Phật, Bồ Tát đại từ đại bi, vì sao có những lúc ta cầu nguyện mà nghịch cảnh hay bệnh tật vẫn xảy ra?
+        Qua câu chuyện giọt nước mắt đại bi của Bồ Tát, tập phim giúp người xem tháo gỡ hiểu lầm giữa 'cầu xin phép màu xóa bỏ nhân quả' và 'tiếp nhận nguồn năng lượng từ bi, trí tuệ để vượt qua thử thách'.
+      lesson: 'Giúp người xem có đức tin chánh tín, vững chãi: lời cầu nguyện chân chánh là đánh thức lòng từ bi và sức mạnh nội tâm nơi chính mình, biết thuận theo nhân quả để gieo nhân lành mới thay vì oán trách số phận.'
+    - id: 10
+      topic: 'Du hành các cõi trời & Quán vô thường'
+      title: 'Du hành cõi trời – Dạ Ma Thiên: Sống 144 triệu năm hưởng phước rồi cũng phải rời đi'
+      duration: '4:11'
+      video_url: 'https://www.youtube.com/watch?v=w7_56DoMaV0'
+      intro: |
+        Đặt chân đến cung trời Dạ Ma rực rỡ ánh sáng, nơi một đời sống dài tới hàng trăm triệu năm nhân gian, chú Tiểu Chân Tâm bất ngờ gặp một vị thiên nhân đang u sầu vì vòng hoa trên đầu bắt đầu héo rũ (năm tướng suy).
+        Câu chuyện mở rộng thế giới quan vượt khỏi thước đo hưởng thụ vật chất thông thường.
+      lesson: 'Nhận ra chân lý sâu sắc cho đời sống hiện đại: dù giàu sang, thành đạt hay hưởng thụ tiện nghi đến đâu mà không tu dưỡng trí tuệ giải thoát thì phước hưởng hết khổ não vẫn quay về. Có phước càng phải biết khiêm tốn tạo phước và tu tâm.'
+    - id: 11
+      topic: 'Du hành các cõi trời & Quán vô thường'
+      title: 'Du hành cõi trời – Đâu Suất Thiên đẹp vậy, vì sao Bồ Tát Di Lặc vẫn chờ ngày xuống nhân gian?'
+      duration: '6:11'
+      video_url: 'https://www.youtube.com/watch?v=XiDFWOTZ0Io'
+      intro: |
+        Giữa cảnh giới Đâu Suất an vui thanh tịnh khiến ai đến cũng muốn dừng chân mãi mãi, chú Tiểu thắc mắc vì sao Bồ Tát Di Lặc vẫn phát nguyện trở xuống cõi người nhiều nhọc nhằn.
+        Hình ảnh hạt giống nhỏ mà Bồ Tát trao cho chú Tiểu mở ra một bài học tuyệt đẹp về lý tưởng sống vị tha.
+      lesson: 'Truyền cảm hứng sống cống hiến cho người trẻ: hạnh phúc lớn nhất không phải là tìm một ốc đảo êm ấm cho riêng mình, mà là đem sự bình an, hiểu biết và tình thương đi sẻ chia giữa những nơi còn nhiều khổ đau.'
+    - id: 12
+      topic: 'Du hành các cõi trời & Quán vô thường'
+      title: 'Du hành cõi trời – Hóa Lạc Thiên: Muốn gì liền hóa hiện ra thứ ấy, sao lòng vẫn chưa đủ?'
+      duration: '6:06'
+      video_url: 'https://www.youtube.com/watch?v=k9eBN5_55ss'
+      intro: |
+        Ở cõi Hóa Lạc Thiên, chỉ cần khởi ý muốn là mọi món ngon vật lạ liền hiện ra trước mắt — giống như giấc mơ 'muốn gì được nấy' của con người thời tiện nghi công nghệ.
+        Thế nhưng chuyến thăm của chú Tiểu lại hé lộ một nghịch lý đáng suy ngẫm: khi mọi mong cầu bên ngoài đều dễ dàng có được, lòng tham muốn có tự dừng lại không?
+      lesson: 'Giúp người trẻ tỉnh thức trước lối sống chạy theo tiêu dùng và kích thích ngắn hạn: chạy theo dục vọng để lấp đầy khoảng trống nội tâm chẳng khác nào uống nước mặn giải khát; chỉ khi biết quay về làm giàu đời sống tinh thần, tâm mới thực sự đủ đầy.'
+    - id: 13
+      topic: 'Du hành các cõi trời & Quán vô thường'
+      title: 'Du hành Sắc giới (Tập 1) – Sơ thiền Phạm Thiên: Nếu an lạc không đến từ ''có thêm'', nó đến từ đâu?'
+      duration: '10:19'
+      video_url: 'https://www.youtube.com/watch?v=bH1mhNF6gQc'
+      read_url: '/phat-giao/huong-dan-thien'
+      read_label: '📖 Hướng dẫn Thiền & Tịnh tâm'
+      intro: |
+        Rời sáu cõi trời Dục giới để bước lên cõi Sơ thiền Sắc giới thanh tịnh, chú Tiểu Chân Tâm mang theo hai chiếc bánh định tặng chư thiên nhưng ngạc nhiên thấy nơi đây chẳng ai cần ăn uống hay tích trữ.
+        Câu chuyện khám phá một loại hạnh phúc hoàn toàn mới: niềm vui sinh ra từ sự buông bỏ trói buộc (ly sinh hỷ lạc).
+      lesson: 'Thay đổi quan niệm về hạnh phúc: người đời thường nghĩ phải ''cộng thêm'' thật nhiều mới vui, còn trí tuệ Phật giáo chỉ ra niềm an lạc thanh nhẹ nhất lại đến khi ta biết ''trừ bớt'' những đòi hỏi, phiền muộn và rối bời trong tâm.'
+    - id: 14
+      topic: 'Du hành các cõi trời & Quán vô thường'
+      title: 'Du hành Sắc giới (Tập 2) – Đại Phạm Thiên uy lực lớn lao có biết hết mọi việc không?'
+      duration: '21:19'
+      video_url: 'https://www.youtube.com/watch?v=w1qTtcsbRk8'
+      intro: |
+        Đứng trước vị Đại Phạm Thiên oai nghiêm được cả hội chúng kính ngưỡng, một câu hỏi ngây thơ nhưng thẳng thắn của chú Tiểu khiến chính Đại Phạm Thiên phải nắm tay đưa bé ra riêng và thành thật thừa nhận giới hạn của mình.
+        Tập phim mang đến câu chuyện kinh điển đầy hóm hỉnh về sự trung thực trí tuệ và đức khiêm cung.
+      lesson: 'Bài học quý giá cho công việc và học tập: dám nhận ''điều này tôi chưa biết'' không làm giảm giá trị của một người, mà chính là khởi đầu của trí tuệ chân thật; ngược lại, sĩ diện che giấu cái dốt mới là rào cản lớn nhất ngăn ta tiến bộ.'

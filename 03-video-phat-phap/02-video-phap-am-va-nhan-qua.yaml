@@ -1,0 +1,69 @@
+meta:
+  title: 'Video Pháp Thoại, Hộ Niệm & Câu Chuyện Nhân Quả Đời Thường'
+  description: 'Tuyển tập các bộ video Pháp Hộ Niệm (48 Tọa Đàm Hộ Niệm Chú Ý, ca trợ niệm thực tế) và video câu chuyện nhân quả Báo Ứng Hiện Đời, Khuyên Người Niệm Phật.'
+  owner: 'quannd'
+  author: 'Ban Biên Tập Tịnh Độ Liên Hoa'
+  created: '2026-11-28'
+  modified: '2026-11-28'
+  time: '08-55-00'
+  navtitle: 'Video Pháp Thoại, Hộ Niệm & Nhân Quả'
+  pageid: 'videophatphap002'
+mediaplayer:
+  videos:
+    items:
+    - id: 1
+      topic: 'Pháp Hộ Niệm & Lâm Chung'
+      title: 'Trọn Bộ Playlist Video: 48 Tọa Đàm Hộ Niệm Chú Ý – Thầy Diệu Âm Tịnh Hải'
+      duration: 'Playlist 48 bài'
+      cover_id: 'YSyC-B0OMeE'
+      video_url: 'https://www.youtube.com/playlist?list=PLsE68qHjMSbtf-E_4AJQ-NQhTklKuBT0M'
+      read_url: '/phat-giao/phap-ho-niem/sach-noi-48-toa-dam-ho-niem-chu-y'
+      read_label: '🎧📖 Nghe MP3 & Tâm Yếu 48 Tọa Đàm'
+      intro: |
+        Sinh - Lão - Bệnh - Tử là bài toán lớn nhất của đời người mà ai rồi cũng phải đối diện cho ông bà, cha mẹ và chính bản thân mình. Chuỗi 48 buổi tọa đàm của Thầy Diệu Âm Tịnh Hải giải đáp tường tận từng tình huống thực tế bên giường bệnh dưới ánh sáng Tịnh Độ.
+        Mục tiêu của bộ video là trang bị chánh kiến vững vàng để biến nỗi sợ hãi lúc lâm chung thành niềm an ổn hướng về Tây Phương Cực Lạc.
+      lesson: 'Giúp mỗi gia đình biết cách thương yêu và chăm sóc người thân lúc tuổi già, bệnh nặng đúng Chánh pháp: giữ không khí thanh tịnh, khai thị nhẹ nhàng buông xả muộn phiền và trợ niệm chí thành.'
+    - id: 2
+      topic: 'Pháp Hộ Niệm & Lâm Chung'
+      title: 'Ca Hộ Niệm Thực Tế & Khai Thị Gia Đình – Đạo Tràng Tùy Duyên Hà Nội'
+      duration: 'Video Thực Tế'
+      video_url: 'https://www.youtube.com/watch?v=sdeG0PIoZJU'
+      read_url: '/phat-giao/phap-ho-niem/quy-trinh-ho-niem-lam-chung-3-giai-doan'
+      read_label: '📖 Quy trình Hộ Niệm 3 Giai Đoạn'
+      intro: |
+        Trăm nghe không bằng một thấy: thước phim ghi lại chân thực không khí trang nghiêm, hòa hợp và đầy tình thương của một ca hộ niệm thực tế tại gia đình Phật tử.
+        Video giúp người trẻ và người thân trong gia đình xóa bỏ cảm giác lo sợ, bỡ ngỡ để hiểu rõ ý nghĩa nhân văn sâu sắc của Pháp Hộ Niệm.
+      lesson: 'Củng cố niềm tin chân thật rằng sự ra đi trong tiếng niệm Phật thanh tịnh có thể trở nên nhẹ nhàng, an tường và để lại thoại tướng tốt lành, gắn kết tình hiếu đạo của cả đại gia đình.'
+    - id: 3
+      topic: 'Pháp Hộ Niệm & Lâm Chung'
+      title: 'Hộ Niệm Cho Hương Linh & Hướng Dẫn Gia Đình Phối Hợp Đúng Pháp'
+      duration: 'Video Khai Thị'
+      video_url: 'https://www.youtube.com/watch?v=G9Vmx52pWa8'
+      read_url: '/phat-giao/phap-ho-niem/ban-di-nguyen-va-huong-dan-gia-dinh'
+      read_label: '📖 Bản Di Nguyện & Hướng dẫn Gia đình'
+      intro: |
+        Trong giờ phút bối rối khi người thân hấp hối, chỉ một hành động khóc lóc lay động thân thể hay bàn chuyện tài sản bên giường bệnh cũng có thể làm người ra đi thêm đau đớn, lưu luyến.
+        Video hướng dẫn cụ thể từng điều gia đình cần chuẩn bị và giữ gìn để hộ trì trọn vẹn cho người thương.
+      lesson: 'Đem lại cẩm nang ứng xử tỉnh táo, hiếu thảo trọn đạo cho con cháu: biết dặn dò trước từ lúc bình thời, đồng tâm niệm Phật thay vì hoảng loạn để giúp người thân ra đi thanh thản nhất.'
+    - id: 4
+      topic: 'Nhân Quả Đời Thường & Sách Nói Video'
+      title: 'Báo Ứng Hiện Đời (Tập 1) – Những Câu Chuyện Nhân Quả Có Thật Ngay Trong Đời Này'
+      duration: 'Video Truyện'
+      video_url: 'https://www.youtube.com/watch?v=rXbPRWdLpOI'
+      read_url: '/nhan-qua/bao-ung-hien-doi-tuyen-tap'
+      read_label: '🎧📖 Trọn bộ 7 Tập Báo Ứng Hiện Đời'
+      intro: |
+        Không phải chuyện cổ tích xa xưa, bộ sưu tập Báo Ứng Hiện Đời do Sư Cô Hạnh Đoan biên dịch ghi lại những câu chuyện người thật việc thật trong xã hội hiện đại về luật nhân quả báo ứng.
+        Mục tiêu của video là giúp người xem nhìn thấy sợi dây liên kết rõ ràng giữa từng hành vi ứng xử hôm nay và kết quả ngày mai.
+      lesson: 'Thay đổi nhân sinh quan từ gốc: hiểu sâu nhân quả để tự nguyện lánh dữ làm lành, sống trung thực, bảo vệ sinh mạng muôn loài và tự tay kiến tạo phước lành bền vững cho gia đình.'
+    - id: 5
+      topic: 'Nhân Quả Đời Thường & Sách Nói Video'
+      title: 'Khuyên Người Niệm Phật – Những Lá Thư Tâm Huyết Gửi Bạn Đồng Tu Giữa Đời Thường'
+      duration: 'Video Pháp Âm'
+      video_url: 'https://www.youtube.com/watch?v=X3ers6D3brA'
+      read_url: '/phat-giao/khuyen-nguoi-niem-phat'
+      read_label: '📖 Đọc 74 Lá Thư Khuyên Người Niệm Phật'
+      intro: |
+        Qua những bức thư chân tình giản dị của Cư Sĩ Diệu Âm Minh Trị gửi cho từng người con, người bạn đang gặp trắc trở gia đạo, bệnh tật hay lo toan mưu sinh, Phật pháp hiện lên gần gũi như lời trò chuyện ấm áp bên tách trà.
+        Video định hướng cách giữ tâm bình an và niệm Phật vững chãi ngay giữa công việc đời thường.
+      lesson: 'Nhắc nhở mỗi chúng ta biết buông bớt gánh nặng hơn thua, lấy sự nhẫn nhục, bao dung và câu Phật hiệu A Di Đà làm điểm tựa bình yên vượt qua mọi thử thách trong cuộc sống.'
