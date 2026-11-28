@@ -9,23 +9,31 @@
   // =========================================================================
   // 1. MOBILE MENU
   // =========================================================================
+  var mobileMenuEscBound = false;
   function initMobileMenu() {
     var burger = document.getElementById('burger');
     if (!burger) return;
 
-    // Close menu when pressing Escape key
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape' && burger.checked) {
-        burger.checked = false;
-      }
-    });
+    // Close menu when pressing Escape key (bind once on document)
+    if (!mobileMenuEscBound) {
+      mobileMenuEscBound = true;
+      document.addEventListener('keydown', function(e) {
+        var b = document.getElementById('burger');
+        if (e.key === 'Escape' && b && b.checked) {
+          b.checked = false;
+        }
+      });
+    }
 
     // Close menu when clicking any navigation link (leaf link or head link to direct page)
     var navLinks = document.querySelectorAll('.mainnavigation a');
     for (var i = 0; i < navLinks.length; i++) {
+      if (navLinks[i].getAttribute('data-tm-nav-bound') === '1') continue;
+      navLinks[i].setAttribute('data-tm-nav-bound', '1');
       navLinks[i].addEventListener('click', function() {
-        if (window.innerWidth <= 800) {
-          burger.checked = false;
+        var b = document.getElementById('burger');
+        if (b && window.innerWidth <= 800) {
+          b.checked = false;
         }
       });
     }
@@ -436,21 +444,24 @@
       applyTableMode(wrapper, defaultMode);
     }
 
-    // Event delegation for switching table mode
-    document.addEventListener('click', function(e) {
-      var modeBtn = e.target.closest('.tm-table-mode-btn');
-      if (!modeBtn) return;
-      e.preventDefault();
-      var targetMode = modeBtn.getAttribute('data-table-mode') || 'cards';
-      try {
-        localStorage.setItem(STORAGE_KEY_TABLE_MODE, targetMode);
-      } catch(err) {}
+    // Event delegation for switching table mode (bind once)
+    if (!window._tmTableModeDelegationBound) {
+      window._tmTableModeDelegationBound = true;
+      document.addEventListener('click', function(e) {
+        var modeBtn = e.target.closest('.tm-table-mode-btn');
+        if (!modeBtn) return;
+        e.preventDefault();
+        var targetMode = modeBtn.getAttribute('data-table-mode') || 'cards';
+        try {
+          localStorage.setItem(STORAGE_KEY_TABLE_MODE, targetMode);
+        } catch(err) {}
 
-      var allWrappers = document.querySelectorAll('.tm-table[data-tm-responsive-ready="true"]');
-      for (var i = 0; i < allWrappers.length; i++) {
-        applyTableMode(allWrappers[i], targetMode);
-      }
-    });
+        var allWrappers = document.querySelectorAll('.tm-table[data-tm-responsive-ready="true"]');
+        for (var i = 0; i < allWrappers.length; i++) {
+          applyTableMode(allWrappers[i], targetMode);
+        }
+      });
+    }
     window.initResponsiveTables = initResponsiveTables;
   }
 
@@ -853,8 +864,36 @@
     }
   }
 
+  function rebindExpander() {
+    var expandButton = document.getElementById('expander');
+    if (expandButton && expandButton.getAttribute('data-tm-exp-bound') !== '1') {
+      expandButton.setAttribute('data-tm-exp-bound', '1');
+      expandButton.addEventListener('click', function() {
+        var contentnav = document.getElementById('contentnav');
+        if (!contentnav) return;
+        contentnav.classList.toggle('collapse');
+        expandButton.innerHTML = contentnav.classList.contains('collapse')
+          ? (expandButton.dataset.expandlabel || '')
+          : (expandButton.dataset.collapselabel || '');
+      });
+    }
+  }
+
+  window.tmShowToast = showReaderToast;
+  window.tmReinitThemePage = function() {
+    initMobileMenu();
+    rebindExpander();
+    initCollapsibleArticleGuides();
+    applyScale(getStoredScale(), false);
+    syncAccessibilityStates();
+    initResponsiveTables();
+    initDropcapNotes();
+    initSmartContentFocus();
+  };
+
   function initAll() {
     initMobileMenu();
+    rebindExpander();
     initNavigationAccordion();
     initCollapsibleArticleGuides();
     initFontSizeController();

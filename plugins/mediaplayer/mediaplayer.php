@@ -44,8 +44,8 @@ class mediaplayer extends Plugin
             $this->handleGalleryDownload((string)$_GET['url']);
         }
         if (!$this->adminroute || $this->editorroute) {
-            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261123a');
-            $this->addJS('/mediaplayer/js/mediaplayer.js?20261123a');
+            $this->addCSS('/mediaplayer/css/mediaplayer.css?20261128a');
+            $this->addJS('/mediaplayer/js/mediaplayer.js?20261128a');
         }
     }
 
@@ -755,13 +755,14 @@ class mediaplayer extends Plugin
 
         # YouTube watch / short / embed URL (with optional list= playlist)
         if (preg_match('%(?:youtube(?:-nocookie)?\.com/(?:[^/]+/.+/|(?:v|e(?:mbed)?)/|.*[?&]v=)|youtu\.be/)([^"&?/ ]{11})%i', $url, $match)) {
-            $embedUrl = 'https://www.youtube.com/embed/' . $match[1];
+            $embedUrl = 'https://www.youtube.com/embed/' . $match[1] . '?enablejsapi=1&playsinline=1&rel=0';
             if ($playlistId !== '') {
-                $embedUrl .= '?list=' . rawurlencode($playlistId) . '&enablejsapi=1';
+                $embedUrl .= '&list=' . rawurlencode($playlistId);
             }
             return [
                 'type'        => 'iframe',
                 'url'         => $embedUrl,
+                'videoId'     => $match[1],
                 'hasPlaylist' => ($playlistId !== ''),
                 'playlistUrl' => $playlistId !== '' ? 'https://www.youtube.com/playlist?list=' . rawurlencode($playlistId) : '',
             ];
@@ -771,7 +772,8 @@ class mediaplayer extends Plugin
         if ($playlistId !== '' && stripos($url, 'youtube.com') !== false) {
             return [
                 'type'        => 'iframe',
-                'url'         => 'https://www.youtube.com/embed/videoseries?list=' . rawurlencode($playlistId) . '&enablejsapi=1',
+                'url'         => 'https://www.youtube.com/embed/videoseries?list=' . rawurlencode($playlistId) . '&enablejsapi=1&playsinline=1&rel=0',
+                'videoId'     => 'pl_' . $playlistId,
                 'hasPlaylist' => true,
                 'playlistUrl' => 'https://www.youtube.com/playlist?list=' . rawurlencode($playlistId),
             ];
@@ -819,18 +821,26 @@ class mediaplayer extends Plugin
                  . '</div>';
         }
 
-        $playlistBar = '';
+        $ytIdAttr = !empty($normalized['videoId']) ? (' data-yt-id="' . htmlspecialchars($normalized['videoId'], ENT_QUOTES, 'UTF-8') . '"') : '';
+        $isYt     = str_contains($normalized['url'], 'youtube.com/embed/');
+
+        $actionButtons = '';
         if (!empty($normalized['hasPlaylist'])) {
             $safePlaylistUrl = htmlspecialchars($normalized['playlistUrl'], ENT_QUOTES, 'UTF-8');
-            $playlistBar = '<div class="tm-abs-controls-bar" style="margin-top:6px; justify-content:center; gap:6px;">'
-                         . '  <button type="button" class="tm-abs-btn" onclick="var f=this.closest(\'.tm-embed-container\').querySelector(\'iframe\'); if(f&&f.contentWindow){f.contentWindow.postMessage(JSON.stringify({event:\'command\',func:\'previousVideo\',args:[]}),\'*\');}" title="Chuyển video trước trong danh sách phát">⏮ Video trước</button>'
-                         . '  <button type="button" class="tm-abs-btn" onclick="var f=this.closest(\'.tm-embed-container\').querySelector(\'iframe\'); if(f&&f.contentWindow){f.contentWindow.postMessage(JSON.stringify({event:\'command\',func:\'nextVideo\',args:[]}),\'*\');}" title="Chuyển video tiếp theo trong danh sách phát">Video tiếp ⏭</button>'
-                         . '  <a href="' . $safePlaylistUrl . '" target="_blank" rel="noopener" class="tm-abs-btn" style="text-decoration:none;" title="Mở toàn bộ danh sách phát trên YouTube">📋 Mở danh sách phát</a>'
-                         . '</div>';
+            $actionButtons .= '  <button type="button" class="tm-abs-btn" onclick="var f=this.closest(\'.tm-embed-container\').querySelector(\'iframe\'); if(f&&f.contentWindow){f.contentWindow.postMessage(JSON.stringify({event:\'command\',func:\'previousVideo\',args:[]}),\'*\');}" title="Chuyển video trước trong danh sách phát">⏮ Video trước</button>'
+                           .  '  <button type="button" class="tm-abs-btn" onclick="var f=this.closest(\'.tm-embed-container\').querySelector(\'iframe\'); if(f&&f.contentWindow){f.contentWindow.postMessage(JSON.stringify({event:\'command\',func:\'nextVideo\',args:[]}),\'*\');}" title="Chuyển video tiếp theo trong danh sách phát">Video tiếp ⏭</button>'
+                           .  '  <a href="' . $safePlaylistUrl . '" target="_blank" rel="noopener" class="tm-abs-btn" style="text-decoration:none;" title="Mở toàn bộ danh sách phát trên YouTube">📋 Mở danh sách phát</a>';
+        }
+        if ($isYt) {
+            $actionButtons .= '  <button type="button" class="tm-abs-btn tm-btn-pip-video" onclick="window.tmDockEmbedVideo(this)" title="Thu nhỏ video xuống góc màn hình để vừa xem vừa đọc bài khác">⬇ Xem nền (Thu nhỏ)</button>';
         }
 
-        return '<div class="tm-embed-container">'
-             . '<iframe src="' . $safeUrl . '" title="' . $title . '" style="width:100%; height:' . $height . '; border:none; border-radius:10px;" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>'
+        $playlistBar = $actionButtons !== ''
+            ? ('<div class="tm-abs-controls-bar" style="margin-top:6px; justify-content:center; gap:6px; flex-wrap:wrap;">' . $actionButtons . '</div>')
+            : '';
+
+        return '<div class="tm-embed-container" data-embed-title="' . $title . '"' . $ytIdAttr . '>'
+             . '<iframe src="' . $safeUrl . '" title="' . $title . '" style="width:100%; height:' . $height . '; border:none; border-radius:10px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe>'
              . $playlistBar
              . '</div>';
     }

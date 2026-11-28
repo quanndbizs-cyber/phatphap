@@ -79,10 +79,10 @@
 
 		{% block stylesheets %}
     
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tachyons.min.css?20261123a" />
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/style.css?20261123a" />
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tinhdo.css?20261123a" />
-			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/search.css?20261123a" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tachyons.min.css?20261128a" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/style.css?20261128a" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/tinhdo.css?20261128a" />
+			<link rel="stylesheet" href="{{ base_url }}/themes/tinhdo/css/search.css?20261128a" />
 			
 			<style>
 
@@ -278,7 +278,9 @@
 
 		{% include 'partials/tinhdoBanner.twig' %}
 
+		<div id="tm-pjax-stage">
 		{% block content %}{% endblock %}
+		</div>
 
 		{# Floating font size & reading controls for readers (auto-collapses to right edge) #}
 		<aside id="tm-floating-font-bar" class="tm-floating-font-bar tm-dock-collapsed" aria-label="Điều chỉnh đọc kinh & sách">
@@ -339,8 +341,8 @@
 				</script>
 			{% endif %}
 
-			<script src="{{ base_url }}/themes/tinhdo/js/script.js?20261123a"></script>
-			<script src="{{ base_url }}/themes/tinhdo/js/search.js?20261123a"></script>
+			<script src="{{ base_url }}/themes/tinhdo/js/script.js?20261128a"></script>
+			<script src="{{ base_url }}/themes/tinhdo/js/search.js?20261128a"></script>
 			{{ assets.renderJS() }}
 		
 		{% endblock %}
